@@ -81,6 +81,12 @@ types.
 - When adding a new heading anywhere in a `lessonNN-*.rst` file, use a title
   line followed by 80 `=` characters (or 80 `#` for the document title) —
   don't match the underline length to the text.
+- On the rare occasion a French title itself exceeds 80 characters (seen
+  first with `worksheet02-solutions-fr.rst`'s title), the fixed 80-char
+  underline is no longer long enough and docutils raises "Title underline
+  too short". Don't shorten the title to fit — extend that one underline
+  past 80 (e.g. to 90) instead, and leave the 80-char default everywhere
+  else. Verify with the docutils command below either way.
 
 ## RST gotchas learned from lesson 1
 
@@ -106,6 +112,16 @@ types.
 ## Environment
 
 `gnuplot` is installed system-wide (`gnuplot --version` to check).
+
+For any figure built from a constructed/schematic expression rather than a
+plain transcription of the source's equation (e.g. a hand-drawn-style
+sketch built to hit a target turning-point/x-intercept count), sample the
+function across the full `xrange` before fixing `yrange` — e.g.
+`gnuplot -e 'f(x)=...; do for [i=...] { x=i/10.0; print x, f(x) }' | sort -k2 -n`.
+A local extremum sitting just past the chosen `yrange` will silently clip
+without any error, and it's easy to miss on a quick visual check (found in
+`worksheet02-image09.gp`, where a local max at x≈-2.5 peaked at y≈12.15
+against a `yrange` topping out at 10).
 
 ## Per-lesson / per-worksheet workflow
 
