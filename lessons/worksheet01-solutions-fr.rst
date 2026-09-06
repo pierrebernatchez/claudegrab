@@ -109,11 +109,9 @@ f\) :math:`y = x^{-3}` --- Non
 
 **4\)** Associez chaque fonction à son comportement à l'infini
 
-:math:`y = -x^3`, :math:`y = \dfrac{3}{7}x^2`, :math:`y = 5x`
-
-:math:`y = 4x^5`, :math:`y = -x^6`, :math:`y = -0.1x^{11}`
-
-:math:`y = 2x^4`, :math:`y = -9x^{10}`
+- :math:`y = -x^3`, :math:`y = \dfrac{3}{7}x^2`, :math:`y = 5x`
+- :math:`y = 4x^5`, :math:`y = -x^6`, :math:`y = -0.1x^{11}`
+- :math:`y = 2x^4`, :math:`y = -9x^{10}`
 
 .. list-table::
    :widths: 30 70

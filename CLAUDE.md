@@ -108,6 +108,18 @@ types.
   ```
   Any `SEVERE`/`Unexpected section title` output, or unexpected enumerator
   renumbering when spot-checking a rendered PDF, means something needs escaping.
+- **A line starting at column 0 with `:math:` (or any other inline role,
+  e.g. `:sup:`) gets misread as a field-list marker by the rinoh rendering
+  pipeline**, so the expression silently fails to render. This is a rinoh
+  quirk, not a docutils validation error, so `publish_doctree` won't catch
+  it — check with `grep -rn '^:math:' lessons/*.rst` (should return
+  nothing) before treating a document as done. Most cases are just a line
+  wrapping at the wrong point (fix: shift a word up from the previous
+  line so `:math:` isn't first); a paragraph that's genuinely *meant* to
+  start with a bare `:math:` expression (e.g. a list of equations, one
+  per line) needs restructuring instead — either convert to a bullet list
+  (`- :math:...`, since `-` doesn't trigger the ambiguity) or add a short
+  lead-in phrase before the expression.
 
 ## Environment
 

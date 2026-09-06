@@ -332,8 +332,8 @@ b\)
      -
 
 **7\)** By analyzing the impact of growing economic conditions, a
-demographer establishes that the predicted population, :math:`P`, of a town
-:math:`t` years from now can be modelled by the function
+demographer establishes that the predicted population, :math:`P`, of a
+town :math:`t` years from now can be modelled by the function
 
 .. math::
 

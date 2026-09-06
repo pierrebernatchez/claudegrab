@@ -277,8 +277,8 @@ a\)
      - 14
      - 6
 
-The third differences are constant (6), so the degree is **3**, and
-:math:`6 = a \cdot 3! = 6a`, so :math:`a =` **1**.
+The third differences are constant (6), so the degree is **3**,
+and :math:`6 = a \cdot 3! = 6a`, so :math:`a =` **1**.
 
 b\)
 
@@ -341,12 +341,12 @@ b\)
      - -54
      - -24
 
-The fourth differences are constant (-24), so the degree is **4**, and
-:math:`-24 = a \cdot 4! = 24a`, so :math:`a =` **-1**.
+The fourth differences are constant (-24), so the degree is **4**,
+and :math:`-24 = a \cdot 4! = 24a`, so :math:`a =` **-1**.
 
 **7\)** By analyzing the impact of growing economic conditions, a
-demographer establishes that the predicted population, :math:`P`, of a town
-:math:`t` years from now can be modelled by the function
+demographer establishes that the predicted population, :math:`P`, of a
+town :math:`t` years from now can be modelled by the function
 
 .. math::
 

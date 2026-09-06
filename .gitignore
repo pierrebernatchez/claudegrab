@@ -5,6 +5,9 @@ s3cfg
 # intermediate / generated fiiles
 #
 *.incl
+*.errlog
+*.stylelog
+output.rtc
 .claude/settings.local.json
 lessons-pdfs/*.pdf
 dist/

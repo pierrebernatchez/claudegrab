@@ -367,11 +367,9 @@ integer, the :math:`n^{th}` differences...
 
 Note:
 
-:math:`n!` is read as :math:`n` factorial.
-
-:math:`n! = n \times (n-1) \times (n-2) \times \ldots \times 2 \times 1`
-
-:math:`5! = 5 \times 4 \times 3 \times 2 \times 1 = 120`
+- :math:`n!` is read as :math:`n` factorial.
+- :math:`n! = n \times (n-1) \times (n-2) \times \ldots \times 2 \times 1`
+- :math:`5! = 5 \times 4 \times 3 \times 2 \times 1 = 120`
 
 **Example 4:** The table of values represents a polynomial function. Use
 finite differences to determine
@@ -437,8 +435,8 @@ a\) The third differences are constant, so the degree is **3**.
 b\) The constant differences (6) are positive, so the leading coefficient
 is **positive**.
 
-c\) Constant third differences :math:`= a \cdot 3! = 6a = 6`, so
-:math:`a =` **1**.
+c\) Constant third differences :math:`= a \cdot 3! = 6a = 6`,
+so :math:`a =` **1**.
 
 **Example 5:** For the function :math:`2x^4 - 4x^2 + x + 1` what is the
 value of the constant finite differences?

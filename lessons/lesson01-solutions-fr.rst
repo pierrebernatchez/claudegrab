@@ -64,12 +64,12 @@ La fonction :math:`y = \dfrac{1}{x+3}` a deux asymptotes :
 
 **Asymptote verticale :** La division par zéro n'est pas définie. Par
 conséquent, l'expression au dénominateur de la fonction ne peut pas être
-nulle. Donc :math:`x \neq -3`. C'est pourquoi la droite verticale
-:math:`x = -3` est une asymptote de cette fonction.
+nulle. Donc :math:`x \neq -3`. C'est pourquoi la droite
+verticale :math:`x = -3` est une asymptote de cette fonction.
 
 **Asymptote horizontale :** Pour l'image, il ne peut jamais y avoir de
-situation où le résultat de la division est nul. Par conséquent, la droite
-:math:`y = 0` est une asymptote horizontale. Pour toutes les fonctions où le
+situation où le résultat de la division est nul. Par conséquent, la
+droite :math:`y = 0` est une asymptote horizontale. Pour toutes les fonctions où le
 dénominateur est de degré supérieur au numérateur, il y aura une asymptote
 horizontale en :math:`y = 0`.
 
@@ -314,8 +314,8 @@ Symétrie par rapport à un point
 
 Un graphique possède une symétrie par rapport à un point :math:`(a, b)` si
 chaque partie du graphique d'un côté de :math:`(a, b)` peut être tournée de
-180° pour coïncider avec la partie du graphique de l'autre côté de
-:math:`(a, b)`.
+180° pour coïncider avec la partie du graphique de l'autre côté
+de :math:`(a, b)`.
 
 .. image:: ../images/lesson01-image21.png
    :alt: Symétrie par rapport à un point, une courbe en S avec symétrie par rapport à (a, b)
@@ -326,9 +326,8 @@ par rapport à l'origine :math:`(0, 0)`.
 **Exemple 3 :** Inscrivez chaque fonction dans la rangée appropriée de la
 deuxième colonne du tableau. Justifiez vos choix.
 
-:math:`y = 2x`, :math:`y = 5x^6`, :math:`y = -3x^2`, :math:`y = x^7`
-
-:math:`y = -\dfrac{2}{5}x^9`, :math:`y = -4x^5`, :math:`y = x^{10}`, :math:`y = -0.5x^8`
+- :math:`y = 2x`, :math:`y = 5x^6`, :math:`y = -3x^2`, :math:`y = x^7`
+- :math:`y = -\dfrac{2}{5}x^9`, :math:`y = -4x^5`, :math:`y = x^{10}`, :math:`y = -0.5x^8`
 
 .. list-table::
    :widths: 20 40 40

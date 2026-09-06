@@ -364,8 +364,8 @@ En général : le nombre maximal possible de points tournants est un de
 moins que le degré, et le nombre maximal possible de zéros est égal au
 degré. Les extremums absolus n'existent que pour les fonctions de degré
 pair, puisque ce sont les seules à être bornées dans une direction (les
-fonctions de degré impair s'étendent toujours vers :math:`+\infty` et vers
-:math:`-\infty`).
+fonctions de degré impair s'étendent toujours vers :math:`+\infty` et
+vers :math:`-\infty`).
 
 Différences finies
 ================================================================================
@@ -380,11 +380,9 @@ entier positif, les différences :math:`n`-ièmes...
 
 Remarque :
 
-:math:`n!` se lit « :math:`n` factorielle ».
-
-:math:`n! = n \times (n-1) \times (n-2) \times \ldots \times 2 \times 1`
-
-:math:`5! = 5 \times 4 \times 3 \times 2 \times 1 = 120`
+- :math:`n!` se lit « :math:`n` factorielle ».
+- :math:`n! = n \times (n-1) \times (n-2) \times \ldots \times 2 \times 1`
+- :math:`5! = 5 \times 4 \times 3 \times 2 \times 1 = 120`
 
 **Exemple 4 :** Le tableau de valeurs représente une fonction polynomiale.
 Utilisez les différences finies pour déterminer
@@ -450,8 +448,8 @@ a\) Les troisièmes différences sont constantes, donc le degré est **3**.
 b\) Les différences constantes (6) sont positives, donc le coefficient
 dominant est **positif**.
 
-c\) Différences troisièmes constantes :math:`= a \cdot 3! = 6a = 6`, donc
-:math:`a =` **1**.
+c\) Différences troisièmes constantes :math:`= a \cdot 3! = 6a = 6`,
+donc :math:`a =` **1**.
 
 **Exemple 5 :** Pour la fonction :math:`2x^4 - 4x^2 + x + 1`, quelle est
 la valeur des différences finies constantes ?

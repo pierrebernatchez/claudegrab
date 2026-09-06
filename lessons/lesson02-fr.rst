@@ -351,11 +351,9 @@ entier positif, les différences :math:`n`-ièmes...
 
 Remarque :
 
-:math:`n!` se lit « :math:`n` factorielle ».
-
-:math:`n! = n \times (n-1) \times (n-2) \times \ldots \times 2 \times 1`
-
-:math:`5! = 5 \times 4 \times 3 \times 2 \times 1 = 120`
+- :math:`n!` se lit « :math:`n` factorielle ».
+- :math:`n! = n \times (n-1) \times (n-2) \times \ldots \times 2 \times 1`
+- :math:`5! = 5 \times 4 \times 3 \times 2 \times 1 = 120`
 
 **Exemple 4 :** Le tableau de valeurs représente une fonction polynomiale.
 Utilisez les différences finies pour déterminer
