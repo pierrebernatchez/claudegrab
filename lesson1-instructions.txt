@@ -1,0 +1,25 @@
+The uploaded .pdf is english language math lesson content.
+It contains 23 images of plots plus a number line.
+The document header box inside asterisks can be removed.
+
+What I need to do is to reproduce the document in english in '.rst' markup format.
+Each of the 23 plots as well as the number line need to be expressed
+as a gnuplot scripts which generate 24 image files.
+The image files will then be accessed from within the .rst content to make up
+the duplicate of the document.
+
+In another task later I intend to translate the full .rst document to french.
+
+Name the ouput document "lesson1-en.rst", each plot script as "imageNN.gp", where
+NN is a sequence number starting from 01.  The images they produce will emit will be named
+correspondingly imageNN.png.
+
+Because of likelyhood of running out of session time, I wish to save
+individual plot scripts for each image individually, as and when they
+are completed, as well as context .md file that can be used to restart
+from that point in a new session.
+
+My aim is that upon running out of sesssion time, I will have some of the
+.gp scripts on hand to try out as I wait for the next session.
+
+Please start by commenting on the feasibility of this task so that I can confirm that you go ahead with it.

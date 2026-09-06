@@ -4,46 +4,15 @@ s3cfg
 #
 # intermediate / generated fiiles
 #
-*.pdf
 *.incl
+.claude/settings.local.json
+lessons-pdfs/*.pdf
 dist/
 dist/*
 __pycache__/
 __pycache__/*
-lang-version.en/
-lang-version.en/*
-lang-version.fr/
-lang-version.fr/*
-lang-version.es/
-lang-version.es/*
 build/
 build/*
-# generated files we dont want to include
-article2pdf
-qarticle2pdf
-
-# init.files (used to initialize new sites)
-# Init.files is source used to initialize site directories
-# so it is not ignored
-# xx init.files/content/favicon.ico
-# xx init.files/content/images/
-# xx init.files/content/site-only/
-# xx init.files/content/canon/
-# xx init.files/content/pages/
-# xx init.files/content/security/
-# xx init.files/content/artwork/
-# xx init.files/content/migrations/
-# xx init.files/content/research/
-# xx init.files/content/troubleshoot/
-# xx 
-# xx init.files/content/images/*
-# xx init.files/content/site-only/*
-# xx init.files/content/canon/*
-# xx init.files/content/pages/*
-# xx init.files/content/security/*
-# xx init.files/content/artwork/*
-# xx init.files/content/migrations/*
-# xx init.files/content/research/*
-# xx init.files/content/troubleshoot/*
-# xx 
+# images generated from lessons-gp scripts so ignore them
+images/*.png
 
