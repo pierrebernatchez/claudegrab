@@ -15,6 +15,8 @@ Leçon sur les caractéristiques des fonctions polynomiales
 .. |---| unicode:: U+02014
   :trim:
 
+.. |nbsp| unicode:: 0xA0
+
 .. footer:: Droits d´auteur |copy| 2026 Annie Bernatchez |---| Tous droits reservés.
 
 Ce document a été composé et mis en forme par Annie Bernatchez.
@@ -82,57 +84,57 @@ donnés :
    * - :math:`f(x) = x^2 + 4x - 5`
 
        .. image:: ../images/lesson02-image03.png
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`f(x) = 3x^4 - 4x^3 - 4x^2 + 5x + 5`
 
        .. image:: ../images/lesson02-image04.png
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`f(x) = x^3 - 2x`
 
        .. image:: ../images/lesson02-image05.png
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`f(x) = -x^4 - 2x^3 + x^2 + 2x`
 
        .. image:: ../images/lesson02-image06.png
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`f(x) = 2x^6 - 12x^4 + 18x^2 + x - 10`
 
        .. image:: ../images/lesson02-image07.png
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`f(x) = 2x^5 + 7x^4 - 3x^3 - 18x^2 + 5`
 
        .. image:: ../images/lesson02-image08.png
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **Résumé des observations :**
 
@@ -198,30 +200,30 @@ l'infini*
    * - :math:`f(x) = 5x^5 + 5x^4 - 2x^3 + 4x^2 - 3x`
 
        .. image:: ../images/lesson02-image09.png
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`f(x) = -2x^3 + 4x^2 - 3x - 1`
 
        .. image:: ../images/lesson02-image10.png
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`f(x) = x^4 + 2x^3 - 3x - 1`
 
        .. image:: ../images/lesson02-image11.png
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **Exemple 1 :** Décrivez le comportement à l'infini de chaque fonction, le
 nombre possible de points tournants, et le nombre possible de zéros.
@@ -233,7 +235,7 @@ la fonction
    :header-rows: 0
 
    * - a\) :math:`f(x) = -3x^5 + 4x^3 - 8x^2 + 7x - 5`
-     -
+     - |nbsp|
 
 Graphiques possibles de fonctions polynomiales de degré 5 à coefficient
 dominant négatif :
@@ -253,7 +255,7 @@ dominant négatif :
    :header-rows: 0
 
    * - b\) :math:`g(x) = 2x^4 + x^2 + 2`
-     -
+     - |nbsp|
 
 Graphiques possibles de fonctions polynomiales de degré 4 à coefficient
 dominant positif :
@@ -277,20 +279,20 @@ dominant positif :
      - Nombre possible de zéros
      - Nombre possible de points tournants
    * - 1
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - 2
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - 3
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - 4
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - 5
-     -
-     -
+     - |nbsp|
+     - |nbsp|
 
 *Remarque : Les fonctions de degré impair doivent avoir un nombre pair de
 points tournants.*
@@ -380,39 +382,39 @@ c\) la valeur du coefficient dominant
      - S.O.
    * - -2
      - -12
-     -
+     - |nbsp|
      - S.O.
      - S.O.
    * - -1
      - -2
-     -
-     -
+     - |nbsp|
+     - |nbsp|
      - S.O.
    * - 0
      - 0
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 1
      - 0
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 2
      - 4
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 3
      - 18
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 4
      - 48
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 a\)
 

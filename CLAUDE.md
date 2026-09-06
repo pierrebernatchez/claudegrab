@@ -120,6 +120,23 @@ types.
   per line) needs restructuring instead — either convert to a bullet list
   (`- :math:...`, since `-` doesn't trigger the ambiguity) or add a short
   lead-in phrase before the expression.
+- **A table cell whose entire content is a bare `-` or `+` gets misread as
+  an empty bullet list** (`-`, `*`, and `+` are all valid RST bullet
+  markers), rendering as a lone bullet dot instead of the actual
+  character. Found in `iii)` sign-of-`f(x)` tables. Fix: wrap it as an
+  inline literal, e.g. ``` ``-`` ``` / ``` ``+`` ```, or spell it out
+  (`Positive`/`Negative`) if the cell has room.
+- **A genuinely empty table cell (nothing at all) can collapse to
+  near-zero height in the rinoh pipeline**, since row height is driven by
+  its tallest cell's line box and an empty cell may not get one — this
+  makes blank "fill this in" tables in the student-facing `-en`/`-fr`
+  `.rst` render much smaller than the same table in the `-solutions`
+  version, too small to write an answer into. Fix: put a non-breaking
+  space placeholder in every blank cell instead of leaving it empty, e.g.
+  `- |nbsp|` (with `.. |nbsp| unicode:: 0xA0` defined near the top of the
+  file, alongside `|copy|`/`|---|`). Apply this from the start for any
+  new lesson/worksheet's blank-answer tables — don't wait for a
+  retrofit like lesson01–04 needed on 2026-09-06.
 
 ## Environment
 

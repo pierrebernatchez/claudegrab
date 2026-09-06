@@ -15,6 +15,8 @@ Factored Form Polynomial Functions Worksheet
 .. |---| unicode:: U+02014
   :trim:
 
+.. |nbsp| unicode:: 0xA0
+
 .. footer:: Copyright |copy| 2026 Annie Bernatchez |---| All rights reserved.
 
 This document was composed and formatted by Annie Bernatchez.
@@ -61,25 +63,25 @@ D\) :math:`f(x) = x(x+1)(x-3)(x-5)`
      - End Behaviour
      - :math:`x`-intercepts
    * - :math:`f(x) = (x-4)(x+3)(2x-1)`
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`g(x) = -2(x+2)(x-2)(1+x)(x-1)`
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`h(x) = (3x+2)^2(x-4)(x+1)(2x-3)`
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`p(x) = -(x+5)^3(x-5)^3`
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **3\)** For each graph, state...
 
@@ -110,15 +112,15 @@ iii\)
    :header-rows: 0
 
    * - Interval
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - Sign
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 b\)
 
@@ -140,11 +142,11 @@ iii\)
    :header-rows: 0
 
    * - Interval
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - Sign
-     -
-     -
+     - |nbsp|
+     - |nbsp|
 
 c\)
 
@@ -166,11 +168,11 @@ iii\)
    :header-rows: 0
 
    * - Interval
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - Sign
-     -
-     -
+     - |nbsp|
+     - |nbsp|
 
 d\)
 
@@ -192,11 +194,11 @@ iii\)
    :header-rows: 0
 
    * - Interval
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - Sign
-     -
-     -
+     - |nbsp|
+     - |nbsp|
 
 **4\)** For each function, complete the chart and sketch a possible
 graph of the function, labelling key points.
@@ -212,11 +214,11 @@ a\) :math:`f(x) = -2(x-3)(x+2)(4x-3)`
      - End Behaviour
      - :math:`x`-intercepts
      - :math:`y`-intercept
-   * -
-     -
-     -
-     -
-     -
+   * - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 .. image:: ../images/worksheet03-image09.png
    :alt: blank grid for sketching f(x) = -2(x-3)(x+2)(4x-3)
@@ -232,11 +234,11 @@ b\) :math:`g(x) = (x-1)(x+3)(1+x)(3x-9)`
      - End Behaviour
      - :math:`x`-intercepts
      - :math:`y`-intercept
-   * -
-     -
-     -
-     -
-     -
+   * - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 .. image:: ../images/worksheet03-image11.png
    :alt: blank grid for sketching g(x) = (x-1)(x+3)(1+x)(3x-9)
@@ -252,11 +254,11 @@ c\) :math:`h(x) = -(x+4)^2(x-1)^2(x+2)(2x-3)`
      - End Behaviour
      - :math:`x`-intercepts
      - :math:`y`-intercept
-   * -
-     -
-     -
-     -
-     -
+   * - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 .. image:: ../images/worksheet03-image13.png
    :alt: blank grid for sketching h(x) = -(x+4)^2(x-1)^2(x+2)(2x-3)
@@ -272,11 +274,11 @@ d\) :math:`p(x) = 3(x+6)(x-5)^2(3x-2)^3`
      - End Behaviour
      - :math:`x`-intercepts
      - :math:`y`-intercept
-   * -
-     -
-     -
-     -
-     -
+   * - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 .. image:: ../images/worksheet03-image15.png
    :alt: blank grid for sketching p(x) = 3(x+6)(x-5)^2(3x-2)^3

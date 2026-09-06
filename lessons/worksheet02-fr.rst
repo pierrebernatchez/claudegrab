@@ -15,6 +15,8 @@ Fiche d'exercices sur les caractéristiques des fonctions polynomiales
 .. |---| unicode:: U+02014
   :trim:
 
+.. |nbsp| unicode:: 0xA0
+
 .. footer:: Droits d´auteur |copy| 2026 Annie Bernatchez |---| Tous droits reservés.
 
 Ce document a été composé et mis en forme par Annie Bernatchez.
@@ -36,45 +38,45 @@ Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`
      - Nombre de zéros
      - Degré minimal possible
    * - .. image:: ../images/worksheet02-image01.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image02.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image03.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image04.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image05.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **2\)** Complétez le tableau suivant
 
@@ -91,37 +93,37 @@ Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`
      - Nombre de zéros
      - Degré minimal possible
    * - .. image:: ../images/worksheet02-image06.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image07.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image08.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image09.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **3\)** Complétez le tableau suivant
 
@@ -137,33 +139,33 @@ Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`
      - Nombre possible de points tournants
      - Nombre possible de zéros
    * - :math:`f(x) = -4x^4 + 3x^2 - 15x + 5`
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`g(x) = 2x^5 - 4x^3 + 10x^2 - 13x + 8`
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`p(x) = 4 - 5x + 4x^2 - 3x^3`
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`h(x) = 2x(x-5)(3x+2)(4x-3)`
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **4\)** Utilisez le comportement à l'infini, les points tournants et les
 zéros pour associer chaque équation au graphique le plus probable. Écrivez
@@ -236,39 +238,39 @@ a\)
      - S.O.
    * - -2
      - -16
-     -
+     - |nbsp|
      - S.O.
      - S.O.
    * - -1
      - -3
-     -
-     -
+     - |nbsp|
+     - |nbsp|
      - S.O.
    * - 0
      - 0
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 1
      - -1
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 2
      - 0
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 3
      - 9
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 4
      - 32
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 b\)
 
@@ -290,46 +292,46 @@ b\)
      - S.O.
    * - -1
      - 12
-     -
+     - |nbsp|
      - S.O.
      - S.O.
      - S.O.
    * - 0
      - 20
-     -
-     -
+     - |nbsp|
+     - |nbsp|
      - S.O.
      - S.O.
    * - 1
      - 26
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
      - S.O.
    * - 2
      - 48
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 3
      - 80
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 4
      - 92
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 5
      - 30
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **7\)** En analysant l'impact d'une conjoncture économique en croissance,
 une démographe établit que la population prévue, :math:`P`, d'une ville

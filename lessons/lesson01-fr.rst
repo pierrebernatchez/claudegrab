@@ -15,6 +15,8 @@ Leçon sur les fonctions puissance
 .. |---| unicode:: U+02014
   :trim:
 
+.. |nbsp| unicode:: 0xA0
+
 .. footer:: Droits d´auteur |copy| 2026 Annie Bernatchez |---| Tous droits reservés.
 
 Ce document a été composé et mis en forme par Annie Bernatchez.
@@ -145,13 +147,13 @@ chaque fonction polynomiale.
    :header-rows: 0
 
    * - a\) :math:`g(x) = \sin x`
-     -
+     - |nbsp|
    * - b\) :math:`f(x) = 2x^4`
-     -
+     - |nbsp|
    * - c\) :math:`y = x^3 - 5x^2 + 6x - 8`
-     -
+     - |nbsp|
    * - d\) :math:`g(x) = 3^x`
-     -
+     - |nbsp|
 
 Notation d'intervalle
 ================================================================================
@@ -195,45 +197,45 @@ Utilisez le graphique pour compléter le tableau.
    * - :math:`y = x`
      - Linéaire
      - .. image:: ../images/lesson01-image10.png
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = x^2`
      - Quadratique
      - .. image:: ../images/lesson01-image11.png
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = x^3`
      - Cubique
      - .. image:: ../images/lesson01-image12.png
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = x^4`
      - Quartique
      - .. image:: ../images/lesson01-image13.png
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = x^5`
      - Quintique
      - .. image:: ../images/lesson01-image14.png
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = x^6`
      - Sextique
      - .. image:: ../images/lesson01-image15.png
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 Caractéristiques clés des fonctions puissance de degré PAIR
 ================================================================================
@@ -330,17 +332,17 @@ deuxième colonne du tableau. Justifiez vos choix.
      - Fonctions
      - Justifications
    * - De Q3 à Q1
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - De Q2 à Q4
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - De Q2 à Q1
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - De Q3 à Q4
-     -
-     -
+     - |nbsp|
+     - |nbsp|
 
 Exemple 4
 ================================================================================

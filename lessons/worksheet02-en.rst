@@ -15,6 +15,8 @@ Characteristics of Polynomial Functions Worksheet
 .. |---| unicode:: U+02014
   :trim:
 
+.. |nbsp| unicode:: 0xA0
+
 .. footer:: Copyright |copy| 2026 Annie Bernatchez |---| All rights reserved.
 
 This document was composed and formatted by Annie Bernatchez.
@@ -36,45 +38,45 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
      - Number of x-intercepts
      - Least Possible Degree
    * - .. image:: ../images/worksheet02-image01.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image02.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image03.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image04.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image05.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **2\)** Complete the following table
 
@@ -91,37 +93,37 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
      - Number of x-intercepts
      - Least Possible Degree
    * - .. image:: ../images/worksheet02-image06.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image07.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image08.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet02-image09.png
-     -
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **3\)** Complete the following table
 
@@ -137,33 +139,33 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
      - Possible number of turning points
      - Possible number of x-intercepts
    * - :math:`f(x) = -4x^4 + 3x^2 - 15x + 5`
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`g(x) = 2x^5 - 4x^3 + 10x^2 - 13x + 8`
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`p(x) = 4 - 5x + 4x^2 - 3x^3`
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`h(x) = 2x(x-5)(3x+2)(4x-3)`
-     -
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **4\)** Use end behaviours, turning points, and zeros to match each equation
 with the most likely graph. Write the letter of the equation beneath the
@@ -236,39 +238,39 @@ a\)
      - N/A
    * - -2
      - -16
-     -
+     - |nbsp|
      - N/A
      - N/A
    * - -1
      - -3
-     -
-     -
+     - |nbsp|
+     - |nbsp|
      - N/A
    * - 0
      - 0
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 1
      - -1
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 2
      - 0
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 3
      - 9
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 4
      - 32
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 b\)
 
@@ -290,46 +292,46 @@ b\)
      - N/A
    * - -1
      - 12
-     -
+     - |nbsp|
      - N/A
      - N/A
      - N/A
    * - 0
      - 20
-     -
-     -
+     - |nbsp|
+     - |nbsp|
      - N/A
      - N/A
    * - 1
      - 26
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
      - N/A
    * - 2
      - 48
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 3
      - 80
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 4
      - 92
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - 5
      - 30
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **7\)** By analyzing the impact of growing economic conditions, a
 demographer establishes that the predicted population, :math:`P`, of a

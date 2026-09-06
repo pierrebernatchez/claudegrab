@@ -15,6 +15,8 @@ Power Functions Lesson
 .. |---| unicode:: U+02014
   :trim:
 
+.. |nbsp| unicode:: 0xA0
+
 .. footer:: Copyright |copy| 2026 Annie Bernatchez |---| All rights reserved.
 
 This document was composed and formatted by Annie Bernatchez.
@@ -141,13 +143,13 @@ and the leading coefficient of each polynomial function.
    :header-rows: 0
 
    * - a\) :math:`g(x) = \sin x`
-     -
+     - |nbsp|
    * - b\) :math:`f(x) = 2x^4`
-     -
+     - |nbsp|
    * - c\) :math:`y = x^3 - 5x^2 + 6x - 8`
-     -
+     - |nbsp|
    * - d\) :math:`g(x) = 3^x`
-     -
+     - |nbsp|
 
 Interval Notation
 ================================================================================
@@ -191,45 +193,45 @@ graph to complete the table.
    * - :math:`y = x`
      - Linear
      - .. image:: ../images/lesson01-image10.png
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = x^2`
      - Quadratic
      - .. image:: ../images/lesson01-image11.png
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = x^3`
      - Cubic
      - .. image:: ../images/lesson01-image12.png
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = x^4`
      - Quartic
      - .. image:: ../images/lesson01-image13.png
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = x^5`
      - Quintic
      - .. image:: ../images/lesson01-image14.png
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = x^6`
      - Sextic
      - .. image:: ../images/lesson01-image15.png
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 Key Features of EVEN Degree Power Functions
 ================================================================================
@@ -325,17 +327,17 @@ column of the table. Give reasons for your choices.
      - Functions
      - Reasons
    * - Q3 to Q1
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - Q2 to Q4
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - Q2 to Q1
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - Q3 to Q4
-     -
-     -
+     - |nbsp|
+     - |nbsp|
 
 Example 4
 ================================================================================

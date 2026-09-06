@@ -15,6 +15,8 @@ Leçon sur la forme factorisée des fonctions polynomiales
 .. |---| unicode:: U+02014
   :trim:
 
+.. |nbsp| unicode:: 0xA0
+
 .. footer:: Droits d´auteur |copy| 2026 Annie Bernatchez |---| Tous droits reservés.
 
 Ce document a été composé et mis en forme par Annie Bernatchez.
@@ -66,20 +68,20 @@ ou négative (au-dessous de l'axe des :math:`x`).
    :header-rows: 0
 
    * - Intervalle
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - Point d'essai
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - Signe de :math:`f(x)`
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 f\) Qu'arrive-t-il au signe de :math:`f(x)` près de chaque zéro ?
 
@@ -115,7 +117,7 @@ Formes selon l'ordre du zéro :
    :widths: 8 30 30 32
    :header-rows: 0
 
-   * -
+   * - |nbsp|
      - .. image:: ../images/lesson03-image03.png
 
        **Ordre 2**
@@ -125,7 +127,7 @@ Formes selon l'ordre du zéro :
      - .. image:: ../images/lesson03-image05.png
 
        **Ordre 3**
-   * -
+   * - |nbsp|
      - :math:`(-2, 0)` est un zéro d'ordre 2. Par conséquent, il ne
        change pas de signe.
 
@@ -171,15 +173,15 @@ iii\)
    :header-rows: 0
 
    * - Intervalle
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - Signe de :math:`f(x)`
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 b\)
 
@@ -198,13 +200,13 @@ iii\)
    :header-rows: 0
 
    * - Intervalle
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - Signe de :math:`f(x)`
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **Exemple 2 : Analyser des équations sous forme factorisée pour esquisser des graphiques**
 
@@ -242,11 +244,11 @@ a\) :math:`f(x) = (x-1)(x+2)(x+3)`
      - Comportement à l'infini
      - Zéros
      - Ordonnée à l'origine
-   * -
-     -
-     -
-     -
-     -
+   * - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 .. image:: ../images/lesson03-image08.png
    :alt: grille vide pour esquisser f(x) = (x-1)(x+2)(x+3)
@@ -262,11 +264,11 @@ b\) :math:`g(x) = -2(x-1)^2(x+2)`
      - Comportement à l'infini
      - Zéros
      - Ordonnée à l'origine
-   * -
-     -
-     -
-     -
-     -
+   * - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 .. image:: ../images/lesson03-image10.png
    :alt: grille vide pour esquisser g(x) = -2(x-1)^2(x+2)
@@ -282,11 +284,11 @@ c\) :math:`h(x) = -(2x+1)^3(x-3)`
      - Comportement à l'infini
      - Zéros
      - Ordonnée à l'origine
-   * -
-     -
-     -
-     -
-     -
+   * - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 .. image:: ../images/lesson03-image12.png
    :alt: grille vide pour esquisser h(x) = -(2x+1)^3(x-3)
@@ -304,11 +306,11 @@ d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
      - Comportement à l'infini
      - Zéros
      - Ordonnée à l'origine
-   * -
-     -
-     -
-     -
-     -
+   * - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 .. image:: ../images/lesson03-image14.png
    :alt: grille vide pour esquisser j(x) = x^4 - 4x^3 + 3x^2

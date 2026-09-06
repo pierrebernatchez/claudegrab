@@ -15,6 +15,8 @@ Fiche d'exercices sur les fonctions puissance
 .. |---| unicode:: U+02014
   :trim:
 
+.. |nbsp| unicode:: 0xA0
+
 .. footer:: Droits d´auteur |copy| 2026 Annie Bernatchez |---| Tous droits reservés.
 
 Ce document a été composé et mis en forme par Annie Bernatchez.
@@ -46,23 +48,23 @@ f\) :math:`y = x^{-3}`
      - Degré
      - Coefficient dominant
    * - :math:`y = 5x^4 - 3x^3 + 4`
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = -x + 2`
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = 8x^2`
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = -\dfrac{x^3}{4} + 4x - 3`
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = -5`
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = x^2 - 3x`
-     -
-     -
+     - |nbsp|
+     - |nbsp|
 
 **3\)** Complétez le tableau suivant
 
@@ -77,35 +79,35 @@ f\) :math:`y = x^{-3}`
      - Symétrie
      - Comportement à l'infini
    * - .. image:: ../images/worksheet01-image01.png
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet01-image02.png
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet01-image03.png
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet01-image04.png
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet01-image05.png
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **4\)** Associez chaque fonction à son comportement à l'infini
 
@@ -120,13 +122,13 @@ f\) :math:`y = x^{-3}`
    * - Comportement à l'infini
      - Fonctions
    * - De Q3 à Q1
-     -
+     - |nbsp|
    * - De Q2 à Q4
-     -
+     - |nbsp|
    * - De Q2 à Q1
-     -
+     - |nbsp|
    * - De Q3 à Q4
-     -
+     - |nbsp|
 
 **5\)** Déterminez si chaque graphique représente une fonction puissance, une
 fonction exponentielle, une fonction périodique, ou aucune de ces réponses.
@@ -137,22 +139,22 @@ fonction exponentielle, une fonction périodique, ou aucune de ces réponses.
 
    * - a\)
      - .. image:: ../images/worksheet01-image06.png
-     -
+     - |nbsp|
    * - b\)
      - .. image:: ../images/worksheet01-image07.png
-     -
+     - |nbsp|
    * - c\)
      - .. image:: ../images/worksheet01-image08.png
-     -
+     - |nbsp|
    * - d\)
      - .. image:: ../images/worksheet01-image09.png
-     -
+     - |nbsp|
    * - e\)
      - .. image:: ../images/worksheet01-image10.png
-     -
+     - |nbsp|
    * - f\)
      - .. image:: ../images/worksheet01-image11.png
-     -
+     - |nbsp|
    * - g\)
      - .. image:: ../images/worksheet01-image12.png
-     -
+     - |nbsp|

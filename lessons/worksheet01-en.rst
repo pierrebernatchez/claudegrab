@@ -15,6 +15,8 @@ Power Functions Worksheet
 .. |---| unicode:: U+02014
   :trim:
 
+.. |nbsp| unicode:: 0xA0
+
 .. footer:: Copyright |copy| 2026 Annie Bernatchez |---| All rights reserved.
 
 This document was composed and formatted by Annie Bernatchez.
@@ -45,23 +47,23 @@ f\) :math:`y = x^{-3}`
      - Degree
      - Leading Coefficient
    * - :math:`y = 5x^4 - 3x^3 + 4`
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = -x + 2`
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = 8x^2`
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = -\dfrac{x^3}{4} + 4x - 3`
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = -5`
-     -
-     -
+     - |nbsp|
+     - |nbsp|
    * - :math:`y = x^2 - 3x`
-     -
-     -
+     - |nbsp|
+     - |nbsp|
 
 **3\)** Complete the following table
 
@@ -76,35 +78,35 @@ f\) :math:`y = x^{-3}`
      - Symmetry
      - End Behaviour
    * - .. image:: ../images/worksheet01-image01.png
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet01-image02.png
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet01-image03.png
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet01-image04.png
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - .. image:: ../images/worksheet01-image05.png
-     -
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **4\)** Match each function to its end behaviour
 
@@ -119,13 +121,13 @@ f\) :math:`y = x^{-3}`
    * - End Behaviour
      - Functions
    * - Q3 to Q1
-     -
+     - |nbsp|
    * - Q2 to Q4
-     -
+     - |nbsp|
    * - Q2 to Q1
-     -
+     - |nbsp|
    * - Q3 to Q4
-     -
+     - |nbsp|
 
 **5\)** Determine whether each graph represents a power function, exponential
 function, a periodic function, or none of these.
@@ -136,22 +138,22 @@ function, a periodic function, or none of these.
 
    * - a\)
      - .. image:: ../images/worksheet01-image06.png
-     -
+     - |nbsp|
    * - b\)
      - .. image:: ../images/worksheet01-image07.png
-     -
+     - |nbsp|
    * - c\)
      - .. image:: ../images/worksheet01-image08.png
-     -
+     - |nbsp|
    * - d\)
      - .. image:: ../images/worksheet01-image09.png
-     -
+     - |nbsp|
    * - e\)
      - .. image:: ../images/worksheet01-image10.png
-     -
+     - |nbsp|
    * - f\)
      - .. image:: ../images/worksheet01-image11.png
-     -
+     - |nbsp|
    * - g\)
      - .. image:: ../images/worksheet01-image12.png
-     -
+     - |nbsp|

@@ -15,6 +15,8 @@ Factored Form Polynomial Functions Lesson
 .. |---| unicode:: U+02014
   :trim:
 
+.. |nbsp| unicode:: 0xA0
+
 .. footer:: Copyright |copy| 2026 Annie Bernatchez |---| All rights reserved.
 
 This document was composed and formatted by Annie Bernatchez.
@@ -66,20 +68,20 @@ the :math:`x`-axis).
    :header-rows: 0
 
    * - Interval
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - Test Point
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - Sign of :math:`f(x)`
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 f\) What happens to the sign of :math:`f(x)` near each :math:`x`-intercept?
 
@@ -113,7 +115,7 @@ Shapes based on order of zero:
    :widths: 8 30 30 32
    :header-rows: 0
 
-   * -
+   * - |nbsp|
      - .. image:: ../images/lesson03-image03.png
 
        **Order 2**
@@ -123,7 +125,7 @@ Shapes based on order of zero:
      - .. image:: ../images/lesson03-image05.png
 
        **Order 3**
-   * -
+   * - |nbsp|
      - :math:`(-2, 0)` is an :math:`x`-intercept of order 2. Therefore,
        it doesn't change sign.
 
@@ -169,15 +171,15 @@ iii\)
    :header-rows: 0
 
    * - Interval
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - Sign of :math:`f(x)`
-     -
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 b\)
 
@@ -196,13 +198,13 @@ iii\)
    :header-rows: 0
 
    * - Interval
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
    * - Sign of :math:`f(x)`
-     -
-     -
-     -
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 **Example 2: Analyze Factored Form Equations to Sketch Graphs**
 
@@ -239,11 +241,11 @@ a\) :math:`f(x) = (x-1)(x+2)(x+3)`
      - End Behaviour
      - :math:`x`-intercepts
      - :math:`y`-intercept
-   * -
-     -
-     -
-     -
-     -
+   * - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 .. image:: ../images/lesson03-image08.png
    :alt: blank grid for sketching f(x) = (x-1)(x+2)(x+3)
@@ -259,11 +261,11 @@ b\) :math:`g(x) = -2(x-1)^2(x+2)`
      - End Behaviour
      - :math:`x`-intercepts
      - :math:`y`-intercept
-   * -
-     -
-     -
-     -
-     -
+   * - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 .. image:: ../images/lesson03-image10.png
    :alt: blank grid for sketching g(x) = -2(x-1)^2(x+2)
@@ -279,11 +281,11 @@ c\) :math:`h(x) = -(2x+1)^3(x-3)`
      - End Behaviour
      - :math:`x`-intercepts
      - :math:`y`-intercept
-   * -
-     -
-     -
-     -
-     -
+   * - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 .. image:: ../images/lesson03-image12.png
    :alt: blank grid for sketching h(x) = -(2x+1)^3(x-3)
@@ -301,11 +303,11 @@ d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
      - End Behaviour
      - :math:`x`-intercepts
      - :math:`y`-intercept
-   * -
-     -
-     -
-     -
-     -
+   * - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
+     - |nbsp|
 
 .. image:: ../images/lesson03-image14.png
    :alt: blank grid for sketching j(x) = x^4 - 4x^3 + 3x^2
