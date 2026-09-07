@@ -183,18 +183,23 @@ types.
   ```
   Any `SEVERE`/`Unexpected section title` output, or unexpected enumerator
   renumbering when spot-checking a rendered PDF, means something needs escaping.
-- **A line starting at column 0 with `:math:` (or any other inline role,
-  e.g. `:sup:`) gets misread as a field-list marker by the rinoh rendering
-  pipeline**, so the expression silently fails to render. This is a rinoh
-  quirk, not a docutils validation error, so `publish_doctree` won't catch
-  it — check with `grep -rn '^:math:' lessons/*.rst` (should return
-  nothing) before treating a document as done. Most cases are just a line
-  wrapping at the wrong point (fix: shift a word up from the previous
-  line so `:math:` isn't first); a paragraph that's genuinely *meant* to
-  start with a bare `:math:` expression (e.g. a list of equations, one
-  per line) needs restructuring instead — either convert to a bullet list
-  (`- :math:...`, since `-` doesn't trigger the ambiguity) or add a short
-  lead-in phrase before the expression.
+- **FIXED 2026-09-07, no longer an issue — kept here for history.** A line
+  starting at column 0 with `:math:` (or any other inline role, e.g.
+  `:sup:`) used to silently vanish from the rendered PDF. This was
+  originally misdiagnosed as a rinoh field-list-parsing quirk, but the
+  real cause was in the external rendering pipeline's own staging step
+  (`single2pdf`'s `copy_no_meta` helper, outside this repo): it stripped
+  Pelican's metadata field list (`:slug: foo`, `:date: ...`, etc.) from
+  the top of the file using a regex that matched *any* line starting
+  with a `:word:`-shaped token, applied to the whole file rather than
+  just the leading metadata block — so a bare `:math:`...`` ` line
+  anywhere in the document body got deleted before Sphinx/rinoh ever
+  saw it. Fixed at the source by scoping that stripping to a leading
+  window of the file instead of the entire document. Because of this,
+  `:math:` (or any role) starting a line is no longer special — don't
+  bother reflowing to avoid it, and the `grep -rn '^:math:'
+  lessons/*.rst` check that used to gate "done" is obsolete and doesn't
+  need to be run anymore.
 - **A table cell whose entire content is a bare `-` or `+` gets misread as
   an empty bullet list** (`-`, `*`, and `+` are all valid RST bullet
   markers), rendering as a lone bullet dot instead of the actual

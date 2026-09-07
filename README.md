@@ -108,8 +108,6 @@ each `cd`s to its own directory first) to render every `-en.rst` or
 ## Before calling a document done
 
 - `python3 -c "from docutils.core import publish_doctree; publish_doctree(open('lessons/lessonNN-en.rst').read())"` — should raise nothing.
-- `grep -rn '^:math:' lessons/*.rst` — should return nothing (a `:math:`
-  role at column 0 is silently misread by the `rinoh` renderer).
 - Check for any table cell whose entire content is a bare `-` or `+`
   (misread as an empty bullet) or a genuinely empty cell (collapses to
   near-zero row height) — wrap the former in double backticks, fill the
