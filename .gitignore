@@ -9,7 +9,9 @@ s3cfg
 *.stylelog
 output.rtc
 .claude/settings.local.json
-lessons-pdfs/*.pdf
+# unitN/ prefix so these still match now that content lives under
+# unit1/, unit2/, etc. rather than at the repo root
+**/lessons-pdfs/*.pdf
 dist/
 dist/*
 __pycache__/
@@ -17,5 +19,5 @@ __pycache__/*
 build/
 build/*
 # images generated from lessons-gp scripts so ignore them
-images/*.png
+**/images/*.png
 
