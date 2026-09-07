@@ -9,9 +9,9 @@ s3cfg
 *.stylelog
 output.rtc
 .claude/settings.local.json
-# unit1 stays unprefixed; unit2+ dirs use a uN prefix (u2lessons-pdfs/,
-# u2lessons-media/, etc.) and will need their own lines here as they're added
-**/lessons-pdfs/*.pdf
+# the leading '*' covers unit1's unprefixed lessons-pdfs/ as well as
+# unit2+'s uN-prefixed u2lessons-pdfs/, u3lessons-pdfs/, etc. in one line
+**/*lessons-pdfs/*.pdf
 dist/
 dist/*
 __pycache__/
@@ -19,10 +19,13 @@ __pycache__/*
 build/
 build/*
 # images generated from lessons-gp scripts so ignore them (lessons-media is
-# unit1's real output dir; images is a local symlink alias to it, see below)
-**/lessons-media/*.png
+# unit1's real output dir, u2lessons-media/ etc. for unit2+; images is a
+# local symlink alias to whichever one is active, see below). Same '*'
+# prefix trick as lessons-pdfs above.
+**/*lessons-media/*.png
 # local rendering convenience symlink, recreated per work session
 # (points at whichever unit's real *lessons-media dir you're working on),
-# never committed
+# never committed. No trailing slash: a trailing-slash pattern only
+# matches real directories, not symlinks, and images is always a symlink.
 /images
 
