@@ -9,8 +9,8 @@ s3cfg
 *.stylelog
 output.rtc
 .claude/settings.local.json
-# unitN/ prefix so these still match now that content lives under
-# unit1/, unit2/, etc. rather than at the repo root
+# unit1 stays unprefixed; unit2+ dirs use a uN prefix (u2lessons-pdfs/,
+# u2lessons-media/, etc.) and will need their own lines here as they're added
 **/lessons-pdfs/*.pdf
 dist/
 dist/*
@@ -18,6 +18,11 @@ __pycache__/
 __pycache__/*
 build/
 build/*
-# images generated from lessons-gp scripts so ignore them
-**/images/*.png
+# images generated from lessons-gp scripts so ignore them (lessons-media is
+# unit1's real output dir; images is a local symlink alias to it, see below)
+**/lessons-media/*.png
+# local rendering convenience symlink, recreated per work session
+# (points at whichever unit's real *lessons-media dir you're working on),
+# never committed
+/images
 

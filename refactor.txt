@@ -1,0 +1,45 @@
+1- Going forward asset file naming
+----------------------------------
+I agree that we should not get into retrofitting
+u1 prefixes for unit1. As long as we start that
+with unit2, we avoid name clashes, so no need to
+risk breaking things that are working.
+
+Howevwe I now feel that migrationg to a unit1/ subdirectory
+was not a good idea. If it is not too much trouble we should
+undo that, and leave everything under claudegrab.
+
+With respect to all the original .pdf files we started from
+I think it would be a good idea to put them all in
+a subdirectory of its own called upstream/ and to adopt the
+convention of putting that material there.
+
+We have these sub directories:
+    lessons, lessons-gp, lessons-pdfs, lessons-media
+
+Inside those directories we have files:
+    lesson01-solutions-en.rst, lesson01-image04.gp and so on.
+
+Even though sources are maintained in separate per directory name
+spaces the file names can result sharing a name space in the generated
+.html context.  That means we have to treat them as though they all
+share a single global name space and we must avoid naming conflicts
+across subdirectories. 
+
+That fact makes adding unit1/ unit2/ and so on, subdirectories an
+unnecessary complication.
+
+We will rather use a unitnumber prefix on everything.
+
+u2lessons, u2lessons-gp, u2lessons-pdfs, u2lessons-media
+
+and the files within them also with the prefix:
+
+u2lesson01-solutions-en.rst, u2lesson01-image04.gp and so on.
+
+We will keep all the units under a single directory, 
+
+    lessons, lessons-gp, lessons-pdfs, lessons-media
+    u2lessons, u2lessons-gp, u2lessons-pdfs, u2lessons-media
+    and within these subdirectories preserve the same prefix
+    in all the files: u2lesson01-solutions-en.rst and so on.
