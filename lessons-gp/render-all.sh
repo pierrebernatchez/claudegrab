@@ -1,8 +1,8 @@
 #!/bin/bash
 # Render every lessonNN-imageMM.gp / worksheetNN-imageMM.gp script in this
-# directory into ../images/. Run from anywhere -- it cd's into its own
+# directory into ../lessons-media/. Run from anywhere -- it cd's into its own
 # directory first, since gnuplot's 'set output' in these scripts is relative
-# to lessons-gp/ (../images/...).
+# to lessons-gp/ (../lessons-media/...).
 
 cd "$(dirname "$0")" || exit 1
 
