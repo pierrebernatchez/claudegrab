@@ -10,7 +10,8 @@ regenerated as a standalone `gnuplot` script. There is no build system, package
 manifest, linter, or test suite, and no git repository initialized here yet.
 The repo is meant to hold many lessons over time, not just one.
 
-Course material is organized into units. Each unit has 5 lessons, and each
+Course material is organized into units. A unit's lesson count varies —
+don't assume a fixed number (unit1 had 5 lessons, unit2 has 6). Each
 lesson has two paired deliverables: a **lesson** (with its solutions) and a
 **worksheet** (with its solutions) — four documents per lesson in total,
 each in English and French.
@@ -85,10 +86,12 @@ the wrong unit's figure, since filenames never collide across units.
 (Unit1 originally wrote figures into `images/` directly with no separate
 `lessons-media/`; retrofitted on 2026-09-07 to match this scheme.)
 
-As of 2026-09-07 only unit1 exists (5 lessons, complete, unprefixed).
-When starting unit2, create the `u2lessons/`, `u2lessons-gp/`,
-`u2lessons-media/`, `u2lessons-pdfs/` directories fresh at the repo root
-and apply the `u2` prefix to every file inside them from the start.
+As of 2026-09-07 unit1 (5 lessons) is complete and unprefixed; unit2 (6
+lessons) scaffolding exists (`u2lessons/`, `u2lessons-gp/`,
+`u2lessons-media/`, `u2lessons-pdfs/`) with content not yet started.
+When starting a future unit, create its `uNlessons/`, `uNlessons-gp/`,
+`uNlessons-media/`, `uNlessons-pdfs/` directories fresh at the repo root
+and apply the `uN` prefix to every file inside them from the start.
 
 ## Naming convention
 

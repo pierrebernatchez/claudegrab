@@ -1,11 +1,12 @@
 This is a workspace for turning math course PDFs into illustrated `.rst`
-documents, one unit at a time. Each unit is 5 lessons; each lesson has a
-lesson and a paired worksheet, each with a solutions version, each in
-English and French — 20 `.rst` files per unit. Every figure is a
-standalone `gnuplot` script rather than an extracted/traced image, so
-figures can be regenerated and tweaked without re-touching the source
-PDF. Output is meant to render both to PDF (today) and to a Pelican HTML
-site (eventually) from the same `.rst` sources.
+documents, one unit at a time. A unit has some number of lessons (varies
+per unit — unit1 had 5, unit2 has 6, don't assume a fixed count); each
+lesson has a lesson and a paired worksheet, each with a solutions
+version, each in English and French — 4 `.rst` files per lesson. Every
+figure is a standalone `gnuplot` script rather than an extracted/traced
+image, so figures can be regenerated and tweaked without re-touching the
+source PDF. Output is meant to render both to PDF (today) and to a
+Pelican HTML site (eventually) from the same `.rst` sources.
 
 This file is the practical "how do I do the next thing" guide. For the
 reasoning behind these choices, and a record of what's been tried and
