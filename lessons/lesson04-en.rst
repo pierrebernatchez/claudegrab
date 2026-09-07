@@ -223,24 +223,48 @@ grid.
             - |nbsp|
           * - |nbsp|
             - |nbsp|
-	      
+
      - .. list-table::
           :width: 80%
           :widths: 50 50
           :header-rows: 1
 
           * - |nbsp|
+
+              |nbsp|
             - |nbsp|
+
+              |nbsp|
           * - |nbsp|
+
+              |nbsp|
             - |nbsp|
+
+              |nbsp|
           * - |nbsp|
+
+              |nbsp|
             - |nbsp|
+
+              |nbsp|
           * - |nbsp|
+
+              |nbsp|
             - |nbsp|
+
+              |nbsp|
           * - |nbsp|
+
+              |nbsp|
             - |nbsp|
+
+              |nbsp|
           * - |nbsp|
+
+              |nbsp|
             - |nbsp|
+
+              |nbsp|
 
 *Note: When choosing key points for the parent function, always choose* :math:`x`-*values between
 -2 and 2 and calculate the corresponding values of* :math:`y`.
@@ -263,9 +287,11 @@ c\) Graph the parent function and the transformed function on the same
 grid.
 
 .. list-table::
+   :width: 70%
    :widths: 40 60
 
    * - .. list-table:: :math:`f(x) = x^4`
+          :width: 80%
           :widths: 50 50
           :header-rows: 1
 
@@ -282,68 +308,44 @@ grid.
           * - |nbsp|
             - |nbsp|
      - .. list-table::
+          :width: 80%
           :widths: 50 50
-          :width: 100%
           :header-rows: 1
 
           * - |nbsp|
 
               |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
 
               |nbsp|
           * - |nbsp|
 
               |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
 
               |nbsp|
           * - |nbsp|
 
               |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
 
               |nbsp|
           * - |nbsp|
 
               |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
 
               |nbsp|
           * - |nbsp|
 
               |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
 
               |nbsp|
           * - |nbsp|
 
               |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
 
               |nbsp|
 
