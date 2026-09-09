@@ -1,0 +1,1 @@
+timeout --signal=SIGKILL 55s single2pdf u2worksheet02-solutions-en.rst
