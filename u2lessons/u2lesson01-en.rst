@@ -129,9 +129,11 @@ the division is:
 Note: you could check this answer by FOILing the product and collecting
 like terms.
 
-The result in quotient form is: |nbsp|
+|nbsp|
 
-The expression that can be used to check the division is: |nbsp|
+|nbsp|
+
+|nbsp|
 
 **Example 2:** Find the following quotients using long division. Express
 the result in quotient form. Also, write the statement that can be used
@@ -155,9 +157,11 @@ a\) :math:`x^2 + 5x + 7` divided by :math:`x + 2`
 
 |nbsp|
 
-The result in quotient form is: |nbsp|
+|nbsp|
 
-The expression that can be used to check the division is: |nbsp|
+|nbsp|
+
+|nbsp|
 
 b\) :math:`2x^3 - 3x^2 + 8x - 12` divided by :math:`x - 1`
 
@@ -177,9 +181,11 @@ b\) :math:`2x^3 - 3x^2 + 8x - 12` divided by :math:`x - 1`
 
 |nbsp|
 
-The result in quotient form is: |nbsp|
+|nbsp|
 
-The expression that can be used to check the division is: |nbsp|
+|nbsp|
+
+|nbsp|
 
 c\) :math:`4x^3 + 9x - 12` divided by :math:`2x + 1`
 
@@ -199,9 +205,11 @@ c\) :math:`4x^3 + 9x - 12` divided by :math:`2x + 1`
 
 |nbsp|
 
-The result in quotient form is: |nbsp|
+|nbsp|
 
-The expression that can be used to check the division is: |nbsp|
+|nbsp|
+
+|nbsp|
 
 **Example 3:** The volume, in cubic cm, of a rectangular box is given by :math:`V(x) = x^3 + 7x^2 + 14x + 8`.
 Determine expressions for possible dimensions of the box if the height is given by :math:`x + 2`.
@@ -226,7 +234,11 @@ dimensions for the length and width of the box.
 
 |nbsp|
 
-Expressions for the possible dimensions of the box are |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Part 3: Remainder Theorem
 ================================================================================
@@ -239,8 +251,6 @@ where :math:`a` and :math:`b` are integers, and :math:`a \neq 0`.
 
 a\) Use the remainder theorem to determine the remainder when :math:`P(x) = 2x^3 + x^2 - 3x - 6`
 is divided by :math:`x + 1`
-
-Answer:
 
 |nbsp|
 
@@ -259,8 +269,6 @@ Answer:
 |nbsp|
 
 b\) Verify your answer using long division
-
-Answer:
 
 |nbsp|
 
@@ -281,8 +289,6 @@ Answer:
 **Example 5:** Use the remainder theorem to determine the remainder when :math:`P(x) = 2x^3 + x^2 - 3x - 6`
 is divided by :math:`2x - 3`
 
-Answer:
-
 |nbsp|
 
 |nbsp|
@@ -301,8 +307,6 @@ Answer:
 
 **Example 6:** Determine the value of :math:`k` such that when :math:`3x^4 + kx^3 - 7x - 10` is
 divided by :math:`x - 2`, the remainder is 8.
-
-Answer:
 
 |nbsp|
 

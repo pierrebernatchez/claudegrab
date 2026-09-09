@@ -130,9 +130,11 @@ division est :
 Remarque : vous pouvez vérifier cette réponse en développant le produit et en
 regroupant les termes semblables.
 
-Le résultat sous forme de quotient est : |nbsp|
+|nbsp|
 
-L'expression qui peut être utilisée pour vérifier la division est : |nbsp|
+|nbsp|
+
+|nbsp|
 
 **Exemple 2 :** Trouvez les quotients suivants à l'aide de la division
 longue. Exprimez le résultat sous forme de quotient. Écrivez aussi l'énoncé
@@ -156,9 +158,11 @@ a\) :math:`x^2 + 5x + 7` divisé par :math:`x + 2`
 
 |nbsp|
 
-Le résultat sous forme de quotient est : |nbsp|
+|nbsp|
 
-L'expression qui peut être utilisée pour vérifier la division est : |nbsp|
+|nbsp|
+
+|nbsp|
 
 b\) :math:`2x^3 - 3x^2 + 8x - 12` divisé par :math:`x - 1`
 
@@ -178,9 +182,11 @@ b\) :math:`2x^3 - 3x^2 + 8x - 12` divisé par :math:`x - 1`
 
 |nbsp|
 
-Le résultat sous forme de quotient est : |nbsp|
+|nbsp|
 
-L'expression qui peut être utilisée pour vérifier la division est : |nbsp|
+|nbsp|
+
+|nbsp|
 
 c\) :math:`4x^3 + 9x - 12` divisé par :math:`2x + 1`
 
@@ -200,9 +206,11 @@ c\) :math:`4x^3 + 9x - 12` divisé par :math:`2x + 1`
 
 |nbsp|
 
-Le résultat sous forme de quotient est : |nbsp|
+|nbsp|
 
-L'expression qui peut être utilisée pour vérifier la division est : |nbsp|
+|nbsp|
+
+|nbsp|
 
 **Exemple 3 :** Le volume, en cm cubes, d'une boîte rectangulaire est donné
 par :math:`V(x) = x^3 + 7x^2 + 14x + 8`. Déterminez des expressions pour les
@@ -228,7 +236,11 @@ possibles de la longueur et de la largeur de la boîte.
 
 |nbsp|
 
-Les expressions des dimensions possibles de la boîte sont |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Partie 3 : Théorème du reste
 ================================================================================
@@ -242,8 +254,6 @@ des entiers, et :math:`a \neq 0`.
 
 a\) Utilisez le théorème du reste pour déterminer le reste lorsque
 :math:`P(x) = 2x^3 + x^2 - 3x - 6` est divisé par :math:`x + 1`
-
-Réponse :
 
 |nbsp|
 
@@ -262,8 +272,6 @@ Réponse :
 |nbsp|
 
 b\) Vérifiez votre réponse à l'aide de la division longue
-
-Réponse :
 
 |nbsp|
 
@@ -284,8 +292,6 @@ Réponse :
 **Exemple 5 :** Utilisez le théorème du reste pour déterminer le reste
 lorsque :math:`P(x) = 2x^3 + x^2 - 3x - 6` est divisé par :math:`2x - 3`
 
-Réponse :
-
 |nbsp|
 
 |nbsp|
@@ -304,8 +310,6 @@ Réponse :
 
 **Exemple 6 :** Déterminez la valeur de :math:`k` telle que lorsque
 :math:`3x^4 + kx^3 - 7x - 10` est divisé par :math:`x - 2`, le reste est 8.
-
-Réponse :
 
 |nbsp|
 

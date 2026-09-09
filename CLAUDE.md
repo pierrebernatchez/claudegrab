@@ -305,8 +305,31 @@ against a `yrange` topping out at 10).
 For each new lesson or worksheet, follow this order — don't skip ahead or
 combine steps (applies equally to `lessonNN-*` and `worksheetNN-*` documents):
 
-1. Convert the source English PDF to `lessonNN-en.rst` / `lessonNN-solutions-en.rst`
-   (or the `worksheetNN` equivalents) plus the `*-imageMM.gp`/`.png` figures.
+1. Convert the source English PDF to `lessonNN-solutions-en.rst` (or the
+   `worksheetNN-solutions` equivalent) first, fully worked, plus the
+   `*-imageMM.gp`/`.png` figures — **solutions before blank, not the other
+   way around.** Then derive `lessonNN-en.rst` (the blank/student version)
+   *from* the solutions file: same structure, same instructional text
+   (question prompts, generic explanatory bullets/formulas that aren't
+   solution-specific), but every actual answer — an image/tableau showing
+   worked steps, a `.. math::` block stating a computed result — replaced
+   with blank writing space instead of just deleted, sized to roughly
+   match what it's replacing (a full tableau/derivation needs more room
+   than a single equation): 8 stacked `|nbsp|`-only paragraphs (blank line
+   between each, so each is its own paragraph) for substantial work, a
+   handful of stacked `|nbsp|` paragraphs for a single short equation,
+   inline `` `_____` `` blanks for a short numeric fill-in embedded
+   directly in a sentence (matching whatever inline-vs-block shape the
+   solution's own content has). Drop any leading label that just restates
+   what's obviously expected (`Answer:`, `The result in quotient form
+   is:`) — once real blank space is shown after a clearly-stated question,
+   the label is redundant. (This ordering was reversed from earlier
+   practice on 2026-09-09 after the blank version of a worksheet was
+   found built independently of its solutions file and ended up with far
+   too little room for the actual work — deriving the blank version
+   mechanically from the already-correct solutions file, by subtraction,
+   avoids that mismatch by construction instead of needing a later
+   comparison pass to catch it.)
 2. Get the English proofed (rendered to PDF, reviewed against the source,
    RST/content bugs fixed) before translating anything.
 3. Only once the English is confirmed correct, translate it into
