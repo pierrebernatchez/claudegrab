@@ -37,6 +37,10 @@ Each unit gets its own set of top-level directories:
   `u2lesson01-solutions-en.rst`, `u2lesson01-image04.gp`) — this is what
   actually guarantees no collisions once Pelican flattens everything,
   and it's why the `unitN/` subdirectory approach was unnecessary.
+  Unit2 also has `u2lessons-tableaux/` — a fifth per-unit directory, for
+  figures that are typeset math rather than a `gnuplot` plot, needed
+  starting with unit2's content. See "Tableau figures" below; not every
+  unit necessarily needs one (unit1 doesn't have one).
 - `lessons/` — the `.rst` source documents for both lessons and
   worksheets (student version with fill-in blanks, and the solutions
   version), rendered externally (e.g. to PDF) outside this repo.
@@ -139,6 +143,48 @@ lesson. Don't regress to flat/unprefixed names when adding a new lesson or
 worksheet. The `solutions` segment (not `answers`) is used for both lesson
 and worksheet solution documents, for consistency between the two content
 types.
+
+## Tableau figures (long/synthetic division diagrams)
+
+Not every figure is a `gnuplot` plot. Starting with unit2 (long division of
+polynomials, synthetic division), some figures are typeset math — a LaTeX
+array, with rules the array itself can't draw — not a curve, so `gnuplot`
+doesn't apply. These use a parallel pipeline instead, unit2-onward only
+(unit1 has no `lessons-tableaux/` directory; it never needed one):
+
+- `divtableau.py` (repo root) — standalone (no dependency on this repo,
+  Sphinx, or any specific renderer), lays out the array body for three
+  cases: `build_polynomial_tableau`, `build_numeric_tableau`,
+  `build_synthetic_tableau`. See its module docstring for the CLI.
+- `tableau2png.py` (repo root) — renders one of those tableaus to a
+  tightly-cropped PNG: writes a throwaway one-page `.rst`, renders it via
+  `single2pdf` (this project's existing rinoh pipeline), rasterizes with
+  `pdftoppm`, then draws whatever rules the array itself couldn't
+  (overline/underline for long division; the vertical+horizontal bracket
+  for synthetic division) by measuring the rendered ink directly — rinoh's
+  array renderer supports neither `\cline`, `\multicolumn`, a `|` column
+  separator, nor `\hline` (confirmed by direct test, not assumption).
+- `uNlessons-tableaux/uNlessonNN-imageMM.tableau` /
+  `uNlessons-tableaux/uNworksheetNN-imageMM.tableau` — one shell script per
+  tableau figure, the same role `lessons-gp/*.gp` plays for `gnuplot`
+  figures: standalone and re-runnable, its only job is invoking
+  `tableau2png.py` with this figure's specific numbers and writing into
+  `uNlessons-media/`. `MM` follows the same reading-order numbering rule as
+  `.gp` figures (see "Naming convention" above) — a lesson's figures can
+  mix `.gp` and `.tableau` scripts sharing one `MM` sequence, numbered by
+  where they fall in the source PDF, not by which tool produced them.
+- `uNlessons-tableaux/render-all.sh` — renders every `*.tableau` script in
+  that directory, same convention as `lessons-gp/render-all.sh`.
+- `test_divtableau.py` (repo root) — pixel-verified regression tests for
+  `divtableau.py`'s layout math. Run `python3 test_divtableau.py` after any
+  change to `divtableau.py` — a passing run doesn't by itself prove a *new*
+  case's LaTeX renders correctly (verify a new case visually at least
+  once), but it does prove every already-verified case still does.
+
+Requires `single2pdf` on `PATH` (or at `~/.rinohbox/bashsources/single2pdf`)
+and `pdftoppm` (poppler-utils) — same external tools the `.gp` pipeline
+needs `gnuplot` for, see "Environment" below — plus Pillow and numpy for
+`tableau2png.py`'s ink measurement.
 
 ## RST heading style (Pelican rendering setup)
 

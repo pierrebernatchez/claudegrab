@@ -40,6 +40,7 @@ import tempfile
 from pathlib import Path
 
 import numpy as np
+from fractions import Fraction
 from PIL import Image, ImageDraw
 
 import divtableau
@@ -92,6 +93,20 @@ POLY_RST_TEMPLATE = RST_PREAMBLE + """\
 .. math::
 
    {remainder_text}
+"""
+
+# No overline/underline post-processing note applies here too (rinoh
+# supports neither a "|" column separator nor \hline), and there's no
+# separate remainder block: the sum row's last cell already IS the
+# remainder, in-grid, matching how every textbook synthetic-division
+# tableau shows it (unlike long division's off-grid "R = ...").
+SYNTHETIC_RST_TEMPLATE = RST_PREAMBLE + """\
+.. math::
+   :nowrap:
+
+   \\begin{{array}}{{{col_spec}}}
+{body}
+   \\end{{array}}
 """
 
 
@@ -304,6 +319,72 @@ def draw_poly_lines(png_path, tableau, dpi):
     im.save(png_path)
 
 
+def _locate_array_bands(mask, array_row_count):
+    """Like _locate_bands, but for a page whose only math block is the
+    array itself with no trailing remainder line (the synthetic-division
+    template) -- so the last array_row_count text bands ARE the array's
+    rows, full stop, with nothing to peel off afterward.
+    """
+    page_width = mask.shape[1]
+    bands = _row_bands(mask)
+    text_bands = [b for b in bands if (b[1] - b[0]) > 10]
+
+    excl_x = int(page_width * 0.75)
+
+    def row_extent(y0, y1):
+        xs = np.nonzero(mask[y0:y1, :excl_x].sum(axis=0))[0]
+        return (int(xs.min()), int(xs.max())) if len(xs) else None
+
+    text_bands = [b for b in text_bands if row_extent(*b) is not None]
+
+    array_bands = text_bands[-array_row_count:]
+    if len(array_bands) != array_row_count:
+        raise RuntimeError(
+            f"expected {array_row_count} array row bands, layout found "
+            f"{len(text_bands)} text band(s) total: {text_bands}")
+    return row_extent, array_bands
+
+
+def draw_synthetic_lines(png_path, tableau, dpi):
+    """Draw the synthetic-division bracket -- a vertical rule separating
+    b from the coefficients, and a horizontal rule under the product
+    row -- directly onto the rendered page.
+
+    Why post-processing: same reason as draw_poly_lines (rinoh's array
+    renderer supports neither a "|" column separator nor \\hline,
+    confirmed by direct test).
+
+    The corner where the two rules meet is anchored to the SUM row's own
+    leftmost ink, not a coordinate borrowed from the coefficients row:
+    the sum row has nothing in column 0 (b's column), so its own
+    leftmost pixel already lands exactly at column 1's left edge --
+    yielding the vertical rule's x-position with no need to know where
+    LaTeX actually put the column boundary.
+    """
+    im = Image.open(png_path).convert("RGB")
+    mask = np.array(im.convert("L")) < 150
+
+    array_row_count = len(tableau.body.splitlines())  # 3: coeffs, products, sum
+    row_extent, array_bands = _locate_array_bands(mask, array_row_count)
+    coeff_row, product_row, sum_row = array_bands
+
+    draw = ImageDraw.Draw(im)
+    line_width = max(round(dpi / 130), 2)
+    gap = max(round(dpi / 65), 3)
+
+    _, coeff_x1 = row_extent(*coeff_row)
+    corner_x, _ = row_extent(*sum_row)
+    corner_x -= gap
+
+    horiz_y = (product_row[1] + sum_row[0]) // 2
+    top_y = coeff_row[0] - gap
+
+    draw.line([(corner_x, top_y), (corner_x, horiz_y)], fill=(0, 0, 0), width=line_width)
+    draw.line([(corner_x, horiz_y), (coeff_x1 + gap, horiz_y)], fill=(0, 0, 0), width=line_width)
+
+    im.save(png_path)
+
+
 def autocrop_tableau(png_path, padding=15, threshold=150, rule_height=6):
     """Isolate just the array's own ink from a full rendered page.
 
@@ -403,6 +484,13 @@ def main(argv=None):
     n.add_argument("--out", required=True)
     n.add_argument("--dpi", type=int, default=400)
 
+    s = sub.add_parser("synthetic", help="synthetic division")
+    s.add_argument("--dividend", required=True, help="comma-separated coeffs, highest degree first")
+    s.add_argument("--b", required=True, help="zero of the divisor (x - b); accepts fractions like -3/2")
+    s.add_argument("--var", default="x")
+    s.add_argument("--out", required=True)
+    s.add_argument("--dpi", type=int, default=400)
+
     args = parser.parse_args(argv)
 
     single2pdf = find_single2pdf()
@@ -418,6 +506,13 @@ def main(argv=None):
             col_spec=tableau.col_spec,
             body="\n".join("   " + line for line in tableau.body.splitlines()),
             remainder_text=tableau.remainder_text)
+    elif args.mode == "synthetic":
+        dividend = [int(x) for x in args.dividend.split(",")]
+        b = Fraction(args.b)
+        tableau = divtableau.build_synthetic_tableau(dividend, b, args.var)
+        rst_content = SYNTHETIC_RST_TEMPLATE.format(
+            col_spec=tableau.col_spec,
+            body="\n".join("   " + line for line in tableau.body.splitlines()))
     else:
         body = divtableau.build_numeric_tableau(args.dividend, args.divisor)
         rst_content = NUMERIC_RST_TEMPLATE.format(
@@ -431,9 +526,11 @@ def main(argv=None):
         pdf_path = render_to_pdf(single2pdf, rst_content, workdir)
         png_path = pdf_to_png(pdf_path, args.dpi)
 
-        if tableau is not None:
+        if args.mode == "poly":
             reposition_remainder(png_path, tableau)
             draw_poly_lines(png_path, tableau, args.dpi)
+        elif args.mode == "synthetic":
+            draw_synthetic_lines(png_path, tableau, args.dpi)
 
         cropped = autocrop_tableau(png_path)
         # rinoh sizes an embedded image using its PNG DPI metadata (confirmed

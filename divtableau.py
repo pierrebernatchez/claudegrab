@@ -9,11 +9,12 @@ Sphinx, or on any particular renderer -- pipe its output into any pipeline
 that understands the LaTeX it emits (a plain \\begin{array}, no exotic
 packages).
 
-Two independent tableau builders, laid out by genuinely different rules --
+Three independent tableau builders, laid out by genuinely different rules --
 see each function's docstring:
 
     build_polynomial_tableau(dividend, divisor, var='x')
     build_numeric_tableau(dividend, divisor)
+    build_synthetic_tableau(dividend, b, var='x')
 
 build_polynomial_tableau lays every row out as cells in one shared array,
 one column per degree -- alignment is guaranteed by construction (a
@@ -30,14 +31,25 @@ build_numeric_tableau has no such problem (a numeric remainder is one run
 of digits, never split across cells) and still returns a plain
 ready-to-paste LaTeX string, unchanged from before.
 
+build_synthetic_tableau lays out the b | coefficients grid used by
+synthetic division. Like build_polynomial_tableau, it returns a
+SyntheticTableau object (body + layout metadata) rather than a plain
+string, because the bracket separating b from the coefficients (a
+vertical rule) and the rule under the product row are both drawn in
+post-processing for the same reason: rinoh's array renderer supports
+neither a "|" column separator nor \\hline (confirmed by direct test).
+See tableau2png.py.
+
 Command-line usage:
 
     python3 divtableau.py poly --dividend 3,-5,-7,-1 --divisor 1,-3
     python3 divtableau.py numeric --dividend 753 --divisor 22
+    python3 divtableau.py synthetic --dividend 3,-5,-7,-1 --b 3
 """
 
 import argparse
 import sys
+from fractions import Fraction
 
 
 # ---------------------------------------------------------------------------
@@ -405,6 +417,103 @@ def build_numeric_tableau(dividend, divisor):
 
 
 # ---------------------------------------------------------------------------
+# Synthetic division
+# ---------------------------------------------------------------------------
+
+def _format_number(v):
+    """Format a plain signed number for a synthetic-division cell.
+
+    Unlike _format_term, a synthetic-division cell is a bare number (no
+    variable/degree attached), so it needs its own formatter. v is
+    normally an int, but the divisor's zero b can be a non-integer
+    (e.g. dividing by 2x + 3 gives b = -3/2) -- accepting a Fraction here
+    means that value can still be printed (as \\frac{}{}) without forcing
+    the caller to pre-format it.
+    """
+    v = Fraction(v)
+    if v.denominator == 1:
+        return str(v.numerator)
+    sign = '-' if v.numerator < 0 else ''
+    return f"{sign}\\frac{{{abs(v.numerator)}}}{{{v.denominator}}}"
+
+
+def synthetic_division(coeffs, b):
+    """Divide coeffs (highest degree first) by (x - b) using synthetic
+    division. Returns (quotient, remainder, products):
+
+        quotient: coefficients of the quotient, highest degree first
+                  (len(coeffs) - 1 entries)
+        remainder: the final value left over
+        products: the len(coeffs) - 1 "multiply by b" values, one per
+                  step, in the same order they're written under the
+                  dividend's 2nd through last coefficients
+
+    All arithmetic is done in Fraction so a non-integer b (see
+    _format_number) still produces exact results instead of float noise.
+    """
+    b = Fraction(b)
+    coeffs = [Fraction(c) for c in coeffs]
+    result = [coeffs[0]]
+    products = []
+    for c in coeffs[1:]:
+        p = result[-1] * b
+        products.append(p)
+        result.append(c + p)
+    return result[:-1], result[-1], products
+
+
+class SyntheticTableau:
+    """Result of build_synthetic_tableau: the LaTeX array body plus the
+    column count a rasterizer needs to locate the array's 3 rows and draw
+    the bracket in post-processing (rinoh's array renderer supports
+    neither a "|" column separator nor \\hline -- confirmed by direct
+    test -- so the bracket can't be drawn inside the array itself; see
+    tableau2png.py).
+
+    body: the array body, exactly 3 lines (coefficients, products, sum),
+        each cell separated by " & ". Column 0 holds b (only on the
+        first line); columns 1..len(dividend) are one per coefficient,
+        matching every row to the same shared grid, same alignment
+        guarantee as PolyTableau.
+    col_spec: the array's column spec, e.g. "r r r r r".
+    """
+    def __init__(self, body, col_spec):
+        self.body = body
+        self.col_spec = col_spec
+
+
+def build_synthetic_tableau(dividend, b, var='x'):
+    """Build a correctly-aligned synthetic-division tableau.
+
+    dividend: coefficient list, highest degree first.
+    b: the zero of the divisor (x - b); may be a Fraction (or anything
+       Fraction() accepts, e.g. a "-3/2" string) for a divisor of the
+       form ax - b, re-written as x - b/a before calling this (dividing
+       the resulting quotient by a is the caller's job -- this function
+       only draws the grid for one synthetic division).
+
+    Returns a SyntheticTableau (see its docstring).
+    """
+    quotient, remainder, products = synthetic_division(dividend, b)
+    result = quotient + [remainder]  # aligns 1:1 with dividend's columns
+
+    def render_row(cells):
+        # Same fixed-minimum-row-height trick as build_polynomial_tableau's
+        # render_row, and for the same reason: without it, adjacent rows
+        # can end up with zero pixel gap between them.
+        cells = [r"\rule{0pt}{18pt}" + cells[0]] + cells[1:]
+        return " & ".join(cells) + r" \\"
+
+    row_b = [_format_number(b)] + [_format_number(c) for c in dividend]
+    row_products = ['', ''] + [_format_number(p) for p in products]
+    row_sum = [''] + [_format_number(v) for v in result]
+
+    body = "\n".join([render_row(row_b), render_row(row_products), render_row(row_sum)])
+    col_spec = "r " * (len(dividend) + 1)
+    return SyntheticTableau(body, col_spec.strip())
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -426,6 +535,11 @@ def main(argv=None):
     n.add_argument("--dividend", required=True, type=int)
     n.add_argument("--divisor", required=True, type=int)
 
+    s = sub.add_parser("synthetic", help="synthetic division")
+    s.add_argument("--dividend", required=True, help="comma-separated coeffs, highest degree first")
+    s.add_argument("--b", required=True, help="zero of the divisor (x - b); accepts fractions like -3/2")
+    s.add_argument("--var", default="x")
+
     args = parser.parse_args(argv)
 
     if args.mode == "poly":
@@ -444,6 +558,13 @@ def main(argv=None):
               "post-processing, measuring each line's extent from that row's own "
               "rendered ink, since rinoh's array renderer supports neither \\cline "
               "nor \\multicolumn.")
+    elif args.mode == "synthetic":
+        dividend = _parse_coeffs(args.dividend)
+        b = Fraction(args.b)
+        t = build_synthetic_tableau(dividend, b, args.var)
+        print(r"\begin{array}{" + t.col_spec + "}")
+        print(t.body)
+        print(r"\end{array}")
     else:
         print(build_numeric_tableau(args.dividend, args.divisor))
 

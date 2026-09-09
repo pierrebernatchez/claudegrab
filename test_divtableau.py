@@ -21,7 +21,8 @@ Run with: python3 test_divtableau.py
 """
 
 import sys
-from divtableau import build_polynomial_tableau, build_numeric_tableau
+from fractions import Fraction
+from divtableau import build_polynomial_tableau, build_numeric_tableau, build_synthetic_tableau
 
 
 def _block(text):
@@ -186,6 +187,51 @@ NUMERIC_CASES = [
     # render identically; see the structural check below.
 ]
 
+# u2lesson02 (Synthetic Division). Each case is hand-verified arithmetic
+# (see the worked-out b/product/sum values in the comment), and the
+# bracket-drawing mechanism itself (vertical rule anchored to the sum
+# row's own leftmost ink, horizontal rule under the product row) was
+# pixel-verified separately across an integer b, a fractional b, and a
+# zero-coefficient degree-4 case -- see project memory.
+SYNTHETIC_CASES = [
+    # 3x^3 - 5x^2 - 7x - 1 by x - 3 (b=3): products 9,12,15; sum 3,4,5,14
+    ("lesson Part 1 main example", [3, -5, -7, -1], 3, _block(r"""
+    \rule{0pt}{18pt}3 & 3 & -5 & -7 & -1 \\
+    \rule{0pt}{18pt} &  & 9 & 12 & 15 \\
+    \rule{0pt}{18pt} & 3 & 4 & 5 & 14 \\
+    """)),
+    # x^4 - 2x^3 + 0x^2 + 13x - 6 by x + 2 (b=-2): products -2,8,-16,6; sum 1,-4,8,-3,0
+    ("lesson Example 1a", [1, -2, 0, 13, -6], -2, _block(r"""
+    \rule{0pt}{18pt}-2 & 1 & -2 & 0 & 13 & -6 \\
+    \rule{0pt}{18pt} &  & -2 & 8 & -16 & 6 \\
+    \rule{0pt}{18pt} & 1 & -4 & 8 & -3 & 0 \\
+    """)),
+    # 2x^3 - 5x^2 + 8x + 4 by x - 3 (b=3): products 6,3,33; sum 2,1,11,37
+    ("lesson Example 1b", [2, -5, 8, 4], 3, _block(r"""
+    \rule{0pt}{18pt}3 & 2 & -5 & 8 & 4 \\
+    \rule{0pt}{18pt} &  & 6 & 3 & 33 \\
+    \rule{0pt}{18pt} & 2 & 1 & 11 & 37 \\
+    """)),
+    # 6x^3 + 5x^2 - 16x - 15 by (x + 3/2), b=-3/2: products -9,6,15; sum 6,-4,-10,0
+    ("lesson Part 2 main example", [6, 5, -16, -15], Fraction(-3, 2), _block(r"""
+    \rule{0pt}{18pt}-\frac{3}{2} & 6 & 5 & -16 & -15 \\
+    \rule{0pt}{18pt} &  & -9 & 6 & 15 \\
+    \rule{0pt}{18pt} & 6 & -4 & -10 & 0 \\
+    """)),
+    # x^3 - 4x^2 + 2x + 3 by x - 3 (b=3): products 3,-3,-3; sum 1,-1,-1,0
+    ("lesson Example 2a", [1, -4, 2, 3], 3, _block(r"""
+    \rule{0pt}{18pt}3 & 1 & -4 & 2 & 3 \\
+    \rule{0pt}{18pt} &  & 3 & -3 & -3 \\
+    \rule{0pt}{18pt} & 1 & -1 & -1 & 0 \\
+    """)),
+    # 12x^4 - 56x^3 + 59x^2 + 9x - 18 by (x + 1/2), b=-1/2 (quotient still needs /2 by caller)
+    ("lesson Example 2b (before /a)", [12, -56, 59, 9, -18], Fraction(-1, 2), _block(r"""
+    \rule{0pt}{18pt}-\frac{1}{2} & 12 & -56 & 59 & 9 & -18 \\
+    \rule{0pt}{18pt} &  & -6 & 31 & -45 & 18 \\
+    \rule{0pt}{18pt} & 12 & -62 & 90 & -36 & 0 \\
+    """)),
+]
+
 
 def run():
     failures = []
@@ -212,6 +258,18 @@ def run():
                 print(f"  underline_rows: expected {exp_underline_rows}, got {t.underline_rows}")
             if t.remainder_text != exp_remainder:
                 print(f"  remainder_text: expected {exp_remainder!r}, got {t.remainder_text!r}")
+
+    for name, dividend, b, expected_body in SYNTHETIC_CASES:
+        t = build_synthetic_tableau(dividend, b)
+        if t.body.strip() == expected_body.strip():
+            print(f"PASS  {name}")
+        else:
+            failures.append(name)
+            print(f"FAIL  {name}")
+            print("  --- expected body ---")
+            print(expected_body)
+            print("  --- got body ---")
+            print(t.body)
 
     for name, dividend, divisor, expected in NUMERIC_CASES:
         generated = build_numeric_tableau(dividend, divisor)
