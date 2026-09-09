@@ -263,6 +263,28 @@ needs `gnuplot` for, see "Environment" below — plus Pillow and numpy for
   file, alongside `|copy|`/`|---|`). Apply this from the start for any
   new lesson/worksheet's blank-answer tables — don't wait for a
   retrofit like lesson01–04 needed on 2026-09-06.
+- **A `.. math::` block directive inside any cell of a `list-table` row
+  that has 2+ actually-populated cells hangs the rinoh renderer
+  indefinitely** (confirmed: `sphinx-build -b rinoh` spins at ~100% CPU,
+  `output.pdf` stays 0 bytes, never returns even under a long timeout).
+  Found and bisected 2026-09-09 in `u2worksheet02-solutions-en.rst`.
+  Isolated by elimination: not about images (2-cell rows with only
+  images render fine), not about stacked/multiple math blocks per cell,
+  not about extra paragraphs, not about needing math in both cells — one
+  `.. math::` block in just one cell of a real 2-column row is
+  sufficient to trigger it. A `.. math::` block in a **single-column**
+  row (only one populated cell, regardless of `:widths:`) renders fine.
+  **Fix: don't put `.. math::` directives inside multi-column
+  `list-table` cells at all** — restructure to sequential single-column
+  content instead (e.g. a bold `**a\)**` label followed by an image and
+  `.. math::` block, then the next label, and so on top-to-bottom,
+  rather than pairing two problems side by side in a table row). This
+  was also judged the better pedagogical choice independent of the
+  rendering bug — side-by-side pairing here was inherited from the
+  source PDF's print-space economy, not a deliberate "compare these two"
+  teaching device, and full-width rows give more legible diagrams for a
+  document meant for learning. Revisit only if a genuine pedagogical
+  case for a side-by-side layout comes up for some future lesson.
 
 ## Environment
 

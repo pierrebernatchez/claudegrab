@@ -26,188 +26,188 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 **1\)** Calculate each of the following using synthetic division. Express
 your answer using the statement that could be used to check the division.
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
+**a\)** :math:`x^3 - 7x - 6` divided by :math:`x - 3`
 
-   * - a\) :math:`x^3 - 7x - 6` divided by :math:`x - 3`
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
-     - b\) :math:`2x^3 - 7x^2 - 7x + 19` divided by :math:`x - 1`
+**b\)** :math:`2x^3 - 7x^2 - 7x + 19` divided by :math:`x - 1`
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
-   * - c\) :math:`6x^4 + 13x^3 - 34x^2 - 47x + 28` divided by :math:`x + 3`
+|nbsp|
 
-       |nbsp|
+**c\)** :math:`6x^4 + 13x^3 - 34x^2 - 47x + 28` divided by :math:`x + 3`
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
-     - d\) :math:`2x^3 + x^2 - 22x + 20` divided by :math:`2x - 3`
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+**d\)** :math:`2x^3 + x^2 - 22x + 20` divided by :math:`2x - 3`
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
-   * - e\) :math:`12x^4 - 56x^3 + 59x^2 + 9x - 18` divided by :math:`2x + 1`
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+**e\)** :math:`12x^4 - 56x^3 + 59x^2 + 9x - 18` divided by :math:`2x + 1`
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
-     - f\) :math:`6x^3 - 15x^2 - 2x + 5` divided by :math:`2x - 5`
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+**f\)** :math:`6x^3 - 15x^2 - 2x + 5` divided by :math:`2x - 5`
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
-   * - g\) :math:`x^3 - 2x + 1` divided by :math:`x - 4`
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+**g\)** :math:`x^3 - 2x + 1` divided by :math:`x - 4`
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
-     - h\) :math:`x^3 + 2x^2 - 6x + 1` divided by :math:`x + 2`
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+**h\)** :math:`x^3 + 2x^2 - 6x + 1` divided by :math:`x + 2`
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 **2\)** Divide :math:`x^4 - 16x^3 + 4x^2 + 10x - 11` by each of the
 following binomials...
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
+**a\)** :math:`x - 2`
 
-   * - a\) :math:`x - 2`
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
-     - b\) :math:`x + 4`
+**b\)** :math:`x + 4`
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
 **3\)** Are either of the binomials in question #2 factors of
 :math:`x^4 - 16x^3 + 4x^2 + 10x - 11`? Explain.
