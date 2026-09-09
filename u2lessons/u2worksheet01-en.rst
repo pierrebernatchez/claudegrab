@@ -26,19 +26,17 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 **1\)** Use the remainder theorem to determine the remainder when :math:`2x^3 + 7x^2 - 8x + 3` is
 divided by each binomial.
 
-.. list-table::
-   :widths: 33 33 34
-   :header-rows: 0
+a\) :math:`x + 1`
 
-   * - a\) :math:`x + 1`
+Answer: |nbsp|
 
-       Answer: |nbsp|
-     - b\) :math:`x - 2`
+b\) :math:`x - 2`
 
-       Answer: |nbsp|
-     - c\) :math:`x + 3`
+Answer: |nbsp|
 
-       Answer: |nbsp|
+c\) :math:`x + 3`
+
+Answer: |nbsp|
 
 **2\)** a\) Divide :math:`x^3 + 3x^2 - 2x + 5` by :math:`x + 1`. Express the result in quotient form.
 
@@ -59,32 +57,33 @@ Answer: |nbsp|
 
 **4\)** Perform each division. Express the result in quotient form.
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
+a\) :math:`x^3 + 7x^2 - 3x + 4` divided by :math:`x + 2`
 
-   * - a\) :math:`x^3 + 7x^2 - 3x + 4` divided by :math:`x + 2`
+The result in quotient form is: |nbsp|
 
-       The result in quotient form is: |nbsp|
-     - b\) :math:`6x^3 + x^2 - 14x - 6` divided by :math:`3x + 2`
+b\) :math:`6x^3 + x^2 - 14x - 6` divided by :math:`3x + 2`
 
-       The result in quotient form is: |nbsp|
-   * - c\) :math:`10x^3 + 11 - 9x^2 - 8x` divided by :math:`5x - 2`
+The result in quotient form is: |nbsp|
 
-       The result in quotient form is: |nbsp|
-     - d\) :math:`11x - 4x^4 - 7` divided by :math:`x - 3`
+c\) :math:`10x^3 + 11 - 9x^2 - 8x` divided by :math:`5x - 2`
 
-       The result in quotient form is: |nbsp|
-   * - e\) :math:`6x^3 + x^2 + 7x + 3` divided by :math:`3x + 2`
+The result in quotient form is: |nbsp|
 
-       The result in quotient form is: |nbsp|
-     - f\) :math:`8x^3 + 4x^2 - 31` divided by :math:`2x - 3`
+d\) :math:`11x - 4x^4 - 7` divided by :math:`x - 3`
 
-       The result in quotient form is: |nbsp|
-   * - g\) :math:`6x^2 - 6 + 8x^3` divided by :math:`4x - 3`
+The result in quotient form is: |nbsp|
 
-       The result in quotient form is: |nbsp|
-     - |nbsp|
+e\) :math:`6x^3 + x^2 + 7x + 3` divided by :math:`3x + 2`
+
+The result in quotient form is: |nbsp|
+
+f\) :math:`8x^3 + 4x^2 - 31` divided by :math:`2x - 3`
+
+The result in quotient form is: |nbsp|
+
+g\) :math:`6x^2 - 6 + 8x^3` divided by :math:`4x - 3`
+
+The result in quotient form is: |nbsp|
 
 **5\)** The volume, in cubic cm, of a rectangular box can be modelled by the polynomial expression
 :math:`2x^3 + 17x^2 + 38x + 15`. Determine possible dimensions of the box if the height, in cm, is
