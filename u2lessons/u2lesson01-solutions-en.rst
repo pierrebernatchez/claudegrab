@@ -41,20 +41,8 @@ Long division can be used to calculate :math:`107 \div 4` as follows:
 - You then repeat these steps until there are no more digits in the
   dividend to bring down.
 
-.. math::
-   :nowrap:
-
-   \begin{array}{r}
-   26 \\
-   \hline
-   4 \; \overline{)\; 107} \\
-   8 \\
-   \hline
-   27 \\
-   24 \\
-   \hline
-   3
-   \end{array}
+.. image:: ../images/u2lesson01-image01.png
+   :alt: 107 divided by 4 using long division, quotient 26 remainder 3
 
 Every division statement that involves numbers can be rewritten using
 multiplication and addition. We can express the results of our example in
@@ -66,20 +54,8 @@ OR, equivalently, :math:`\dfrac{107}{4} = 26 + \dfrac{3}{4} = 26.75`
 
 **Example 1:** Use long division to calculate :math:`753 \div 22`
 
-.. math::
-   :nowrap:
-
-   \begin{array}{r}
-   34 \\
-   \hline
-   22 \; \overline{)\; 753} \\
-   66 \\
-   \hline
-   93 \\
-   88 \\
-   \hline
-   5
-   \end{array}
+.. image:: ../images/u2lesson01-image02.png
+   :alt: 753 divided by 22 using long division, quotient 34 remainder 5
 
 This gives us :math:`753 = (22)(34) + 5`
 
@@ -115,23 +91,8 @@ using long division as well...
   the degree of the divisor. The divisor is degree 1 and the remainder is
   now degree 0, so we stop.
 
-.. math::
-   :nowrap:
-
-   \begin{array}{r}
-   3x^2 + 4x + 5 \\
-   \hline
-   x - 3 \; \overline{)\; 3x^3 - 5x^2 - 7x - 1} \\
-   3x^3 - 9x^2 \\
-   \hline
-   4x^2 - 7x \\
-   4x^2 - 12x \\
-   \hline
-   5x - 1 \\
-   5x - 15 \\
-   \hline
-   14
-   \end{array}
+.. image:: ../images/u2lesson01-image03.png
+   :alt: (3x^3 - 5x^2 - 7x - 1) divided by (x - 3) using long division, quotient 3x^2 + 4x + 5 remainder 14
 
 The result of the division of :math:`P(x)` by a binomial of the form :math:`x - b` is:
 
@@ -167,20 +128,8 @@ to check the division (then check it!).
 
 a\) :math:`x^2 + 5x + 7` divided by :math:`x + 2`
 
-.. math::
-   :nowrap:
-
-   \begin{array}{r}
-   x + 3 \\
-   \hline
-   x + 2 \; \overline{)\; x^2 + 5x + 7} \\
-   x^2 + 2x \\
-   \hline
-   3x + 7 \\
-   3x + 6 \\
-   \hline
-   1
-   \end{array}
+.. image:: ../images/u2lesson01-image04.png
+   :alt: (x^2 + 5x + 7) divided by (x + 2) using long division, quotient x + 3 remainder 1
 
 The result in quotient form is:
 
@@ -196,23 +145,8 @@ The expression that can be used to check the division is:
 
 b\) :math:`2x^3 - 3x^2 + 8x - 12` divided by :math:`x - 1`
 
-.. math::
-   :nowrap:
-
-   \begin{array}{r}
-   2x^2 - x + 7 \\
-   \hline
-   x - 1 \; \overline{)\; 2x^3 - 3x^2 + 8x - 12} \\
-   2x^3 - 2x^2 \\
-   \hline
-   -x^2 + 8x \\
-   -x^2 + x \\
-   \hline
-   7x - 12 \\
-   7x - 7 \\
-   \hline
-   -5
-   \end{array}
+.. image:: ../images/u2lesson01-image05.png
+   :alt: (2x^3 - 3x^2 + 8x - 12) divided by (x - 1) using long division, quotient 2x^2 - x + 7 remainder -5
 
 The result in quotient form is:
 
@@ -230,23 +164,8 @@ c\) :math:`4x^3 + 9x - 12` divided by :math:`2x + 1`
 
 Note: the dividend has no :math:`x^2` term, so a placeholder :math:`0x^2` is used to keep the columns lined up.
 
-.. math::
-   :nowrap:
-
-   \begin{array}{r}
-   2x^2 - x + 5 \\
-   \hline
-   2x + 1 \; \overline{)\; 4x^3 + 0x^2 + 9x - 12} \\
-   4x^3 + 2x^2 \\
-   \hline
-   -2x^2 + 9x \\
-   -2x^2 - x \\
-   \hline
-   10x - 12 \\
-   10x + 5 \\
-   \hline
-   -17
-   \end{array}
+.. image:: ../images/u2lesson01-image06.png
+   :alt: (4x^3 + 9x - 12) divided by (2x + 1) using long division, quotient 2x^2 - x + 5 remainder -17
 
 The result in quotient form is:
 
@@ -267,23 +186,8 @@ Dividing the volume by the height will give an expression for the area of
 the base of the box. Factor the area of the base to get possible
 dimensions for the length and width of the box.
 
-.. math::
-   :nowrap:
-
-   \begin{array}{r}
-   x^2 + 5x + 4 \\
-   \hline
-   x + 2 \; \overline{)\; x^3 + 7x^2 + 14x + 8} \\
-   x^3 + 2x^2 \\
-   \hline
-   5x^2 + 14x \\
-   5x^2 + 10x \\
-   \hline
-   4x + 8 \\
-   4x + 8 \\
-   \hline
-   0
-   \end{array}
+.. image:: ../images/u2lesson01-image07.png
+   :alt: (x^3 + 7x^2 + 14x + 8) divided by (x + 2) using long division, quotient x^2 + 5x + 4 remainder 0
 
 .. math::
 
@@ -298,7 +202,7 @@ When a polynomial function :math:`P(x)` is divided by :math:`x - b`, the remaind
 and when it is divided by :math:`ax - b`, the remainder is :math:`P\left(\dfrac{b}{a}\right)`,
 where :math:`a` and :math:`b` are integers, and :math:`a \neq 0`.
 
-**Example 3:** Apply the remainder theorem
+**Example 4:** Apply the remainder theorem
 
 a\) Use the remainder theorem to determine the remainder when :math:`P(x) = 2x^3 + x^2 - 3x - 6`
 is divided by :math:`x + 1`
@@ -318,25 +222,10 @@ Therefore, the remainder is :math:`-4`
 
 b\) Verify your answer using long division
 
-.. math::
-   :nowrap:
+.. image:: ../images/u2lesson01-image08.png
+   :alt: (2x^3 + x^2 - 3x - 6) divided by (x + 1) using long division, quotient 2x^2 - x - 2 remainder -4
 
-   \begin{array}{r}
-   2x^2 - x - 2 \\
-   \hline
-   x + 1 \; \overline{)\; 2x^3 + x^2 - 3x - 6} \\
-   2x^3 + 2x^2 \\
-   \hline
-   -x^2 - 3x \\
-   -x^2 - x \\
-   \hline
-   -2x - 6 \\
-   -2x - 2 \\
-   \hline
-   -4
-   \end{array}
-
-**Example 4:** Use the remainder theorem to determine the remainder when :math:`P(x) = 2x^3 + x^2 - 3x - 6`
+**Example 5:** Use the remainder theorem to determine the remainder when :math:`P(x) = 2x^3 + x^2 - 3x - 6`
 is divided by :math:`2x - 3`
 
 The remainder is :math:`P\left(\dfrac{3}{2}\right)`.
@@ -354,7 +243,7 @@ The remainder is :math:`P\left(\dfrac{3}{2}\right)`.
 
 Therefore, the remainder is :math:`-\dfrac{3}{2}`
 
-**Example 5:** Determine the value of :math:`k` such that when :math:`3x^4 + kx^3 - 7x - 10` is
+**Example 6:** Determine the value of :math:`k` such that when :math:`3x^4 + kx^3 - 7x - 10` is
 divided by :math:`x - 2`, the remainder is 8.
 
 The remainder is :math:`P(2)`. Solve for :math:`k` when :math:`P(2)` is

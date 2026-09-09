@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2worksheet01-image03.tableau
+### Long division: (x^3 + 7x^2 - 3x + 4) / (x + 2), Q4a.
+../tableau2png.py poly --dividend="1,7,-3,4" --divisor="1,2" \
+  --out ../u2lessons-media/u2worksheet01-image03.png

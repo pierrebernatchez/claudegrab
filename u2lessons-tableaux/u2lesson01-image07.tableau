@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2lesson01-image07.tableau
+### Long division: (x^3 + 7x^2 + 14x + 8) / (x + 2), Example 3 (box volume). Solutions-only.
+../tableau2png.py poly --dividend="1,7,14,8" --divisor="1,2" \
+  --out ../u2lessons-media/u2lesson01-image07.png

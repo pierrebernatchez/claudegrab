@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2lesson01-image01.tableau
+### Long division: 107 / 4. Shared by u2lesson01-en.rst and u2lesson01-solutions-en.rst (identical worked intro example in both).
+../tableau2png.py numeric --dividend=107 --divisor=4 \
+  --out ../u2lessons-media/u2lesson01-image01.png

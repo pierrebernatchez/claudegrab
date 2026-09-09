@@ -1,0 +1,62 @@
+Note that in the original document there are two "example 3" cases.  For
+clarity here I will calle them "example 3-1" and example 3-2".
+
+Here is the idea of what the u2lesson01-en.rst needs regarding the two numeric long divisions
+performed in the solutions version.
+
+We want the first one actually displayed also in the u2lesson01-en.rst. It serves as an
+example to remind the student what long division looks like.
+
+fix 1:
+   It should be simply drawn in (just like in the solutions case)
+   under the line: 'then repeat these steps until there are no more digits in the dividend to bring down.'
+
+
+We want room for the student to write her own version for the test case.
+
+fix2:
+
+   room enough to write in by hand the long division for 753/22 under
+   the line: 'Example 1: Use long division to calculate: 753 / 22'
+
+Again the same goes for the case of the first example of polynomial
+long division in the solutions version.  It should also appear worked
+out in the non solutions version as one example for the student to
+learn from.
+
+fix3:
+
+   a worked out long divison beneath the line:
+      "degree 1 and the remainder is now degree 0, so we stop."
+
+The 3 examples to work out expressed in a table in the non solutions version
+should not be presented as a table. Just presented sequentially one after the
+other.
+
+fix4:
+
+   instead of a table write it like this ( repeat 3 times for a b and c):
+
+
+
+Example 3-1 does not leave enough room for the student to work out the solution.
+
+fix 5:
+
+   add sufficient empty lines beneath the line:
+
+   "the base to get possible dimensions for the length and width of the box."
+   
+   for the student to work out a long division of the polynomial and a
+   factorization of the result.
+   that is to say several blank lines
+
+
+In part 3 Remainder Theorem. There is not enough room under each "Answer" line.
+
+fix 6:
+
+   addd suffivient empty lines beneath each "Answer:" line for a long division or
+   equivalent size work.
+   
+

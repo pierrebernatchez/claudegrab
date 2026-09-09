@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2worksheet01-image05.tableau
+### Long division: (10x^3 - 9x^2 - 8x + 11) / (5x - 2), Q4c (dividend reordered to descending degree first).
+../tableau2png.py poly --dividend="10,-9,-8,11" --divisor="5,-2" \
+  --out ../u2lessons-media/u2worksheet01-image05.png
