@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2worksheet02-tabimage02.tableau
+### Synthetic division: (2x^3 - 7x^2 - 7x + 19) / (x - 1), b=1. Q1b.
+../tableau2png.py synthetic --dividend=2,-7,-7,19 --b=1 \
+  --out ../u2lessons-media/u2worksheet02-tabimage02.png

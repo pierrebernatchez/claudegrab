@@ -44,7 +44,7 @@ La division longue peut être utilisée pour calculer :math:`107 \div 4` comme s
 - On répète ensuite ces étapes jusqu'à ce qu'il ne reste plus de chiffres à
   abaisser dans le dividende.
 
-.. image:: ../images/u2lesson01-image01.png
+.. image:: ../images/u2lesson01-tabimage01.png
    :alt: 107 divisé par 4 par division longue, quotient 26 reste 3
 
 Tout énoncé de division impliquant des nombres peut être réécrit à l'aide de
@@ -111,7 +111,7 @@ trouvé à l'aide de la division longue...
   diviseur. Le diviseur est de degré 1 et le reste est maintenant de degré
   0, alors on s'arrête.
 
-.. image:: ../images/u2lesson01-image03.png
+.. image:: ../images/u2lesson01-tabimage03.png
    :alt: (3x^3 - 5x^2 - 7x - 1) divisé par (x - 3) par division longue, quotient 3x^2 + 4x + 5 reste 14
 
 Le résultat de la division de :math:`P(x)` par un binôme de la forme :math:`x - b` est :

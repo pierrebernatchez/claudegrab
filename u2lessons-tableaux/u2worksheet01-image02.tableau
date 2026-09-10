@@ -1,5 +1,0 @@
-#!/bin/bash
-### u2worksheet01-image02.tableau
-### Long division: (3x^4 - 4x^3 - 6x^2 + 17x - 8) / (3x - 4), Q3.
-../tableau2png.py poly --dividend="3,-4,-6,17,-8" --divisor="3,-4" \
-  --out ../u2lessons-media/u2worksheet01-image02.png

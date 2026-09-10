@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2worksheet01-tabimage08.tableau
+### Long division: (8x^3 + 4x^2 - 31) / (2x - 3), Q4f.
+../tableau2png.py poly --dividend="8,4,0,-31" --divisor="2,-3" \
+  --out ../u2lessons-media/u2worksheet01-tabimage08.png

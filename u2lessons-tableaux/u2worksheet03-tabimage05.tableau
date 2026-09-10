@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2worksheet03-tabimage05.tableau
+### Synthetic division: (2x^3 - 9x^2 + 10x - 3) / (x - 1), b=1. Q5b.
+../tableau2png.py synthetic --dividend=2,-9,10,-3 --b=1 \
+  --out ../u2lessons-media/u2worksheet03-tabimage05.png

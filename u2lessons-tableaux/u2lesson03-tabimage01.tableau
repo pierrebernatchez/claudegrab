@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2lesson03-tabimage01.tableau
+### Synthetic division: (x^3 + 4x^2 + x - 6) / (x + 2), b=-2. Part 1 b), verifying the remainder-theorem answer from part a).
+../tableau2png.py synthetic --dividend=1,4,1,-6 --b=-2 \
+  --out ../u2lessons-media/u2lesson03-tabimage01.png

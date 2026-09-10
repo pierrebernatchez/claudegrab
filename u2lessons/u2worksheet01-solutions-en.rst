@@ -56,7 +56,7 @@ c\) :math:`x + 3`
 
 **2\)** a\) Divide :math:`x^3 + 3x^2 - 2x + 5` by :math:`x + 1`. Express the result in quotient form.
 
-.. image:: ../images/u2worksheet01-image01.png
+.. image:: ../images/u2worksheet01-tabimage01.png
    :alt: (x^3 + 3x^2 - 2x + 5) divided by (x + 1) using long division, quotient x^2 + 2x - 4 remainder 9
 
 The result in quotient form is:
@@ -77,7 +77,7 @@ quotient form.
 Note: the dividend has no :math:`x^2` term at the correct spot for this step, so a placeholder
 :math:`0x^2` is used to keep the columns lined up.
 
-.. image:: ../images/u2worksheet01-image02.png
+.. image:: ../images/u2worksheet01-tabimage02.png
    :alt: (3x^4 - 4x^3 - 6x^2 + 17x - 8) divided by (3x - 4) using long division, quotient x^3 - 2x + 3 remainder 4
 
 The result in quotient form is:
@@ -96,7 +96,7 @@ b\) Write the corresponding statement that can be used to check the division.
 
 a\) :math:`x^3 + 7x^2 - 3x + 4` divided by :math:`x + 2`
 
-.. image:: ../images/u2worksheet01-image03.png
+.. image:: ../images/u2worksheet01-tabimage03.png
    :alt: (x^3 + 7x^2 - 3x + 4) divided by (x + 2) using long division, quotient x^2 + 5x - 13 remainder 30
 
 .. math::
@@ -105,7 +105,7 @@ a\) :math:`x^3 + 7x^2 - 3x + 4` divided by :math:`x + 2`
 
 b\) :math:`6x^3 + x^2 - 14x - 6` divided by :math:`3x + 2`
 
-.. image:: ../images/u2worksheet01-image04.png
+.. image:: ../images/u2worksheet01-tabimage04.png
    :alt: (6x^3 + x^2 - 14x - 6) divided by (3x + 2) using long division, quotient 2x^2 - x - 4 remainder 2
 
 .. math::
@@ -117,7 +117,7 @@ c\) :math:`10x^3 + 11 - 9x^2 - 8x` divided by :math:`5x - 2`
 Note: the dividend is reordered to standard descending-degree form first:
 :math:`10x^3 - 9x^2 - 8x + 11`.
 
-.. image:: ../images/u2worksheet01-image05.png
+.. image:: ../images/u2worksheet01-tabimage05.png
    :alt: (10x^3 - 9x^2 - 8x + 11) divided by (5x - 2) using long division, quotient 2x^2 - x - 2 remainder 7
 
 .. math::
@@ -129,7 +129,7 @@ d\) :math:`11x - 4x^4 - 7` divided by :math:`x - 3`
 Note: the dividend is reordered to standard descending-degree form first:
 :math:`-4x^4 + 0x^3 + 0x^2 + 11x - 7`.
 
-.. image:: ../images/u2worksheet01-image06.png
+.. image:: ../images/u2worksheet01-tabimage06.png
    :alt: (-4x^4 + 11x - 7) divided by (x - 3) using long division, quotient -4x^3 - 12x^2 - 36x - 97 remainder -298
 
 .. math::
@@ -138,7 +138,7 @@ Note: the dividend is reordered to standard descending-degree form first:
 
 e\) :math:`6x^3 + x^2 + 7x + 3` divided by :math:`3x + 2`
 
-.. image:: ../images/u2worksheet01-image07.png
+.. image:: ../images/u2worksheet01-tabimage07.png
    :alt: (6x^3 + x^2 + 7x + 3) divided by (3x + 2) using long division, quotient 2x^2 - x + 3 remainder -3
 
 .. math::
@@ -150,7 +150,7 @@ f\) :math:`8x^3 + 4x^2 - 31` divided by :math:`2x - 3`
 Note: the dividend has no :math:`x` term, so a placeholder :math:`0x` is used to keep the columns
 lined up.
 
-.. image:: ../images/u2worksheet01-image08.png
+.. image:: ../images/u2worksheet01-tabimage08.png
    :alt: (8x^3 + 4x^2 - 31) divided by (2x - 3) using long division, quotient 4x^2 + 8x + 12 remainder 5
 
 .. math::
@@ -184,7 +184,7 @@ Note: the dividend is reordered to standard descending-degree form first:
 :math:`2x^3 + 17x^2 + 38x + 15`. Determine possible dimensions of the box if the height, in cm, is
 given by :math:`x + 5`.
 
-.. image:: ../images/u2worksheet01-image09.png
+.. image:: ../images/u2worksheet01-tabimage09.png
    :alt: (2x^3 + 17x^2 + 38x + 15) divided by (x + 5) using long division, quotient 2x^2 + 7x + 3 remainder 0
 
 .. math::

@@ -52,7 +52,7 @@ Divide :math:`3x^3 - 5x^2 - 7x - 1` by :math:`x - 3`. In this question, :math:`b
   are the coefficients of the quotient, starting with the degree that is one
   less than the dividend.
 
-.. image:: ../images/u2lesson02-image01.png
+.. image:: ../images/u2lesson02-tabimage01.png
    :alt: synthetic division of 3x^3 - 5x^2 - 7x - 1 by x - 3, b = 3, quotient 3x^2 + 4x + 5 remainder 14
 
 Don't forget that the answer can be written in two ways...
@@ -120,7 +120,7 @@ Divide :math:`6x^3 + 5x^2 - 16x - 15` by :math:`2x + 3`
   :math:`\left(x + \dfrac{3}{2}\right)` using synthetic division as long as
   you remember to divide the quotient by 2 after.
 
-.. image:: ../images/u2lesson02-image04.png
+.. image:: ../images/u2lesson02-tabimage04.png
    :alt: synthetic division of 6x^3 + 5x^2 - 16x - 15 by x + 3/2, b = -3/2, before dividing by 2: quotient 6x^2 - 4x - 10 remainder 0
 
 Check answer using long division

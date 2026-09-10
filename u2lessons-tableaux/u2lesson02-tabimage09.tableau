@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2lesson02-tabimage09.tableau
+### Long division: (x^4 - x^3 - x^2 + 2x + 1) / (x^2 + 2). Solutions-only (Example 2d; non-linear divisor).
+../tableau2png.py poly --dividend=1,-1,-1,2,1 --divisor=1,0,2 \
+  --out ../u2lessons-media/u2lesson02-tabimage09.png

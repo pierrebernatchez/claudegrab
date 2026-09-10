@@ -1,0 +1,6 @@
+#!/bin/bash
+### u2worksheet06-tabimage03.tableau
+### Synthetic division: (t^3 - 11t^2 + 28t - 180) / (t - 10), b=10. Q4,
+### same underlying word problem as u2lesson06 Part 2 Q3.
+../tableau2png.py synthetic --dividend=1,-11,28,-180 --b=10 --var=t \
+  --out ../u2lessons-media/u2worksheet06-tabimage03.png

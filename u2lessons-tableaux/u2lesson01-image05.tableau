@@ -1,5 +1,0 @@
-#!/bin/bash
-### u2lesson01-image05.tableau
-### Long division: (2x^3 - 3x^2 + 8x - 12) / (x - 1), Example 2b. Solutions-only.
-../tableau2png.py poly --dividend="2,-3,8,-12" --divisor="1,-1" \
-  --out ../u2lessons-media/u2lesson01-image05.png

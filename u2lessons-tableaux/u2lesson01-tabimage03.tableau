@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2lesson01-tabimage03.tableau
+### Long division: (3x^3 - 5x^2 - 7x - 1) / (x - 3), the lesson's main worked example in Part 2. Shared by u2lesson01-en.rst and u2lesson01-solutions-en.rst.
+../tableau2png.py poly --dividend="3,-5,-7,-1" --divisor="1,-3" \
+  --out ../u2lessons-media/u2lesson01-tabimage03.png

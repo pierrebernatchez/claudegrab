@@ -42,7 +42,7 @@ La division longue peut être utilisée pour calculer :math:`107 \div 4` comme s
 - On répète ensuite ces étapes jusqu'à ce qu'il ne reste plus de chiffres à
   abaisser dans le dividende.
 
-.. image:: ../images/u2lesson01-image01.png
+.. image:: ../images/u2lesson01-tabimage01.png
    :alt: 107 divisé par 4 par division longue, quotient 26 reste 3
 
 Tout énoncé de division impliquant des nombres peut être réécrit à l'aide de
@@ -55,7 +55,7 @@ OU, de manière équivalente, :math:`\dfrac{107}{4} = 26 + \dfrac{3}{4} = 26.75`
 
 **Exemple 1 :** Utilisez la division longue pour calculer :math:`753 \div 22`
 
-.. image:: ../images/u2lesson01-image02.png
+.. image:: ../images/u2lesson01-tabimage02.png
    :alt: 753 divisé par 22 par division longue, quotient 34 reste 5
 
 Cela nous donne :math:`753 = (22)(34) + 5`
@@ -92,7 +92,7 @@ trouvé à l'aide de la division longue...
   diviseur. Le diviseur est de degré 1 et le reste est maintenant de degré
   0, alors on s'arrête.
 
-.. image:: ../images/u2lesson01-image03.png
+.. image:: ../images/u2lesson01-tabimage03.png
    :alt: (3x^3 - 5x^2 - 7x - 1) divisé par (x - 3) par division longue, quotient 3x^2 + 4x + 5 reste 14
 
 Le résultat de la division de :math:`P(x)` par un binôme de la forme :math:`x - b` est :
@@ -129,7 +129,7 @@ qui peut être utilisé pour vérifier la division (puis vérifiez-le!).
 
 a\) :math:`x^2 + 5x + 7` divisé par :math:`x + 2`
 
-.. image:: ../images/u2lesson01-image04.png
+.. image:: ../images/u2lesson01-tabimage04.png
    :alt: (x^2 + 5x + 7) divisé par (x + 2) par division longue, quotient x + 3 reste 1
 
 Le résultat sous forme de quotient est :
@@ -146,7 +146,7 @@ L'expression qui peut être utilisée pour vérifier la division est :
 
 b\) :math:`2x^3 - 3x^2 + 8x - 12` divisé par :math:`x - 1`
 
-.. image:: ../images/u2lesson01-image05.png
+.. image:: ../images/u2lesson01-tabimage05.png
    :alt: (2x^3 - 3x^2 + 8x - 12) divisé par (x - 1) par division longue, quotient 2x^2 - x + 7 reste -5
 
 Le résultat sous forme de quotient est :
@@ -167,7 +167,7 @@ Remarque : le dividende n'a pas de terme en :math:`x^2`, un terme de
 substitution :math:`0x^2` est donc utilisé pour garder les colonnes
 alignées.
 
-.. image:: ../images/u2lesson01-image06.png
+.. image:: ../images/u2lesson01-tabimage06.png
    :alt: (4x^3 + 9x - 12) divisé par (2x + 1) par division longue, quotient 2x^2 - x + 5 reste -17
 
 Le résultat sous forme de quotient est :
@@ -190,7 +190,7 @@ Diviser le volume par la hauteur donnera une expression pour l'aire de la
 base de la boîte. Factorisez l'aire de la base pour obtenir les dimensions
 possibles de la longueur et de la largeur de la boîte.
 
-.. image:: ../images/u2lesson01-image07.png
+.. image:: ../images/u2lesson01-tabimage07.png
    :alt: (x^3 + 7x^2 + 14x + 8) divisé par (x + 2) par division longue, quotient x^2 + 5x + 4 reste 0
 
 .. math::
@@ -228,7 +228,7 @@ Le reste est donc :math:`-4`
 
 b\) Vérifiez votre réponse à l'aide de la division longue
 
-.. image:: ../images/u2lesson01-image08.png
+.. image:: ../images/u2lesson01-tabimage08.png
    :alt: (2x^3 + x^2 - 3x - 6) divisé par (x + 1) par division longue, quotient 2x^2 - x - 2 reste -4
 
 **Exemple 5 :** Utilisez le théorème du reste pour déterminer le reste

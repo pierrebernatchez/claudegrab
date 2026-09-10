@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2lesson03-tabimage02.tableau
+### Long division: (x^3 + 2x^2 - 5x - 6) / (x - 2). Example 2, Method 1.
+../tableau2png.py poly --dividend=1,2,-5,-6 --divisor=1,-2 \
+  --out ../u2lessons-media/u2lesson03-tabimage02.png

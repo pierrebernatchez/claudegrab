@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2lesson02-tabimage05.tableau
+### Long division: (6x^3 + 5x^2 - 16x - 15) / (2x + 3). Solutions-only ("check answer using long division").
+../tableau2png.py poly --dividend=6,5,-16,-15 --divisor=2,3 \
+  --out ../u2lessons-media/u2lesson02-tabimage05.png

@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2lesson01-tabimage02.tableau
+### Long division: 753 / 22. Solutions-only (Example 1).
+../tableau2png.py numeric --dividend=753 --divisor=22 \
+  --out ../u2lessons-media/u2lesson01-tabimage02.png

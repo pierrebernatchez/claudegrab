@@ -1,0 +1,7 @@
+#!/bin/bash
+### u2lesson02-tabimage04.tableau
+### Synthetic division: (6x^3 + 5x^2 - 16x - 15) / (x + 3/2), b=-3/2. Part 2 main worked example
+### (quotient row here is 6x^2 - 4x - 10 before the caller divides by 2 -- see the lesson text).
+### Shared by u2lesson02-en.rst and u2lesson02-solutions-en.rst.
+../tableau2png.py synthetic --dividend=6,5,-16,-15 --b=-3/2 \
+  --out ../u2lessons-media/u2lesson02-tabimage04.png

@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2lesson01-tabimage06.tableau
+### Long division: (4x^3 + 9x - 12) / (2x + 1), Example 2c. Solutions-only.
+../tableau2png.py poly --dividend="4,0,9,-12" --divisor="2,1" \
+  --out ../u2lessons-media/u2lesson01-tabimage06.png

@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2worksheet04-tabimage06.tableau
+### Synthetic division: (2x^3 - 11x^2 + 12x + 9) / (x - 3), b=3. Q4b.
+../tableau2png.py synthetic --dividend=2,-11,12,9 --b=3 \
+  --out ../u2lessons-media/u2worksheet04-tabimage06.png

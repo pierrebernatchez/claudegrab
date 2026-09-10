@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2worksheet03-tabimage09.tableau
+### Synthetic division: (4x^3 - 7x - 3) / (x + 1), b=-1. Q6b.
+../tableau2png.py synthetic --dividend=4,0,-7,-3 --b=-1 \
+  --out ../u2lessons-media/u2worksheet03-tabimage09.png

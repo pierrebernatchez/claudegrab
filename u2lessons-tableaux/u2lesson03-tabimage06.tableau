@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2lesson03-tabimage06.tableau
+### Synthetic division: (3x^3 + 2x^2 - 7x + 2) / (x - 1), b=1. Example 5.
+../tableau2png.py synthetic --dividend=3,2,-7,2 --b=1 \
+  --out ../u2lessons-media/u2lesson03-tabimage06.png

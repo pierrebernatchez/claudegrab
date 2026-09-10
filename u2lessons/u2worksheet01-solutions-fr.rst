@@ -56,7 +56,7 @@ c\) :math:`x + 3`
 
 **2\)** a\) Divisez :math:`x^3 + 3x^2 - 2x + 5` par :math:`x + 1`. Exprimez le résultat sous forme de quotient.
 
-.. image:: ../images/u2worksheet01-image01.png
+.. image:: ../images/u2worksheet01-tabimage01.png
    :alt: (x^3 + 3x^2 - 2x + 5) divisé par (x + 1) par division longue, quotient x^2 + 2x - 4 reste 9
 
 Le résultat sous forme de quotient est :
@@ -77,7 +77,7 @@ forme de quotient.
 Remarque : le dividende n'a pas de terme en :math:`x^2` à l'endroit voulu pour cette étape, un terme
 de substitution :math:`0x^2` est donc utilisé pour garder les colonnes alignées.
 
-.. image:: ../images/u2worksheet01-image02.png
+.. image:: ../images/u2worksheet01-tabimage02.png
    :alt: (3x^4 - 4x^3 - 6x^2 + 17x - 8) divisé par (3x - 4) par division longue, quotient x^3 - 2x + 3 reste 4
 
 Le résultat sous forme de quotient est :
@@ -96,7 +96,7 @@ b\) Écrivez l'énoncé correspondant qui peut être utilisé pour vérifier la 
 
 a\) :math:`x^3 + 7x^2 - 3x + 4` divisé par :math:`x + 2`
 
-.. image:: ../images/u2worksheet01-image03.png
+.. image:: ../images/u2worksheet01-tabimage03.png
    :alt: (x^3 + 7x^2 - 3x + 4) divisé par (x + 2) par division longue, quotient x^2 + 5x - 13 reste 30
 
 .. math::
@@ -105,7 +105,7 @@ a\) :math:`x^3 + 7x^2 - 3x + 4` divisé par :math:`x + 2`
 
 b\) :math:`6x^3 + x^2 - 14x - 6` divisé par :math:`3x + 2`
 
-.. image:: ../images/u2worksheet01-image04.png
+.. image:: ../images/u2worksheet01-tabimage04.png
    :alt: (6x^3 + x^2 - 14x - 6) divisé par (3x + 2) par division longue, quotient 2x^2 - x - 4 reste 2
 
 .. math::
@@ -117,7 +117,7 @@ c\) :math:`10x^3 + 11 - 9x^2 - 8x` divisé par :math:`5x - 2`
 Remarque : le dividende est d'abord réordonné en ordre décroissant standard de degré :
 :math:`10x^3 - 9x^2 - 8x + 11`.
 
-.. image:: ../images/u2worksheet01-image05.png
+.. image:: ../images/u2worksheet01-tabimage05.png
    :alt: (10x^3 - 9x^2 - 8x + 11) divisé par (5x - 2) par division longue, quotient 2x^2 - x - 2 reste 7
 
 .. math::
@@ -129,7 +129,7 @@ d\) :math:`11x - 4x^4 - 7` divisé par :math:`x - 3`
 Remarque : le dividende est d'abord réordonné en ordre décroissant standard de degré :
 :math:`-4x^4 + 0x^3 + 0x^2 + 11x - 7`.
 
-.. image:: ../images/u2worksheet01-image06.png
+.. image:: ../images/u2worksheet01-tabimage06.png
    :alt: (-4x^4 + 11x - 7) divisé par (x - 3) par division longue, quotient -4x^3 - 12x^2 - 36x - 97 reste -298
 
 .. math::
@@ -138,7 +138,7 @@ Remarque : le dividende est d'abord réordonné en ordre décroissant standard d
 
 e\) :math:`6x^3 + x^2 + 7x + 3` divisé par :math:`3x + 2`
 
-.. image:: ../images/u2worksheet01-image07.png
+.. image:: ../images/u2worksheet01-tabimage07.png
    :alt: (6x^3 + x^2 + 7x + 3) divisé par (3x + 2) par division longue, quotient 2x^2 - x + 3 reste -3
 
 .. math::
@@ -150,7 +150,7 @@ f\) :math:`8x^3 + 4x^2 - 31` divisé par :math:`2x - 3`
 Remarque : le dividende n'a pas de terme en :math:`x`, un terme de substitution :math:`0x` est donc
 utilisé pour garder les colonnes alignées.
 
-.. image:: ../images/u2worksheet01-image08.png
+.. image:: ../images/u2worksheet01-tabimage08.png
    :alt: (8x^3 + 4x^2 - 31) divisé par (2x - 3) par division longue, quotient 4x^2 + 8x + 12 reste 5
 
 .. math::
@@ -184,7 +184,7 @@ Remarque : le dividende est d'abord réordonné en ordre décroissant standard d
 polynomiale :math:`2x^3 + 17x^2 + 38x + 15`. Déterminez les dimensions possibles de la boîte si la
 hauteur, en cm, est donnée par :math:`x + 5`.
 
-.. image:: ../images/u2worksheet01-image09.png
+.. image:: ../images/u2worksheet01-tabimage09.png
    :alt: (2x^3 + 17x^2 + 38x + 15) divisé par (x + 5) par division longue, quotient 2x^2 + 7x + 3 reste 0
 
 .. math::

@@ -1,5 +1,0 @@
-#!/bin/bash
-### u2lesson02-image03.tableau
-### Synthetic division: (2x^3 - 5x^2 + 8x + 4) / (x - 3), b=3. Solutions-only (Example 1b).
-../tableau2png.py synthetic --dividend=2,-5,8,4 --b=3 \
-  --out ../u2lessons-media/u2lesson02-image03.png

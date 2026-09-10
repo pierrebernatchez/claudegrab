@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2worksheet01-tabimage09.tableau
+### Long division: (2x^3 + 17x^2 + 38x + 15) / (x + 5), Q5 (box volume).
+../tableau2png.py poly --dividend="2,17,38,15" --divisor="1,5" \
+  --out ../u2lessons-media/u2worksheet01-tabimage09.png

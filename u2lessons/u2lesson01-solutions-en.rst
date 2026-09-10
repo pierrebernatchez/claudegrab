@@ -41,7 +41,7 @@ Long division can be used to calculate :math:`107 \div 4` as follows:
 - You then repeat these steps until there are no more digits in the
   dividend to bring down.
 
-.. image:: ../images/u2lesson01-image01.png
+.. image:: ../images/u2lesson01-tabimage01.png
    :alt: 107 divided by 4 using long division, quotient 26 remainder 3
 
 Every division statement that involves numbers can be rewritten using
@@ -54,7 +54,7 @@ OR, equivalently, :math:`\dfrac{107}{4} = 26 + \dfrac{3}{4} = 26.75`
 
 **Example 1:** Use long division to calculate :math:`753 \div 22`
 
-.. image:: ../images/u2lesson01-image02.png
+.. image:: ../images/u2lesson01-tabimage02.png
    :alt: 753 divided by 22 using long division, quotient 34 remainder 5
 
 This gives us :math:`753 = (22)(34) + 5`
@@ -91,7 +91,7 @@ using long division as well...
   the degree of the divisor. The divisor is degree 1 and the remainder is
   now degree 0, so we stop.
 
-.. image:: ../images/u2lesson01-image03.png
+.. image:: ../images/u2lesson01-tabimage03.png
    :alt: (3x^3 - 5x^2 - 7x - 1) divided by (x - 3) using long division, quotient 3x^2 + 4x + 5 remainder 14
 
 The result of the division of :math:`P(x)` by a binomial of the form :math:`x - b` is:
@@ -128,7 +128,7 @@ to check the division (then check it!).
 
 a\) :math:`x^2 + 5x + 7` divided by :math:`x + 2`
 
-.. image:: ../images/u2lesson01-image04.png
+.. image:: ../images/u2lesson01-tabimage04.png
    :alt: (x^2 + 5x + 7) divided by (x + 2) using long division, quotient x + 3 remainder 1
 
 The result in quotient form is:
@@ -145,7 +145,7 @@ The expression that can be used to check the division is:
 
 b\) :math:`2x^3 - 3x^2 + 8x - 12` divided by :math:`x - 1`
 
-.. image:: ../images/u2lesson01-image05.png
+.. image:: ../images/u2lesson01-tabimage05.png
    :alt: (2x^3 - 3x^2 + 8x - 12) divided by (x - 1) using long division, quotient 2x^2 - x + 7 remainder -5
 
 The result in quotient form is:
@@ -164,7 +164,7 @@ c\) :math:`4x^3 + 9x - 12` divided by :math:`2x + 1`
 
 Note: the dividend has no :math:`x^2` term, so a placeholder :math:`0x^2` is used to keep the columns lined up.
 
-.. image:: ../images/u2lesson01-image06.png
+.. image:: ../images/u2lesson01-tabimage06.png
    :alt: (4x^3 + 9x - 12) divided by (2x + 1) using long division, quotient 2x^2 - x + 5 remainder -17
 
 The result in quotient form is:
@@ -186,7 +186,7 @@ Dividing the volume by the height will give an expression for the area of
 the base of the box. Factor the area of the base to get possible
 dimensions for the length and width of the box.
 
-.. image:: ../images/u2lesson01-image07.png
+.. image:: ../images/u2lesson01-tabimage07.png
    :alt: (x^3 + 7x^2 + 14x + 8) divided by (x + 2) using long division, quotient x^2 + 5x + 4 remainder 0
 
 .. math::
@@ -222,7 +222,7 @@ Therefore, the remainder is :math:`-4`
 
 b\) Verify your answer using long division
 
-.. image:: ../images/u2lesson01-image08.png
+.. image:: ../images/u2lesson01-tabimage08.png
    :alt: (2x^3 + x^2 - 3x - 6) divided by (x + 1) using long division, quotient 2x^2 - x - 2 remainder -4
 
 **Example 5:** Use the remainder theorem to determine the remainder when :math:`P(x) = 2x^3 + x^2 - 3x - 6`

@@ -50,7 +50,7 @@ Divide :math:`3x^3 - 5x^2 - 7x - 1` by :math:`x - 3`. In this question, :math:`b
   are the coefficients of the quotient, starting with the degree that is one
   less than the dividend.
 
-.. image:: ../images/u2lesson02-image01.png
+.. image:: ../images/u2lesson02-tabimage01.png
    :alt: synthetic division of 3x^3 - 5x^2 - 7x - 1 by x - 3, b = 3, quotient 3x^2 + 4x + 5 remainder 14
 
 Don't forget that the answer can be written in two ways...
@@ -72,7 +72,7 @@ a\) :math:`(x^4 - 2x^3 + 13x - 6) \div (x + 2)`
 
 Rewrite the dividend with the missing power: :math:`x^4 - 2x^3 + 0x^2 + 13x - 6`
 
-.. image:: ../images/u2lesson02-image02.png
+.. image:: ../images/u2lesson02-tabimage02.png
    :alt: synthetic division of x^4 - 2x^3 + 0x^2 + 13x - 6 by x + 2, b = -2, quotient x^3 - 4x^2 + 8x - 3 remainder 0
 
 .. math::
@@ -84,7 +84,7 @@ Note: since the remainder is zero, both the quotient and divisor are
 
 b\) :math:`(2x^3 - 5x^2 + 8x + 4) \div (x - 3)`
 
-.. image:: ../images/u2lesson02-image03.png
+.. image:: ../images/u2lesson02-tabimage03.png
    :alt: synthetic division of 2x^3 - 5x^2 + 8x + 4 by x - 3, b = 3, quotient 2x^2 + x + 11 remainder 37
 
 .. math::
@@ -104,7 +104,7 @@ Divide :math:`6x^3 + 5x^2 - 16x - 15` by :math:`2x + 3`
   :math:`\left(x + \dfrac{3}{2}\right)` using synthetic division as long as
   you remember to divide the quotient by 2 after.
 
-.. image:: ../images/u2lesson02-image04.png
+.. image:: ../images/u2lesson02-tabimage04.png
    :alt: synthetic division of 6x^3 + 5x^2 - 16x - 15 by x + 3/2, b = -3/2, before dividing by 2: quotient 6x^2 - 4x - 10 remainder 0
 
 .. math::
@@ -117,7 +117,7 @@ Divide :math:`6x^3 + 5x^2 - 16x - 15` by :math:`2x + 3`
 
 Check answer using long division
 
-.. image:: ../images/u2lesson02-image05.png
+.. image:: ../images/u2lesson02-tabimage05.png
    :alt: (6x^3 + 5x^2 - 16x - 15) divided by (2x + 3) using long division, quotient 3x^2 - 2x - 5 remainder 0
 
 Note: Synthetic division can only be used with a linear divisor. It is most
@@ -130,7 +130,7 @@ a\) Divide :math:`x^3 - 4x^2 + 2x + 3` by :math:`x - 3`
 
 Use synthetic division because we have a linear divisor of the form :math:`x - b`.
 
-.. image:: ../images/u2lesson02-image06.png
+.. image:: ../images/u2lesson02-tabimage06.png
    :alt: synthetic division of x^3 - 4x^2 + 2x + 3 by x - 3, b = 3, quotient x^2 - x - 1 remainder 0
 
 .. math::
@@ -139,7 +139,7 @@ Use synthetic division because we have a linear divisor of the form :math:`x - b
 
 b\) Divide :math:`12x^4 - 56x^3 + 59x^2 + 9x - 18` by :math:`2x + 1`
 
-.. image:: ../images/u2lesson02-image07.png
+.. image:: ../images/u2lesson02-tabimage07.png
    :alt: (12x^4 - 56x^3 + 59x^2 + 9x - 18) divided by (2x + 1) using long division, quotient 6x^3 - 31x^2 + 45x - 18 remainder 0
 
 .. math::
@@ -150,7 +150,7 @@ c\) Divide :math:`x^4 - 2x^3 + 5x + 3` by :math:`x^2 + 2x + 1`
 
 Use long division since it is a non-linear divisor.
 
-.. image:: ../images/u2lesson02-image08.png
+.. image:: ../images/u2lesson02-tabimage08.png
    :alt: (x^4 - 2x^3 + 5x + 3) divided by (x^2 + 2x + 1) using long division, quotient x^2 - 4x + 7 remainder -5x - 4
 
 .. math::
@@ -161,7 +161,7 @@ d\) Divide :math:`x^4 - x^3 - x^2 + 2x + 1` by :math:`x^2 + 2`
 
 Use long division since it is a non-linear divisor.
 
-.. image:: ../images/u2lesson02-image09.png
+.. image:: ../images/u2lesson02-tabimage09.png
    :alt: (x^4 - x^3 - x^2 + 2x + 1) divided by (x^2 + 2) using long division, quotient x^2 - x - 3 remainder 4x + 7
 
 .. math::

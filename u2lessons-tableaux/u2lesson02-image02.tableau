@@ -1,5 +1,0 @@
-#!/bin/bash
-### u2lesson02-image02.tableau
-### Synthetic division: (x^4 - 2x^3 + 0x^2 + 13x - 6) / (x + 2), b=-2. Solutions-only (Example 1a).
-../tableau2png.py synthetic --dividend=1,-2,0,13,-6 --b=-2 \
-  --out ../u2lessons-media/u2lesson02-image02.png

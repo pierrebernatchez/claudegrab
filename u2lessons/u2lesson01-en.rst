@@ -43,7 +43,7 @@ Long division can be used to calculate :math:`107 \div 4` as follows:
 - You then repeat these steps until there are no more digits in the
   dividend to bring down.
 
-.. image:: ../images/u2lesson01-image01.png
+.. image:: ../images/u2lesson01-tabimage01.png
    :alt: 107 divided by 4 using long division, quotient 26 remainder 3
 
 Every division statement that involves numbers can be rewritten using
@@ -110,7 +110,7 @@ using long division as well...
   the degree of the divisor. The divisor is degree 1 and the remainder is
   now degree 0, so we stop.
 
-.. image:: ../images/u2lesson01-image03.png
+.. image:: ../images/u2lesson01-tabimage03.png
    :alt: (3x^3 - 5x^2 - 7x - 1) divided by (x - 3) using long division, quotient 3x^2 + 4x + 5 remainder 14
 
 The result of the division of :math:`P(x)` by a binomial of the form :math:`x - b` is:

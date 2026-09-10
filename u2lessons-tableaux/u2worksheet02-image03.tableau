@@ -1,5 +1,0 @@
-#!/bin/bash
-### u2worksheet02-image03.tableau
-### Synthetic division: (6x^4 + 13x^3 - 34x^2 - 47x + 28) / (x + 3), b=-3. Q1c.
-../tableau2png.py synthetic --dividend=6,13,-34,-47,28 --b=-3 \
-  --out ../u2lessons-media/u2worksheet02-image03.png

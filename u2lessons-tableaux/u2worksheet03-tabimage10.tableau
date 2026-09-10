@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2worksheet03-tabimage10.tableau
+### Synthetic division: (x^4 - 15x^2 - 10x + 24) / (x - 1), b=1. Q6c, first factor.
+../tableau2png.py synthetic --dividend=1,0,-15,-10,24 --b=1 \
+  --out ../u2lessons-media/u2worksheet03-tabimage10.png

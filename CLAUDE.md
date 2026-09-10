@@ -164,15 +164,39 @@ doesn't apply. These use a parallel pipeline instead, unit2-onward only
   for synthetic division) by measuring the rendered ink directly — rinoh's
   array renderer supports neither `\cline`, `\multicolumn`, a `|` column
   separator, nor `\hline` (confirmed by direct test, not assumption).
-- `uNlessons-tableaux/uNlessonNN-imageMM.tableau` /
-  `uNlessons-tableaux/uNworksheetNN-imageMM.tableau` — one shell script per
-  tableau figure, the same role `lessons-gp/*.gp` plays for `gnuplot`
+- `uNlessons-tableaux/uNlessonNN-tabimageMM.tableau` /
+  `uNlessons-tableaux/uNworksheetNN-tabimageMM.tableau` — one shell script
+  per tableau figure, the same role `lessons-gp/*.gp` plays for `gnuplot`
   figures: standalone and re-runnable, its only job is invoking
   `tableau2png.py` with this figure's specific numbers and writing into
   `uNlessons-media/`. `MM` follows the same reading-order numbering rule as
   `.gp` figures (see "Naming convention" above) — a lesson's figures can
   mix `.gp` and `.tableau` scripts sharing one `MM` sequence, numbered by
   where they fall in the source PDF, not by which tool produced them.
+  **`gpimage`/`tabimage` naming protocol (mandatory for every unit that
+  has a `-tableaux` directory, i.e. unit2 onward — retrofitted onto
+  unit2 on 2026-09-10, not just applied going forward):** since a `.gp`
+  script and a `.tableau` script for the same lesson both write into the
+  same flat `uNlessons-media/` directory and share one `MM` numbering
+  pool, a mis-numbered pair (the same `MM` accidentally assigned to both
+  a `.gp` and a `.tableau` script) would make one silently overwrite the
+  other's PNG with no error from either `render-all.sh`. Rather than
+  adding a runtime check for this, the file naming itself avoids the
+  collision by construction: `.gp` scripts and their PNG output are
+  `...-gpimageMM.gp`/`.png`, `.tableau` scripts and their PNG output are
+  `...-tabimageMM.tableau`/`.png` — the two can never target the same
+  filename even if `MM` is reused by mistake. `MM` still means the same
+  thing as before (shared reading-order position across both tools, not a
+  separate per-tool counter) — only the filename gained a type tag, the
+  numbering logic didn't change. `.rst` `image::` references must use
+  whichever prefix matches how that specific figure was actually
+  generated. **Unit1 is the only exemption** (no `-tableaux` directory at
+  all, so no collision is possible there — its `.gp` scripts keep plain
+  `imageMM` naming). A detection-based runtime guard (a checker script run
+  from both `render-all.sh` scripts) was considered and deliberately
+  rejected in favour of this naming-level fix — see
+  `project_naming_convention` memory for 2026-09-10 if the reasoning
+  needs revisiting.
 - `uNlessons-tableaux/render-all.sh` — renders every `*.tableau` script in
   that directory, same convention as `lessons-gp/render-all.sh`.
 - `test_divtableau.py` (repo root) — pixel-verified regression tests for
@@ -301,6 +325,15 @@ without any error, and it's easy to miss on a quick visual check (found in
 against a `yrange` topping out at 10).
 
 ## Per-lesson / per-worksheet workflow
+
+**`lessonNN` and `worksheetNN` are done together as one bundled unit of
+work, not sequentially across separate requests.** Starting `lessonNN`
+means doing all four English documents before moving on to `lessonNN+1`:
+`lessonNN-en.rst`, `lessonNN-solutions-en.rst`, `worksheetNN-en.rst`, and
+`worksheetNN-solutions-en.rst`. Don't build just the lesson (or just the
+worksheet) and treat the pair as done — this was worked around out of
+order for unit2's lessons 3-5 before worksheets 3-5 existed; from here on,
+do the worksheet as part of the same request as its paired lesson.
 
 For each new lesson or worksheet, follow this order — don't skip ahead or
 combine steps (applies equally to `lessonNN-*` and `worksheetNN-*` documents):

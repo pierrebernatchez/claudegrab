@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2lesson01-tabimage08.tableau
+### Long division: (2x^3 + x^2 - 3x - 6) / (x + 1), Example 4b (remainder-theorem verification). Solutions-only.
+../tableau2png.py poly --dividend="2,1,-3,-6" --divisor="1,1" \
+  --out ../u2lessons-media/u2lesson01-tabimage08.png

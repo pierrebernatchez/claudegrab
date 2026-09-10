@@ -1,5 +1,0 @@
-#!/bin/bash
-### u2worksheet02-image10.tableau
-### Synthetic division: (x^4 - 16x^3 + 4x^2 + 10x - 11) / (x + 4), b=-4. Q2b.
-../tableau2png.py synthetic --dividend=1,-16,4,10,-11 --b=-4 \
-  --out ../u2lessons-media/u2worksheet02-image10.png

@@ -55,7 +55,7 @@ Divisez :math:`3x^3 - 5x^2 - 7x - 1` par :math:`x - 3`. Dans cette question,
   précèdent sont les coefficients du quotient, en commençant par le degré
   inférieur d'un à celui du dividende.
 
-.. image:: ../images/u2lesson02-image01.png
+.. image:: ../images/u2lesson02-tabimage01.png
    :alt: division synthétique de 3x^3 - 5x^2 - 7x - 1 par x - 3, b = 3, quotient 3x^2 + 4x + 5 reste 14
 
 N'oubliez pas que la réponse peut s'écrire de deux façons...
@@ -125,7 +125,7 @@ Divisez :math:`6x^3 + 5x^2 - 16x - 15` par :math:`2x + 3`
   :math:`\left(x + \dfrac{3}{2}\right)` à l'aide de la division synthétique,
   à condition de se rappeler de diviser le quotient par 2 par la suite.
 
-.. image:: ../images/u2lesson02-image04.png
+.. image:: ../images/u2lesson02-tabimage04.png
    :alt: division synthétique de 6x^3 + 5x^2 - 16x - 15 par x + 3/2, b = -3/2, avant de diviser par 2 : quotient 6x^2 - 4x - 10 reste 0
 
 Vérifiez la réponse à l'aide de la division longue
