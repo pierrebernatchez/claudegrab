@@ -1,20 +1,26 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with
+code in this repository. It holds the facts specific to *this* repo — actual
+directories, filenames, tool paths. The general, portable process behind
+these rules — and the reasoning/history for each one — lives in
+`METHODOLOGY.md`; **read it too** before doing any lesson/worksheet content
+work, this file only restates the actionable "what," not the "why."
 
 ## What this repository is
 
 This is not a software application — it's a personal workspace for turning math
 lesson and worksheet PDFs into illustrated `.rst` documents, with each figure
 regenerated as a standalone `gnuplot` script. There is no build system, package
-manifest, linter, or test suite, and no git repository initialized here yet.
-The repo is meant to hold many lessons over time, not just one.
+manifest, linter, or test suite. The repo is meant to hold many lessons over
+time, not just one.
 
 Course material is organized into units. A unit's lesson count varies —
 don't assume a fixed number (unit1 had 5 lessons, unit2 has 6). Each
 lesson has two paired deliverables: a **lesson** (with its solutions) and a
 **worksheet** (with its solutions) — four documents per lesson in total,
-each in English and French.
+each in English and French. See METHODOLOGY.md's "deliverable shape" and
+"build order discipline" sections for why this is bundled the way it is.
 
 ## Directory layout
 
@@ -34,7 +40,7 @@ Each unit gets its own set of top-level directories:
   — unit2's content, and `u3lessons/` etc. for unit3 onward, following
   the same pattern. **Every unit from unit2 onward uses a `uN` prefix on
   both the directory names and every filename inside them** (e.g.
-  `u2lesson01-solutions-en.rst`, `u2lesson01-image04.gp`) — this is what
+  `u2lesson01-solutions-en.rst`, `u2lesson01-gpimage04.gp`) — this is what
   actually guarantees no collisions once Pelican flattens everything,
   and it's why the `unitN/` subdirectory approach was unnecessary.
   Unit2 also has `u2lessons-tableaux/` — a fifth per-unit directory, for
@@ -60,7 +66,7 @@ Each unit gets its own set of top-level directories:
 
 Template/reference material that isn't specific to any one unit (e.g.
 `example-en.rst`, `example-fr.rst`, `instructions-re-attributes.txt`)
-stays at the repo root.
+stays at the repo root. So do `CLAUDE.md` and `METHODOLOGY.md` themselves.
 
 **`images` / `lessons-media` — real directory vs. local symlink:** every
 unit's `.gp` scripts write their figures directly into that unit's own
@@ -68,11 +74,10 @@ real media directory — `lessons-media/` for unit1, `uNlessons-media/`
 for unit2 onward (e.g. `set output '../lessons-media/lesson01-image01.png'`).
 No indirection in the `.gp` scripts themselves. But every `.rst` file's
 `image::` reference stays `../images/<file>.png` regardless of unit (per
-the established naming convention, this path is never supposed to
-change) — since a flat repo can only have one directory literally named
-`images` at a time, whichever unit you're actively rendering/testing
-needs a local `images` symlink pointed at that unit's real media
-directory, e.g.:
+the naming convention below, this path is never supposed to change) —
+since a flat repo can only have one directory literally named `images` at
+a time, whichever unit you're actively rendering/testing needs a local
+`images` symlink pointed at that unit's real media directory, e.g.:
 
 ```
 ln -sfn lessons-media images      # working on unit1
@@ -81,21 +86,20 @@ ln -sfn u2lessons-media images    # working on unit2
 
 This `images` symlink is intentionally **not committed to git**
 (`.gitignore`'d) — it's recreated per work session depending on which
-unit you're rendering, rather than fixed as static repo state, since a
-flat repo layout means only one unit's media directory can be aliased as
-`images` at a time. Because unit1 is unprefixed and unit2+ filenames all
-carry the `uN` prefix, forgetting to re-point this symlink before
-switching units fails loudly (missing file) rather than silently serving
-the wrong unit's figure, since filenames never collide across units.
+unit you're rendering, rather than fixed as static repo state. Because
+unit1 is unprefixed and unit2+ filenames all carry the `uN` prefix,
+forgetting to re-point this symlink before switching units fails loudly
+(missing file) rather than silently serving the wrong unit's figure.
 (Unit1 originally wrote figures into `images/` directly with no separate
 `lessons-media/`; retrofitted on 2026-09-07 to match this scheme.)
 
-As of 2026-09-07 unit1 (5 lessons) is complete and unprefixed; unit2 (6
-lessons) scaffolding exists (`u2lessons/`, `u2lessons-gp/`,
-`u2lessons-media/`, `u2lessons-pdfs/`) with content not yet started.
-When starting a future unit, create its `uNlessons/`, `uNlessons-gp/`,
-`uNlessons-media/`, `uNlessons-pdfs/` directories fresh at the repo root
-and apply the `uN` prefix to every file inside them from the start.
+As of 2026-09-10 unit1 (5 lessons) is complete and unprefixed; unit2 (6
+lessons) English is fully built (lessons/worksheets 1-6, blank +
+solutions), French exists only for lesson/worksheet 1-2, awaiting the
+user's batch review. When starting a future unit, create its
+`uNlessons/`, `uNlessons-gp/`, `uNlessons-media/`, `uNlessons-pdfs/`
+directories fresh at the repo root and apply the `uN` prefix to every
+file inside them from the start.
 
 ## Naming convention
 
@@ -104,7 +108,7 @@ paired worksheet is prefixed `worksheetNN-` (two-digit, zero-padded, scales to
 many lessons without collisions). `worksheetNN` shares the same `NN` as the
 `lessonNN` it's paired with — they're not on independent counters. For unit2
 onward, every one of these also carries the unit's `uN` prefix (e.g.
-`u2lesson01-en.rst`, `u2lesson01-image04.gp`) — unit1 stays unprefixed
+`u2lesson01-en.rst`, `u2lesson01-gpimage04.gp`) — unit1 stays unprefixed
 (grandfathered, see "Directory layout" above). The examples below use unit1's
 unprefixed form; for unit2+ substitute the `uN`-prefixed directory and file
 names throughout.
@@ -119,7 +123,8 @@ names throughout.
   = two-digit sequence number in reading order (top-to-bottom, page by
   page) through the source PDF, starting at `01`. Lesson and worksheet
   figures are numbered independently of each other (each starts its own
-  `MM` sequence at `01`).
+  `MM` sequence at `01`). For unit2 onward, see "Tableau figures" below —
+  this becomes `gpimageMM`/`tabimageMM`, not plain `imageMM`.
 - `lessons-media/lessonNN-imageMM.png` /
   `lessons-media/worksheetNN-imageMM.png` — the corresponding rendered
   figure. A `.gp` script's `set output` must read
@@ -137,12 +142,11 @@ names throughout.
   `lessons-pdfs/lessonNN-solutions-en.pdf` (and the `worksheetNN`
   equivalents) — rendered output for review.
 
-This scheme was adopted after lesson 1 was first built with unprefixed
-`imageNN.gp`/`.png` names in a flat directory — that only works for a single
-lesson. Don't regress to flat/unprefixed names when adding a new lesson or
-worksheet. The `solutions` segment (not `answers`) is used for both lesson
-and worksheet solution documents, for consistency between the two content
-types.
+The `solutions` segment (not `answers`) is used for both lesson and
+worksheet solution documents, for consistency between the two content
+types. Don't regress to flat/unprefixed names when adding a new lesson or
+worksheet, and don't reuse plain `imageMM` naming for unit2+ — see
+"Tableau figures" below.
 
 ## Tableau figures (long/synthetic division diagrams)
 
@@ -150,7 +154,9 @@ Not every figure is a `gnuplot` plot. Starting with unit2 (long division of
 polynomials, synthetic division), some figures are typeset math — a LaTeX
 array, with rules the array itself can't draw — not a curve, so `gnuplot`
 doesn't apply. These use a parallel pipeline instead, unit2-onward only
-(unit1 has no `lessons-tableaux/` directory; it never needed one):
+(unit1 has no `lessons-tableaux/` directory; it never needed one). See
+METHODOLOGY.md's "know when your primary rendering tool doesn't apply" for
+the general reasoning behind this second pipeline.
 
 - `divtableau.py` (repo root) — standalone (no dependency on this repo,
   Sphinx, or any specific renderer), lays out the array body for three
@@ -161,9 +167,7 @@ doesn't apply. These use a parallel pipeline instead, unit2-onward only
   `single2pdf` (this project's existing rinoh pipeline), rasterizes with
   `pdftoppm`, then draws whatever rules the array itself couldn't
   (overline/underline for long division; the vertical+horizontal bracket
-  for synthetic division) by measuring the rendered ink directly — rinoh's
-  array renderer supports neither `\cline`, `\multicolumn`, a `|` column
-  separator, nor `\hline` (confirmed by direct test, not assumption).
+  for synthetic division) by measuring the rendered ink directly.
 - `uNlessons-tableaux/uNlessonNN-tabimageMM.tableau` /
   `uNlessons-tableaux/uNworksheetNN-tabimageMM.tableau` — one shell script
   per tableau figure, the same role `lessons-gp/*.gp` plays for `gnuplot`
@@ -173,37 +177,24 @@ doesn't apply. These use a parallel pipeline instead, unit2-onward only
   `.gp` figures (see "Naming convention" above) — a lesson's figures can
   mix `.gp` and `.tableau` scripts sharing one `MM` sequence, numbered by
   where they fall in the source PDF, not by which tool produced them.
-  **`gpimage`/`tabimage` naming protocol (mandatory for every unit that
-  has a `-tableaux` directory, i.e. unit2 onward — retrofitted onto
-  unit2 on 2026-09-10, not just applied going forward):** since a `.gp`
-  script and a `.tableau` script for the same lesson both write into the
-  same flat `uNlessons-media/` directory and share one `MM` numbering
-  pool, a mis-numbered pair (the same `MM` accidentally assigned to both
-  a `.gp` and a `.tableau` script) would make one silently overwrite the
-  other's PNG with no error from either `render-all.sh`. Rather than
-  adding a runtime check for this, the file naming itself avoids the
-  collision by construction: `.gp` scripts and their PNG output are
-  `...-gpimageMM.gp`/`.png`, `.tableau` scripts and their PNG output are
-  `...-tabimageMM.tableau`/`.png` — the two can never target the same
-  filename even if `MM` is reused by mistake. `MM` still means the same
-  thing as before (shared reading-order position across both tools, not a
-  separate per-tool counter) — only the filename gained a type tag, the
-  numbering logic didn't change. `.rst` `image::` references must use
-  whichever prefix matches how that specific figure was actually
-  generated. **Unit1 is the only exemption** (no `-tableaux` directory at
-  all, so no collision is possible there — its `.gp` scripts keep plain
-  `imageMM` naming). A detection-based runtime guard (a checker script run
-  from both `render-all.sh` scripts) was considered and deliberately
-  rejected in favour of this naming-level fix — see
-  `project_naming_convention` memory for 2026-09-10 if the reasoning
-  needs revisiting.
+  **`gpimage`/`tabimage` naming (mandatory for every unit that has a
+  `-tableaux` directory, i.e. unit2 onward):** `.gp` scripts and their PNG
+  output are `...-gpimageMM.gp`/`.png`; `.tableau` scripts and their PNG
+  output are `...-tabimageMM.tableau`/`.png` — the two can never target
+  the same filename even if `MM` is reused by mistake. `MM` still means
+  the same thing as before (shared reading-order position across both
+  tools) — only the filename gained a type tag. `.rst` `image::`
+  references must use whichever prefix matches how that specific figure
+  was actually generated. **Unit1 is the only exemption** (no
+  `-tableaux` directory at all, so no collision is possible there — its
+  `.gp` scripts keep plain `imageMM` naming). See METHODOLOGY.md's
+  "preventing collisions by construction" for why this is a naming rule
+  and not a runtime guard script.
 - `uNlessons-tableaux/render-all.sh` — renders every `*.tableau` script in
   that directory, same convention as `lessons-gp/render-all.sh`.
 - `test_divtableau.py` (repo root) — pixel-verified regression tests for
   `divtableau.py`'s layout math. Run `python3 test_divtableau.py` after any
-  change to `divtableau.py` — a passing run doesn't by itself prove a *new*
-  case's LaTeX renders correctly (verify a new case visually at least
-  once), but it does prove every already-verified case still does.
+  change to `divtableau.py`.
 
 Requires `single2pdf` on `PATH` (or at `~/.rinohbox/bashsources/single2pdf`)
 and `pdftoppm` (poppler-utils) — same external tools the `.gp` pipeline
@@ -215,17 +206,13 @@ needs `gnuplot` for, see "Environment" below — plus Pillow and numpy for
 - The document title uses an **underline only** (no overline), with `#` as
   the adornment character — deliberately different from body section
   headings, which underline with `=`. This matches the Pelican rendering
-  setup these documents are built for, which prefers underline-only headings.
+  setup these documents are built for.
 - Every heading underline (title and section) is padded to a fixed 80
-  characters, regardless of how long the heading text actually is — docutils
-  only requires the underline be *at least* as long as the title, so
-  overshooting is always safe. This is intentional: lessons get translated to
-  French, where the same heading text is often longer, and a fixed long
-  underline means translation never requires re-measuring or fixing adornment
-  lines by hand.
-- When adding a new heading anywhere in a `lessonNN-*.rst` file, use a title
+  characters, regardless of how long the heading text actually is. When
+  adding a new heading anywhere in a `lessonNN-*.rst` file, use a title
   line followed by 80 `=` characters (or 80 `#` for the document title) —
-  don't match the underline length to the text.
+  don't match the underline length to the text. See METHODOLOGY.md's
+  "translation-safety technique" section for why.
 - On the rare occasion a French title itself exceeds 80 characters (seen
   first with `worksheet02-solutions-fr.rst`'s title), the fixed 80-char
   underline is no longer long enough and docutils raises "Title underline
@@ -233,96 +220,43 @@ needs `gnuplot` for, see "Environment" below — plus Pillow and numpy for
   past 80 (e.g. to 90) instead, and leave the 80-char default everywhere
   else. Verify with the docutils command below either way.
 
-## RST gotchas learned from lesson 1
+## RST gotchas — quick reference
 
-- **Bare runs of underscores as fill-in blanks will break the parser.** A line
-  consisting only of a repeated punctuation character (e.g. `________________`)
-  immediately following a text line is misread by docutils as a section-title
-  underline, throwing "Unexpected section title" errors. Fix: wrap every blank
-  in double backticks, e.g. `` ``________________`` ``, so it's an inline
-  literal instead of a bare adornment line.
-- **Lettered/roman labels like `a)`, `b)`, `i)`, `ii)` get silently
-  reinterpreted as enumerated-list markers**, and can render as renumbered
-  arabic lists (`1. 2. 3.`) in the final output — even when each label appears
-  alone in its own table cell or after other block content, not as part of an
-  obviously continuous list. If the source document uses these as plain labels
-  (not an actual ordered list), escape the parenthesis: `a\)`, `i\)`, etc.
-  Verify with docutils before trusting the output:
-  ```
-  python3 -c "from docutils.core import publish_doctree; publish_doctree(open('lessons/lessonNN-en.rst').read())"
-  ```
-  Any `SEVERE`/`Unexpected section title` output, or unexpected enumerator
-  renumbering when spot-checking a rendered PDF, means something needs escaping.
-- **FIXED 2026-09-07, no longer an issue — kept here for history.** A line
-  starting at column 0 with `:math:` (or any other inline role, e.g.
-  `:sup:`) used to silently vanish from the rendered PDF. This was
-  originally misdiagnosed as a rinoh field-list-parsing quirk, but the
-  real cause was in the external rendering pipeline's own staging step
-  (`single2pdf`'s `copy_no_meta` helper, outside this repo): it stripped
-  Pelican's metadata field list (`:slug: foo`, `:date: ...`, etc.) from
-  the top of the file using a regex that matched *any* line starting
-  with a `:word:`-shaped token, applied to the whole file rather than
-  just the leading metadata block — so a bare `:math:`...`` ` line
-  anywhere in the document body got deleted before Sphinx/rinoh ever
-  saw it. Fixed at the source by scoping that stripping to a leading
-  window of the file instead of the entire document. Because of this,
-  `:math:` (or any role) starting a line is no longer special — don't
-  bother reflowing to avoid it, and the `grep -rn '^:math:'
-  lessons/*.rst` check that used to gate "done" is obsolete and doesn't
-  need to be run anymore.
-- **A table cell whose entire content is a bare `-` or `+` gets misread as
-  an empty bullet list** (`-`, `*`, and `+` are all valid RST bullet
-  markers), rendering as a lone bullet dot instead of the actual
-  character. Found in `iii)` sign-of-`f(x)` tables. Fix: wrap it as an
-  inline literal, e.g. ``` ``-`` ``` / ``` ``+`` ```, or spell it out
-  (`Positive`/`Negative`) if the cell has room.
-- **A genuinely empty table cell (nothing at all) can collapse to
-  near-zero height in the rinoh pipeline**, since row height is driven by
-  its tallest cell's line box and an empty cell may not get one — this
-  makes blank "fill this in" tables in the student-facing `-en`/`-fr`
-  `.rst` render much smaller than the same table in the `-solutions`
-  version, too small to write an answer into. Fix: put a non-breaking
-  space placeholder in every blank cell instead of leaving it empty, e.g.
-  `- |nbsp|` (with `.. |nbsp| unicode:: 0xA0` defined near the top of the
-  file, alongside `|copy|`/`|---|`). Apply this from the start for any
-  new lesson/worksheet's blank-answer tables — don't wait for a
-  retrofit like lesson01–04 needed on 2026-09-06.
-- **A `.. math::` block directive inside any cell of a `list-table` row
-  that has 2+ actually-populated cells hangs the rinoh renderer
-  indefinitely** (confirmed: `sphinx-build -b rinoh` spins at ~100% CPU,
-  `output.pdf` stays 0 bytes, never returns even under a long timeout).
-  Found and bisected 2026-09-09 in `u2worksheet02-solutions-en.rst`.
-  Isolated by elimination: not about images (2-cell rows with only
-  images render fine), not about stacked/multiple math blocks per cell,
-  not about extra paragraphs, not about needing math in both cells — one
-  `.. math::` block in just one cell of a real 2-column row is
-  sufficient to trigger it. A `.. math::` block in a **single-column**
-  row (only one populated cell, regardless of `:widths:`) renders fine.
-  **Fix: don't put `.. math::` directives inside multi-column
-  `list-table` cells at all** — restructure to sequential single-column
-  content instead (e.g. a bold `**a\)**` label followed by an image and
-  `.. math::` block, then the next label, and so on top-to-bottom,
-  rather than pairing two problems side by side in a table row). This
-  was also judged the better pedagogical choice independent of the
-  rendering bug — side-by-side pairing here was inherited from the
-  source PDF's print-space economy, not a deliberate "compare these two"
-  teaching device, and full-width rows give more legible diagrams for a
-  document meant for learning. Revisit only if a genuine pedagogical
-  case for a side-by-side layout comes up for some future lesson.
+Full narrative and reasoning for each of these is in METHODOLOGY.md's
+"toolchain gotchas" section. Actionable rules only, here:
+
+- Bare runs of a punctuation character as fill-in blanks (e.g.
+  `________________`) get misread as section-title underlines. Wrap in
+  double backticks: `` ``________________`` ``.
+- Labels like `a)`, `i)`, `ii)` get silently reinterpreted as
+  ordered-list markers. Escape the parenthesis: `a\)`, `i\)`.
+- A table cell containing only a bare `-` or `+` gets misread as an
+  empty bullet list. Wrap as an inline literal: ``` ``-`` ``` / ``` ``+`` ```.
+- A genuinely empty table cell can collapse to near-zero height. Put a
+  non-breaking-space placeholder in every blank cell: `- |nbsp|` (with
+  `.. |nbsp| unicode:: 0xA0` defined near the top of the file).
+- A `.. math::` block directive inside any cell of a `list-table` row
+  with 2+ populated cells hangs the rinoh renderer indefinitely. Don't
+  put `.. math::` block directives inside multi-column `list-table`
+  cells — restructure to sequential single-column content instead.
+
+Verify any `.rst` file with:
+```
+python3 -c "from docutils.core import publish_doctree; publish_doctree(open('lessons/lessonNN-en.rst').read())"
+```
+Any `SEVERE`/`Unexpected section title` output, or unexpected enumerator
+renumbering when spot-checking a rendered PDF, means something needs escaping.
 
 ## Environment
 
 `gnuplot` is installed system-wide (`gnuplot --version` to check).
 
 For any figure built from a constructed/schematic expression rather than a
-plain transcription of the source's equation (e.g. a hand-drawn-style
-sketch built to hit a target turning-point/x-intercept count), sample the
-function across the full `xrange` before fixing `yrange` — e.g.
+plain transcription of the source's equation, sample the function across
+the full `xrange` before fixing `yrange` — e.g.
 `gnuplot -e 'f(x)=...; do for [i=...] { x=i/10.0; print x, f(x) }' | sort -k2 -n`.
 A local extremum sitting just past the chosen `yrange` will silently clip
-without any error, and it's easy to miss on a quick visual check (found in
-`worksheet02-image09.gp`, where a local max at x≈-2.5 peaked at y≈12.15
-against a `yrange` topping out at 10).
+without any error. See METHODOLOGY.md's "verification discipline" section.
 
 ## Per-lesson / per-worksheet workflow
 
@@ -330,46 +264,26 @@ against a `yrange` topping out at 10).
 work, not sequentially across separate requests.** Starting `lessonNN`
 means doing all four English documents before moving on to `lessonNN+1`:
 `lessonNN-en.rst`, `lessonNN-solutions-en.rst`, `worksheetNN-en.rst`, and
-`worksheetNN-solutions-en.rst`. Don't build just the lesson (or just the
-worksheet) and treat the pair as done — this was worked around out of
-order for unit2's lessons 3-5 before worksheets 3-5 existed; from here on,
-do the worksheet as part of the same request as its paired lesson.
+`worksheetNN-solutions-en.rst`.
 
 For each new lesson or worksheet, follow this order — don't skip ahead or
-combine steps (applies equally to `lessonNN-*` and `worksheetNN-*` documents):
+combine steps (applies equally to `lessonNN-*` and `worksheetNN-*`
+documents). Full rationale for each step is in METHODOLOGY.md's "build
+order discipline" and "blank-space sizing convention" sections:
 
 1. Convert the source English PDF to `lessonNN-solutions-en.rst` (or the
-   `worksheetNN-solutions` equivalent) first, fully worked, plus the
-   `*-imageMM.gp`/`.png` figures — **solutions before blank, not the other
-   way around.** Then derive `lessonNN-en.rst` (the blank/student version)
-   *from* the solutions file: same structure, same instructional text
-   (question prompts, generic explanatory bullets/formulas that aren't
-   solution-specific), but every actual answer — an image/tableau showing
-   worked steps, a `.. math::` block stating a computed result — replaced
-   with blank writing space instead of just deleted, sized to roughly
-   match what it's replacing (a full tableau/derivation needs more room
-   than a single equation): 8 stacked `|nbsp|`-only paragraphs (blank line
-   between each, so each is its own paragraph) for substantial work, a
-   handful of stacked `|nbsp|` paragraphs for a single short equation,
-   inline `` `_____` `` blanks for a short numeric fill-in embedded
-   directly in a sentence (matching whatever inline-vs-block shape the
-   solution's own content has). Drop any leading label that just restates
-   what's obviously expected (`Answer:`, `The result in quotient form
-   is:`) — once real blank space is shown after a clearly-stated question,
-   the label is redundant. (This ordering was reversed from earlier
-   practice on 2026-09-09 after the blank version of a worksheet was
-   found built independently of its solutions file and ended up with far
-   too little room for the actual work — deriving the blank version
-   mechanically from the already-correct solutions file, by subtraction,
-   avoids that mismatch by construction instead of needing a later
-   comparison pass to catch it.)
+   `worksheetNN-solutions` equivalent) first, fully worked, plus its
+   figures — solutions before blank. Then derive `lessonNN-en.rst` (the
+   blank/student version) *from* the solutions file: same structure and
+   instructional text, but every actual answer replaced with blank
+   writing space sized to roughly match what it's replacing — 8 stacked
+   `|nbsp|`-only paragraphs (blank line between each) for substantial
+   work, a handful for a single short equation, inline `` `_____` ``
+   blanks for a short numeric fill-in embedded directly in a sentence.
+   Drop any leading label that just restates what's obviously expected
+   (`Answer:`) once real blank space follows a clearly-stated question.
 2. Get the English proofed (rendered to PDF, reviewed against the source,
    RST/content bugs fixed) before translating anything.
 3. Only once the English is confirmed correct, translate it into
    `lessonNN-fr.rst` / `lessonNN-solutions-fr.rst` (or the `worksheetNN`
-   equivalents), reusing the same images (no need to regenerate figures per
-   language — they contain no language-specific text beyond generic axis
-   labels).
-
-Translating from unproofed English just propagates the same mistakes into a
-second language and doubles the fix-up work — proof first, translate second.
+   equivalents), reusing the same images.
