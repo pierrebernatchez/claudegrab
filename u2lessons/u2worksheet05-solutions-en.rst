@@ -62,14 +62,22 @@ the shared zeros :math:`-4`, :math:`2`, and :math:`5`.
 **3\)** The graphs of four polynomial functions are given. Which graphs
 represent functions that belong to the same family?
 
+**A\)**
+
 .. image:: ../images/u2worksheet05-gpimage01.png
    :alt: graph A -- cubic with zeros -2, 1, 3
+
+**B\)**
 
 .. image:: ../images/u2worksheet05-gpimage02.png
    :alt: graph B -- cubic with zeros -2, 1, 3, negative leading coefficient
 
+**C\)**
+
 .. image:: ../images/u2worksheet05-gpimage03.png
    :alt: graph C -- cubic with zero -2 and a double zero at 1, no zero at 3
+
+**D\)**
 
 .. image:: ../images/u2worksheet05-gpimage04.png
    :alt: graph D -- cubic with zeros -2, 1, 3, larger leading coefficient

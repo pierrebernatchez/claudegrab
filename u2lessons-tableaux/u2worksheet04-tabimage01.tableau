@@ -1,5 +1,5 @@
 #!/bin/bash
 ### u2worksheet04-tabimage01.tableau
 ### Synthetic division: (x^3 - 4x^2 - 3x + 18) / (x + 2), b=-2. Q2a.
-../tableau2png.py synthetic --dividend=1,-4,-3,18 --b=-2 \
+../tableau2png.py synthetic --dividend=1,-4,-3,18 --b=-2 --label-terms \
   --out ../u2lessons-media/u2worksheet04-tabimage01.png

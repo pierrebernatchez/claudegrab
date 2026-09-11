@@ -1,5 +1,5 @@
 #!/bin/bash
 ### u2lesson03-tabimage05.tableau
 ### Synthetic division: (x^3 + 2x^2 - 9x - 18) / (x + 2), b=-2. Example 3, Method 1 (Division), second factor.
-../tableau2png.py synthetic --dividend=1,2,-9,-18 --b=-2 \
+../tableau2png.py synthetic --dividend=1,2,-9,-18 --b=-2 --label-terms \
   --out ../u2lessons-media/u2lesson03-tabimage05.png

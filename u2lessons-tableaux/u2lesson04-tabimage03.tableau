@@ -1,5 +1,5 @@
 #!/bin/bash
 ### u2lesson04-tabimage03.tableau
 ### Synthetic division: (x^4 - 2x^3 - 7x^2 + 8x + 12) / (x + 1), b=-1. Example 4.
-../tableau2png.py synthetic --dividend=1,-2,-7,8,12 --b=-1 \
+../tableau2png.py synthetic --dividend=1,-2,-7,8,12 --b=-1 --label-terms \
   --out ../u2lessons-media/u2lesson04-tabimage03.png

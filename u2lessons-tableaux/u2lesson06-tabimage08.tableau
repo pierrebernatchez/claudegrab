@@ -2,5 +2,5 @@
 ### u2lesson06-tabimage08.tableau
 ### Synthetic division: (t^3 - 11t^2 + 28t - 180) / (t - 10), b=10. Part 2
 ### Q3, finding when the stock price equation crosses $90.
-../tableau2png.py synthetic --dividend=1,-11,28,-180 --b=10 --var=t \
+../tableau2png.py synthetic --dividend=1,-11,28,-180 --b=10 --var=t --label-terms \
   --out ../u2lessons-media/u2lesson06-tabimage08.png

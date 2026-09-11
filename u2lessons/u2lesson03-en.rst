@@ -48,10 +48,10 @@ Part 1: Remainder Theorem Refresher
 
 |nbsp|
 
-**Remainder Theorem:** When a polynomial function :math:`P(x)` is divided by
-:math:`x - b`, the remainder is :math:`P(b)`; and when it is divided by
-:math:`ax - b`, the remainder is :math:`P\left(\dfrac{b}{a}\right)`, where
-:math:`a` and :math:`b` are integers, and :math:`a \neq 0`.
+    **Remainder Theorem:** When a polynomial function :math:`P(x)` is divided
+    by :math:`x - b`, the remainder is :math:`P(b)`; and when it is divided
+    by :math:`ax - b`, the remainder is :math:`P\left(\dfrac{b}{a}\right)`,
+    where :math:`a` and :math:`b` are integers, and :math:`a \neq 0`.
 
 **b\)** Verify your answer to part a\) by completing the division using long
 division or synthetic division.
@@ -74,9 +74,9 @@ Note: I chose synthetic since it is a linear divisor of the form :math:`x - b`.
 
 |nbsp|
 
-**Factor Theorem:** :math:`x - b` is a factor of a polynomial :math:`P(x)` if
-and only if :math:`P(b) = 0`. Similarly, :math:`ax - b` is a factor of
-:math:`P(x)` if and only if :math:`P\left(\dfrac{b}{a}\right) = 0`.
+    **Factor Theorem:** :math:`x - b` is a factor of a polynomial :math:`P(x)`
+    if and only if :math:`P(b) = 0`. Similarly, :math:`ax - b` is a factor of
+    :math:`P(x)` if and only if :math:`P\left(\dfrac{b}{a}\right) = 0`.
 
 **Example 1:** Determine if :math:`x - 3` and :math:`x + 2` are factors of
 :math:`P(x) = x^3 - x^2 - 14x + 24`
@@ -133,10 +133,10 @@ until you find one that works…
 
 Or you can use the Integral Zero Theorem to help.
 
-**Integral Zero Theorem:** If :math:`x - b` is a factor of a polynomial
-function :math:`P(x)` with leading coefficient 1 and remaining coefficients
-that are integers, then :math:`b` is a factor of the constant term of
-:math:`P(x)`.
+    **Integral Zero Theorem:** If :math:`x - b` is a factor of a polynomial
+    function :math:`P(x)` with leading coefficient 1 and remaining
+    coefficients that are integers, then :math:`b` is a factor of the
+    constant term of :math:`P(x)`.
 
 Note: Once one of the factors of a polynomial is found, division is used to
 determine the other factors.
@@ -357,14 +357,14 @@ The integral zero theorem can be extended to include polynomials with
 leading coefficients that are not 1. This extension is known as the
 rational zero theorem.
 
-**Rational Zero Theorem:** Suppose :math:`P(x)` is a polynomial function
-with integer coefficients and :math:`x = \dfrac{b}{a}` is a zero of
-:math:`P(x)`, where :math:`a` and :math:`b` are integers and :math:`a \neq
-0`. Then,
+    **Rational Zero Theorem:** Suppose :math:`P(x)` is a polynomial function
+    with integer coefficients and :math:`x = \dfrac{b}{a}` is a zero of
+    :math:`P(x)`, where :math:`a` and :math:`b` are integers and :math:`a
+    \neq 0`. Then,
 
-- :math:`b` is a factor of the constant term of :math:`P(x)`
-- :math:`a` is a factor of the leading coefficient of :math:`P(x)`
-- :math:`(ax - b)` is a factor of :math:`P(x)`
+    - :math:`b` is a factor of the constant term of :math:`P(x)`
+    - :math:`a` is a factor of the leading coefficient of :math:`P(x)`
+    - :math:`(ax - b)` is a factor of :math:`P(x)`
 
 **Example 5:** Factor :math:`P(x) = 3x^3 + 2x^2 - 7x + 2`
 

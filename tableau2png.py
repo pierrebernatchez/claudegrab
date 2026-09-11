@@ -100,8 +100,16 @@ POLY_RST_TEMPLATE = RST_PREAMBLE + """\
 # separate remainder block: the sum row's last cell already IS the
 # remainder, in-grid, matching how every textbook synthetic-division
 # tableau shows it (unlike long division's off-grid "R = ...").
+#
+# {title_block} is either empty, or an ordinary (non-array) ".. math::"
+# block placed before the array -- e.g. "(3x^3 - ...) \\div (x - 3)" --
+# when --title is passed. It renders as its own separate text band on
+# the page, same as the array; autocrop_tableau doesn't need to know
+# about it specifically since it already keeps everything between the
+# page's own title heading and the footer rule, whatever that turns out
+# to be.
 SYNTHETIC_RST_TEMPLATE = RST_PREAMBLE + """\
-.. math::
+{title_block}.. math::
    :nowrap:
 
    \\begin{{array}}{{{col_spec}}}
@@ -360,13 +368,20 @@ def draw_synthetic_lines(png_path, tableau, dpi):
     leftmost pixel already lands exactly at column 1's left edge --
     yielding the vertical rule's x-position with no need to know where
     LaTeX actually put the column boundary.
+
+    tableau.body may have a 4th row (the optional term-labeling row, see
+    divtableau.build_synthetic_tableau's label_terms) beneath the 3 rows
+    this function's geometry actually cares about -- sliced off with
+    array_bands[:3] below rather than unpacked directly, so an extra row
+    doesn't break this function; the label row needs no line drawn
+    around it at all.
     """
     im = Image.open(png_path).convert("RGB")
     mask = np.array(im.convert("L")) < 150
 
-    array_row_count = len(tableau.body.splitlines())  # 3: coeffs, products, sum
+    array_row_count = len(tableau.body.splitlines())  # 3, or 4 with label_terms
     row_extent, array_bands = _locate_array_bands(mask, array_row_count)
-    coeff_row, product_row, sum_row = array_bands
+    coeff_row, product_row, sum_row = array_bands[:3]
 
     draw = ImageDraw.Draw(im)
     line_width = max(round(dpi / 130), 2)
@@ -490,6 +505,12 @@ def main(argv=None):
     s.add_argument("--var", default="x")
     s.add_argument("--out", required=True)
     s.add_argument("--dpi", type=int, default=400)
+    s.add_argument("--title", action="store_true",
+                    help="add a title line above the array: (dividend) \\div (divisor), "
+                         "auto-formatted from --dividend/--b/--var")
+    s.add_argument("--label-terms", action="store_true",
+                    help="add a row beneath the sum row labeling each column's term "
+                         "(x^k / x / # / R)")
 
     args = parser.parse_args(argv)
 
@@ -509,8 +530,22 @@ def main(argv=None):
     elif args.mode == "synthetic":
         dividend = [int(x) for x in args.dividend.split(",")]
         b = Fraction(args.b)
-        tableau = divtableau.build_synthetic_tableau(dividend, b, args.var)
+        tableau = divtableau.build_synthetic_tableau(
+            dividend, b, args.var, label_terms=args.label_terms)
+        title_block = ""
+        if args.title:
+            # b can be a Fraction (ax - b divisors); format it the same
+            # way the tableau's own b-column does (divtableau._format_number,
+            # a proper \frac{}{} rather than format_poly's plain "3/2"
+            # text), so the title's divisor doesn't visually clash with
+            # the b shown in the array itself.
+            sign = "-" if b >= 0 else "+"
+            divisor_text = f"{args.var} {sign} {divtableau._format_number(abs(b))}"
+            title_text = (f"({divtableau.format_poly(dividend, args.var)}) "
+                          f"\\div ({divisor_text})")
+            title_block = f".. math::\n\n   {title_text}\n\n"
         rst_content = SYNTHETIC_RST_TEMPLATE.format(
+            title_block=title_block,
             col_spec=tableau.col_spec,
             body="\n".join("   " + line for line in tableau.body.splitlines()))
     else:

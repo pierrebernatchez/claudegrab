@@ -2,5 +2,5 @@
 ### u2lesson06-tabimage06.tableau
 ### Synthetic division: (x^3 + 3x^2 - 6x - 8) / (x + 1), b=-1. Example 4b,
 ### finding the factor after moving everything to one side and dividing by -2.
-../tableau2png.py synthetic --dividend=1,3,-6,-8 --b=-1 \
+../tableau2png.py synthetic --dividend=1,3,-6,-8 --b=-1 --label-terms \
   --out ../u2lessons-media/u2lesson06-tabimage06.png

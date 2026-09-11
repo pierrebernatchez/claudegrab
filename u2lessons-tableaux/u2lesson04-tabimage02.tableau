@@ -1,5 +1,5 @@
 #!/bin/bash
 ### u2lesson04-tabimage02.tableau
 ### Synthetic division: (2x^3 + 3x^2 - 11x - 6) / (x - 2), b=2. Example 3a.
-../tableau2png.py synthetic --dividend=2,3,-11,-6 --b=2 \
+../tableau2png.py synthetic --dividend=2,3,-11,-6 --b=2 --label-terms \
   --out ../u2lessons-media/u2lesson04-tabimage02.png

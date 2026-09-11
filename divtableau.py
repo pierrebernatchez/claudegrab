@@ -45,6 +45,7 @@ Command-line usage:
     python3 divtableau.py poly --dividend 3,-5,-7,-1 --divisor 1,-3
     python3 divtableau.py numeric --dividend 753 --divisor 22
     python3 divtableau.py synthetic --dividend 3,-5,-7,-1 --b 3
+    python3 divtableau.py synthetic --dividend 3,-5,-7,-1 --b 3 --label-terms
 """
 
 import argparse
@@ -482,7 +483,7 @@ class SyntheticTableau:
         self.col_spec = col_spec
 
 
-def build_synthetic_tableau(dividend, b, var='x'):
+def build_synthetic_tableau(dividend, b, var='x', label_terms=False):
     """Build a correctly-aligned synthetic-division tableau.
 
     dividend: coefficient list, highest degree first.
@@ -491,24 +492,59 @@ def build_synthetic_tableau(dividend, b, var='x'):
        form ax - b, re-written as x - b/a before calling this (dividing
        the resulting quotient by a is the caller's job -- this function
        only draws the grid for one synthetic division).
+    label_terms: optional (default off, per-figure choice by the caller
+       -- see CLAUDE.md's tableau naming section). When True, appends a
+       4th row beneath the sum row labeling what each result column
+       represents: "x^k" for the quotient's x^k coefficient (k >= 2),
+       bare "x" for its x^1 coefficient, "#" for its constant term
+       (matching the source material's own convention for "just a
+       number"), and "R" for the remainder column. Sharing the SAME
+       array as the other 3 rows (not a separate line drawn afterward)
+       is what guarantees this row lines up under the right columns --
+       same alignment-by-construction principle as every other row here.
 
     Returns a SyntheticTableau (see its docstring).
     """
     quotient, remainder, products = synthetic_division(dividend, b)
     result = quotient + [remainder]  # aligns 1:1 with dividend's columns
 
-    def render_row(cells):
+    def render_row(cells, rule_height='18pt'):
         # Same fixed-minimum-row-height trick as build_polynomial_tableau's
         # render_row, and for the same reason: without it, adjacent rows
-        # can end up with zero pixel gap between them.
-        cells = [r"\rule{0pt}{18pt}" + cells[0]] + cells[1:]
+        # can end up with zero pixel gap between them. rule_height controls
+        # THIS row's own forced minimum height (ascent) -- shrinking it
+        # (for the label row specifically) is how its gap to the row above
+        # is tightened. A LaTeX \\[<negative length>] row-spacing argument
+        # was tried first and rejected: confirmed by direct test that
+        # rinoh's array renderer doesn't support it either (same class of
+        # limitation as the already-documented missing \cline/\multicolumn/
+        # \hline) -- it printed the literal text "[-32pt]" into the cell
+        # instead of consuming it as spacing. rule_height sidesteps that
+        # entirely since \rule{}{} is already a proven-working mechanism
+        # elsewhere in this file.
+        cells = [rf"\rule{{0pt}}{{{rule_height}}}" + cells[0]] + cells[1:]
         return " & ".join(cells) + r" \\"
 
     row_b = [_format_number(b)] + [_format_number(c) for c in dividend]
     row_products = ['', ''] + [_format_number(p) for p in products]
     row_sum = [''] + [_format_number(v) for v in result]
 
-    body = "\n".join([render_row(row_b), render_row(row_products), render_row(row_sum)])
+    rows = [render_row(row_b), render_row(row_products), render_row(row_sum)]
+
+    if label_terms:
+        row_labels = ['']
+        for j in range(1, len(dividend)):
+            d = len(dividend) - 1 - j
+            if d == 0:
+                row_labels.append(r'\#')
+            elif d == 1:
+                row_labels.append(var)
+            else:
+                row_labels.append(f"{var}^{d}")
+        row_labels.append('R')
+        rows.append(render_row(row_labels, rule_height='6pt'))
+
+    body = "\n".join(rows)
     col_spec = "r " * (len(dividend) + 1)
     return SyntheticTableau(body, col_spec.strip())
 
@@ -539,6 +575,8 @@ def main(argv=None):
     s.add_argument("--dividend", required=True, help="comma-separated coeffs, highest degree first")
     s.add_argument("--b", required=True, help="zero of the divisor (x - b); accepts fractions like -3/2")
     s.add_argument("--var", default="x")
+    s.add_argument("--label-terms", action="store_true",
+                    help="add a row beneath the sum row labeling each column's term")
 
     args = parser.parse_args(argv)
 
@@ -561,7 +599,7 @@ def main(argv=None):
     elif args.mode == "synthetic":
         dividend = _parse_coeffs(args.dividend)
         b = Fraction(args.b)
-        t = build_synthetic_tableau(dividend, b, args.var)
+        t = build_synthetic_tableau(dividend, b, args.var, label_terms=args.label_terms)
         print(r"\begin{array}{" + t.col_spec + "}")
         print(t.body)
         print(r"\end{array}")

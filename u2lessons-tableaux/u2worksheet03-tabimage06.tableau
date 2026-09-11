@@ -1,5 +1,5 @@
 #!/bin/bash
 ### u2worksheet03-tabimage06.tableau
 ### Synthetic division: (6x^3 - 11x^2 - 26x + 15) / (x - 3), b=3. Q5c.
-../tableau2png.py synthetic --dividend=6,-11,-26,15 --b=3 \
+../tableau2png.py synthetic --dividend=6,-11,-26,15 --b=3 --label-terms \
   --out ../u2lessons-media/u2worksheet03-tabimage06.png

@@ -1,5 +1,5 @@
 #!/bin/bash
 ### u2worksheet03-tabimage04.tableau
 ### Synthetic division: (3x^3 + x^2 - 22x - 24) / (x + 2), b=-2. Q5a.
-../tableau2png.py synthetic --dividend=3,1,-22,-24 --b=-2 \
+../tableau2png.py synthetic --dividend=3,1,-22,-24 --b=-2 --label-terms \
   --out ../u2lessons-media/u2worksheet03-tabimage04.png

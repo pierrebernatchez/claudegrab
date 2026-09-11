@@ -1,5 +1,5 @@
 #!/bin/bash
 ### u2worksheet03-tabimage11.tableau
 ### Synthetic division: (x^3 + x^2 - 14x - 24) / (x + 2), b=-2. Q6c, second factor.
-../tableau2png.py synthetic --dividend=1,1,-14,-24 --b=-2 \
+../tableau2png.py synthetic --dividend=1,1,-14,-24 --b=-2 --label-terms \
   --out ../u2lessons-media/u2worksheet03-tabimage11.png

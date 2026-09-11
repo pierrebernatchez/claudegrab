@@ -1,5 +1,5 @@
 #!/bin/bash
 ### u2worksheet03-tabimage07.tableau
 ### Synthetic division: (4x^3 + 3x^2 - 4x - 3) / (x - 1), b=1. Q5d.
-../tableau2png.py synthetic --dividend=4,3,-4,-3 --b=1 \
+../tableau2png.py synthetic --dividend=4,3,-4,-3 --b=1 --label-terms \
   --out ../u2lessons-media/u2worksheet03-tabimage07.png

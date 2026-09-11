@@ -2,5 +2,5 @@
 ### u2worksheet02-tabimage06.tableau
 ### Synthetic division: (6x^3 - 15x^2 - 2x + 5) / (x - 5/2), b=5/2. Q1f
 ### (quotient row here is before the caller divides it by 2).
-../tableau2png.py synthetic --dividend=6,-15,-2,5 --b=5/2 \
+../tableau2png.py synthetic --dividend=6,-15,-2,5 --b=5/2 --label-terms \
   --out ../u2lessons-media/u2worksheet02-tabimage06.png

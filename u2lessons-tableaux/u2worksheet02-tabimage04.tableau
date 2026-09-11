@@ -3,5 +3,5 @@
 ### Synthetic division: (2x^3 + x^2 - 22x + 20) / (x - 3/2), b=3/2. Q1d
 ### (quotient row here is 2x^2 + 4x - 16, remainder -4, before the caller divides the
 ### quotient by 2 -- see the worksheet solutions text).
-../tableau2png.py synthetic --dividend=2,1,-22,20 --b=3/2 \
+../tableau2png.py synthetic --dividend=2,1,-22,20 --b=3/2 --label-terms \
   --out ../u2lessons-media/u2worksheet02-tabimage04.png

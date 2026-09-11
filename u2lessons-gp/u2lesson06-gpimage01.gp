@@ -24,6 +24,12 @@ set mytics 2
 
 set label 1 "y = x^2 + 4x - 12" at -10,4 font "Arial,10"
 
+# Vertical dashed lines through the zeros, to help the student visualize
+# the sign-chart partitions (x < -6, -6 < x < 2, x > 2) -- requested by
+# the user after comparing against the original upstream figure.
+set arrow 1 from -6, graph 0 to -6, graph 1 nohead dashtype 2 lc rgb "#666666" lw 1.5
+set arrow 2 from 2, graph 0 to 2, graph 1 nohead dashtype 2 lc rgb "#666666" lw 1.5
+
 unset key
 
 f(x) = x**2 + 4*x - 12

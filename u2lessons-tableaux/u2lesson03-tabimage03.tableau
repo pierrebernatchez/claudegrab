@@ -1,5 +1,5 @@
 #!/bin/bash
 ### u2lesson03-tabimage03.tableau
 ### Synthetic division: (x^3 + 2x^2 - 5x - 6) / (x - 2), b=2. Example 2, Method 2 -- same problem as image02, other method.
-../tableau2png.py synthetic --dividend=1,2,-5,-6 --b=2 \
+../tableau2png.py synthetic --dividend=1,2,-5,-6 --b=2 --label-terms \
   --out ../u2lessons-media/u2lesson03-tabimage03.png

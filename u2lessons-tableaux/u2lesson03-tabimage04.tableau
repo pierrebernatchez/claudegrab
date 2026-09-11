@@ -1,5 +1,5 @@
 #!/bin/bash
 ### u2lesson03-tabimage04.tableau
 ### Synthetic division: (x^4 + 3x^3 - 7x^2 - 27x - 18) / (x + 1), b=-1. Example 3, first factor found.
-../tableau2png.py synthetic --dividend=1,3,-7,-27,-18 --b=-1 \
+../tableau2png.py synthetic --dividend=1,3,-7,-27,-18 --b=-1 --label-terms \
   --out ../u2lessons-media/u2lesson03-tabimage04.png

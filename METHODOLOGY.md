@@ -146,7 +146,18 @@ renderers entirely. Confirm the renderer's limitation by direct test
 first, though — don't assume a missing feature from documentation alone;
 this project confirmed by testing that its LaTeX-array renderer supported
 none of `\cline`, `\multicolumn`, a `|` column separator, or `\hline`
-before deciding to draw those rules manually.
+before deciding to draw those rules manually. The same renderer later
+turned out not to support LaTeX's `\\[<length>]` optional row-spacing
+argument either — it printed the literal bracketed text into the cell
+instead of consuming it as spacing, caught only because the render was
+actually looked at (not just trusted from the source change) before
+showing it to the user. The fix was to control row spacing through a
+mechanism already proven to work in this pipeline (a
+`\rule{0pt}{<height>}` invisible strut controlling a row's own forced
+height) rather than reach for a second, unverified LaTeX primitive —
+when part of a renderer's LaTeX support is already known to be
+incomplete, prefer reusing an already-verified technique for a new but
+related adjustment over trusting another untested command.
 
 When a secondary pipeline like this has any nontrivial layout math of its
 own, give it its own regression test suite that pixel-verifies the layout
@@ -231,6 +242,18 @@ default everywhere else unchanged.
   worked steps as correct by construction. Re-derive or re-check the
   final numeric/symbolic answer against whatever the source material
   itself states, for every problem, not spot-checked.
+- **A visual read alone can miss silently dropped content, because the
+  remaining text can still read as coherent** — a sentence missing one
+  clause can still parse as a complete, sensible sentence, giving a
+  reviewer no cue that anything's gone. Found this project's own
+  rendering pipeline silently dropping a line of content that a full
+  visual review pass, by a careful reviewer, still didn't catch, because
+  what remained still made sense on its own. When a rendering bug is
+  found and fixed, don't just re-check the one document that surfaced
+  it — structurally re-scan every previously-reviewed document for the
+  same triggering condition (e.g. a grep for the pattern that caused the
+  bug), since anything with the same condition may have been
+  silently-wrong and already approved before the fix existed.
 
 ## Operational discipline
 
