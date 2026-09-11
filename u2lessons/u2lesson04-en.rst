@@ -35,6 +35,7 @@ Part 1: Investigation
 **a\)** Use technology to graph the function :math:`f(x) = x^4 - 13x^2 + 36`
 
 .. image:: ../images/u2lesson04-gpimage06.png
+   :scale: 50
    :alt: blank grid, x from -6 to 6, y from -10 to 50
 
 **b\)** Determine the x-intercepts from the graph
@@ -244,6 +245,7 @@ Comment on how :math:`x`-intercept(s) of the graph are related to the REAL
 and NON-REAL roots of the equation.
 
 .. image:: ../images/u2lesson04-gpimage07.png
+   :scale: 50
    :alt: blank grid, x from -2 to 4, y from -7 to 1
 
 |nbsp|

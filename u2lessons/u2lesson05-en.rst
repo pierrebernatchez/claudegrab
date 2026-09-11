@@ -33,9 +33,11 @@ Part 1: Investigation
 **1\)**
 
 .. image:: ../images/u2lesson05-gpimage01.png
+   :scale: 50
    :alt: Set A -- three parabolas sharing x-intercepts 1 and -2, with leading coefficients 1, 2, and 1/2
 
 .. image:: ../images/u2lesson05-gpimage02.png
+   :scale: 50
    :alt: Set B -- three downward parabolas sharing x-intercepts 1 and -2, with leading coefficients -1, -2, and -1/2
 
 **a\)** How are the graphs of the functions similar and how are they
@@ -92,6 +94,7 @@ they will be different.
 on the same set of axes.
 
 .. image:: ../images/u2lesson05-gpimage03.png
+   :scale: 50
    :alt: four cubics sharing x-intercepts 1, -3, and 2, with leading coefficients -2, -1, 1, and 2
 
 A ``______________`` of functions is a set of functions that have the
@@ -187,6 +190,7 @@ a :math:`y`-intercept of -15.
 - Use degree and leading coefficient to determine end behaviour
 
 .. image:: ../images/u2lesson05-gpimage07.png
+   :scale: 50
    :alt: blank grid, x from -4 to 4, y from -20 to 20
 
 **3\)** Determine an equation for the family of cubic functions with zeros
@@ -215,6 +219,7 @@ Part 3: Determine an Equation for a Function From a Graph
 graph.
 
 .. image:: ../images/u2lesson05-gpimage06.png
+   :scale: 50
    :alt: graph of a quartic function passing through (-1,-6) with x-intercepts -3, -1/2, 1, and 2
 
 |nbsp|

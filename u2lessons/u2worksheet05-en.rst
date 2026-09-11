@@ -84,21 +84,25 @@ represent functions that belong to the same family?
 **A\)**
 
 .. image:: ../images/u2worksheet05-gpimage01.png
+   :scale: 50
    :alt: graph A -- cubic with zeros -2, 1, 3
 
 **B\)**
 
 .. image:: ../images/u2worksheet05-gpimage02.png
+   :scale: 50
    :alt: graph B -- cubic with zeros -2, 1, 3, negative leading coefficient
 
 **C\)**
 
 .. image:: ../images/u2worksheet05-gpimage03.png
+   :scale: 50
    :alt: graph C -- cubic with zero -2 and a double zero at 1, no zero at 3
 
 **D\)**
 
 .. image:: ../images/u2worksheet05-gpimage04.png
+   :scale: 50
    :alt: graph D -- cubic with zeros -2, 1, 3, larger leading coefficient
 
 |nbsp|
@@ -148,6 +152,7 @@ c\) Determine an equation for the member of the family whose graph has a
 d\) Sketch a graph of the function from part c\).
 
 .. image:: ../images/u2worksheet05-gpimage08.png
+   :scale: 50
    :alt: blank grid, x from -10 to 10, y from -10 to 10
 
 **5\)**
@@ -235,6 +240,7 @@ passes through the point :math:`(1, -22)`.
 a\)
 
 .. image:: ../images/u2worksheet05-gpimage06.png
+   :scale: 50
    :alt: cubic with zeros -2, 1, 3 and y-intercept -12
 
 |nbsp|
@@ -256,6 +262,7 @@ a\)
 b\)
 
 .. image:: ../images/u2worksheet05-gpimage07.png
+   :scale: 50
    :alt: quartic with a double zero at -3 and simple zeros at 1 and 1.5, y-intercept 27
 
 |nbsp|

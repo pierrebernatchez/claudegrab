@@ -32,6 +32,7 @@ Task: Read the following on your own
 Examine the graph of :math:`y = x^2 + 4x - 12`.
 
 .. image:: ../images/u2lesson06-gpimage01.png
+   :scale: 50
    :alt: graph of y = x^2 + 4x - 12, x-intercepts at -6 and 2
 
 The :math:`x`-intercepts are :math:`-6` and :math:`2`. These correspond
@@ -80,6 +81,7 @@ Part 1: Inequalities and Number Lines
 a\)
 
 .. image:: ../images/u2lesson06-gpimage02.png
+   :scale: 50
    :alt: number line, closed circle at 4, shaded to the left
 
 :math:`x \leq 4`
@@ -91,6 +93,7 @@ OR
 b\)
 
 .. image:: ../images/u2lesson06-gpimage03.png
+   :scale: 50
    :alt: number line, closed circle at 3, open circle at 9, shaded between
 
 :math:`3 \leq x < 9`
@@ -108,6 +111,7 @@ following inequalities…
 :math:`f(x) = 0.1(x - 1)(x + 3)(x - 4)`
 
 .. image:: ../images/u2lesson06-gpimage04.png
+   :scale: 50
    :alt: graph of f(x) = 0.1(x-1)(x+3)(x-4)
 
 a\) :math:`f(x) < 0`
@@ -123,6 +127,7 @@ b\) :math:`f(x) \geq 0`
 :math:`[-3, 1] \cup [4, \infty)`
 
 .. image:: ../images/u2lesson06-gpimage12.png
+   :scale: 50
    :alt: graph of f(x) = 0.1(x-1)(x+3)(x-4) with f(x) < 0 shaded red and f(x) >= 0 shaded blue
 
 Part 2: Solve Linear Inequalities
@@ -178,6 +183,7 @@ Method 1: Graph the inequality
 :math:`x`-intercepts at :math:`-3` and :math:`1.5`
 
 .. image:: ../images/u2lesson06-gpimage05.png
+   :scale: 50
    :alt: graph of y = 2x^2 + 3x - 9, x-intercepts at -3 and 1.5
 
 :math:`2x^2 + 3x - 9 > 0` when… :math:`x < -3` or :math:`x > 1.5`
@@ -251,6 +257,7 @@ Factors of :math:`-8` are: :math:`\pm 1, \pm 2, \pm 4, \pm 8`
 Positive leading coefficient, degree 3
 
 .. image:: ../images/u2lesson06-gpimage07.png
+   :scale: 50
    :alt: graph of y = x^3 + 3x^2 - 6x - 8, x-intercepts at -4, -1, and 2
 
 Solution: :math:`-4 \leq x \leq -1` or :math:`x \geq 2`
@@ -328,6 +335,7 @@ solutions
      - ``+``
 
 .. image:: ../images/u2lesson06-gpimage13.png
+   :scale: 50
    :alt: graph of y = x^3 + 4x^2 + 6x + 24, x-intercept at -4
 
 Solution: :math:`x < -4`, or :math:`(-\infty, -4)`
@@ -359,6 +367,7 @@ Check the discriminant of :math:`t^2 - t + 18`: :math:`b^2 - 4ac = (-1)^2
 always positive.
 
 .. image:: ../images/u2lesson06-gpimage09.png
+   :scale: 50
    :alt: graph of g(t) = 0.5t^3 - 5.5t^2 + 14t - 90, crossing zero at t = 10
 
 Solution: :math:`t > 10`, so the price of the stock will be above $90

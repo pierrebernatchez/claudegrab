@@ -33,6 +33,7 @@ Part 1: Investigation
 **a\)** Use technology to graph the function :math:`f(x) = x^4 - 13x^2 + 36`
 
 .. image:: ../images/u2lesson04-gpimage01.png
+   :scale: 50
    :alt: graph of f(x) = x^4 - 13x^2 + 36 with x-intercepts at (-3,0), (-2,0), (2,0), and (3,0)
 
 **b\)** Determine the x-intercepts from the graph
@@ -257,6 +258,7 @@ Comment on how :math:`x`-intercept(s) of the graph are related to the REAL
 and NON-REAL roots of the equation.
 
 .. image:: ../images/u2lesson04-gpimage04.png
+   :scale: 50
    :alt: graph of f(x) = x^3 - 3x^2 + x - 3, crossing the x-axis only once near x = 3
 
 The :math:`x`-intercepts of the graph of a polynomial function correspond

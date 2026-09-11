@@ -31,9 +31,11 @@ Part 1: Investigation
 **1\)**
 
 .. image:: ../images/u2lesson05-gpimage01.png
+   :scale: 50
    :alt: Set A -- three parabolas sharing x-intercepts 1 and -2, with leading coefficients 1, 2, and 1/2
 
 .. image:: ../images/u2lesson05-gpimage02.png
+   :scale: 50
    :alt: Set B -- three downward parabolas sharing x-intercepts 1 and -2, with leading coefficients -1, -2, and -1/2
 
 **a\)** How are the graphs of the functions similar and how are they
@@ -78,6 +80,7 @@ will be different due to the sign and value of the leading coefficient.
 on the same set of axes.
 
 .. image:: ../images/u2lesson05-gpimage03.png
+   :scale: 50
    :alt: four cubics sharing x-intercepts 1, -3, and 2, with leading coefficients -2, -1, 1, and 2
 
 **Family of functions:** A family of functions is a set of functions that
@@ -125,6 +128,7 @@ through the point :math:`(1, 4)`.
 :math:`y = -(x - 2)(x + 3)`
 
 .. image:: ../images/u2lesson05-gpimage04.png
+   :scale: 50
    :alt: graph of y = -(x-2)(x+3) with x-intercepts (-3,0) and (2,0)
 
 **2\)** The zeros of a family of cubic functions are -2, 1, and 3.
@@ -157,6 +161,7 @@ a :math:`y`-intercept of -15.
 Negative leading coefficient and odd degree so it will extend from Q2 to Q4
 
 .. image:: ../images/u2lesson05-gpimage05.png
+   :scale: 50
    :alt: graph of y = -2.5(x+2)(x-1)(x-3) with x-intercepts (-2,0), (1,0), (3,0) and y-intercept (0,-15)
 
 **3\)** Determine an equation for the family of cubic functions with zeros
@@ -193,6 +198,7 @@ Part 3: Determine an Equation for a Function From a Graph
 graph.
 
 .. image:: ../images/u2lesson05-gpimage06.png
+   :scale: 50
    :alt: graph of a quartic function passing through (-1,-6) with x-intercepts -3, -1/2, 1, and 2
 
 The :math:`x`-intercepts are :math:`-3`, :math:`-\dfrac{1}{2}`, :math:`1`,

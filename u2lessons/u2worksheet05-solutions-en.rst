@@ -65,21 +65,25 @@ represent functions that belong to the same family?
 **A\)**
 
 .. image:: ../images/u2worksheet05-gpimage01.png
+   :scale: 50
    :alt: graph A -- cubic with zeros -2, 1, 3
 
 **B\)**
 
 .. image:: ../images/u2worksheet05-gpimage02.png
+   :scale: 50
    :alt: graph B -- cubic with zeros -2, 1, 3, negative leading coefficient
 
 **C\)**
 
 .. image:: ../images/u2worksheet05-gpimage03.png
+   :scale: 50
    :alt: graph C -- cubic with zero -2 and a double zero at 1, no zero at 3
 
 **D\)**
 
 .. image:: ../images/u2worksheet05-gpimage04.png
+   :scale: 50
    :alt: graph D -- cubic with zeros -2, 1, 3, larger leading coefficient
 
 Answer: **A, B, and D** belong to the same family (zeros :math:`-2`,
@@ -115,6 +119,7 @@ has a :math:`y`-intercept of 6.
 **d\)** Sketch a graph of the function from part c\).
 
 .. image:: ../images/u2worksheet05-gpimage05.png
+   :scale: 50
    :alt: graph of y = -3(x+2)(x+1)(2x-1) with zeros -2, -1, 0.5 and y-intercept 6
 
 **5\)**
@@ -194,6 +199,7 @@ passes through the point :math:`(1, -22)`.
 **a\)**
 
 .. image:: ../images/u2worksheet05-gpimage06.png
+   :scale: 50
    :alt: cubic with zeros -2, 1, 3 and y-intercept -12
 
 :math:`y = k(x + 2)(x - 1)(x - 3)`
@@ -211,6 +217,7 @@ passes through the point :math:`(1, -22)`.
 **b\)**
 
 .. image:: ../images/u2worksheet05-gpimage07.png
+   :scale: 50
    :alt: quartic with a double zero at -3 and simple zeros at 1 and 1.5, y-intercept 27
 
 :math:`y = k(x + 3)^2(x - 1)(2x - 3)`

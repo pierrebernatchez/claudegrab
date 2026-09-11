@@ -34,6 +34,7 @@ Task: Read the following on your own
 Examine the graph of :math:`y = x^2 + 4x - 12`.
 
 .. image:: ../images/u2lesson06-gpimage01.png
+   :scale: 50
    :alt: graph of y = x^2 + 4x - 12, x-intercepts at -6 and 2
 
 The :math:`x`-intercepts are :math:`-6` and :math:`2`. These correspond
@@ -82,6 +83,7 @@ Part 1: Inequalities and Number Lines
 a\)
 
 .. image:: ../images/u2lesson06-gpimage02.png
+   :scale: 50
    :alt: number line, closed circle at 4, shaded to the left
 
 |nbsp|
@@ -93,6 +95,7 @@ a\)
 b\)
 
 .. image:: ../images/u2lesson06-gpimage03.png
+   :scale: 50
    :alt: number line, closed circle at 3, open circle at 9, shaded between
 
 |nbsp|
@@ -110,6 +113,7 @@ following inequalities…
 :math:`f(x) = 0.1(x - 1)(x + 3)(x - 4)`
 
 .. image:: ../images/u2lesson06-gpimage04.png
+   :scale: 50
    :alt: graph of f(x) = 0.1(x-1)(x+3)(x-4)
 
 a\) :math:`f(x) < 0`
@@ -196,6 +200,7 @@ a\) :math:`2x^2 + 3x - 9 > 0`
 Method 1: Graph the inequality
 
 .. image:: ../images/u2lesson06-gpimage10.png
+   :scale: 50
    :alt: blank grid, x from -8 to 8, y from -18 to 18
 
 Method 2: Factor Table (sign chart)
@@ -229,6 +234,7 @@ b\) :math:`-2x^3 - 6x^2 + 12x \leq -16`
 Method 1: Graph the inequality
 
 .. image:: ../images/u2lesson06-gpimage11.png
+   :scale: 50
    :alt: blank grid, x from -8 to 8, y from -18 to 18
 
 Method 2: Factor Table (sign chart)
