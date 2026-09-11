@@ -40,6 +40,7 @@ a\) :math:`(x + 3)(x - 2) > 0`
 Zeros at :math:`-3` and :math:`2`. Degree 2, positive leading coefficient.
 
 .. image:: ../images/u2worksheet06-gpimage01.png
+   :scale: 50
    :alt: graph of y = (x+3)(x-2), x-intercepts at -3 and 2
 
 Solution: :math:`x < -3` or :math:`x > 2`
@@ -52,6 +53,7 @@ Zeros at :math:`-2`, :math:`3`, and :math:`-1`. Degree 3, negative
 leading coefficient (from the :math:`3 - x` factor).
 
 .. image:: ../images/u2worksheet06-gpimage02.png
+   :scale: 50
    :alt: graph of y = (x+2)(3-x)(x+1), x-intercepts at -2, -1, and 3
 
 Solution: :math:`-2 < x < -1` or :math:`x > 3`
@@ -89,6 +91,7 @@ a\) :math:`x^2 - 7x + 10 \geq 0`
      - ``+``
 
 .. image:: ../images/u2worksheet06-gpimage05.png
+   :scale: 50
    :alt: graph of y = x^2 - 7x + 10, x-intercepts at 2 and 5
 
 Solution: :math:`x \leq 2` or :math:`x \geq 5`
@@ -136,6 +139,7 @@ b\) :math:`x^3 + 6x^2 - 16x > 0`
      - ``+``
 
 .. image:: ../images/u2worksheet06-gpimage06.png
+   :scale: 50
    :alt: graph of y = x^3 + 6x^2 - 16x, x-intercepts at -8, 0, and 2
 
 Solution: :math:`-8 < x < 0` or :math:`x > 2`
@@ -177,6 +181,7 @@ c\) :math:`-x^2 + 36 \geq 0`
      - ``-``
 
 .. image:: ../images/u2worksheet06-gpimage07.png
+   :scale: 50
    :alt: graph of y = -x^2 + 36, x-intercepts at -6 and 6
 
 Solution: :math:`-6 \leq x \leq 6`
@@ -284,6 +289,7 @@ e\) :math:`x^3 - 3x^2 \geq 25x - 75`
      - ``+``
 
 .. image:: ../images/u2worksheet06-gpimage08.png
+   :scale: 50
    :alt: graph of y = x^3 - 3x^2 - 25x + 75, x-intercepts at -5, 3, and 5
 
 Solution: :math:`-5 \leq x \leq 3` or :math:`x \geq 5`
@@ -338,6 +344,7 @@ is a factor.
      - ``+``
 
 .. image:: ../images/u2worksheet06-gpimage09.png
+   :scale: 50
    :alt: graph of y = -x^3 + 28x + 48, x-intercepts at -4, -2, and 6
 
 Solution: :math:`x \leq -4` or :math:`-2 \leq x \leq 6`
@@ -387,6 +394,7 @@ g\) :math:`x^3 - 2x^2 - 5x + 6 < 0`
      - ``+``
 
 .. image:: ../images/u2worksheet06-gpimage10.png
+   :scale: 50
    :alt: graph of y = x^3 - 2x^2 - 5x + 6, x-intercepts at -2, 1, and 3
 
 Solution: :math:`x < -2` or :math:`1 < x < 3`
@@ -437,6 +445,7 @@ h\) :math:`5x^3 - 12x^2 - 11x + 6 \leq 0`
      - ``+``
 
 .. image:: ../images/u2worksheet06-gpimage11.png
+   :scale: 50
    :alt: graph of y = 5x^3 - 12x^2 - 11x + 6, x-intercepts at -1, 0.4, and 3
 
 Solution: :math:`x \leq -1` or :math:`\dfrac{2}{5} \leq x \leq 3`
@@ -468,6 +477,7 @@ Check the discriminant of :math:`t^2 - t + 18`: :math:`b^2 - 4ac = (-1)^2
 always positive.
 
 .. image:: ../images/u2worksheet06-gpimage04.png
+   :scale: 50
    :alt: graph of g(t) = 0.5t^3 - 5.5t^2 + 14t - 90, crossing zero at t = 10
 
 Solution: :math:`t > 10`, :math:`t \in (10, \infty)`
