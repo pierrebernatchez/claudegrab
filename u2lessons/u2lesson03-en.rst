@@ -29,6 +29,8 @@ function of degree 3 or greater.
 Part 1: Remainder Theorem Refresher
 ================================================================================
 
+.. rst-class:: keepwithnext
+
 **a\)** Use the remainder theorem to determine the remainder when
 :math:`f(x) = x^3 + 4x^2 + x - 6` is divided by :math:`x + 2`
 
@@ -52,6 +54,8 @@ Part 1: Remainder Theorem Refresher
     by :math:`x - b`, the remainder is :math:`P(b)`; and when it is divided
     by :math:`ax - b`, the remainder is :math:`P\left(\dfrac{b}{a}\right)`,
     where :math:`a` and :math:`b` are integers, and :math:`a \neq 0`.
+
+.. rst-class:: keepwithnext
 
 **b\)** Verify your answer to part a\) by completing the division using long
 division or synthetic division.
@@ -77,6 +81,8 @@ Note: I chose synthetic since it is a linear divisor of the form :math:`x - b`.
     **Factor Theorem:** :math:`x - b` is a factor of a polynomial :math:`P(x)`
     if and only if :math:`P(b) = 0`. Similarly, :math:`ax - b` is a factor of
     :math:`P(x)` if and only if :math:`P\left(\dfrac{b}{a}\right) = 0`.
+
+.. rst-class:: keepwithnext
 
 **Example 1:** Determine if :math:`x - 3` and :math:`x + 2` are factors of
 :math:`P(x) = x^3 - x^2 - 14x + 24`
@@ -140,6 +146,8 @@ Or you can use the Integral Zero Theorem to help.
 
 Note: Once one of the factors of a polynomial is found, division is used to
 determine the other factors.
+
+.. rst-class:: keepwithnext
 
 **Example 2:** Factor :math:`x^3 + 2x^2 - 5x - 6` fully.
 
@@ -235,6 +243,8 @@ Method 2: Synthetic Division
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **Example 3:** Factor :math:`x^4 + 3x^3 - 7x^2 - 27x - 18` completely.
 
 Let :math:`P(x) = x^4 + 3x^3 - 7x^2 - 27x - 18`
@@ -327,6 +337,8 @@ Therefore,
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **Example 4:** Try Factoring by Grouping Again
 
 :math:`x^4 - 6x^3 + 2x^2 - 12x`
@@ -366,6 +378,8 @@ rational zero theorem.
     - :math:`a` is a factor of the leading coefficient of :math:`P(x)`
     - :math:`(ax - b)` is a factor of :math:`P(x)`
 
+.. rst-class:: keepwithnext
+
 **Example 5:** Factor :math:`P(x) = 3x^3 + 2x^2 - 7x + 2`
 
 We must start by finding a value of :math:`\dfrac{b}{a}` where
@@ -402,6 +416,8 @@ zero.
 Since ``________________________________________________`` of
 :math:`P(x)`. Use division to find the other factors.
 
+.. rst-class:: keepwithnext
+
 **Example 6:** Factor :math:`P(x) = 2x^3 + x^2 - 7x - 6`
 
 |nbsp|
@@ -422,6 +438,8 @@ Since ``________________________________________________`` of
 
 Part 4: Application Question
 ================================================================================
+
+.. rst-class:: keepwithnext
 
 **Example 7:** When :math:`f(x) = 2x^3 - mx^2 + nx - 2` is divided by
 :math:`x + 1`, the remainder is :math:`-12` and :math:`x - 2` is a factor.

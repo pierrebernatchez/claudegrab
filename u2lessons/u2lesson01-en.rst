@@ -56,6 +56,8 @@ OR
 
 ``107/4 = _____ + _____/4``
 
+.. rst-class:: keepwithnext
+
 **Example 1:** Use long division to calculate :math:`753 \div 22`
 
 |nbsp|
@@ -135,9 +137,13 @@ like terms.
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **Example 2:** Find the following quotients using long division. Express
 the result in quotient form. Also, write the statement that can be used
 to check the division (then check it!).
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x^2 + 5x + 7` divided by :math:`x + 2`
 
@@ -163,6 +169,8 @@ a\) :math:`x^2 + 5x + 7` divided by :math:`x + 2`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 b\) :math:`2x^3 - 3x^2 + 8x - 12` divided by :math:`x - 1`
 
 |nbsp|
@@ -187,6 +195,8 @@ b\) :math:`2x^3 - 3x^2 + 8x - 12` divided by :math:`x - 1`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 c\) :math:`4x^3 + 9x - 12` divided by :math:`2x + 1`
 
 |nbsp|
@@ -210,6 +220,8 @@ c\) :math:`4x^3 + 9x - 12` divided by :math:`2x + 1`
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 **Example 3:** The volume, in cubic cm, of a rectangular box is given by :math:`V(x) = x^3 + 7x^2 + 14x + 8`.
 Determine expressions for possible dimensions of the box if the height is given by :math:`x + 2`.
@@ -247,7 +259,11 @@ When a polynomial function :math:`P(x)` is divided by :math:`x - b`, the remaind
 and when it is divided by :math:`ax - b`, the remainder is :math:`P\left(\dfrac{b}{a}\right)`,
 where :math:`a` and :math:`b` are integers, and :math:`a \neq 0`.
 
+.. rst-class:: keepwithnext
+
 **Example 4:** Apply the remainder theorem
+
+.. rst-class:: keepwithnext
 
 a\) Use the remainder theorem to determine the remainder when :math:`P(x) = 2x^3 + x^2 - 3x - 6`
 is divided by :math:`x + 1`
@@ -268,6 +284,8 @@ is divided by :math:`x + 1`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 b\) Verify your answer using long division
 
 |nbsp|
@@ -285,6 +303,8 @@ b\) Verify your answer using long division
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 **Example 5:** Use the remainder theorem to determine the remainder when :math:`P(x) = 2x^3 + x^2 - 3x - 6`
 is divided by :math:`2x - 3`
@@ -304,6 +324,8 @@ is divided by :math:`2x - 3`
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 **Example 6:** Determine the value of :math:`k` such that when :math:`3x^4 + kx^3 - 7x - 10` is
 divided by :math:`x - 2`, the remainder is 8.

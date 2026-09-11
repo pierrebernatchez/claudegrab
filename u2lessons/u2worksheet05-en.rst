@@ -23,7 +23,11 @@ This document was composed and formatted by Annie Bernatchez.
 
 The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
+.. rst-class:: keepwithnext
+
 **1\)** The zeros of a quadratic function are -7 and -3.
+
+.. rst-class:: keepwithnext
 
 a\) Determine an equation for the family of quadratic functions with
 these zeros.
@@ -34,6 +38,8 @@ these zeros.
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 b\) Write equations for two functions that belong to this family.
 
 |nbsp|
@@ -41,6 +47,8 @@ b\) Write equations for two functions that belong to this family.
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 c\) Determine an equation for the member of the family that passes
 through the point :math:`(2, 18)`.
@@ -61,14 +69,24 @@ through the point :math:`(2, 18)`.
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **2\)** Examine the following functions. Which function does not belong
 to the same family?
 
+.. rst-class:: keepwithnext
+
 a\) :math:`y = 1.5(x + 4)(x - 5)(x - 2)`
+
+.. rst-class:: keepwithnext
 
 b\) :math:`y = -1.5(x - 2)(x - 5)(x + 4)`
 
+.. rst-class:: keepwithnext
+
 c\) :math:`y = 1.5(x - 2)(x + 4)(x - 2)`
+
+.. rst-class:: keepwithnext
 
 d\) :math:`y = 3(x - 5)(x - 2)(x + 4)`
 
@@ -78,8 +96,12 @@ d\) :math:`y = 3(x - 5)(x - 2)(x + 4)`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **3\)** The graphs of four polynomial functions are given. Which graphs
 represent functions that belong to the same family?
+
+.. rst-class:: keepwithnext
 
 **A\)**
 
@@ -87,17 +109,23 @@ represent functions that belong to the same family?
    :scale: 50
    :alt: graph A -- cubic with zeros -2, 1, 3
 
+.. rst-class:: keepwithnext
+
 **B\)**
 
 .. image:: ../images/u2worksheet05-gpimage02.png
    :scale: 50
    :alt: graph B -- cubic with zeros -2, 1, 3, negative leading coefficient
 
+.. rst-class:: keepwithnext
+
 **C\)**
 
 .. image:: ../images/u2worksheet05-gpimage03.png
    :scale: 50
    :alt: graph C -- cubic with zero -2 and a double zero at 1, no zero at 3
+
+.. rst-class:: keepwithnext
 
 **D\)**
 
@@ -111,7 +139,11 @@ represent functions that belong to the same family?
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **4\)**
+
+.. rst-class:: keepwithnext
 
 a\) Determine an equation for the family of cubic functions with zeros
 -2, -1, and 1/2
@@ -122,6 +154,8 @@ a\) Determine an equation for the family of cubic functions with zeros
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 b\) Write equations for two functions that belong to this family.
 
 |nbsp|
@@ -129,6 +163,8 @@ b\) Write equations for two functions that belong to this family.
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 c\) Determine an equation for the member of the family whose graph has a
 :math:`y`-intercept of 6.
@@ -149,13 +185,19 @@ c\) Determine an equation for the member of the family whose graph has a
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 d\) Sketch a graph of the function from part c\).
 
 .. image:: ../images/u2worksheet05-gpimage08.png
    :scale: 50
    :alt: blank grid, x from -10 to 10, y from -10 to 10
 
+.. rst-class:: keepwithnext
+
 **5\)**
+
+.. rst-class:: keepwithnext
 
 a\) Determine an equation for the family of cubic functions with zeros
 :math:`1 \pm \sqrt{2}` and :math:`-\dfrac{1}{2}`
@@ -176,6 +218,8 @@ a\) Determine an equation for the family of cubic functions with zeros
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 b\) Determine an equation for the member of the family whose graph
 passes through the point :math:`(3, 35)`.
 
@@ -195,7 +239,11 @@ passes through the point :math:`(3, 35)`.
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **6\)**
+
+.. rst-class:: keepwithnext
 
 a\) Determine an equation for the family of quartic functions with zeros
 3 (order 2) and :math:`-4 \pm \sqrt{3}`.
@@ -216,6 +264,8 @@ a\) Determine an equation for the family of quartic functions with zeros
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 b\) Determine an equation for the member of the family whose graph
 passes through the point :math:`(1, -22)`.
 
@@ -235,7 +285,11 @@ passes through the point :math:`(1, -22)`.
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **7\)** Determine an equation for each of the following functions
+
+.. rst-class:: keepwithnext
 
 a\)
 
@@ -258,6 +312,8 @@ a\)
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 b\)
 

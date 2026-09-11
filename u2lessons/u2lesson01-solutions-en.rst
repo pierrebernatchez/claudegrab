@@ -52,6 +52,8 @@ This gives us :math:`107 = (4)(26) + 3`
 
 OR, equivalently, :math:`\dfrac{107}{4} = 26 + \dfrac{3}{4} = 26.75`
 
+.. rst-class:: keepwithnext
+
 **Example 1:** Use long division to calculate :math:`753 \div 22`
 
 .. image:: ../images/u2lesson01-tabimage02.png
@@ -122,9 +124,13 @@ The expression that can be used to check the division is:
 
    3x^3 - 5x^2 - 7x - 1 = (x - 3)(3x^2 + 4x + 5) + 14
 
+.. rst-class:: keepwithnext
+
 **Example 2:** Find the following quotients using long division. Express
 the result in quotient form. Also, write the statement that can be used
 to check the division (then check it!).
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x^2 + 5x + 7` divided by :math:`x + 2`
 
@@ -143,6 +149,8 @@ The expression that can be used to check the division is:
 
    x^2 + 5x + 7 = (x + 2)(x + 3) + 1
 
+.. rst-class:: keepwithnext
+
 b\) :math:`2x^3 - 3x^2 + 8x - 12` divided by :math:`x - 1`
 
 .. image:: ../images/u2lesson01-tabimage05.png
@@ -159,6 +167,8 @@ The expression that can be used to check the division is:
 .. math::
 
    2x^3 - 3x^2 + 8x - 12 = (x - 1)(2x^2 - x + 7) - 5
+
+.. rst-class:: keepwithnext
 
 c\) :math:`4x^3 + 9x - 12` divided by :math:`2x + 1`
 
@@ -178,6 +188,8 @@ The expression that can be used to check the division is:
 .. math::
 
    4x^3 + 9x - 12 = (2x + 1)(2x^2 - x + 5) - 17
+
+.. rst-class:: keepwithnext
 
 **Example 3:** The volume, in cubic cm, of a rectangular box is given by :math:`V(x) = x^3 + 7x^2 + 14x + 8`.
 Determine expressions for possible dimensions of the box if the height is given by :math:`x + 2`.
@@ -202,7 +214,11 @@ When a polynomial function :math:`P(x)` is divided by :math:`x - b`, the remaind
 and when it is divided by :math:`ax - b`, the remainder is :math:`P\left(\dfrac{b}{a}\right)`,
 where :math:`a` and :math:`b` are integers, and :math:`a \neq 0`.
 
+.. rst-class:: keepwithnext
+
 **Example 4:** Apply the remainder theorem
+
+.. rst-class:: keepwithnext
 
 a\) Use the remainder theorem to determine the remainder when :math:`P(x) = 2x^3 + x^2 - 3x - 6`
 is divided by :math:`x + 1`
@@ -220,10 +236,14 @@ Since :math:`x + 1` is :math:`x - (-1)`, the remainder is :math:`P(-1)`.
 
 Therefore, the remainder is :math:`-4`
 
+.. rst-class:: keepwithnext
+
 b\) Verify your answer using long division
 
 .. image:: ../images/u2lesson01-tabimage08.png
    :alt: (2x^3 + x^2 - 3x - 6) divided by (x + 1) using long division, quotient 2x^2 - x - 2 remainder -4
+
+.. rst-class:: keepwithnext
 
 **Example 5:** Use the remainder theorem to determine the remainder when :math:`P(x) = 2x^3 + x^2 - 3x - 6`
 is divided by :math:`2x - 3`
@@ -242,6 +262,8 @@ The remainder is :math:`P\left(\dfrac{3}{2}\right)`.
    \end{array}
 
 Therefore, the remainder is :math:`-\dfrac{3}{2}`
+
+.. rst-class:: keepwithnext
 
 **Example 6:** Determine the value of :math:`k` such that when :math:`3x^4 + kx^3 - 7x - 10` is
 divided by :math:`x - 2`, the remainder is 8.

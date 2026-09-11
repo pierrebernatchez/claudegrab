@@ -75,8 +75,12 @@ used to solve a polynomial inequality.
 Part 1: Inequalities and Number Lines
 ================================================================================
 
+.. rst-class:: keepwithnext
+
 **Example 1:** Write an inequality that corresponds to the values of
 :math:`x` shown on each number line
+
+.. rst-class:: keepwithnext
 
 a\)
 
@@ -89,6 +93,8 @@ a\)
 OR
 
 :math:`(-\infty, 4]`
+
+.. rst-class:: keepwithnext
 
 b\)
 
@@ -105,6 +111,8 @@ OR
 Part 2: Solve an Inequality given the Graph
 ================================================================================
 
+.. rst-class:: keepwithnext
+
 **Example 2:** Use the graph of the function :math:`f(x)` to answer the
 following inequalities…
 
@@ -114,11 +122,15 @@ following inequalities…
    :scale: 50
    :alt: graph of f(x) = 0.1(x-1)(x+3)(x-4)
 
+.. rst-class:: keepwithnext
+
 a\) :math:`f(x) < 0`
 
 :math:`f(x) < 0` when: :math:`x < -3` or :math:`1 < x < 4`
 
 :math:`(-\infty, -3) \cup (1, 4)`
+
+.. rst-class:: keepwithnext
 
 b\) :math:`f(x) \geq 0`
 
@@ -137,13 +149,19 @@ Note: Solving linear inequalities is the same as solving linear
 equations. However, when both sides of an inequality are multiplied or
 divided by a negative number, the inequality sign must be reversed.
 
+.. rst-class:: keepwithnext
+
 **Example 3:** Solve each inequality
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x - 8 \geq 3`
 
 :math:`x \geq 3 + 8`
 
 :math:`x \geq 11`
+
+.. rst-class:: keepwithnext
 
 b\) :math:`-4 - 2x < 12`
 
@@ -166,7 +184,11 @@ Part 2: Solve Inequalities of Degree 2 and Higher
       degree
    b. Make a factor table and test values in each interval
 
+.. rst-class:: keepwithnext
+
 **Example 4:** Solve each polynomial inequality algebraically
+
+.. rst-class:: keepwithnext
 
 a\) :math:`2x^2 + 3x - 9 > 0`
 
@@ -228,6 +250,8 @@ Method 2: Factor Table (sign chart)
 1.5`
 
 :math:`(-\infty, -3) \cup (1.5, \infty)`
+
+.. rst-class:: keepwithnext
 
 b\) :math:`-2x^3 - 6x^2 + 12x \leq -16`
 
@@ -302,6 +326,8 @@ Method 2: Factor Table (sign chart)
 
 Solution: :math:`[-4, -1] \cup [2, \infty)`
 
+.. rst-class:: keepwithnext
+
 c\) :math:`x^3 + 4x^2 + 6x < -24`
 
 :math:`x^3 + 4x^2 + 6x + 24 < 0`
@@ -342,6 +368,8 @@ Solution: :math:`x < -4`, or :math:`(-\infty, -4)`
 
 Part 2: Applications of Inequalities
 ================================================================================
+
+.. rst-class:: keepwithnext
 
 **3\)** The price, :math:`p`, in dollars, of a stock :math:`t` years
 after 1999 can be modeled by the function :math:`p(t) = 0.5t^3 - 5.5t^2 +

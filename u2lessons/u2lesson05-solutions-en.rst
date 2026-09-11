@@ -28,6 +28,8 @@ determine an equation for a particular member of the family.
 Part 1: Investigation
 ================================================================================
 
+.. rst-class:: keepwithnext
+
 **1\)**
 
 .. image:: ../images/u2lesson05-gpimage01.png
@@ -37,6 +39,8 @@ Part 1: Investigation
 .. image:: ../images/u2lesson05-gpimage02.png
    :scale: 50
    :alt: Set B -- three downward parabolas sharing x-intercepts 1 and -2, with leading coefficients -1, -2, and -1/2
+
+.. rst-class:: keepwithnext
 
 **a\)** How are the graphs of the functions similar and how are they
 different?
@@ -52,29 +56,45 @@ Different:
 - stretch or compression factors
 - vertices
 
+.. rst-class:: keepwithnext
+
 **b\)** Describe the relationship between the graphs of functions of the
 form :math:`y = k(x - 1)(x + 2)`, where :math:`k \in \mathbb{R}`
 
 They have the same :math:`x`-intercepts.
 
+.. rst-class:: keepwithnext
+
 **2\)**
+
+.. rst-class:: keepwithnext
 
 **a\)** Examine the following functions. How are they similar? How are
 they different?
 
+.. rst-class:: keepwithnext
+
 i\) :math:`y = -2(x - 1)(x + 3)(x - 2)`
+
+.. rst-class:: keepwithnext
 
 ii\) :math:`y = -(x - 1)(x + 3)(x - 2)`
 
 iii\) :math:`y = (x - 1)(x + 3)(x - 2)`
 
+.. rst-class:: keepwithnext
+
 iv\) :math:`y = 2(x - 1)(x + 3)(x - 2)`
+
+.. rst-class:: keepwithnext
 
 **b\)** Predict how the graphs of the functions will be similar and how
 they will be different.
 
 They will have the same :math:`x`-intercepts but their shape and direction
 will be different due to the sign and value of the leading coefficient.
+
+.. rst-class:: keepwithnext
 
 **c\)** Use technology to help you sketch the graphs of all four functions
 on the same set of axes.
@@ -100,17 +120,25 @@ An equation for the family of polynomial functions with zeros
 Part 2: Represent a Family of Functions Algebraically
 ================================================================================
 
+.. rst-class:: keepwithnext
+
 **1\)** The zeros of a family of quadratic functions are 2 and -3.
+
+.. rst-class:: keepwithnext
 
 **a\)** Determine an equation for this family of functions.
 
 :math:`y = k(x - 2)(x + 3)`
+
+.. rst-class:: keepwithnext
 
 **b\)** Write equations for two functions that belong to this family
 
 :math:`y = 8(x - 2)(x + 3)`
 
 :math:`y = -3(x - 2)(x + 3)`
+
+.. rst-class:: keepwithnext
 
 **c\)** Determine an equation for the member of the family that passes
 through the point :math:`(1, 4)`.
@@ -131,11 +159,17 @@ through the point :math:`(1, 4)`.
    :scale: 50
    :alt: graph of y = -(x-2)(x+3) with x-intercepts (-3,0) and (2,0)
 
+.. rst-class:: keepwithnext
+
 **2\)** The zeros of a family of cubic functions are -2, 1, and 3.
+
+.. rst-class:: keepwithnext
 
 **a\)** Determine an equation for this family.
 
 :math:`y = k(x + 2)(x - 1)(x - 3)`
+
+.. rst-class:: keepwithnext
 
 **b\)** Determine an equation for the member of the family whose graph has
 a :math:`y`-intercept of -15.
@@ -150,6 +184,8 @@ a :math:`y`-intercept of -15.
 
 :math:`y = -2.5(x + 2)(x - 1)(x - 3)`
 
+.. rst-class:: keepwithnext
+
 **d\)** Sketch a graph of the function
 
 **To sketch a graph:**
@@ -163,6 +199,8 @@ Negative leading coefficient and odd degree so it will extend from Q2 to Q4
 .. image:: ../images/u2lesson05-gpimage05.png
    :scale: 50
    :alt: graph of y = -2.5(x+2)(x-1)(x-3) with x-intercepts (-2,0), (1,0), (3,0) and y-intercept (0,-15)
+
+.. rst-class:: keepwithnext
 
 **3\)** Determine an equation for the family of cubic functions with zeros
 :math:`3 \pm \sqrt{5}` and :math:`-\dfrac{1}{2}`
@@ -193,6 +231,8 @@ Equation:
 
 Part 3: Determine an Equation for a Function From a Graph
 ================================================================================
+
+.. rst-class:: keepwithnext
 
 **4\)** Determine an equation for the quartic function represented by this
 graph.

@@ -23,8 +23,12 @@ This document was composed and formatted by Annie Bernatchez.
 
 The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
+.. rst-class:: keepwithnext
+
 **1\)** Calculate each of the following using synthetic division. Express
 your answer using the statement that could be used to check the division.
+
+.. rst-class:: keepwithnext
 
 **a\)** :math:`x^3 - 7x - 6` divided by :math:`x - 3`
 
@@ -44,6 +48,8 @@ your answer using the statement that could be used to check the division.
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **b\)** :math:`2x^3 - 7x^2 - 7x + 19` divided by :math:`x - 1`
 
 |nbsp|
@@ -61,6 +67,8 @@ your answer using the statement that could be used to check the division.
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 **c\)** :math:`6x^4 + 13x^3 - 34x^2 - 47x + 28` divided by :math:`x + 3`
 
@@ -80,6 +88,8 @@ your answer using the statement that could be used to check the division.
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **d\)** :math:`2x^3 + x^2 - 22x + 20` divided by :math:`2x - 3`
 
 |nbsp|
@@ -97,6 +107,8 @@ your answer using the statement that could be used to check the division.
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 **e\)** :math:`12x^4 - 56x^3 + 59x^2 + 9x - 18` divided by :math:`2x + 1`
 
@@ -116,6 +128,8 @@ your answer using the statement that could be used to check the division.
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **f\)** :math:`6x^3 - 15x^2 - 2x + 5` divided by :math:`2x - 5`
 
 |nbsp|
@@ -133,6 +147,8 @@ your answer using the statement that could be used to check the division.
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 **g\)** :math:`x^3 - 2x + 1` divided by :math:`x - 4`
 
@@ -152,6 +168,8 @@ your answer using the statement that could be used to check the division.
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **h\)** :math:`x^3 + 2x^2 - 6x + 1` divided by :math:`x + 2`
 
 |nbsp|
@@ -170,8 +188,12 @@ your answer using the statement that could be used to check the division.
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **2\)** Divide :math:`x^4 - 16x^3 + 4x^2 + 10x - 11` by each of the
 following binomials...
+
+.. rst-class:: keepwithnext
 
 **a\)** :math:`x - 2`
 
@@ -191,6 +213,8 @@ following binomials...
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **b\)** :math:`x + 4`
 
 |nbsp|
@@ -208,6 +232,8 @@ following binomials...
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 **3\)** Are either of the binomials in question #2 factors of
 :math:`x^4 - 16x^3 + 4x^2 + 10x - 11`? Explain.

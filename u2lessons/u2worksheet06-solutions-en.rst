@@ -21,11 +21,17 @@ This document was composed and formatted by Annie Bernatchez.
 
 The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
+.. rst-class:: keepwithnext
+
 **1\)** Solve each linear inequality
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x + 3 \leq 5`
 
 :math:`x \leq 2`
+
+.. rst-class:: keepwithnext
 
 b\) :math:`7x < 4 + 3x`
 
@@ -33,7 +39,11 @@ b\) :math:`7x < 4 + 3x`
 
 :math:`x < 1`
 
+.. rst-class:: keepwithnext
+
 **2\)** Solve each inequality by graphing
+
+.. rst-class:: keepwithnext
 
 a\) :math:`(x + 3)(x - 2) > 0`
 
@@ -46,6 +56,8 @@ Zeros at :math:`-3` and :math:`2`. Degree 2, positive leading coefficient.
 Solution: :math:`x < -3` or :math:`x > 2`
 
 :math:`x \in (-\infty, -3) \cup (2, \infty)`
+
+.. rst-class:: keepwithnext
 
 b\) :math:`(x + 2)(3 - x)(x + 1) < 0`
 
@@ -60,7 +72,11 @@ Solution: :math:`-2 < x < -1` or :math:`x > 3`
 
 :math:`x \in (-2, -1) \cup (3, \infty)`
 
+.. rst-class:: keepwithnext
+
 **3\)** Solve each of the following polynomial inequalities
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x^2 - 7x + 10 \geq 0`
 
@@ -97,6 +113,8 @@ a\) :math:`x^2 - 7x + 10 \geq 0`
 Solution: :math:`x \leq 2` or :math:`x \geq 5`
 
 :math:`x \in (-\infty, 2] \cup [5, \infty)`
+
+.. rst-class:: keepwithnext
 
 b\) :math:`x^3 + 6x^2 - 16x > 0`
 
@@ -146,6 +164,8 @@ Solution: :math:`-8 < x < 0` or :math:`x > 2`
 
 :math:`x \in (-8, 0) \cup (2, \infty)`
 
+.. rst-class:: keepwithnext
+
 c\) :math:`-x^2 + 36 \geq 0`
 
 :math:`-1(x^2 - 36) \geq 0`
@@ -187,6 +207,8 @@ c\) :math:`-x^2 + 36 \geq 0`
 Solution: :math:`-6 \leq x \leq 6`
 
 :math:`x \in [-6, 6]`
+
+.. rst-class:: keepwithnext
 
 d\) :math:`x^4 - 26x^2 + 25 > 0`
 
@@ -244,6 +266,8 @@ Solution: :math:`x < -5` or :math:`-1 < x < 1` or :math:`x > 5`
 
 :math:`x \in (-\infty, -5) \cup (-1, 1) \cup (5, \infty)`
 
+.. rst-class:: keepwithnext
+
 e\) :math:`x^3 - 3x^2 \geq 25x - 75`
 
 :math:`x^3 - 3x^2 - 25x + 75 \geq 0`
@@ -295,6 +319,8 @@ e\) :math:`x^3 - 3x^2 \geq 25x - 75`
 Solution: :math:`-5 \leq x \leq 3` or :math:`x \geq 5`
 
 :math:`x \in [-5, 3] \cup [5, \infty)`
+
+.. rst-class:: keepwithnext
 
 f\) :math:`-x^3 + 28x + 48 \geq 0`
 
@@ -351,6 +377,8 @@ Solution: :math:`x \leq -4` or :math:`-2 \leq x \leq 6`
 
 :math:`x \in (-\infty, -4] \cup [-2, 6]`
 
+.. rst-class:: keepwithnext
+
 g\) :math:`x^3 - 2x^2 - 5x + 6 < 0`
 
 :math:`f(1) = 1 - 2 - 5 + 6 = 0`, so :math:`x - 1` is a factor.
@@ -400,6 +428,8 @@ g\) :math:`x^3 - 2x^2 - 5x + 6 < 0`
 Solution: :math:`x < -2` or :math:`1 < x < 3`
 
 :math:`x \in (-\infty, -2) \cup (1, 3)`
+
+.. rst-class:: keepwithnext
 
 h\) :math:`5x^3 - 12x^2 - 11x + 6 \leq 0`
 
@@ -451,6 +481,8 @@ h\) :math:`5x^3 - 12x^2 - 11x + 6 \leq 0`
 Solution: :math:`x \leq -1` or :math:`\dfrac{2}{5} \leq x \leq 3`
 
 :math:`x \in (-\infty, -1] \cup \left[\dfrac{2}{5}, 3\right]`
+
+.. rst-class:: keepwithnext
 
 **4\)** The price, :math:`p`, in dollars, of a stock :math:`t` years
 after 1999 can be modelled by the function :math:`p(t) = 0.5t^3 - 5.5t^2

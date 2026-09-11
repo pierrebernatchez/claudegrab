@@ -21,8 +21,12 @@ This document was composed and formatted by Annie Bernatchez.
 
 The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
+.. rst-class:: keepwithnext
+
 **1\)** Use the remainder theorem to determine the remainder when :math:`2x^3 + 7x^2 - 8x + 3` is
 divided by each binomial.
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x + 1`
 
@@ -34,6 +38,8 @@ a\) :math:`x + 1`
    &=& 16
    \end{array}
 
+.. rst-class:: keepwithnext
+
 b\) :math:`x - 2`
 
 .. math::
@@ -44,6 +50,8 @@ b\) :math:`x - 2`
    &=& 31
    \end{array}
 
+.. rst-class:: keepwithnext
+
 c\) :math:`x + 3`
 
 .. math::
@@ -53,6 +61,8 @@ c\) :math:`x + 3`
    P(-3) &=& 2(-3)^3 + 7(-3)^2 - 8(-3) + 3 \\
    &=& 36
    \end{array}
+
+.. rst-class:: keepwithnext
 
 **2\)** a\) Divide :math:`x^3 + 3x^2 - 2x + 5` by :math:`x + 1`. Express the result in quotient form.
 
@@ -65,11 +75,15 @@ The result in quotient form is:
 
    \frac{x^3 + 3x^2 - 2x + 5}{x + 1} = x^2 + 2x - 4 + \frac{9}{x + 1}
 
+.. rst-class:: keepwithnext
+
 b\) Write the corresponding statement that can be used to check the division.
 
 .. math::
 
    x^3 + 3x^2 - 2x + 5 = (x + 1)(x^2 + 2x - 4) + 9
+
+.. rst-class:: keepwithnext
 
 **3\)** Divide :math:`3x^4 - 4x^3 - 6x^2 + 17x - 8` by :math:`3x - 4`. Express the result in
 quotient form.
@@ -86,13 +100,19 @@ The result in quotient form is:
 
    \frac{3x^4 - 4x^3 - 6x^2 + 17x - 8}{3x - 4} = x^3 - 2x + 3 + \frac{4}{3x - 4}
 
+.. rst-class:: keepwithnext
+
 b\) Write the corresponding statement that can be used to check the division.
 
 .. math::
 
    3x^4 - 4x^3 - 6x^2 + 17x - 8 = (3x - 4)(x^3 - 2x + 3) + 4
 
+.. rst-class:: keepwithnext
+
 **4\)** Perform each division. Express the result in quotient form.
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x^3 + 7x^2 - 3x + 4` divided by :math:`x + 2`
 
@@ -103,6 +123,8 @@ a\) :math:`x^3 + 7x^2 - 3x + 4` divided by :math:`x + 2`
 
    \frac{x^3 + 7x^2 - 3x + 4}{x + 2} = x^2 + 5x - 13 + \frac{30}{x + 2}
 
+.. rst-class:: keepwithnext
+
 b\) :math:`6x^3 + x^2 - 14x - 6` divided by :math:`3x + 2`
 
 .. image:: ../images/u2worksheet01-tabimage04.png
@@ -111,6 +133,8 @@ b\) :math:`6x^3 + x^2 - 14x - 6` divided by :math:`3x + 2`
 .. math::
 
    \frac{6x^3 + x^2 - 14x - 6}{3x + 2} = 2x^2 - x - 4 + \frac{2}{3x + 2}
+
+.. rst-class:: keepwithnext
 
 c\) :math:`10x^3 + 11 - 9x^2 - 8x` divided by :math:`5x - 2`
 
@@ -124,6 +148,8 @@ Note: the dividend is reordered to standard descending-degree form first:
 
    \frac{10x^3 - 9x^2 - 8x + 11}{5x - 2} = 2x^2 - x - 2 + \frac{7}{5x - 2}
 
+.. rst-class:: keepwithnext
+
 d\) :math:`11x - 4x^4 - 7` divided by :math:`x - 3`
 
 Note: the dividend is reordered to standard descending-degree form first:
@@ -136,6 +162,8 @@ Note: the dividend is reordered to standard descending-degree form first:
 
    \frac{-4x^4 + 11x - 7}{x - 3} = -4x^3 - 12x^2 - 36x - 97 - \frac{298}{x - 3}
 
+.. rst-class:: keepwithnext
+
 e\) :math:`6x^3 + x^2 + 7x + 3` divided by :math:`3x + 2`
 
 .. image:: ../images/u2worksheet01-tabimage07.png
@@ -144,6 +172,8 @@ e\) :math:`6x^3 + x^2 + 7x + 3` divided by :math:`3x + 2`
 .. math::
 
    \frac{6x^3 + x^2 + 7x + 3}{3x + 2} = 2x^2 - x + 3 - \frac{3}{3x + 2}
+
+.. rst-class:: keepwithnext
 
 f\) :math:`8x^3 + 4x^2 - 31` divided by :math:`2x - 3`
 
@@ -156,6 +186,8 @@ lined up.
 .. math::
 
    \frac{8x^3 + 4x^2 - 31}{2x - 3} = 4x^2 + 8x + 12 + \frac{5}{2x - 3}
+
+.. rst-class:: keepwithnext
 
 g\) :math:`6x^2 - 6 + 8x^3` divided by :math:`4x - 3`
 
@@ -180,6 +212,8 @@ Note: the dividend is reordered to standard descending-degree form first:
 
    \frac{6x^2 - 6 + 8x^3}{4x - 3} = 2x^2 + 3x + \frac{9}{4} + \frac{3}{4(4x - 3)}
 
+.. rst-class:: keepwithnext
+
 **5\)** The volume, in cubic cm, of a rectangular box can be modelled by the polynomial expression
 :math:`2x^3 + 17x^2 + 38x + 15`. Determine possible dimensions of the box if the height, in cm, is
 given by :math:`x + 5`.
@@ -193,6 +227,8 @@ given by :math:`x + 5`.
 
 Possible dimensions of the box are :math:`x + 5` (height), :math:`x + 3` (length), and
 :math:`2x + 1` (width).
+
+.. rst-class:: keepwithnext
 
 **6\)** Determine the value of :math:`k` such that when :math:`P(x) = kx^3 + 5x^2 - 2x + 3` is
 divided by :math:`x + 1`, the remainder is 7.

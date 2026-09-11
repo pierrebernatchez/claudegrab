@@ -77,8 +77,12 @@ used to solve a polynomial inequality.
 Part 1: Inequalities and Number Lines
 ================================================================================
 
+.. rst-class:: keepwithnext
+
 **Example 1:** Write an inequality that corresponds to the values of
 :math:`x` shown on each number line
+
+.. rst-class:: keepwithnext
 
 a\)
 
@@ -91,6 +95,8 @@ a\)
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 b\)
 
@@ -107,6 +113,8 @@ b\)
 Part 2: Solve an Inequality given the Graph
 ================================================================================
 
+.. rst-class:: keepwithnext
+
 **Example 2:** Use the graph of the function :math:`f(x)` to answer the
 following inequalities…
 
@@ -116,6 +124,8 @@ following inequalities…
    :scale: 50
    :alt: graph of f(x) = 0.1(x-1)(x+3)(x-4)
 
+.. rst-class:: keepwithnext
+
 a\) :math:`f(x) < 0`
 
 |nbsp|
@@ -123,6 +133,8 @@ a\) :math:`f(x) < 0`
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 b\) :math:`f(x) \geq 0`
 
@@ -140,7 +152,11 @@ Note: Solving linear ``________________`` is the same as solving linear
 multiplied or divided by a ``______________`` number, the inequality sign
 must be ``________________________``.
 
+.. rst-class:: keepwithnext
+
 **Example 3:** Solve each inequality
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x - 8 \geq 3`
 
@@ -159,6 +175,8 @@ a\) :math:`x - 8 \geq 3`
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 b\) :math:`-4 - 2x < 12`
 
@@ -193,7 +211,11 @@ Part 2: Solve Inequalities of Degree 2 and Higher
       degree
    b. Make a factor table and test values in each interval
 
+.. rst-class:: keepwithnext
+
 **Example 4:** Solve each polynomial inequality algebraically
+
+.. rst-class:: keepwithnext
 
 a\) :math:`2x^2 + 3x - 9 > 0`
 
@@ -229,6 +251,8 @@ Method 2: Factor Table (sign chart)
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 b\) :math:`-2x^3 - 6x^2 + 12x \leq -16`
 
 Method 1: Graph the inequality
@@ -255,6 +279,8 @@ Method 2: Factor Table (sign chart)
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 c\) :math:`x^3 + 4x^2 + 6x < -24`
 
 |nbsp|
@@ -275,6 +301,8 @@ c\) :math:`x^3 + 4x^2 + 6x < -24`
 
 Part 2: Applications of Inequalities
 ================================================================================
+
+.. rst-class:: keepwithnext
 
 **3\)** The price, :math:`p`, in dollars, of a stock :math:`t` years
 after 1999 can be modeled by the function :math:`p(t) = 0.5t^3 - 5.5t^2 +

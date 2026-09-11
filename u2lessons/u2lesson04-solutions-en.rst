@@ -30,17 +30,23 @@ function.
 Part 1: Investigation
 ================================================================================
 
+.. rst-class:: keepwithnext
+
 **a\)** Use technology to graph the function :math:`f(x) = x^4 - 13x^2 + 36`
 
 .. image:: ../images/u2lesson04-gpimage01.png
    :scale: 50
    :alt: graph of f(x) = x^4 - 13x^2 + 36 with x-intercepts at (-3,0), (-2,0), (2,0), and (3,0)
 
+.. rst-class:: keepwithnext
+
 **b\)** Determine the x-intercepts from the graph
 
 The :math:`x`-intercepts are:
 
 :math:`(-3, 0)`, :math:`(-2, 0)`, :math:`(2, 0)`, and :math:`(3, 0)`
+
+.. rst-class:: keepwithnext
 
 **c\)** Factor :math:`f(x)`. Then, use the factors to determine the zeros
 (roots) of :math:`f(x)`.
@@ -77,14 +83,20 @@ make :math:`f(x) = 0`. If the polynomial equation is factorable, then the
 values of the zeros (roots) can be determined algebraically by solving each
 linear or quadratic factor.
 
+.. rst-class:: keepwithnext
+
 **d\)** How are the :math:`x`-intercepts from the graph related to the
 roots (zeros) of the equation?
 
 The zeros of the equation ARE the :math:`x`-intercepts of the graph of the
 function.
 
+.. rst-class:: keepwithnext
+
 **Example 1:** State the solutions to the following polynomials that are
 already in factored form
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x(2x + 3)(x - 5) = 0`
 
@@ -96,6 +108,8 @@ a\) :math:`x(2x + 3)(x - 5) = 0`
 
 Solution(s): :math:`(0, 0)`, :math:`\left(-\dfrac{3}{2}, 0\right)`, and
 :math:`(5, 0)`
+
+.. rst-class:: keepwithnext
 
 b\) :math:`(2x^2 - 3)(3x^2 + 1) = 0`
 
@@ -116,7 +130,11 @@ b\) :math:`(2x^2 - 3)(3x^2 + 1) = 0`
 Solution(s): :math:`\left(\sqrt{\dfrac{3}{2}}, 0\right)` and
 :math:`\left(-\sqrt{\dfrac{3}{2}}, 0\right)`
 
+.. rst-class:: keepwithnext
+
 **Example 2:** Solve each polynomial equation by factoring
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x^3 - x^2 - 2x = 0`
 
@@ -133,6 +151,8 @@ Product :math:`-2`, sum :math:`-1` → :math:`-2` and :math:`1`
 :math:`x + 1 = 0 \rightarrow x_3 = -1`
 
 Solution(s): :math:`(0, 0)`, :math:`(2, 0)`, and :math:`(-1, 0)`
+
+.. rst-class:: keepwithnext
 
 b\) :math:`3x^3 + x^2 - 12x - 4 = 0`
 
@@ -157,7 +177,11 @@ Solution(s): :math:`\left(-\dfrac{1}{3}, 0\right)`, :math:`(2, 0)`, and
 - Sum and difference of cubes: :math:`a^3 + b^3 = (a + b)(a^2 - ab + b^2)`,
   :math:`a^3 - b^3 = (a - b)(a^2 + ab + b^2)`
 
+.. rst-class:: keepwithnext
+
 **Example 3:**
+
+.. rst-class:: keepwithnext
 
 a\) Use the factor theorem to solve :math:`0 = 2x^3 + 3x^2 - 11x - 6`
 
@@ -191,12 +215,16 @@ a factor
 Solution(s): :math:`(2, 0)`, :math:`(-3, 0)`, and
 :math:`\left(-\dfrac{1}{2}, 0\right)`
 
+.. rst-class:: keepwithnext
+
 b\) What do your answers to part a\) represent?
 
 The values of :math:`2`, :math:`-\dfrac{1}{2}`, and :math:`-3` are the
 roots of the equation :math:`2x^3 + 3x^2 - 11x - 6 = 0` which means they
 are the :math:`x`-intercepts of the graph of the function :math:`f(x) =
 2x^3 + 3x^2 - 11x - 6`.
+
+.. rst-class:: keepwithnext
 
 **Example 4:** Find the zeros of the polynomial function :math:`f(x) = x^4
 - 2x^3 - 7x^2 + 8x + 12`
@@ -228,7 +256,11 @@ Possible values for :math:`b` are :math:`\pm 1, \pm 2, \pm 3, \pm 4, \pm 6`
 Solution(s): :math:`(-1, 0)`, :math:`(3, 0)`, :math:`(2, 0)`, and
 :math:`(-2, 0)`
 
+.. rst-class:: keepwithnext
+
 **Example 5:**
+
+.. rst-class:: keepwithnext
 
 a\) Find the roots of the polynomial function :math:`f(x) = x^3 + x - 3x^2
 - 3`
@@ -253,6 +285,8 @@ Solution(s): :math:`(3, 0)`
 the only REAL root is :math:`x = 3`. :math:`x = \pm\sqrt{-1}` is
 considered a NON-REAL root.
 
+.. rst-class:: keepwithnext
+
 b\) Use technology to look at the graph of the function :math:`f(x)`.
 Comment on how :math:`x`-intercept(s) of the graph are related to the REAL
 and NON-REAL roots of the equation.
@@ -266,7 +300,11 @@ to only the REAL roots of the related polynomial equation. There are no
 :math:`x`-intercepts on the graph that correspond to the NON-REAL roots of
 the equation.
 
+.. rst-class:: keepwithnext
+
 **Example 6:** Find all real solutions for each polynomial equation
+
+.. rst-class:: keepwithnext
 
 a\) :math:`0 = 2x^3 - 3x^2 - x - 2`
 
@@ -294,6 +332,8 @@ real roots:
 :math:`b^2 - 4ac = (1)^2 - 4(2)(1) = -7` |---| so no real roots
 
 Solution(s): :math:`(2, 0)`
+
+.. rst-class:: keepwithnext
 
 b\) :math:`0 = 8x^3 + 125`
 

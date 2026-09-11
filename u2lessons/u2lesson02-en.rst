@@ -63,8 +63,12 @@ OR
 
 :math:`3x^3 - 5x^2 - 7x - 1 =` |nbsp|
 
+.. rst-class:: keepwithnext
+
 **Example 1:** Use synthetic division to divide. Then write the
 multiplication statement that could be used to check the division.
+
+.. rst-class:: keepwithnext
 
 a\) :math:`(x^4 - 2x^3 + 13x - 6) \div (x + 2)`
 
@@ -88,6 +92,8 @@ Rewrite the dividend with the missing power: ``= ____________``
 
 Note: since the remainder is zero, both the quotient and divisor are
 ``____________`` of the dividend.
+
+.. rst-class:: keepwithnext
 
 b\) :math:`(2x^3 - 5x^2 + 8x + 4) \div (x - 3)`
 
@@ -145,7 +151,11 @@ Note: Synthetic division can only be used with a linear divisor. It is most
 useful with a divisor of the form :math:`x - b`. If the divisor is
 :math:`ax - b`, it can be used but long division may be easier.
 
+.. rst-class:: keepwithnext
+
 **Example 2:** Find each quotient by choosing an appropriate strategy.
+
+.. rst-class:: keepwithnext
 
 a\) Divide :math:`x^3 - 4x^2 + 2x + 3` by :math:`x - 3`
 
@@ -164,6 +174,8 @@ a\) Divide :math:`x^3 - 4x^2 + 2x + 3` by :math:`x - 3`
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 b\) Divide :math:`12x^4 - 56x^3 + 59x^2 + 9x - 18` by :math:`2x + 1`
 
@@ -187,6 +199,8 @@ b\) Divide :math:`12x^4 - 56x^3 + 59x^2 + 9x - 18` by :math:`2x + 1`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 c\) Divide :math:`x^4 - 2x^3 + 5x + 3` by :math:`x^2 + 2x + 1`
 
 |nbsp|
@@ -208,6 +222,8 @@ c\) Divide :math:`x^4 - 2x^3 + 5x + 3` by :math:`x^2 + 2x + 1`
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 d\) Divide :math:`x^4 - x^3 - x^2 + 2x + 1` by :math:`x^2 + 2`
 

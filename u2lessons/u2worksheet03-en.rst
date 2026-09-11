@@ -23,7 +23,11 @@ This document was composed and formatted by Annie Bernatchez.
 
 The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
+.. rst-class:: keepwithnext
+
 **1\)** Determine if :math:`x + 3` is a factor of each polynomial:
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x^3 + x^2 - x + 6`
 
@@ -43,6 +47,8 @@ a\) :math:`x^3 + x^2 - x + 6`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 b\) :math:`2x^3 + 9x^2 + 10x + 3`
 
 |nbsp|
@@ -60,6 +66,8 @@ b\) :math:`2x^3 + 9x^2 + 10x + 3`
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 c\) :math:`x^3 + 27`
 
@@ -79,8 +87,12 @@ c\) :math:`x^3 + 27`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **2\)** Find possible factors of the following polynomials using the
 integral zero theorem. Then, factor the polynomial.
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x^3 + 3x^2 - 6x - 8`
 
@@ -100,6 +112,8 @@ a\) :math:`x^3 + 3x^2 - 6x - 8`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 b\) :math:`x^3 + 4x^2 - 15x - 18`
 
 |nbsp|
@@ -117,6 +131,8 @@ b\) :math:`x^3 + 4x^2 - 15x - 18`
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 c\) :math:`x^3 - 3x^2 - 10x + 24`
 
@@ -136,7 +152,11 @@ c\) :math:`x^3 - 3x^2 - 10x + 24`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **3\)** Factor by grouping:
+
+.. rst-class:: keepwithnext
 
 a\) :math:`x^3 + x^2 - 9x - 9`
 
@@ -156,6 +176,8 @@ a\) :math:`x^3 + x^2 - 9x - 9`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 b\) :math:`2x^3 - x^2 - 72x + 36`
 
 |nbsp|
@@ -173,6 +195,8 @@ b\) :math:`2x^3 - x^2 - 72x + 36`
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 **4\)** Determine a value of :math:`k` so that :math:`x + 2` is a factor
 of :math:`x^3 - 2kx^2 + 6x - 4`.
@@ -193,8 +217,12 @@ of :math:`x^3 - 2kx^2 + 6x - 4`.
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **5\)** Find possible factors of the following polynomials using the
 integral zero theorem. Then, factor the polynomial.
+
+.. rst-class:: keepwithnext
 
 a\) :math:`3x^3 + x^2 - 22x - 24`
 
@@ -214,6 +242,8 @@ a\) :math:`3x^3 + x^2 - 22x - 24`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 b\) :math:`2x^3 - 9x^2 + 10x - 3`
 
 |nbsp|
@@ -231,6 +261,8 @@ b\) :math:`2x^3 - 9x^2 + 10x - 3`
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 c\) :math:`6x^3 - 11x^2 - 26x + 15`
 
@@ -250,6 +282,8 @@ c\) :math:`6x^3 - 11x^2 - 26x + 15`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 d\) :math:`4x^3 + 3x^2 - 4x - 3`
 
 |nbsp|
@@ -268,7 +302,11 @@ d\) :math:`4x^3 + 3x^2 - 4x - 3`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 **6\)** Factor each polynomial
+
+.. rst-class:: keepwithnext
 
 a\) :math:`2x^3 + 5x^2 - x - 6`
 
@@ -288,6 +326,8 @@ a\) :math:`2x^3 + 5x^2 - x - 6`
 
 |nbsp|
 
+.. rst-class:: keepwithnext
+
 b\) :math:`4x^3 - 7x - 3`
 
 |nbsp|
@@ -305,6 +345,8 @@ b\) :math:`4x^3 - 7x - 3`
 |nbsp|
 
 |nbsp|
+
+.. rst-class:: keepwithnext
 
 c\) :math:`x^4 - 15x^2 - 10x + 24`
 
