@@ -103,6 +103,14 @@ a\) :math:`x^2 - 7x + 10 \geq 0`
 
 |nbsp|
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
 b\) :math:`x^3 + 6x^2 - 16x > 0`
 
 |nbsp|
@@ -121,7 +129,23 @@ b\) :math:`x^3 + 6x^2 - 16x > 0`
 
 |nbsp|
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
 c\) :math:`-x^2 + 36 \geq 0`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 |nbsp|
 
@@ -175,7 +199,23 @@ e\) :math:`x^3 - 3x^2 \geq 25x - 75`
 
 |nbsp|
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
 f\) :math:`-x^3 + 28x + 48 \geq 0`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 |nbsp|
 
@@ -211,7 +251,23 @@ g\) :math:`x^3 - 2x^2 - 5x + 6 < 0`
 
 |nbsp|
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
 h\) :math:`5x^3 - 12x^2 - 11x + 6 \leq 0`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 |nbsp|
 

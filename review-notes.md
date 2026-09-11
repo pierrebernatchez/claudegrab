@@ -6,9 +6,10 @@ batch is finished and discussed (see METHODOLOGY.md workflow).
 
 ## 2026-09-10 — unit2 English review
 
-**STATUS: COMPLETE, 12/12 reviewed. Post-loop fix pass in progress.**
-Items 1-5 implemented, re-rendered, and CONFIRMED 2026-09-10; items 6-7
-not yet started.
+**STATUS: COMPLETE, 12/12 reviewed. Post-loop fix pass COMPLETE — all 7
+items DONE and CONFIRMED (items 1-5 on 2026-09-10, items 6-7 on
+2026-09-11).** Unit2 English is now fully reviewed and fixed, nothing
+outstanding from this pass.
 
 1. **DONE, CONFIRMED.** u2lesson02 only — synthetic division images:
    added a dividend/divisor title line above each image (`--title` flag
@@ -169,6 +170,51 @@ not yet started.
   `u2lesson06-gpimage01`-`05`/`07`/`09` and the equivalent
   `u2worksheet06` figures — exact list to confirm during the post-loop
   pass. Not yet implemented.
+  **DONE 2026-09-11, CONFIRMED.** Implemented and reviewed figure by
+  figure against the actual upstream pages (not just from memory):
+  - gpimage01: no change needed — the original's "extra info" version
+    uses text labels, not shading (matches the earlier item-5 decision
+    not to replicate it).
+  - gpimage02/03 (number lines): no change needed, already use the
+    established shaded-ray convention.
+  - gpimage05, gpimage07: shaded successfully on the first attempt using
+    gnuplot's automatic `filledcurves x1` + a domain-conditional function
+    (`(cond) ? f(x) : 1/0`), confirmed correct by the user.
+  - gpimage04 → new gpimage12 (Example 2, two-color recap): per user
+    decision, kept gpimage04 plain (shared/given, both blank+solutions)
+    and added a NEW solutions-only image with red (`f(x)<0`) / blue
+    (`f(x)>=0`) shading, since shading the shared image would hand the
+    student the answer.
+  - New gpimage13 (Example 4c): found via direct upstream comparison
+    that this problem's graph was missing entirely (not just unshaded).
+    Sampled the function first (per METHODOLOGY.md verification
+    discipline) before fixing the display range.
+  - **Significant bug hunt on gpimage09/12/13's shading**: the automatic
+    `filledcurves x1` + domain-conditional approach produced shading the
+    user repeatedly flagged as wrong (extended too far / wrong side),
+    despite extensive isolated testing that couldn't reproduce or
+    pin down the discrepancy. Resolved by abandoning that mechanism
+    entirely in favor of an EXPLICIT closed polygon (curve points across
+    the region, sampled in Python, closed back along the x-axis) via
+    `'-' using 1:2 with filledcurves closed` — confirmed correct once
+    switched. See divtableau/tableau2png's own history of rinoh LaTeX
+    gaps for the same underlying lesson: when a rendering primitive's
+    behavior can't be pinned down through reasoning or isolated tests,
+    switch to a mechanism that removes the ambiguity entirely rather
+    than keep guessing at the broken one's exact semantics.
+  All 5 affected figures (05, 07, 09, 12, 13) reviewed together in the
+  final render and confirmed correct.
+  **UPDATE 2026-09-11:** on a full-document final review pass (upstream
+  vs. ours side by side), the user caught that gpimage05 and gpimage07 —
+  the only two figures NEVER converted to the explicit-polygon technique
+  — were still visibly wrong ("shading below x"), despite having been
+  individually confirmed correct earlier in isolation. Confirms the
+  pattern: every figure using the automatic `filledcurves x1` +
+  conditional approach eventually got flagged, every one rebuilt with an
+  explicit polygon did not. Rebuilt both the same way; also fixed a
+  minor color mismatch on gpimage13 (was red, original is blue). **Item
+  6 is now fully DONE and CONFIRMED** across all 5 figures (05, 07, 09,
+  12, 13) in a complete side-by-side final pass.
 - **u2worksheet06, Q3 parts a, b, c, e, f, g, h — missing graphs
   entirely** (not just missing shading). Viewed
   `upstream/u2worksheet6-solutions.pdf` pages 2-3 directly to confirm
@@ -184,3 +230,33 @@ not yet started.
   in place of each new graph too, per the usual solutions-first
   derivation — currently there's nothing to replace since neither
   version has the graphs yet. Not yet implemented.
+  **DONE 2026-09-11, CONFIRMED.** Built `inequality_graph.py` (repo
+  root) — a reusable standalone tool generating a full `.gp` script for
+  this exact "shaded solution region(s), explicit polygon, arrows at
+  unbounded ends" pattern, since 7+ figures needed it. Validated first
+  against the already-confirmed `u2lesson06-gpimage05` before trusting
+  it for new content. Generated and inserted all 7 figures (Q3 a, b, c,
+  e, f, g, h), each self-verified against its algebraic solution before
+  insertion. Fixed a real bug in the tool along the way: for a
+  function defined with a non-`x` parameter name (e.g. `g(t)=...`), the
+  plot call must still use `f(x)`, never `f(t)` — this project's
+  existing gnuplot dummy-variable gotcha (see CLAUDE.md's Environment
+  section), initially reproduced by the tool and then fixed in it.
+  **Scope also expanded during review:** the user caught that 3
+  *pre-existing* figures (Q2a `gpimage01`, Q2b `gpimage02`, Q4
+  `gpimage04`) — never in item 7's original scope, since they already
+  existed before this fix pass — were also unshaded in the original
+  upstream comparison. Rebuilt all three with the same tool and
+  confirmed correct. (One instructive false alarm along the way: the
+  user first reported these three as unshaded in the rendered PDF when
+  they in fact weren't — direct inspection via `pdftoppm` on the actual
+  file, bypassing any viewer, confirmed the real file was correct both
+  times; the second report turned out to name the right images after
+  all, just previously out of scope, not any rendering bug.)
+  **Blank-space follow-through:** confirmed the original upstream's own
+  blank worksheet provides no grid for Q3 (matches this project's
+  existing `-en.rst`, `|nbsp|`-only, no grid image). Bumped blank space
+  for the 7 affected parts (a,b,c,e,f,g,h) from 8 to 12 stacked `|nbsp|`
+  paragraphs to account for the added graph (part d, unaffected, and Q4,
+  whose graph pre-dated this fix pass, both left at 8). Item 7 is now
+  fully DONE and CONFIRMED.

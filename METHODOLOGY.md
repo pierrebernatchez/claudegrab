@@ -242,6 +242,27 @@ default everywhere else unchanged.
   worked steps as correct by construction. Re-derive or re-check the
   final numeric/symbolic answer against whatever the source material
   itself states, for every problem, not spot-checked.
+- **When a rendering primitive's exact behavior can't be pinned down
+  through reasoning or isolated tests, stop guessing at its semantics
+  and switch to a mechanism that removes the ambiguity entirely.** A
+  plotting tool's "fill the area between a curve and a reference line"
+  primitive, combined with a domain-restricted/conditional function to
+  shade only part of a curve, produced output a reviewer repeatedly
+  flagged as wrong — but an isolated minimal test of the same primitive
+  reproduced the *expected* correct behavior, not the bug, so the
+  discrepancy couldn't be pinned down through reasoning or a simplified
+  reproduction. Rather than keep iterating blindly against an
+  automatic/implicit mechanism whose exact edge-case behavior is
+  unclear, switching to an explicit, manually-constructed representation
+  of exactly what should be drawn (concrete boundary points, sampled
+  directly from the same source data, forming a closed shape) resolved
+  it immediately and was confirmed correct on the first try. General
+  principle: implicit/automatic rendering behavior is worth one honest
+  debugging attempt, but past that, prefer an explicit construction you
+  can reason about directly over continuing to guess at an opaque
+  mechanism's rules — this is the same underlying lesson as this
+  project's tableau pipeline drawing missing LaTeX rules by measuring
+  actual rendered ink rather than fighting the renderer's own logic.
 - **A visual read alone can miss silently dropped content, because the
   remaining text can still read as coherent** — a sentence missing one
   clause can still parse as a complete, sensible sentence, giving a

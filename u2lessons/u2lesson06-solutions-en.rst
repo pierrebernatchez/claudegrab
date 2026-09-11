@@ -122,6 +122,9 @@ b\) :math:`f(x) \geq 0`
 
 :math:`[-3, 1] \cup [4, \infty)`
 
+.. image:: ../images/u2lesson06-gpimage12.png
+   :alt: graph of f(x) = 0.1(x-1)(x+3)(x-4) with f(x) < 0 shaded red and f(x) >= 0 shaded blue
+
 Part 2: Solve Linear Inequalities
 ================================================================================
 
@@ -323,6 +326,9 @@ solutions
    * - Overall sign
      - ``-``
      - ``+``
+
+.. image:: ../images/u2lesson06-gpimage13.png
+   :alt: graph of y = x^3 + 4x^2 + 6x + 24, x-intercept at -4
 
 Solution: :math:`x < -4`, or :math:`(-\infty, -4)`
 

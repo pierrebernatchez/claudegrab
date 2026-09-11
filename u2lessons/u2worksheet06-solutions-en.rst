@@ -88,6 +88,9 @@ a\) :math:`x^2 - 7x + 10 \geq 0`
      - ``-``
      - ``+``
 
+.. image:: ../images/u2worksheet06-gpimage05.png
+   :alt: graph of y = x^2 - 7x + 10, x-intercepts at 2 and 5
+
 Solution: :math:`x \leq 2` or :math:`x \geq 5`
 
 :math:`x \in (-\infty, 2] \cup [5, \infty)`
@@ -132,6 +135,9 @@ b\) :math:`x^3 + 6x^2 - 16x > 0`
      - ``-``
      - ``+``
 
+.. image:: ../images/u2worksheet06-gpimage06.png
+   :alt: graph of y = x^3 + 6x^2 - 16x, x-intercepts at -8, 0, and 2
+
 Solution: :math:`-8 < x < 0` or :math:`x > 2`
 
 :math:`x \in (-8, 0) \cup (2, \infty)`
@@ -169,6 +175,9 @@ c\) :math:`-x^2 + 36 \geq 0`
      - ``-``
      - ``+``
      - ``-``
+
+.. image:: ../images/u2worksheet06-gpimage07.png
+   :alt: graph of y = -x^2 + 36, x-intercepts at -6 and 6
 
 Solution: :math:`-6 \leq x \leq 6`
 
@@ -274,6 +283,9 @@ e\) :math:`x^3 - 3x^2 \geq 25x - 75`
      - ``-``
      - ``+``
 
+.. image:: ../images/u2worksheet06-gpimage08.png
+   :alt: graph of y = x^3 - 3x^2 - 25x + 75, x-intercepts at -5, 3, and 5
+
 Solution: :math:`-5 \leq x \leq 3` or :math:`x \geq 5`
 
 :math:`x \in [-5, 3] \cup [5, \infty)`
@@ -325,6 +337,9 @@ is a factor.
      - ``-``
      - ``+``
 
+.. image:: ../images/u2worksheet06-gpimage09.png
+   :alt: graph of y = -x^3 + 28x + 48, x-intercepts at -4, -2, and 6
+
 Solution: :math:`x \leq -4` or :math:`-2 \leq x \leq 6`
 
 :math:`x \in (-\infty, -4] \cup [-2, 6]`
@@ -370,6 +385,9 @@ g\) :math:`x^3 - 2x^2 - 5x + 6 < 0`
      - ``+``
      - ``-``
      - ``+``
+
+.. image:: ../images/u2worksheet06-gpimage10.png
+   :alt: graph of y = x^3 - 2x^2 - 5x + 6, x-intercepts at -2, 1, and 3
 
 Solution: :math:`x < -2` or :math:`1 < x < 3`
 
@@ -417,6 +435,9 @@ h\) :math:`5x^3 - 12x^2 - 11x + 6 \leq 0`
      - ``+``
      - ``-``
      - ``+``
+
+.. image:: ../images/u2worksheet06-gpimage11.png
+   :alt: graph of y = 5x^3 - 12x^2 - 11x + 6, x-intercepts at -1, 0.4, and 3
 
 Solution: :math:`x \leq -1` or :math:`\dfrac{2}{5} \leq x \leq 3`
 
