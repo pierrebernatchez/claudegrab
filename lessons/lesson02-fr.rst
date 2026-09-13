@@ -1,4 +1,4 @@
-Leçon sur les caractéristiques des fonctions polynomiales
+1.2 Leçon sur les caractéristiques des fonctions polynomiales
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Leçon sur les caractéristiques des fonctions polynomiales
 :slug: lesson02
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Leçon sur les caractéristiques des fonctions polynomiales
+:summary: 1.2 Leçon sur les caractéristiques des fonctions polynomiales
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -23,7 +23,7 @@ Ce document a été composé et mis en forme par Annie Bernatchez.
 
 Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
-À la section 1.1, nous avons étudié les fonctions puissance, qui sont des
+À la section 1.1, nous avons étudié les fonctions puissance polynomiales, qui sont des
 fonctions polynomiales à un seul terme. Plusieurs fonctions polynomiales
 sont composées de deux termes ou plus. Dans cette section, nous étudierons
 les caractéristiques des graphiques et des équations des fonctions
@@ -47,25 +47,33 @@ Le degré d'une fonction polynomiale fournit de l'information sur la forme,
 les points tournants (minimums/maximums locaux) et les zéros (abscisses à
 l'origine) du graphique.
 
-Dans ce graphique, (-1, 4) est un ``________________`` et (1, -4) est un
-``________________``. Ce ne sont pas des points minimum et maximum
-absolus, car il existe d'autres points sur le graphique de la fonction qui
-sont plus petits et plus grands. On appelle parfois les points minimum et
-maximum locaux des ``____________________________``.
+.. container:: keeptogether
 
-.. image:: ../images/lesson02-image01.png
-   :alt: f(x) = 2x^3 - 6x avec maximum local (-1,4) et minimum local (1,-4)
+   Dans le graphique ci-dessous, (-1, 4) est un ``________________`` et
+   (1, -4) est un ``________________``. Ce ne sont pas des points minimum
+   et maximum absolus, car il existe d'autres points sur le graphique de
+   la fonction qui sont plus petits et plus grands. On appelle parfois
+   les points minimum et maximum locaux des
+   ``____________________________``.
 
-Sur le graphique de cette fonction...
+   .. image:: ../images/lesson02-image01.png
+      :scale: 50
+      :alt: f(x) = 2x^3 - 6x avec maximum local (-1,4) et minimum local (1,-4)
 
-Il y a ``____`` points minimum/maximum locaux. ``____`` sont des minimums
-locaux et ``____`` est un maximum local.
+.. container:: keeptogether
 
-Un des points minimum locaux est aussi un minimum absolu (il est indiqué).
+   Sur le graphique ci-dessous...
 
-.. image:: ../images/lesson02-image02.png
-   :alt: f(x) = x^4 - 5x^2, une quartique en W avec deux minimums locaux et
-         un maximum local, minimum absolu indiqué
+   Il y a ``____`` points minimum/maximum locaux. ``____`` sont des
+   minimums locaux et ``____`` est un maximum local.
+
+   Un des points minimum locaux est aussi un minimum absolu (celui de
+   droite).
+
+   .. image:: ../images/lesson02-image02.png
+      :scale: 50
+      :alt: f(x) = x^4 - 5x^2 - x, une quartique en W avec deux minimums
+            locaux et un maximum local, le minimum de droite plus bas que celui de gauche
 
 Complétez le tableau suivant à l'aide de l'équation et des graphiques
 donnés :
@@ -146,42 +154,51 @@ donnés :
   au moins un zéro, et un nombre pair de points tournants
 - Si une fonction polynomiale est de degré ``________``, elle peut n'avoir
   aucun zéro, et un nombre impair de points tournants
-- Une fonction polynomiale de degré impair s'étend...
 
-  - du quadrant ``____`` au quadrant ``____`` si son coefficient dominant
-    est positif
-  - du quadrant ``____`` au quadrant ``____`` si son coefficient dominant
-    est négatif
+.. container:: keeptogether
 
-.. list-table::
-   :widths: 50 50
+   - Une fonction polynomiale de degré impair s'étend...
 
-   * - .. image:: ../images/lesson02-image12.png
+     - du quadrant ``____`` au quadrant ``____`` si son coefficient
+       dominant est positif
+     - du quadrant ``____`` au quadrant ``____`` si son coefficient
+       dominant est négatif
 
-       Coefficient dominant positif
-     - .. image:: ../images/lesson02-image13.png
+   .. list-table::
+      :widths: 50 50
 
-       Coefficient dominant négatif
+      * - .. image:: ../images/lesson02-image12.png
+             :scale: 50
+
+          Coefficient dominant positif
+        - .. image:: ../images/lesson02-image13.png
+             :scale: 50
+
+          Coefficient dominant négatif
 
 *Remarque : Les polynômes de degré impair ont des comportements à
 l'infini OPPOSÉS*
 
-- Une fonction polynomiale de degré pair s'étend...
+.. container:: keeptogether
 
-  - du quadrant ``____`` au quadrant ``____`` si son coefficient dominant
-    est positif
-  - du quadrant ``____`` au quadrant ``____`` si son coefficient dominant
-    est négatif
+   - Une fonction polynomiale de degré pair s'étend...
 
-.. list-table::
-   :widths: 50 50
+     - du quadrant ``____`` au quadrant ``____`` si son coefficient
+       dominant est positif
+     - du quadrant ``____`` au quadrant ``____`` si son coefficient
+       dominant est négatif
 
-   * - .. image:: ../images/lesson02-image14.png
+   .. list-table::
+      :widths: 50 50
 
-       Coefficient dominant positif
-     - .. image:: ../images/lesson02-image15.png
+      * - .. image:: ../images/lesson02-image14.png
+             :scale: 50
 
-       Coefficient dominant négatif
+          Coefficient dominant positif
+        - .. image:: ../images/lesson02-image15.png
+             :scale: 50
+
+          Coefficient dominant négatif
 
 *Remarque : Les polynômes de degré pair ont LE MÊME comportement à
 l'infini*
@@ -230,44 +247,66 @@ nombre possible de points tournants, et le nombre possible de zéros.
 Utilisez ces caractéristiques pour esquisser des graphiques possibles de
 la fonction
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 0
+.. rst-class:: keepwithnext
 
-   * - a\) :math:`f(x) = -3x^5 + 4x^3 - 8x^2 + 7x - 5`
-     - |nbsp|
+a\) :math:`f(x) = -3x^5 + 4x^3 - 8x^2 + 7x - 5`
 
-Graphiques possibles de fonctions polynomiales de degré 5 à coefficient
-dominant négatif :
+|nbsp|
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :align: center
+|nbsp|
 
-   * - .. image:: ../images/lesson02-image16.png
-     - .. image:: ../images/lesson02-image17.png
-     - .. image:: ../images/lesson02-image18.png
-     - .. image:: ../images/lesson02-image19.png
-     - .. image:: ../images/lesson02-image20.png
+|nbsp|
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 0
+|nbsp|
 
-   * - b\) :math:`g(x) = 2x^4 + x^2 + 2`
-     - |nbsp|
+|nbsp|
 
-Graphiques possibles de fonctions polynomiales de degré 4 à coefficient
-dominant positif :
+|nbsp|
 
-.. list-table::
-   :widths: 25 25 25 25
-   :align: center
+.. container:: keeptogether
 
-   * - .. image:: ../images/lesson02-image21.png
-     - .. image:: ../images/lesson02-image22.png
-     - .. image:: ../images/lesson02-image23.png
-     - .. image:: ../images/lesson02-image24.png
+   Graphiques possibles de fonctions polynomiales de degré 5 à
+   coefficient dominant négatif :
+
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :align: center
+
+      * - .. image:: ../images/lesson02-image16.png
+        - .. image:: ../images/lesson02-image17.png
+        - .. image:: ../images/lesson02-image18.png
+        - .. image:: ../images/lesson02-image19.png
+        - .. image:: ../images/lesson02-image20.png
+
+.. rst-class:: keepwithnext
+
+b\) :math:`g(x) = 2x^4 + x^2 + 2`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. container:: keeptogether
+
+   Graphiques possibles de fonctions polynomiales de degré 4 à
+   coefficient dominant positif :
+
+   .. list-table::
+      :widths: 25 25 25 25
+      :align: center
+
+      * - .. image:: ../images/lesson02-image21.png
+        - .. image:: ../images/lesson02-image22.png
+        - .. image:: ../images/lesson02-image23.png
+        - .. image:: ../images/lesson02-image24.png
 
 **Exemple 2 :** Remplissez le tableau suivant
 

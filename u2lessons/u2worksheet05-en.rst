@@ -335,4 +335,30 @@ b\)
 
 |nbsp|
 
+Answer Key
+================================================================================
+
+**1)** a) :math:`y = k(x+7)(x+3)` b) e.g. :math:`y = 87(x+7)(x+3)`,
+:math:`y = 71(x+7)(x+3)` c) :math:`k = \dfrac{2}{5}`,
+:math:`y = \dfrac{2}{5}(x+7)(x+3)`
+
+**2)** c) — it has a repeated root at :math:`x=2` instead of the
+shared zeros -4, 2, and 5.
+
+**3)** A, B, and D belong to the same family (zeros -2, 1, 3); C does
+not (repeated zero at :math:`x=1`, no zero at :math:`x=3`).
+
+**4)** a) :math:`y = k(x+2)(x+1)(2x-1)` b) e.g.
+:math:`y = 66(x+2)(x+1)(2x-1)`, :math:`y = 68(x+2)(x+1)(2x-1)` c)
+:math:`k=-3`, :math:`y = -3(x+2)(x+1)(2x-1)`
+
+**5)** a) :math:`y = k(x^2-2x-1)(2x+1)` b) :math:`k=\dfrac{5}{2}`,
+:math:`y = \dfrac{5}{2}(x^2-2x-1)(2x+1)`
+
+**6)** a) :math:`y = k(x-3)^2(x^2+8x+13)` b) :math:`k=-\dfrac{1}{4}`,
+:math:`y = -\dfrac{1}{4}(x-3)^2(x^2+8x+13)`
+
+**7)** a) :math:`y = -2(x+2)(x-1)(x-3)` b)
+:math:`y = (x+3)^2(x-1)(2x-3)`
+
 |nbsp|

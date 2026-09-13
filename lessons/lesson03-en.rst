@@ -1,4 +1,4 @@
-Factored Form Polynomial Functions Lesson
+1.3 Factored Form Polynomial Functions Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Factored Form Polynomial Functions Lesson
 :slug: lesson03
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Factored Form Polynomial Functions Lesson
+:summary: 1.3 Factored Form Polynomial Functions Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -45,6 +45,7 @@ to the factored form equation.
 Graph of :math:`f(x)`:
 
 .. image:: ../images/lesson03-image01.png
+   :scale: 50
    :alt: f(x) = (x+1)^2(x+2)(x-1), touching at x=-1 and crossing at x=-2, x=1
 
 From the graph, answer the following questions...
@@ -108,6 +109,7 @@ order but does not change sign at zeros of ``_________`` order.
 Shapes based on order of zero:
 
 .. image:: ../images/lesson03-image02.png
+   :scale: 50
    :alt: f(x) = 0.01(x-1)(x+2)^2(x-4)^3 with colored markers at the three
          x-intercepts (-2, 0), (1, 0), (4, 0)
 
@@ -158,6 +160,7 @@ iii\) the intervals where the function is positive/negative
 a\)
 
 .. image:: ../images/lesson03-image06.png
+   :scale: 50
    :alt: cubic with x-intercepts -5, -1, 3, negative leading coefficient
 
 i\)
@@ -184,6 +187,7 @@ iii\)
 b\)
 
 .. image:: ../images/lesson03-image07.png
+   :scale: 50
    :alt: quartic with x-intercepts -2 (order 1) and 3 (order 3), positive
          leading coefficient
 
@@ -244,10 +248,15 @@ a\) :math:`f(x) = (x-1)(x+2)(x+3)`
    * - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
 
 .. image:: ../images/lesson03-image08.png
+   :scale: 50
    :alt: blank grid for sketching f(x) = (x-1)(x+2)(x+3)
 
 b\) :math:`g(x) = -2(x-1)^2(x+2)`
@@ -264,10 +273,15 @@ b\) :math:`g(x) = -2(x-1)^2(x+2)`
    * - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
 
 .. image:: ../images/lesson03-image10.png
+   :scale: 50
    :alt: blank grid for sketching g(x) = -2(x-1)^2(x+2)
 
 c\) :math:`h(x) = -(2x+1)^3(x-3)`
@@ -284,10 +298,15 @@ c\) :math:`h(x) = -(2x+1)^3(x-3)`
    * - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
 
 .. image:: ../images/lesson03-image12.png
+   :scale: 50
    :alt: blank grid for sketching h(x) = -(2x+1)^3(x-3)
 
 d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
@@ -306,10 +325,15 @@ d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
    * - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
 
 .. image:: ../images/lesson03-image14.png
+   :scale: 50
    :alt: blank grid for sketching j(x) = x^4 - 4x^3 + 3x^2
 
 **Example 3: Representing the Graph of a Polynomial Function with its Equation**
@@ -317,6 +341,7 @@ d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
 a\) Write the equation of the function shown below:
 
 .. image:: ../images/lesson03-image16.png
+   :scale: 50
    :alt: quartic touching the x-axis at -2 and 3, passing through (2, 4)
 
 Steps:

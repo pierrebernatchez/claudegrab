@@ -1,4 +1,4 @@
-Symmetry in Polynomial Functions Worksheet with solutions
+1.5 Symmetry in Polynomial Functions Worksheet with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Symmetry in Polynomial Functions Worksheet with solutions
 :slug: worksheet05-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Symmetry in Polynomial Functions Worksheet with solutions
+:summary: 1.5 Symmetry in Polynomial Functions Worksheet with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -27,25 +27,36 @@ the origin, or neither?
 
 a\) :math:`y = x^4 - x^2`
 
+.. rst-class:: solution
+
 **Even**, line symmetry about the :math:`y`-axis
 
 b\) :math:`y = -2x^3 + 5x`
+
+.. rst-class:: solution
 
 **Odd**, point symmetry about the origin
 
 c\) :math:`y = -4x^5 + 2x^2`
 
+.. rst-class:: solution
+
 **Neither**
 
 d\) :math:`y = x(2x+1)^2(x-4)`
 
+.. rst-class:: solution
+
 **Neither**
 
 .. math::
+   :class: solution
 
    x(2x+1)^2(x-4) = 4x^4 - 12x^3 - 15x^2 - 4x
 
 e\) :math:`y = -2x^6 + x^4 + 8`
+
+.. rst-class:: solution
 
 **Even**, line symmetry about the :math:`y`-axis
 
@@ -54,48 +65,68 @@ algebraically.
 
 a\) :math:`f(x) = x^4 - 13x^2 + 36`
 
+.. rst-class:: solution
+
 **Even**
 
 .. math::
+   :class: solution
 
    f(-x) = (-x)^4 - 13(-x)^2 + 36 = x^4 - 13x^2 + 36
+
+.. rst-class:: solution
 
 So :math:`f(-x) = f(x)`.
 
 b\) :math:`g(x) = 6x^5 - 7x^3 - 3x`
 
+.. rst-class:: solution
+
 **Odd**
 
 .. math::
+   :class: solution
 
    g(-x) = 6(-x)^5 - 7(-x)^3 - 3(-x) = -6x^5 + 7x^3 + 3x
+
+.. rst-class:: solution
 
 So :math:`g(-x) = -g(x)`.
 
 **3\)** Use the given graph to state:
 
 .. image:: ../images/worksheet05-image01.png
+   :scale: 50
    :alt: P(x) = -(x+1)^2(x-2)(x-4), point (1, -12) marked
 
 a\) :math:`x`-intercepts
+
+.. rst-class:: solution
 
 The zeros are :math:`-1` (order 2), :math:`2`, and :math:`4`
 
 b\) number of turning points
 
+.. rst-class:: solution
+
 **3**
 
 c\) least possible degree
 
+.. rst-class:: solution
+
 **4**
 
 d\) any symmetry present; even or odd function?
+
+.. rst-class:: solution
 
 **No symmetry, neither**
 
 e\) the intervals where :math:`f(x) < 0`
 
 .. math::
+   :class: solution
 
    x \in (-\infty, -1) \cup (-1, 2) \cup (4, \infty)
 
@@ -107,13 +138,13 @@ e\) the intervals where :math:`f(x) < 0`
 
    * - .. image:: ../images/worksheet05-image02.png
 
-       **Odd**
+       :sol:`Odd`
      - .. image:: ../images/worksheet05-image03.png
 
-       **Neither**
+       :sol:`Neither`
      - .. image:: ../images/worksheet05-image04.png
 
-       **Even**
+       :sol:`Even`
      - .. image:: ../images/worksheet05-image05.png
 
-       **Neither**
+       :sol:`Neither`

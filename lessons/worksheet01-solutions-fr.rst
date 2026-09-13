@@ -1,4 +1,4 @@
-Fiche d'exercices sur les fonctions puissance avec solutions
+1.1 Fiche d'exercices sur les fonctions puissance polynomiales avec solutions
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Fiche d'exercices sur les fonctions puissance avec solutions
 :slug: worksheet01-solutions
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Fiche d'exercices sur les fonctions puissance avec solutions
+:summary: 1.1 Fiche d'exercices sur les fonctions puissance polynomiales avec solutions
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -128,7 +128,7 @@ f\) :math:`y = x^{-3}` --- Non
    * - De Q3 à Q4
      - :math:`y = -x^6`, :math:`y = -9x^{10}`
 
-**5\)** Déterminez si chaque graphique représente une fonction puissance, une
+**5\)** Déterminez si chaque graphique représente une fonction puissance polynomiale, une
 fonction exponentielle, une fonction périodique, ou aucune de ces réponses.
 
 .. list-table::

@@ -1,4 +1,4 @@
-Fiche d'exercices sur les fonctions puissance
+1.1 Fiche d'exercices sur les fonctions puissance polynomiales
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Fiche d'exercices sur les fonctions puissance
 :slug: worksheet01
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Fiche d'exercices sur les fonctions puissance
+:summary: 1.1 Fiche d'exercices sur les fonctions puissance polynomiales
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -130,7 +130,7 @@ f\) :math:`y = x^{-3}`
    * - De Q3 à Q4
      - |nbsp|
 
-**5\)** Déterminez si chaque graphique représente une fonction puissance, une
+**5\)** Déterminez si chaque graphique représente une fonction puissance polynomiale, une
 fonction exponentielle, une fonction périodique, ou aucune de ces réponses.
 
 .. list-table::
@@ -158,3 +158,53 @@ fonction exponentielle, une fonction périodique, ou aucune de ces réponses.
    * - g\)
      - .. image:: ../images/worksheet01-image12.png
      - |nbsp|
+
+Corrigé
+================================================================================
+
+**1)** a) Non b) Oui c) Oui d) Oui e) Non f) Non
+
+**2)**
+
+.. list-table::
+   :widths: 40 30 30
+   :header-rows: 1
+
+   * - Polynôme
+     - Degré
+     - Coefficient dominant
+   * - :math:`y = 5x^4 - 3x^3 + 4`
+     - 4
+     - 5
+   * - :math:`y = -x + 2`
+     - 1
+     - -1
+   * - :math:`y = 8x^2`
+     - 2
+     - 8
+   * - :math:`y = -\dfrac{x^3}{4} + 4x - 3`
+     - 3
+     - :math:`-\dfrac{1}{4}`
+   * - :math:`y = -5`
+     - 0
+     - -5
+   * - :math:`y = x^2 - 3x`
+     - 2
+     - 1
+
+**3)** Graphique 1 : pair, négatif, D : :math:`(-\infty,\infty)`, I :
+:math:`(-\infty,0]`, symétrie de droite, de Q3 à Q4. Graphique 2 :
+impair, positif, D/I : :math:`(-\infty,\infty)`, symétrie de point, de
+Q3 à Q1. Graphique 3 : impair, négatif, D/I :
+:math:`(-\infty,\infty)`, symétrie de point, de Q2 à Q4. Graphique 4 :
+pair, positif, D : :math:`(-\infty,\infty)`, I : :math:`[0,\infty)`,
+symétrie de droite, de Q2 à Q1. Graphique 5 : impair, négatif, D/I :
+:math:`(-\infty,\infty)`, symétrie de point, de Q2 à Q4.
+
+**4)** De Q3 à Q1 : :math:`y=4x^5`, :math:`y=5x`. De Q2 à Q4 :
+:math:`y=-x^3`, :math:`y=-0.1x^{11}`. De Q2 à Q1 : :math:`y=2x^4`,
+:math:`y=\dfrac{3}{7}x^2`. De Q3 à Q4 : :math:`y=-x^6`,
+:math:`y=-9x^{10}`.
+
+**5)** a) Puissance b) Exponentielle c) Périodique d) Puissance e)
+Aucune (racine carrée) f) Aucune (rationnelle) g) Puissance

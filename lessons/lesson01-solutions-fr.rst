@@ -1,4 +1,4 @@
-Leçon sur les fonctions puissance avec solutions
+1.1 Leçon sur les fonctions puissance polynomiales avec solutions
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Leçon sur les fonctions puissance avec solutions
 :slug: lesson01-solutions
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Leçon sur les fonctions puissance avec solutions
+:summary: 1.1 Leçon sur les fonctions puissance polynomiales avec solutions
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -31,6 +31,7 @@ Rappels sur les fonctions
   coupe ce graphique en au plus un point.
 
   .. image:: ../images/lesson01-image01.png
+     :scale: 50
      :alt: Test de la droite verticale, x = (y-2)^2 + 2 avec la droite verticale x = 6
 
 - Le **domaine** d'une fonction est l'ensemble complet de toutes les valeurs
@@ -48,6 +49,7 @@ Rappels sur les fonctions
 - Pour la fonction :math:`f(x) = (x-1)^2 + 3`
 
   .. image:: ../images/lesson01-image02.png
+     :scale: 50
      :alt: f(x) = (x-1)^2 + 3, une parabole ouverte vers le haut
 
 - Le degré d'une fonction est l'exposant le plus élevé dans l'expression
@@ -60,6 +62,7 @@ Rappels sur les fonctions
 La fonction :math:`y = \dfrac{1}{x+3}` a deux asymptotes :
 
 .. image:: ../images/lesson01-image03.png
+   :scale: 50
    :alt: y = 1/(x+3) avec asymptote verticale x = -3 et asymptote horizontale y = 0
 
 **Asymptote verticale :** La division par zéro n'est pas définie. Par
@@ -82,7 +85,7 @@ Une **fonction polynomiale** a la forme
 
    f(x) = a_n x^n + a_{n-1} x^{n-1} + a_{n-2} x^{n-2} + \cdots + a_2 x^2 + a_1 x^1 + a_0
 
-- :math:`n` est un nombre entier
+- :math:`n` est un nombre naturel
 - :math:`x` est une variable
 - les **coefficients** :math:`a_0, a_1, \ldots, a_n` sont des nombres réels
 - le **degré** de la fonction est :math:`n`, l'exposant de la plus grande
@@ -130,7 +133,7 @@ forme :
 
 - :math:`a` est un nombre réel
 - :math:`x` est une variable
-- :math:`n` est un nombre entier
+- :math:`n` est un nombre naturel
 
 **Exemple 1 :** Déterminez lesquelles des fonctions suivantes sont des
 fonctions polynomiales. Indiquez le degré et le coefficient dominant de
@@ -163,6 +166,7 @@ de nombres réels peuvent être décrits de plusieurs façons :
 3) graphiquement sur une droite numérique
 
    .. image:: ../images/lesson01-image09.png
+      :scale: 50
       :alt: Droite numérique montrant l'intervalle (-3, 5]
 
 Remarque :
@@ -176,14 +180,14 @@ Remarque :
 - Une **parenthèse (ouverte)** est toujours utilisée à l'infini et à
   l'infini négatif
 
-**Exemple 2 :** Voici les graphiques de fonctions puissance courantes.
+**Exemple 2 :** Voici les graphiques de fonctions puissance polynomiales courantes.
 Utilisez le graphique pour compléter le tableau.
 
 .. list-table::
    :widths: 12 12 20 14 14 14 14
    :header-rows: 1
 
-   * - Fonction puissance
+   * - Fonction puissance polynomiale
      - Nom particulier
      - Graphique
      - Domaine
@@ -233,7 +237,7 @@ Utilisez le graphique pour compléter le tableau.
      - :math:`y \to \infty` (Q2)
      - :math:`y \to \infty` (Q1)
 
-Caractéristiques clés des fonctions puissance de degré PAIR
+Caractéristiques clés des fonctions puissance polynomiales de degré PAIR
 ================================================================================
 
 .. list-table::
@@ -259,9 +263,11 @@ Exemple :
    * - :math:`f(x) = 2x^4`
 
        .. image:: ../images/lesson01-image16.png
+          :scale: 50
      - :math:`f(x) = -3x^2`
 
        .. image:: ../images/lesson01-image17.png
+          :scale: 50
 
 Symétrie par rapport à une droite
 ================================================================================
@@ -271,13 +277,14 @@ droite verticale :math:`x = a` qui divise le graphique en deux parties
 telles que chacune est le reflet de l'autre.
 
 .. image:: ../images/lesson01-image18.png
+   :scale: 50
    :alt: Symétrie par rapport à une droite, une courbe symétrique par rapport à la droite x = a
 
-Remarque : les fonctions puissance de degré pair (et toute fonction ayant un
+Remarque : les fonctions puissance polynomiales de degré pair (et toute fonction ayant un
 seul sommet, comme la parabole illustrée) possèdent une symétrie par rapport
 à la droite verticale passant par leur sommet.
 
-Caractéristiques clés des fonctions puissance de degré IMPAIR
+Caractéristiques clés des fonctions puissance polynomiales de degré IMPAIR
 ================================================================================
 
 .. list-table::
@@ -305,9 +312,11 @@ Exemple :
    * - :math:`f(x) = 3x^5`
 
        .. image:: ../images/lesson01-image19.png
+          :scale: 50
      - :math:`f(x) = -2x^3`
 
        .. image:: ../images/lesson01-image20.png
+          :scale: 50
 
 Symétrie par rapport à un point
 ================================================================================
@@ -318,9 +327,10 @@ chaque partie du graphique d'un côté de :math:`(a, b)` peut être tournée de
 de :math:`(a, b)`.
 
 .. image:: ../images/lesson01-image21.png
+   :scale: 50
    :alt: Symétrie par rapport à un point, une courbe en S avec symétrie par rapport à (a, b)
 
-Remarque : les fonctions puissance de degré impair possèdent une symétrie
+Remarque : les fonctions puissance polynomiales de degré impair possèdent une symétrie
 par rapport à l'origine :math:`(0, 0)`.
 
 **Exemple 3 :** Inscrivez chaque fonction dans la rangée appropriée de la
@@ -367,6 +377,7 @@ iii\) Déterminez toute symétrie
 a\) :math:`y = -x`
 
    .. image:: ../images/lesson01-image22.png
+      :scale: 50
 
    i\) Domaine : :math:`(-\infty, \infty)` Image : :math:`(-\infty, \infty)`
 
@@ -379,6 +390,7 @@ a\) :math:`y = -x`
 b\) :math:`y = 0.5x^2`
 
    .. image:: ../images/lesson01-image23.png
+      :scale: 50
 
    i\) Domaine : :math:`(-\infty, \infty)` Image : :math:`[0, \infty)`
 
@@ -391,6 +403,7 @@ b\) :math:`y = 0.5x^2`
 c\) :math:`y = 4x^3`
 
    .. image:: ../images/lesson01-image24.png
+      :scale: 50
 
    i\) Domaine : :math:`(-\infty, \infty)` Image : :math:`(-\infty, \infty)`
 

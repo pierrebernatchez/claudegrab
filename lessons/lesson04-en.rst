@@ -1,4 +1,4 @@
-Transformations Lesson
+1.4 Transformations Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Transformations Lesson
 :slug: lesson04
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Transformations Lesson
+:summary: 1.4 Transformations Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -25,14 +25,14 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
 In this section, you will investigate the roles of the parameters :math:`a`, :math:`k`, :math:`d`, and :math:`c` in polynomial functions of
 the form :math:`f(x) = a[k(x-d)]^n + c`. You will apply transformations
-to the graphs of basic power functions to sketch the graph of its
+to the graphs of basic polynomial power functions to sketch the graph of its
 transformed function.
 
 Part 1: Transformations Investigation
 ================================================================================
 
 In this investigation, you will be looking at transformations of the
-power function :math:`y = x^4`. Complete the following table using
+polynomial power function :math:`y = x^4`. Complete the following table using
 graphing technology to help. The graph of :math:`y = x^4` is given on
 each set of axes; sketch the graph of the transformed function on the
 same set of axes. Then comment on how the value of the parameter :math:`a`, :math:`k`, :math:`d`, or :math:`c` transforms the parent function.
@@ -178,7 +178,7 @@ Part 2: Describing Transformations from an Equation
 ================================================================================
 
 **Example 1:** Describe the transformations that must be applied to the
-graph of each power function, :math:`f(x)`, to obtain the transformed
+graph of each polynomial power function, :math:`f(x)`, to obtain the transformed
 function, :math:`g(x)`. Then, write the corresponding equation of the
 transformed function. Then, state the domain and range of the
 transformed function.
@@ -270,6 +270,7 @@ grid.
 -2 and 2 and calculate the corresponding values of* :math:`y`.
 
 .. image:: ../images/lesson04-image12.png
+   :scale: 50
    :alt: blank grid for graphing f(x) = x^3 and g(x) = 3[-2(x+1)]^3 + 5
 
 **Example 3:** The graph of :math:`f(x) = x^4` is transformed to obtain
@@ -350,22 +351,25 @@ grid.
               |nbsp|
 
 .. image:: ../images/lesson04-image14.png
+   :scale: 50
    :alt: blank grid for graphing f(x) = x^4 and
          g(x) = -((1/3)x + 2)^4 - 1
 
 Part 4: Determining an Equation Given the Graph of a Transformed Function
 ================================================================================
 
-**Example 4:** Transformations are applied to each power function to
+**Example 4:** Transformations are applied to each polynomial power function to
 obtain the resulting graph. Determine an equation for the transformed
 function. Then state the domain and range of the transformed function.
 
 a\)
 
 .. image:: ../images/lesson04-image16.png
+   :scale: 50
    :alt: y = x^4 (pink) transformed to a blue quartic shifted left and down
 
 b\)
 
 .. image:: ../images/lesson04-image17.png
+   :scale: 50
    :alt: y = x^3 (pink) transformed to a blue cubic reflected and shifted right

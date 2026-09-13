@@ -220,6 +220,17 @@ needs `gnuplot` for, see "Environment" below — plus Pillow and numpy for
   past 80 (e.g. to 90) instead, and leave the 80-char default everywhere
   else. Verify with the docutils command below either way.
 
+## Page-break grouping (`keepwithnext`)
+
+Every lettered sub-part label (`a\)`, `b\)`, `i\)`, `ii\)`, ...) and every
+`**Example N:**` / `**Question N:**` heading gets a
+`.. rst-class:: keepwithnext` directive immediately above it. This tells
+the renderer never to split that label from the content immediately
+following it across a page break (e.g. leaving `**Example 3:**` alone at
+the bottom of one page and its actual content starting fresh on the
+next). This has been standard on every `.rst` file since unit2 — apply it
+by default to new lessons/worksheets, not just when asked.
+
 ## RST gotchas — quick reference
 
 Full narrative and reasoning for each of these is in METHODOLOGY.md's

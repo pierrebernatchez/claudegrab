@@ -245,3 +245,18 @@ following binomials...
 |nbsp|
 
 |nbsp|
+
+Answer Key
+================================================================================
+
+**1)** a) :math:`x^2+3x+2`, remainder 0 b) :math:`2x^2-5x-12`,
+remainder 7 c) :math:`6x^3-5x^2-19x+10`, remainder -2 d)
+:math:`x^2+2x-8`, remainder -4 e) :math:`6x^3-31x^2+45x-18`, remainder
+0 f) :math:`3x^2-1`, remainder 0 g) :math:`x^2+4x+14`, remainder 57 h)
+:math:`x^2-6`, remainder 13
+
+**2)** a) :math:`x^3-14x^2-24x-38`, remainder -87 b)
+:math:`x^3-20x^2+84x-326`, remainder 1293
+
+**3)** No — dividing by each binomial leaves a non-zero remainder (-87
+and 1293 respectively).

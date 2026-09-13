@@ -23,6 +23,4 @@ set grid
 
 unset key
 
-set label 1 "(not to scale)" at -6.3,150 font "Arial,8" tc rgb "gray40"
-
 plot 0.03*(x+6)*(x-5)**2*(x-0.6667)**3 with lines lw 2.2 lc rgb "#bb5533"

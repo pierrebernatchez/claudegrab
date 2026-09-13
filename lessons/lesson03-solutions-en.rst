@@ -1,4 +1,4 @@
-Factored Form Polynomial Functions Lesson with solutions
+1.3 Factored Form Polynomial Functions Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Factored Form Polynomial Functions Lesson with solutions
 :slug: lesson03-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Factored Form Polynomial Functions Lesson with solutions
+:summary: 1.3 Factored Form Polynomial Functions Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -43,17 +43,18 @@ to the factored form equation.
 Graph of :math:`f(x)`:
 
 .. image:: ../images/lesson03-image01.png
+   :scale: 50
    :alt: f(x) = (x+1)^2(x+2)(x-1), touching at x=-1 and crossing at x=-2, x=1
 
 From the graph, answer the following questions...
 
-a\) What is the degree of the function? **4**
+a\) What is the degree of the function? :sol:`4`
 
-b\) What is the sign of the leading coefficient? **Positive**
+b\) What is the sign of the leading coefficient? :sol:`Positive`
 
-c\) What are the :math:`x`-intercepts? **-2, -1, 1**
+c\) What are the :math:`x`-intercepts? :sol:`-2, -1, 1`
 
-d\) What is the :math:`y`-intercept? **-2**
+d\) What is the :math:`y`-intercept? :sol:`-2`
 
 e\) The :math:`x`-intercepts divide the graph into four intervals. Write
 the intervals in the first row of the table. In the second row, choose a
@@ -66,22 +67,24 @@ the :math:`x`-axis).
    :header-rows: 0
 
    * - Interval
-     - :math:`x < -2`
-     - :math:`-2 < x < -1`
-     - :math:`-1 < x < 1`
-     - :math:`x > 1`
+     - :solmath:`x < -2`
+     - :solmath:`-2 < x < -1`
+     - :solmath:`-1 < x < 1`
+     - :solmath:`x > 1`
    * - Test Point
-     - -3
-     - -1.5
-     - 0
-     - 2
+     - :sol:`-3`
+     - :sol:`-1.5`
+     - :sol:`0`
+     - :sol:`2`
    * - Sign of :math:`f(x)`
-     - Positive
-     - Negative
-     - Negative
-     - Positive
+     - :sol:`Positive`
+     - :sol:`Negative`
+     - :sol:`Negative`
+     - :sol:`Positive`
 
 f\) What happens to the sign of :math:`f(x)` near each :math:`x`-intercept?
+
+.. rst-class:: solution
 
 At :math:`x = -2` (order 1) and :math:`x = 1` (order 1), the sign
 **changes**. At :math:`x = -1` (order 2), the sign **does not change**
@@ -92,24 +95,25 @@ Conclusions from investigation:
 
 The :math:`x`-intercepts of the graph of the function correspond to the
 roots (zeros) of the corresponding equation. For example, the
-function :math:`f(x) = (x-2)(x+1)` has :math:`x`-intercepts at **2** and **-1**.
+function :math:`f(x) = (x-2)(x+1)` has :math:`x`-intercepts at :sol:`2` and :sol:`-1`.
 These are the roots of the equation :math:`(x-2)(x+1) = 0`.
 
 If a polynomial function has a factor :math:`(x-a)` that is
-repeated :math:`n` times, then :math:`x = a` is a zero of **order** :math:`n`.
+repeated :math:`n` times, then :math:`x = a` is a zero of :sol:`order` :math:`n`.
 
 **Order** -- the exponent to which each factor in an algebraic expression
 is raised.
 
 For example, the function :math:`f(x) = (x-3)^2(x-1)` has a zero of order
-**2** at :math:`x = 3` and a zero of order **1** at :math:`x = 1`.
+:sol:`2` at :math:`x = 3` and a zero of order :sol:`1` at :math:`x = 1`.
 
-The graph of a polynomial function changes sign at zeros of **odd**
-order but does not change sign at zeros of **even** order.
+The graph of a polynomial function changes sign at zeros of :sol:`odd`
+order but does not change sign at zeros of :sol:`even` order.
 
 Shapes based on order of zero:
 
 .. image:: ../images/lesson03-image02.png
+   :scale: 50
    :alt: f(x) = 0.01(x-1)(x+2)^2(x-4)^3 with colored markers at the three
          x-intercepts (-2, 0), (1, 0), (4, 0)
 
@@ -160,10 +164,15 @@ iii\) the intervals where the function is positive/negative
 a\)
 
 .. image:: ../images/lesson03-image06.png
+   :scale: 50
    :alt: cubic with x-intercepts -5, -1, 3, negative leading coefficient
+
+.. rst-class:: solution
 
 i\) Least possible degree: **3**. Sign of leading coefficient:
 **negative**.
+
+.. rst-class:: solution
 
 ii\) :math:`x`-intercepts: **-5, -1, 3**. Factors: **(x+5), (x+1),
 (x-3)** -- so :math:`f(x) = -a(x+5)(x+1)(x-3)` for some
@@ -176,24 +185,29 @@ iii\)
    :header-rows: 0
 
    * - Interval
-     - :math:`x < -5`
-     - :math:`-5 < x < -1`
-     - :math:`-1 < x < 3`
-     - :math:`x > 3`
+     - :solmath:`x < -5`
+     - :solmath:`-5 < x < -1`
+     - :solmath:`-1 < x < 3`
+     - :solmath:`x > 3`
    * - Sign of :math:`f(x)`
-     - Positive
-     - Negative
-     - Positive
-     - Negative
+     - :sol:`Positive`
+     - :sol:`Negative`
+     - :sol:`Positive`
+     - :sol:`Negative`
 
 b\)
 
 .. image:: ../images/lesson03-image07.png
+   :scale: 50
    :alt: quartic with x-intercepts -2 (order 1) and 3 (order 3), positive
          leading coefficient
 
+.. rst-class:: solution
+
 i\) Least possible degree: **4**. Sign of leading coefficient:
 **positive**.
+
+.. rst-class:: solution
 
 ii\) :math:`x`-intercepts: **-2 (order 1), 3 (order 3)**. Factors:
 **(x+2), (x-3)\ :sup:`3`** -- so :math:`f(x) = a(x+2)(x-3)^3` for some
@@ -206,13 +220,13 @@ iii\)
    :header-rows: 0
 
    * - Interval
-     - :math:`x < -2`
-     - :math:`-2 < x < 3`
-     - :math:`x > 3`
+     - :solmath:`x < -2`
+     - :solmath:`-2 < x < 3`
+     - :solmath:`x > 3`
    * - Sign of :math:`f(x)`
-     - Positive
-     - Negative
-     - Positive
+     - :sol:`Positive`
+     - :sol:`Negative`
+     - :sol:`Positive`
 
 **Example 2: Analyze Factored Form Equations to Sketch Graphs**
 
@@ -249,14 +263,17 @@ a\) :math:`f(x) = (x-1)(x+2)(x+3)`
      - End Behaviour
      - :math:`x`-intercepts
      - :math:`y`-intercept
-   * - 3
-     - 1
-     - :math:`y \to -\infty` as :math:`x \to -\infty`; :math:`y \to \infty`
+   * - :sol:`3`
+     - :sol:`1`
+     - .. rst-class:: solution
+
+       :math:`y \to -\infty` as :math:`x \to -\infty`; :math:`y \to \infty`
        as :math:`x \to \infty` (Q3 to Q1)
-     - 1, -2, -3
-     - -6
+     - :sol:`1, -2, -3`
+     - :sol:`-6`
 
 .. image:: ../images/lesson03-image09.png
+   :scale: 50
    :alt: f(x) = (x-1)(x+2)(x+3)
 
 b\) :math:`g(x) = -2(x-1)^2(x+2)`
@@ -270,14 +287,17 @@ b\) :math:`g(x) = -2(x-1)^2(x+2)`
      - End Behaviour
      - :math:`x`-intercepts
      - :math:`y`-intercept
-   * - 3
-     - -2
-     - :math:`y \to \infty` as :math:`x \to -\infty`; :math:`y \to -\infty`
+   * - :sol:`3`
+     - :sol:`-2`
+     - .. rst-class:: solution
+
+       :math:`y \to \infty` as :math:`x \to -\infty`; :math:`y \to -\infty`
        as :math:`x \to \infty` (Q2 to Q4)
-     - 1 (order 2), -2 (order 1)
-     - -4
+     - :sol:`1 (order 2), -2 (order 1)`
+     - :sol:`-4`
 
 .. image:: ../images/lesson03-image11.png
+   :scale: 50
    :alt: g(x) = -2(x-1)^2(x+2)
 
 c\) :math:`h(x) = -(2x+1)^3(x-3)`
@@ -291,18 +311,23 @@ c\) :math:`h(x) = -(2x+1)^3(x-3)`
      - End Behaviour
      - :math:`x`-intercepts
      - :math:`y`-intercept
-   * - 4
-     - -8
-     - :math:`y \to -\infty` as :math:`x \to \pm\infty` (Q3 to Q4)
-     - -0.5 (order 3), 3 (order 1)
-     - 3
+   * - :sol:`4`
+     - :sol:`-8`
+     - .. rst-class:: solution
+
+       :math:`y \to -\infty` as :math:`x \to \pm\infty` (Q3 to Q4)
+     - :sol:`-0.5 (order 3), 3 (order 1)`
+     - :sol:`3`
 
 .. image:: ../images/lesson03-image13.png
+   :scale: 50
    :alt: h(x) = -(2x+1)^3(x-3)
 
 d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
 
 *Note: must put into factored form to find* :math:`x`-*intercepts*
+
+.. rst-class:: solution
 
 Factored form: :math:`j(x) = x^2(x-1)(x-3)`
 
@@ -315,13 +340,16 @@ Factored form: :math:`j(x) = x^2(x-1)(x-3)`
      - End Behaviour
      - :math:`x`-intercepts
      - :math:`y`-intercept
-   * - 4
-     - 1
-     - :math:`y \to \infty` as :math:`x \to \pm\infty` (Q2 to Q1)
-     - 0 (order 2), 1 (order 1), 3 (order 1)
-     - 0
+   * - :sol:`4`
+     - :sol:`1`
+     - .. rst-class:: solution
+
+       :math:`y \to \infty` as :math:`x \to \pm\infty` (Q2 to Q1)
+     - :sol:`0 (order 2), 1 (order 1), 3 (order 1)`
+     - :sol:`0`
 
 .. image:: ../images/lesson03-image15.png
+   :scale: 50
    :alt: j(x) = x^4 - 4x^3 + 3x^2
 
 **Example 3: Representing the Graph of a Polynomial Function with its Equation**
@@ -329,6 +357,7 @@ Factored form: :math:`j(x) = x^2(x-1)(x-3)`
 a\) Write the equation of the function shown below:
 
 .. image:: ../images/lesson03-image16.png
+   :scale: 50
    :alt: quartic touching the x-axis at -2 and 3, passing through (2, 4)
 
 Steps:
@@ -343,20 +372,27 @@ Steps:
 
 4) Write the equation in factored form
 
+.. rst-class:: solution
+
 The graph touches (doesn't cross) the :math:`x`-axis at :math:`x = -2`
 and :math:`x = 3`, so both are order-2 zeros:
 
 .. math::
+   :class: solution
 
    f(x) = a(x+2)^2(x-3)^2
+
+.. rst-class:: solution
 
 Substituting the point :math:`(2, 4)`:
 
 .. math::
+   :class: solution
 
    4 = a(2+2)^2(2-3)^2 = a(16)(1) = 16a \implies a = \dfrac{1}{4}
 
 .. math::
+   :class: solution
 
    f(x) = \dfrac{1}{4}(x+2)^2(x-3)^2
 
@@ -365,15 +401,20 @@ zeros :math:`-1` (order 3) and :math:`1`, and with a :math:`y`-intercept
 of :math:`-2`.
 
 .. math::
+   :class: solution
 
    f(x) = a(x+1)^3(x-1)
+
+.. rst-class:: solution
 
 Substituting the :math:`y`-intercept, :math:`f(0) = -2`:
 
 .. math::
+   :class: solution
 
    -2 = a(0+1)^3(0-1) = a(1)(-1) = -a \implies a = 2
 
 .. math::
+   :class: solution
 
    f(x) = 2(x+1)^3(x-1)

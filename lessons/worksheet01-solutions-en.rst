@@ -1,4 +1,4 @@
-Power Functions Worksheet with solutions
+1.1 Polynomial Power Functions Worksheet with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Power Functions Worksheet with solutions
 :slug: worksheet01-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Power Functions Worksheet with solutions
+:summary: 1.1 Polynomial Power Functions Worksheet with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -23,17 +23,17 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
 **1\)** Identify which of the following are polynomial functions:
 
-a\) :math:`p(x) = \cos x` --- No
+a\) :math:`p(x) = \cos x` --- :sol:`No`
 
-b\) :math:`h(x) = -7x` --- Yes
+b\) :math:`h(x) = -7x` --- :sol:`Yes`
 
-c\) :math:`f(x) = 2x^4` --- Yes
+c\) :math:`f(x) = 2x^4` --- :sol:`Yes`
 
-d\) :math:`y = 3x^5 - 2x^3 + x^2 - 1` --- Yes
+d\) :math:`y = 3x^5 - 2x^3 + x^2 - 1` --- :sol:`Yes`
 
-e\) :math:`k(x) = 8^x` --- No
+e\) :math:`k(x) = 8^x` --- :sol:`No`
 
-f\) :math:`y = x^{-3}` --- No
+f\) :math:`y = x^{-3}` --- :sol:`No`
 
 **2\)** State the degree and the leading coefficient of each polynomial
 
@@ -45,23 +45,23 @@ f\) :math:`y = x^{-3}` --- No
      - Degree
      - Leading Coefficient
    * - :math:`y = 5x^4 - 3x^3 + 4`
-     - 4
-     - 5
+     - :sol:`4`
+     - :sol:`5`
    * - :math:`y = -x + 2`
-     - 1
-     - -1
+     - :sol:`1`
+     - :sol:`-1`
    * - :math:`y = 8x^2`
-     - 2
-     - 8
+     - :sol:`2`
+     - :sol:`8`
    * - :math:`y = -\dfrac{x^3}{4} + 4x - 3`
-     - 3
-     - :math:`-\dfrac{1}{4}`
+     - :sol:`3`
+     - :solmath:`-\dfrac{1}{4}`
    * - :math:`y = -5`
-     - 0
-     - -5
+     - :sol:`0`
+     - :sol:`-5`
    * - :math:`y = x^2 - 3x`
-     - 2
-     - 1
+     - :sol:`2`
+     - :sol:`1`
 
 **3\)** Complete the following table
 
@@ -76,35 +76,45 @@ f\) :math:`y = x^{-3}` --- No
      - Symmetry
      - End Behaviour
    * - .. image:: ../images/worksheet01-image01.png
-     - Even
-     - Negative
-     - D: :math:`(-\infty, \infty)`; R: :math:`(-\infty, 0]`
-     - Line
-     - Q3 to Q4
+     - :sol:`Even`
+     - :sol:`Negative`
+     - .. rst-class:: solution
+
+       D: :math:`(-\infty, \infty)`; R: :math:`(-\infty, 0]`
+     - :sol:`Line`
+     - :sol:`Q3 to Q4`
    * - .. image:: ../images/worksheet01-image02.png
-     - Odd
-     - Positive
-     - D: :math:`(-\infty, \infty)`; R: :math:`(-\infty, \infty)`
-     - Point
-     - Q3 to Q1
+     - :sol:`Odd`
+     - :sol:`Positive`
+     - .. rst-class:: solution
+
+       D: :math:`(-\infty, \infty)`; R: :math:`(-\infty, \infty)`
+     - :sol:`Point`
+     - :sol:`Q3 to Q1`
    * - .. image:: ../images/worksheet01-image03.png
-     - Odd
-     - Negative
-     - D: :math:`(-\infty, \infty)`; R: :math:`(-\infty, \infty)`
-     - Point
-     - Q2 to Q4
+     - :sol:`Odd`
+     - :sol:`Negative`
+     - .. rst-class:: solution
+
+       D: :math:`(-\infty, \infty)`; R: :math:`(-\infty, \infty)`
+     - :sol:`Point`
+     - :sol:`Q2 to Q4`
    * - .. image:: ../images/worksheet01-image04.png
-     - Even
-     - Positive
-     - D: :math:`(-\infty, \infty)`; R: :math:`[0, \infty)`
-     - Line
-     - Q2 to Q1
+     - :sol:`Even`
+     - :sol:`Positive`
+     - .. rst-class:: solution
+
+       D: :math:`(-\infty, \infty)`; R: :math:`[0, \infty)`
+     - :sol:`Line`
+     - :sol:`Q2 to Q1`
    * - .. image:: ../images/worksheet01-image05.png
-     - Odd
-     - Negative
-     - D: :math:`(-\infty, \infty)`; R: :math:`(-\infty, \infty)`
-     - Point
-     - Q2 to Q4
+     - :sol:`Odd`
+     - :sol:`Negative`
+     - .. rst-class:: solution
+
+       D: :math:`(-\infty, \infty)`; R: :math:`(-\infty, \infty)`
+     - :sol:`Point`
+     - :sol:`Q2 to Q4`
 
 **4\)** Match each function to its end behaviour
 
@@ -119,15 +129,15 @@ f\) :math:`y = x^{-3}` --- No
    * - End Behaviour
      - Functions
    * - Q3 to Q1
-     - :math:`y = 4x^5`, :math:`y = 5x`
+     - :solmath:`y = 4x^5`, :solmath:`y = 5x`
    * - Q2 to Q4
-     - :math:`y = -x^3`, :math:`y = -0.1x^{11}`
+     - :solmath:`y = -x^3`, :solmath:`y = -0.1x^{11}`
    * - Q2 to Q1
-     - :math:`y = 2x^4`, :math:`y = \dfrac{3}{7}x^2`
+     - :solmath:`y = 2x^4`, :solmath:`y = \dfrac{3}{7}x^2`
    * - Q3 to Q4
-     - :math:`y = -x^6`, :math:`y = -9x^{10}`
+     - :solmath:`y = -x^6`, :solmath:`y = -9x^{10}`
 
-**5\)** Determine whether each graph represents a power function, exponential
+**5\)** Determine whether each graph represents a polynomial power function, exponential
 function, a periodic function, or none of these.
 
 .. list-table::
@@ -136,22 +146,22 @@ function, a periodic function, or none of these.
 
    * - a\)
      - .. image:: ../images/worksheet01-image06.png
-     - Power
+     - :sol:`Power`
    * - b\)
      - .. image:: ../images/worksheet01-image07.png
-     - Exponential
+     - :sol:`Exponential`
    * - c\)
      - .. image:: ../images/worksheet01-image08.png
-     - Periodic
+     - :sol:`Periodic`
    * - d\)
      - .. image:: ../images/worksheet01-image09.png
-     - Power
+     - :sol:`Power`
    * - e\)
      - .. image:: ../images/worksheet01-image10.png
-     - None (square root)
+     - :sol:`None (square root)`
    * - f\)
      - .. image:: ../images/worksheet01-image11.png
-     - None (rational)
+     - :sol:`None (rational)`
    * - g\)
      - .. image:: ../images/worksheet01-image12.png
-     - Power
+     - :sol:`Power`

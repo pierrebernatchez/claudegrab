@@ -1,4 +1,4 @@
-Leçon sur la forme factorisée des fonctions polynomiales
+1.3 Leçon sur la forme factorisée des fonctions polynomiales
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Leçon sur la forme factorisée des fonctions polynomiales
 :slug: lesson03
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Leçon sur la forme factorisée des fonctions polynomiales
+:summary: 1.3 Leçon sur la forme factorisée des fonctions polynomiales
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -45,6 +45,7 @@ avec l'équation sous forme factorisée.
 Graphique de :math:`f(x)` :
 
 .. image:: ../images/lesson03-image01.png
+   :scale: 50
    :alt: f(x) = (x+1)^2(x+2)(x-1), touchant à x=-1 et croisant à x=-2, x=1
 
 À partir du graphique, répondez aux questions suivantes...
@@ -110,6 +111,7 @@ d'ordre ``_________`` mais ne change pas de signe aux zéros d'ordre
 Formes selon l'ordre du zéro :
 
 .. image:: ../images/lesson03-image02.png
+   :scale: 50
    :alt: f(x) = 0.01(x-1)(x+2)^2(x-4)^3 avec des marqueurs colorés aux
          trois zéros (-2, 0), (1, 0), (4, 0)
 
@@ -160,6 +162,7 @@ iii\) les intervalles où la fonction est positive/négative
 a\)
 
 .. image:: ../images/lesson03-image06.png
+   :scale: 50
    :alt: cubique avec zéros -5, -1, 3, coefficient dominant négatif
 
 i\)
@@ -186,6 +189,7 @@ iii\)
 b\)
 
 .. image:: ../images/lesson03-image07.png
+   :scale: 50
    :alt: quartique avec zéros -2 (ordre 1) et 3 (ordre 3), coefficient
          dominant positif
 
@@ -247,10 +251,15 @@ a\) :math:`f(x) = (x-1)(x+2)(x+3)`
    * - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
 
 .. image:: ../images/lesson03-image08.png
+   :scale: 50
    :alt: grille vide pour esquisser f(x) = (x-1)(x+2)(x+3)
 
 b\) :math:`g(x) = -2(x-1)^2(x+2)`
@@ -267,10 +276,15 @@ b\) :math:`g(x) = -2(x-1)^2(x+2)`
    * - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
 
 .. image:: ../images/lesson03-image10.png
+   :scale: 50
    :alt: grille vide pour esquisser g(x) = -2(x-1)^2(x+2)
 
 c\) :math:`h(x) = -(2x+1)^3(x-3)`
@@ -287,10 +301,15 @@ c\) :math:`h(x) = -(2x+1)^3(x-3)`
    * - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
 
 .. image:: ../images/lesson03-image12.png
+   :scale: 50
    :alt: grille vide pour esquisser h(x) = -(2x+1)^3(x-3)
 
 d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
@@ -309,10 +328,15 @@ d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
    * - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
 
 .. image:: ../images/lesson03-image14.png
+   :scale: 50
    :alt: grille vide pour esquisser j(x) = x^4 - 4x^3 + 3x^2
 
 **Exemple 3 : Représenter le graphique d'une fonction polynomiale par son équation**
@@ -320,6 +344,7 @@ d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
 a\) Écrivez l'équation de la fonction illustrée ci-dessous :
 
 .. image:: ../images/lesson03-image16.png
+   :scale: 50
    :alt: quartique touchant l'axe des x à -2 et 3, passant par (2, 4)
 
 Étapes :

@@ -1,4 +1,4 @@
-Fiche d'exercices sur la forme factorisée des fonctions polynomiales avec solutions
+1.3 Fiche d'exercices sur la forme factorisée des fonctions polynomiales avec solutions
 ##########################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Fiche d'exercices sur la forme factorisée des fonctions polynomiales avec solut
 :slug: worksheet03-solutions
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Fiche d'exercices sur la forme factorisée des fonctions polynomiales avec solutions
+:summary: 1.3 Fiche d'exercices sur la forme factorisée des fonctions polynomiales avec solutions
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -96,6 +96,7 @@ iii\) les intervalles où la fonction est positive/négative
 a\)
 
 .. image:: ../images/worksheet03-image05.png
+   :scale: 50
    :alt: cubique avec zéros -4, -0.5, 1
 
 i\) degré : **3**
@@ -126,6 +127,7 @@ iii\)
 b\)
 
 .. image:: ../images/worksheet03-image06.png
+   :scale: 50
    :alt: quartique avec zéros -1 (ordre 2), 4 (ordre 2)
 
 i\) degré : **4**
@@ -154,6 +156,7 @@ iii\)
 c\)
 
 .. image:: ../images/worksheet03-image07.png
+   :scale: 50
    :alt: quartique avec zéros -3, 1 (ordre 3)
 
 i\) degré : **4**
@@ -182,6 +185,7 @@ iii\)
 d\)
 
 .. image:: ../images/worksheet03-image08.png
+   :scale: 50
    :alt: cubique avec zéros -5 (ordre 2), 3
 
 i\) degré : **3**
@@ -229,6 +233,7 @@ a\) :math:`f(x) = -2(x-3)(x+2)(4x-3)`
      - :math:`(0, -36)`
 
 .. image:: ../images/worksheet03-image10.png
+   :scale: 50
    :alt: f(x) = -2(x-3)(x+2)(4x-3)
 
 b\) :math:`g(x) = (x-1)(x+3)(1+x)(3x-9)`
@@ -249,6 +254,7 @@ b\) :math:`g(x) = (x-1)(x+3)(1+x)(3x-9)`
      - :math:`(0, 27)`
 
 .. image:: ../images/worksheet03-image12.png
+   :scale: 50
    :alt: g(x) = (x-1)(x+3)(1+x)(3x-9)
 
 c\) :math:`h(x) = -(x+4)^2(x-1)^2(x+2)(2x-3)`
@@ -270,6 +276,7 @@ c\) :math:`h(x) = -(x+4)^2(x-1)^2(x+2)(2x-3)`
      - :math:`(0, 96)`
 
 .. image:: ../images/worksheet03-image14.png
+   :scale: 50
    :alt: h(x) = -(x+4)^2(x-1)^2(x+2)(2x-3)
 
 d\) :math:`p(x) = 3(x+6)(x-5)^2(3x-2)^3`
@@ -291,13 +298,17 @@ d\) :math:`p(x) = 3(x+6)(x-5)^2(3x-2)^3`
      - :math:`(0, -3600)`
 
 .. image:: ../images/worksheet03-image16.png
+   :scale: 50
    :alt: p(x) = 3(x+6)(x-5)^2(3x-2)^3, schématique (pas à l'échelle)
+
+*(pas à l'échelle)*
 
 **5\)** Écrivez l'équation de chaque fonction
 
 a\)
 
 .. image:: ../images/worksheet03-image17.png
+   :scale: 50
    :alt: cubique passant par (-3, 0), (2, 0), (5, 0) et le point (1, 8)
 
 Zéros à :math:`-3, 2, 5`, donc :math:`f(x) = a(x+3)(x-2)(x-5)`. En
@@ -311,6 +322,7 @@ a = 0.5`.
 b\)
 
 .. image:: ../images/worksheet03-image18.png
+   :scale: 50
    :alt: quartique touchant (-1, 0), croisant (2, 0) et (4, 0), et le
          point (1, -12)
 

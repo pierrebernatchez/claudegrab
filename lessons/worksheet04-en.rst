@@ -1,4 +1,4 @@
-Transformations Worksheet
+1.4 Transformations Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Transformations Worksheet
 :slug: worksheet04
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Transformations Worksheet
+:summary: 1.4 Transformations Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -198,6 +198,7 @@ a\) :math:`f(x) = x^4` :math:`\quad` :math:`g(x) = \dfrac{1}{2}f[-(x-5)] + 1`
               |nbsp|
 
 .. image:: ../images/worksheet04-image05.png
+   :scale: 50
    :alt: blank grid for graphing f(x) = x^4 and g(x) = (1/2)f[-(x-5)] + 1
 
 b\) :math:`f(x) = x^3` :math:`\quad` :math:`g(x) = -f[-2(x+1)] + 6`
@@ -260,6 +261,7 @@ b\) :math:`f(x) = x^3` :math:`\quad` :math:`g(x) = -f[-2(x+1)] + 6`
               |nbsp|
 
 .. image:: ../images/worksheet04-image07.png
+   :scale: 50
    :alt: blank grid for graphing f(x) = x^3 and g(x) = -f[-2(x+1)] + 6
 
 **6\)** Write an equation for the function that results from the given
@@ -278,3 +280,31 @@ units down and 1 unit to the left.
 d\) The function :math:`f(x) = x^6` is reflected vertically in the :math:`x`-axis, stretched horizontally by a factor of 5, reflected
 horizontally in the :math:`y`-axis, and translated 3 units down and 1
 unit to the right.
+
+Answer Key
+================================================================================
+
+**1)** C, A, B, D (in order of the graphs shown)
+
+**2)** Key points (x from -2 to 2):
+:math:`f(x)=x^2`: 4, 1, 0, 1, 4.
+:math:`f(x)=x^3`: -8, -1, 0, 1, 8.
+:math:`f(x)=x^4`: 16, 1, 0, 1, 16.
+:math:`f(x)=x^5`: -32, -1, 0, 1, 32.
+
+**3)** a) :math:`a=-2` (vertical reflection, stretch factor 2);
+:math:`d=1` (shift right 1)
+
+b) :math:`k=-\dfrac{1}{3}` (horizontal reflection, stretch factor 3);
+:math:`d=-5` (shift left 5); :math:`c=-1` (shift down 1)
+
+**4)** a) :math:`g(x) = -3[2(x+5)]^5 - 1` b)
+:math:`g(x) = \dfrac{1}{2}\left[-\dfrac{1}{4}(x-4)\right]^3 + 7`
+
+**5)** a) :math:`g(x) = \dfrac{1}{2}(x-5)^4 + 1` b)
+:math:`g(x) = 8(x+1)^3 + 6`
+
+**6)** a) :math:`g(x) = (x+2)^4 + 3` b)
+:math:`g(x) = \left[\dfrac{1}{5}(x+12)\right]^5` c)
+:math:`g(x) = -3(x+1)^4 - 6` d)
+:math:`g(x) = -\left[-\dfrac{1}{5}(x-1)\right]^6 - 3`

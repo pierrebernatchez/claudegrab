@@ -355,3 +355,25 @@ divided by :math:`x + 1`, the remainder is 7.
 |nbsp|
 
 |nbsp|
+
+Answer Key
+================================================================================
+
+**1)** a) 16 b) 31 c) 36
+
+**2)** a) :math:`x^2 + 2x - 4 + \dfrac{9}{x+1}` b)
+:math:`x^3+3x^2-2x+5 = (x+1)(x^2+2x-4)+9`
+
+**3)** :math:`x^3 - 2x + 3 + \dfrac{4}{3x-4}`; check:
+:math:`3x^4-4x^3-6x^2+17x-8 = (3x-4)(x^3-2x+3)+4`
+
+**4)** a) :math:`x^2+5x-13+\dfrac{30}{x+2}` b)
+:math:`2x^2-x-4+\dfrac{2}{3x+2}` c) :math:`2x^2-x-2+\dfrac{7}{5x-2}`
+d) :math:`-4x^3-12x^2-36x-97-\dfrac{298}{x-3}` e)
+:math:`2x^2-x+3-\dfrac{3}{3x+2}` f) :math:`4x^2+8x+12+\dfrac{5}{2x-3}`
+g) :math:`2x^2+3x+\dfrac{9}{4}+\dfrac{3}{4(4x-3)}`
+
+**5)** dimensions: :math:`x+5` (height), :math:`x+3` (length),
+:math:`2x+1` (width)
+
+**6)** :math:`k = 3`

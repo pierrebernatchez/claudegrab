@@ -14,8 +14,15 @@ unset xtics
 unset ytics
 unset key
 
-set arrow 1 from -2,0 to -2,2.1 head filled lw 1.5 lc rgb "black"
-set arrow 2 from 2,0 to 2,2.1 head filled lw 1.5 lc rgb "black"
+# coordinate axes (gray, arrowheads at both ends), drawn behind the
+# dashed symmetry-line indicator below
+set style arrow 1 head filled size screen 0.015,20 lw 1 lc rgb "gray50"
+set arrow 1 from -2,0 to 2,0 as 1
+set arrow 4 from -2,0 to -2.05,0 as 1
+set arrow 5 from 0,-0.3 to 0,2.2 as 1
+set arrow 6 from 0,-0.3 to 0,-0.32 as 1
+set label 2 "x" at 1.85,0.15 font "Arial,10" tc rgb "gray50"
+set label 3 "y" at -0.35,2.1 font "Arial,10" tc rgb "gray50"
 
 set arrow 3 from 0,0 to 0,2 nohead lw 1.5 dt 2 lc rgb "black"
 set label 1 "x = a" at 0.1,2.0 font "Arial,11"

@@ -1,4 +1,4 @@
-Power Functions Worksheet
+1.1 Polynomial Power Functions Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Power Functions Worksheet
 :slug: worksheet01
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Power Functions Worksheet
+:summary: 1.1 Polynomial Power Functions Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -129,7 +129,7 @@ f\) :math:`y = x^{-3}`
    * - Q3 to Q4
      - |nbsp|
 
-**5\)** Determine whether each graph represents a power function, exponential
+**5\)** Determine whether each graph represents a polynomial power function, exponential
 function, a periodic function, or none of these.
 
 .. list-table::
@@ -157,3 +157,51 @@ function, a periodic function, or none of these.
    * - g\)
      - .. image:: ../images/worksheet01-image12.png
      - |nbsp|
+
+Answer Key
+================================================================================
+
+**1)** a) No b) Yes c) Yes d) Yes e) No f) No
+
+**2)**
+
+.. list-table::
+   :widths: 40 30 30
+   :header-rows: 1
+
+   * - Polynomial
+     - Degree
+     - Leading Coefficient
+   * - :math:`y = 5x^4 - 3x^3 + 4`
+     - 4
+     - 5
+   * - :math:`y = -x + 2`
+     - 1
+     - -1
+   * - :math:`y = 8x^2`
+     - 2
+     - 8
+   * - :math:`y = -\dfrac{x^3}{4} + 4x - 3`
+     - 3
+     - :math:`-\dfrac{1}{4}`
+   * - :math:`y = -5`
+     - 0
+     - -5
+   * - :math:`y = x^2 - 3x`
+     - 2
+     - 1
+
+**3)** Graph 1: even, negative, D: :math:`(-\infty,\infty)`, R:
+:math:`(-\infty,0]`, line symmetry, Q3 to Q4. Graph 2: odd, positive,
+D/R: :math:`(-\infty,\infty)`, point symmetry, Q3 to Q1. Graph 3: odd,
+negative, D/R: :math:`(-\infty,\infty)`, point symmetry, Q2 to Q4.
+Graph 4: even, positive, D: :math:`(-\infty,\infty)`, R:
+:math:`[0,\infty)`, line symmetry, Q2 to Q1. Graph 5: odd, negative,
+D/R: :math:`(-\infty,\infty)`, point symmetry, Q2 to Q4.
+
+**4)** Q3 to Q1: :math:`y=4x^5`, :math:`y=5x`. Q2 to Q4: :math:`y=-x^3`,
+:math:`y=-0.1x^{11}`. Q2 to Q1: :math:`y=2x^4`,
+:math:`y=\dfrac{3}{7}x^2`. Q3 to Q4: :math:`y=-x^6`, :math:`y=-9x^{10}`.
+
+**5)** a) Power b) Exponential c) Periodic d) Power e) None (square
+root) f) None (rational) g) Power

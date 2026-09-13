@@ -1,4 +1,4 @@
-Transformations Worksheet with solutions
+1.4 Transformations Worksheet with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Transformations Worksheet with solutions
 :slug: worksheet04-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Transformations Worksheet with solutions
+:summary: 1.4 Transformations Worksheet with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -37,16 +37,16 @@ D\) :math:`y = -1.5(x+3)^4 + 4`
 
    * - .. image:: ../images/worksheet04-image01.png
 
-       **C**
+       :sol:`C`
      - .. image:: ../images/worksheet04-image02.png
 
-       **A**
+       :sol:`A`
      - .. image:: ../images/worksheet04-image03.png
 
-       **B**
+       :sol:`B`
      - .. image:: ../images/worksheet04-image04.png
 
-       **D**
+       :sol:`D`
 
 **2\)** List a good set of key points for the following parent functions:
 
@@ -59,78 +59,88 @@ D\) :math:`y = -1.5(x+3)^4 + 4`
 
           * - :math:`x`
             - :math:`y`
-          * - -2
-            - 4
-          * - -1
-            - 1
-          * - 0
-            - 0
-          * - 1
-            - 1
-          * - 2
-            - 4
+          * - :sol:`-2`
+            - :sol:`4`
+          * - :sol:`-1`
+            - :sol:`1`
+          * - :sol:`0`
+            - :sol:`0`
+          * - :sol:`1`
+            - :sol:`1`
+          * - :sol:`2`
+            - :sol:`4`
      - .. list-table:: :math:`f(x) = x^3`
           :widths: 50 50
           :header-rows: 1
 
           * - :math:`x`
             - :math:`y`
-          * - -2
-            - -8
-          * - -1
-            - -1
-          * - 0
-            - 0
-          * - 1
-            - 1
-          * - 2
-            - 8
+          * - :sol:`-2`
+            - :sol:`-8`
+          * - :sol:`-1`
+            - :sol:`-1`
+          * - :sol:`0`
+            - :sol:`0`
+          * - :sol:`1`
+            - :sol:`1`
+          * - :sol:`2`
+            - :sol:`8`
      - .. list-table:: :math:`f(x) = x^4`
           :widths: 50 50
           :header-rows: 1
 
           * - :math:`x`
             - :math:`y`
-          * - -2
-            - 16
-          * - -1
-            - 1
-          * - 0
-            - 0
-          * - 1
-            - 1
-          * - 2
-            - 16
+          * - :sol:`-2`
+            - :sol:`16`
+          * - :sol:`-1`
+            - :sol:`1`
+          * - :sol:`0`
+            - :sol:`0`
+          * - :sol:`1`
+            - :sol:`1`
+          * - :sol:`2`
+            - :sol:`16`
      - .. list-table:: :math:`f(x) = x^5`
           :widths: 50 50
           :header-rows: 1
 
           * - :math:`x`
             - :math:`y`
-          * - -2
-            - -32
-          * - -1
-            - -1
-          * - 0
-            - 0
-          * - 1
-            - 1
-          * - 2
-            - 32
+          * - :sol:`-2`
+            - :sol:`-32`
+          * - :sol:`-1`
+            - :sol:`-1`
+          * - :sol:`0`
+            - :sol:`0`
+          * - :sol:`1`
+            - :sol:`1`
+          * - :sol:`2`
+            - :sol:`32`
 
 **3\)** Identify the :math:`a`, :math:`k`, :math:`d` and :math:`c` values
 and explain what transformation is occurring to the parent function:
 
 a\) :math:`f(x) = -2(x-1)^2`
 
-- :math:`a = -2`; vertical reflection and vertical stretch by a factor of 2 (:math:`-2y`)
-- :math:`d = 1`; shift right 1 unit (:math:`x + 1`)
+- .. rst-class:: solution
+
+  :math:`a = -2`; vertical reflection and vertical stretch by a factor of 2 (:math:`-2y`)
+- .. rst-class:: solution
+
+  :math:`d = 1`; shift right 1 unit (:math:`x + 1`)
 
 b\) :math:`g(x) = \left[-\dfrac{1}{3}(x+5)\right]^4 - 1`
 
-- :math:`k = -\dfrac{1}{3}`; horizontal reflection and horizontal stretch by a factor of 3 (:math:`-3x`)
-- :math:`d = -5`; shift left 5 units (:math:`x - 5`)
-- :math:`c = -1`; shift down 1 unit (:math:`y - 1`)
+- .. rst-class:: solution
+
+  :math:`k = -\dfrac{1}{3}`; horizontal reflection and horizontal stretch by a factor of 3 (:math:`-3x`)
+- .. rst-class:: solution
+
+  :math:`d = -5`; shift left 5 units (:math:`x - 5`)
+- .. rst-class:: solution
+
+  :math:`c = -1`; shift down 1 unit (:math:`y - 1`)
 
 **4\)** Write the full equation given the parent function and the
 transforming function:
@@ -138,12 +148,14 @@ transforming function:
 a\) :math:`f(x) = x^5`, :math:`g(x) = -3f[2(x+5)] - 1`
 
 .. math::
+   :class: solution
 
    g(x) = -3[2(x+5)]^5 - 1
 
 b\) :math:`f(x) = x^3`, :math:`g(x) = \dfrac{1}{4}f\left[-\dfrac{1}{4}(x-4)\right] + 7`
 
 .. math::
+   :class: solution
 
    g(x) = \dfrac{1}{2}\left[-\dfrac{1}{4}(x-4)\right]^3 + 7
 
@@ -162,37 +174,39 @@ a\) :math:`f(x) = x^4` :math:`\quad` :math:`g(x) = \dfrac{1}{2}f[-(x-5)] + 1`
 
           * - :math:`x`
             - :math:`y`
-          * - -2
-            - 16
-          * - -1
-            - 1
-          * - 0
-            - 0
-          * - 1
-            - 1
-          * - 2
-            - 16
+          * - :sol:`-2`
+            - :sol:`16`
+          * - :sol:`-1`
+            - :sol:`1`
+          * - :sol:`0`
+            - :sol:`0`
+          * - :sol:`1`
+            - :sol:`1`
+          * - :sol:`2`
+            - :sol:`16`
      - .. list-table:: :math:`g(x) = \dfrac{1}{2}f[-(x-5)] + 1`
           :widths: 50 50
           :header-rows: 1
 
-          * - :math:`-x + 5`
-            - :math:`\dfrac{y}{2} + 1`
-          * - 7
-            - 9
-          * - 6
-            - 1.5
-          * - 5
-            - 1
-          * - 4
-            - 1.5
-          * - 3
-            - 9
+          * - :solmath:`-x + 5`
+            - :solmath:`\dfrac{y}{2} + 1`
+          * - :sol:`7`
+            - :sol:`9`
+          * - :sol:`6`
+            - :sol:`1.5`
+          * - :sol:`5`
+            - :sol:`1`
+          * - :sol:`4`
+            - :sol:`1.5`
+          * - :sol:`3`
+            - :sol:`9`
 
 .. image:: ../images/worksheet04-image06.png
+   :scale: 50
    :alt: f(x) = x^4 (pink) and g(x) = (1/2)f[-(x-5)] + 1 (blue)
 
 .. math::
+   :class: solution
 
    g(x) = \dfrac{1}{2}(x-5)^4 + 1
 
@@ -207,37 +221,39 @@ b\) :math:`f(x) = x^3` :math:`\quad` :math:`g(x) = -f[-2(x+1)] + 6`
 
           * - :math:`x`
             - :math:`y`
-          * - -2
-            - -8
-          * - -1
-            - -1
-          * - 0
-            - 0
-          * - 1
-            - 1
-          * - 2
-            - 8
+          * - :sol:`-2`
+            - :sol:`-8`
+          * - :sol:`-1`
+            - :sol:`-1`
+          * - :sol:`0`
+            - :sol:`0`
+          * - :sol:`1`
+            - :sol:`1`
+          * - :sol:`2`
+            - :sol:`8`
      - .. list-table:: :math:`g(x) = -f[-2(x+1)] + 6`
           :widths: 50 50
           :header-rows: 1
 
-          * - :math:`\dfrac{x}{-2} - 1`
-            - :math:`-y + 6`
-          * - 0
-            - 14
-          * - -0.5
-            - 7
-          * - -1
-            - 6
-          * - -1.5
-            - 5
-          * - -2
-            - -2
+          * - :solmath:`\dfrac{x}{-2} - 1`
+            - :solmath:`-y + 6`
+          * - :sol:`0`
+            - :sol:`14`
+          * - :sol:`-0.5`
+            - :sol:`7`
+          * - :sol:`-1`
+            - :sol:`6`
+          * - :sol:`-1.5`
+            - :sol:`5`
+          * - :sol:`-2`
+            - :sol:`-2`
 
 .. image:: ../images/worksheet04-image08.png
+   :scale: 50
    :alt: f(x) = x^3 (pink) and g(x) = -f[-2(x+1)] + 6 (blue)
 
 .. math::
+   :class: solution
 
    g(x) = 8(x+1)^3 + 6
 
@@ -248,6 +264,7 @@ a\) The function :math:`f(x) = x^4` is translated 2 units to the left
 and 3 units up.
 
 .. math::
+   :class: solution
 
    g(x) = (x+2)^4 + 3
 
@@ -255,6 +272,7 @@ b\) The function :math:`f(x) = x^5` is stretched horizontally by a
 factor of 5 and translated 12 units to the left.
 
 .. math::
+   :class: solution
 
    g(x) = \left[\dfrac{1}{5}(x+12)\right]^5
 
@@ -263,6 +281,7 @@ of 3, reflected vertically in the :math:`x`-axis, and translated 6
 units down and 1 unit to the left.
 
 .. math::
+   :class: solution
 
    g(x) = -3(x+1)^4 - 6
 
@@ -271,5 +290,6 @@ horizontally in the :math:`y`-axis, and translated 3 units down and 1
 unit to the right.
 
 .. math::
+   :class: solution
 
    g(x) = -\left[-\dfrac{1}{5}(x-1)\right]^6 - 3

@@ -1,4 +1,4 @@
-Fiche d'exercices sur la symétrie des fonctions polynomiales avec solutions
+1.5 Fiche d'exercices sur la symétrie des fonctions polynomiales avec solutions
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Fiche d'exercices sur la symétrie des fonctions polynomiales avec solutions
 :slug: worksheet05-solutions
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Fiche d'exercices sur la symétrie des fonctions polynomiales avec solutions
+:summary: 1.5 Fiche d'exercices sur la symétrie des fonctions polynomiales avec solutions
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -75,6 +75,7 @@ Donc :math:`g(-x) = -g(x)`.
 **3\)** Utilisez le graphique donné pour indiquer :
 
 .. image:: ../images/worksheet05-image01.png
+   :scale: 50
    :alt: P(x) = -(x+1)^2(x-2)(x-4), point (1, -12) marked
 
 a\) les zéros

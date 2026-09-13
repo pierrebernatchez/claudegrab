@@ -337,3 +337,20 @@ help you determine the solution.
 |nbsp|
 
 |nbsp|
+
+Answer Key
+================================================================================
+
+**1)** a) :math:`x \leq 2` b) :math:`x < 1`
+
+**2)** a) :math:`x < -3` or :math:`x > 2` b) :math:`-2 < x < -1` or
+:math:`x > 3`
+
+**3)** a) :math:`x \leq 2` or :math:`x \geq 5` b) :math:`-8 < x < 0`
+or :math:`x > 2` c) :math:`-6 \leq x \leq 6` d) :math:`x < -5` or
+:math:`-1 < x < 1` or :math:`x > 5` e) :math:`-5 \leq x \leq 3` or
+:math:`x \geq 5` f) :math:`x \leq -4` or :math:`-2 \leq x \leq 6` g)
+:math:`x < -2` or :math:`1 < x < 3` h) :math:`x \leq -1` or
+:math:`\dfrac{2}{5} \leq x \leq 3`
+
+**4)** :math:`t > 10` (i.e., after the year 2009)

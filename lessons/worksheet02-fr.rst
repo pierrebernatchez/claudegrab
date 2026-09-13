@@ -1,4 +1,4 @@
-Fiche d'exercices sur les caractéristiques des fonctions polynomiales
+1.2 Fiche d'exercices sur les caractéristiques des fonctions polynomiales
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Fiche d'exercices sur les caractéristiques des fonctions polynomiales
 :slug: worksheet02
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Fiche d'exercices sur les caractéristiques des fonctions polynomiales
+:summary: 1.2 Fiche d'exercices sur les caractéristiques des fonctions polynomiales
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -346,3 +346,147 @@ a\) Quelle est la valeur des différences finies constantes ?
 b\) Quelle est la population actuelle de la ville ?
 
 c\) Quelle sera la population de la ville dans 10 ans ?
+
+Corrigé
+================================================================================
+
+**1)**
+
+.. list-table::
+   :widths: 12 10 14 10 12 12 14
+   :header-rows: 1
+
+   * - Signe du coefficient dominant
+     - Degré pair ou impair ?
+     - Comportement à l'infini
+     - Symétrie
+     - Nombre de points tournants
+     - Nombre de zéros
+     - Degré minimal possible
+   * - Positif
+     - Pair
+     - Q2 à Q1
+     - Aucune
+     - 3
+     - 4
+     - 4
+   * - Positif
+     - Impair
+     - Q3 à Q1
+     - Aucune
+     - 4
+     - 5
+     - 5
+   * - Négatif
+     - Pair
+     - Q3 à Q4
+     - Aucune
+     - 3
+     - 4
+     - 4
+   * - Négatif
+     - Impair
+     - Q2 à Q4
+     - Aucune
+     - 4
+     - 5
+     - 5
+   * - Négatif
+     - Impair
+     - Q2 à Q4
+     - Point
+     - 2
+     - 3
+     - 3
+
+**2)**
+
+.. list-table::
+   :widths: 12 10 14 10 12 12 14
+   :header-rows: 1
+
+   * - Signe du coefficient dominant
+     - Degré pair ou impair ?
+     - Comportement à l'infini
+     - Symétrie
+     - Nombre de points tournants
+     - Nombre de zéros
+     - Degré minimal possible
+   * - Négatif
+     - Impair
+     - Q2 à Q4
+     - Point
+     - 4
+     - 3
+     - 5
+   * - Positif
+     - Pair
+     - Q2 à Q1
+     - Droite
+     - 3
+     - 2
+     - 4
+   * - Positif
+     - Impair
+     - Q3 à Q1
+     - Point
+     - 2
+     - 3
+     - 3
+   * - Négatif
+     - Pair
+     - Q3 à Q4
+     - Aucune
+     - 5
+     - 5
+     - 6
+
+**3)**
+
+.. list-table::
+   :widths: 24 8 14 12 14 14 14
+   :header-rows: 1
+
+   * - Équation
+     - Degré
+     - Signe du coefficient dominant
+     - Degré pair ou impair ?
+     - Comportement à l'infini
+     - Points tournants possibles
+     - Zéros possibles
+   * - :math:`f(x) = -4x^4 + 3x^2 - 15x + 5`
+     - 4
+     - Négatif
+     - Pair
+     - Q3 à Q4
+     - 3, 1
+     - 4, 3, 2, 1, 0
+   * - :math:`g(x) = 2x^5 - 4x^3 + 10x^2 - 13x + 8`
+     - 5
+     - Positif
+     - Impair
+     - Q3 à Q1
+     - 4, 2, 0
+     - 5, 4, 3, 2, 1
+   * - :math:`p(x) = 4 - 5x + 4x^2 - 3x^3`
+     - 3
+     - Négatif
+     - Impair
+     - Q2 à Q4
+     - 2, 0
+     - 3, 2, 1
+   * - :math:`h(x) = 2x(x-5)(3x+2)(4x-3)`
+     - 4
+     - Positif
+     - Pair
+     - Q2 à Q1
+     - 3, 1
+     - 4, 3, 2, 1, 0
+
+**4)** Rangée du haut : B, F, D. Rangée du bas : A, C, E.
+
+**5)** a) degré 2, :math:`a = -4` b) degré 4, :math:`a = 1`
+
+**6)** a) degré 3, :math:`a = 1` b) degré 4, :math:`a = -1`
+
+**7)** a) 144 b) 12 000 c) 69 000

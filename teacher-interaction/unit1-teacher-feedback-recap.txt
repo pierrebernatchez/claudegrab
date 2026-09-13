@@ -1,0 +1,81 @@
+Unit 1 Revision Plan — Summary of Feedback from Our Meeting (2026-09-12)
+================================================================================
+
+Thank you again for taking the time to review Unit 1 with me. Below is a
+recap of everything you flagged, organized by topic, along with the plan
+for addressing each item.
+
+WORDING AND TERMINOLOGY
+--------------------------------------------------------------------------
+1. "Power function(s)" will be corrected to "polynomial power
+   function(s)" everywhere it appears (Lesson 1, Worksheet 1, and the
+   later lessons that reference it), in both English and French.
+2. "n is a whole number" will be changed to "n is a natural number" in
+   Lesson 1's Polynomial Functions section (two places).
+3. Lesson titles will include a unit/lesson number, e.g. "1.1", so you
+   can easily direct students to the right section.
+
+FIGURES AND DIAGRAMS
+--------------------------------------------------------------------------
+4. The number line diagram in Lesson 1 will get a proper line with
+   arrowheads on both ends (currently just tick marks with no
+   connecting line or arrows).
+5. The two symmetry diagrams (line symmetry and point symmetry) will
+   have their stray, purposeless arrows removed.
+6. The point symmetry diagram's "(a, b)" label will get an actual point
+   marker to label, since currently the label has nothing to point to.
+7. We will double-check that every plotted graph in Unit 1 clearly
+   shows the x and y axes.
+8. In Lesson 2, one graph (the quartic with two low points) will be
+   adjusted so it has one clear absolute minimum instead of two
+   mathematically tied ones, matching what the text says.
+9. In Lesson 2, another graph's vertical scale will be adjusted so all
+   of its x-intercepts are actually visible (currently one crossing is
+   too shallow to see at the chosen scale).
+10. We will review all of Unit 1's graphs to make sure the scale is
+    appropriately zoomed in wherever a graph currently looks
+    unnecessarily large, especially in Lesson 2.
+11. Any English text baked directly into a figure (as opposed to the
+    surrounding paragraph) will be removed, since those figures are
+    shared between the English and French versions and currently leak
+    English words into the French document in at least one spot.
+
+LAYOUT AND READABILITY
+--------------------------------------------------------------------------
+12. In Lesson 2, a phrase that reads "On the graph of this function..."
+    will be reworded to explicitly say "the graph below," and that text
+    will be kept on the same page as the graph it describes (right now
+    a page break can separate them, which is confusing).
+13. A similar page-break fix will be applied to the "odd degree
+    polynomial extends from..." explanation and the pair of graphs
+    below it in Lesson 2.
+14. Lesson 2's Example 1 (parts a and b) will be reformatted out of its
+    current boxed/table layout into our standard format, matching the
+    rest of the document.
+15. Fill-in-the-blank questions will get more vertical writing space —
+    a general pass, low priority, only if straightforward.
+16. Blank table cells (where students write an answer inside a table)
+    will be sized to at least 32pt tall so there's enough room to write.
+
+PAGE NUMBERS
+--------------------------------------------------------------------------
+17. Page numbers will be added to every document going forward, so you
+    can tell students exactly which page to look at. This is a
+    rendering change that applies automatically once made, so it will
+    also appear on already-existing documents once they're re-generated.
+
+ADDITIONAL ITEMS RAISED (apply beyond just Unit 1)
+--------------------------------------------------------------------------
+18. Worksheets should include the short answer key from the original
+    source material (in addition to the full worked-solutions document
+    we already produce), so students can check their own work. This
+    applies to every worksheet built so far, not just Unit 1's.
+19. In the solutions documents, the parts that were added to show the
+    worked answer (as opposed to the original question) will be shown
+    in red, matching the style of the original source material.
+
+--------------------------------------------------------------------------
+A few of these items have an open question attached (e.g. exact title
+numbering format, whether certain fixes extend to a second, similar
+spot) that we'll resolve internally before finalizing — nothing that
+should require another round with you unless something comes up.

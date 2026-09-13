@@ -1,4 +1,4 @@
-Leçon sur la symétrie des fonctions polynomiales avec solutions
+1.5 Leçon sur la symétrie des fonctions polynomiales avec solutions
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Leçon sur la symétrie des fonctions polynomiales avec solutions
 :slug: lesson05-solutions
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Leçon sur la symétrie des fonctions polynomiales avec solutions
+:summary: 1.5 Leçon sur la symétrie des fonctions polynomiales avec solutions
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -69,6 +69,7 @@ toutes les fonctions paires et impaires :
    * - **Exemple :**
 
        .. image:: ../images/lesson05-image03.png
+          :scale: 50
           :alt: f(x) = 2x^4 + 3x^2 - 2 with f(1) and f(-1) marked
 
        :math:`f(x) = 2x^4 + 3x^2 - 2`
@@ -83,6 +84,7 @@ toutes les fonctions paires et impaires :
      - **Exemple :**
 
        .. image:: ../images/lesson05-image04.png
+          :scale: 50
           :alt: f(x) = 2x^3 + 3x with f(1) and f(-1) marked
 
        :math:`f(x) = 2x^3 + 3x`
@@ -102,6 +104,7 @@ savoir.
 a\) :math:`y = x^3 - 4x`
 
 .. image:: ../images/lesson05-image05.png
+   :scale: 50
    :alt: y = x^3 - 4x, point (0,0) marked
 
 C'est une **fonction impaire** car :
@@ -113,6 +116,7 @@ C'est une **fonction impaire** car :
 b\) :math:`y = x^3 - 4x + 2`
 
 .. image:: ../images/lesson05-image06.png
+   :scale: 50
    :alt: y = x^3 - 4x + 2, point (0,2) marked
 
 **Ni l'une ni l'autre**
@@ -128,6 +132,7 @@ fonction impaire car il y a un terme constant.
 c\) :math:`y = x^4 - 4x^2 + 2`
 
 .. image:: ../images/lesson05-image07.png
+   :scale: 50
    :alt: y = x^4 - 4x^2 + 2
 
 C'est une **fonction paire** car :
@@ -139,6 +144,7 @@ C'est une **fonction paire** car :
 d\) :math:`y = 3x^4 + x^3 - 4x^2 + 2`
 
 .. image:: ../images/lesson05-image08.png
+   :scale: 50
    :alt: y = 3x^4 + x^3 - 4x^2 + 2
 
 **Ni l'une ni l'autre**
@@ -153,6 +159,7 @@ impairs.
 e\) :math:`y = -3x^2 - 6x`
 
 .. image:: ../images/lesson05-image09.png
+   :scale: 50
    :alt: y = -3x^2 - 6x
 
 **Ni l'une ni l'autre**
@@ -172,6 +179,7 @@ fonction
 a\)
 
 .. image:: ../images/lesson05-image10.png
+   :scale: 50
    :alt: graph for Example 2a
 
 i\) aucune symétrie
@@ -187,6 +195,7 @@ v\) fonction paire
 b\)
 
 .. image:: ../images/lesson05-image11.png
+   :scale: 50
    :alt: graph for Example 2b
 
 **i) aucune symétrie**
@@ -234,6 +243,7 @@ iv\) fonction impaire
 e\)
 
 .. image:: ../images/lesson05-image12.png
+   :scale: 50
    :alt: graph for Example 2e
 
 i\) aucune symétrie
@@ -249,6 +259,7 @@ iv\) fonction impaire
 f\)
 
 .. image:: ../images/lesson05-image13.png
+   :scale: 50
    :alt: graph for Example 2f
 
 i\) aucune symétrie
@@ -324,6 +335,7 @@ Section 2 : Liens avec l'ensemble de l'unité
 **Exemple 4 :** Utilisez le graphique donné pour indiquer :
 
 .. image:: ../images/lesson05-image14.png
+   :scale: 50
    :alt: quintic with local max (-1, 3), touching at -2 and 2, crossing at 0
 
 a\) les zéros

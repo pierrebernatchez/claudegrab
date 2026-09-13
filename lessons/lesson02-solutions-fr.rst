@@ -1,4 +1,4 @@
-Leçon sur les caractéristiques des fonctions polynomiales avec solutions
+1.2 Leçon sur les caractéristiques des fonctions polynomiales avec solutions
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Leçon sur les caractéristiques des fonctions polynomiales avec solutions
 :slug: lesson02-solutions
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Leçon sur les caractéristiques des fonctions polynomiales avec solutions
+:summary: 1.2 Leçon sur les caractéristiques des fonctions polynomiales avec solutions
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -21,7 +21,7 @@ Ce document a été composé et mis en forme par Annie Bernatchez.
 
 Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
-À la section 1.1, nous avons étudié les fonctions puissance, qui sont des
+À la section 1.1, nous avons étudié les fonctions puissance polynomiales, qui sont des
 fonctions polynomiales à un seul terme. Plusieurs fonctions polynomiales
 sont composées de deux termes ou plus. Dans cette section, nous étudierons
 les caractéristiques des graphiques et des équations des fonctions
@@ -45,25 +45,32 @@ Le degré d'une fonction polynomiale fournit de l'information sur la forme,
 les points tournants (minimums/maximums locaux) et les zéros (abscisses à
 l'origine) du graphique.
 
-Dans ce graphique, (-1, 4) est un **maximum local** et (1, -4) est un
-**minimum local**. Ce ne sont pas des points minimum et maximum absolus,
-car il existe d'autres points sur le graphique de la fonction qui sont
-plus petits et plus grands. On appelle parfois les points minimum et
-maximum locaux des **points tournants**.
+.. container:: keeptogether
 
-.. image:: ../images/lesson02-image01.png
-   :alt: f(x) = 2x^3 - 6x avec maximum local (-1,4) et minimum local (1,-4)
+   Dans le graphique ci-dessous, (-1, 4) est un **maximum local** et
+   (1, -4) est un **minimum local**. Ce ne sont pas des points minimum et
+   maximum absolus, car il existe d'autres points sur le graphique de la
+   fonction qui sont plus petits et plus grands. On appelle parfois les
+   points minimum et maximum locaux des **points tournants**.
 
-Sur le graphique de cette fonction...
+   .. image:: ../images/lesson02-image01.png
+      :scale: 50
+      :alt: f(x) = 2x^3 - 6x avec maximum local (-1,4) et minimum local (1,-4)
 
-Il y a **3** points minimum/maximum locaux. **2** sont des minimums locaux
-et **1** est un maximum local.
+.. container:: keeptogether
 
-Un des points minimum locaux est aussi un minimum absolu (il est indiqué).
+   Sur le graphique ci-dessous...
 
-.. image:: ../images/lesson02-image02.png
-   :alt: f(x) = x^4 - 5x^2, une quartique en W avec deux minimums locaux et
-         un maximum local, minimum absolu indiqué
+   Il y a **3** points minimum/maximum locaux. **2** sont des minimums
+   locaux et **1** est un maximum local.
+
+   Un des points minimum locaux est aussi un minimum absolu (celui de
+   droite).
+
+   .. image:: ../images/lesson02-image02.png
+      :scale: 50
+      :alt: f(x) = x^4 - 5x^2 - x, une quartique en W avec deux minimums
+            locaux et un maximum local, le minimum de droite plus bas que celui de gauche
 
 Complétez le tableau suivant à l'aide de l'équation et des graphiques
 donnés :
@@ -146,42 +153,51 @@ donnés :
   moins un zéro, et un nombre pair de points tournants
 - Si une fonction polynomiale est de degré **pair**, elle peut n'avoir
   aucun zéro, et un nombre impair de points tournants
-- Une fonction polynomiale de degré impair s'étend...
 
-  - du quadrant **Q3** au quadrant **Q1** si son coefficient dominant est
-    positif
-  - du quadrant **Q2** au quadrant **Q4** si son coefficient dominant est
-    négatif
+.. container:: keeptogether
 
-.. list-table::
-   :widths: 50 50
+   - Une fonction polynomiale de degré impair s'étend...
 
-   * - .. image:: ../images/lesson02-image12.png
+     - du quadrant **Q3** au quadrant **Q1** si son coefficient dominant
+       est positif
+     - du quadrant **Q2** au quadrant **Q4** si son coefficient dominant
+       est négatif
 
-       Coefficient dominant positif
-     - .. image:: ../images/lesson02-image13.png
+   .. list-table::
+      :widths: 50 50
 
-       Coefficient dominant négatif
+      * - .. image:: ../images/lesson02-image12.png
+             :scale: 50
+
+          Coefficient dominant positif
+        - .. image:: ../images/lesson02-image13.png
+             :scale: 50
+
+          Coefficient dominant négatif
 
 *Remarque : Les polynômes de degré impair ont des comportements à
 l'infini OPPOSÉS*
 
-- Une fonction polynomiale de degré pair s'étend...
+.. container:: keeptogether
 
-  - du quadrant **Q2** au quadrant **Q1** si son coefficient dominant est
-    positif
-  - du quadrant **Q3** au quadrant **Q4** si son coefficient dominant est
-    négatif
+   - Une fonction polynomiale de degré pair s'étend...
 
-.. list-table::
-   :widths: 50 50
+     - du quadrant **Q2** au quadrant **Q1** si son coefficient dominant
+       est positif
+     - du quadrant **Q3** au quadrant **Q4** si son coefficient dominant
+       est négatif
 
-   * - .. image:: ../images/lesson02-image14.png
+   .. list-table::
+      :widths: 50 50
 
-       Coefficient dominant positif
-     - .. image:: ../images/lesson02-image15.png
+      * - .. image:: ../images/lesson02-image14.png
+             :scale: 50
 
-       Coefficient dominant négatif
+          Coefficient dominant positif
+        - .. image:: ../images/lesson02-image15.png
+             :scale: 50
+
+          Coefficient dominant négatif
 
 *Remarque : Les polynômes de degré pair ont LE MÊME comportement à
 l'infini*
@@ -232,51 +248,53 @@ nombre possible de points tournants, et le nombre possible de zéros.
 Utilisez ces caractéristiques pour esquisser des graphiques possibles de
 la fonction
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 0
+.. rst-class:: keepwithnext
 
-   * - a\) :math:`f(x) = -3x^5 + 4x^3 - 8x^2 + 7x - 5`
-     - Degré 5 (impair), coefficient dominant -3 (négatif). Comportement à
-       l'infini : :math:`y \to \infty` lorsque :math:`x \to -\infty`;
-       :math:`y \to -\infty` lorsque :math:`x \to \infty` (s'étend de Q2 à
-       Q4). Nombre possible de points tournants : 0, 2 ou 4. Nombre
-       possible de zéros : 1, 3 ou 5.
+a\) :math:`f(x) = -3x^5 + 4x^3 - 8x^2 + 7x - 5`
 
-Graphiques possibles de fonctions polynomiales de degré 5 à coefficient
-dominant négatif :
+Degré 5 (impair), coefficient dominant -3 (négatif). Comportement à
+l'infini : :math:`y \to \infty` lorsque :math:`x \to -\infty`;
+:math:`y \to -\infty` lorsque :math:`x \to \infty` (s'étend de Q2 à
+Q4). Nombre possible de points tournants : 0, 2 ou 4. Nombre
+possible de zéros : 1, 3 ou 5.
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :align: center
+.. container:: keeptogether
 
-   * - .. image:: ../images/lesson02-image16.png
-     - .. image:: ../images/lesson02-image17.png
-     - .. image:: ../images/lesson02-image18.png
-     - .. image:: ../images/lesson02-image19.png
-     - .. image:: ../images/lesson02-image20.png
+   Graphiques possibles de fonctions polynomiales de degré 5 à
+   coefficient dominant négatif :
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 0
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :align: center
 
-   * - b\) :math:`g(x) = 2x^4 + x^2 + 2`
-     - Degré 4 (pair), coefficient dominant 2 (positif). Comportement à
-       l'infini : :math:`y \to \infty` lorsque :math:`x \to \pm\infty`
-       (s'étend de Q2 à Q1). Nombre possible de points tournants : 1 ou
-       3. Nombre possible de zéros : 0, 2 ou 4.
+      * - .. image:: ../images/lesson02-image16.png
+        - .. image:: ../images/lesson02-image17.png
+        - .. image:: ../images/lesson02-image18.png
+        - .. image:: ../images/lesson02-image19.png
+        - .. image:: ../images/lesson02-image20.png
 
-Graphiques possibles de fonctions polynomiales de degré 4 à coefficient
-dominant positif :
+.. rst-class:: keepwithnext
 
-.. list-table::
-   :widths: 25 25 25 25
-   :align: center
+b\) :math:`g(x) = 2x^4 + x^2 + 2`
 
-   * - .. image:: ../images/lesson02-image21.png
-     - .. image:: ../images/lesson02-image22.png
-     - .. image:: ../images/lesson02-image23.png
-     - .. image:: ../images/lesson02-image24.png
+Degré 4 (pair), coefficient dominant 2 (positif). Comportement à
+l'infini : :math:`y \to \infty` lorsque :math:`x \to \pm\infty`
+(s'étend de Q2 à Q1). Nombre possible de points tournants : 1 ou
+3. Nombre possible de zéros : 0, 2 ou 4.
+
+.. container:: keeptogether
+
+   Graphiques possibles de fonctions polynomiales de degré 4 à
+   coefficient dominant positif :
+
+   .. list-table::
+      :widths: 25 25 25 25
+      :align: center
+
+      * - .. image:: ../images/lesson02-image21.png
+        - .. image:: ../images/lesson02-image22.png
+        - .. image:: ../images/lesson02-image23.png
+        - .. image:: ../images/lesson02-image24.png
 
 **Exemple 2 :** Remplissez le tableau suivant
 

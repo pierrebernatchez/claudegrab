@@ -1,4 +1,4 @@
-Characteristics of Polynomial Functions Worksheet with solutions
+1.2 Characteristics of Polynomial Functions Worksheet with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Characteristics of Polynomial Functions Worksheet with solutions
 :slug: worksheet02-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Characteristics of Polynomial Functions Worksheet with solutions
+:summary: 1.2 Characteristics of Polynomial Functions Worksheet with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -36,45 +36,45 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
      - Number of x-intercepts
      - Least Possible Degree
    * - .. image:: ../images/worksheet02-image01.png
-     - Positive
-     - Even
-     - Q2 to Q1
-     - None
-     - 3
-     - 4
-     - 4
+     - :sol:`Positive`
+     - :sol:`Even`
+     - :sol:`Q2 to Q1`
+     - :sol:`None`
+     - :sol:`3`
+     - :sol:`4`
+     - :sol:`4`
    * - .. image:: ../images/worksheet02-image02.png
-     - Positive
-     - Odd
-     - Q3 to Q1
-     - None
-     - 4
-     - 5
-     - 5
+     - :sol:`Positive`
+     - :sol:`Odd`
+     - :sol:`Q3 to Q1`
+     - :sol:`None`
+     - :sol:`4`
+     - :sol:`5`
+     - :sol:`5`
    * - .. image:: ../images/worksheet02-image03.png
-     - Negative
-     - Even
-     - Q3 to Q4
-     - None
-     - 3
-     - 4
-     - 4
+     - :sol:`Negative`
+     - :sol:`Even`
+     - :sol:`Q3 to Q4`
+     - :sol:`None`
+     - :sol:`3`
+     - :sol:`4`
+     - :sol:`4`
    * - .. image:: ../images/worksheet02-image04.png
-     - Negative
-     - Odd
-     - Q2 to Q4
-     - None
-     - 4
-     - 5
-     - 5
+     - :sol:`Negative`
+     - :sol:`Odd`
+     - :sol:`Q2 to Q4`
+     - :sol:`None`
+     - :sol:`4`
+     - :sol:`5`
+     - :sol:`5`
    * - .. image:: ../images/worksheet02-image05.png
-     - Negative
-     - Odd
-     - Q2 to Q4
-     - Point
-     - 2
-     - 3
-     - 3
+     - :sol:`Negative`
+     - :sol:`Odd`
+     - :sol:`Q2 to Q4`
+     - :sol:`Point`
+     - :sol:`2`
+     - :sol:`3`
+     - :sol:`3`
 
 **2\)** Complete the following table
 
@@ -91,37 +91,37 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
      - Number of x-intercepts
      - Least Possible Degree
    * - .. image:: ../images/worksheet02-image06.png
-     - Negative
-     - Odd
-     - Q2 to Q4
-     - Point
-     - 4
-     - 3
-     - 5
+     - :sol:`Negative`
+     - :sol:`Odd`
+     - :sol:`Q2 to Q4`
+     - :sol:`Point`
+     - :sol:`4`
+     - :sol:`3`
+     - :sol:`5`
    * - .. image:: ../images/worksheet02-image07.png
-     - Positive
-     - Even
-     - Q2 to Q1
-     - Line
-     - 3
-     - 2
-     - 4
+     - :sol:`Positive`
+     - :sol:`Even`
+     - :sol:`Q2 to Q1`
+     - :sol:`Line`
+     - :sol:`3`
+     - :sol:`2`
+     - :sol:`4`
    * - .. image:: ../images/worksheet02-image08.png
-     - Positive
-     - Odd
-     - Q3 to Q1
-     - Point
-     - 2
-     - 3
-     - 3
+     - :sol:`Positive`
+     - :sol:`Odd`
+     - :sol:`Q3 to Q1`
+     - :sol:`Point`
+     - :sol:`2`
+     - :sol:`3`
+     - :sol:`3`
    * - .. image:: ../images/worksheet02-image09.png
-     - Negative
-     - Even
-     - Q3 to Q4
-     - None
-     - 5
-     - 5
-     - 6
+     - :sol:`Negative`
+     - :sol:`Even`
+     - :sol:`Q3 to Q4`
+     - :sol:`None`
+     - :sol:`5`
+     - :sol:`5`
+     - :sol:`6`
 
 **3\)** Complete the following table
 
@@ -137,33 +137,33 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
      - Possible number of turning points
      - Possible number of x-intercepts
    * - :math:`f(x) = -4x^4 + 3x^2 - 15x + 5`
-     - 4
-     - Negative
-     - Even
-     - Q3 to Q4
-     - 3, 1
-     - 4, 3, 2, 1, 0
+     - :sol:`4`
+     - :sol:`Negative`
+     - :sol:`Even`
+     - :sol:`Q3 to Q4`
+     - :sol:`3, 1`
+     - :sol:`4, 3, 2, 1, 0`
    * - :math:`g(x) = 2x^5 - 4x^3 + 10x^2 - 13x + 8`
-     - 5
-     - Positive
-     - Odd
-     - Q3 to Q1
-     - 4, 2, 0
-     - 5, 4, 3, 2, 1
+     - :sol:`5`
+     - :sol:`Positive`
+     - :sol:`Odd`
+     - :sol:`Q3 to Q1`
+     - :sol:`4, 2, 0`
+     - :sol:`5, 4, 3, 2, 1`
    * - :math:`p(x) = 4 - 5x + 4x^2 - 3x^3`
-     - 3
-     - Negative
-     - Odd
-     - Q2 to Q4
-     - 2, 0
-     - 3, 2, 1
+     - :sol:`3`
+     - :sol:`Negative`
+     - :sol:`Odd`
+     - :sol:`Q2 to Q4`
+     - :sol:`2, 0`
+     - :sol:`3, 2, 1`
    * - :math:`h(x) = 2x(x-5)(3x+2)(4x-3)`
-     - 4
-     - Positive
-     - Even
-     - Q2 to Q1
-     - 3, 1
-     - 4, 3, 2, 1, 0
+     - :sol:`4`
+     - :sol:`Positive`
+     - :sol:`Even`
+     - :sol:`Q2 to Q1`
+     - :sol:`3, 1`
+     - :sol:`4, 3, 2, 1, 0`
 
 **4\)** Use end behaviours, turning points, and zeros to match each equation
 with the most likely graph. Write the letter of the equation beneath the
@@ -187,22 +187,22 @@ F\) :math:`y = 3x^3 + 5x^2 - 3x + 1`
 
    * - .. image:: ../images/worksheet02-image10.png
 
-       **B**
+       :sol:`B`
      - .. image:: ../images/worksheet02-image11.png
 
-       **F**
+       :sol:`F`
      - .. image:: ../images/worksheet02-image12.png
 
-       **D**
+       :sol:`D`
    * - .. image:: ../images/worksheet02-image13.png
 
-       **A**
+       :sol:`A`
      - .. image:: ../images/worksheet02-image14.png
 
-       **C**
+       :sol:`C`
      - .. image:: ../images/worksheet02-image15.png
 
-       **E**
+       :sol:`E`
 
 **5\)** State the degree of the polynomial function that corresponds to
 each constant finite difference. Then determine the value of the leading
@@ -214,10 +214,14 @@ coefficient for each polynomial function.
 
    * - a\) second differences = -8
 
+       .. rst-class:: solution
+
        Constant :math:`n^{th}` differences :math:`= a \cdot n!`. Second
        differences constant :math:`\Rightarrow` degree **2**.
        :math:`2a = -8 \Rightarrow a =` **-4**
      - b\) fourth differences = 24
+
+       .. rst-class:: solution
 
        Fourth differences constant :math:`\Rightarrow` degree **4**.
        :math:`24a = 24 \Rightarrow a =` **1**
@@ -243,39 +247,41 @@ a\)
      - N/A
    * - -2
      - -16
-     - 29
+     - :sol:`29`
      - N/A
      - N/A
    * - -1
      - -3
-     - 13
-     - -16
+     - :sol:`13`
+     - :sol:`-16`
      - N/A
    * - 0
      - 0
-     - 3
-     - -10
-     - 6
+     - :sol:`3`
+     - :sol:`-10`
+     - :sol:`6`
    * - 1
      - -1
-     - -1
-     - -4
-     - 6
+     - :sol:`-1`
+     - :sol:`-4`
+     - :sol:`6`
    * - 2
      - 0
-     - 1
-     - 2
-     - 6
+     - :sol:`1`
+     - :sol:`2`
+     - :sol:`6`
    * - 3
      - 9
-     - 9
-     - 8
-     - 6
+     - :sol:`9`
+     - :sol:`8`
+     - :sol:`6`
    * - 4
      - 32
-     - 23
-     - 14
-     - 6
+     - :sol:`23`
+     - :sol:`14`
+     - :sol:`6`
+
+.. rst-class:: solution
 
 The third differences are constant (6), so the degree is **3**,
 and :math:`6 = a \cdot 3! = 6a`, so :math:`a =` **1**.
@@ -300,46 +306,48 @@ b\)
      - N/A
    * - -1
      - 12
-     - 52
+     - :sol:`52`
      - N/A
      - N/A
      - N/A
    * - 0
      - 20
-     - 8
-     - -44
+     - :sol:`8`
+     - :sol:`-44`
      - N/A
      - N/A
    * - 1
      - 26
-     - 6
-     - -2
-     - 42
+     - :sol:`6`
+     - :sol:`-2`
+     - :sol:`42`
      - N/A
    * - 2
      - 48
-     - 22
-     - 16
-     - 18
-     - -24
+     - :sol:`22`
+     - :sol:`16`
+     - :sol:`18`
+     - :sol:`-24`
    * - 3
      - 80
-     - 32
-     - 10
-     - -6
-     - -24
+     - :sol:`32`
+     - :sol:`10`
+     - :sol:`-6`
+     - :sol:`-24`
    * - 4
      - 92
-     - 12
-     - -20
-     - -30
-     - -24
+     - :sol:`12`
+     - :sol:`-20`
+     - :sol:`-30`
+     - :sol:`-24`
    * - 5
      - 30
-     - -62
-     - -74
-     - -54
-     - -24
+     - :sol:`-62`
+     - :sol:`-74`
+     - :sol:`-54`
+     - :sol:`-24`
+
+.. rst-class:: solution
 
 The fourth differences are constant (-24), so the degree is **4**,
 and :math:`-24 = a \cdot 4! = 24a`, so :math:`a =` **-1**.
@@ -354,14 +362,20 @@ town :math:`t` years from now can be modelled by the function
 
 a\) What is the value of the constant finite differences?
 
+   .. rst-class:: solution
+
    Degree 4, leading coefficient 6, so the constant (fourth) finite
    differences :math:`= a \cdot n! = 6 \cdot 4! = 6 \times 24 =` **144**
 
 b\) What is the current population of the town?
 
+   .. rst-class:: solution
+
    :math:`P(0) = 12000`, so the current population is **12 000**
 
 c\) What will the population of the town be 10 years from now?
+
+   .. rst-class:: solution
 
    :math:`P(10) = 6(10)^4 - 5(10)^3 + 200(10) + 12000 = 60000 - 5000 + 2000
    + 12000 =` **69 000**

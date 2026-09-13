@@ -1,4 +1,4 @@
-Characteristics of Polynomial Functions Lesson
+1.2 Characteristics of Polynomial Functions Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Characteristics of Polynomial Functions Lesson
 :slug: lesson02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Characteristics of Polynomial Functions Lesson
+:summary: 1.2 Characteristics of Polynomial Functions Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -23,7 +23,7 @@ This document was composed and formatted by Annie Bernatchez.
 
 The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
-In section 1.1 we looked at power functions, which are single-term polynomial
+In section 1.1 we looked at polynomial power functions, which are single-term polynomial
 functions. Many polynomial functions are made up of two or more terms. In
 this section we will look at the characteristics of the graphs and equations
 of polynomial functions.
@@ -45,25 +45,32 @@ function indicate the end behaviours of the graph.
 The degree of a polynomial function provides information about the shape,
 turning points (local min/max), and zeros (x-intercepts) of the graph.
 
-In this graph, (-1, 4) is a ``________________`` and (1, -4) is a
-``________________``. These are not absolute min and max points because
-there are other points on the graph of the function that are smaller and
-greater. Sometimes local min and max points are called
-``____________________________``.
+.. container:: keeptogether
 
-.. image:: ../images/lesson02-image01.png
-   :alt: f(x) = 2x^3 - 6x with local max (-1,4) and local min (1,-4) marked
+   In the graph below, (-1, 4) is a ``________________`` and (1, -4) is a
+   ``________________``. These are not absolute min and max points because
+   there are other points on the graph of the function that are smaller and
+   greater. Sometimes local min and max points are called
+   ``____________________________``.
 
-On the graph of this function...
+   .. image:: ../images/lesson02-image01.png
+      :scale: 50
+      :alt: f(x) = 2x^3 - 6x with local max (-1,4) and local min (1,-4) marked
 
-There are ``____`` local min/max points. ``____`` are local min and ``____``
-is a local max.
+.. container:: keeptogether
 
-One of the local min points is also an absolute min (it is labeled).
+   On the graph below...
 
-.. image:: ../images/lesson02-image02.png
-   :alt: f(x) = x^4 - 5x^2, a W-shaped quartic with two local minima and
-         one local max, absolute minimum labeled
+   There are ``____`` local min/max points. ``____`` are local min and
+   ``____`` is a local max.
+
+   One of the local min points is also an absolute min (the one on the
+   right).
+
+   .. image:: ../images/lesson02-image02.png
+      :scale: 50
+      :alt: f(x) = x^4 - 5x^2 - x, a W-shaped quartic with two local minima
+            and one local max, the right-hand minimum lower than the left
 
 Complete the following table using the equation and graphs given:
 
@@ -85,6 +92,10 @@ Complete the following table using the equation and graphs given:
      - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
    * - :math:`f(x) = 3x^4 - 4x^3 - 4x^2 + 5x + 5`
@@ -94,6 +105,10 @@ Complete the following table using the equation and graphs given:
      - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
    * - :math:`f(x) = x^3 - 2x`
@@ -103,6 +118,10 @@ Complete the following table using the equation and graphs given:
      - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
    * - :math:`f(x) = -x^4 - 2x^3 + x^2 + 2x`
@@ -112,6 +131,10 @@ Complete the following table using the equation and graphs given:
      - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
    * - :math:`f(x) = 2x^6 - 12x^4 + 18x^2 + x - 10`
@@ -121,6 +144,10 @@ Complete the following table using the equation and graphs given:
      - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
    * - :math:`f(x) = 2x^5 + 7x^4 - 3x^3 - 18x^2 + 5`
@@ -130,6 +157,10 @@ Complete the following table using the equation and graphs given:
      - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
 
@@ -143,41 +174,50 @@ Complete the following table using the equation and graphs given:
   one x-intercept, and an even number of turning points
 - If a polynomial function is ``________`` degree, it may have no
   x-intercepts, and an odd number of turning points
-- An odd degree polynomial function extends from...
 
-  - ``____`` quadrant to ``____`` quadrant if it has a positive leading
-    coefficient
-  - ``____`` quadrant to ``____`` quadrant if it has a negative leading
-    coefficient
+.. container:: keeptogether
 
-.. list-table::
-   :widths: 50 50
+   - An odd degree polynomial function extends from...
 
-   * - .. image:: ../images/lesson02-image12.png
+     - ``____`` quadrant to ``____`` quadrant if it has a positive leading
+       coefficient
+     - ``____`` quadrant to ``____`` quadrant if it has a negative leading
+       coefficient
 
-       Positive leading coefficient
-     - .. image:: ../images/lesson02-image13.png
+   .. list-table::
+      :widths: 50 50
 
-       Negative leading coefficient
+      * - .. image:: ../images/lesson02-image12.png
+             :scale: 50
+
+          Positive leading coefficient
+        - .. image:: ../images/lesson02-image13.png
+             :scale: 50
+
+          Negative leading coefficient
 
 *Note: Odd degree polynomials have OPPOSITE end behaviours*
 
-- An even degree polynomial function extends from...
+.. container:: keeptogether
 
-  - ``____`` quadrant to ``____`` quadrant if it has a positive leading
-    coefficient
-  - ``____`` quadrant to ``____`` quadrant if it has a negative leading
-    coefficient
+   - An even degree polynomial function extends from...
 
-.. list-table::
-   :widths: 50 50
+     - ``____`` quadrant to ``____`` quadrant if it has a positive leading
+       coefficient
+     - ``____`` quadrant to ``____`` quadrant if it has a negative leading
+       coefficient
 
-   * - .. image:: ../images/lesson02-image14.png
+   .. list-table::
+      :widths: 50 50
 
-       Positive leading coefficient
-     - .. image:: ../images/lesson02-image15.png
+      * - .. image:: ../images/lesson02-image14.png
+             :scale: 50
 
-       Negative leading coefficient
+          Positive leading coefficient
+        - .. image:: ../images/lesson02-image15.png
+             :scale: 50
+
+          Negative leading coefficient
 
 *Note: Even degree polynomials have THE SAME end behaviour*
 
@@ -199,6 +239,10 @@ Complete the following table using the equation and graphs given:
      - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
    * - :math:`f(x) = -2x^3 + 4x^2 - 3x - 1`
@@ -208,6 +252,10 @@ Complete the following table using the equation and graphs given:
      - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
    * - :math:`f(x) = x^4 + 2x^3 - 3x - 1`
@@ -217,6 +265,10 @@ Complete the following table using the equation and graphs given:
      - |nbsp|
      - |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
      - |nbsp|
 
@@ -224,44 +276,66 @@ Complete the following table using the equation and graphs given:
 number of turning points, and the possible number of zeros. Use these
 characteristics to sketch possible graphs of the function
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 0
+.. rst-class:: keepwithnext
 
-   * - a\) :math:`f(x) = -3x^5 + 4x^3 - 8x^2 + 7x - 5`
-     - |nbsp|
+a\) :math:`f(x) = -3x^5 + 4x^3 - 8x^2 + 7x - 5`
 
-Possible graphs of 5th degree polynomial functions with a negative leading
-coefficient:
+|nbsp|
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :align: center
+|nbsp|
 
-   * - .. image:: ../images/lesson02-image16.png
-     - .. image:: ../images/lesson02-image17.png
-     - .. image:: ../images/lesson02-image18.png
-     - .. image:: ../images/lesson02-image19.png
-     - .. image:: ../images/lesson02-image20.png
+|nbsp|
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 0
+|nbsp|
 
-   * - b\) :math:`g(x) = 2x^4 + x^2 + 2`
-     - |nbsp|
+|nbsp|
 
-Possible graphs of 4th degree polynomial functions with a positive leading
-coefficient:
+|nbsp|
 
-.. list-table::
-   :widths: 25 25 25 25
-   :align: center
+.. container:: keeptogether
 
-   * - .. image:: ../images/lesson02-image21.png
-     - .. image:: ../images/lesson02-image22.png
-     - .. image:: ../images/lesson02-image23.png
-     - .. image:: ../images/lesson02-image24.png
+   Possible graphs of 5th degree polynomial functions with a negative
+   leading coefficient:
+
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :align: center
+
+      * - .. image:: ../images/lesson02-image16.png
+        - .. image:: ../images/lesson02-image17.png
+        - .. image:: ../images/lesson02-image18.png
+        - .. image:: ../images/lesson02-image19.png
+        - .. image:: ../images/lesson02-image20.png
+
+.. rst-class:: keepwithnext
+
+b\) :math:`g(x) = 2x^4 + x^2 + 2`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. container:: keeptogether
+
+   Possible graphs of 4th degree polynomial functions with a positive
+   leading coefficient:
+
+   .. list-table::
+      :widths: 25 25 25 25
+      :align: center
+
+      * - .. image:: ../images/lesson02-image21.png
+        - .. image:: ../images/lesson02-image22.png
+        - .. image:: ../images/lesson02-image23.png
+        - .. image:: ../images/lesson02-image24.png
 
 **Example 2:** Fill out the following chart
 

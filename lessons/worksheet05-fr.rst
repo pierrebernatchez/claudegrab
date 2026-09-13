@@ -1,4 +1,4 @@
-Fiche d'exercices sur la symétrie des fonctions polynomiales
+1.5 Fiche d'exercices sur la symétrie des fonctions polynomiales
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Fiche d'exercices sur la symétrie des fonctions polynomiales
 :slug: worksheet05
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Fiche d'exercices sur la symétrie des fonctions polynomiales
+:summary: 1.5 Fiche d'exercices sur la symétrie des fonctions polynomiales
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -45,6 +45,7 @@ b\) :math:`g(x) = 6x^5 - 7x^3 - 3x`
 **3\)** Utilisez le graphique donné pour indiquer :
 
 .. image:: ../images/worksheet05-image01.png
+   :scale: 50
    :alt: P(x) = -(x+1)^2(x-2)(x-4), point (1, -12) marked
 
 a\) les zéros
@@ -76,3 +77,18 @@ l'autre
      - .. image:: ../images/worksheet05-image05.png
 
        ``____``
+
+Corrigé
+================================================================================
+
+**1)** a) Paire, symétrie par rapport à l'axe des :math:`y` b)
+Impaire, symétrie par rapport à l'origine c) Ni l'une ni l'autre d) Ni
+l'une ni l'autre e) Paire, symétrie par rapport à l'axe des :math:`y`
+
+**2)** a) Paire b) Impaire
+
+**3)** a) zéros : -1 (ordre 2), 2, 4 b) 3 points tournants c) degré
+minimal possible 4 d) aucune symétrie, ni l'une ni l'autre e)
+:math:`x \in (-\infty, -1) \cup (-1, 2) \cup (4, \infty)`
+
+**4)** Impaire, Ni l'une ni l'autre, Paire, Ni l'une ni l'autre

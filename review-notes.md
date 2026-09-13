@@ -4,6 +4,23 @@ Running log of issues flagged during `review-trio.sh`/`review-pair.sh`
 passes. Logged only — not fixed until the review loop for the current
 batch is finished and discussed (see METHODOLOGY.md workflow).
 
+## 2026-09-11 — unit1 English layout/scale pass (PARTIAL, stopped early by user)
+
+One-PDF-at-a-time loop (not paired), checking layout and looking for
+figures that should get `:scale: 50` like unit2's `gpimage` figures (see
+`project_figure_scale_convention` memory) — a different pass than the
+content-accuracy trio/pair review used for unit2. Order: lesson01-en,
+lesson01-solutions-en, worksheet01-en, worksheet01-solutions-en,
+lesson02-en, lesson02-solutions-en, worksheet02-en,
+worksheet02-solutions-en, lesson03-en, lesson03-solutions-en (stopped
+here, user said "ok i have seen enough").
+
+**Nothing flagged** across all 10 PDFs viewed. Remaining unit1 English
+PDFs not yet viewed this pass: lesson03-solutions-en (session ended
+partway — worksheet03 was not reached), worksheet03 (both), lesson04/
+worksheet04 (both, incl. solutions), lesson05/worksheet05 (both, incl.
+solutions).
+
 ## 2026-09-10 — unit2 English review
 
 **STATUS: COMPLETE, 12/12 reviewed. Post-loop fix pass COMPLETE — all 7

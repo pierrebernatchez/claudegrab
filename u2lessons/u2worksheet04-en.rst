@@ -284,3 +284,17 @@ c\) :math:`x^4 - x^3 - 2x - 4 = 0`
 |nbsp|
 
 |nbsp|
+
+Answer Key
+================================================================================
+
+**1)** a) :math:`x = -\dfrac{2}{3}, -9, 2` b) :math:`x = 4`
+
+**2)** a) :math:`x = -2, 3` b) :math:`x = 2, 3, -2` c)
+:math:`x = -1, 2, 3, -3` d) :math:`x = 4` (only real solution) e)
+:math:`x = 1` (only real solution)
+
+**3)** a) :math:`x = 2` b) :math:`x = -3`
+
+**4)** a) :math:`x = 1, 5, -2` b) :math:`x = 3, -\dfrac{1}{2}` c)
+:math:`x = -1, 2`

@@ -1,4 +1,4 @@
-Power Functions Lesson
+1.1 Polynomial Power Functions Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Power Functions Lesson
 :slug: lesson01
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Power Functions Lesson
+:summary: 1.1 Polynomial Power Functions Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -33,6 +33,7 @@ Things to Remember About Functions
   that graph at no more than one point.
 
   .. image:: ../images/lesson01-image01.png
+     :scale: 50
      :alt: Vertical line test example, x = (y-2)^2 + 2 with vertical line x = 6
 
 - The ``________________`` of a function is the complete set of all possible
@@ -50,6 +51,7 @@ Things to Remember About Functions
 - For the function :math:`f(x) = (x-1)^2 + 3`
 
   .. image:: ../images/lesson01-image02.png
+     :scale: 50
      :alt: f(x) = (x-1)^2 + 3, an upward-opening parabola
 
 - The degree of a function is the highest exponent in the expression
@@ -62,6 +64,7 @@ Things to Remember About Functions
 The function :math:`y = \dfrac{1}{x+3}` has two asymptotes:
 
 .. image:: ../images/lesson01-image03.png
+   :scale: 50
    :alt: y = 1/(x+3) with vertical asymptote x = -3 and horizontal asymptote y = 0
 
 **Vertical Asymptote:** Division by zero is undefined. Therefore the
@@ -84,7 +87,7 @@ A **polynomial function** has the form
 
    f(x) = a_n x^n + a_{n-1} x^{n-1} + a_{n-2} x^{n-2} + \cdots + a_2 x^2 + a_1 x^1 + a_0
 
-- :math:`n` is a whole number
+- :math:`n` is a natural number
 - :math:`x` is a variable
 - the ``_________________________`` :math:`a_0, a_1, \ldots, a_n` are real numbers
 - the ``___________________`` of the function is :math:`n`, the exponent of the
@@ -133,7 +136,7 @@ and has the form:
 
 - :math:`a` is a real number
 - :math:`x` is a variable
-- :math:`n` is a whole number
+- :math:`n` is a natural number
 
 **Example 1:** Determine which functions are polynomials. State the degree
 and the leading coefficient of each polynomial function.
@@ -163,6 +166,7 @@ real numbers may be described in a variety of ways:
 3) graphically on a number line
 
    .. image:: ../images/lesson01-image09.png
+      :scale: 50
       :alt: Number line showing the interval (-3, 5]
 
 Note:
@@ -176,14 +180,14 @@ Note:
 - A ``________________`` bracket is always used at infinity and negative
   infinity
 
-**Example 2:** Below are the graphs of common power functions. Use the
+**Example 2:** Below are the graphs of common polynomial power functions. Use the
 graph to complete the table.
 
 .. list-table::
    :widths: 12 12 20 14 14 14 14
    :header-rows: 1
 
-   * - Power Function
+   * - Polynomial Power Function
      - Special Name
      - Graph
      - Domain
@@ -233,7 +237,7 @@ graph to complete the table.
      - |nbsp|
      - |nbsp|
 
-Key Features of EVEN Degree Power Functions
+Key Features of EVEN Degree Polynomial Power Functions
 ================================================================================
 
 .. list-table::
@@ -243,7 +247,15 @@ Key Features of EVEN Degree Power Functions
    * - When the leading coefficient (a) is positive
      - When the leading coefficient (a) is negative
    * - **End behaviour:**
+
+       |nbsp|
+
+       |nbsp|
      - **End behaviour:**
+
+       |nbsp|
+
+       |nbsp|
    * - **Domain:**
      - **Domain:**
    * - **Range:**
@@ -257,9 +269,11 @@ Example:
    * - :math:`f(x) = 2x^4`
 
        .. image:: ../images/lesson01-image16.png
+          :scale: 50
      - :math:`f(x) = -3x^2`
 
        .. image:: ../images/lesson01-image17.png
+          :scale: 50
 
 Line Symmetry
 ================================================================================
@@ -269,11 +283,12 @@ divides the graph into two parts such that each part is a reflection of
 the other.
 
 .. image:: ../images/lesson01-image18.png
+   :scale: 50
    :alt: Line symmetry illustration, a curve symmetric about the line x = a
 
 Note:
 
-Key Features of ODD Degree Power Functions
+Key Features of ODD Degree Polynomial Power Functions
 ================================================================================
 
 .. list-table::
@@ -283,7 +298,15 @@ Key Features of ODD Degree Power Functions
    * - When the leading coefficient (a) is positive
      - When the leading coefficient (a) is negative
    * - **End behaviour:**
+
+       |nbsp|
+
+       |nbsp|
      - **End behaviour:**
+
+       |nbsp|
+
+       |nbsp|
    * - **Domain:**
      - **Domain:**
    * - **Range:**
@@ -297,9 +320,11 @@ Example:
    * - :math:`f(x) = 3x^5`
 
        .. image:: ../images/lesson01-image19.png
+          :scale: 50
      - :math:`f(x) = -2x^3`
 
        .. image:: ../images/lesson01-image20.png
+          :scale: 50
 
 Point Symmetry
 ================================================================================
@@ -309,6 +334,7 @@ the graph on one side of :math:`(a, b)` can be rotated 180° to coincide
 with part of the graph on the other side of :math:`(a, b)`.
 
 .. image:: ../images/lesson01-image21.png
+   :scale: 50
    :alt: Point symmetry illustration, an S-curve with point symmetry about (a, b)
 
 Note:
@@ -351,6 +377,7 @@ iii\) Identify any symmetry
 a\) :math:`y = -x`
 
    .. image:: ../images/lesson01-image22.png
+      :scale: 50
 
    i\) Domain: Range:
 
@@ -362,6 +389,7 @@ a\) :math:`y = -x`
 b\) :math:`y = 0.5x^2`
 
    .. image:: ../images/lesson01-image23.png
+      :scale: 50
 
    i\) Domain: Range:
 
@@ -373,6 +401,7 @@ b\) :math:`y = 0.5x^2`
 c\) :math:`y = 4x^3`
 
    .. image:: ../images/lesson01-image24.png
+      :scale: 50
 
    i\) Domain: Range:
 

@@ -1,4 +1,4 @@
-Leçon sur les transformations avec solutions
+1.4 Leçon sur les transformations avec solutions
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Leçon sur les transformations avec solutions
 :slug: lesson04-solutions
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Leçon sur les transformations avec solutions
+:summary: 1.4 Leçon sur les transformations avec solutions
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -23,14 +23,14 @@ Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`
 
 Dans cette section, vous étudierez le rôle des paramètres :math:`a`, :math:`k`, :math:`d` et :math:`c` dans les fonctions polynomiales de la
 forme :math:`f(x) = a[k(x-d)]^n + c`. Vous appliquerez des transformations
-aux graphiques de fonctions puissance de base pour esquisser le graphique
+aux graphiques de fonctions puissance polynomiales de base pour esquisser le graphique
 de leur fonction transformée.
 
 Partie 1 : Investigation sur les transformations
 ================================================================================
 
 Dans cette investigation, vous étudierez les transformations de la
-fonction puissance :math:`y = x^4`. Complétez le tableau suivant à
+fonction puissance polynomiale :math:`y = x^4`. Complétez le tableau suivant à
 l'aide d'un outil graphique. Le graphique de :math:`y = x^4` est fourni
 sur chaque système d'axes; esquissez le graphique de la fonction
 transformée sur le même système d'axes. Ensuite, commentez comment la
@@ -186,7 +186,7 @@ Partie 2 : Décrire les transformations à partir d'une équation
 ================================================================================
 
 **Exemple 1 :** Décrivez les transformations qui doivent être appliquées
-au graphique de chaque fonction puissance, :math:`f(x)`, pour obtenir la
+au graphique de chaque fonction puissance polynomiale, :math:`f(x)`, pour obtenir la
 fonction transformée, :math:`g(x)`. Ensuite, écrivez l'équation
 correspondante de la fonction transformée. Ensuite, indiquez le domaine
 et l'image de la fonction transformée.
@@ -278,6 +278,7 @@ choisissez toujours des valeurs de* :math:`x` *entre -2 et 2 et calculez
 les valeurs correspondantes de* :math:`y`.
 
 .. image:: ../images/lesson04-image13.png
+   :scale: 50
    :alt: f(x) = x^3 (rose) et g(x) = 3[-2(x+1)]^3 + 5 (bleu)
 
 **Exemple 3 :** Le graphique de :math:`f(x) = x^4` est transformé pour
@@ -342,19 +343,21 @@ grille.
             - -17
 
 .. image:: ../images/lesson04-image15.png
+   :scale: 50
    :alt: f(x) = x^4 (rose) et g(x) = -((1/3)x + 2)^4 - 1 (bleu)
 
 Partie 4 : Déterminer une équation à partir du graphique d'une fonction transformée
 ====================================================================================
 
 **Exemple 4 :** Des transformations sont appliquées à chaque fonction
-puissance pour obtenir le graphique résultant. Déterminez une équation
+puissance polynomiale pour obtenir le graphique résultant. Déterminez une équation
 pour la fonction transformée. Ensuite, indiquez le domaine et l'image de
 la fonction transformée.
 
 a\)
 
 .. image:: ../images/lesson04-image16.png
+   :scale: 50
    :alt: y = x^4 (rose) transformée en une quartique bleue déplacée vers
          la gauche et vers le bas
 
@@ -373,6 +376,7 @@ Domaine : :math:`(-\infty, \infty)` Image : :math:`[-5, \infty)`
 b\)
 
 .. image:: ../images/lesson04-image17.png
+   :scale: 50
    :alt: y = x^3 (rose) transformée en une cubique bleue réfléchie et
          déplacée vers la droite
 

@@ -5,12 +5,12 @@ set terminal pngcairo size 300,280 enhanced font "Arial,11"
 set output '../lessons-media/lesson02-image09.png'
 
 set xrange [-2:1.3]
-set yrange [-50:40]
+set yrange [-3:3]
 
 set xzeroaxis lc rgb "gray40"
 set yzeroaxis lc rgb "gray40"
 set xtics -2,1,1
-set ytics -40,20,40
+set ytics -3,1,3
 set grid
 
 unset key

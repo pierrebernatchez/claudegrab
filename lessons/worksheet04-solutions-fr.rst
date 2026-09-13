@@ -1,4 +1,4 @@
-Fiche d'exercices sur les transformations avec solutions
+1.4 Fiche d'exercices sur les transformations avec solutions
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Fiche d'exercices sur les transformations avec solutions
 :slug: worksheet04-solutions
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Fiche d'exercices sur les transformations avec solutions
+:summary: 1.4 Fiche d'exercices sur les transformations avec solutions
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
@@ -195,6 +195,7 @@ a\) :math:`f(x) = x^4` :math:`\quad` :math:`g(x) = \dfrac{1}{2}f[-(x-5)] + 1`
             - 9
 
 .. image:: ../images/worksheet04-image06.png
+   :scale: 50
    :alt: f(x) = x^4 (rose) et g(x) = (1/2)f[-(x-5)] + 1 (bleu)
 
 .. math::
@@ -243,6 +244,7 @@ b\) :math:`f(x) = x^3` :math:`\quad` :math:`g(x) = -f[-2(x+1)] + 6`
             - -2
 
 .. image:: ../images/worksheet04-image08.png
+   :scale: 50
    :alt: f(x) = x^3 (rose) et g(x) = -f[-2(x+1)] + 6 (bleu)
 
 .. math::

@@ -1,4 +1,4 @@
-Symmetry in Polynomial Functions Worksheet
+1.5 Symmetry in Polynomial Functions Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Symmetry in Polynomial Functions Worksheet
 :slug: worksheet05
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Symmetry in Polynomial Functions Worksheet
+:summary: 1.5 Symmetry in Polynomial Functions Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -45,6 +45,7 @@ b\) :math:`g(x) = 6x^5 - 7x^3 - 3x`
 **3\)** Use the given graph to state:
 
 .. image:: ../images/worksheet05-image01.png
+   :scale: 50
    :alt: P(x) = -(x+1)^2(x-2)(x-4), point (1, -12) marked
 
 a\) :math:`x`-intercepts
@@ -75,3 +76,18 @@ e\) the intervals where :math:`f(x) < 0`
      - .. image:: ../images/worksheet05-image05.png
 
        ``____``
+
+Answer Key
+================================================================================
+
+**1)** a) Even, line symmetry about the :math:`y`-axis b) Odd, point
+symmetry about the origin c) Neither d) Neither e) Even, line symmetry
+about the :math:`y`-axis
+
+**2)** a) Even b) Odd
+
+**3)** a) :math:`x`-intercepts: -1 (order 2), 2, 4 b) 3 turning points
+c) least possible degree 4 d) no symmetry, neither e)
+:math:`x \in (-\infty, -1) \cup (-1, 2) \cup (4, \infty)`
+
+**4)** Odd, Neither, Even, Neither

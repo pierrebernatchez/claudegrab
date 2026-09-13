@@ -1,4 +1,4 @@
-Characteristics of Polynomial Functions Worksheet
+1.2 Characteristics of Polynomial Functions Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Characteristics of Polynomial Functions Worksheet
 :slug: worksheet02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Characteristics of Polynomial Functions Worksheet
+:summary: 1.2 Characteristics of Polynomial Functions Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -346,3 +346,147 @@ a\) What is the value of the constant finite differences?
 b\) What is the current population of the town?
 
 c\) What will the population of the town be 10 years from now?
+
+Answer Key
+================================================================================
+
+**1)**
+
+.. list-table::
+   :widths: 12 10 14 10 12 12 14
+   :header-rows: 1
+
+   * - Sign of Leading Coefficient
+     - Even or Odd Degree?
+     - End Behaviour
+     - Symmetry
+     - Number of turning points
+     - Number of x-intercepts
+     - Least Possible Degree
+   * - Positive
+     - Even
+     - Q2 to Q1
+     - None
+     - 3
+     - 4
+     - 4
+   * - Positive
+     - Odd
+     - Q3 to Q1
+     - None
+     - 4
+     - 5
+     - 5
+   * - Negative
+     - Even
+     - Q3 to Q4
+     - None
+     - 3
+     - 4
+     - 4
+   * - Negative
+     - Odd
+     - Q2 to Q4
+     - None
+     - 4
+     - 5
+     - 5
+   * - Negative
+     - Odd
+     - Q2 to Q4
+     - Point
+     - 2
+     - 3
+     - 3
+
+**2)**
+
+.. list-table::
+   :widths: 12 10 14 10 12 12 14
+   :header-rows: 1
+
+   * - Sign of Leading Coefficient
+     - Even or Odd Degree?
+     - End Behaviour
+     - Symmetry
+     - Number of turning points
+     - Number of x-intercepts
+     - Least Possible Degree
+   * - Negative
+     - Odd
+     - Q2 to Q4
+     - Point
+     - 4
+     - 3
+     - 5
+   * - Positive
+     - Even
+     - Q2 to Q1
+     - Line
+     - 3
+     - 2
+     - 4
+   * - Positive
+     - Odd
+     - Q3 to Q1
+     - Point
+     - 2
+     - 3
+     - 3
+   * - Negative
+     - Even
+     - Q3 to Q4
+     - None
+     - 5
+     - 5
+     - 6
+
+**3)**
+
+.. list-table::
+   :widths: 24 8 14 12 14 14 14
+   :header-rows: 1
+
+   * - Equation
+     - Degree
+     - Sign of Leading Coefficient
+     - Even or Odd Degree?
+     - End Behaviour
+     - Possible turning points
+     - Possible x-intercepts
+   * - :math:`f(x) = -4x^4 + 3x^2 - 15x + 5`
+     - 4
+     - Negative
+     - Even
+     - Q3 to Q4
+     - 3, 1
+     - 4, 3, 2, 1, 0
+   * - :math:`g(x) = 2x^5 - 4x^3 + 10x^2 - 13x + 8`
+     - 5
+     - Positive
+     - Odd
+     - Q3 to Q1
+     - 4, 2, 0
+     - 5, 4, 3, 2, 1
+   * - :math:`p(x) = 4 - 5x + 4x^2 - 3x^3`
+     - 3
+     - Negative
+     - Odd
+     - Q2 to Q4
+     - 2, 0
+     - 3, 2, 1
+   * - :math:`h(x) = 2x(x-5)(3x+2)(4x-3)`
+     - 4
+     - Positive
+     - Even
+     - Q2 to Q1
+     - 3, 1
+     - 4, 3, 2, 1, 0
+
+**4)** Top row: B, F, D. Bottom row: A, C, E.
+
+**5)** a) degree 2, :math:`a = -4` b) degree 4, :math:`a = 1`
+
+**6)** a) degree 3, :math:`a = 1` b) degree 4, :math:`a = -1`
+
+**7)** a) 144 b) 12 000 c) 69 000

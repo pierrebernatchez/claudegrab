@@ -1,4 +1,4 @@
-Fiche d'exercices sur les caractéristiques des fonctions polynomiales avec solutions
+1.2 Fiche d'exercices sur les caractéristiques des fonctions polynomiales avec solutions
 ##########################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Fiche d'exercices sur les caractéristiques des fonctions polynomiales avec solu
 :slug: worksheet02-solutions
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Fiche d'exercices sur les caractéristiques des fonctions polynomiales avec solutions
+:summary: 1.2 Fiche d'exercices sur les caractéristiques des fonctions polynomiales avec solutions
 :fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
 
 .. |copy| unicode:: 0xA9
