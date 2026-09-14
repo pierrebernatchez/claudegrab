@@ -51,7 +51,7 @@ Things to Remember About Functions
 - For the function :math:`f(x) = (x-1)^2 + 3`
 
   .. image:: ../images/lesson01-image02.png
-     :scale: 50
+     :scale: 45
      :alt: f(x) = (x-1)^2 + 3, an upward-opening parabola
 
 - The degree of a function is the highest exponent in the expression

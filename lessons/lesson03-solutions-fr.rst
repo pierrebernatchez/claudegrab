@@ -122,12 +122,15 @@ Formes selon l'ordre du zéro :
 
    * -
      - .. image:: ../images/lesson03-image03.png
+          :scale: 20
 
        **Ordre 2**
      - .. image:: ../images/lesson03-image04.png
+          :scale: 20
 
        **Ordre 1**
      - .. image:: ../images/lesson03-image05.png
+          :scale: 20
 
        **Ordre 3**
    * -
@@ -160,11 +163,13 @@ ii\) les zéros et les facteurs de la fonction
 
 iii\) les intervalles où la fonction est positive/négative
 
-a\)
+.. container:: keeptogether
 
-.. image:: ../images/lesson03-image06.png
-   :scale: 50
-   :alt: cubique avec zéros -5, -1, 3, coefficient dominant négatif
+   a\)
+
+   .. image:: ../images/lesson03-image06.png
+      :scale: 50
+      :alt: cubique avec zéros -5, -1, 3, coefficient dominant négatif
 
 i\) Degré minimal possible : **3**. Signe du coefficient dominant :
 **négatif**.
@@ -189,12 +194,14 @@ iii\)
      - Positive
      - Négative
 
-b\)
+.. container:: keeptogether
 
-.. image:: ../images/lesson03-image07.png
-   :scale: 50
-   :alt: quartique avec zéros -2 (ordre 1) et 3 (ordre 3), coefficient
-         dominant positif
+   b\)
+
+   .. image:: ../images/lesson03-image07.png
+      :scale: 50
+      :alt: quartique avec zéros -2 (ordre 1) et 3 (ordre 3), coefficient
+            dominant positif
 
 i\) Degré minimal possible : **4**. Signe du coefficient dominant :
 **positif**.
@@ -243,95 +250,103 @@ iii\)
 
 Esquissez un graphique de chaque fonction polynomiale :
 
-a\) :math:`f(x) = (x-1)(x+2)(x+3)`
+.. container:: keeptogether
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+   a\) :math:`f(x) = (x-1)(x+2)(x+3)`
 
-   * - Degré
-     - Coefficient dominant
-     - Comportement à l'infini
-     - Zéros
-     - Ordonnée à l'origine
-   * - 3
-     - 1
-     - :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
-       :math:`y \to \infty` lorsque :math:`x \to \infty` (Q3 à Q1)
-     - 1, -2, -3
-     - -6
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :header-rows: 1
 
-.. image:: ../images/lesson03-image09.png
-   :scale: 50
-   :alt: f(x) = (x-1)(x+2)(x+3)
+      * - Degré
+        - Coefficient dominant
+        - Comportement à l'infini
+        - Zéros
+        - Ordonnée à l'origine
+      * - 3
+        - 1
+        - :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
+          :math:`y \to \infty` lorsque :math:`x \to \infty` (Q3 à Q1)
+        - 1, -2, -3
+        - -6
 
-b\) :math:`g(x) = -2(x-1)^2(x+2)`
+   .. image:: ../images/lesson03-image09.png
+      :scale: 50
+      :alt: f(x) = (x-1)(x+2)(x+3)
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+.. container:: keeptogether
 
-   * - Degré
-     - Coefficient dominant
-     - Comportement à l'infini
-     - Zéros
-     - Ordonnée à l'origine
-   * - 3
-     - -2
-     - :math:`y \to \infty` lorsque :math:`x \to -\infty`;
-       :math:`y \to -\infty` lorsque :math:`x \to \infty` (Q2 à Q4)
-     - 1 (ordre 2), -2 (ordre 1)
-     - -4
+   b\) :math:`g(x) = -2(x-1)^2(x+2)`
 
-.. image:: ../images/lesson03-image11.png
-   :scale: 50
-   :alt: g(x) = -2(x-1)^2(x+2)
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :header-rows: 1
 
-c\) :math:`h(x) = -(2x+1)^3(x-3)`
+      * - Degré
+        - Coefficient dominant
+        - Comportement à l'infini
+        - Zéros
+        - Ordonnée à l'origine
+      * - 3
+        - -2
+        - :math:`y \to \infty` lorsque :math:`x \to -\infty`;
+          :math:`y \to -\infty` lorsque :math:`x \to \infty` (Q2 à Q4)
+        - 1 (ordre 2), -2 (ordre 1)
+        - -4
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+   .. image:: ../images/lesson03-image11.png
+      :scale: 50
+      :alt: g(x) = -2(x-1)^2(x+2)
 
-   * - Degré
-     - Coefficient dominant
-     - Comportement à l'infini
-     - Zéros
-     - Ordonnée à l'origine
-   * - 4
-     - -8
-     - :math:`y \to -\infty` lorsque :math:`x \to \pm\infty` (Q3 à Q4)
-     - -0.5 (ordre 3), 3 (ordre 1)
-     - 3
+.. container:: keeptogether
 
-.. image:: ../images/lesson03-image13.png
-   :scale: 50
-   :alt: h(x) = -(2x+1)^3(x-3)
+   c\) :math:`h(x) = -(2x+1)^3(x-3)`
 
-d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :header-rows: 1
 
-*Remarque : il faut mettre sous forme factorisée pour trouver les zéros*
+      * - Degré
+        - Coefficient dominant
+        - Comportement à l'infini
+        - Zéros
+        - Ordonnée à l'origine
+      * - 4
+        - -8
+        - :math:`y \to -\infty` lorsque :math:`x \to \pm\infty` (Q3 à Q4)
+        - -0.5 (ordre 3), 3 (ordre 1)
+        - 3
 
-Forme factorisée : :math:`j(x) = x^2(x-1)(x-3)`
+   .. image:: ../images/lesson03-image13.png
+      :scale: 50
+      :alt: h(x) = -(2x+1)^3(x-3)
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+.. container:: keeptogether
 
-   * - Degré
-     - Coefficient dominant
-     - Comportement à l'infini
-     - Zéros
-     - Ordonnée à l'origine
-   * - 4
-     - 1
-     - :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
-     - 0 (ordre 2), 1 (ordre 1), 3 (ordre 1)
-     - 0
+   d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
 
-.. image:: ../images/lesson03-image15.png
-   :scale: 50
-   :alt: j(x) = x^4 - 4x^3 + 3x^2
+   *Remarque : il faut mettre sous forme factorisée pour trouver les zéros*
+
+   Forme factorisée : :math:`j(x) = x^2(x-1)(x-3)`
+
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :header-rows: 1
+
+      * - Degré
+        - Coefficient dominant
+        - Comportement à l'infini
+        - Zéros
+        - Ordonnée à l'origine
+      * - 4
+        - 1
+        - :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
+        - 0 (ordre 2), 1 (ordre 1), 3 (ordre 1)
+        - 0
+
+   .. image:: ../images/lesson03-image15.png
+      :scale: 50
+      :alt: j(x) = x^4 - 4x^3 + 3x^2
 
 **Exemple 3 : Représenter le graphique d'une fonction polynomiale par son équation**
 

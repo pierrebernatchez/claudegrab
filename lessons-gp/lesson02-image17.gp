@@ -18,4 +18,7 @@ unset key
 set arrow 1 from -2,0 to 2,0 heads filled size 0.09,20 lw 1 lc rgb "black"
 set arrow 2 from 0,-2 to 0,2 heads filled size 0.09,20 lw 1 lc rgb "black"
 
-plot -(0.5*x**3 - 1.5*x) - 1.2 with lines lw 2 lc rgb "#3366cc"
+### Redesigned: the original curve's local min (-2.2) fell outside this
+### +/-2 box (min-max clipped), and its single real root sat just past the
+### left edge, so the intercept wasn't even visible in the window.
+plot -0.15*x**3 + 0.1*x - 0.55 with lines lw 2 lc rgb "#3366cc"

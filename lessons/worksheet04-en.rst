@@ -50,12 +50,19 @@ D\) :math:`y = -1.5(x+3)^4 + 4`
 
        ``____``
 
+.. rst-class:: keepwithnext
+
 **2\)** List a good set of key points for the following parent functions:
 
 .. list-table::
    :widths: 25 25 25 25
+   :align: left
 
-   * - .. list-table:: :math:`f(x) = x^2`
+   * - .. rst-class:: keepwithnext
+
+       **f(x) =** :math:`x^2`
+
+       .. list-table::
           :widths: 50 50
           :header-rows: 1
 
@@ -71,7 +78,11 @@ D\) :math:`y = -1.5(x+3)^4 + 4`
             - |nbsp|
           * - |nbsp|
             - |nbsp|
-     - .. list-table:: :math:`f(x) = x^3`
+     - .. rst-class:: keepwithnext
+
+       **f(x) =** :math:`x^3`
+
+       .. list-table::
           :widths: 50 50
           :header-rows: 1
 
@@ -87,7 +98,11 @@ D\) :math:`y = -1.5(x+3)^4 + 4`
             - |nbsp|
           * - |nbsp|
             - |nbsp|
-     - .. list-table:: :math:`f(x) = x^4`
+     - .. rst-class:: keepwithnext
+
+       **f(x) =** :math:`x^4`
+
+       .. list-table::
           :widths: 50 50
           :header-rows: 1
 
@@ -103,7 +118,11 @@ D\) :math:`y = -1.5(x+3)^4 + 4`
             - |nbsp|
           * - |nbsp|
             - |nbsp|
-     - .. list-table:: :math:`f(x) = x^5`
+     - .. rst-class:: keepwithnext
+
+       **f(x) =** :math:`x^5`
+
+       .. list-table::
           :widths: 50 50
           :header-rows: 1
 
@@ -138,13 +157,20 @@ b\) :math:`f(x) = x^3`, :math:`g(x) = \dfrac{1}{4}f\left[-\dfrac{1}{4}(x-4)\righ
 function to perform transformations. Graph the parent and transformed
 function. Write the equation of the transformed function.
 
+.. rst-class:: keepwithnext
+
 a\) :math:`f(x) = x^4` :math:`\quad` :math:`g(x) = \dfrac{1}{2}f[-(x-5)] + 1`
 
 .. list-table::
    :width: 70%
    :widths: 40 60
+   :align: left
 
-   * - .. list-table:: :math:`f(x) = x^4`
+   * - .. rst-class:: keepwithnext
+
+       **f(x) =** :math:`x^4`
+
+       .. list-table::
           :width: 80%
           :widths: 50 50
           :header-rows: 1
@@ -161,7 +187,12 @@ a\) :math:`f(x) = x^4` :math:`\quad` :math:`g(x) = \dfrac{1}{2}f[-(x-5)] + 1`
             - |nbsp|
           * - |nbsp|
             - |nbsp|
-     - .. list-table::
+	      
+     - .. rst-class:: keepwithnext
+
+       **g(x) =** :math:`\dfrac{1}{2}f[-(x-5)] + 1`
+
+       .. list-table::
           :width: 80%
           :widths: 50 50
           :header-rows: 1
@@ -169,45 +200,43 @@ a\) :math:`f(x) = x^4` :math:`\quad` :math:`g(x) = \dfrac{1}{2}f[-(x-5)] + 1`
           * - |nbsp|
 
               |nbsp|
+
+              |nbsp|
             - |nbsp|
+
+              |nbsp|
 
               |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
+          * - |nbsp|
+            - |nbsp|
+	      
 
 .. image:: ../images/worksheet04-image05.png
    :scale: 50
    :alt: blank grid for graphing f(x) = x^4 and g(x) = (1/2)f[-(x-5)] + 1
+
+.. rst-class:: keepwithnext
 
 b\) :math:`f(x) = x^3` :math:`\quad` :math:`g(x) = -f[-2(x+1)] + 6`
 
 .. list-table::
    :width: 70%
    :widths: 40 60
+   :align: left
 
-   * - .. list-table:: :math:`f(x) = x^3`
+   * - .. rst-class:: keepwithnext
+
+       **f(x) =** :math:`x^3`
+
+       .. list-table::
           :width: 80%
           :widths: 50 50
           :header-rows: 1
@@ -224,7 +253,12 @@ b\) :math:`f(x) = x^3` :math:`\quad` :math:`g(x) = -f[-2(x+1)] + 6`
             - |nbsp|
           * - |nbsp|
             - |nbsp|
-     - .. list-table::
+	      
+     - .. rst-class:: keepwithnext
+
+       **g(x) =** :math:`-f[-2(x+1)] + 6`
+
+       .. list-table::
           :width: 80%
           :widths: 50 50
           :header-rows: 1
@@ -232,33 +266,25 @@ b\) :math:`f(x) = x^3` :math:`\quad` :math:`g(x) = -f[-2(x+1)] + 6`
           * - |nbsp|
 
               |nbsp|
+
+              |nbsp|
             - |nbsp|
+
+              |nbsp|
 
               |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
+          * - |nbsp|
+            - |nbsp|
+	      
 
-              |nbsp|
 
 .. image:: ../images/worksheet04-image07.png
    :scale: 50

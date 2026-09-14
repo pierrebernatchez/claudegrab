@@ -119,12 +119,15 @@ Shapes based on order of zero:
 
    * - |nbsp|
      - .. image:: ../images/lesson03-image03.png
+          :scale: 20
 
        **Order 2**
      - .. image:: ../images/lesson03-image04.png
+          :scale: 20
 
        **Order 1**
      - .. image:: ../images/lesson03-image05.png
+          :scale: 20
 
        **Order 3**
    * - |nbsp|
@@ -157,11 +160,13 @@ ii\) the :math:`x`-intercepts and the factors of the function
 
 iii\) the intervals where the function is positive/negative
 
-a\)
+.. container:: keeptogether
 
-.. image:: ../images/lesson03-image06.png
-   :scale: 50
-   :alt: cubic with x-intercepts -5, -1, 3, negative leading coefficient
+   a\)
+
+   .. image:: ../images/lesson03-image06.png
+      :scale: 50
+      :alt: cubic with x-intercepts -5, -1, 3, negative leading coefficient
 
 i\)
 
@@ -184,12 +189,14 @@ iii\)
      - |nbsp|
      - |nbsp|
 
-b\)
+.. container:: keeptogether
 
-.. image:: ../images/lesson03-image07.png
-   :scale: 50
-   :alt: quartic with x-intercepts -2 (order 1) and 3 (order 3), positive
-         leading coefficient
+   b\)
+
+   .. image:: ../images/lesson03-image07.png
+      :scale: 50
+      :alt: quartic with x-intercepts -2 (order 1) and 3 (order 3), positive
+            leading coefficient
 
 i\)
 
@@ -234,107 +241,115 @@ iii\)
 
 Sketch a graph of each polynomial function:
 
-a\) :math:`f(x) = (x-1)(x+2)(x+3)`
+.. container:: keeptogether
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+   a\) :math:`f(x) = (x-1)(x+2)(x+3)`
 
-   * - Degree
-     - Leading Coefficient
-     - End Behaviour
-     - :math:`x`-intercepts
-     - :math:`y`-intercept
-   * - |nbsp|
-     - |nbsp|
-     - |nbsp|
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :header-rows: 1
 
-       |nbsp|
+      * - Degree
+        - Leading Coefficient
+        - End Behaviour
+        - :math:`x`-intercepts
+        - :math:`y`-intercept
+      * - |nbsp|
+        - |nbsp|
+        - |nbsp|
 
-       |nbsp|
-     - |nbsp|
-     - |nbsp|
+          |nbsp|
 
-.. image:: ../images/lesson03-image08.png
-   :scale: 50
-   :alt: blank grid for sketching f(x) = (x-1)(x+2)(x+3)
+          |nbsp|
+        - |nbsp|
+        - |nbsp|
 
-b\) :math:`g(x) = -2(x-1)^2(x+2)`
+   .. image:: ../images/lesson03-image08.png
+      :scale: 50
+      :alt: blank grid for sketching f(x) = (x-1)(x+2)(x+3)
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+.. container:: keeptogether
 
-   * - Degree
-     - Leading Coefficient
-     - End Behaviour
-     - :math:`x`-intercepts
-     - :math:`y`-intercept
-   * - |nbsp|
-     - |nbsp|
-     - |nbsp|
+   b\) :math:`g(x) = -2(x-1)^2(x+2)`
 
-       |nbsp|
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :header-rows: 1
 
-       |nbsp|
-     - |nbsp|
-     - |nbsp|
+      * - Degree
+        - Leading Coefficient
+        - End Behaviour
+        - :math:`x`-intercepts
+        - :math:`y`-intercept
+      * - |nbsp|
+        - |nbsp|
+        - |nbsp|
 
-.. image:: ../images/lesson03-image10.png
-   :scale: 50
-   :alt: blank grid for sketching g(x) = -2(x-1)^2(x+2)
+          |nbsp|
 
-c\) :math:`h(x) = -(2x+1)^3(x-3)`
+          |nbsp|
+        - |nbsp|
+        - |nbsp|
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+   .. image:: ../images/lesson03-image10.png
+      :scale: 50
+      :alt: blank grid for sketching g(x) = -2(x-1)^2(x+2)
 
-   * - Degree
-     - Leading Coefficient
-     - End Behaviour
-     - :math:`x`-intercepts
-     - :math:`y`-intercept
-   * - |nbsp|
-     - |nbsp|
-     - |nbsp|
+.. container:: keeptogether
 
-       |nbsp|
+   c\) :math:`h(x) = -(2x+1)^3(x-3)`
 
-       |nbsp|
-     - |nbsp|
-     - |nbsp|
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :header-rows: 1
 
-.. image:: ../images/lesson03-image12.png
-   :scale: 50
-   :alt: blank grid for sketching h(x) = -(2x+1)^3(x-3)
+      * - Degree
+        - Leading Coefficient
+        - End Behaviour
+        - :math:`x`-intercepts
+        - :math:`y`-intercept
+      * - |nbsp|
+        - |nbsp|
+        - |nbsp|
 
-d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
+          |nbsp|
 
-*Note: must put into factored form to find* :math:`x`-*intercepts*
+          |nbsp|
+        - |nbsp|
+        - |nbsp|
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+   .. image:: ../images/lesson03-image12.png
+      :scale: 50
+      :alt: blank grid for sketching h(x) = -(2x+1)^3(x-3)
 
-   * - Degree
-     - Leading Coefficient
-     - End Behaviour
-     - :math:`x`-intercepts
-     - :math:`y`-intercept
-   * - |nbsp|
-     - |nbsp|
-     - |nbsp|
+.. container:: keeptogether
 
-       |nbsp|
+   d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
 
-       |nbsp|
-     - |nbsp|
-     - |nbsp|
+   *Note: must put into factored form to find* :math:`x`-*intercepts*
 
-.. image:: ../images/lesson03-image14.png
-   :scale: 50
-   :alt: blank grid for sketching j(x) = x^4 - 4x^3 + 3x^2
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :header-rows: 1
+
+      * - Degree
+        - Leading Coefficient
+        - End Behaviour
+        - :math:`x`-intercepts
+        - :math:`y`-intercept
+      * - |nbsp|
+        - |nbsp|
+        - |nbsp|
+
+          |nbsp|
+
+          |nbsp|
+        - |nbsp|
+        - |nbsp|
+
+   .. image:: ../images/lesson03-image14.png
+      :scale: 50
+      :alt: blank grid for sketching j(x) = x^4 - 4x^3 + 3x^2
 
 **Example 3: Representing the Graph of a Polynomial Function with its Equation**
 

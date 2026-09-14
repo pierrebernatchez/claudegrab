@@ -37,6 +37,8 @@ graphing technology to help. The graph of :math:`y = x^4` is given on
 each set of axes; sketch the graph of the transformed function on the
 same set of axes. Then comment on how the value of the parameter :math:`a`, :math:`k`, :math:`d`, or :math:`c` transforms the parent function.
 
+.. rst-class:: keepwithnext
+
 **Effects of** :math:`c` **on** :math:`y = x^4 + c`
 
 .. list-table::
@@ -56,6 +58,8 @@ same set of axes. Then comment on how the value of the parameter :math:`a`, :mat
      - |nbsp|
      - .. image:: ../images/lesson04-image01.png
 
+.. rst-class:: keepwithnext
+
 **Effects of** :math:`d` **on** :math:`y = (x-d)^4`
 
 .. list-table::
@@ -74,6 +78,8 @@ same set of axes. Then comment on how the value of the parameter :math:`a`, :mat
      - |nbsp|
      - |nbsp|
      - .. image:: ../images/lesson04-image01.png
+
+.. rst-class:: keepwithnext
 
 **Effects of** :math:`a` **on** :math:`y = ax^4`
 
@@ -97,6 +103,8 @@ same set of axes. Then comment on how the value of the parameter :math:`a`, :mat
      - |nbsp|
      - |nbsp|
      - .. image:: ../images/lesson04-image01.png
+
+.. rst-class:: keepwithnext
 
 **Effects of** :math:`k` **on** :math:`y = (kx)^4`
 
@@ -124,45 +132,65 @@ same set of axes. Then comment on how the value of the parameter :math:`a`, :mat
 Summary of effects of :math:`a`, :math:`k`, :math:`d`, and :math:`c` in
 polynomial functions of the form :math:`f(x) = a[k(x-d)]^n + c`
 
-.. list-table:: Value of :math:`c` in :math:`f(x) = a[k(x-d)]^n + c`
-   :widths: 50 50
-   :header-rows: 0
+.. container:: keeptogether
 
-   * - :math:`c > 0`
-     - |nbsp|
-   * - :math:`c < 0`
-     - |nbsp|
+   **Value of** :math:`c` **in** :math:`f(x) = a[k(x-d)]^n + c`
 
-.. list-table:: Value of :math:`d` in :math:`f(x) = a[k(x-d)]^n + c`
-   :widths: 50 50
-   :header-rows: 0
+   .. list-table::
+      :widths: 30 70
+      :align: left
+      :header-rows: 0
 
-   * - :math:`d > 0`
-     - |nbsp|
-   * - :math:`d < 0`
-     - |nbsp|
+      * - :math:`c > 0`
+        - |nbsp|
+      * - :math:`c < 0`
+        - |nbsp|
 
-.. list-table:: Value of :math:`a` in :math:`f(x) = a[k(x-d)]^n + c`
-   :widths: 50 50
-   :header-rows: 0
+.. container:: keeptogether
 
-   * - :math:`a > 1` or :math:`a < -1`
-     - |nbsp|
-   * - :math:`-1 < a < 1`
-     - |nbsp|
-   * - :math:`a < 0`
-     - |nbsp|
+   **Value of** :math:`d` **in** :math:`f(x) = a[k(x-d)]^n + c`
 
-.. list-table:: Value of :math:`k` in :math:`f(x) = a[k(x-d)]^n + c`
-   :widths: 50 50
-   :header-rows: 0
+   .. list-table::
+      :widths: 30 70
+      :align: left
+      :header-rows: 0
 
-   * - :math:`k > 1` or :math:`k < -1`
-     - |nbsp|
-   * - :math:`-1 < k < 1`
-     - |nbsp|
-   * - :math:`k < 0`
-     - |nbsp|
+      * - :math:`d > 0`
+        - |nbsp|
+      * - :math:`d < 0`
+        - |nbsp|
+
+.. container:: keeptogether
+
+   **Value of** :math:`a` **in** :math:`f(x) = a[k(x-d)]^n + c`
+
+   .. list-table::
+      :widths: 30 70
+      :align: left
+      :header-rows: 0
+
+      * - :math:`a > 1` or :math:`a < -1`
+        - |nbsp|
+      * - :math:`-1 < a < 1`
+        - |nbsp|
+      * - :math:`a < 0`
+        - |nbsp|
+
+.. container:: keeptogether
+
+   **Value of** :math:`k` **in** :math:`f(x) = a[k(x-d)]^n + c`
+
+   .. list-table::
+      :widths: 30 70
+      :align: left
+      :header-rows: 0
+
+      * - :math:`k > 1` or :math:`k < -1`
+        - |nbsp|
+      * - :math:`-1 < k < 1`
+        - |nbsp|
+      * - :math:`k < 0`
+        - |nbsp|
 
 Note: :math:`a` and :math:`c` cause ``_________________`` transformations
 and therefore affect the :math:`y`-coordinates of the function.
@@ -183,9 +211,45 @@ function, :math:`g(x)`. Then, write the corresponding equation of the
 transformed function. Then, state the domain and range of the
 transformed function.
 
+.. rst-class:: keepwithnext
+
 a\) :math:`f(x) = x^4`, :math:`g(x) = 2f\left[\dfrac{1}{3}(x-5)\right]`
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 b\) :math:`f(x) = x^5`, :math:`g(x) = \dfrac{1}{4}f[-2(x-3)] + 4`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Part 3: Applying Transformations to Sketch a Graph
 ================================================================================
@@ -193,20 +257,44 @@ Part 3: Applying Transformations to Sketch a Graph
 **Example 2:** The graph of :math:`f(x) = x^3` is transformed to obtain
 the graph of :math:`g(x) = 3[-2(x+1)]^3 + 5`.
 
+.. rst-class:: keepwithnext
+
 a\) State the parameters and describe the corresponding transformations
 
-b\) Make a table of values for the parent function and then use the
-transformations described in part a) to make a table of values for the
-transformed function.
+|nbsp|
 
-c\) Graph the parent function and the transformed function on the same
-grid.
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+b\) Make a table of values for the parent function and then use the
+]transformations described in part a) to make a table of values for the
+transformed function.  *Note: When choosing key points for the parent
+function, always choose* :math:`x`-*values between
+-2 and 2 and calculate the corresponding values of* :math:`y`.
 
 .. list-table::
    :width: 70%
    :widths: 40 60
+   :align: left
 
-   * - .. list-table:: :math:`f(x) = x^3`
+   * - .. rst-class:: keepwithnext
+
+       **f(x) =** :math:`x^3`
+
+       .. list-table::
           :width: 80%
           :widths: 50 50
           :header-rows: 1
@@ -224,7 +312,11 @@ grid.
           * - |nbsp|
             - |nbsp|
 
-     - .. list-table::
+     - .. rst-class:: keepwithnext
+
+       **Transformed**
+
+       .. list-table::
           :width: 80%
           :widths: 50 50
           :header-rows: 1
@@ -232,66 +324,76 @@ grid.
           * - |nbsp|
 
               |nbsp|
+
+              |nbsp|
             - |nbsp|
+
+              |nbsp|
 
               |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
+	      
 
-              |nbsp|
+.. rst-class:: keepwithnext
 
-*Note: When choosing key points for the parent function, always choose* :math:`x`-*values between
--2 and 2 and calculate the corresponding values of* :math:`y`.
+c\) Graph the parent function and the transformed function on the same
+grid.
 
 .. image:: ../images/lesson04-image12.png
    :scale: 50
+   :align: left
    :alt: blank grid for graphing f(x) = x^3 and g(x) = 3[-2(x+1)]^3 + 5
 
 **Example 3:** The graph of :math:`f(x) = x^4` is transformed to obtain
 the graph of :math:`g(x) = -\left(\dfrac{1}{3}x + 2\right)^4 - 1`.
 
+.. rst-class:: keepwithnext
+
 a\) State the parameters and describe the corresponding transformations
 
 *Note:* :math:`k` *value must be factored out into the form* :math:`[k(x+d)]`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 b\) Make a table of values for the parent function and then use the
 transformations described in part a) to make a table of values for the
 transformed function.
 
-c\) Graph the parent function and the transformed function on the same
-grid.
-
 .. list-table::
    :width: 70%
    :widths: 40 60
+   :align: left
 
-   * - .. list-table:: :math:`f(x) = x^4`
+   * - .. rst-class:: keepwithnext
+
+       **f(x) =** :math:`x^4`
+
+       .. list-table::
           :width: 80%
           :widths: 50 50
           :header-rows: 1
@@ -308,7 +410,12 @@ grid.
             - |nbsp|
           * - |nbsp|
             - |nbsp|
-     - .. list-table::
+
+     - .. rst-class:: keepwithnext
+
+       **Transformed**
+
+       .. list-table::
           :width: 80%
           :widths: 50 50
           :header-rows: 1
@@ -316,42 +423,33 @@ grid.
           * - |nbsp|
 
               |nbsp|
+
+              |nbsp|
             - |nbsp|
+
+              |nbsp|
 
               |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
-
-              |nbsp|
           * - |nbsp|
-
-              |nbsp|
             - |nbsp|
+	      
 
-              |nbsp|
+.. rst-class:: keepwithnext
+
+c\) Graph the parent function and the transformed function on the same
+grid.
 
 .. image:: ../images/lesson04-image14.png
    :scale: 50
+   :align: left
    :alt: blank grid for graphing f(x) = x^4 and
          g(x) = -((1/3)x + 2)^4 - 1
 
@@ -362,14 +460,18 @@ Part 4: Determining an Equation Given the Graph of a Transformed Function
 obtain the resulting graph. Determine an equation for the transformed
 function. Then state the domain and range of the transformed function.
 
+.. rst-class:: keepwithnext
+
 a\)
 
 .. image:: ../images/lesson04-image16.png
    :scale: 50
+   :align: left
    :alt: y = x^4 (pink) transformed to a blue quartic shifted left and down
 
 b\)
 
 .. image:: ../images/lesson04-image17.png
    :scale: 50
+   :align: left
    :alt: y = x^3 (pink) transformed to a blue cubic reflected and shifted right

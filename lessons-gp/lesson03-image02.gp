@@ -14,8 +14,8 @@ set title "f(x) = 0.01(x-1)(x+2)^{2}(x-4)^{3}" font "Arial,11"
 set xrange [-3:5.3]
 set yrange [-2:6.5]
 
-set xzeroaxis lc rgb "gray40"
-set yzeroaxis lc rgb "gray40"
+set xzeroaxis lt 1 lc rgb "gray40" lw 1
+set yzeroaxis lt 1 lc rgb "gray40" lw 1
 set xtics -3,1,5
 set ytics -2,1,6
 set grid

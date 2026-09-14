@@ -4,13 +4,17 @@
 set terminal pngcairo size 300,280 enhanced font "Arial,11"
 set output '../lessons-media/lesson02-image09.png'
 
-set xrange [-2:1.3]
-set yrange [-3:3]
+### Domain cropped tighter than the full assigned range so the y-scale
+### isn't stretched out to the domain-edge extremes (~-42/+31); this keeps
+### the near-origin turning point/x-intercepts from getting visually
+### flattened into a touch-vs-cross ambiguity.
+set xrange [-1.75:0.85]
+set yrange [-8:13]
 
-set xzeroaxis lc rgb "gray40"
-set yzeroaxis lc rgb "gray40"
-set xtics -2,1,1
-set ytics -3,1,3
+set xzeroaxis lt 1 lc rgb "gray40" lw 1
+set yzeroaxis lt 1 lc rgb "gray40" lw 1
+set xtics -1.5,0.5,0.5
+set ytics -8,4,12
 set grid
 
 unset key

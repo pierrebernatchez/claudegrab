@@ -162,7 +162,14 @@ fonction exponentielle, une fonction périodique, ou aucune de ces réponses.
 Corrigé
 ================================================================================
 
-**1)** a) Non b) Oui c) Oui d) Oui e) Non f) Non
+**1)**
+
+| a\) Non
+| b\) Oui
+| c\) Oui
+| d\) Oui
+| e\) Non
+| f\) Non
 
 **2)**
 
@@ -192,19 +199,27 @@ Corrigé
      - 2
      - 1
 
-**3)** Graphique 1 : pair, négatif, D : :math:`(-\infty,\infty)`, I :
-:math:`(-\infty,0]`, symétrie de droite, de Q3 à Q4. Graphique 2 :
-impair, positif, D/I : :math:`(-\infty,\infty)`, symétrie de point, de
-Q3 à Q1. Graphique 3 : impair, négatif, D/I :
-:math:`(-\infty,\infty)`, symétrie de point, de Q2 à Q4. Graphique 4 :
-pair, positif, D : :math:`(-\infty,\infty)`, I : :math:`[0,\infty)`,
-symétrie de droite, de Q2 à Q1. Graphique 5 : impair, négatif, D/I :
-:math:`(-\infty,\infty)`, symétrie de point, de Q2 à Q4.
+**3)**
 
-**4)** De Q3 à Q1 : :math:`y=4x^5`, :math:`y=5x`. De Q2 à Q4 :
-:math:`y=-x^3`, :math:`y=-0.1x^{11}`. De Q2 à Q1 : :math:`y=2x^4`,
-:math:`y=\dfrac{3}{7}x^2`. De Q3 à Q4 : :math:`y=-x^6`,
-:math:`y=-9x^{10}`.
+| Graphique 1 : pair, négatif, D : :math:`(-\infty,\infty)`, I : :math:`(-\infty,0]`, symétrie de droite, de Q3 à Q4.
+| Graphique 2 : impair, positif, D/I : :math:`(-\infty,\infty)`, symétrie de point, de Q3 à Q1.
+| Graphique 3 : impair, négatif, D/I : :math:`(-\infty,\infty)`, symétrie de point, de Q2 à Q4.
+| Graphique 4 : pair, positif, D : :math:`(-\infty,\infty)`, I : :math:`[0,\infty)`, symétrie de droite, de Q2 à Q1.
+| Graphique 5 : impair, négatif, D/I : :math:`(-\infty,\infty)`, symétrie de point, de Q2 à Q4.
 
-**5)** a) Puissance b) Exponentielle c) Périodique d) Puissance e)
-Aucune (racine carrée) f) Aucune (rationnelle) g) Puissance
+**4)**
+
+| De Q3 à Q1 : :math:`y=4x^5`, :math:`y=5x`.
+| De Q2 à Q4 : :math:`y=-x^3`, :math:`y=-0.1x^{11}`.
+| De Q2 à Q1 : :math:`y=2x^4`, :math:`y=\dfrac{3}{7}x^2`.
+| De Q3 à Q4 : :math:`y=-x^6`, :math:`y=-9x^{10}`.
+
+**5)**
+
+| a\) Puissance
+| b\) Exponentielle
+| c\) Périodique
+| d\) Puissance
+| e\) Aucune (racine carrée)
+| f\) Aucune (rationnelle)
+| g\) Puissance

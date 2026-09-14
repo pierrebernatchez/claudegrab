@@ -76,7 +76,7 @@ Complétez le tableau suivant à l'aide de l'équation et des graphiques
 donnés :
 
 .. list-table::
-   :widths: 22 9 12 14 20 11 12
+   :widths: 25 9 11 13 19 11 12
    :header-rows: 1
 
    * - Équation et graphique
@@ -203,7 +203,7 @@ l'infini OPPOSÉS*
 l'infini*
 
 .. list-table::
-   :widths: 22 9 12 14 20 11 12
+   :widths: 25 9 11 13 19 11 12
    :header-rows: 1
 
    * - Équation et graphique

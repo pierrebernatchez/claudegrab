@@ -35,6 +35,8 @@ graphing technology to help. The graph of :math:`y = x^4` is given on
 each set of axes; sketch the graph of the transformed function on the
 same set of axes. Then comment on how the value of the parameter :math:`a`, :math:`k`, :math:`d`, or :math:`c` transforms the parent function.
 
+.. rst-class:: keepwithnext
+
 **Effects of** :math:`c` **on** :math:`y = x^4 + c`
 
 .. list-table::
@@ -54,6 +56,8 @@ same set of axes. Then comment on how the value of the parameter :math:`a`, :mat
      - :sol:`Shift down 2 units`
      - .. image:: ../images/lesson04-image03.png
 
+.. rst-class:: keepwithnext
+
 **Effects of** :math:`d` **on** :math:`y = (x-d)^4`
 
 .. list-table::
@@ -72,6 +76,8 @@ same set of axes. Then comment on how the value of the parameter :math:`a`, :mat
      - :solmath:`d = -3`
      - :sol:`Shift left 3 units`
      - .. image:: ../images/lesson04-image05.png
+
+.. rst-class:: keepwithnext
 
 **Effects of** :math:`a` **on** :math:`y = ax^4`
 
@@ -97,6 +103,8 @@ same set of axes. Then comment on how the value of the parameter :math:`a`, :mat
      - :solmath:`a = -2`
      - :sol:`Vertical stretch by a factor of 2 and a vertical reflection.`
      - .. image:: ../images/lesson04-image08.png
+
+.. rst-class:: keepwithnext
 
 **Effects of** :math:`k` **on** :math:`y = (kx)^4`
 
@@ -129,8 +137,13 @@ same set of axes. Then comment on how the value of the parameter :math:`a`, :mat
 Summary of effects of :math:`a`, :math:`k`, :math:`d`, and :math:`c` in
 polynomial functions of the form :math:`f(x) = a[k(x-d)]^n + c`
 
-.. list-table:: Value of :math:`c` in :math:`f(x) = a[k(x-d)]^n + c`
-   :widths: 50 50
+.. rst-class:: keepwithnext
+
+**Value of** :math:`c` **in** :math:`f(x) = a[k(x-d)]^n + c`
+
+.. list-table::
+   :widths: 30 70
+   :align: left
    :header-rows: 0
 
    * - :math:`c > 0`
@@ -142,8 +155,13 @@ polynomial functions of the form :math:`f(x) = a[k(x-d)]^n + c`
 
        Shift :math:`c` units down
 
-.. list-table:: Value of :math:`d` in :math:`f(x) = a[k(x-d)]^n + c`
-   :widths: 50 50
+.. rst-class:: keepwithnext
+
+**Value of** :math:`d` **in** :math:`f(x) = a[k(x-d)]^n + c`
+
+.. list-table::
+   :widths: 30 70
+   :align: left
    :header-rows: 0
 
    * - :math:`d > 0`
@@ -155,8 +173,13 @@ polynomial functions of the form :math:`f(x) = a[k(x-d)]^n + c`
 
        Shift :math:`|d|` units left
 
-.. list-table:: Value of :math:`a` in :math:`f(x) = a[k(x-d)]^n + c`
-   :widths: 50 50
+.. rst-class:: keepwithnext
+
+**Value of** :math:`a` **in** :math:`f(x) = a[k(x-d)]^n + c`
+
+.. list-table::
+   :widths: 30 70
+   :align: left
    :header-rows: 0
 
    * - :math:`a > 1` or :math:`a < -1`
@@ -172,8 +195,13 @@ polynomial functions of the form :math:`f(x) = a[k(x-d)]^n + c`
 
        Vertical reflection (reflection in the :math:`x`-axis)
 
-.. list-table:: Value of :math:`k` in :math:`f(x) = a[k(x-d)]^n + c`
-   :widths: 50 50
+.. rst-class:: keepwithnext
+
+**Value of** :math:`k` **in** :math:`f(x) = a[k(x-d)]^n + c`
+
+.. list-table::
+   :widths: 30 70
+   :align: left
    :header-rows: 0
 
    * - :math:`k > 1` or :math:`k < -1`
@@ -276,15 +304,19 @@ a\) State the parameters and describe the corresponding transformations
 
 b\) Make a table of values for the parent function and then use the
 transformations described in part a) to make a table of values for the
-transformed function.
-
-c\) Graph the parent function and the transformed function on the same
-grid.
+transformed function. *Note: When choosing key points for the parent
+function, always choose* :math:`x`-*values between
+-2 and 2 and calculate the corresponding values of* :math:`y`.
 
 .. list-table::
    :widths: 50 50
+   :align: left
 
-   * - .. list-table:: :math:`f(x) = x^3`
+   * - .. rst-class:: keepwithnext
+
+       **f(x) =** :math:`x^3`
+
+       .. list-table::
           :widths: 50 50
           :header-rows: 1
 
@@ -300,7 +332,12 @@ grid.
             - :sol:`1`
           * - :sol:`2`
             - :sol:`8`
-     - .. list-table:: :math:`g(x) = 3[-2(x+1)]^3 + 5`
+
+     - .. rst-class:: keepwithnext
+
+       **g(x) =** :math:`3[-2(x+1)]^3 + 5`
+
+       .. list-table::
           :widths: 50 50
           :header-rows: 1
 
@@ -317,11 +354,13 @@ grid.
           * - :sol:`-2`
             - :sol:`29`
 
-*Note: When choosing key points for the parent function, always choose* :math:`x`-*values between
--2 and 2 and calculate the corresponding values of* :math:`y`.
+c\) Graph the parent function and the transformed function on the same
+grid.
+
 
 .. image:: ../images/lesson04-image13.png
    :scale: 50
+   :align: left
    :alt: f(x) = x^3 (pink) and g(x) = 3[-2(x+1)]^3 + 5 (blue)
 
 **Example 3:** The graph of :math:`f(x) = x^4` is transformed to obtain
@@ -358,8 +397,13 @@ grid.
 
 .. list-table::
    :widths: 50 50
+   :align: left
 
-   * - .. list-table:: :math:`f(x) = x^4`
+   * - .. rst-class:: keepwithnext
+
+       **f(x) =** :math:`x^4`
+
+       .. list-table::
           :widths: 50 50
           :header-rows: 1
 
@@ -375,7 +419,11 @@ grid.
             - :sol:`1`
           * - :sol:`2`
             - :sol:`16`
-     - .. list-table:: :math:`g(x) = -\left[\dfrac{1}{3}(x+6)\right]^4 - 1`
+     - .. rst-class:: keepwithnext
+
+       **g(x) =** :math:`-\left[\dfrac{1}{3}(x+6)\right]^4 - 1`
+
+       .. list-table::
           :widths: 50 50
           :header-rows: 1
 
@@ -394,6 +442,7 @@ grid.
 
 .. image:: ../images/lesson04-image15.png
    :scale: 50
+   :align: left
    :alt: f(x) = x^4 (pink) and g(x) = -((1/3)x + 2)^4 - 1 (blue)
 
 Part 4: Determining an Equation Given the Graph of a Transformed Function
@@ -407,6 +456,7 @@ a\)
 
 .. image:: ../images/lesson04-image16.png
    :scale: 50
+   :align: left
    :alt: y = x^4 (pink) transformed to a blue quartic shifted left and down
 
 .. rst-class:: solution
@@ -434,6 +484,7 @@ b\)
 
 .. image:: ../images/lesson04-image17.png
    :scale: 50
+   :align: left
    :alt: y = x^3 (pink) transformed to a blue cubic reflected and shifted right
 
 .. rst-class:: solution

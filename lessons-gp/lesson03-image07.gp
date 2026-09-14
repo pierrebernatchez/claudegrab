@@ -8,8 +8,8 @@ set output '../lessons-media/lesson03-image07.png'
 set xrange [-4:6]
 set yrange [-40:100]
 
-set xzeroaxis lc rgb "gray40"
-set yzeroaxis lc rgb "gray40"
+set xzeroaxis lt 1 lc rgb "gray40" lw 1
+set yzeroaxis lt 1 lc rgb "gray40" lw 1
 set xtics -4,2,6
 set ytics -40,20,100
 set grid

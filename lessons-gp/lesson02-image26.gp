@@ -4,13 +4,15 @@
 set terminal pngcairo size 220,220 enhanced font "Arial,9"
 set output '../lessons-media/lesson02-image26.png'
 
-set xrange [-4:4]
-set yrange [-18:20]
+### Domain cropped tighter than the full assigned range, and the y-top
+### raised, so the absolute max (~32.5 at x~2.35) is no longer clipped.
+set xrange [-3:3.5]
+set yrange [-16:34]
 
-set xzeroaxis lc rgb "gray40"
-set yzeroaxis lc rgb "gray40"
-set xtics -4,2,4
-set ytics -18,6,18
+set xzeroaxis lt 1 lc rgb "gray40" lw 1
+set yzeroaxis lt 1 lc rgb "gray40" lw 1
+set xtics -3,1,3
+set ytics -16,8,32
 set grid
 
 unset key

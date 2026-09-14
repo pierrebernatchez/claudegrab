@@ -161,7 +161,14 @@ function, a periodic function, or none of these.
 Answer Key
 ================================================================================
 
-**1)** a) No b) Yes c) Yes d) Yes e) No f) No
+**1)**
+
+| a\) No
+| b\) Yes
+| c\) Yes
+| d\) Yes
+| e\) No
+| f\) No
 
 **2)**
 
@@ -191,17 +198,27 @@ Answer Key
      - 2
      - 1
 
-**3)** Graph 1: even, negative, D: :math:`(-\infty,\infty)`, R:
-:math:`(-\infty,0]`, line symmetry, Q3 to Q4. Graph 2: odd, positive,
-D/R: :math:`(-\infty,\infty)`, point symmetry, Q3 to Q1. Graph 3: odd,
-negative, D/R: :math:`(-\infty,\infty)`, point symmetry, Q2 to Q4.
-Graph 4: even, positive, D: :math:`(-\infty,\infty)`, R:
-:math:`[0,\infty)`, line symmetry, Q2 to Q1. Graph 5: odd, negative,
-D/R: :math:`(-\infty,\infty)`, point symmetry, Q2 to Q4.
+**3)**
 
-**4)** Q3 to Q1: :math:`y=4x^5`, :math:`y=5x`. Q2 to Q4: :math:`y=-x^3`,
-:math:`y=-0.1x^{11}`. Q2 to Q1: :math:`y=2x^4`,
-:math:`y=\dfrac{3}{7}x^2`. Q3 to Q4: :math:`y=-x^6`, :math:`y=-9x^{10}`.
+| Graph 1: even, negative, D: :math:`(-\infty,\infty)`, R: :math:`(-\infty,0]`, line symmetry, Q3 to Q4.
+| Graph 2: odd, positive, D/R: :math:`(-\infty,\infty)`, point symmetry, Q3 to Q1.
+| Graph 3: odd, negative, D/R: :math:`(-\infty,\infty)`, point symmetry, Q2 to Q4.
+| Graph 4: even, positive, D: :math:`(-\infty,\infty)`, R: :math:`[0,\infty)`, line symmetry, Q2 to Q1.
+| Graph 5: odd, negative, D/R: :math:`(-\infty,\infty)`, point symmetry, Q2 to Q4.
 
-**5)** a) Power b) Exponential c) Periodic d) Power e) None (square
-root) f) None (rational) g) Power
+**4)**
+
+| Q3 to Q1: :math:`y=4x^5`, :math:`y=5x`.
+| Q2 to Q4: :math:`y=-x^3`, :math:`y=-0.1x^{11}`.
+| Q2 to Q1: :math:`y=2x^4`, :math:`y=\dfrac{3}{7}x^2`.
+| Q3 to Q4: :math:`y=-x^6`, :math:`y=-9x^{10}`.
+
+**5)**
+
+| a\) Power
+| b\) Exponential
+| c\) Periodic
+| d\) Power
+| e\) None (square root)
+| f\) None (rational)
+| g\) Power

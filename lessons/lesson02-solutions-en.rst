@@ -73,7 +73,7 @@ turning points (local min/max), and zeros (x-intercepts) of the graph.
 Complete the following table using the equation and graphs given:
 
 .. list-table::
-   :widths: 22 9 12 14 20 11 12
+   :widths: 25 9 11 13 19 11 12
    :header-rows: 1
 
    * - Equation and Graph
@@ -210,7 +210,7 @@ Complete the following table using the equation and graphs given:
 *Note: Even degree polynomials have THE SAME end behaviour*
 
 .. list-table::
-   :widths: 22 9 12 14 20 11 12
+   :widths: 25 9 11 13 19 11 12
    :header-rows: 1
 
    * - Equation and Graph

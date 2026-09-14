@@ -123,12 +123,15 @@ Shapes based on order of zero:
 
    * -
      - .. image:: ../images/lesson03-image03.png
+          :scale: 20
 
        **Order 2**
      - .. image:: ../images/lesson03-image04.png
+          :scale: 20
 
        **Order 1**
      - .. image:: ../images/lesson03-image05.png
+          :scale: 20
 
        **Order 3**
    * -
@@ -161,11 +164,13 @@ ii\) the :math:`x`-intercepts and the factors of the function
 
 iii\) the intervals where the function is positive/negative
 
-a\)
+.. container:: keeptogether
 
-.. image:: ../images/lesson03-image06.png
-   :scale: 50
-   :alt: cubic with x-intercepts -5, -1, 3, negative leading coefficient
+   a\)
+
+   .. image:: ../images/lesson03-image06.png
+      :scale: 50
+      :alt: cubic with x-intercepts -5, -1, 3, negative leading coefficient
 
 .. rst-class:: solution
 
@@ -195,12 +200,14 @@ iii\)
      - :sol:`Positive`
      - :sol:`Negative`
 
-b\)
+.. container:: keeptogether
 
-.. image:: ../images/lesson03-image07.png
-   :scale: 50
-   :alt: quartic with x-intercepts -2 (order 1) and 3 (order 3), positive
-         leading coefficient
+   b\)
+
+   .. image:: ../images/lesson03-image07.png
+      :scale: 50
+      :alt: quartic with x-intercepts -2 (order 1) and 3 (order 3), positive
+            leading coefficient
 
 .. rst-class:: solution
 
@@ -252,105 +259,113 @@ iii\)
 
 Sketch a graph of each polynomial function:
 
-a\) :math:`f(x) = (x-1)(x+2)(x+3)`
+.. container:: keeptogether
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+   a\) :math:`f(x) = (x-1)(x+2)(x+3)`
 
-   * - Degree
-     - Leading Coefficient
-     - End Behaviour
-     - :math:`x`-intercepts
-     - :math:`y`-intercept
-   * - :sol:`3`
-     - :sol:`1`
-     - .. rst-class:: solution
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :header-rows: 1
 
-       :math:`y \to -\infty` as :math:`x \to -\infty`; :math:`y \to \infty`
-       as :math:`x \to \infty` (Q3 to Q1)
-     - :sol:`1, -2, -3`
-     - :sol:`-6`
+      * - Degree
+        - Leading Coefficient
+        - End Behaviour
+        - :math:`x`-intercepts
+        - :math:`y`-intercept
+      * - :sol:`3`
+        - :sol:`1`
+        - .. rst-class:: solution
 
-.. image:: ../images/lesson03-image09.png
-   :scale: 50
-   :alt: f(x) = (x-1)(x+2)(x+3)
+          :math:`y \to -\infty` as :math:`x \to -\infty`; :math:`y \to \infty`
+          as :math:`x \to \infty` (Q3 to Q1)
+        - :sol:`1, -2, -3`
+        - :sol:`-6`
 
-b\) :math:`g(x) = -2(x-1)^2(x+2)`
+   .. image:: ../images/lesson03-image09.png
+      :scale: 50
+      :alt: f(x) = (x-1)(x+2)(x+3)
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+.. container:: keeptogether
 
-   * - Degree
-     - Leading Coefficient
-     - End Behaviour
-     - :math:`x`-intercepts
-     - :math:`y`-intercept
-   * - :sol:`3`
-     - :sol:`-2`
-     - .. rst-class:: solution
+   b\) :math:`g(x) = -2(x-1)^2(x+2)`
 
-       :math:`y \to \infty` as :math:`x \to -\infty`; :math:`y \to -\infty`
-       as :math:`x \to \infty` (Q2 to Q4)
-     - :sol:`1 (order 2), -2 (order 1)`
-     - :sol:`-4`
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :header-rows: 1
 
-.. image:: ../images/lesson03-image11.png
-   :scale: 50
-   :alt: g(x) = -2(x-1)^2(x+2)
+      * - Degree
+        - Leading Coefficient
+        - End Behaviour
+        - :math:`x`-intercepts
+        - :math:`y`-intercept
+      * - :sol:`3`
+        - :sol:`-2`
+        - .. rst-class:: solution
 
-c\) :math:`h(x) = -(2x+1)^3(x-3)`
+          :math:`y \to \infty` as :math:`x \to -\infty`; :math:`y \to -\infty`
+          as :math:`x \to \infty` (Q2 to Q4)
+        - :sol:`1 (order 2), -2 (order 1)`
+        - :sol:`-4`
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+   .. image:: ../images/lesson03-image11.png
+      :scale: 50
+      :alt: g(x) = -2(x-1)^2(x+2)
 
-   * - Degree
-     - Leading Coefficient
-     - End Behaviour
-     - :math:`x`-intercepts
-     - :math:`y`-intercept
-   * - :sol:`4`
-     - :sol:`-8`
-     - .. rst-class:: solution
+.. container:: keeptogether
 
-       :math:`y \to -\infty` as :math:`x \to \pm\infty` (Q3 to Q4)
-     - :sol:`-0.5 (order 3), 3 (order 1)`
-     - :sol:`3`
+   c\) :math:`h(x) = -(2x+1)^3(x-3)`
 
-.. image:: ../images/lesson03-image13.png
-   :scale: 50
-   :alt: h(x) = -(2x+1)^3(x-3)
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :header-rows: 1
 
-d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
+      * - Degree
+        - Leading Coefficient
+        - End Behaviour
+        - :math:`x`-intercepts
+        - :math:`y`-intercept
+      * - :sol:`4`
+        - :sol:`-8`
+        - .. rst-class:: solution
 
-*Note: must put into factored form to find* :math:`x`-*intercepts*
+          :math:`y \to -\infty` as :math:`x \to \pm\infty` (Q3 to Q4)
+        - :sol:`-0.5 (order 3), 3 (order 1)`
+        - :sol:`3`
 
-.. rst-class:: solution
+   .. image:: ../images/lesson03-image13.png
+      :scale: 50
+      :alt: h(x) = -(2x+1)^3(x-3)
 
-Factored form: :math:`j(x) = x^2(x-1)(x-3)`
+.. container:: keeptogether
 
-.. list-table::
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+   d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
 
-   * - Degree
-     - Leading Coefficient
-     - End Behaviour
-     - :math:`x`-intercepts
-     - :math:`y`-intercept
-   * - :sol:`4`
-     - :sol:`1`
-     - .. rst-class:: solution
+   *Note: must put into factored form to find* :math:`x`-*intercepts*
 
-       :math:`y \to \infty` as :math:`x \to \pm\infty` (Q2 to Q1)
-     - :sol:`0 (order 2), 1 (order 1), 3 (order 1)`
-     - :sol:`0`
+   .. rst-class:: solution
 
-.. image:: ../images/lesson03-image15.png
-   :scale: 50
-   :alt: j(x) = x^4 - 4x^3 + 3x^2
+   Factored form: :math:`j(x) = x^2(x-1)(x-3)`
+
+   .. list-table::
+      :widths: 20 20 20 20 20
+      :header-rows: 1
+
+      * - Degree
+        - Leading Coefficient
+        - End Behaviour
+        - :math:`x`-intercepts
+        - :math:`y`-intercept
+      * - :sol:`4`
+        - :sol:`1`
+        - .. rst-class:: solution
+
+          :math:`y \to \infty` as :math:`x \to \pm\infty` (Q2 to Q1)
+        - :sol:`0 (order 2), 1 (order 1), 3 (order 1)`
+        - :sol:`0`
+
+   .. image:: ../images/lesson03-image15.png
+      :scale: 50
+      :alt: j(x) = x^4 - 4x^3 + 3x^2
 
 **Example 3: Representing the Graph of a Polynomial Function with its Equation**
 

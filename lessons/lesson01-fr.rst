@@ -52,7 +52,7 @@ Rappels sur les fonctions
 - Pour la fonction :math:`f(x) = (x-1)^2 + 3`
 
   .. image:: ../images/lesson01-image02.png
-     :scale: 50
+     :scale: 45
      :alt: f(x) = (x-1)^2 + 3, une parabole ouverte vers le haut
 
 - Le degré d'une fonction est l'exposant le plus élevé dans l'expression
