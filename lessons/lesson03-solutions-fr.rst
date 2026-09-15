@@ -48,13 +48,13 @@ Graphique de :math:`f(x)` :
 
 À partir du graphique, répondez aux questions suivantes...
 
-a\) Quel est le degré de la fonction ? **4**
+a\) Quel est le degré de la fonction ? :sol:`4`
 
-b\) Quel est le signe du coefficient dominant ? **Positif**
+b\) Quel est le signe du coefficient dominant ? :sol:`Positif`
 
-c\) Quels sont les zéros ? **-2, -1, 1**
+c\) Quels sont les zéros ? :sol:`-2, -1, 1`
 
-d\) Quelle est l'ordonnée à l'origine ? **-2**
+d\) Quelle est l'ordonnée à l'origine ? :sol:`-2`
 
 e\) Les zéros divisent le graphique en quatre intervalles. Écrivez les
 intervalles dans la première rangée du tableau. Dans la deuxième rangée,
@@ -67,22 +67,24 @@ ou négative (au-dessous de l'axe des :math:`x`).
    :header-rows: 0
 
    * - Intervalle
-     - :math:`x < -2`
-     - :math:`-2 < x < -1`
-     - :math:`-1 < x < 1`
-     - :math:`x > 1`
+     - :solmath:`x < -2`
+     - :solmath:`-2 < x < -1`
+     - :solmath:`-1 < x < 1`
+     - :solmath:`x > 1`
    * - Point d'essai
-     - -3
-     - -1.5
-     - 0
-     - 2
+     - :sol:`-3`
+     - :sol:`-1.5`
+     - :sol:`0`
+     - :sol:`2`
    * - Signe de :math:`f(x)`
-     - Positive
-     - Négative
-     - Négative
-     - Positive
+     - :sol:`Positive`
+     - :sol:`Négative`
+     - :sol:`Négative`
+     - :sol:`Positive`
 
 f\) Qu'arrive-t-il au signe de :math:`f(x)` près de chaque zéro ?
+
+.. rst-class:: solution
 
 À :math:`x = -2` (ordre 1) et :math:`x = 1` (ordre 1), le signe
 **change**. À :math:`x = -1` (ordre 2), le signe **ne change pas**
@@ -93,21 +95,21 @@ Conclusions de l'investigation :
 
 Les zéros du graphique de la fonction correspondent aux racines (zéros)
 de l'équation correspondante. Par exemple, la
-fonction :math:`f(x) = (x-2)(x+1)` a des zéros à **2** et **-1**. Ce sont les
-racines de l'équation :math:`(x-2)(x+1) = 0`.
+fonction :math:`f(x) = (x-2)(x+1)` a des zéros à :sol:`2` et :sol:`-1`. Ce
+sont les racines de l'équation :math:`(x-2)(x+1) = 0`.
 
 Si une fonction polynomiale a un facteur :math:`(x-a)` qui est
-répété :math:`n` fois, alors :math:`x = a` est un zéro d'**ordre** :math:`n`.
+répété :math:`n` fois, alors :math:`x = a` est un zéro d':sol:`ordre` :math:`n`.
 
 **Ordre** -- l'exposant auquel chaque facteur d'une expression algébrique
 est élevé.
 
 Par exemple, la fonction :math:`f(x) = (x-3)^2(x-1)` a un zéro d'ordre
-**2** à :math:`x = 3` et un zéro d'ordre **1** à :math:`x = 1`.
+:sol:`2` à :math:`x = 3` et un zéro d'ordre :sol:`1` à :math:`x = 1`.
 
 Le graphique d'une fonction polynomiale change de signe aux zéros
-d'ordre **impair** mais ne change pas de signe aux zéros d'ordre
-**pair**.
+d'ordre :sol:`impair` mais ne change pas de signe aux zéros d'ordre
+:sol:`pair`.
 
 Formes selon l'ordre du zéro :
 
@@ -171,8 +173,12 @@ iii\) les intervalles où la fonction est positive/négative
       :scale: 50
       :alt: cubique avec zéros -5, -1, 3, coefficient dominant négatif
 
+.. rst-class:: solution
+
 i\) Degré minimal possible : **3**. Signe du coefficient dominant :
 **négatif**.
+
+.. rst-class:: solution
 
 ii\) Zéros : **-5, -1, 3**. Facteurs : **(x+5), (x+1), (x-3)** --
 donc :math:`f(x) = -a(x+5)(x+1)(x-3)` pour un certain :math:`a` positif.
@@ -184,15 +190,15 @@ iii\)
    :header-rows: 0
 
    * - Intervalle
-     - :math:`x < -5`
-     - :math:`-5 < x < -1`
-     - :math:`-1 < x < 3`
-     - :math:`x > 3`
+     - :solmath:`x < -5`
+     - :solmath:`-5 < x < -1`
+     - :solmath:`-1 < x < 3`
+     - :solmath:`x > 3`
    * - Signe de :math:`f(x)`
-     - Positive
-     - Négative
-     - Positive
-     - Négative
+     - :sol:`Positive`
+     - :sol:`Négative`
+     - :sol:`Positive`
+     - :sol:`Négative`
 
 .. container:: keeptogether
 
@@ -203,8 +209,12 @@ iii\)
       :alt: quartique avec zéros -2 (ordre 1) et 3 (ordre 3), coefficient
             dominant positif
 
+.. rst-class:: solution
+
 i\) Degré minimal possible : **4**. Signe du coefficient dominant :
 **positif**.
+
+.. rst-class:: solution
 
 ii\) Zéros : **-2 (ordre 1), 3 (ordre 3)**. Facteurs : **(x+2),
 (x-3)\ :sup:`3`** -- donc :math:`f(x) = a(x+2)(x-3)^3` pour un
@@ -217,13 +227,13 @@ iii\)
    :header-rows: 0
 
    * - Intervalle
-     - :math:`x < -2`
-     - :math:`-2 < x < 3`
-     - :math:`x > 3`
+     - :solmath:`x < -2`
+     - :solmath:`-2 < x < 3`
+     - :solmath:`x > 3`
    * - Signe de :math:`f(x)`
-     - Positive
-     - Négative
-     - Positive
+     - :sol:`Positive`
+     - :sol:`Négative`
+     - :sol:`Positive`
 
 **Exemple 2 : Analyser des équations sous forme factorisée pour esquisser des graphiques**
 
@@ -263,12 +273,14 @@ Esquissez un graphique de chaque fonction polynomiale :
         - Comportement à l'infini
         - Zéros
         - Ordonnée à l'origine
-      * - 3
-        - 1
-        - :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
+      * - :sol:`3`
+        - :sol:`1`
+        - .. rst-class:: solution
+
+          :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
           :math:`y \to \infty` lorsque :math:`x \to \infty` (Q3 à Q1)
-        - 1, -2, -3
-        - -6
+        - :sol:`1, -2, -3`
+        - :sol:`-6`
 
    .. image:: ../images/lesson03-image09.png
       :scale: 50
@@ -287,12 +299,14 @@ Esquissez un graphique de chaque fonction polynomiale :
         - Comportement à l'infini
         - Zéros
         - Ordonnée à l'origine
-      * - 3
-        - -2
-        - :math:`y \to \infty` lorsque :math:`x \to -\infty`;
+      * - :sol:`3`
+        - :sol:`-2`
+        - .. rst-class:: solution
+
+          :math:`y \to \infty` lorsque :math:`x \to -\infty`;
           :math:`y \to -\infty` lorsque :math:`x \to \infty` (Q2 à Q4)
-        - 1 (ordre 2), -2 (ordre 1)
-        - -4
+        - :sol:`1 (ordre 2), -2 (ordre 1)`
+        - :sol:`-4`
 
    .. image:: ../images/lesson03-image11.png
       :scale: 50
@@ -311,11 +325,13 @@ Esquissez un graphique de chaque fonction polynomiale :
         - Comportement à l'infini
         - Zéros
         - Ordonnée à l'origine
-      * - 4
-        - -8
-        - :math:`y \to -\infty` lorsque :math:`x \to \pm\infty` (Q3 à Q4)
-        - -0.5 (ordre 3), 3 (ordre 1)
-        - 3
+      * - :sol:`4`
+        - :sol:`-8`
+        - .. rst-class:: solution
+
+          :math:`y \to -\infty` lorsque :math:`x \to \pm\infty` (Q3 à Q4)
+        - :sol:`-0.5 (ordre 3), 3 (ordre 1)`
+        - :sol:`3`
 
    .. image:: ../images/lesson03-image13.png
       :scale: 50
@@ -326,6 +342,8 @@ Esquissez un graphique de chaque fonction polynomiale :
    d\) :math:`j(x) = x^4 - 4x^3 + 3x^2`
 
    *Remarque : il faut mettre sous forme factorisée pour trouver les zéros*
+
+   .. rst-class:: solution
 
    Forme factorisée : :math:`j(x) = x^2(x-1)(x-3)`
 
@@ -338,11 +356,13 @@ Esquissez un graphique de chaque fonction polynomiale :
         - Comportement à l'infini
         - Zéros
         - Ordonnée à l'origine
-      * - 4
-        - 1
-        - :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
-        - 0 (ordre 2), 1 (ordre 1), 3 (ordre 1)
-        - 0
+      * - :sol:`4`
+        - :sol:`1`
+        - .. rst-class:: solution
+
+          :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
+        - :sol:`0 (ordre 2), 1 (ordre 1), 3 (ordre 1)`
+        - :sol:`0`
 
    .. image:: ../images/lesson03-image15.png
       :scale: 50
@@ -368,20 +388,27 @@ a\) Écrivez l'équation de la fonction illustrée ci-dessous :
 
 4) Écrivez l'équation sous forme factorisée
 
+.. rst-class:: solution
+
 Le graphique touche l'axe des :math:`x` (sans le traverser)
 à :math:`x = -2` et :math:`x = 3`, donc les deux sont des zéros d'ordre 2 :
 
 .. math::
+   :class: solution
 
    f(x) = a(x+2)^2(x-3)^2
+
+.. rst-class:: solution
 
 En substituant le point :math:`(2, 4)` :
 
 .. math::
+   :class: solution
 
    4 = a(2+2)^2(2-3)^2 = a(16)(1) = 16a \implies a = \dfrac{1}{4}
 
 .. math::
+   :class: solution
 
    f(x) = \dfrac{1}{4}(x+2)^2(x-3)^2
 
@@ -390,15 +417,20 @@ des zéros :math:`-1` (ordre 3) et :math:`1`, et une ordonnée à l'origine
 de :math:`-2`.
 
 .. math::
+   :class: solution
 
    f(x) = a(x+1)^3(x-1)
+
+.. rst-class:: solution
 
 En substituant l'ordonnée à l'origine, :math:`f(0) = -2` :
 
 .. math::
+   :class: solution
 
    -2 = a(0+1)^3(0-1) = a(1)(-1) = -a \implies a = 2
 
 .. math::
+   :class: solution
 
    f(x) = 2(x+1)^3(x-1)

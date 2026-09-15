@@ -371,13 +371,69 @@ d\) :math:`p(x) = x^6 - 16x^2 + 3`
 
        .. image:: ../images/lesson02-image28.png
 
+.. rst-class:: keepwithnext
+
 a\)
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 b\)
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 c\)
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 d\)
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Différences finies
 ================================================================================
@@ -455,11 +511,35 @@ c\) la valeur du coefficient dominant
      - |nbsp|
      - |nbsp|
 
+.. rst-class:: keepwithnext
+
 a\)
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 b\)
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 c\)
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 **Exemple 5 :** Pour la fonction :math:`2x^4 - 4x^2 + x + 1`, quelle est
 la valeur des différences finies constantes ?

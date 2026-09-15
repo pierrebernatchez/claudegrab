@@ -416,19 +416,19 @@ c\) least possible degree
 
 Least possible degree is **5**
 
-b\) any symmetry present
+d\) any symmetry present
 
 .. rst-class:: solution
 
 Point symmetry about the origin. Therefore, this is an odd function.
 
-c\) the intervals where :math:`f(x) < 0`
+e\) the intervals where :math:`f(x) < 0`
 
 .. rst-class:: solution
 
 The function is negative on :math:`(0, 2) \cup (2, \infty)`
 
-d\) Find the equation in factored form
+f\) Find the equation in factored form
 
 .. math::
    :class: solution

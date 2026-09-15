@@ -210,12 +210,26 @@ F\) :math:`y = 3x^3 + 5x^2 - 3x + 1`
 each constant finite difference. Then determine the value of the leading
 coefficient for each polynomial function.
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
 
-   * - a\) second differences = -8
-     - b\) fourth differences = 24
+.. rst-class:: keepwithnext
+	       
+a\) second differences = -8
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+	       
+b\) fourth differences = 24
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 **6\)** Use finite differences to determine the degree and value of the
 leading coefficient for each polynomial function.
@@ -341,147 +355,39 @@ town :math:`t` years from now can be modelled by the function
 
    P(t) = 6t^4 - 5t^3 + 200t + 12000
 
+.. rst-class:: keepwithnext
+
 a\) What is the value of the constant finite differences?
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 b\) What is the current population of the town?
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 c\) What will the population of the town be 10 years from now?
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Answer Key
 ================================================================================
 
-**1)**
-
-.. list-table::
-   :widths: 12 10 14 10 12 12 14
-   :header-rows: 1
-
-   * - Sign of Leading Coefficient
-     - Even or Odd Degree?
-     - End Behaviour
-     - Symmetry
-     - Number of turning points
-     - Number of x-intercepts
-     - Least Possible Degree
-   * - Positive
-     - Even
-     - Q2 to Q1
-     - None
-     - 3
-     - 4
-     - 4
-   * - Positive
-     - Odd
-     - Q3 to Q1
-     - None
-     - 4
-     - 5
-     - 5
-   * - Negative
-     - Even
-     - Q3 to Q4
-     - None
-     - 3
-     - 4
-     - 4
-   * - Negative
-     - Odd
-     - Q2 to Q4
-     - None
-     - 4
-     - 5
-     - 5
-   * - Negative
-     - Odd
-     - Q2 to Q4
-     - Point
-     - 2
-     - 3
-     - 3
-
-**2)**
-
-.. list-table::
-   :widths: 12 10 14 10 12 12 14
-   :header-rows: 1
-
-   * - Sign of Leading Coefficient
-     - Even or Odd Degree?
-     - End Behaviour
-     - Symmetry
-     - Number of turning points
-     - Number of x-intercepts
-     - Least Possible Degree
-   * - Negative
-     - Odd
-     - Q2 to Q4
-     - Point
-     - 4
-     - 3
-     - 5
-   * - Positive
-     - Even
-     - Q2 to Q1
-     - Line
-     - 3
-     - 2
-     - 4
-   * - Positive
-     - Odd
-     - Q3 to Q1
-     - Point
-     - 2
-     - 3
-     - 3
-   * - Negative
-     - Even
-     - Q3 to Q4
-     - None
-     - 5
-     - 5
-     - 6
-
-**3)**
-
-.. list-table::
-   :widths: 24 8 14 12 14 14 14
-   :header-rows: 1
-
-   * - Equation
-     - Degree
-     - Sign of Leading Coefficient
-     - Even or Odd Degree?
-     - End Behaviour
-     - Possible turning points
-     - Possible x-intercepts
-   * - :math:`f(x) = -4x^4 + 3x^2 - 15x + 5`
-     - 4
-     - Negative
-     - Even
-     - Q3 to Q4
-     - 3, 1
-     - 4, 3, 2, 1, 0
-   * - :math:`g(x) = 2x^5 - 4x^3 + 10x^2 - 13x + 8`
-     - 5
-     - Positive
-     - Odd
-     - Q3 to Q1
-     - 4, 2, 0
-     - 5, 4, 3, 2, 1
-   * - :math:`p(x) = 4 - 5x + 4x^2 - 3x^3`
-     - 3
-     - Negative
-     - Odd
-     - Q2 to Q4
-     - 2, 0
-     - 3, 2, 1
-   * - :math:`h(x) = 2x(x-5)(3x+2)(4x-3)`
-     - 4
-     - Positive
-     - Even
-     - Q2 to Q1
-     - 3, 1
-     - 4, 3, 2, 1, 0
 
 **4)** Top row: B, F, D. Bottom row: A, C, E.
 
@@ -490,3 +396,4 @@ Answer Key
 **6)** a) degree 3, :math:`a = 1` b) degree 4, :math:`a = -1`
 
 **7)** a) 144 b) 12 000 c) 69 000
+

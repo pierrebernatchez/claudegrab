@@ -27,11 +27,11 @@ polynomiales paires et impaires.
 Symétrie des fonctions polynomiales
 ================================================================================
 
-**Symétrie par rapport à une droite** -- il existe une droite verticale
+:sol:`Symétrie par rapport à une droite` -- il existe une droite verticale
 par rapport à laquelle le polynôme reste inchangé lorsqu'il est
 réfléchi.
 
-**Symétrie par rapport à un point / Symétrie de rotation** -- il existe
+:sol:`Symétrie par rapport à un point / Symétrie de rotation` -- il existe
 un point autour duquel le polynôme reste inchangé lorsqu'il est tourné
 de 180°
 
@@ -51,21 +51,21 @@ toutes les fonctions paires et impaires :
    * - Une fonction polynomiale de degré pair est une FONCTION PAIRE
        si :
 
-       - Symétrie par rapport à **l'axe des :math:`y`**
-       - L'exposant de chaque terme est **pair**
+       - :sol:`Symétrie par rapport à l'axe des` :solmath:`y`
+       - L'exposant de chaque terme est :sol:`pair`
        - Peut avoir un terme constant
      - Une fonction polynomiale de degré impair est une FONCTION
        IMPAIRE si :
 
-       - Symétrie par rapport à **l'origine (0, 0)**
-       - L'exposant de chaque terme est **impair**
+       - Symétrie par rapport à :sol:`l'origine (0, 0)`
+       - L'exposant de chaque terme est :sol:`impair`
        - Aucun terme constant
    * - **Règle :**
 
-       :math:`f(-x) = f(x)`
+       :solmath:`f(-x) = f(x)`
      - **Règle :**
 
-       :math:`-f(x) = f(-x)`
+       :solmath:`-f(x) = f(-x)`
    * - **Exemple :**
 
        .. image:: ../images/lesson05-image03.png
@@ -76,11 +76,11 @@ toutes les fonctions paires et impaires :
 
        Remarquez :
 
-       :math:`f(1) =` **3**
+       :math:`f(1) =` :sol:`3`
 
-       :math:`f(-1) =` **3**
+       :math:`f(-1) =` :sol:`3`
 
-       :math:`\therefore f(1) = f(-1)`
+       :solmath:`\therefore f(1) = f(-1)`
      - **Exemple :**
 
        .. image:: ../images/lesson05-image04.png
@@ -91,11 +91,11 @@ toutes les fonctions paires et impaires :
 
        Remarquez :
 
-       :math:`f(1) =` **5**
+       :math:`f(1) =` :sol:`5`
 
-       :math:`f(-1) =` **-5**
+       :math:`f(-1) =` :sol:`-5`
 
-       :math:`\therefore -f(1) = f(-1)`
+       :solmath:`\therefore -f(1) = f(-1)`
 
 **Exemple 1 :** Déterminez si chaque fonction est une fonction paire,
 impaire, ou ni l'une ni l'autre. Expliquez comment vous pouvez le
@@ -107,10 +107,16 @@ a\) :math:`y = x^3 - 4x`
    :scale: 50
    :alt: y = x^3 - 4x, point (0,0) marked
 
+.. rst-class:: solution
+
 C'est une **fonction impaire** car :
 
-- Elle a une symétrie par rapport à l'origine
-- Tous les termes de l'équation ont un exposant impair et il n'y a pas
+- .. rst-class:: solution
+
+  Elle a une symétrie par rapport à l'origine
+- .. rst-class:: solution
+
+  Tous les termes de l'équation ont un exposant impair et il n'y a pas
   de terme constant
 
 b\) :math:`y = x^3 - 4x + 2`
@@ -119,12 +125,18 @@ b\) :math:`y = x^3 - 4x + 2`
    :scale: 50
    :alt: y = x^3 - 4x + 2, point (0,2) marked
 
+.. rst-class:: solution
+
 **Ni l'une ni l'autre**
+
+.. rst-class:: solution
 
 Cette fonction a une symétrie par rapport à un point. Cependant,
 l'origine n'est pas le point par rapport auquel la fonction est
 symétrique. Par conséquent, ce n'est pas une fonction paire ou
 impaire.
+
+.. rst-class:: solution
 
 À partir de l'équation, nous pouvons voir que ce n'est PAS une
 fonction impaire car il y a un terme constant.
@@ -135,10 +147,16 @@ c\) :math:`y = x^4 - 4x^2 + 2`
    :scale: 50
    :alt: y = x^4 - 4x^2 + 2
 
+.. rst-class:: solution
+
 C'est une **fonction paire** car :
 
-- Elle a une symétrie par rapport à l'axe des :math:`y`
-- Tous les termes de l'équation ont un exposant pair. Les fonctions
+- .. rst-class:: solution
+
+  Elle a une symétrie par rapport à l'axe des :math:`y`
+- .. rst-class:: solution
+
+  Tous les termes de l'équation ont un exposant pair. Les fonctions
   paires peuvent avoir un terme constant.
 
 d\) :math:`y = 3x^4 + x^3 - 4x^2 + 2`
@@ -147,10 +165,16 @@ d\) :math:`y = 3x^4 + x^3 - 4x^2 + 2`
    :scale: 50
    :alt: y = 3x^4 + x^3 - 4x^2 + 2
 
+.. rst-class:: solution
+
 **Ni l'une ni l'autre**
+
+.. rst-class:: solution
 
 Cette fonction n'a pas de symétrie par rapport à une droite ou à un
 point.
+
+.. rst-class:: solution
 
 À partir de l'équation, nous pouvons voir que ce n'est PAS une
 fonction paire ou impaire car il y a un mélange d'exposants pairs et
@@ -162,12 +186,18 @@ e\) :math:`y = -3x^2 - 6x`
    :scale: 50
    :alt: y = -3x^2 - 6x
 
+.. rst-class:: solution
+
 **Ni l'une ni l'autre**
+
+.. rst-class:: solution
 
 Cette fonction a une symétrie par rapport à une droite. Cependant,
 l'axe des :math:`y` n'est pas la droite par rapport à laquelle la
 fonction est symétrique. Par conséquent, ce n'est pas une fonction
 paire ou impaire.
+
+.. rst-class:: solution
 
 À partir de l'équation, nous pouvons voir que ce n'est PAS une
 fonction paire ou impaire car il y a un mélange d'exposants pairs et
@@ -184,11 +214,15 @@ a\)
 
 i\) aucune symétrie
 
-**ii) symétrie par rapport à un point**
+.. rst-class:: solution
+
+ii\) symétrie par rapport à un point
 
 iii\) symétrie par rapport à une droite
 
-**iv) fonction impaire**
+.. rst-class:: solution
+
+iv\) fonction impaire
 
 v\) fonction paire
 
@@ -198,7 +232,9 @@ b\)
    :scale: 50
    :alt: graph for Example 2b
 
-**i) aucune symétrie**
+.. rst-class:: solution
+
+i\) aucune symétrie
 
 ii\) symétrie par rapport à un point
 
@@ -207,6 +243,8 @@ iii\) symétrie par rapport à une droite
 iv\) fonction impaire
 
 v\) fonction paire
+
+.. rst-class:: solution
 
 Cette fonction n'a pas de symétrie par rapport à une droite ou à un
 point. À partir de l'équation, nous pouvons voir que ce n'est PAS une
@@ -217,7 +255,9 @@ c\) :math:`P(x) = 5x^3 + 3x^2 + 2`
 
 i\) aucune symétrie
 
-**ii) symétrie par rapport à un point**
+.. rst-class:: solution
+
+ii\) symétrie par rapport à un point
 
 iii\) symétrie par rapport à une droite
 
@@ -225,8 +265,7 @@ iv\) fonction impaire
 
 v\) fonction paire
 
-*Remarque : toutes les fonctions cubiques ont une symétrie par rapport
-à un point*
+*Remarque :* :sol:`toutes les fonctions cubiques ont une symétrie par rapport à un point`
 
 d\) :math:`P(x) = x^6 + x^2 - 11`
 
@@ -234,11 +273,15 @@ i\) aucune symétrie
 
 ii\) symétrie par rapport à un point
 
-**iii) symétrie par rapport à une droite**
+.. rst-class:: solution
+
+iii\) symétrie par rapport à une droite
 
 iv\) fonction impaire
 
-**v) fonction paire**
+.. rst-class:: solution
+
+v\) fonction paire
 
 e\)
 
@@ -250,11 +293,15 @@ i\) aucune symétrie
 
 ii\) symétrie par rapport à un point
 
-**iii) symétrie par rapport à une droite**
+.. rst-class:: solution
+
+iii\) symétrie par rapport à une droite
 
 iv\) fonction impaire
 
-**v) fonction paire**
+.. rst-class:: solution
+
+v\) fonction paire
 
 f\)
 
@@ -266,21 +313,29 @@ i\) aucune symétrie
 
 ii\) symétrie par rapport à un point
 
-**iii) symétrie par rapport à une droite**
+.. rst-class:: solution
+
+iii\) symétrie par rapport à une droite
 
 iv\) fonction impaire
 
-**v) fonction paire**
+.. rst-class:: solution
+
+v\) fonction paire
 
 g\) :math:`P(x) = 5x^5 - 4x^3 + 8x`
 
 i\) aucune symétrie
 
-**ii) symétrie par rapport à un point**
+.. rst-class:: solution
+
+ii\) symétrie par rapport à un point
 
 iii\) symétrie par rapport à une droite
 
-**iv) fonction impaire**
+.. rst-class:: solution
+
+iv\) fonction impaire
 
 v\) fonction paire
 
@@ -291,22 +346,30 @@ votre réponse algébriquement.
 
 a\) :math:`f(x) = 2x^4 - 5x^2 + 4`
 
+.. rst-class:: solution
+
 La fonction est paire puisque l'exposant de chaque terme est pair. La
 fonction a une symétrie par rapport à l'axe des :math:`y`.
 
 Vérifiez :math:`f(x) = f(-x)`
 
 .. math::
+   :class: solution
 
    f(-x) = 2(-x)^4 - 5(-x)^2 + 4
 
 .. math::
+   :class: solution
 
    f(-x) = 2x^4 - 5x^2 + 4
+
+.. rst-class:: solution
 
 Donc :math:`f(-x) = f(x)`.
 
 b\) :math:`f(x) = -3x^5 + 9x^3 + 2x`
+
+.. rst-class:: solution
 
 La fonction est impaire puisque l'exposant de chaque terme est
 impair. La fonction a une symétrie par rapport à l'origine.
@@ -314,16 +377,22 @@ impair. La fonction a une symétrie par rapport à l'origine.
 Vérifiez :math:`-f(x) = f(-x)`
 
 .. math::
+   :class: solution
 
    -f(x) = -(-3x^5 + 9x^3 + 2x) = 3x^5 - 9x^3 - 2x
 
 .. math::
+   :class: solution
 
    f(-x) = -3(-x)^5 + 9(-x)^3 + 2(-x) = 3x^5 - 9x^3 - 2x
+
+.. rst-class:: solution
 
 Donc :math:`-f(x) = f(-x)`.
 
 c\) :math:`x^6 - 4x^3 + 6x^2 - 4`
+
+.. rst-class:: solution
 
 Certains exposants sont pairs et d'autres impairs, donc la fonction
 n'est ni paire ni impaire. Elle n'a pas de symétrie par rapport à
@@ -340,44 +409,62 @@ Section 2 : Liens avec l'ensemble de l'unité
 
 a\) les zéros
 
+.. rst-class:: solution
+
 Les zéros sont :math:`-2` (ordre 2), :math:`0` (ordre 1), et :math:`2`
 (ordre 2)
 
 b\) le nombre de points tournants
 
+.. rst-class:: solution
+
 2 minimums locaux et 2 maximums locaux
+
+.. rst-class:: solution
 
 4 points tournants
 
 c\) le degré minimal possible
 
+.. rst-class:: solution
+
 Le degré minimal possible est **5**
 
-b\) toute symétrie présente
+d\) toute symétrie présente
+
+.. rst-class:: solution
 
 Symétrie par rapport à l'origine. Par conséquent, c'est une fonction
 impaire.
 
-c\) les intervalles où :math:`f(x) < 0`
+e\) les intervalles où :math:`f(x) < 0`
+
+.. rst-class:: solution
 
 La fonction est négative sur :math:`(0, 2) \cup (2, \infty)`
 
-d\) Déterminez l'équation sous forme factorisée
+f\) Déterminez l'équation sous forme factorisée
 
 .. math::
+   :class: solution
 
    P(x) = k(x)(x+2)^2(x-2)^2
+
+.. rst-class:: solution
 
 En substituant le point :math:`(-1, 3)` :
 
 .. math::
+   :class: solution
 
    3 = k(-1)(-1+2)^2(-1-2)^2 = k(-1)(1)^2(-3)^2 = -9k
 
 .. math::
+   :class: solution
 
    k = -\dfrac{1}{3}
 
 .. math::
+   :class: solution
 
    P(x) = -\dfrac{1}{3}x(x+2)^2(x-2)^2

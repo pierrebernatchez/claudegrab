@@ -38,16 +38,16 @@ D\) :math:`f(x) = x(x+1)(x-3)(x-5)`
 
    * - .. image:: ../images/worksheet03-image01.png
 
-       **B**
+       :sol:`B`
      - .. image:: ../images/worksheet03-image02.png
 
-       **C**
+       :sol:`C`
      - .. image:: ../images/worksheet03-image03.png
 
-       **A**
+       :sol:`A`
      - .. image:: ../images/worksheet03-image04.png
 
-       **D**
+       :sol:`D`
 
 **2\)** Complétez le tableau
 
@@ -61,28 +61,36 @@ D\) :math:`f(x) = x(x+1)(x-3)(x-5)`
      - Comportement à l'infini
      - Zéros
    * - :math:`f(x) = (x-4)(x+3)(2x-1)`
-     - 3
-     - 2
-     - :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
+     - :sol:`3`
+     - :sol:`2`
+     - .. rst-class:: solution
+
+       :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
        :math:`y \to \infty` lorsque :math:`x \to \infty` (Q3 à Q1)
-     - :math:`(4, 0)`, :math:`(-3, 0)`, :math:`\left(\tfrac{1}{2}, 0\right)`
+     - :solmath:`(4, 0)`, :solmath:`(-3, 0)`, :solmath:`\left(\tfrac{1}{2}, 0\right)`
    * - :math:`g(x) = -2(x+2)(x-2)(1+x)(x-1)`
-     - 4
-     - -2
-     - :math:`y \to -\infty` lorsque :math:`x \to \pm\infty` (Q3 à Q4)
-     - :math:`(-2, 0)`, :math:`(-1, 0)`, :math:`(1, 0)`, :math:`(2, 0)`
+     - :sol:`4`
+     - :sol:`-2`
+     - .. rst-class:: solution
+
+       :math:`y \to -\infty` lorsque :math:`x \to \pm\infty` (Q3 à Q4)
+     - :solmath:`(-2, 0)`, :solmath:`(-1, 0)`, :solmath:`(1, 0)`, :solmath:`(2, 0)`
    * - :math:`h(x) = (3x+2)^2(x-4)(x+1)(2x-3)`
-     - 5
-     - 18
-     - :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
+     - :sol:`5`
+     - :sol:`18`
+     - .. rst-class:: solution
+
+       :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
        :math:`y \to \infty` lorsque :math:`x \to \infty` (Q3 à Q1)
-     - :math:`(4, 0)`, :math:`(-1, 0)`, :math:`\left(-\tfrac{2}{3}, 0\right)`,
-       :math:`\left(\tfrac{3}{2}, 0\right)`
+     - :solmath:`(4, 0)`, :solmath:`(-1, 0)`, :solmath:`\left(-\tfrac{2}{3}, 0\right)`,
+       :solmath:`\left(\tfrac{3}{2}, 0\right)`
    * - :math:`p(x) = -(x+5)^3(x-5)^3`
-     - 6
-     - -1
-     - :math:`y \to -\infty` lorsque :math:`x \to \pm\infty` (Q3 à Q4)
-     - :math:`(-5, 0)`, :math:`(5, 0)`
+     - :sol:`6`
+     - :sol:`-1`
+     - .. rst-class:: solution
+
+       :math:`y \to -\infty` lorsque :math:`x \to \pm\infty` (Q3 à Q4)
+     - :solmath:`(-5, 0)`, :solmath:`(5, 0)`
 
 **3\)** Pour chaque graphique, indiquez...
 
@@ -99,13 +107,13 @@ a\)
    :scale: 50
    :alt: cubique avec zéros -4, -0.5, 1
 
-i\) degré : **3**
+i\) degré : :sol:`3`
 
-   coefficient dominant : **positif**
+   coefficient dominant : :sol:`positif`
 
-ii\) zéros : **-4, -0.5, 1**
+ii\) zéros : :sol:`-4, -0.5, 1`
 
-    facteurs : **(x+4), (2x+1), (x-1)**
+    facteurs : :sol:`(x+4), (2x+1), (x-1)`
 
 iii\)
 
@@ -114,15 +122,15 @@ iii\)
    :header-rows: 0
 
    * - Intervalle
-     - :math:`(-\infty, -4)`
-     - :math:`(-4, -0.5)`
-     - :math:`(-0.5, 1)`
-     - :math:`(1, \infty)`
+     - :solmath:`(-\infty, -4)`
+     - :solmath:`(-4, -0.5)`
+     - :solmath:`(-0.5, 1)`
+     - :solmath:`(1, \infty)`
    * - Signe
-     - ``-``
-     - ``+``
-     - ``-``
-     - ``+``
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
 
 b\)
 
@@ -130,13 +138,13 @@ b\)
    :scale: 50
    :alt: quartique avec zéros -1 (ordre 2), 4 (ordre 2)
 
-i\) degré : **4**
+i\) degré : :sol:`4`
 
-   coefficient dominant : **négatif**
+   coefficient dominant : :sol:`négatif`
 
-ii\) zéros : **-1 (ordre 2), 4 (ordre 2)**
+ii\) zéros : :sol:`-1 (ordre 2), 4 (ordre 2)`
 
-    facteurs : **(x+1)\ :sup:`2`, (x-4)\ :sup:`2`**
+    facteurs : :sol:`(x+1)^2, (x-4)^2`
 
 iii\)
 
@@ -145,13 +153,13 @@ iii\)
    :header-rows: 0
 
    * - Intervalle
-     - :math:`(-\infty, -1)`
-     - :math:`(-1, 4)`
-     - :math:`(4, \infty)`
+     - :solmath:`(-\infty, -1)`
+     - :solmath:`(-1, 4)`
+     - :solmath:`(4, \infty)`
    * - Signe
-     - ``-``
-     - ``-``
-     - ``-``
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
 
 c\)
 
@@ -159,13 +167,13 @@ c\)
    :scale: 50
    :alt: quartique avec zéros -3, 1 (ordre 3)
 
-i\) degré : **4**
+i\) degré : :sol:`4`
 
-   coefficient dominant : **positif**
+   coefficient dominant : :sol:`positif`
 
-ii\) zéros : **-3, 1 (ordre 3)**
+ii\) zéros : :sol:`-3, 1 (ordre 3)`
 
-    facteurs : **(x+3), (x-1)\ :sup:`3`**
+    facteurs : :sol:`(x+3), (x-1)^3`
 
 iii\)
 
@@ -174,13 +182,13 @@ iii\)
    :header-rows: 0
 
    * - Intervalle
-     - :math:`(-\infty, -3)`
-     - :math:`(-3, 1)`
-     - :math:`(1, \infty)`
+     - :solmath:`(-\infty, -3)`
+     - :solmath:`(-3, 1)`
+     - :solmath:`(1, \infty)`
    * - Signe
-     - ``+``
-     - ``-``
-     - ``+``
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
 
 d\)
 
@@ -188,13 +196,13 @@ d\)
    :scale: 50
    :alt: cubique avec zéros -5 (ordre 2), 3
 
-i\) degré : **3**
+i\) degré : :sol:`3`
 
-   coefficient dominant : **négatif**
+   coefficient dominant : :sol:`négatif`
 
-ii\) zéros : **-5 (ordre 2), 3**
+ii\) zéros : :sol:`-5 (ordre 2), 3`
 
-    facteurs : **(x+5)\ :sup:`2`, (x-3)**
+    facteurs : :sol:`(x+5)^2, (x-3)`
 
 iii\)
 
@@ -203,13 +211,13 @@ iii\)
    :header-rows: 0
 
    * - Intervalle
-     - :math:`(-\infty, -5)`
-     - :math:`(-5, 3)`
-     - :math:`(3, \infty)`
+     - :solmath:`(-\infty, -5)`
+     - :solmath:`(-5, 3)`
+     - :solmath:`(3, \infty)`
    * - Signe
-     - ``+``
-     - ``+``
-     - ``-``
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`-`
 
 **4\)** Pour chaque fonction, complétez le tableau et esquissez un
 graphique possible de la fonction en indiquant les points clés.
@@ -225,12 +233,14 @@ a\) :math:`f(x) = -2(x-3)(x+2)(4x-3)`
      - Comportement à l'infini
      - Zéros
      - Ordonnée à l'origine
-   * - 3
-     - -8
-     - :math:`y \to \infty` lorsque :math:`x \to -\infty`;
+   * - :sol:`3`
+     - :sol:`-8`
+     - .. rst-class:: solution
+
+       :math:`y \to \infty` lorsque :math:`x \to -\infty`;
        :math:`y \to -\infty` lorsque :math:`x \to \infty` (Q2 à Q4)
-     - :math:`(3, 0)`, :math:`(-2, 0)`, :math:`\left(\tfrac{3}{4}, 0\right)`
-     - :math:`(0, -36)`
+     - :solmath:`(3, 0)`, :solmath:`(-2, 0)`, :solmath:`\left(\tfrac{3}{4}, 0\right)`
+     - :solmath:`(0, -36)`
 
 .. image:: ../images/worksheet03-image10.png
    :scale: 50
@@ -247,11 +257,13 @@ b\) :math:`g(x) = (x-1)(x+3)(1+x)(3x-9)`
      - Comportement à l'infini
      - Zéros
      - Ordonnée à l'origine
-   * - 4
-     - 3
-     - :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
-     - :math:`(1, 0)`, :math:`(-3, 0)`, :math:`(-1, 0)`, :math:`(3, 0)`
-     - :math:`(0, 27)`
+   * - :sol:`4`
+     - :sol:`3`
+     - .. rst-class:: solution
+
+       :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
+     - :solmath:`(1, 0)`, :solmath:`(-3, 0)`, :solmath:`(-1, 0)`, :solmath:`(3, 0)`
+     - :solmath:`(0, 27)`
 
 .. image:: ../images/worksheet03-image12.png
    :scale: 50
@@ -268,12 +280,16 @@ c\) :math:`h(x) = -(x+4)^2(x-1)^2(x+2)(2x-3)`
      - Comportement à l'infini
      - Zéros
      - Ordonnée à l'origine
-   * - 6
-     - -2
-     - :math:`y \to -\infty` lorsque :math:`x \to \pm\infty` (Q3 à Q4)
-     - :math:`(-4, 0)` ordre 2, :math:`(1, 0)` ordre 2, :math:`(-2, 0)`,
+   * - :sol:`6`
+     - :sol:`-2`
+     - .. rst-class:: solution
+
+       :math:`y \to -\infty` lorsque :math:`x \to \pm\infty` (Q3 à Q4)
+     - .. rst-class:: solution
+
+       :math:`(-4, 0)` ordre 2, :math:`(1, 0)` ordre 2, :math:`(-2, 0)`,
        :math:`(1.5, 0)`
-     - :math:`(0, 96)`
+     - :solmath:`(0, 96)`
 
 .. image:: ../images/worksheet03-image14.png
    :scale: 50
@@ -290,12 +306,16 @@ d\) :math:`p(x) = 3(x+6)(x-5)^2(3x-2)^3`
      - Comportement à l'infini
      - Zéros
      - Ordonnée à l'origine
-   * - 6
-     - 81
-     - :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
-     - :math:`(-6, 0)`, :math:`(5, 0)` ordre 2,
+   * - :sol:`6`
+     - :sol:`81`
+     - .. rst-class:: solution
+
+       :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
+     - .. rst-class:: solution
+
+       :math:`(-6, 0)`, :math:`(5, 0)` ordre 2,
        :math:`\left(\tfrac{2}{3}, 0\right)` ordre 3
-     - :math:`(0, -3600)`
+     - :solmath:`(0, -3600)`
 
 .. image:: ../images/worksheet03-image16.png
    :scale: 50
@@ -311,11 +331,14 @@ a\)
    :scale: 50
    :alt: cubique passant par (-3, 0), (2, 0), (5, 0) et le point (1, 8)
 
+.. rst-class:: solution
+
 Zéros à :math:`-3, 2, 5`, donc :math:`f(x) = a(x+3)(x-2)(x-5)`. En
 substituant :math:`(1, 8)` : :math:`8 = a(4)(-1)(-4) = 16a \implies
 a = 0.5`.
 
 .. math::
+   :class: solution
 
    f(x) = 0.5(x+3)(x-2)(x-5)
 
@@ -326,11 +349,14 @@ b\)
    :alt: quartique touchant (-1, 0), croisant (2, 0) et (4, 0), et le
          point (1, -12)
 
+.. rst-class:: solution
+
 Le graphique touche (sans croiser) à :math:`x = -1`, donc c'est un zéro
 d'ordre 2 : :math:`f(x) = a(x+1)^2(x-2)(x-4)`. En substituant :math:`(1,
 -12)` : :math:`-12 = a(4)(-1)(-3) = 12a \implies a = -1`.
 
 .. math::
+   :class: solution
 
    f(x) = -(x+1)^2(x-2)(x-4)
 
@@ -339,25 +365,35 @@ zéros :math:`-1` (ordre 3) et :math:`3` (ordre 2) et passant par le
 point :math:`(-2, 50)`.
 
 .. math::
+   :class: solution
 
    f(x) = a(x+1)^3(x-3)^2
+
+.. rst-class:: solution
 
 En substituant :math:`(-2, 50)` :
 
 .. math::
+   :class: solution
 
    50 = a(-1)^3(-5)^2 = a(-1)(25) = -25a \implies a = -2
 
 .. math::
+   :class: solution
 
    f(x) = -2(x+1)^3(x-3)^2
 
 **7\)** Déterminez les zéros de :math:`f(x) = (2x^2-x-1)(x^2-3x-4)`.
 
+.. rst-class:: solution
+
 Factorisez chaque trinôme carré : :math:`2x^2-x-1 = (2x+1)(x-1)` et :math:`x^2-3x-4 = (x-4)(x+1)`.
 
 .. math::
+   :class: solution
 
    f(x) = (2x+1)(x-1)(x-4)(x+1)
+
+.. rst-class:: solution
 
 Les zéros sont :math:`x =` **4, 1, -1 et -0.5**.

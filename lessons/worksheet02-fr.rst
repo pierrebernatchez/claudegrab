@@ -210,12 +210,25 @@ F\) :math:`y = 3x^3 + 5x^2 - 3x + 1`
 chaque différence finie constante. Déterminez ensuite la valeur du
 coefficient dominant de chaque fonction polynomiale.
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
+.. rst-class:: keepwithnext
 
-   * - a\) deuxièmes différences = -8
-     - b\) quatrièmes différences = 24
+a\) deuxièmes différences = -8
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+b\) quatrièmes différences = 24
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 **6\)** Utilisez les différences finies pour déterminer le degré et la
 valeur du coefficient dominant de chaque fonction polynomiale.
@@ -341,147 +354,38 @@ dans :math:`t` années peut être modélisée par la fonction
 
    P(t) = 6t^4 - 5t^3 + 200t + 12000
 
+.. rst-class:: keepwithnext
+
 a\) Quelle est la valeur des différences finies constantes ?
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 b\) Quelle est la population actuelle de la ville ?
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 c\) Quelle sera la population de la ville dans 10 ans ?
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Corrigé
 ================================================================================
-
-**1)**
-
-.. list-table::
-   :widths: 12 10 14 10 12 12 14
-   :header-rows: 1
-
-   * - Signe du coefficient dominant
-     - Degré pair ou impair ?
-     - Comportement à l'infini
-     - Symétrie
-     - Nombre de points tournants
-     - Nombre de zéros
-     - Degré minimal possible
-   * - Positif
-     - Pair
-     - Q2 à Q1
-     - Aucune
-     - 3
-     - 4
-     - 4
-   * - Positif
-     - Impair
-     - Q3 à Q1
-     - Aucune
-     - 4
-     - 5
-     - 5
-   * - Négatif
-     - Pair
-     - Q3 à Q4
-     - Aucune
-     - 3
-     - 4
-     - 4
-   * - Négatif
-     - Impair
-     - Q2 à Q4
-     - Aucune
-     - 4
-     - 5
-     - 5
-   * - Négatif
-     - Impair
-     - Q2 à Q4
-     - Point
-     - 2
-     - 3
-     - 3
-
-**2)**
-
-.. list-table::
-   :widths: 12 10 14 10 12 12 14
-   :header-rows: 1
-
-   * - Signe du coefficient dominant
-     - Degré pair ou impair ?
-     - Comportement à l'infini
-     - Symétrie
-     - Nombre de points tournants
-     - Nombre de zéros
-     - Degré minimal possible
-   * - Négatif
-     - Impair
-     - Q2 à Q4
-     - Point
-     - 4
-     - 3
-     - 5
-   * - Positif
-     - Pair
-     - Q2 à Q1
-     - Droite
-     - 3
-     - 2
-     - 4
-   * - Positif
-     - Impair
-     - Q3 à Q1
-     - Point
-     - 2
-     - 3
-     - 3
-   * - Négatif
-     - Pair
-     - Q3 à Q4
-     - Aucune
-     - 5
-     - 5
-     - 6
-
-**3)**
-
-.. list-table::
-   :widths: 24 8 14 12 14 14 14
-   :header-rows: 1
-
-   * - Équation
-     - Degré
-     - Signe du coefficient dominant
-     - Degré pair ou impair ?
-     - Comportement à l'infini
-     - Points tournants possibles
-     - Zéros possibles
-   * - :math:`f(x) = -4x^4 + 3x^2 - 15x + 5`
-     - 4
-     - Négatif
-     - Pair
-     - Q3 à Q4
-     - 3, 1
-     - 4, 3, 2, 1, 0
-   * - :math:`g(x) = 2x^5 - 4x^3 + 10x^2 - 13x + 8`
-     - 5
-     - Positif
-     - Impair
-     - Q3 à Q1
-     - 4, 2, 0
-     - 5, 4, 3, 2, 1
-   * - :math:`p(x) = 4 - 5x + 4x^2 - 3x^3`
-     - 3
-     - Négatif
-     - Impair
-     - Q2 à Q4
-     - 2, 0
-     - 3, 2, 1
-   * - :math:`h(x) = 2x(x-5)(3x+2)(4x-3)`
-     - 4
-     - Positif
-     - Pair
-     - Q2 à Q1
-     - 3, 1
-     - 4, 3, 2, 1, 0
 
 **4)** Rangée du haut : B, F, D. Rangée du bas : A, C, E.
 

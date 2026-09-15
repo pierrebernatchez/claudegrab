@@ -142,16 +142,60 @@ D\) :math:`y = -1.5(x+3)^4 + 4`
 **3\)** Identify the :math:`a`, :math:`k`, :math:`d` and :math:`c` values
 and explain what transformation is occurring to the parent function:
 
+.. rst-class:: keepwithnext
+
 a\) :math:`f(x) = -2(x-1)^2`
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 b\) :math:`g(x) = \left[-\dfrac{1}{3}(x+5)\right]^4 - 1`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 **4\)** Write the full equation given the parent function and the
 transforming function:
 
+.. rst-class:: keepwithnext
+
 a\) :math:`f(x) = x^5`, :math:`g(x) = -3f[2(x+5)] - 1`
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 b\) :math:`f(x) = x^3`, :math:`g(x) = \dfrac{1}{4}f\left[-\dfrac{1}{4}(x-4)\right] + 7`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 **5\)** For the following questions, use the key points of the parent
 function to perform transformations. Graph the parent and transformed
@@ -293,19 +337,51 @@ b\) :math:`f(x) = x^3` :math:`\quad` :math:`g(x) = -f[-2(x+1)] + 6`
 **6\)** Write an equation for the function that results from the given
 transformations.
 
+.. rst-class:: keepwithnext
+
 a\) The function :math:`f(x) = x^4` is translated 2 units to the left
 and 3 units up.
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 b\) The function :math:`f(x) = x^5` is stretched horizontally by a
 factor of 5 and translated 12 units to the left.
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 c\) The function :math:`f(x) = x^4` is stretched vertically by a factor
 of 3, reflected vertically in the :math:`x`-axis, and translated 6
 units down and 1 unit to the left.
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 d\) The function :math:`f(x) = x^6` is reflected vertically in the :math:`x`-axis, stretched horizontally by a factor of 5, reflected
 horizontally in the :math:`y`-axis, and translated 3 units down and 1
 unit to the right.
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Answer Key
 ================================================================================

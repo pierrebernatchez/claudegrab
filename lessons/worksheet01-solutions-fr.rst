@@ -24,17 +24,17 @@ Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`
 **1\)** Déterminez lesquelles des fonctions suivantes sont des fonctions
 polynomiales :
 
-a\) :math:`p(x) = \cos x` --- Non
+a\) :math:`p(x) = \cos x` --- :sol:`Non`
 
-b\) :math:`h(x) = -7x` --- Oui
+b\) :math:`h(x) = -7x` --- :sol:`Oui`
 
-c\) :math:`f(x) = 2x^4` --- Oui
+c\) :math:`f(x) = 2x^4` --- :sol:`Oui`
 
-d\) :math:`y = 3x^5 - 2x^3 + x^2 - 1` --- Oui
+d\) :math:`y = 3x^5 - 2x^3 + x^2 - 1` --- :sol:`Oui`
 
-e\) :math:`k(x) = 8^x` --- Non
+e\) :math:`k(x) = 8^x` --- :sol:`Non`
 
-f\) :math:`y = x^{-3}` --- Non
+f\) :math:`y = x^{-3}` --- :sol:`Non`
 
 **2\)** Indiquez le degré et le coefficient dominant de chaque polynôme
 
@@ -46,23 +46,23 @@ f\) :math:`y = x^{-3}` --- Non
      - Degré
      - Coefficient dominant
    * - :math:`y = 5x^4 - 3x^3 + 4`
-     - 4
-     - 5
+     - :sol:`4`
+     - :sol:`5`
    * - :math:`y = -x + 2`
-     - 1
-     - -1
+     - :sol:`1`
+     - :sol:`-1`
    * - :math:`y = 8x^2`
-     - 2
-     - 8
+     - :sol:`2`
+     - :sol:`8`
    * - :math:`y = -\dfrac{x^3}{4} + 4x - 3`
-     - 3
-     - :math:`-\dfrac{1}{4}`
+     - :sol:`3`
+     - :solmath:`-\dfrac{1}{4}`
    * - :math:`y = -5`
-     - 0
-     - -5
+     - :sol:`0`
+     - :sol:`-5`
    * - :math:`y = x^2 - 3x`
-     - 2
-     - 1
+     - :sol:`2`
+     - :sol:`1`
 
 **3\)** Complétez le tableau suivant
 
@@ -77,35 +77,45 @@ f\) :math:`y = x^{-3}` --- Non
      - Symétrie
      - Comportement à l'infini
    * - .. image:: ../images/worksheet01-image01.png
-     - Pair
-     - Négatif
-     - D: :math:`(-\infty, \infty)`; I: :math:`(-\infty, 0]`
-     - Droite
-     - De Q3 à Q4
+     - :sol:`Pair`
+     - :sol:`Négatif`
+     - .. rst-class:: solution
+
+       D: :math:`(-\infty, \infty)`; I: :math:`(-\infty, 0]`
+     - :sol:`Droite`
+     - :sol:`De Q3 à Q4`
    * - .. image:: ../images/worksheet01-image02.png
-     - Impair
-     - Positif
-     - D: :math:`(-\infty, \infty)`; I: :math:`(-\infty, \infty)`
-     - Point
-     - De Q3 à Q1
+     - :sol:`Impair`
+     - :sol:`Positif`
+     - .. rst-class:: solution
+
+       D: :math:`(-\infty, \infty)`; I: :math:`(-\infty, \infty)`
+     - :sol:`Point`
+     - :sol:`De Q3 à Q1`
    * - .. image:: ../images/worksheet01-image03.png
-     - Impair
-     - Négatif
-     - D: :math:`(-\infty, \infty)`; I: :math:`(-\infty, \infty)`
-     - Point
-     - De Q2 à Q4
+     - :sol:`Impair`
+     - :sol:`Négatif`
+     - .. rst-class:: solution
+
+       D: :math:`(-\infty, \infty)`; I: :math:`(-\infty, \infty)`
+     - :sol:`Point`
+     - :sol:`De Q2 à Q4`
    * - .. image:: ../images/worksheet01-image04.png
-     - Pair
-     - Positif
-     - D: :math:`(-\infty, \infty)`; I: :math:`[0, \infty)`
-     - Droite
-     - De Q2 à Q1
+     - :sol:`Pair`
+     - :sol:`Positif`
+     - .. rst-class:: solution
+
+       D: :math:`(-\infty, \infty)`; I: :math:`[0, \infty)`
+     - :sol:`Droite`
+     - :sol:`De Q2 à Q1`
    * - .. image:: ../images/worksheet01-image05.png
-     - Impair
-     - Négatif
-     - D: :math:`(-\infty, \infty)`; I: :math:`(-\infty, \infty)`
-     - Point
-     - De Q2 à Q4
+     - :sol:`Impair`
+     - :sol:`Négatif`
+     - .. rst-class:: solution
+
+       D: :math:`(-\infty, \infty)`; I: :math:`(-\infty, \infty)`
+     - :sol:`Point`
+     - :sol:`De Q2 à Q4`
 
 **4\)** Associez chaque fonction à son comportement à l'infini
 
@@ -120,13 +130,13 @@ f\) :math:`y = x^{-3}` --- Non
    * - Comportement à l'infini
      - Fonctions
    * - De Q3 à Q1
-     - :math:`y = 4x^5`, :math:`y = 5x`
+     - :solmath:`y = 4x^5`, :solmath:`y = 5x`
    * - De Q2 à Q4
-     - :math:`y = -x^3`, :math:`y = -0.1x^{11}`
+     - :solmath:`y = -x^3`, :solmath:`y = -0.1x^{11}`
    * - De Q2 à Q1
-     - :math:`y = 2x^4`, :math:`y = \dfrac{3}{7}x^2`
+     - :solmath:`y = 2x^4`, :solmath:`y = \dfrac{3}{7}x^2`
    * - De Q3 à Q4
-     - :math:`y = -x^6`, :math:`y = -9x^{10}`
+     - :solmath:`y = -x^6`, :solmath:`y = -9x^{10}`
 
 **5\)** Déterminez si chaque graphique représente une fonction puissance polynomiale, une
 fonction exponentielle, une fonction périodique, ou aucune de ces réponses.
@@ -137,22 +147,22 @@ fonction exponentielle, une fonction périodique, ou aucune de ces réponses.
 
    * - a\)
      - .. image:: ../images/worksheet01-image06.png
-     - Puissance
+     - :sol:`Puissance`
    * - b\)
      - .. image:: ../images/worksheet01-image07.png
-     - Exponentielle
+     - :sol:`Exponentielle`
    * - c\)
      - .. image:: ../images/worksheet01-image08.png
-     - Périodique
+     - :sol:`Périodique`
    * - d\)
      - .. image:: ../images/worksheet01-image09.png
-     - Puissance
+     - :sol:`Puissance`
    * - e\)
      - .. image:: ../images/worksheet01-image10.png
-     - Aucune (racine carrée)
+     - :sol:`Aucune (racine carrée)`
    * - f\)
      - .. image:: ../images/worksheet01-image11.png
-     - Aucune (rationnelle)
+     - :sol:`Aucune (rationnelle)`
    * - g\)
      - .. image:: ../images/worksheet01-image12.png
-     - Puissance
+     - :sol:`Puissance`

@@ -101,11 +101,15 @@ toutes les fonctions paires et impaires :
 impaire, ou ni l'une ni l'autre. Expliquez comment vous pouvez le
 savoir.
 
+.. rst-class:: keepwithnext
+
 a\) :math:`y = x^3 - 4x`
 
 .. image:: ../images/lesson05-image05.png
    :scale: 50
    :alt: y = x^3 - 4x, point (0,0) marked
+
+.. rst-class:: keepwithnext
 
 b\) :math:`y = x^3 - 4x + 2`
 
@@ -113,17 +117,23 @@ b\) :math:`y = x^3 - 4x + 2`
    :scale: 50
    :alt: y = x^3 - 4x + 2, point (0,2) marked
 
+.. rst-class:: keepwithnext
+
 c\) :math:`y = x^4 - 4x^2 + 2`
 
 .. image:: ../images/lesson05-image07.png
    :scale: 50
    :alt: y = x^4 - 4x^2 + 2
 
+.. rst-class:: keepwithnext
+
 d\) :math:`y = 3x^4 + x^3 - 4x^2 + 2`
 
 .. image:: ../images/lesson05-image08.png
    :scale: 50
    :alt: y = 3x^4 + x^3 - 4x^2 + 2
+
+.. rst-class:: keepwithnext
 
 e\) :math:`y = -3x^2 - 6x`
 
@@ -134,118 +144,178 @@ e\) :math:`y = -3x^2 - 6x`
 **Exemple 2 :** Cochez toutes les réponses qui s'appliquent à chaque
 fonction
 
-a\)
+.. container:: keeptogether
 
-.. image:: ../images/lesson05-image10.png
-   :scale: 50
-   :alt: graph for Example 2a
+   a\)
 
-i\) aucune symétrie
+   .. image:: ../images/lesson05-image10.png
+      :scale: 50
+      :alt: graph for Example 2a
 
-ii\) symétrie par rapport à un point
+   i\) aucune symétrie
 
-iii\) symétrie par rapport à une droite
+   ii\) symétrie par rapport à un point
 
-iv\) fonction impaire
+   iii\) symétrie par rapport à une droite
 
-v\) fonction paire
+   iv\) fonction impaire
 
-b\)
+   v\) fonction paire
 
-.. image:: ../images/lesson05-image11.png
-   :scale: 50
-   :alt: graph for Example 2b
+.. container:: keeptogether
 
-i\) aucune symétrie
+   b\)
 
-ii\) symétrie par rapport à un point
+   .. image:: ../images/lesson05-image11.png
+      :scale: 50
+      :alt: graph for Example 2b
 
-iii\) symétrie par rapport à une droite
+   i\) aucune symétrie
 
-iv\) fonction impaire
+   ii\) symétrie par rapport à un point
 
-v\) fonction paire
+   iii\) symétrie par rapport à une droite
 
-c\) :math:`P(x) = 5x^3 + 3x^2 + 2`
+   iv\) fonction impaire
 
-i\) aucune symétrie
+   v\) fonction paire
 
-ii\) symétrie par rapport à un point
+.. container:: keeptogether
 
-iii\) symétrie par rapport à une droite
+   c\) :math:`P(x) = 5x^3 + 3x^2 + 2`
 
-iv\) fonction impaire
+   i\) aucune symétrie
 
-v\) fonction paire
+   ii\) symétrie par rapport à un point
 
-*Remarque :*
+   iii\) symétrie par rapport à une droite
 
-d\) :math:`P(x) = x^6 + x^2 - 11`
+   iv\) fonction impaire
 
-i\) aucune symétrie
+   v\) fonction paire
 
-ii\) symétrie par rapport à un point
+   *Remarque :*
 
-iii\) symétrie par rapport à une droite
+.. container:: keeptogether
 
-iv\) fonction impaire
+   d\) :math:`P(x) = x^6 + x^2 - 11`
 
-v\) fonction paire
+   i\) aucune symétrie
 
-e\)
+   ii\) symétrie par rapport à un point
 
-.. image:: ../images/lesson05-image12.png
-   :scale: 50
-   :alt: graph for Example 2e
+   iii\) symétrie par rapport à une droite
 
-i\) aucune symétrie
+   iv\) fonction impaire
 
-ii\) symétrie par rapport à un point
+   v\) fonction paire
 
-iii\) symétrie par rapport à une droite
+.. container:: keeptogether
 
-iv\) fonction impaire
+   e\)
 
-v\) fonction paire
+   .. image:: ../images/lesson05-image12.png
+      :scale: 50
+      :alt: graph for Example 2e
 
-f\)
+   i\) aucune symétrie
 
-.. image:: ../images/lesson05-image13.png
-   :scale: 50
-   :alt: graph for Example 2f
+   ii\) symétrie par rapport à un point
 
-i\) aucune symétrie
+   iii\) symétrie par rapport à une droite
 
-ii\) symétrie par rapport à un point
+   iv\) fonction impaire
 
-iii\) symétrie par rapport à une droite
+   v\) fonction paire
 
-iv\) fonction impaire
+.. container:: keeptogether
 
-v\) fonction paire
+   f\)
 
-g\) :math:`P(x) = 5x^5 - 4x^3 + 8x`
+   .. image:: ../images/lesson05-image13.png
+      :scale: 50
+      :alt: graph for Example 2f
 
-i\) aucune symétrie
+   i\) aucune symétrie
 
-ii\) symétrie par rapport à un point
+   ii\) symétrie par rapport à un point
 
-iii\) symétrie par rapport à une droite
+   iii\) symétrie par rapport à une droite
 
-iv\) fonction impaire
+   iv\) fonction impaire
 
-v\) fonction paire
+   v\) fonction paire
+
+.. container:: keeptogether
+
+   g\) :math:`P(x) = 5x^5 - 4x^3 + 8x`
+
+   i\) aucune symétrie
+
+   ii\) symétrie par rapport à un point
+
+   iii\) symétrie par rapport à une droite
+
+   iv\) fonction impaire
+
+   v\) fonction paire
 
 **Exemple 3 :** Sans tracer le graphique, déterminez si chaque fonction
 polynomiale a une symétrie par rapport à l'axe des :math:`y`, une
 symétrie par rapport à l'origine, ou ni l'une ni l'autre. Vérifiez
 votre réponse algébriquement.
 
+.. rst-class:: keepwithnext
+
 a\) :math:`f(x) = 2x^4 - 5x^2 + 4`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 b\) :math:`f(x) = -3x^5 + 9x^3 + 2x`
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 c\) :math:`x^6 - 4x^3 + 6x^2 - 4`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Section 2 : Liens avec l'ensemble de l'unité
 ================================================================================
@@ -256,14 +326,70 @@ Section 2 : Liens avec l'ensemble de l'unité
    :scale: 50
    :alt: quintic with local max (-1, 3), touching at -2 and 2, crossing at 0
 
+.. rst-class:: keepwithnext
+
 a\) les zéros
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 b\) le nombre de points tournants
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 c\) le degré minimal possible
 
-b\) toute symétrie présente
+|nbsp|
 
-c\) les intervalles où :math:`f(x) < 0`
+|nbsp|
 
-d\) Déterminez l'équation sous forme factorisée
+.. rst-class:: keepwithnext
+
+d\) toute symétrie présente
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+e\) les intervalles où :math:`f(x) < 0`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+f\) Déterminez l'équation sous forme factorisée
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|

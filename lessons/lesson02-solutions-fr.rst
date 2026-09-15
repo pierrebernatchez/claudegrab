@@ -47,11 +47,11 @@ l'origine) du graphique.
 
 .. container:: keeptogether
 
-   Dans le graphique ci-dessous, (-1, 4) est un **maximum local** et
-   (1, -4) est un **minimum local**. Ce ne sont pas des points minimum et
-   maximum absolus, car il existe d'autres points sur le graphique de la
-   fonction qui sont plus petits et plus grands. On appelle parfois les
-   points minimum et maximum locaux des **points tournants**.
+   Dans le graphique ci-dessous, (-1, 4) est un :sol:`maximum local` et
+   (1, -4) est un :sol:`minimum local`. Ce ne sont pas des points minimum
+   et maximum absolus, car il existe d'autres points sur le graphique de
+   la fonction qui sont plus petits et plus grands. On appelle parfois les
+   points minimum et maximum locaux des :sol:`points tournants`.
 
    .. image:: ../images/lesson02-image01.png
       :scale: 50
@@ -61,8 +61,8 @@ l'origine) du graphique.
 
    Sur le graphique ci-dessous...
 
-   Il y a **3** points minimum/maximum locaux. **2** sont des minimums
-   locaux et **1** est un maximum local.
+   Il y a :sol:`3` points minimum/maximum locaux. :sol:`2` sont des
+   minimums locaux et :sol:`1` est un maximum local.
 
    Un des points minimum locaux est aussi un minimum absolu (celui de
    droite).
@@ -89,79 +89,91 @@ donnés :
    * - :math:`f(x) = x^2 + 4x - 5`
 
        .. image:: ../images/lesson02-image03.png
-     - 2
-     - Pair
-     - 1
-     - :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
-     - 1
-     - 2
+     - :sol:`2`
+     - :sol:`Pair`
+     - :sol:`1`
+     - .. rst-class:: solution
+
+       :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
+     - :sol:`1`
+     - :sol:`2`
    * - :math:`f(x) = 3x^4 - 4x^3 - 4x^2 + 5x + 5`
 
        .. image:: ../images/lesson02-image04.png
-     - 4
-     - Pair
-     - 3
-     - :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
-     - 3
-     - 0
+     - :sol:`4`
+     - :sol:`Pair`
+     - :sol:`3`
+     - .. rst-class:: solution
+
+       :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
+     - :sol:`3`
+     - :sol:`0`
    * - :math:`f(x) = x^3 - 2x`
 
        .. image:: ../images/lesson02-image05.png
-     - 3
-     - Impair
-     - 1
-     - :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
+     - :sol:`3`
+     - :sol:`Impair`
+     - :sol:`1`
+     - .. rst-class:: solution
+
+       :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
        :math:`y \to \infty` lorsque :math:`x \to \infty` (Q3 à Q1)
-     - 2
-     - 3
+     - :sol:`2`
+     - :sol:`3`
    * - :math:`f(x) = -x^4 - 2x^3 + x^2 + 2x`
 
        .. image:: ../images/lesson02-image06.png
-     - 4
-     - Pair
-     - -1
-     - :math:`y \to -\infty` lorsque :math:`x \to \pm\infty` (Q3 à Q4)
-     - 3
-     - 4
+     - :sol:`4`
+     - :sol:`Pair`
+     - :sol:`-1`
+     - .. rst-class:: solution
+
+       :math:`y \to -\infty` lorsque :math:`x \to \pm\infty` (Q3 à Q4)
+     - :sol:`3`
+     - :sol:`4`
    * - :math:`f(x) = 2x^6 - 12x^4 + 18x^2 + x - 10`
 
        .. image:: ../images/lesson02-image07.png
-     - 6
-     - Pair
-     - 2
-     - :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
-     - 5
-     - 2
+     - :sol:`6`
+     - :sol:`Pair`
+     - :sol:`2`
+     - .. rst-class:: solution
+
+       :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
+     - :sol:`5`
+     - :sol:`2`
    * - :math:`f(x) = 2x^5 + 7x^4 - 3x^3 - 18x^2 + 5`
 
        .. image:: ../images/lesson02-image08.png
-     - 5
-     - Impair
-     - 2
-     - :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
+     - :sol:`5`
+     - :sol:`Impair`
+     - :sol:`2`
+     - .. rst-class:: solution
+
+       :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
        :math:`y \to \infty` lorsque :math:`x \to \infty` (Q3 à Q1)
-     - 4
-     - 5
+     - :sol:`4`
+     - :sol:`5`
 
 **Résumé des observations :**
 
-- Une fonction polynomiale de degré :math:`n` a au plus **n - 1** points
-  minimum/maximum (points tournants)
-- Une fonction polynomiale de degré :math:`n` peut avoir jusqu'à **n**
-  zéros distincts (abscisses à l'origine)
-- Si une fonction polynomiale est de degré **impair**, elle doit avoir au
-  moins un zéro, et un nombre pair de points tournants
-- Si une fonction polynomiale est de degré **pair**, elle peut n'avoir
+- Une fonction polynomiale de degré :math:`n` a au plus :solmath:`n - 1`
+  points minimum/maximum (points tournants)
+- Une fonction polynomiale de degré :math:`n` peut avoir jusqu'à
+  :solmath:`n` zéros distincts (abscisses à l'origine)
+- Si une fonction polynomiale est de degré :sol:`impair`, elle doit avoir
+  au moins un zéro, et un nombre pair de points tournants
+- Si une fonction polynomiale est de degré :sol:`pair`, elle peut n'avoir
   aucun zéro, et un nombre impair de points tournants
 
 .. container:: keeptogether
 
    - Une fonction polynomiale de degré impair s'étend...
 
-     - du quadrant **Q3** au quadrant **Q1** si son coefficient dominant
-       est positif
-     - du quadrant **Q2** au quadrant **Q4** si son coefficient dominant
-       est négatif
+     - du quadrant :sol:`Q3` au quadrant :sol:`Q1` si son coefficient
+       dominant est positif
+     - du quadrant :sol:`Q2` au quadrant :sol:`Q4` si son coefficient
+       dominant est négatif
 
    .. list-table::
       :widths: 50 50
@@ -182,10 +194,10 @@ l'infini OPPOSÉS*
 
    - Une fonction polynomiale de degré pair s'étend...
 
-     - du quadrant **Q2** au quadrant **Q1** si son coefficient dominant
-       est positif
-     - du quadrant **Q3** au quadrant **Q4** si son coefficient dominant
-       est négatif
+     - du quadrant :sol:`Q2` au quadrant :sol:`Q1` si son coefficient
+       dominant est positif
+     - du quadrant :sol:`Q3` au quadrant :sol:`Q4` si son coefficient
+       dominant est négatif
 
    .. list-table::
       :widths: 50 50
@@ -216,32 +228,38 @@ l'infini*
    * - :math:`f(x) = 5x^5 + 5x^4 - 2x^3 + 4x^2 - 3x`
 
        .. image:: ../images/lesson02-image09.png
-     - 5
-     - Impair
-     - 5
-     - :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
+     - :sol:`5`
+     - :sol:`Impair`
+     - :sol:`5`
+     - .. rst-class:: solution
+
+       :math:`y \to -\infty` lorsque :math:`x \to -\infty`;
        :math:`y \to \infty` lorsque :math:`x \to \infty` (Q3 à Q1)
-     - 2
-     - 3
+     - :sol:`2`
+     - :sol:`3`
    * - :math:`f(x) = -2x^3 + 4x^2 - 3x - 1`
 
        .. image:: ../images/lesson02-image10.png
-     - 3
-     - Impair
-     - -2
-     - :math:`y \to \infty` lorsque :math:`x \to -\infty`;
+     - :sol:`3`
+     - :sol:`Impair`
+     - :sol:`-2`
+     - .. rst-class:: solution
+
+       :math:`y \to \infty` lorsque :math:`x \to -\infty`;
        :math:`y \to -\infty` lorsque :math:`x \to \infty` (Q2 à Q4)
-     - 0
-     - 1
+     - :sol:`0`
+     - :sol:`1`
    * - :math:`f(x) = x^4 + 2x^3 - 3x - 1`
 
        .. image:: ../images/lesson02-image11.png
-     - 4
-     - Pair
-     - 1
-     - :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
-     - 1
-     - 2
+     - :sol:`4`
+     - :sol:`Pair`
+     - :sol:`1`
+     - .. rst-class:: solution
+
+       :math:`y \to \infty` lorsque :math:`x \to \pm\infty` (Q2 à Q1)
+     - :sol:`1`
+     - :sol:`2`
 
 **Exemple 1 :** Décrivez le comportement à l'infini de chaque fonction, le
 nombre possible de points tournants, et le nombre possible de zéros.
@@ -251,6 +269,8 @@ la fonction
 .. rst-class:: keepwithnext
 
 a\) :math:`f(x) = -3x^5 + 4x^3 - 8x^2 + 7x - 5`
+
+.. rst-class:: solution
 
 Degré 5 (impair), coefficient dominant -3 (négatif). Comportement à
 l'infini : :math:`y \to \infty` lorsque :math:`x \to -\infty`;
@@ -276,6 +296,8 @@ possible de zéros : 1, 3 ou 5.
 .. rst-class:: keepwithnext
 
 b\) :math:`g(x) = 2x^4 + x^2 + 2`
+
+.. rst-class:: solution
 
 Degré 4 (pair), coefficient dominant 2 (positif). Comportement à
 l'infini : :math:`y \to \infty` lorsque :math:`x \to \pm\infty`
@@ -306,20 +328,20 @@ l'infini : :math:`y \to \infty` lorsque :math:`x \to \pm\infty`
      - Nombre possible de zéros
      - Nombre possible de points tournants
    * - 1
-     - 1
-     - 0
+     - :sol:`1`
+     - :sol:`0`
    * - 2
-     - 2
-     - 1
+     - :sol:`2`
+     - :sol:`1`
    * - 3
-     - 3
-     - 2
+     - :sol:`3`
+     - :sol:`2`
    * - 4
-     - 4
-     - 3
+     - :sol:`4`
+     - :sol:`3`
    * - 5
-     - 5
-     - 4
+     - :sol:`5`
+     - :sol:`4`
 
 *Remarque : Les fonctions de degré impair doivent avoir un nombre pair de
 points tournants.*
@@ -359,24 +381,24 @@ d\) :math:`p(x) = x^6 - 16x^2 + 3`
 
        .. image:: ../images/lesson02-image28.png
 
-a\) Correspond à **i)**. 3 zéros, 2 minimums/maximums locaux (1 maximum
+a\) :sol:`Correspond à i). 3 zéros, 2 minimums/maximums locaux (1 maximum
 local, 1 minimum local), 0 minimum/maximum absolu. Degré impair (3) : non
-bornée dans les deux directions, donc aucun extremum absolu.
+bornée dans les deux directions, donc aucun extremum absolu.`
 
-b\) Correspond à **ii)**. 4 zéros, 3 minimums/maximums locaux (2 maximums
+b\) :sol:`Correspond à ii). 4 zéros, 3 minimums/maximums locaux (2 maximums
 locaux, 1 minimum local), 1 maximum absolu (le plus grand des deux
 maximums locaux; aucun minimum absolu). Degré pair (4) à coefficient
-dominant négatif : bornée supérieurement, ce qui donne un maximum absolu.
+dominant négatif : bornée supérieurement, ce qui donne un maximum absolu.`
 
-c\) Correspond à **iii)**. 5 zéros, 4 minimums/maximums locaux, 0
+c\) :sol:`Correspond à iii). 5 zéros, 4 minimums/maximums locaux, 0
 minimum/maximum absolu. Degré impair (5) : non bornée dans les deux
-directions, donc aucun extremum absolu.
+directions, donc aucun extremum absolu.`
 
-d\) Correspond à **iv)**. 4 zéros, 3 minimums/maximums locaux (1 maximum
+d\) :sol:`Correspond à iv). 4 zéros, 3 minimums/maximums locaux (1 maximum
 local, 2 minimums locaux), 2 minimums absolus (les deux minimums locaux
 sont égaux, par symétrie; aucun maximum absolu). Degré pair (6) à
 coefficient dominant positif : bornée inférieurement, ce qui donne un
-minimum absolu.
+minimum absolu.`
 
 En général : le nombre maximal possible de points tournants est un de
 moins que le degré, et le nombre maximal possible de zéros est égal au
@@ -427,49 +449,50 @@ c\) la valeur du coefficient dominant
      - S.O.
    * - -2
      - -12
-     - 24
+     - :sol:`24`
      - S.O.
      - S.O.
    * - -1
      - -2
-     - 10
-     - -14
+     - :sol:`10`
+     - :sol:`-14`
      - S.O.
    * - 0
      - 0
-     - 2
-     - -8
-     - 6
+     - :sol:`2`
+     - :sol:`-8`
+     - :sol:`6`
    * - 1
      - 0
-     - 0
-     - -2
-     - 6
+     - :sol:`0`
+     - :sol:`-2`
+     - :sol:`6`
    * - 2
      - 4
-     - 4
-     - 4
-     - 6
+     - :sol:`4`
+     - :sol:`4`
+     - :sol:`6`
    * - 3
      - 18
-     - 14
-     - 10
-     - 6
+     - :sol:`14`
+     - :sol:`10`
+     - :sol:`6`
    * - 4
      - 48
-     - 30
-     - 16
-     - 6
+     - :sol:`30`
+     - :sol:`16`
+     - :sol:`6`
 
-a\) Les troisièmes différences sont constantes, donc le degré est **3**.
+a\) :sol:`Les troisièmes différences sont constantes, donc le degré est 3.`
 
-b\) Les différences constantes (6) sont positives, donc le coefficient
-dominant est **positif**.
+b\) :sol:`Les différences constantes (6) sont positives, donc le
+coefficient dominant est positif.`
 
-c\) Différences troisièmes constantes :math:`= a \cdot 3! = 6a = 6`,
-donc :math:`a =` **1**.
+c\) :sol:`Différences troisièmes constantes` :solmath:`= a \cdot 3! = 6a = 6`
+:sol:`, donc` :solmath:`a = 1`
 
 **Exemple 5 :** Pour la fonction :math:`2x^4 - 4x^2 + x + 1`, quelle est
 la valeur des différences finies constantes ?
 
-Différences finies :math:`= a \cdot n! = 2 \cdot 4! = 2 \times 24 =` **48**
+Différences finies :solmath:`= a \cdot n! = 2 \cdot 4! = 2 \times 24 =`
+:sol:`48`

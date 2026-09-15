@@ -26,7 +26,7 @@ Rappels sur les fonctions
 
 - Une relation est une fonction si, pour chaque valeur de :math:`x`, il n'y a
   qu'une seule valeur de :math:`y` correspondante. Le graphique d'une relation
-  représente une fonction s'il réussit le **test de la droite verticale**,
+  représente une fonction s'il réussit le :sol:`test de la droite verticale`,
   c'est-à-dire si une droite verticale tracée n'importe où sur le graphique
   coupe ce graphique en au plus un point.
 
@@ -34,13 +34,13 @@ Rappels sur les fonctions
      :scale: 50
      :alt: Test de la droite verticale, x = (y-2)^2 + 2 avec la droite verticale x = 6
 
-- Le **domaine** d'une fonction est l'ensemble complet de toutes les valeurs
+- Le :sol:`domaine` d'une fonction est l'ensemble complet de toutes les valeurs
   possibles de la variable indépendante (:math:`x`)
 
   - Ensemble de toutes les valeurs possibles de :math:`x` qui donneront des
     valeurs réelles de :math:`y`
 
-- L'**image** d'une fonction est l'ensemble complet de toutes les valeurs
+- L':sol:`image` d'une fonction est l'ensemble complet de toutes les valeurs
   résultantes possibles de la variable dépendante (:math:`y`)
 
   - Ensemble de toutes les valeurs possibles de :math:`y` obtenues après
@@ -54,9 +54,9 @@ Rappels sur les fonctions
 
 - Le degré d'une fonction est l'exposant le plus élevé dans l'expression
 
-  - :math:`f(x) = 6x^3 - 3x^2 + 4x - 9` a un degré de **3**.
+  - :math:`f(x) = 6x^3 - 3x^2 + 4x - 9` a un degré de :sol:`3`.
 
-- Une **asymptote** est une droite dont une courbe se rapproche de plus en
+- Une :sol:`asymptote` est une droite dont une courbe se rapproche de plus en
   plus sans jamais la toucher.
 
 La fonction :math:`y = \dfrac{1}{x+3}` a deux asymptotes :
@@ -87,21 +87,21 @@ Une **fonction polynomiale** a la forme
 
 - :math:`n` est un nombre naturel
 - :math:`x` est une variable
-- les **coefficients** :math:`a_0, a_1, \ldots, a_n` sont des nombres réels
-- le **degré** de la fonction est :math:`n`, l'exposant de la plus grande
+- les :sol:`coefficients` :math:`a_0, a_1, \ldots, a_n` sont des nombres réels
+- le :sol:`degré` de la fonction est :math:`n`, l'exposant de la plus grande
   puissance de :math:`x`
 - :math:`a_n`, le coefficient de la plus grande puissance de :math:`x`, est
-  le **coefficient dominant**
-- :math:`a_0`, le terme sans variable, est le **terme constant**
+  le :sol:`coefficient dominant`
+- :math:`a_0`, le terme sans variable, est le :sol:`terme constant`
 - Le domaine d'une fonction polynomiale est l'ensemble des nombres réels
-  **(-∞, ∞)**
+  :sol:`(-∞, ∞)`
 - L'image d'une fonction polynomiale peut être l'ensemble des nombres réels,
   ou elle peut avoir une borne inférieure ou une borne supérieure (mais pas
   les deux)
 - Le graphique des fonctions polynomiales n'a pas d'asymptotes horizontales
   ou verticales
-- Les graphiques des fonctions polynomiales de degré 0 sont des **droites
-  horizontales**. La forme des autres graphiques dépend du degré de la
+- Les graphiques des fonctions polynomiales de degré 0 sont des :sol:`droites
+  horizontales`. La forme des autres graphiques dépend du degré de la
   fonction. Cinq formes typiques sont illustrées pour différents degrés :
 
 .. list-table::
@@ -124,7 +124,7 @@ Une **fonction polynomiale** a la forme
 
        Quintique (n = 5)
 
-Un **monôme** est le type le plus simple de fonction polynomiale et a la
+Un :sol:`monôme` est le type le plus simple de fonction polynomiale et a la
 forme :
 
 .. math::
@@ -144,14 +144,22 @@ chaque fonction polynomiale.
    :header-rows: 0
 
    * - a\) :math:`g(x) = \sin x`
-     - Pas une fonction polynomiale -- fonction trigonométrique, qui n'est
+     - .. rst-class:: solution
+
+       Pas une fonction polynomiale -- fonction trigonométrique, qui n'est
        pas une somme de puissances entières de :math:`x`.
    * - b\) :math:`f(x) = 2x^4`
-     - Fonction polynomiale. Degré 4, coefficient dominant 2.
+     - .. rst-class:: solution
+
+       Fonction polynomiale. Degré 4, coefficient dominant 2.
    * - c\) :math:`y = x^3 - 5x^2 + 6x - 8`
-     - Fonction polynomiale. Degré 3, coefficient dominant 1.
+     - .. rst-class:: solution
+
+       Fonction polynomiale. Degré 3, coefficient dominant 1.
    * - d\) :math:`g(x) = 3^x`
-     - Pas une fonction polynomiale -- fonction exponentielle, la variable
+     - .. rst-class:: solution
+
+       Pas une fonction polynomiale -- fonction exponentielle, la variable
        est en exposant.
 
 Notation d'intervalle
@@ -171,13 +179,13 @@ de nombres réels peuvent être décrits de plusieurs façons :
 
 Remarque :
 
-- Les intervalles infinis s'expriment à l'aide de **l'infini**
-  (:math:`\infty`) ou de **l'infini négatif** (:math:`-\infty`)
-- **Les crochets** :math:`[\ ]` indiquent que la valeur limite est incluse
+- Les intervalles infinis s'expriment à l'aide de :sol:`l'infini`
+  (:solmath:`\infty`) ou de :sol:`l'infini négatif` (:solmath:`-\infty`)
+- :sol:`Les crochets` :solmath:`[\ ]` indiquent que la valeur limite est incluse
   dans l'intervalle
-- **Les parenthèses** :math:`(\ )` indiquent que la valeur limite n'est PAS
+- :sol:`Les parenthèses` :solmath:`(\ )` indiquent que la valeur limite n'est PAS
   incluse dans l'intervalle
-- Une **parenthèse (ouverte)** est toujours utilisée à l'infini et à
+- Une :sol:`parenthèse (ouverte)` est toujours utilisée à l'infini et à
   l'infini négatif
 
 **Exemple 2 :** Voici les graphiques de fonctions puissance polynomiales courantes.
@@ -197,45 +205,45 @@ Utilisez le graphique pour compléter le tableau.
    * - :math:`y = x`
      - Linéaire
      - .. image:: ../images/lesson01-image10.png
-     - :math:`(-\infty, \infty)`
-     - :math:`(-\infty, \infty)`
-     - :math:`y \to -\infty` (Q3)
-     - :math:`y \to \infty` (Q1)
+     - :solmath:`(-\infty, \infty)`
+     - :solmath:`(-\infty, \infty)`
+     - :solmath:`y \to -\infty` :sol:`(Q3)`
+     - :solmath:`y \to \infty` :sol:`(Q1)`
    * - :math:`y = x^2`
      - Quadratique
      - .. image:: ../images/lesson01-image11.png
-     - :math:`(-\infty, \infty)`
-     - :math:`[0, \infty)`
-     - :math:`y \to \infty` (Q2)
-     - :math:`y \to \infty` (Q1)
+     - :solmath:`(-\infty, \infty)`
+     - :solmath:`[0, \infty)`
+     - :solmath:`y \to \infty` :sol:`(Q2)`
+     - :solmath:`y \to \infty` :sol:`(Q1)`
    * - :math:`y = x^3`
      - Cubique
      - .. image:: ../images/lesson01-image12.png
-     - :math:`(-\infty, \infty)`
-     - :math:`(-\infty, \infty)`
-     - :math:`y \to -\infty` (Q3)
-     - :math:`y \to \infty` (Q1)
+     - :solmath:`(-\infty, \infty)`
+     - :solmath:`(-\infty, \infty)`
+     - :solmath:`y \to -\infty` :sol:`(Q3)`
+     - :solmath:`y \to \infty` :sol:`(Q1)`
    * - :math:`y = x^4`
      - Quartique
      - .. image:: ../images/lesson01-image13.png
-     - :math:`(-\infty, \infty)`
-     - :math:`[0, \infty)`
-     - :math:`y \to \infty` (Q2)
-     - :math:`y \to \infty` (Q1)
+     - :solmath:`(-\infty, \infty)`
+     - :solmath:`[0, \infty)`
+     - :solmath:`y \to \infty` :sol:`(Q2)`
+     - :solmath:`y \to \infty` :sol:`(Q1)`
    * - :math:`y = x^5`
      - Quintique
      - .. image:: ../images/lesson01-image14.png
-     - :math:`(-\infty, \infty)`
-     - :math:`(-\infty, \infty)`
-     - :math:`y \to -\infty` (Q3)
-     - :math:`y \to \infty` (Q1)
+     - :solmath:`(-\infty, \infty)`
+     - :solmath:`(-\infty, \infty)`
+     - :solmath:`y \to -\infty` :sol:`(Q3)`
+     - :solmath:`y \to \infty` :sol:`(Q1)`
    * - :math:`y = x^6`
      - Sextique
      - .. image:: ../images/lesson01-image15.png
-     - :math:`(-\infty, \infty)`
-     - :math:`[0, \infty)`
-     - :math:`y \to \infty` (Q2)
-     - :math:`y \to \infty` (Q1)
+     - :solmath:`(-\infty, \infty)`
+     - :solmath:`[0, \infty)`
+     - :solmath:`y \to \infty` :sol:`(Q2)`
+     - :solmath:`y \to \infty` :sol:`(Q1)`
 
 Caractéristiques clés des fonctions puissance polynomiales de degré PAIR
 ================================================================================
@@ -246,14 +254,14 @@ Caractéristiques clés des fonctions puissance polynomiales de degré PAIR
 
    * - Lorsque le coefficient dominant (a) est positif
      - Lorsque le coefficient dominant (a) est négatif
-   * - **Comportement à l'infini :** lorsque :math:`x \to \pm\infty`,
-       :math:`y \to \infty` (le graphique va de Q2 à Q1)
-     - **Comportement à l'infini :** lorsque :math:`x \to \pm\infty`,
-       :math:`y \to -\infty` (le graphique va de Q3 à Q4)
-   * - **Domaine :** :math:`(-\infty, \infty)`
-     - **Domaine :** :math:`(-\infty, \infty)`
-   * - **Image :** :math:`[0, \infty)`
-     - **Image :** :math:`(-\infty, 0]`
+   * - **Comportement à l'infini :** :sol:`lorsque` :solmath:`x \to \pm\infty` :sol:`,`
+       :solmath:`y \to \infty` :sol:`(le graphique va de Q2 à Q1)`
+     - **Comportement à l'infini :** :sol:`lorsque` :solmath:`x \to \pm\infty` :sol:`,`
+       :solmath:`y \to -\infty` :sol:`(le graphique va de Q3 à Q4)`
+   * - **Domaine :** :solmath:`(-\infty, \infty)`
+     - **Domaine :** :solmath:`(-\infty, \infty)`
+   * - **Image :** :solmath:`[0, \infty)`
+     - **Image :** :solmath:`(-\infty, 0]`
 
 Exemple :
 
@@ -280,9 +288,9 @@ telles que chacune est le reflet de l'autre.
    :scale: 50
    :alt: Symétrie par rapport à une droite, une courbe symétrique par rapport à la droite x = a
 
-Remarque : les fonctions puissance polynomiales de degré pair (et toute fonction ayant un
+Remarque : :sol:`les fonctions puissance polynomiales de degré pair (et toute fonction ayant un
 seul sommet, comme la parabole illustrée) possèdent une symétrie par rapport
-à la droite verticale passant par leur sommet.
+à la droite verticale passant par leur sommet.`
 
 Caractéristiques clés des fonctions puissance polynomiales de degré IMPAIR
 ================================================================================
@@ -293,16 +301,16 @@ Caractéristiques clés des fonctions puissance polynomiales de degré IMPAIR
 
    * - Lorsque le coefficient dominant (a) est positif
      - Lorsque le coefficient dominant (a) est négatif
-   * - **Comportement à l'infini :** lorsque :math:`x \to -\infty`,
-       :math:`y \to -\infty`; lorsque :math:`x \to \infty`,
-       :math:`y \to \infty` (le graphique va de Q3 à Q1)
-     - **Comportement à l'infini :** lorsque :math:`x \to -\infty`,
-       :math:`y \to \infty`; lorsque :math:`x \to \infty`,
-       :math:`y \to -\infty` (le graphique va de Q2 à Q4)
-   * - **Domaine :** :math:`(-\infty, \infty)`
-     - **Domaine :** :math:`(-\infty, \infty)`
-   * - **Image :** :math:`(-\infty, \infty)`
-     - **Image :** :math:`(-\infty, \infty)`
+   * - **Comportement à l'infini :** :sol:`lorsque` :solmath:`x \to -\infty` :sol:`,`
+       :solmath:`y \to -\infty` :sol:`; lorsque` :solmath:`x \to \infty` :sol:`,`
+       :solmath:`y \to \infty` :sol:`(le graphique va de Q3 à Q1)`
+     - **Comportement à l'infini :** :sol:`lorsque` :solmath:`x \to -\infty` :sol:`,`
+       :solmath:`y \to \infty` :sol:`; lorsque` :solmath:`x \to \infty` :sol:`,`
+       :solmath:`y \to -\infty` :sol:`(le graphique va de Q2 à Q4)`
+   * - **Domaine :** :solmath:`(-\infty, \infty)`
+     - **Domaine :** :solmath:`(-\infty, \infty)`
+   * - **Image :** :solmath:`(-\infty, \infty)`
+     - **Image :** :solmath:`(-\infty, \infty)`
 
 Exemple :
 
@@ -330,8 +338,8 @@ de :math:`(a, b)`.
    :scale: 50
    :alt: Symétrie par rapport à un point, une courbe en S avec symétrie par rapport à (a, b)
 
-Remarque : les fonctions puissance polynomiales de degré impair possèdent une symétrie
-par rapport à l'origine :math:`(0, 0)`.
+Remarque : :sol:`les fonctions puissance polynomiales de degré impair possèdent une symétrie
+par rapport à l'origine` :solmath:`(0, 0)`:sol:`.`
 
 **Exemple 3 :** Inscrivez chaque fonction dans la rangée appropriée de la
 deuxième colonne du tableau. Justifiez vos choix.
@@ -347,22 +355,30 @@ deuxième colonne du tableau. Justifiez vos choix.
      - Fonctions
      - Justifications
    * - De Q3 à Q1
-     - :math:`y = 2x`, :math:`y = x^7`
-     - Degré impair avec un coefficient dominant positif : lorsque
+     - :solmath:`y = 2x`, :solmath:`y = x^7`
+     - .. rst-class:: solution
+
+       Degré impair avec un coefficient dominant positif : lorsque
        :math:`x \to -\infty`, :math:`y \to -\infty`; lorsque
        :math:`x \to \infty`, :math:`y \to \infty`.
    * - De Q2 à Q4
-     - :math:`y = -\dfrac{2}{5}x^9`, :math:`y = -4x^5`
-     - Degré impair avec un coefficient dominant négatif : lorsque
+     - :solmath:`y = -\dfrac{2}{5}x^9`, :solmath:`y = -4x^5`
+     - .. rst-class:: solution
+
+       Degré impair avec un coefficient dominant négatif : lorsque
        :math:`x \to -\infty`, :math:`y \to \infty`; lorsque
        :math:`x \to \infty`, :math:`y \to -\infty`.
    * - De Q2 à Q1
-     - :math:`y = 5x^6`, :math:`y = x^{10}`
-     - Degré pair avec un coefficient dominant positif : lorsque
+     - :solmath:`y = 5x^6`, :solmath:`y = x^{10}`
+     - .. rst-class:: solution
+
+       Degré pair avec un coefficient dominant positif : lorsque
        :math:`x \to \pm\infty`, :math:`y \to \infty`.
    * - De Q3 à Q4
-     - :math:`y = -3x^2`, :math:`y = -0.5x^8`
-     - Degré pair avec un coefficient dominant négatif : lorsque
+     - :solmath:`y = -3x^2`, :solmath:`y = -0.5x^8`
+     - .. rst-class:: solution
+
+       Degré pair avec un coefficient dominant négatif : lorsque
        :math:`x \to \pm\infty`, :math:`y \to -\infty`.
 
 Exemple 4
@@ -379,36 +395,36 @@ a\) :math:`y = -x`
    .. image:: ../images/lesson01-image22.png
       :scale: 50
 
-   i\) Domaine : :math:`(-\infty, \infty)` Image : :math:`(-\infty, \infty)`
+   i\) Domaine : :solmath:`(-\infty, \infty)` Image : :solmath:`(-\infty, \infty)`
 
-   ii\) Lorsque :math:`x \to -\infty`, :math:`y \to \infty` et lorsque
-       :math:`x \to \infty`, :math:`y \to -\infty`
-       Le graphique va de Q2 à Q4
+   ii\) Lorsque :solmath:`x \to -\infty`, :solmath:`y \to \infty` et lorsque
+       :solmath:`x \to \infty`, :solmath:`y \to -\infty`
+       Le graphique va de :sol:`Q2 à Q4`
 
-   iii\) Symétrie par rapport à l'origine :math:`(0, 0)` (fonction impaire)
+   iii\) :sol:`Symétrie par rapport à l'origine` :solmath:`(0, 0)` :sol:`(fonction impaire)`
 
 b\) :math:`y = 0.5x^2`
 
    .. image:: ../images/lesson01-image23.png
       :scale: 50
 
-   i\) Domaine : :math:`(-\infty, \infty)` Image : :math:`[0, \infty)`
+   i\) Domaine : :solmath:`(-\infty, \infty)` Image : :solmath:`[0, \infty)`
 
-   ii\) Lorsque :math:`x \to -\infty`, :math:`y \to \infty` et lorsque
-       :math:`x \to \infty`, :math:`y \to \infty`
-       Le graphique va de Q2 à Q1
+   ii\) Lorsque :solmath:`x \to -\infty`, :solmath:`y \to \infty` et lorsque
+       :solmath:`x \to \infty`, :solmath:`y \to \infty`
+       Le graphique va de :sol:`Q2 à Q1`
 
-   iii\) Symétrie par rapport à l'axe des :math:`y` (:math:`x = 0`)
+   iii\) :sol:`Symétrie par rapport à l'axe des` :solmath:`y` :solmath:`(x = 0)`
 
 c\) :math:`y = 4x^3`
 
    .. image:: ../images/lesson01-image24.png
       :scale: 50
 
-   i\) Domaine : :math:`(-\infty, \infty)` Image : :math:`(-\infty, \infty)`
+   i\) Domaine : :solmath:`(-\infty, \infty)` Image : :solmath:`(-\infty, \infty)`
 
-   ii\) Lorsque :math:`x \to -\infty`, :math:`y \to -\infty` et lorsque
-       :math:`x \to \infty`, :math:`y \to \infty`
-       Le graphique va de Q3 à Q1
+   ii\) Lorsque :solmath:`x \to -\infty`, :solmath:`y \to -\infty` et lorsque
+       :solmath:`x \to \infty`, :solmath:`y \to \infty`
+       Le graphique va de :sol:`Q3 à Q1`
 
-   iii\) Symétrie par rapport à l'origine :math:`(0, 0)` (fonction impaire)
+   iii\) :sol:`Symétrie par rapport à l'origine` :solmath:`(0, 0)` :sol:`(fonction impaire)`

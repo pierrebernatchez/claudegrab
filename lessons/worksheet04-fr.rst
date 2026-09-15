@@ -143,16 +143,60 @@ suivantes :
 **3\)** Déterminez les valeurs de :math:`a`, :math:`k`, :math:`d` et :math:`c` et expliquez quelle transformation est appliquée à la
 fonction mère :
 
+.. rst-class:: keepwithnext
+
 a\) :math:`f(x) = -2(x-1)^2`
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 b\) :math:`g(x) = \left[-\dfrac{1}{3}(x+5)\right]^4 - 1`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 **4\)** Écrivez l'équation complète à partir de la fonction mère et de
 la fonction transformatrice :
 
+.. rst-class:: keepwithnext
+
 a\) :math:`f(x) = x^5`, :math:`g(x) = -3f[2(x+5)] - 1`
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 b\) :math:`f(x) = x^3`, :math:`g(x) = \dfrac{1}{4}f\left[-\dfrac{1}{4}(x-4)\right] + 7`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 **5\)** Pour les questions suivantes, utilisez les points clés de la
 fonction mère pour effectuer les transformations. Tracez la fonction
@@ -291,19 +335,51 @@ b\) :math:`f(x) = x^3` :math:`\quad` :math:`g(x) = -f[-2(x+1)] + 6`
 **6\)** Écrivez une équation pour la fonction qui résulte des
 transformations données.
 
+.. rst-class:: keepwithnext
+
 a\) La fonction :math:`f(x) = x^4` est translatée de 2 unités vers la
 gauche et de 3 unités vers le haut.
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 b\) La fonction :math:`f(x) = x^5` est étirée horizontalement par un
 facteur de 5 et translatée de 12 unités vers la gauche.
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 c\) La fonction :math:`f(x) = x^4` est étirée verticalement par un
 facteur de 3, réfléchie verticalement par rapport à l'axe des :math:`x`, et translatée de 6 unités vers le bas et de 1 unité vers la
 gauche.
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 d\) La fonction :math:`f(x) = x^6` est réfléchie verticalement par rapport à l'axe des :math:`x`, étirée horizontalement par un facteur de
 5, réfléchie horizontalement par rapport à l'axe des :math:`y`, et
 translatée de 3 unités vers le bas et de 1 unité vers la droite.
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Corrigé
 ================================================================================

@@ -208,23 +208,23 @@ F\) :math:`y = 3x^3 + 5x^2 - 3x + 1`
 each constant finite difference. Then determine the value of the leading
 coefficient for each polynomial function.
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
 
-   * - a\) second differences = -8
+a\) second differences = -8
 
-       .. rst-class:: solution
+.. rst-class:: solution
 
-       Constant :math:`n^{th}` differences :math:`= a \cdot n!`. Second
-       differences constant :math:`\Rightarrow` degree **2**.
-       :math:`2a = -8 \Rightarrow a =` **-4**
-     - b\) fourth differences = 24
+Constant :math:`n^{th}` differences :math:`= a \cdot n!`. Second
+differences constant :math:`\Rightarrow` degree **2**.
+:math:`2a = -8 \Rightarrow a =` **-4**
 
-       .. rst-class:: solution
 
-       Fourth differences constant :math:`\Rightarrow` degree **4**.
-       :math:`24a = 24 \Rightarrow a =` **1**
+b\) fourth differences = 24
+
+.. rst-class:: solution
+
+Fourth differences constant :math:`\Rightarrow` degree **4**.
+:math:`24a = 24 \Rightarrow a =` **1**
+
 
 **6\)** Use finite differences to determine the degree and value of the
 leading coefficient for each polynomial function.

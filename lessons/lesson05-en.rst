@@ -98,11 +98,15 @@ functions:
 **Example 1:** Identify each function as an even function, odd
 function, or neither. Explain how you can tell.
 
+.. rst-class:: keepwithnext
+
 a\) :math:`y = x^3 - 4x`
 
 .. image:: ../images/lesson05-image05.png
    :scale: 50
    :alt: y = x^3 - 4x, point (0,0) marked
+
+.. rst-class:: keepwithnext
 
 b\) :math:`y = x^3 - 4x + 2`
 
@@ -110,17 +114,23 @@ b\) :math:`y = x^3 - 4x + 2`
    :scale: 50
    :alt: y = x^3 - 4x + 2, point (0,2) marked
 
+.. rst-class:: keepwithnext
+
 c\) :math:`y = x^4 - 4x^2 + 2`
 
 .. image:: ../images/lesson05-image07.png
    :scale: 50
    :alt: y = x^4 - 4x^2 + 2
 
+.. rst-class:: keepwithnext
+
 d\) :math:`y = 3x^4 + x^3 - 4x^2 + 2`
 
 .. image:: ../images/lesson05-image08.png
    :scale: 50
    :alt: y = 3x^4 + x^3 - 4x^2 + 2
+
+.. rst-class:: keepwithnext
 
 e\) :math:`y = -3x^2 - 6x`
 
@@ -130,117 +140,177 @@ e\) :math:`y = -3x^2 - 6x`
 
 **Example 2:** Choose all that apply for each function
 
-a\)
+.. container:: keeptogether
 
-.. image:: ../images/lesson05-image10.png
-   :scale: 50
-   :alt: graph for Example 2a
+   a\)
 
-i\) no symmetry
+   .. image:: ../images/lesson05-image10.png
+      :scale: 50
+      :alt: graph for Example 2a
 
-ii\) point symmetry
+   i\) no symmetry
 
-iii\) line symmetry
+   ii\) point symmetry
 
-iv\) odd function
+   iii\) line symmetry
 
-v\) even function
+   iv\) odd function
 
-b\)
+   v\) even function
 
-.. image:: ../images/lesson05-image11.png
-   :scale: 50
-   :alt: graph for Example 2b
+.. container:: keeptogether
 
-i\) no symmetry
+   b\)
 
-ii\) point symmetry
+   .. image:: ../images/lesson05-image11.png
+      :scale: 50
+      :alt: graph for Example 2b
 
-iii\) line symmetry
+   i\) no symmetry
 
-iv\) odd function
+   ii\) point symmetry
 
-v\) even function
+   iii\) line symmetry
 
-c\) :math:`P(x) = 5x^3 + 3x^2 + 2`
+   iv\) odd function
 
-i\) no symmetry
+   v\) even function
 
-ii\) point symmetry
+.. container:: keeptogether
 
-iii\) line symmetry
+   c\) :math:`P(x) = 5x^3 + 3x^2 + 2`
 
-iv\) odd function
+   i\) no symmetry
 
-v\) even function
+   ii\) point symmetry
 
-*Note:*
+   iii\) line symmetry
 
-d\) :math:`P(x) = x^6 + x^2 - 11`
+   iv\) odd function
 
-i\) no symmetry
+   v\) even function
 
-ii\) point symmetry
+   *Note:*
 
-iii\) line symmetry
+.. container:: keeptogether
 
-iv\) odd function
+   d\) :math:`P(x) = x^6 + x^2 - 11`
 
-v\) even function
+   i\) no symmetry
 
-e\)
+   ii\) point symmetry
 
-.. image:: ../images/lesson05-image12.png
-   :scale: 50
-   :alt: graph for Example 2e
+   iii\) line symmetry
 
-i\) no symmetry
+   iv\) odd function
 
-ii\) point symmetry
+   v\) even function
 
-iii\) line symmetry
+.. container:: keeptogether
 
-iv\) odd function
+   e\)
 
-v\) even function
+   .. image:: ../images/lesson05-image12.png
+      :scale: 50
+      :alt: graph for Example 2e
 
-f\)
+   i\) no symmetry
 
-.. image:: ../images/lesson05-image13.png
-   :scale: 50
-   :alt: graph for Example 2f
+   ii\) point symmetry
 
-i\) no symmetry
+   iii\) line symmetry
 
-ii\) point symmetry
+   iv\) odd function
 
-iii\) line symmetry
+   v\) even function
 
-iv\) odd function
+.. container:: keeptogether
 
-v\) even function
+   f\)
 
-g\) :math:`P(x) = 5x^5 - 4x^3 + 8x`
+   .. image:: ../images/lesson05-image13.png
+      :scale: 50
+      :alt: graph for Example 2f
 
-i\) no symmetry
+   i\) no symmetry
 
-ii\) point symmetry
+   ii\) point symmetry
 
-iii\) line symmetry
+   iii\) line symmetry
 
-iv\) odd function
+   iv\) odd function
 
-v\) even function
+   v\) even function
+
+.. container:: keeptogether
+
+   g\) :math:`P(x) = 5x^5 - 4x^3 + 8x`
+
+   i\) no symmetry
+
+   ii\) point symmetry
+
+   iii\) line symmetry
+
+   iv\) odd function
+
+   v\) even function
 
 **Example 3:** Without graphing, determine if each polynomial function
 has line symmetry about the y-axis, point symmetry about the origin, or
 neither. Verify your response algebraically.
 
+.. rst-class:: keepwithnext
+
 a\) :math:`f(x) = 2x^4 - 5x^2 + 4`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 b\) :math:`f(x) = -3x^5 + 9x^3 + 2x`
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 c\) :math:`x^6 - 4x^3 + 6x^2 - 4`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Section 2: Connecting from throughout the unit
 ================================================================================
@@ -251,14 +321,70 @@ Section 2: Connecting from throughout the unit
    :scale: 50
    :alt: quintic with local max (-1, 3), touching at -2 and 2, crossing at 0
 
+.. rst-class:: keepwithnext
+
 a\) :math:`x`-intercepts
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 b\) number of turning points
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 c\) least possible degree
 
-b\) any symmetry present
+|nbsp|
 
-c\) the intervals where :math:`f(x) < 0`
+|nbsp|
 
-d\) Find the equation in factored form
+.. rst-class:: keepwithnext
+
+d\) any symmetry present
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+e\) the intervals where :math:`f(x) < 0`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+f\) Find the equation in factored form
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|

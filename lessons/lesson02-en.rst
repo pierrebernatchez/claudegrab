@@ -397,13 +397,69 @@ d\) :math:`p(x) = x^6 - 16x^2 + 3`
 
        .. image:: ../images/lesson02-image28.png
 
+.. rst-class:: keepwithnext
+
 a\)
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 b\)
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 c\)
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 d\)
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Finite Differences
 ================================================================================
@@ -481,11 +537,35 @@ c\) the value of the leading coefficient
      - |nbsp|
      - |nbsp|
 
+.. rst-class:: keepwithnext
+
 a\)
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
 
 b\)
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
 c\)
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 **Example 5:** For the function :math:`2x^4 - 4x^2 + x + 1` what is the
 value of the constant finite differences?

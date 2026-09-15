@@ -27,25 +27,36 @@ une symétrie par rapport à l'origine, ou ni l'une ni l'autre ?
 
 a\) :math:`y = x^4 - x^2`
 
+.. rst-class:: solution
+
 **Paire**, symétrie par rapport à l'axe des :math:`y`
 
 b\) :math:`y = -2x^3 + 5x`
+
+.. rst-class:: solution
 
 **Impaire**, symétrie par rapport à l'origine
 
 c\) :math:`y = -4x^5 + 2x^2`
 
+.. rst-class:: solution
+
 **Ni l'une ni l'autre**
 
 d\) :math:`y = x(2x+1)^2(x-4)`
 
+.. rst-class:: solution
+
 **Ni l'une ni l'autre**
 
 .. math::
+   :class: solution
 
    x(2x+1)^2(x-4) = 4x^4 - 12x^3 - 15x^2 - 4x
 
 e\) :math:`y = -2x^6 + x^4 + 8`
+
+.. rst-class:: solution
 
 **Paire**, symétrie par rapport à l'axe des :math:`y`
 
@@ -54,21 +65,31 @@ algébriquement.
 
 a\) :math:`f(x) = x^4 - 13x^2 + 36`
 
+.. rst-class:: solution
+
 **Paire**
 
 .. math::
+   :class: solution
 
    f(-x) = (-x)^4 - 13(-x)^2 + 36 = x^4 - 13x^2 + 36
+
+.. rst-class:: solution
 
 Donc :math:`f(-x) = f(x)`.
 
 b\) :math:`g(x) = 6x^5 - 7x^3 - 3x`
 
+.. rst-class:: solution
+
 **Impaire**
 
 .. math::
+   :class: solution
 
    g(-x) = 6(-x)^5 - 7(-x)^3 - 3(-x) = -6x^5 + 7x^3 + 3x
+
+.. rst-class:: solution
 
 Donc :math:`g(-x) = -g(x)`.
 
@@ -80,23 +101,32 @@ Donc :math:`g(-x) = -g(x)`.
 
 a\) les zéros
 
+.. rst-class:: solution
+
 Les zéros sont :math:`-1` (ordre 2), :math:`2`, et :math:`4`
 
 b\) le nombre de points tournants
+
+.. rst-class:: solution
 
 **3**
 
 c\) le degré minimal possible
 
+.. rst-class:: solution
+
 **4**
 
 d\) toute symétrie présente; fonction paire ou impaire ?
+
+.. rst-class:: solution
 
 **Aucune symétrie, ni l'une ni l'autre**
 
 e\) les intervalles où :math:`f(x) < 0`
 
 .. math::
+   :class: solution
 
    x \in (-\infty, -1) \cup (-1, 2) \cup (4, \infty)
 
@@ -109,13 +139,13 @@ l'autre
 
    * - .. image:: ../images/worksheet05-image02.png
 
-       **Impaire**
+       :sol:`Impaire`
      - .. image:: ../images/worksheet05-image03.png
 
-       **Ni l'une ni l'autre**
+       :sol:`Ni l'une ni l'autre`
      - .. image:: ../images/worksheet05-image04.png
 
-       **Paire**
+       :sol:`Paire`
      - .. image:: ../images/worksheet05-image05.png
 
-       **Ni l'une ni l'autre**
+       :sol:`Ni l'une ni l'autre`
