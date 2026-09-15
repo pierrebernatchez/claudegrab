@@ -192,16 +192,52 @@ def _row_bands(mask, gap_tolerance=2):
     return bands
 
 
-def _locate_bands(mask, array_row_count):
+def _locate_bands(mask, array_row_count, rule_height=6):
     """Find (row_extent_fn, array_bands, remainder_band) in a rendered
     poly-tableau page: array_bands are the array_row_count row-bands for
     the array's own rows, in order; remainder_band is the "R = ..." line
     right after them. Shared by draw_poly_lines and reposition_remainder
     since both need the same row layout.
+
+    Bug fixed here (found via direct pixel investigation, not assumption):
+    an earlier version picked the array's rows as "the array_row_count
+    text bands immediately before the LAST text band on the page,
+    treating that last one as the remainder." That silently assumed the
+    remainder line is the last text content on the page -- true only if
+    nothing else renders below it. It isn't: every page also has a
+    footer copyright line, which is its own text band strictly below the
+    footer rule. That extra trailing band shifted the entire selection
+    by one: array_bands[0] actually held the TRUE dividend row's band,
+    array_bands[1] (used by draw_poly_lines as "the dividend row") held
+    the true first PRODUCT row's band, and the computed "remainder"
+    was actually the tableau's own last product row -- confirmed by
+    rendering u2lesson01-tabimage03.png and finding its overline drawn
+    between the true dividend and true first-product rows instead of
+    between the quotient and the dividend, exactly matching this
+    off-by-one. Fixed the same way autocrop_tableau already correctly
+    bounds content: find the header/footer rule lines (thin bands, a few
+    px tall vs. 20-45px for text) and only ever look at text bands
+    strictly between them, which excludes the footer copyright line (and
+    anything else outside the rules) by construction rather than by
+    assuming it's the last thing on the page.
     """
     page_width = mask.shape[1]
     bands = _row_bands(mask)
-    text_bands = [b for b in bands if (b[1] - b[0]) > 10]
+    heights = [(b, b[1] - b[0]) for b in bands]
+    rule_indices = [i for i, (_, h) in enumerate(heights) if h <= rule_height]
+    if len(rule_indices) < 2:
+        raise RuntimeError(
+            f"expected a header rule and a footer rule, found {len(rule_indices)} "
+            f"thin band(s) -- page layout may have changed; bands={heights}")
+    header_rule = rule_indices[0]
+    footer_rule = rule_indices[-1]
+    between = list(range(header_rule + 1, footer_rule))
+    if len(between) < 2:
+        raise RuntimeError(
+            f"expected a title band plus at least one array band between "
+            f"the rules, found {len(between)}; bands={heights}")
+    content_indices = between[1:]  # drop the title heading band
+    text_bands = [bands[i] for i in content_indices]
 
     # rinoh prints an equation-number label (e.g. "(1)") far to the right
     # of each ".. math::" block, vertically centered on that block as a
@@ -225,7 +261,8 @@ def _locate_bands(mask, array_row_count):
     text_bands = [b for b in text_bands if row_extent(*b) is not None]
 
     # the array's own rows are the array_row_count text bands immediately
-    # before the trailing "R = ..." line (its own separate text band)
+    # before the trailing "R = ..." line (its own separate text band) --
+    # now safe, since text_bands no longer contains the footer at all
     array_bands = text_bands[-(array_row_count + 1):-1]
     remainder_band = text_bands[-1]
     if len(array_bands) != array_row_count:
