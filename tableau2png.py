@@ -364,15 +364,50 @@ def draw_poly_lines(png_path, tableau, dpi):
     im.save(png_path)
 
 
-def _locate_array_bands(mask, array_row_count):
+def _locate_array_bands(mask, array_row_count, rule_height=6):
     """Like _locate_bands, but for a page whose only math block is the
     array itself with no trailing remainder line (the synthetic-division
     template) -- so the last array_row_count text bands ARE the array's
     rows, full stop, with nothing to peel off afterward.
+
+    Bug fixed here (found via direct pixel investigation, not assumption,
+    after the user reported the synthetic-division bracket's vertical
+    rule "doesn't go up high enough" / "no vertical line on the upper
+    row"): the same off-by-N issue documented at length in _locate_bands
+    -- "the last array_row_count text bands on the page" silently assumed
+    nothing renders after the array, but the page's footer copyright line
+    always does. That extra trailing band shifted this function's
+    selection too: array_bands[:3] (what draw_synthetic_lines treats as
+    coeff/product/sum) actually held the true sum row, the first half of
+    a superscript-split label row, and the second half of that same
+    label row -- confirmed by rendering u2lesson02-tabimage01.png and
+    finding array_bands didn't match the tableau's own 4-line body at
+    all. This one had an extra wrinkle beyond _locate_bands's version of
+    the bug: with --title, the page also has an optional title math
+    block before the array, and the number of non-array bands before the
+    array varies (1 without --title, 2 with it) -- rather than hardcode
+    how many leading bands to drop (as _locate_bands does for its single,
+    always-present title), this bounds by the header/footer rules like
+    _locate_bands now does, then takes the LAST array_row_count bands
+    from that already-footer-free list, which is correct regardless of
+    how many title-ish bands precede the array.
     """
     page_width = mask.shape[1]
     bands = _row_bands(mask)
-    text_bands = [b for b in bands if (b[1] - b[0]) > 10]
+    heights = [(b, b[1] - b[0]) for b in bands]
+    rule_indices = [i for i, (_, h) in enumerate(heights) if h <= rule_height]
+    if len(rule_indices) < 2:
+        raise RuntimeError(
+            f"expected a header rule and a footer rule, found {len(rule_indices)} "
+            f"thin band(s) -- page layout may have changed; bands={heights}")
+    header_rule = rule_indices[0]
+    footer_rule = rule_indices[-1]
+    between = list(range(header_rule + 1, footer_rule))
+    if len(between) < 1:
+        raise RuntimeError(
+            f"expected at least one array band between the rules, found "
+            f"{len(between)}; bands={heights}")
+    text_bands = [bands[i] for i in between]
 
     excl_x = int(page_width * 0.75)
 

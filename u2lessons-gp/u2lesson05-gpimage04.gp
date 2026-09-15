@@ -9,8 +9,8 @@ set output '../u2lessons-media/u2lesson05-gpimage04.png'
 set xrange [-5:4]
 set yrange [-4:7]
 
-set xzeroaxis
-set yzeroaxis
+set xzeroaxis lt 1 lc rgb "gray40" lw 1
+set yzeroaxis lt 1 lc rgb "gray40" lw 1
 
 set xlabel "x"
 set ylabel "y" rotate by 0

@@ -11,8 +11,8 @@ set output '../u2lessons-media/u2lesson06-gpimage09.png'
 set xrange [0:13]
 set yrange [-120:160]
 
-set xzeroaxis
-set yzeroaxis
+set xzeroaxis lt 1 lc rgb "gray40" lw 1
+set yzeroaxis lt 1 lc rgb "gray40" lw 1
 
 set xlabel "t"
 set ylabel "y" rotate by 0

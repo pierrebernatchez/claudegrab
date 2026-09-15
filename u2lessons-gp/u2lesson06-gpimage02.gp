@@ -10,13 +10,12 @@ set terminal pngcairo size 500,140 enhanced font "Arial,12"
 set output '../u2lessons-media/u2lesson06-gpimage02.png'
 
 set xrange [-1.6:10.3]
-set yrange [-0.5:0.5]
+set yrange [-1:0.5]
 
-set tics scale 0.5
+unset xtics
 unset ytics
 unset ylabel
 unset border
-set xtics -1,1,10
 
 unset key
 
@@ -29,6 +28,14 @@ set arrow 2 from -1.5,0 to -1.6,0 as 1
 
 # solution ray: unbounded to the left, closed at x=4
 set arrow 3 from 4,0 to -1.55,0 as 2
+
+# tics and labels placed manually so they can't drift away from the
+# y=0 line the way gnuplot's own "axis"-mode xtics did -- same fix as
+# lessons-gp/lesson01-image09.gp
+do for [i=-1:10] {
+    set arrow (10+i+1) from i,-0.06 to i,0.06 nohead lw 1 lc rgb "black"
+    set label (30+i+1) sprintf("%d", i) at i,-0.28 center font "Arial,11"
+}
 
 plot '-' using 1:2 with points pt 7 ps 2 lc rgb "red" notitle
 4 0

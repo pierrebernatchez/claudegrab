@@ -9,8 +9,8 @@ set xrange [-4:4]
 set yrange [-2:6]
 set size ratio 1
 
-set xzeroaxis
-set yzeroaxis
+set xzeroaxis lt 1 lc rgb "gray40" lw 1
+set yzeroaxis lt 1 lc rgb "gray40" lw 1
 set xtics 2
 set ytics 2
 unset key

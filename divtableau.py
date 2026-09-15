@@ -259,7 +259,7 @@ def build_polynomial_tableau(dividend, divisor, var='x'):
         return cells, first_col, last_col
 
     def render_row(prefix_cell, cells):
-        # Every row gets an invisible \rule{0pt}{18pt} in its prefix cell
+        # Every row gets an invisible \rule{0pt}{12pt} in its prefix cell
         # to force a minimum row height. Without this, row-to-row vertical
         # gaps in the rendered output are unreliable -- confirmed directly:
         # the divisor's ")" bracket has enough natural glyph height that
@@ -267,14 +267,31 @@ def build_polynomial_tableau(dividend, divisor, var='x'):
         # pixel gap between them (no amount of gap-tolerance in a
         # rasterizer's row-band detection fixes that, since there's
         # nothing there to detect -- the rows are genuinely touching).
-        # 18pt was verified empirically to be tall enough to prevent this
-        # even for the tallest real row in this unit (a degree-4 term's
-        # superscript); a smaller value (9pt) was tried first and still
-        # let two rows merge in that case. A zero-width rule adds no
-        # visible ink and doesn't affect column widths, only vertical
-        # spacing, so it can't perturb the grid alignment this whole
-        # rewrite exists to guarantee.
-        prefix_cell = r"\rule{0pt}{18pt}" + prefix_cell
+        #
+        # Why every row, not just the dividend row: a \rule{0pt}{H} only
+        # adds HEIGHT (space above that row's own baseline), not DEPTH
+        # (space below it) -- confirmed directly, by trying the rule only
+        # on the dividend row and finding the dividend/product1 gap still
+        # collapsed to zero for every degree-4 dividend in this unit. The
+        # gap between row i and row i+1 is governed by row i's depth
+        # (essentially 0, this rule doesn't add any) plus row i+1's
+        # height -- so it's row i+1's OWN rule that actually protects the
+        # gap above it, meaning every row needs one to protect the gap
+        # above itself, not just whichever row looks tall.
+        #
+        # 12pt is the smallest value confirmed safe (2026-09, re-verified
+        # against the tightest known transition in this unit -- a degree-4
+        # dividend's superscript row followed immediately by its first
+        # product row): 10pt and 12pt both still kept every row band
+        # separate; 9pt and below let rows merge again, matching the
+        # original derivation. Lowered from an earlier, untested-at-the-
+        # margin 18pt after the user flagged the tableau as visibly having
+        # "extra blank lines" compared to the numeric-division tableau
+        # (which needs no such rule at all, since it isn't an array). A
+        # zero-width rule adds no visible ink and doesn't affect column
+        # widths, only vertical spacing, so it can't perturb the grid
+        # alignment this whole rewrite exists to guarantee.
+        prefix_cell = r"\rule{0pt}{12pt}" + prefix_cell
         return " & ".join([prefix_cell] + cells) + r" \\"
 
     lines = []
