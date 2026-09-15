@@ -1,4 +1,4 @@
-Solving Inequalities Worksheet
+2.6 Solving Inequalities Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Solving Inequalities Worksheet
 :slug: u2worksheet06
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Solving Inequalities Worksheet
+:summary: 2.6 Solving Inequalities Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

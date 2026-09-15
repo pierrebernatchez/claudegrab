@@ -1,4 +1,4 @@
-Synthetic Division Worksheet
+2.2 Synthetic Division Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Synthetic Division Worksheet
 :slug: u2worksheet02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Synthetic Division Worksheet
+:summary: 2.2 Synthetic Division Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

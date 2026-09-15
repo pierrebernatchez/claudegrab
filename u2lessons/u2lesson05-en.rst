@@ -1,4 +1,4 @@
-Families of Polynomial Functions Lesson
+2.5 Families of Polynomial Functions Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Families of Polynomial Functions Lesson
 :slug: u2lesson05
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Families of Polynomial Functions Lesson
+:summary: 2.5 Families of Polynomial Functions Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

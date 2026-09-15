@@ -1,4 +1,4 @@
-Long Division of Polynomials and the Remainder Theorem Worksheet
+2.1 Long Division of Polynomials and the Remainder Theorem Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Long Division of Polynomials and the Remainder Theorem Worksheet
 :slug: u2worksheet01
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Long Division of Polynomials and the Remainder Theorem Worksheet
+:summary: 2.1 Long Division of Polynomials and the Remainder Theorem Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

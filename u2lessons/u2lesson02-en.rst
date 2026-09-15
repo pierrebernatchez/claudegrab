@@ -1,4 +1,4 @@
-Synthetic Division Lesson
+2.2 Synthetic Division Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Synthetic Division Lesson
 :slug: u2lesson02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Synthetic Division Lesson
+:summary: 2.2 Synthetic Division Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

@@ -1,4 +1,4 @@
-Solving Polynomial Equations Worksheet with solutions
+2.4 Solving Polynomial Equations Worksheet with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Solving Polynomial Equations Worksheet with solutions
 :slug: u2worksheet04-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Solving Polynomial Equations Worksheet with solutions
+:summary: 2.4 Solving Polynomial Equations Worksheet with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -29,11 +29,19 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
 **a\)** :math:`(3x + 2)(x + 9)(x - 2) = 0`
 
+.. rst-class:: solution
+
 :math:`3x + 2 = 0 \rightarrow x_1 = -\dfrac{2}{3}`
+
+.. rst-class:: solution
 
 :math:`x + 9 = 0 \rightarrow x_2 = -9`
 
+.. rst-class:: solution
+
 :math:`x - 2 = 0 \rightarrow x_3 = 2`
+
+.. rst-class:: solution
 
 Solutions: :math:`\left(-\dfrac{2}{3}, 0\right)`, :math:`(-9, 0)`, and
 :math:`(2, 0)`
@@ -42,9 +50,15 @@ Solutions: :math:`\left(-\dfrac{2}{3}, 0\right)`, :math:`(-9, 0)`, and
 
 **b\)** :math:`(x^2 + 1)(x - 4) = 0`
 
+.. rst-class:: solution
+
 :math:`x^2 + 1 = 0 \rightarrow x^2 = -1` |---| no real solutions
 
+.. rst-class:: solution
+
 :math:`x - 4 = 0 \rightarrow x = 4`
+
+.. rst-class:: solution
 
 Solution: :math:`(4, 0)`
 
@@ -58,18 +72,30 @@ theorem, integral zero theorem, division etc.)
 
 **a\)** :math:`x^3 - 4x^2 - 3x + 18 = 0`
 
+.. rst-class:: solution
+
 Possible zeros: :math:`\pm 1, \pm 2, \pm 3, \pm 6, \pm 9, \pm 18`
+
+.. rst-class:: solution
 
 :math:`f(-2) = 0`; :math:`\therefore x + 2` is a factor
 
 .. image:: ../images/u2worksheet04-tabimage01.png
    :alt: synthetic division of x^3 - 4x^2 - 3x + 18 by x + 2, b = -2, quotient x^2 - 6x + 9 remainder 0
 
+.. rst-class:: solution
+
 :math:`(x + 2)(x^2 - 6x + 9) = 0`
+
+.. rst-class:: solution
 
 :math:`(x + 2)(x - 3)^2 = 0`
 
+.. rst-class:: solution
+
 :math:`x_1 = -2`, :math:`x_2 = 3`
+
+.. rst-class:: solution
 
 Solutions: :math:`(-2, 0)` and :math:`(3, 0)`
 
@@ -77,18 +103,30 @@ Solutions: :math:`(-2, 0)` and :math:`(3, 0)`
 
 **b\)** :math:`x^3 - 3x^2 - 4x + 12 = 0`
 
+.. rst-class:: solution
+
 Possible zeros: :math:`\pm 1, \pm 2, \pm 3, \pm 4, \pm 6, \pm 12`
+
+.. rst-class:: solution
 
 :math:`f(2) = 0`; :math:`\therefore x - 2` is a factor
 
 .. image:: ../images/u2worksheet04-tabimage02.png
    :alt: synthetic division of x^3 - 3x^2 - 4x + 12 by x - 2, b = 2, quotient x^2 - x - 6 remainder 0
 
+.. rst-class:: solution
+
 :math:`(x - 2)(x^2 - x - 6) = 0`
+
+.. rst-class:: solution
 
 :math:`(x - 2)(x - 3)(x + 2) = 0`
 
+.. rst-class:: solution
+
 :math:`x_1 = 2`, :math:`x_2 = 3`, :math:`x_3 = -2`
+
+.. rst-class:: solution
 
 Solutions: :math:`(2, 0)`, :math:`(3, 0)`, and :math:`(-2, 0)`
 
@@ -96,22 +134,38 @@ Solutions: :math:`(2, 0)`, :math:`(3, 0)`, and :math:`(-2, 0)`
 
 **c\)** :math:`x^4 - x^3 - 11x^2 + 9x + 18 = 0`
 
+.. rst-class:: solution
+
 Possible zeros: :math:`\pm 1, \pm 2, \pm 3, \pm 6, \pm 9, \pm 18`
+
+.. rst-class:: solution
 
 :math:`f(-1) = 0`; :math:`\therefore x + 1` is a factor
 
 .. image:: ../images/u2worksheet04-tabimage03.png
    :alt: synthetic division of x^4 - x^3 - 11x^2 + 9x + 18 by x + 1, b = -1, quotient x^3 - 2x^2 - 9x + 18 remainder 0
 
+.. rst-class:: solution
+
 :math:`(x + 1)(x^3 - 2x^2 - 9x + 18) = 0`
+
+.. rst-class:: solution
 
 :math:`(x + 1)[x^2(x - 2) - 9(x - 2)] = 0`
 
+.. rst-class:: solution
+
 :math:`(x + 1)(x - 2)(x^2 - 9) = 0`
+
+.. rst-class:: solution
 
 :math:`(x + 1)(x - 2)(x - 3)(x + 3) = 0`
 
+.. rst-class:: solution
+
 :math:`x_1 = -1`, :math:`x_2 = 2`, :math:`x_3 = 3`, :math:`x_4 = -3`
+
+.. rst-class:: solution
 
 Solutions: :math:`(-1, 0)`, :math:`(2, 0)`, :math:`(3, 0)`, and
 :math:`(-3, 0)`
@@ -123,11 +177,19 @@ Solutions: :math:`(-1, 0)`, :math:`(2, 0)`, :math:`(3, 0)`, and
 :math:`a^3 + b^3 = (a + b)(a^2 - ab + b^2)`, :math:`a^3 - b^3 = (a -
 b)(a^2 + ab + b^2)`
 
+.. rst-class:: solution
+
 :math:`(x - 4)(x^2 + 4x + 16) = 0`
+
+.. rst-class:: solution
 
 :math:`x = 4`
 
+.. rst-class:: solution
+
 Check :math:`b^2 - 4ac = (4)^2 - 4(1)(16) = -48` |---| no real solutions
+
+.. rst-class:: solution
 
 Solution: :math:`(4, 0)`
 
@@ -135,18 +197,30 @@ Solution: :math:`(4, 0)`
 
 **e\)** :math:`2x^3 - 7x^2 + 10x - 5 = 0`
 
+.. rst-class:: solution
+
 Possible zeros: :math:`\pm 1, \pm \dfrac{1}{2}, \pm 5, \pm \dfrac{5}{2}`
+
+.. rst-class:: solution
 
 :math:`f(1) = 0`; :math:`\therefore x - 1` is a factor
 
 .. image:: ../images/u2worksheet04-tabimage04.png
    :alt: synthetic division of 2x^3 - 7x^2 + 10x - 5 by x - 1, b = 1, quotient 2x^2 - 5x + 5 remainder 0
 
+.. rst-class:: solution
+
 :math:`(x - 1)(2x^2 - 5x + 5) = 0`
+
+.. rst-class:: solution
 
 :math:`x - 1 = 0 \rightarrow x = 1`
 
+.. rst-class:: solution
+
 Check :math:`b^2 - 4ac = (-5)^2 - 4(2)(5) = -15` |---| no real solutions
+
+.. rst-class:: solution
 
 Solution: :math:`(1, 0)`
 
@@ -159,11 +233,19 @@ cubes.
 
 **a\)** :math:`x^3 - 8 = 0`
 
+.. rst-class:: solution
+
 :math:`(x - 2)(x^2 + 2x + 4) = 0`
+
+.. rst-class:: solution
 
 :math:`x = 2`
 
+.. rst-class:: solution
+
 Check :math:`b^2 - 4ac = (2)^2 - 4(1)(4) = -12` |---| no real solution
+
+.. rst-class:: solution
 
 Solution: :math:`(2, 0)`
 
@@ -171,11 +253,19 @@ Solution: :math:`(2, 0)`
 
 **b\)** :math:`x^3 + 27 = 0`
 
+.. rst-class:: solution
+
 :math:`(x + 3)(x^2 - 3x + 9) = 0`
+
+.. rst-class:: solution
 
 :math:`x = -3`
 
+.. rst-class:: solution
+
 Check :math:`b^2 - 4ac = (-3)^2 - 4(1)(9) = -27` |---| no real solution
+
+.. rst-class:: solution
 
 Solution: :math:`(-3, 0)`
 
@@ -187,18 +277,30 @@ Solution: :math:`(-3, 0)`
 
 **a\)** :math:`x^3 - 4x^2 - 7x + 10 = 0`
 
+.. rst-class:: solution
+
 Possible zeros: :math:`\pm 1, \pm 2, \pm 5, \pm 10`
+
+.. rst-class:: solution
 
 :math:`f(1) = 0`; :math:`\therefore x - 1` is a factor
 
 .. image:: ../images/u2worksheet04-tabimage05.png
    :alt: synthetic division of x^3 - 4x^2 - 7x + 10 by x - 1, b = 1, quotient x^2 - 3x - 10 remainder 0
 
+.. rst-class:: solution
+
 :math:`(x - 1)(x^2 - 3x - 10) = 0`
+
+.. rst-class:: solution
 
 :math:`(x - 1)(x - 5)(x + 2) = 0`
 
+.. rst-class:: solution
+
 :math:`x_1 = 1`, :math:`x_2 = 5`, :math:`x_3 = -2`
+
+.. rst-class:: solution
 
 Solutions: :math:`(1, 0)`, :math:`(5, 0)`, and :math:`(-2, 0)`
 
@@ -206,21 +308,35 @@ Solutions: :math:`(1, 0)`, :math:`(5, 0)`, and :math:`(-2, 0)`
 
 **b\)** :math:`2x^3 - 11x^2 + 12x + 9 = 0`
 
+.. rst-class:: solution
+
 Possible zeros: :math:`\pm 1, \pm \dfrac{1}{2}, \pm 3, \pm \dfrac{3}{2},
 \pm 9, \pm \dfrac{9}{2}`
+
+.. rst-class:: solution
 
 :math:`f(3) = 0`; :math:`\therefore x - 3` is a factor
 
 .. image:: ../images/u2worksheet04-tabimage06.png
    :alt: synthetic division of 2x^3 - 11x^2 + 12x + 9 by x - 3, b = 3, quotient 2x^2 - 5x - 3 remainder 0
 
+.. rst-class:: solution
+
 :math:`(x - 3)(2x^2 - 5x - 3) = 0`
+
+.. rst-class:: solution
 
 :math:`(x - 3)(x - 3)(2x + 1) = 0`
 
+.. rst-class:: solution
+
 :math:`(x - 3)^2(2x + 1) = 0`
 
+.. rst-class:: solution
+
 :math:`x_1 = 3`, :math:`x_2 = -\dfrac{1}{2}`
+
+.. rst-class:: solution
 
 Solutions: :math:`(3, 0)` and :math:`\left(-\dfrac{1}{2}, 0\right)`
 
@@ -228,19 +344,33 @@ Solutions: :math:`(3, 0)` and :math:`\left(-\dfrac{1}{2}, 0\right)`
 
 **c\)** :math:`x^4 - x^3 - 2x - 4 = 0`
 
+.. rst-class:: solution
+
 Possible zeros: :math:`\pm 1, \pm 2, \pm 4`
+
+.. rst-class:: solution
 
 :math:`f(-1) = 0`; :math:`\therefore x + 1` is a factor
 
 .. image:: ../images/u2worksheet04-tabimage07.png
    :alt: synthetic division of x^4 - x^3 - 2x - 4 by x + 1, b = -1, quotient x^3 - 2x^2 + 2x - 4 remainder 0
 
+.. rst-class:: solution
+
 :math:`(x + 1)(x^3 - 2x^2 + 2x - 4) = 0`
+
+.. rst-class:: solution
 
 :math:`(x + 1)[x^2(x - 2) + 2(x - 2)] = 0`
 
+.. rst-class:: solution
+
 :math:`(x + 1)(x - 2)(x^2 + 2) = 0`
 
+.. rst-class:: solution
+
 :math:`x_1 = -1`, :math:`x_2 = 2`; :math:`x^2 + 2 = 0` has no real solution
+
+.. rst-class:: solution
 
 Solutions: :math:`(-1, 0)` and :math:`(2, 0)`

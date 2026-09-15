@@ -1,4 +1,4 @@
-Solving Inequalities Lesson with solutions
+2.6 Solving Inequalities Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Solving Inequalities Lesson with solutions
 :slug: u2lesson06-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Solving Inequalities Lesson with solutions
+:summary: 2.6 Solving Inequalities Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -88,9 +88,15 @@ a\)
    :scale: 50
    :alt: number line, closed circle at 4, shaded to the left
 
+.. rst-class:: solution
+
 :math:`x \leq 4`
 
+.. rst-class:: solution
+
 OR
+
+.. rst-class:: solution
 
 :math:`(-\infty, 4]`
 
@@ -102,9 +108,15 @@ b\)
    :scale: 50
    :alt: number line, closed circle at 3, open circle at 9, shaded between
 
+.. rst-class:: solution
+
 :math:`3 \leq x < 9`
 
+.. rst-class:: solution
+
 OR
+
+.. rst-class:: solution
 
 :math:`[3, 9)`
 
@@ -126,7 +138,11 @@ following inequalities…
 
 a\) :math:`f(x) < 0`
 
+.. rst-class:: solution
+
 :math:`f(x) < 0` when: :math:`x < -3` or :math:`1 < x < 4`
+
+.. rst-class:: solution
 
 :math:`(-\infty, -3) \cup (1, 4)`
 
@@ -134,7 +150,11 @@ a\) :math:`f(x) < 0`
 
 b\) :math:`f(x) \geq 0`
 
+.. rst-class:: solution
+
 :math:`f(x) \geq 0` when: :math:`-3 \leq x \leq 1` or :math:`x \geq 4`
+
+.. rst-class:: solution
 
 :math:`[-3, 1] \cup [4, \infty)`
 
@@ -145,9 +165,9 @@ b\) :math:`f(x) \geq 0`
 Part 2: Solve Linear Inequalities
 ================================================================================
 
-Note: Solving linear inequalities is the same as solving linear
-equations. However, when both sides of an inequality are multiplied or
-divided by a negative number, the inequality sign must be reversed.
+Note: Solving linear :sol:`inequalities` is the same as solving linear
+:sol:`equations`. However, when both sides of an inequality are multiplied or
+divided by a :sol:`negative` number, the inequality sign must be :sol:`reversed`.
 
 .. rst-class:: keepwithnext
 
@@ -157,7 +177,11 @@ divided by a negative number, the inequality sign must be reversed.
 
 a\) :math:`x - 8 \geq 3`
 
+.. rst-class:: solution
+
 :math:`x \geq 3 + 8`
+
+.. rst-class:: solution
 
 :math:`x \geq 11`
 
@@ -165,7 +189,11 @@ a\) :math:`x - 8 \geq 3`
 
 b\) :math:`-4 - 2x < 12`
 
+.. rst-class:: solution
+
 :math:`-2x < 16`
+
+.. rst-class:: solution
 
 :math:`x > -8` (reverse the inequality when dividing by a negative)
 
@@ -194,13 +222,23 @@ a\) :math:`2x^2 + 3x - 9 > 0`
 
 Method 1: Graph the inequality
 
+.. rst-class:: solution
+
 :math:`2x^2 + 3x - 9 > 0` |---| when is it above the :math:`x`-axis?
+
+.. rst-class:: solution
 
 :math:`(2x^2 + 6x) + (-3x - 9) > 0`
 
+.. rst-class:: solution
+
 :math:`2x(x + 3) - 3(x + 3) > 0`
 
+.. rst-class:: solution
+
 :math:`(x + 3)(2x - 3) > 0`
+
+.. rst-class:: solution
 
 :math:`x`-intercepts at :math:`-3` and :math:`1.5`
 
@@ -208,7 +246,11 @@ Method 1: Graph the inequality
    :scale: 50
    :alt: graph of y = 2x^2 + 3x - 9, x-intercepts at -3 and 1.5
 
+.. rst-class:: solution
+
 :math:`2x^2 + 3x - 9 > 0` when… :math:`x < -3` or :math:`x > 1.5`
+
+.. rst-class:: solution
 
 :math:`(-\infty, -3) \cup (1.5, \infty)`
 
@@ -226,28 +268,32 @@ Method 2: Factor Table (sign chart)
    :header-rows: 1
 
    * -
-     - :math:`x < -3`
-     - :math:`-3 < x < 1.5`
-     - :math:`x > 1.5`
+     - :solmath:`x < -3`
+     - :solmath:`-3 < x < 1.5`
+     - :solmath:`x > 1.5`
    * - Test point
-     - :math:`-4`
-     - :math:`0`
-     - :math:`2`
+     - :solmath:`-4`
+     - :solmath:`0`
+     - :solmath:`2`
    * - :math:`x + 3`
-     - ``-``
-     - ``+``
-     - ``+``
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`2x - 3`
-     - ``-``
-     - ``-``
-     - ``+``
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - Overall sign
-     - ``+``
-     - ``-``
-     - ``+``
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
+
+.. rst-class:: solution
 
 :math:`\therefore 2x^2 + 3x - 9 > 0` when :math:`x < -3` or :math:`x >
 1.5`
+
+.. rst-class:: solution
 
 :math:`(-\infty, -3) \cup (1.5, \infty)`
 
@@ -257,26 +303,46 @@ b\) :math:`-2x^3 - 6x^2 + 12x \leq -16`
 
 Method 1: Graph the inequality
 
+.. rst-class:: solution
+
 :math:`-2x^3 - 6x^2 + 12x + 16 \leq 0`
+
+.. rst-class:: solution
 
 :math:`-2(x^3 + 3x^2 - 6x - 8) \leq 0`
 
+.. rst-class:: solution
+
 Divide both sides by :math:`-2` (reverse the inequality):
+
+.. rst-class:: solution
 
 :math:`x^3 + 3x^2 - 6x - 8 \geq 0`
 
+.. rst-class:: solution
+
 Factors of :math:`-8` are: :math:`\pm 1, \pm 2, \pm 4, \pm 8`
+
+.. rst-class:: solution
 
 :math:`f(-1) = 0`, so :math:`x + 1` is a factor.
 
 .. image:: ../images/u2lesson06-tabimage06.png
    :alt: synthetic division of x^3 + 3x^2 - 6x - 8 by x + 1, b = -1, quotient x^2 + 2x - 8 remainder 0
 
+.. rst-class:: solution
+
 :math:`(x + 1)(x^2 + 2x - 8) \geq 0`
+
+.. rst-class:: solution
 
 :math:`(x + 1)(x + 4)(x - 2) \geq 0`
 
+.. rst-class:: solution
+
 :math:`x`-intercepts at :math:`-1`, :math:`-4`, and :math:`2`
+
+.. rst-class:: solution
 
 Positive leading coefficient, degree 3
 
@@ -284,7 +350,11 @@ Positive leading coefficient, degree 3
    :scale: 50
    :alt: graph of y = x^3 + 3x^2 - 6x - 8, x-intercepts at -4, -1, and 2
 
+.. rst-class:: solution
+
 Solution: :math:`-4 \leq x \leq -1` or :math:`x \geq 2`
+
+.. rst-class:: solution
 
 :math:`[-4, -1] \cup [2, \infty)`
 
@@ -294,35 +364,37 @@ Method 2: Factor Table (sign chart)
    :header-rows: 1
 
    * -
-     - :math:`x < -4`
-     - :math:`-4 < x < -1`
-     - :math:`-1 < x < 2`
-     - :math:`x > 2`
+     - :solmath:`x < -4`
+     - :solmath:`-4 < x < -1`
+     - :solmath:`-1 < x < 2`
+     - :solmath:`x > 2`
    * - Test point
-     - :math:`-5`
-     - :math:`-2`
-     - :math:`0`
-     - :math:`3`
+     - :solmath:`-5`
+     - :solmath:`-2`
+     - :solmath:`0`
+     - :solmath:`3`
    * - :math:`x + 1`
-     - ``-``
-     - ``-``
-     - ``+``
-     - ``+``
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x + 4`
-     - ``-``
-     - ``+``
-     - ``+``
-     - ``+``
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x - 2`
-     - ``-``
-     - ``-``
-     - ``-``
-     - ``+``
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - Overall sign
-     - ``-``
-     - ``+``
-     - ``-``
-     - ``+``
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
+
+.. rst-class:: solution
 
 Solution: :math:`[-4, -1] \cup [2, \infty)`
 
@@ -330,13 +402,23 @@ Solution: :math:`[-4, -1] \cup [2, \infty)`
 
 c\) :math:`x^3 + 4x^2 + 6x < -24`
 
+.. rst-class:: solution
+
 :math:`x^3 + 4x^2 + 6x + 24 < 0`
+
+.. rst-class:: solution
 
 Factor by grouping:
 
+.. rst-class:: solution
+
 :math:`x^2(x + 4) + 6(x + 4) < 0`
 
+.. rst-class:: solution
+
 :math:`(x + 4)(x^2 + 6) < 0`
+
+.. rst-class:: solution
 
 :math:`x`-intercept at :math:`-4`; :math:`x^2 + 6 = 0` has no real
 solutions
@@ -345,24 +427,26 @@ solutions
    :header-rows: 1
 
    * -
-     - :math:`x < -4`
-     - :math:`x > -4`
+     - :solmath:`x < -4`
+     - :solmath:`x > -4`
    * - Test point
-     - :math:`-5`
-     - :math:`0`
+     - :solmath:`-5`
+     - :solmath:`0`
    * - :math:`x + 4`
-     - ``-``
-     - ``+``
+     - :sol:`-`
+     - :sol:`+`
    * - :math:`x^2 + 6`
-     - ``+``
-     - ``+``
+     - :sol:`+`
+     - :sol:`+`
    * - Overall sign
-     - ``-``
-     - ``+``
+     - :sol:`-`
+     - :sol:`+`
 
 .. image:: ../images/u2lesson06-gpimage13.png
    :scale: 50
    :alt: graph of y = x^3 + 4x^2 + 6x + 24, x-intercept at -4
+
+.. rst-class:: solution
 
 Solution: :math:`x < -4`, or :math:`(-\infty, -4)`
 
@@ -375,20 +459,34 @@ Part 2: Applications of Inequalities
 after 1999 can be modeled by the function :math:`p(t) = 0.5t^3 - 5.5t^2 +
 14t`. When will the price of the stock be more than $90?
 
+.. rst-class:: solution
+
 :math:`0.5t^3 - 5.5t^2 + 14t > 90`
+
+.. rst-class:: solution
 
 :math:`0.5t^3 - 5.5t^2 + 14t - 90 > 0`
 
+.. rst-class:: solution
+
 :math:`0.5(t^3 - 11t^2 + 28t - 180) > 0`
 
+.. rst-class:: solution
+
 :math:`t^3 - 11t^2 + 28t - 180 > 0`
+
+.. rst-class:: solution
 
 :math:`f(10) = 0`, so :math:`t - 10` is a factor
 
 .. image:: ../images/u2lesson06-tabimage08.png
    :alt: synthetic division of t^3 - 11t^2 + 28t - 180 by t - 10, b = 10, quotient t^2 - t + 18 remainder 0
 
+.. rst-class:: solution
+
 :math:`(t - 10)(t^2 - t + 18) > 0`
+
+.. rst-class:: solution
 
 Check the discriminant of :math:`t^2 - t + 18`: :math:`b^2 - 4ac = (-1)^2
 - 4(1)(18) = -71` |---| no real solutions, so :math:`t^2 - t + 18` is
@@ -397,6 +495,8 @@ always positive.
 .. image:: ../images/u2lesson06-gpimage09.png
    :scale: 50
    :alt: graph of g(t) = 0.5t^3 - 5.5t^2 + 14t - 90, crossing zero at t = 10
+
+.. rst-class:: solution
 
 Solution: :math:`t > 10`, so the price of the stock will be above $90
 after year 2009.

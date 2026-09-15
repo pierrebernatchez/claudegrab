@@ -1,4 +1,4 @@
-Families of Polynomial Functions Lesson with solutions
+2.5 Families of Polynomial Functions Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Families of Polynomial Functions Lesson with solutions
 :slug: u2lesson05-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Families of Polynomial Functions Lesson with solutions
+:summary: 2.5 Families of Polynomial Functions Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -47,19 +47,31 @@ different?
 
 Same:
 
-- :math:`x`-intercepts (zeros)
-- equations have same degree
+- .. rst-class:: solution
+
+  :math:`x`-intercepts (zeros)
+- .. rst-class:: solution
+
+  equations have same degree
 
 Different:
 
-- :math:`y`-intercepts
-- stretch or compression factors
-- vertices
+- .. rst-class:: solution
+
+  :math:`y`-intercepts
+- .. rst-class:: solution
+
+  stretch or compression factors
+- .. rst-class:: solution
+
+  vertices
 
 .. rst-class:: keepwithnext
 
 **b\)** Describe the relationship between the graphs of functions of the
 form :math:`y = k(x - 1)(x + 2)`, where :math:`k \in \mathbb{R}`
+
+.. rst-class:: solution
 
 They have the same :math:`x`-intercepts.
 
@@ -91,6 +103,8 @@ iv\) :math:`y = 2(x - 1)(x + 3)(x - 2)`
 **b\)** Predict how the graphs of the functions will be similar and how
 they will be different.
 
+.. rst-class:: solution
+
 They will have the same :math:`x`-intercepts but their shape and direction
 will be different due to the sign and value of the leading coefficient.
 
@@ -103,11 +117,12 @@ on the same set of axes.
    :scale: 50
    :alt: four cubics sharing x-intercepts 1, -3, and 2, with leading coefficients -2, -1, 1, and 2
 
-**Family of functions:** A family of functions is a set of functions that
-have the same characteristics. Polynomial functions with the same zeros
-are said to belong to the same family. The graphs of polynomial functions
-that belong to the same family have the same :math:`x`-intercepts but have
-different :math:`y`-intercepts (unless 0 is one of the :math:`x`-intercepts).
+:sol:`Family of functions:` A :sol:`family` of functions is a set of
+functions that have the same characteristics. Polynomial functions with
+the same :sol:`zeros` are said to belong to the same family. The graphs of
+polynomial functions that belong to the same family have the same
+:math:`x`-intercepts but have different :math:`y`-intercepts (unless 0 is
+one of the :math:`x`-intercepts).
 
 An equation for the family of polynomial functions with zeros
 :math:`a_1, a_2, a_3, \ldots, a_n` is:
@@ -128,13 +143,19 @@ Part 2: Represent a Family of Functions Algebraically
 
 **a\)** Determine an equation for this family of functions.
 
+.. rst-class:: solution
+
 :math:`y = k(x - 2)(x + 3)`
 
 .. rst-class:: keepwithnext
 
 **b\)** Write equations for two functions that belong to this family
 
+.. rst-class:: solution
+
 :math:`y = 8(x - 2)(x + 3)`
+
+.. rst-class:: solution
 
 :math:`y = -3(x - 2)(x + 3)`
 
@@ -143,15 +164,27 @@ Part 2: Represent a Family of Functions Algebraically
 **c\)** Determine an equation for the member of the family that passes
 through the point :math:`(1, 4)`.
 
+.. rst-class:: solution
+
 :math:`y = k(x - 2)(x + 3)`
+
+.. rst-class:: solution
 
 :math:`4 = k(1 - 2)(1 + 3)`
 
+.. rst-class:: solution
+
 :math:`4 = k(-1)(4)`
+
+.. rst-class:: solution
 
 :math:`4 = -4k`
 
+.. rst-class:: solution
+
 :math:`-1 = k`
+
+.. rst-class:: solution
 
 :math:`y = -(x - 2)(x + 3)`
 
@@ -167,6 +200,8 @@ through the point :math:`(1, 4)`.
 
 **a\)** Determine an equation for this family.
 
+.. rst-class:: solution
+
 :math:`y = k(x + 2)(x - 1)(x - 3)`
 
 .. rst-class:: keepwithnext
@@ -174,13 +209,23 @@ through the point :math:`(1, 4)`.
 **b\)** Determine an equation for the member of the family whose graph has
 a :math:`y`-intercept of -15.
 
+.. rst-class:: solution
+
 :math:`-15 = k(0 + 2)(0 - 1)(0 - 3)`
+
+.. rst-class:: solution
 
 :math:`-15 = k(2)(-1)(-3)`
 
+.. rst-class:: solution
+
 :math:`-15 = 6k`
 
+.. rst-class:: solution
+
 :math:`k = -2.5`
+
+.. rst-class:: solution
 
 :math:`y = -2.5(x + 2)(x - 1)(x - 3)`
 
@@ -194,6 +239,8 @@ a :math:`y`-intercept of -15.
 - Plot :math:`x`-intercepts
 - Use degree and leading coefficient to determine end behaviour
 
+.. rst-class:: solution
+
 Negative leading coefficient and odd degree so it will extend from Q2 to Q4
 
 .. image:: ../images/u2lesson05-gpimage05.png
@@ -205,27 +252,48 @@ Negative leading coefficient and odd degree so it will extend from Q2 to Q4
 **3\)** Determine an equation for the family of cubic functions with zeros
 :math:`3 \pm \sqrt{5}` and :math:`-\dfrac{1}{2}`
 
+.. rst-class:: solution
+
 Factors:
+
+.. rst-class:: solution
 
 :math:`x = 3 \pm \sqrt{5}`
 
+.. rst-class:: solution
+
 :math:`x - 3 = \pm\sqrt{5}`
+
+.. rst-class:: solution
 
 :math:`(x - 3)^2 = 5`
 
+.. rst-class:: solution
+
 :math:`x^2 - 6x + 9 = 5`
+
+.. rst-class:: solution
 
 :math:`x^2 - 6x + 4 = 0`
 
+.. rst-class:: solution
+
 :math:`x = -\dfrac{1}{2}`
+
+.. rst-class:: solution
 
 :math:`2x = -1`
 
+.. rst-class:: solution
+
 :math:`2x + 1 = 0`
+
+.. rst-class:: solution
 
 Equation:
 
 .. math::
+   :class: solution
 
    P(x) = k(2x + 1)(x^2 - 6x + 4)
 
@@ -241,19 +309,35 @@ graph.
    :scale: 50
    :alt: graph of a quartic function passing through (-1,-6) with x-intercepts -3, -1/2, 1, and 2
 
+.. rst-class:: solution
+
 The :math:`x`-intercepts are :math:`-3`, :math:`-\dfrac{1}{2}`, :math:`1`,
 and :math:`2`
 
+.. rst-class:: solution
+
 :math:`y = k(x + 3)(2x + 1)(x - 1)(x - 2)`
+
+.. rst-class:: solution
 
 The graph passes through the point :math:`(-1, -6)`
 
+.. rst-class:: solution
+
 :math:`-6 = k(-1 + 3)(2(-1) + 1)(-1 - 1)(-1 - 2)`
+
+.. rst-class:: solution
 
 :math:`-6 = k(2)(-1)(-2)(-3)`
 
+.. rst-class:: solution
+
 :math:`-6 = -12k`
 
+.. rst-class:: solution
+
 :math:`k = 0.5`
+
+.. rst-class:: solution
 
 :math:`y = 0.5(x + 3)(2x + 1)(x - 1)(x - 2)`

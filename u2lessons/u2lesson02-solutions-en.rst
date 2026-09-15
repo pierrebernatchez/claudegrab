@@ -1,4 +1,4 @@
-Synthetic Division Lesson with solutions
+2.2 Synthetic Division Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Synthetic Division Lesson with solutions
 :slug: u2lesson02-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Synthetic Division Lesson with solutions
+:summary: 2.2 Synthetic Division Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -56,12 +56,14 @@ Divide :math:`3x^3 - 5x^2 - 7x - 1` by :math:`x - 3`. In this question, :math:`b
 Don't forget that the answer can be written in two ways...
 
 .. math::
+   :class: solution
 
    \frac{3x^3 - 5x^2 - 7x - 1}{x - 3} = 3x^2 + 4x + 5 + \frac{14}{x - 3}
 
 OR
 
 .. math::
+   :class: solution
 
    3x^3 - 5x^2 - 7x - 1 = (x - 3)(3x^2 + 4x + 5) + 14
 
@@ -74,17 +76,18 @@ multiplication statement that could be used to check the division.
 
 a\) :math:`(x^4 - 2x^3 + 13x - 6) \div (x + 2)`
 
-Rewrite the dividend with the missing power: :math:`x^4 - 2x^3 + 0x^2 + 13x - 6`
+Rewrite the dividend with the missing power: :solmath:`x^4 - 2x^3 + 0x^2 + 13x - 6`
 
 .. image:: ../images/u2lesson02-tabimage02.png
    :alt: synthetic division of x^4 - 2x^3 + 0x^2 + 13x - 6 by x + 2, b = -2, quotient x^3 - 4x^2 + 8x - 3 remainder 0
 
 .. math::
+   :class: solution
 
    x^4 - 2x^3 + 13x - 6 = (x + 2)(x^3 - 4x^2 + 8x - 3)
 
 Note: since the remainder is zero, both the quotient and divisor are
-**factors** of the dividend.
+:sol:`factors` of the dividend.
 
 .. rst-class:: keepwithnext
 
@@ -94,6 +97,7 @@ b\) :math:`(2x^3 - 5x^2 + 8x + 4) \div (x - 3)`
    :alt: synthetic division of 2x^3 - 5x^2 + 8x + 4 by x - 3, b = 3, quotient 2x^2 + x + 11 remainder 37
 
 .. math::
+   :class: solution
 
    2x^3 - 5x^2 + 8x + 4 = (x - 3)(2x^2 + x + 11) + 37
 
@@ -114,10 +118,12 @@ Divide :math:`6x^3 + 5x^2 - 16x - 15` by :math:`2x + 3`
    :alt: synthetic division of 6x^3 + 5x^2 - 16x - 15 by x + 3/2, b = -3/2, before dividing by 2: quotient 6x^2 - 4x - 10 remainder 0
 
 .. math::
+   :class: solution
 
    \frac{6x^2 - 4x - 10}{2} = 3x^2 - 2x - 5
 
 .. math::
+   :class: solution
 
    6x^3 + 5x^2 - 16x - 15 = (2x + 3)(3x^2 - 2x - 5)
 
@@ -138,12 +144,15 @@ useful with a divisor of the form :math:`x - b`. If the divisor is
 
 a\) Divide :math:`x^3 - 4x^2 + 2x + 3` by :math:`x - 3`
 
+.. rst-class:: solution
+
 Use synthetic division because we have a linear divisor of the form :math:`x - b`.
 
 .. image:: ../images/u2lesson02-tabimage06.png
    :alt: synthetic division of x^3 - 4x^2 + 2x + 3 by x - 3, b = 3, quotient x^2 - x - 1 remainder 0
 
 .. math::
+   :class: solution
 
    x^3 - 4x^2 + 2x + 3 = (x - 3)(x^2 - x - 1)
 
@@ -155,6 +164,7 @@ b\) Divide :math:`12x^4 - 56x^3 + 59x^2 + 9x - 18` by :math:`2x + 1`
    :alt: (12x^4 - 56x^3 + 59x^2 + 9x - 18) divided by (2x + 1) using long division, quotient 6x^3 - 31x^2 + 45x - 18 remainder 0
 
 .. math::
+   :class: solution
 
    12x^4 - 56x^3 + 59x^2 + 9x - 18 = (2x + 1)(6x^3 - 31x^2 + 45x - 18)
 
@@ -162,12 +172,15 @@ b\) Divide :math:`12x^4 - 56x^3 + 59x^2 + 9x - 18` by :math:`2x + 1`
 
 c\) Divide :math:`x^4 - 2x^3 + 5x + 3` by :math:`x^2 + 2x + 1`
 
+.. rst-class:: solution
+
 Use long division since it is a non-linear divisor.
 
 .. image:: ../images/u2lesson02-tabimage08.png
    :alt: (x^4 - 2x^3 + 5x + 3) divided by (x^2 + 2x + 1) using long division, quotient x^2 - 4x + 7 remainder -5x - 4
 
 .. math::
+   :class: solution
 
    x^4 - 2x^3 + 5x + 3 = (x^2 + 2x + 1)(x^2 - 4x + 7) - 5x - 4
 
@@ -175,11 +188,14 @@ Use long division since it is a non-linear divisor.
 
 d\) Divide :math:`x^4 - x^3 - x^2 + 2x + 1` by :math:`x^2 + 2`
 
+.. rst-class:: solution
+
 Use long division since it is a non-linear divisor.
 
 .. image:: ../images/u2lesson02-tabimage09.png
    :alt: (x^4 - x^3 - x^2 + 2x + 1) divided by (x^2 + 2) using long division, quotient x^2 - x - 3 remainder 4x + 7
 
 .. math::
+   :class: solution
 
    x^4 - x^3 - x^2 + 2x + 1 = (x^2 + 2)(x^2 - x - 3) + 4x + 7

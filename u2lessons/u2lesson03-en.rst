@@ -1,4 +1,4 @@
-Factor Theorem Lesson
+2.3 Factor Theorem Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Factor Theorem Lesson
 :slug: u2lesson03
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Factor Theorem Lesson
+:summary: 2.3 Factor Theorem Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

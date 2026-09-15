@@ -1,4 +1,4 @@
-Families of Polynomial Functions Worksheet with solutions
+2.5 Families of Polynomial Functions Worksheet with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Families of Polynomial Functions Worksheet with solutions
 :slug: u2worksheet05-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Families of Polynomial Functions Worksheet with solutions
+:summary: 2.5 Families of Polynomial Functions Worksheet with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -30,13 +30,19 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 **a\)** Determine an equation for the family of quadratic functions with
 these zeros.
 
+.. rst-class:: solution
+
 :math:`y = k(x + 7)(x + 3)`
 
 .. rst-class:: keepwithnext
 
 **b\)** Write equations for two functions that belong to this family.
 
+.. rst-class:: solution
+
 :math:`y = 87(x + 7)(x + 3)`
+
+.. rst-class:: solution
 
 :math:`y = 71(x + 7)(x + 3)`
 
@@ -45,11 +51,19 @@ these zeros.
 **c\)** Determine an equation for the member of the family that passes
 through the point :math:`(2, 18)`.
 
+.. rst-class:: solution
+
 :math:`18 = k(2 + 7)(2 + 3)`
+
+.. rst-class:: solution
 
 :math:`18 = 45k`
 
+.. rst-class:: solution
+
 :math:`k = \dfrac{2}{5}`
+
+.. rst-class:: solution
 
 :math:`y = \dfrac{2}{5}(x + 7)(x + 3)`
 
@@ -73,6 +87,8 @@ c\) :math:`y = 1.5(x - 2)(x + 4)(x - 2)`
 .. rst-class:: keepwithnext
 
 d\) :math:`y = 3(x - 5)(x - 2)(x + 4)`
+
+.. rst-class:: solution
 
 Answer: **c\)** |---| it has a repeated root at :math:`x = 2` instead of
 the shared zeros :math:`-4`, :math:`2`, and :math:`5`.
@@ -114,6 +130,8 @@ represent functions that belong to the same family?
    :scale: 50
    :alt: graph D -- cubic with zeros -2, 1, 3, larger leading coefficient
 
+.. rst-class:: solution
+
 Answer: **A, B, and D** belong to the same family (zeros :math:`-2`,
 :math:`1`, and :math:`3`); **C** does not (it has a repeated zero at
 :math:`x = 1` and no zero at :math:`x = 3`).
@@ -127,13 +145,19 @@ Answer: **A, B, and D** belong to the same family (zeros :math:`-2`,
 **a\)** Determine an equation for the family of cubic functions with
 zeros -2, -1, and 1/2
 
+.. rst-class:: solution
+
 :math:`y = k(x + 2)(x + 1)(2x - 1)`
 
 .. rst-class:: keepwithnext
 
 **b\)** Write equations for two functions that belong to this family.
 
+.. rst-class:: solution
+
 :math:`y = 66(x + 2)(x + 1)(2x - 1)`
+
+.. rst-class:: solution
 
 :math:`y = 68(x + 2)(x + 1)(2x - 1)`
 
@@ -142,13 +166,23 @@ zeros -2, -1, and 1/2
 **c\)** Determine an equation for the member of the family whose graph
 has a :math:`y`-intercept of 6.
 
+.. rst-class:: solution
+
 :math:`6 = k(0 + 2)(0 + 1)[2(0) - 1]`
+
+.. rst-class:: solution
 
 :math:`6 = k(2)(1)(-1)`
 
+.. rst-class:: solution
+
 :math:`6 = -2k`
 
+.. rst-class:: solution
+
 :math:`k = -3`
+
+.. rst-class:: solution
 
 :math:`y = -3(x + 2)(x + 1)(2x - 1)`
 
@@ -169,23 +203,43 @@ has a :math:`y`-intercept of 6.
 **a\)** Determine an equation for the family of cubic functions with
 zeros :math:`1 \pm \sqrt{2}` and :math:`-\dfrac{1}{2}`
 
+.. rst-class:: solution
+
 Factors:
+
+.. rst-class:: solution
 
 :math:`x = 1 \pm \sqrt{2}`
 
+.. rst-class:: solution
+
 :math:`x - 1 = \pm\sqrt{2}`
+
+.. rst-class:: solution
 
 :math:`(x - 1)^2 = 2`
 
+.. rst-class:: solution
+
 :math:`x^2 - 2x + 1 = 2`
+
+.. rst-class:: solution
 
 :math:`x^2 - 2x - 1 = 0`
 
+.. rst-class:: solution
+
 :math:`x = -\dfrac{1}{2}`
+
+.. rst-class:: solution
 
 :math:`2x = -1`
 
+.. rst-class:: solution
+
 :math:`2x + 1 = 0`
+
+.. rst-class:: solution
 
 :math:`y = k(x^2 - 2x - 1)(2x + 1)`
 
@@ -194,13 +248,23 @@ Factors:
 **b\)** Determine an equation for the member of the family whose graph
 passes through the point :math:`(3, 35)`.
 
+.. rst-class:: solution
+
 :math:`35 = k[(3)^2 - 2(3) - 1][2(3) + 1]`
+
+.. rst-class:: solution
 
 :math:`35 = k(2)(7)`
 
+.. rst-class:: solution
+
 :math:`35 = 14k`
 
+.. rst-class:: solution
+
 :math:`k = \dfrac{35}{14} = \dfrac{5}{2}`
+
+.. rst-class:: solution
 
 :math:`y = \dfrac{5}{2}(x^2 - 2x - 1)(2x + 1)`
 
@@ -213,19 +277,35 @@ passes through the point :math:`(3, 35)`.
 **a\)** Determine an equation for the family of quartic functions with
 zeros 3 (order 2) and :math:`-4 \pm \sqrt{3}`.
 
+.. rst-class:: solution
+
 Factors:
+
+.. rst-class:: solution
 
 :math:`x = 3` (order 2) :math:`\rightarrow (x - 3)^2`
 
+.. rst-class:: solution
+
 :math:`x = -4 \pm \sqrt{3}`
+
+.. rst-class:: solution
 
 :math:`x + 4 = \pm\sqrt{3}`
 
+.. rst-class:: solution
+
 :math:`(x + 4)^2 = 3`
+
+.. rst-class:: solution
 
 :math:`x^2 + 8x + 16 = 3`
 
+.. rst-class:: solution
+
 :math:`x^2 + 8x + 13 = 0`
+
+.. rst-class:: solution
 
 :math:`y = k(x - 3)^2(x^2 + 8x + 13)`
 
@@ -234,13 +314,23 @@ Factors:
 **b\)** Determine an equation for the member of the family whose graph
 passes through the point :math:`(1, -22)`.
 
+.. rst-class:: solution
+
 :math:`-22 = k(1 - 3)^2[(1)^2 + 8(1) + 13]`
+
+.. rst-class:: solution
 
 :math:`-22 = k(4)(22)`
 
+.. rst-class:: solution
+
 :math:`-22 = 88k`
 
+.. rst-class:: solution
+
 :math:`k = -\dfrac{1}{4}`
+
+.. rst-class:: solution
 
 :math:`y = -\dfrac{1}{4}(x - 3)^2(x^2 + 8x + 13)`
 
@@ -256,15 +346,27 @@ passes through the point :math:`(1, -22)`.
    :scale: 50
    :alt: cubic with zeros -2, 1, 3 and y-intercept -12
 
+.. rst-class:: solution
+
 :math:`y = k(x + 2)(x - 1)(x - 3)`
+
+.. rst-class:: solution
 
 :math:`-12 = k(0 + 2)(0 - 1)(0 - 3)`
 
+.. rst-class:: solution
+
 :math:`-12 = k(2)(-1)(-3)`
+
+.. rst-class:: solution
 
 :math:`-12 = 6k`
 
+.. rst-class:: solution
+
 :math:`k = -2`
+
+.. rst-class:: solution
 
 :math:`y = -2(x + 2)(x - 1)(x - 3)`
 
@@ -276,14 +378,26 @@ passes through the point :math:`(1, -22)`.
    :scale: 50
    :alt: quartic with a double zero at -3 and simple zeros at 1 and 1.5, y-intercept 27
 
+.. rst-class:: solution
+
 :math:`y = k(x + 3)^2(x - 1)(2x - 3)`
+
+.. rst-class:: solution
 
 :math:`27 = k(0 + 3)^2(0 - 1)[2(0) - 3]`
 
+.. rst-class:: solution
+
 :math:`27 = k(9)(-1)(-3)`
+
+.. rst-class:: solution
 
 :math:`27 = 27k`
 
+.. rst-class:: solution
+
 :math:`k = 1`
+
+.. rst-class:: solution
 
 :math:`y = (x + 3)^2(x - 1)(2x - 3)`

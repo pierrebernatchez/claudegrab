@@ -1,4 +1,4 @@
-Factor Theorem Lesson with solutions
+2.3 Factor Theorem Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Factor Theorem Lesson with solutions
 :slug: u2lesson03-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Factor Theorem Lesson with solutions
+:summary: 2.3 Factor Theorem Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -34,12 +34,15 @@ Part 1: Remainder Theorem Refresher
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    f(-2) &=& (-2)^3 + 4(-2)^2 + (-2) - 6 \\
    &=& -8 + 16 - 2 - 6 \\
    &=& 0
    \end{array}
+
+.. rst-class:: solution
 
 The remainder when divided by :math:`x + 2` is 0. This means that
 :math:`x + 2` is a factor of the dividend.
@@ -59,6 +62,8 @@ Note: I chose synthetic since it is a linear divisor of the form :math:`x - b`.
 .. image:: ../images/u2lesson03-tabimage01.png
    :alt: synthetic division of x^3 + 4x^2 + x - 6 by x + 2, b = -2, quotient x^2 + 2x - 3 remainder 0
 
+.. rst-class:: solution
+
 :math:`x^3 + 4x^2 + x - 6 = (x + 2)(x^2 + 2x - 3)`
 
     **Factor Theorem:** :math:`x - b` is a factor of a polynomial :math:`P(x)`
@@ -72,6 +77,7 @@ Note: I chose synthetic since it is a linear divisor of the form :math:`x - b`.
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    P(3) &=& (3)^3 - (3)^2 - 14(3) + 24 \\
@@ -79,11 +85,12 @@ Note: I chose synthetic since it is a linear divisor of the form :math:`x - b`.
    &=& 0
    \end{array}
 
-Since the remainder is 0, :math:`x - 3` divides evenly into :math:`P(x)`;
-that means :math:`x - 3` **is a factor** of :math:`P(x)`.
+Since the remainder is :sol:`0`, :math:`x - 3` divides evenly into :math:`P(x)`;
+that means :math:`x - 3` :sol:`is a factor` of :math:`P(x)`.
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    P(-2) &=& (-2)^3 - (-2)^2 - 14(-2) + 24 \\
@@ -91,8 +98,8 @@ that means :math:`x - 3` **is a factor** of :math:`P(x)`.
    &=& 40
    \end{array}
 
-Since the remainder is not 0, :math:`x + 2` does not divide evenly into
-:math:`P(x)`; that means :math:`x + 2` **is not a factor** of :math:`P(x)`.
+Since the remainder is not :sol:`0`, :math:`x + 2` does not divide evenly into
+:math:`P(x)`; that means :math:`x + 2` :sol:`is not a factor` of :math:`P(x)`.
 
 Part 2: How to Determine a Factor of a Polynomial With Leading Coefficient 1
 ================================================================================
@@ -120,13 +127,14 @@ Find a value of :math:`b` such that :math:`P(b) = 0`. Based on the factor
 theorem, if :math:`P(b) = 0`, then we know that :math:`x - b` is a factor.
 We can then divide :math:`P(x)` by that factor.
 
-The integral zero theorem tells us to test factors of :math:`-6`.
+The integral zero theorem tells us to test factors of :solmath:`-6`.
 
-Test :math:`\pm 1, \pm 2, \pm 3,` and :math:`\pm 6`. Once one factor is
+Test :solmath:`\pm 1, \pm 2, \pm 3,` and :solmath:`\pm 6`. Once one factor is
 found, you can stop testing and use that factor to divide :math:`P(x)`.
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    P(1) &=& (1)^3 + 2(1)^2 - 5(1) - 6 \\
@@ -134,11 +142,12 @@ found, you can stop testing and use that factor to divide :math:`P(x)`.
    &=& -8
    \end{array}
 
-Since :math:`P(1) \neq 0`, we know that :math:`x - 1` is NOT a factor of
-:math:`P(x)`.
+Since :solmath:`P(1) \neq 0`, we know that :solmath:`x - 1` :sol:`is NOT` a
+factor of :math:`P(x)`.
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    P(2) &=& (2)^3 + 2(2)^2 - 5(2) - 6 \\
@@ -146,8 +155,8 @@ Since :math:`P(1) \neq 0`, we know that :math:`x - 1` is NOT a factor of
    &=& 0
    \end{array}
 
-Since :math:`P(2) = 0`, we know that :math:`x - 2` is a factor of
-:math:`P(x)`.
+Since :solmath:`P(2) = 0`, we know that :solmath:`x - 2` :sol:`is` a
+factor of :math:`P(x)`.
 
 You can now use either long division or synthetic division to find the
 other factors.
@@ -162,7 +171,11 @@ Method 2: Synthetic Division
 .. image:: ../images/u2lesson03-tabimage03.png
    :alt: synthetic division of x^3 + 2x^2 - 5x - 6 by x - 2, b = 2, quotient x^2 + 4x + 3 remainder 0
 
+.. rst-class:: solution
+
 :math:`x^3 + 2x^2 - 5x - 6 = (x - 2)(x^2 + 4x + 3)`
+
+.. rst-class:: solution
 
 :math:`= (x - 2)(x + 3)(x + 1)`
 
@@ -176,37 +189,45 @@ Find a value of :math:`b` such that :math:`P(b) = 0`. Based on the factor
 theorem, if :math:`P(b) = 0`, then we know that :math:`x - b` is a factor.
 We can then divide :math:`P(x)` by that factor.
 
-The integral zero theorem tells us to test factors of :math:`-18`.
+The integral zero theorem tells us to test factors of :solmath:`-18`.
 
-Test :math:`\pm 1, \pm 2, \pm 3, \pm 6, \pm 9,` and :math:`\pm 18`. Once one
+Test :solmath:`\pm 1, \pm 2, \pm 3, \pm 6, \pm 9,` and :solmath:`\pm 18`. Once one
 factor is found, you can stop testing and use that factor to divide
 :math:`P(x)`.
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    P(1) &=& (1)^4 + 3(1)^3 - 7(1)^2 - 27(1) - 18 \\
    &=& -48
    \end{array}
 
+.. rst-class:: solution
+
 :math:`x - 1` is NOT a factor of :math:`P(x)`.
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    P(-1) &=& (-1)^4 + 3(-1)^3 - 7(-1)^2 - 27(-1) - 18 \\
    &=& 0
    \end{array}
 
+.. rst-class:: solution
+
 :math:`x + 1` IS a factor of :math:`P(x)`.
 
-Since :math:`P(-1) = 0`, this tells us that :math:`x + 1` is a factor. Use
-division to determine the other factor.
+Since :solmath:`P(-1) = 0`, this tells us that :solmath:`x + 1` is a factor.
+Use division to determine the other factor.
 
 .. image:: ../images/u2lesson03-tabimage04.png
    :alt: synthetic division of x^4 + 3x^3 - 7x^2 - 27x - 18 by x + 1, b = -1, quotient x^3 + 2x^2 - 9x - 18 remainder 0
+
+.. rst-class:: solution
 
 :math:`x^4 + 3x^3 - 7x^2 - 27x - 18 = (x + 1)(x^3 + 2x^2 - 9x - 18)`
 
@@ -215,22 +236,31 @@ or by factoring by grouping.
 
 Method 1: Division
 
+.. rst-class:: solution
+
 Test factors of :math:`-18`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    f(-2) &=& (-2)^3 + 2(-2)^2 - 9(-2) - 18 \\
    &=& 0
    \end{array}
 
+.. rst-class:: solution
+
 :math:`x + 2` is a factor
 
 .. image:: ../images/u2lesson03-tabimage05.png
    :alt: synthetic division of x^3 + 2x^2 - 9x - 18 by x + 2, b = -2, quotient x^2 + 0x - 9 remainder 0
 
+.. rst-class:: solution
+
 :math:`x^4 + 3x^3 - 7x^2 - 27x - 18 = (x + 1)(x + 2)(x^2 - 9)`
+
+.. rst-class:: solution
 
 :math:`= (x + 1)(x + 2)(x - 3)(x + 3)`
 
@@ -241,21 +271,33 @@ Method 2: Factoring by Grouping
 Group the first 2 terms and the last 2 terms and separate with an addition
 sign.
 
+.. rst-class:: solution
+
 :math:`f(x) = (x^3 + 2x^2) + (-9x - 18)`
 
 Common factor within each group
+
+.. rst-class:: solution
 
 :math:`f(x) = x^2(x + 2) - 9(x + 2)`
 
 Factor out the common binomial
 
+.. rst-class:: solution
+
 :math:`f(x) = (x + 2)(x^2 - 9)`
 
 Therefore,
 
+.. rst-class:: solution
+
 :math:`x^4 + 3x^3 - 7x^2 - 27x - 18 = (x + 1)(x^3 + 2x^2 - 9x - 18)`
 
+.. rst-class:: solution
+
 :math:`= (x + 1)(x + 2)(x^2 - 9)`
+
+.. rst-class:: solution
 
 :math:`= (x + 1)(x + 2)(x - 3)(x + 3)`
 
@@ -268,11 +310,19 @@ Therefore,
 Note: Factoring by grouping does not always work…but when it does, it saves
 you time!
 
+.. rst-class:: solution
+
 :math:`= (x^4 - 6x^3) + (2x^2 - 12x)`
+
+.. rst-class:: solution
 
 :math:`= x^3(x - 6) + 2x(x - 6)`
 
+.. rst-class:: solution
+
 :math:`= (x - 6)(x^3 + 2x)`
+
+.. rst-class:: solution
 
 :math:`= (x - 6)(x)(x^2 + 2)`
 
@@ -300,30 +350,40 @@ We must start by finding a value of :math:`\dfrac{b}{a}` where
 :math:`P\left(\dfrac{b}{a}\right) = 0`.
 
 :math:`b` must be a factor of the constant term. Possible values for
-:math:`b` are: :math:`\pm 1, \pm 2`
+:math:`b` are: :solmath:`\pm 1, \pm 2`
 
 :math:`a` must be a factor of the leading coefficient. Possible values of
-:math:`a` are: :math:`\pm 1, \pm 3`
+:math:`a` are: :solmath:`\pm 1, \pm 3`
 
-Therefore, possible values for :math:`\dfrac{b}{a}` are: :math:`\pm 1, \pm
+Therefore, possible values for :math:`\dfrac{b}{a}` are: :solmath:`\pm 1, \pm
 \dfrac{1}{3}, \pm 2, \pm \dfrac{2}{3}`
 
 Test values of :math:`\dfrac{b}{a}` for :math:`x` in :math:`P(x)` to find a
 zero.
 
+.. rst-class:: solution
+
 :math:`P(1) = 3(1)^3 + 2(1)^2 - 7(1) + 2 = 0`
 
-Since :math:`P(1) = 0`, :math:`x - 1` is a factor of :math:`P(x)`. Use
-division to find the other factors.
+Since :solmath:`P(1) = 0`, :math:`x - 1` :sol:`is a factor` of :math:`P(x)`.
+Use division to find the other factors.
 
 .. image:: ../images/u2lesson03-tabimage06.png
    :alt: synthetic division of 3x^3 + 2x^2 - 7x + 2 by x - 1, b = 1, quotient 3x^2 + 5x - 2 remainder 0
 
+.. rst-class:: solution
+
 :math:`3x^3 + 2x^2 - 7x + 2 = (x - 1)(3x^2 + 5x - 2)`
+
+.. rst-class:: solution
 
 :math:`= (x - 1)[(3x^2 + 6x) + (-1x - 2)]`
 
+.. rst-class:: solution
+
 :math:`= (x - 1)[3x(x + 2) - 1(x + 2)]`
+
+.. rst-class:: solution
 
 :math:`= (x - 1)(x + 2)(3x - 1)`
 
@@ -331,25 +391,43 @@ division to find the other factors.
 
 **Example 6:** Factor :math:`P(x) = 2x^3 + x^2 - 7x - 6`
 
+.. rst-class:: solution
+
 Possible values for :math:`b` are: :math:`\pm 1, \pm 2, \pm 3, \pm 6`
 
+.. rst-class:: solution
+
 Possible values of :math:`a` are: :math:`\pm 1, \pm 2`
+
+.. rst-class:: solution
 
 Therefore, possible values for :math:`\dfrac{b}{a}` are: :math:`\pm 1, \pm
 \dfrac{1}{2}, \pm 2, \pm 3, \pm \dfrac{3}{2}, \pm 6`
 
+.. rst-class:: solution
+
 :math:`f(-1) = 2(-1)^3 + (-1)^2 - 7(-1) - 6 = 0`
+
+.. rst-class:: solution
 
 Therefore, :math:`x + 1` is a factor of :math:`P(x)`
 
 .. image:: ../images/u2lesson03-tabimage07.png
    :alt: synthetic division of 2x^3 + x^2 - 7x - 6 by x + 1, b = -1, quotient 2x^2 - x - 6 remainder 0
 
+.. rst-class:: solution
+
 :math:`2x^3 + x^2 - 7x - 6 = (x + 1)(2x^2 - x - 6)`
+
+.. rst-class:: solution
 
 :math:`= (x + 1)[(2x^2 - 4x) + (3x - 6)]`
 
+.. rst-class:: solution
+
 :math:`= (x + 1)[2x(x - 2) + 3(x - 2)]`
+
+.. rst-class:: solution
 
 :math:`= (x + 1)(x - 2)(2x + 3)`
 
@@ -367,6 +445,7 @@ substitution or elimination to solve.
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    f(-1) &=& 2(-1)^3 - m(-1)^2 + n(-1) - 2 \\
@@ -374,10 +453,13 @@ substitution or elimination to solve.
    -8 &=& -m - n
    \end{array}
 
+.. rst-class:: solution
+
 Equation (1): :math:`-8 = -m - n`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    f(2) &=& 2(2)^3 - m(2)^2 + n(2) - 2 \\
@@ -385,28 +467,41 @@ Equation (1): :math:`-8 = -m - n`
    -14 &=& -4m + 2n
    \end{array}
 
+.. rst-class:: solution
+
 Equation (2): :math:`-14 = -4m + 2n`
 
+.. rst-class:: solution
+
 Multiply equation (1) by 2: :math:`-16 = -2m - 2n`
+
+.. rst-class:: solution
 
 Add this to equation (2): :math:`-14 = -4m + 2n`
 
 .. math::
+   :class: solution
 
    -30 = -6m
 
 .. math::
+   :class: solution
 
    5 = m
+
+.. rst-class:: solution
 
 Substitute :math:`m = 5` into equation (1) or (2):
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    -8 &=& -5 - n \\
    n &=& 3
    \end{array}
+
+.. rst-class:: solution
 
 So :math:`m = 5` and :math:`n = 3`

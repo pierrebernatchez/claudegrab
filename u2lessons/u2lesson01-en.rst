@@ -1,4 +1,4 @@
-Long Division of Polynomials and the Remainder Theorem Lesson
+2.1 Long Division of Polynomials and the Remainder Theorem Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Long Division of Polynomials and the Remainder Theorem Lesson
 :slug: u2lesson01
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Long Division of Polynomials and the Remainder Theorem Lesson
+:summary: 2.1 Long Division of Polynomials and the Remainder Theorem Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

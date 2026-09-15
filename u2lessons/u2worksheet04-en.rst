@@ -1,4 +1,4 @@
-Solving Polynomial Equations Worksheet
+2.4 Solving Polynomial Equations Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Solving Polynomial Equations Worksheet
 :slug: u2worksheet04
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Solving Polynomial Equations Worksheet
+:summary: 2.4 Solving Polynomial Equations Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

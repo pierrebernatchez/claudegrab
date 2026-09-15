@@ -1,4 +1,4 @@
-Solving Polynomial Equations Lesson
+2.4 Solving Polynomial Equations Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Solving Polynomial Equations Lesson
 :slug: u2lesson04
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Solving Polynomial Equations Lesson
+:summary: 2.4 Solving Polynomial Equations Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

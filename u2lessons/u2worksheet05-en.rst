@@ -1,4 +1,4 @@
-Families of Polynomial Functions Worksheet
+2.5 Families of Polynomial Functions Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Families of Polynomial Functions Worksheet
 :slug: u2worksheet05
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Families of Polynomial Functions Worksheet
+:summary: 2.5 Families of Polynomial Functions Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

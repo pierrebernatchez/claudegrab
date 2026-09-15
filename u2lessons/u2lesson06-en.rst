@@ -1,4 +1,4 @@
-Solving Inequalities Lesson
+2.6 Solving Inequalities Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Solving Inequalities Lesson
 :slug: u2lesson06
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Solving Inequalities Lesson
+:summary: 2.6 Solving Inequalities Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
