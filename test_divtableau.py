@@ -170,6 +170,18 @@ POLY_CASES = [
     \rule{0pt}{12pt} &  &  &  & 9x & - 8 \\
     \rule{0pt}{12pt} &  &  &  & 9x & - 12 \\
     """), 1, [2, 4, 6, 8], 'R = 4'),
+    ("review Q4c (non-monic divisor, fractional quotient/remainder)",
+     [-8, 10, -1, -4, 15], [2, -1], _block(r"""
+    \rule{0pt}{12pt} &  & -4x^3 & + 3x^2 & + x & - \frac{3}{2} \\
+    \rule{0pt}{12pt}2x - 1 \;) & -8x^4 & + 10x^3 & - x^2 & - 4x & + 15 \\
+    \rule{0pt}{12pt} & -8x^4 & + 4x^3 &  &  &  \\
+    \rule{0pt}{12pt} &  & 6x^3 & - x^2 &  &  \\
+    \rule{0pt}{12pt} &  & 6x^3 & - 3x^2 &  &  \\
+    \rule{0pt}{12pt} &  &  & 2x^2 & - 4x &  \\
+    \rule{0pt}{12pt} &  &  & 2x^2 & - x &  \\
+    \rule{0pt}{12pt} &  &  &  & -3x & + 15 \\
+    \rule{0pt}{12pt} &  &  &  & -3x & + \frac{3}{2} \\
+    """), 1, [2, 4, 6, 8], 'R = \\frac{27}{2}'),
 ]
 
 NUMERIC_CASES = [

@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2review07-tabimage07.tableau
+### Synthetic division: (x^3 - 4x^2 + x + 6) / (x - 2), b=2. Q7a (root found via factor theorem).
+../tableau2png.py synthetic --dividend=1,-4,1,6 --b=2 --label-terms \
+  --out ../u2lessons-media/u2review07-tabimage07.png

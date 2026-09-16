@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2review07-tabimage14.tableau
+### Synthetic division: (6x^3 + 13x^2 - 41x + 12) / (x + 4), b=-4. Q12 (root found via factor theorem).
+../tableau2png.py synthetic --dividend=6,13,-41,12 --b=-4 --label-terms \
+  --out ../u2lessons-media/u2review07-tabimage14.png

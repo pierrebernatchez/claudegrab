@@ -57,6 +57,21 @@ from fractions import Fraction
 # Polynomial long division
 # ---------------------------------------------------------------------------
 
+def _format_frac_magnitude(v):
+    """Format a non-negative Fraction (or int) as a LaTeX magnitude string,
+    with no sign -- shared by _format_term (a coeff*var^degree term) and
+    _format_number (a bare synthetic-division cell), the two places a
+    coefficient can come out as an inexact Fraction (e.g. dividing by a
+    non-monic divisor like 2x - 1 partway through polynomial long
+    division). An integer-valued Fraction (denominator 1) still prints as
+    a plain integer, so this is a no-op for every already-integer case.
+    """
+    v = Fraction(v)
+    if v.denominator == 1:
+        return str(v.numerator)
+    return f"\\frac{{{v.numerator}}}{{{v.denominator}}}"
+
+
 def _format_term(coeff, degree, var, is_leading):
     """Format a single coeff*var^degree term as LaTeX, with its sign.
 
@@ -64,15 +79,19 @@ def _format_term(coeff, degree, var, is_leading):
     Always shows the term even if coeff == 0, since explicit zero
     placeholders (e.g. "0x^2") are how this project's lessons keep columns
     visually lined up -- see CLAUDE.md's naming-convention notes on this.
+
+    coeff may be a Fraction (not just an int) -- see _format_frac_magnitude.
     """
+    coeff = Fraction(coeff)
     sign = '-' if coeff < 0 else '+'
     mag = abs(coeff)
+    mag_str = _format_frac_magnitude(mag)
     if degree == 0:
-        body = str(mag)
+        body = mag_str
     elif degree == 1:
-        body = var if mag == 1 else f"{mag}{var}"
+        body = var if mag == 1 else f"{mag_str}{var}"
     else:
-        body = f"{var}^{degree}" if mag == 1 else f"{mag}{var}^{degree}"
+        body = f"{var}^{degree}" if mag == 1 else f"{mag_str}{var}^{degree}"
     if is_leading:
         return f"-{body}" if coeff < 0 else body
     return f"{sign} {body}"
@@ -108,6 +127,8 @@ def poly_long_division(dividend, divisor):
     """
     if divisor[0] == 0:
         raise ValueError("divisor's leading coefficient must not be 0")
+    dividend = [Fraction(c) for c in dividend]
+    divisor = [Fraction(c) for c in divisor]
     n = len(dividend) - 1
     m = len(divisor) - 1
     if n < m:
@@ -122,10 +143,11 @@ def poly_long_division(dividend, divisor):
     for step in range(n - m + 1):
         lead_idx = step  # index into `work` of the current leading term
         lead_coeff = work[lead_idx]
-        q_coeff = lead_coeff / divisor[0] if not float(lead_coeff).is_integer() \
-            or not float(divisor[0]).is_integer() else lead_coeff // divisor[0] \
-            if lead_coeff % divisor[0] == 0 else lead_coeff / divisor[0]
-        # keep it exact (int) whenever possible, else fall back to Fraction
+        # Fraction division is always exact, so a non-monic divisor (e.g.
+        # 2x - 1) that doesn't divide evenly at some step still produces
+        # an exact quotient term (e.g. 3/2) instead of float noise --
+        # confirmed needed by a real case: -8x^4+10x^3-x^2-4x+15 / (2x-1).
+        q_coeff = lead_coeff / divisor[0]
         quotient.append(q_coeff)
 
         # product = q_coeff * divisor, placed at this step's degree window
@@ -449,10 +471,8 @@ def _format_number(v):
     the caller to pre-format it.
     """
     v = Fraction(v)
-    if v.denominator == 1:
-        return str(v.numerator)
-    sign = '-' if v.numerator < 0 else ''
-    return f"{sign}\\frac{{{abs(v.numerator)}}}{{{v.denominator}}}"
+    sign = '-' if v < 0 else ''
+    return f"{sign}{_format_frac_magnitude(abs(v))}"
 
 
 def synthetic_division(coeffs, b):

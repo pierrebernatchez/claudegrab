@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2review07-tabimage04.tableau
+### Long division: (12x^3 - 2x^2 + x - 11) / (3x + 1). Q4b.
+../tableau2png.py poly --dividend=12,-2,1,-11 --divisor=3,1 \
+  --out ../u2lessons-media/u2review07-tabimage04.png

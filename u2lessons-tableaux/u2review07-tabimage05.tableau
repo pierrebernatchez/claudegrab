@@ -1,0 +1,5 @@
+#!/bin/bash
+### u2review07-tabimage05.tableau
+### Long division: (-8x^4 + 10x^3 - x^2 - 4x + 15) / (2x - 1). Q4c.
+../tableau2png.py poly --dividend=-8,10,-1,-4,15 --divisor=2,-1 \
+  --out ../u2lessons-media/u2review07-tabimage05.png
