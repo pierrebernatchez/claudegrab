@@ -1,4 +1,4 @@
-Power Law of Logarithms Worksheet with solutions
+3.2 Power Law of Logarithms Worksheet with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Power Law of Logarithms Worksheet with solutions
 :slug: u3worksheet02-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Power Law of Logarithms Worksheet with solutions
+:summary: 3.2 Power Law of Logarithms Worksheet with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -31,6 +31,7 @@ a\) :math:`\log_2 16^3`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_2 16^3 &=& 3 \log_2(2^4) \\
@@ -44,6 +45,7 @@ b\) :math:`\log_4 8^2`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_4 8^2 &=& \log_4 64 \\
@@ -57,6 +59,7 @@ c\) :math:`\log 100^{-4}`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log 100^{-4} &=& -4 \log(10^2) \\
@@ -70,6 +73,7 @@ d\) :math:`\log 0.1^{\frac{1}{2}}`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log 0.1^{\frac{1}{2}} &=& \dfrac{1}{2} \log(10^{-1}) \\
@@ -83,6 +87,7 @@ e\) :math:`\log_2 \sqrt{8}`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_2 \sqrt{8} &=& \dfrac{1}{2} \log_2(2^3) \\
@@ -96,6 +101,7 @@ f\) :math:`\log_3 \left(\sqrt[3]{81}\right)^6`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_3 \left(\sqrt[3]{81}\right)^6 &=& \log_3 (81)^2 \\
@@ -114,6 +120,7 @@ a\) :math:`10 = 4^t`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_4 10 &=& t \\
@@ -127,6 +134,7 @@ b\) :math:`5^t = 250`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_5 250 &=& t \\
@@ -140,6 +148,7 @@ c\) :math:`2 = 1.08^t`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_{1.08} 2 &=& t \\
@@ -153,6 +162,7 @@ d\) :math:`500 = 100(1.06)^t`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    5 &=& 1.06^t \\
@@ -174,6 +184,7 @@ years.
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    A(4) &=& 500(1.07)^4 \\
@@ -186,6 +197,7 @@ b\) How long will it take for the investment to double in value?
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    1000 &=& 500(1.07)^t \\
@@ -204,25 +216,25 @@ Round to 3 decimal places.
 
 a\) :math:`\log_3 23`
 
-:math:`\dfrac{\log 23}{\log 3} \cong 2.854`
+:solmath:`\dfrac{\log 23}{\log 3} \cong 2.854`
 
 .. rst-class:: keepwithnext
 
 b\) :math:`\log_6 20`
 
-:math:`\dfrac{\log 20}{\log 6} \cong 1.672`
+:solmath:`\dfrac{\log 20}{\log 6} \cong 1.672`
 
 .. rst-class:: keepwithnext
 
 c\) :math:`-\log_{12} 4`
 
-:math:`-\dfrac{\log 4}{\log 12} \cong -0.558`
+:solmath:`-\dfrac{\log 4}{\log 12} \cong -0.558`
 
 .. rst-class:: keepwithnext
 
 d\) :math:`\log_{\frac{1}{2}} 30`
 
-:math:`\dfrac{\log 30}{\log \left(\frac{1}{2}\right)} \cong -4.907`
+:solmath:`\dfrac{\log 30}{\log \left(\frac{1}{2}\right)} \cong -4.907`
 
 .. rst-class:: keepwithnext
 
@@ -232,25 +244,25 @@ d\) :math:`\log_{\frac{1}{2}} 30`
 
 a\) :math:`\dfrac{\log 8}{\log 5}`
 
-:math:`\log_5 8`
+:solmath:`\log_5 8`
 
 .. rst-class:: keepwithnext
 
 b\) :math:`\dfrac{\log 17}{\log 9}`
 
-:math:`\log_9 17`
+:solmath:`\log_9 17`
 
 .. rst-class:: keepwithnext
 
 c\) :math:`\dfrac{\log \left(\frac{1}{2}\right)}{\log \left(\frac{2}{3}\right)}`
 
-:math:`\log_{\frac{2}{3}} \left(\dfrac{1}{2}\right)`
+:solmath:`\log_{\frac{2}{3}} \left(\dfrac{1}{2}\right)`
 
 .. rst-class:: keepwithnext
 
 d\) :math:`\dfrac{\log(x+1)}{\log(x-1)}`
 
-:math:`\log_{x-1}(x+1)`
+:solmath:`\log_{x-1}(x+1)`
 
 .. rst-class:: keepwithnext
 
@@ -259,6 +271,7 @@ logarithms.
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_2 8^5 &=& \log_2 (2^3)^5 \\
@@ -273,6 +286,7 @@ logarithms.
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_2 8^5 &=& 5 \log_2(2^3) \\
@@ -284,7 +298,7 @@ logarithms.
 
 **c)** Which method do you prefer?
 
-Answers will vary.
+:sol:`Answers will vary.`
 
 .. rst-class:: keepwithnext
 
@@ -296,6 +310,7 @@ a\) :math:`2 = \log 3^x`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    2 &=& x \log 3 \\
@@ -309,6 +324,7 @@ b\) :math:`100 = 10 \log 1000^x`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    10 &=& \log 1000^x \\
@@ -323,6 +339,7 @@ c\) :math:`4 = \log_3 15^x`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    3^4 &=& 15^x \\

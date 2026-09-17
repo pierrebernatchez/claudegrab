@@ -1,4 +1,4 @@
-Introduction to Logarithms and Review of Exponentials Worksheet
+3.1 Introduction to Logarithms and Review of Exponentials Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Introduction to Logarithms and Review of Exponentials Worksheet
 :slug: u3worksheet01
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Introduction to Logarithms and Review of Exponentials Worksheet
+:summary: 3.1 Introduction to Logarithms and Review of Exponentials Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

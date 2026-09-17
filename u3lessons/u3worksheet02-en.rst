@@ -1,4 +1,4 @@
-Power Law of Logarithms Worksheet
+3.2 Power Law of Logarithms Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Power Law of Logarithms Worksheet
 :slug: u3worksheet02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Power Law of Logarithms Worksheet
+:summary: 3.2 Power Law of Logarithms Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

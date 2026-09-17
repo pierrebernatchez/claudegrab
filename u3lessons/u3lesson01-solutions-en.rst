@@ -1,4 +1,4 @@
-Introduction to Logarithms and Review of Exponentials Lesson with solutions
+3.1 Introduction to Logarithms and Review of Exponentials Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Introduction to Logarithms and Review of Exponentials Lesson with solutions
 :slug: u3lesson01-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Introduction to Logarithms and Review of Exponentials Lesson with solutions
+:summary: 3.1 Introduction to Logarithms and Review of Exponentials Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -52,6 +52,7 @@ a\) What is the population after 12 days?
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    y &=& 50(2)^{\frac{12}{3}} \\
@@ -65,6 +66,7 @@ b\) How long until the population reaches 25 600?
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    25\,600 &=& 50(2)^{\frac{t}{3}} \\
@@ -75,6 +77,17 @@ b\) How long until the population reaches 25 600?
    9 &=& \dfrac{t}{3} \\
    t &=& 27 \text{ days}
    \end{array}
+
+.. Zero-height spacer: a ":nowrap:" math array immediately
+   followed by a heading makes rinoh mis-measure the array's
+   height and overlap the heading onto it (see project memory:
+   feedback_array_heading_overlap_bug). This block breaks that
+   adjacency without adding any visible content.
+.. math::
+   :nowrap:
+
+   \rule{0pt}{12pt}
+
 
 Part 2: Review of Inverse Functions
 ================================================================================
@@ -111,6 +124,7 @@ Method for finding the inverse algebraically:
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    y &=& 3(x - 5)^2 + 1 \\
@@ -120,7 +134,7 @@ Method for finding the inverse algebraically:
    5 \pm \sqrt{\dfrac{x - 1}{3}} &=& y
    \end{array}
 
-Equation of inverse: :math:`f^{-1}(x) = 5 \pm \sqrt{\dfrac{x - 1}{3}}`
+Equation of inverse: :solmath:`f^{-1}(x) = 5 \pm \sqrt{\dfrac{x - 1}{3}}`
 
 Part 3: Review of Exponent Laws
 ================================================================================
@@ -131,15 +145,15 @@ Part 3: Review of Exponent Laws
    * - Name
      - Rule
    * - Product Rule
-     - :math:`x^a \cdot x^b = x^{a+b}`
+     - :solmath:`x^a \cdot x^b = x^{a+b}`
    * - Quotient Rule
-     - :math:`\dfrac{x^a}{x^b} = x^{a-b}`
+     - :solmath:`\dfrac{x^a}{x^b} = x^{a-b}`
    * - Power of a Power Rule
-     - :math:`(x^a)^b = x^{a \times b}`
+     - :solmath:`(x^a)^b = x^{a \times b}`
    * - Negative Exponent Rule
-     - :math:`x^{-a} = \dfrac{1}{x^a}`
+     - :solmath:`x^{-a} = \dfrac{1}{x^a}`
    * - Exponent of Zero
-     - :math:`x^0 = 1`
+     - :solmath:`x^0 = 1`
 
 Part 4: Inverse of an Exponential Function
 ================================================================================
@@ -154,6 +168,7 @@ a\) Find the equation of the inverse of :math:`f(x) = 2^x`.
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    y &=& 2^x \\
@@ -164,7 +179,7 @@ a\) Find the equation of the inverse of :math:`f(x) = 2^x`.
    y &=& \log_2 x
    \end{array}
 
-:math:`f^{-1}(x) = \log_2 x`
+:solmath:`f^{-1}(x) = \log_2 x`
 
 Note: this step uses the 'change of base' formula that we will cover
 later in the unit: :math:`\log_b m = \dfrac{\log m}{\log b}`
@@ -188,26 +203,26 @@ across the line :math:`y = x`.
      - :math:`y`
      - :math:`x`
      - :math:`y`
-   * - -2
-     - 0.25
-     - 0.25
-     - -2
-   * - -1
-     - 0.5
-     - 0.5
-     - -1
-   * - 0
-     - 1
-     - 1
-     - 0
-   * - 1
-     - 2
-     - 2
-     - 1
-   * - 2
-     - 4
-     - 4
-     - 2
+   * - :sol:`-2`
+     - :sol:`0.25`
+     - :sol:`0.25`
+     - :sol:`-2`
+   * - :sol:`-1`
+     - :sol:`0.5`
+     - :sol:`0.5`
+     - :sol:`-1`
+   * - :sol:`0`
+     - :sol:`1`
+     - :sol:`1`
+     - :sol:`0`
+   * - :sol:`1`
+     - :sol:`2`
+     - :sol:`2`
+     - :sol:`1`
+   * - :sol:`2`
+     - :sol:`4`
+     - :sol:`4`
+     - :sol:`2`
 
 .. image:: ../images/u3lesson01-gpimage02.png
    :scale: 50
@@ -222,37 +237,37 @@ c\) Complete the chart of key properties for both functions
 
    * - :math:`y = 2^x`
      - :math:`y = \log_2 x`
-   * - :math:`x`-int: none
-     - :math:`x`-int: (1, 0)
-   * - :math:`y`-int: (0, 1)
-     - :math:`y`-int: none
-   * - Domain: :math:`\{x \in \mathbb{R}\}`
-     - Domain: :math:`\{x \in \mathbb{R} \mid x > 0\}`
-   * - Range: :math:`\{y \in \mathbb{R} \mid y > 0\}`
-     - Range: :math:`\{y \in \mathbb{R}\}`
-   * - Asymptote: horizontal asymptote at :math:`y = 0`
-     - Asymptote: vertical asymptote at :math:`x = 0`
+   * - :math:`x`-int: :sol:`none`
+     - :math:`x`-int: :solmath:`(1, 0)`
+   * - :math:`y`-int: :solmath:`(0, 1)`
+     - :math:`y`-int: :sol:`none`
+   * - Domain: :solmath:`\{x \in \mathbb{R}\}`
+     - Domain: :solmath:`\{x \in \mathbb{R} \mid x > 0\}`
+   * - Range: :solmath:`\{y \in \mathbb{R} \mid y > 0\}`
+     - Range: :solmath:`\{y \in \mathbb{R}\}`
+   * - Asymptote: :sol:`horizontal asymptote at` :solmath:`y = 0`
+     - Asymptote: :sol:`vertical asymptote at` :solmath:`x = 0`
 
 Part 5: What is a Logarithmic Function?
 ================================================================================
 
-The logarithmic function is the **inverse** of the exponential function
+The logarithmic function is the :sol:`inverse` of the exponential function
 with the same base.
 
 The **logarithmic function** is defined as :math:`y = \log_b x`, or
 :math:`y` equals the logarithm of :math:`x` to the base :math:`b`.
 
-The function is defined only for :math:`b > 0, b \neq 1`
+The function is defined only for :solmath:`b > 0, b \neq 1`
 
-In this notation, :math:`y` is the exponent to which the base,
-:math:`b`, must be raised to give the value of :math:`x`.
+In this notation, :solmath:`y` is the exponent to which the base,
+:solmath:`b`, must be raised to give the value of :solmath:`x`.
 
-In other words, the solution to a logarithm is always an **exponent**.
+In other words, the solution to a logarithm is always an :sol:`exponent`.
 
 The logarithmic function is most useful for solving for unknown
-**exponents**.
+:sol:`exponents`.
 
-**Common logarithms** are logarithms with a base of 10. It is not
+:sol:`Common logarithms` are logarithms with a base of 10. It is not
 necessary to write the base for common logarithms: :math:`\log x` means
 the same as :math:`\log_{10} x`
 
@@ -261,8 +276,8 @@ Part 6: Writing Equivalent Exponential and Logarithmic Expressions
 
 Exponential equations can be written in logarithmic form, and vice versa:
 
-- :math:`y = b^x` → :math:`x = \log_b y`
-- :math:`y = \log_b x` → :math:`x = b^y`
+- :math:`y = b^x` → :solmath:`x = \log_b y`
+- :math:`y = \log_b x` → :solmath:`x = b^y`
 
 .. rst-class:: keepwithnext
 
@@ -272,19 +287,19 @@ Exponential equations can be written in logarithmic form, and vice versa:
 
 a\) :math:`16 = 2^4`
 
-:math:`\log_2 16 = 4`
+:solmath:`\log_2 16 = 4`
 
 .. rst-class:: keepwithnext
 
 b\) :math:`m = n^3`
 
-:math:`\log_n m = 3`
+:solmath:`\log_n m = 3`
 
 .. rst-class:: keepwithnext
 
 c\) :math:`3^{-2} = \dfrac{1}{9}`
 
-:math:`\log_3 \left(\dfrac{1}{9}\right) = -2`
+:solmath:`\log_3 \left(\dfrac{1}{9}\right) = -2`
 
 .. rst-class:: keepwithnext
 
@@ -294,13 +309,13 @@ c\) :math:`3^{-2} = \dfrac{1}{9}`
 
 a\) :math:`\log_4 64 = 3`
 
-:math:`4^3 = 64`
+:solmath:`4^3 = 64`
 
 .. rst-class:: keepwithnext
 
 b\) :math:`y = \log x`
 
-:math:`10^y = x`
+:solmath:`10^y = x`
 
 Note: because there is no base written, this is understood to be the
 common logarithm of :math:`x`.
@@ -323,6 +338,7 @@ a\) :math:`y = \log_3 81`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    3^y &=& 81 \\
@@ -336,6 +352,7 @@ b\) :math:`y = \log \left(\dfrac{1}{100}\right)`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    10^y &=& \dfrac{1}{100} \\
@@ -350,6 +367,7 @@ c\) :math:`y = \log_2 \left(\dfrac{1}{8}\right)`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    y &=& \log_2 \left(\dfrac{1}{2}\right)^3 \\
@@ -365,6 +383,7 @@ d\) :math:`y = \log_4 64`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    y &=& \log_4(4^3) \\

@@ -1,4 +1,4 @@
-Power Law of Logarithms Lesson
+3.2 Power Law of Logarithms Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Power Law of Logarithms Lesson
 :slug: u3lesson02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Power Law of Logarithms Lesson
+:summary: 3.2 Power Law of Logarithms Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

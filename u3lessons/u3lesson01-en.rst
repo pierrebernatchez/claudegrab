@@ -1,4 +1,4 @@
-Introduction to Logarithms and Review of Exponentials Lesson
+3.1 Introduction to Logarithms and Review of Exponentials Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Introduction to Logarithms and Review of Exponentials Lesson
 :slug: u3lesson01
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Introduction to Logarithms and Review of Exponentials Lesson
+:summary: 3.1 Introduction to Logarithms and Review of Exponentials Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

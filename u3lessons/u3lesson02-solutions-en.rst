@@ -1,4 +1,4 @@
-Power Law of Logarithms Lesson with solutions
+3.2 Power Law of Logarithms Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Power Law of Logarithms Lesson with solutions
 :slug: u3lesson02-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Power Law of Logarithms Lesson with solutions
+:summary: 3.2 Power Law of Logarithms Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -34,6 +34,7 @@ account to double?
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    200 &=& 100(1.05)^t \\
@@ -56,17 +57,17 @@ Let :math:`w = \log_b x`
 
 .. list-table::
 
-   * - :math:`w = \log_b x`
+   * - :solmath:`w = \log_b x`
      -
-   * - :math:`x = b^w`
+   * - :solmath:`x = b^w`
      - Write in exponential form
-   * - :math:`x^n = (b^w)^n`
+   * - :solmath:`x^n = (b^w)^n`
      - Raise both sides to the exponent of :math:`n`
-   * - :math:`x^n = b^{wn}`
+   * - :solmath:`x^n = b^{wn}`
      - Apply power law of exponents
-   * - :math:`\log_b x^n = wn`
+   * - :solmath:`\log_b x^n = wn`
      - Write as a logarithmic expression
-   * - :math:`\log_b x^n = n \log_b x`
+   * - :solmath:`\log_b x^n = n \log_b x`
      - Substitute :math:`w = \log_b x`
 
 Part 2: Practice the Power Law of Logarithms
@@ -86,6 +87,7 @@ Rule: :math:`\log_a(a^b) = b`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_3 9^4 &=& \log_3 (3^2)^4 \\
@@ -99,6 +101,7 @@ Rule: :math:`\log_b x^n = n \log_b x`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_3 9^4 &=& 4 \log_3 9 \\
@@ -113,6 +116,7 @@ b\) :math:`\log_2 8^5`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_2 8^5 &=& 5 \log_2 (2^3) \\
@@ -126,12 +130,24 @@ c\) :math:`\log_5 \sqrt{125}`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_5 \sqrt{125} &=& \dfrac{1}{2} \log_5(5^3) \\
    &=& \dfrac{1}{2}(3) \\
    &=& \dfrac{3}{2}
    \end{array}
+
+.. Zero-height spacer: a ":nowrap:" math array immediately
+   followed by a heading makes rinoh mis-measure the array's
+   height and overlap the heading onto it (see project memory:
+   feedback_array_heading_overlap_bug). This block breaks that
+   adjacency without adding any visible content.
+.. math::
+   :nowrap:
+
+   \rule{0pt}{12pt}
+
 
 Part 3: Change of Base Formula
 ================================================================================
@@ -147,16 +163,16 @@ most scientific calculators can only evaluate logarithms in base 10. So
 we used the power law of logarithms instead.
 
 Any time you want to evaluate a logarithm that is not base 10, such as
-:math:`\log_{1.05} 2`, you can use the **change of base formula**:
+:math:`\log_{1.05} 2`, you can use the :sol:`change of base formula`:
 
 To calculate a logarithm with any base, express in terms of common
 logarithms using the change of base formula:
 
 :math:`\log_b m = \dfrac{\log m}{\log b}`, :math:`m > 0, b > 0, b \neq 1`
 
-Using this formula, we could determine that :math:`\log_{1.05} 2 =
-\dfrac{\log 2}{\log 1.05}`, which is exactly what we ended up with by
-using the power law of logarithms.
+Using this formula, we could determine that :math:`\log_{1.05} 2 =`
+:solmath:`\dfrac{\log 2}{\log 1.05}`, which is exactly what we ended up
+with by using the power law of logarithms.
 
 Part 4: Evaluate Logarithms with Various Bases
 ================================================================================
@@ -171,6 +187,7 @@ a\) :math:`\log_5 17`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_5 17 &=& \dfrac{\log 17}{\log 5} \\
@@ -183,6 +200,7 @@ b\) :math:`\log_{\frac{1}{2}} 10`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log_{\frac{1}{2}} 10 &=& \dfrac{\log 10}{\log \left(\frac{1}{2}\right)} \\
@@ -195,6 +213,7 @@ b\) :math:`\log_{\frac{1}{2}} 10`
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    y &=& \log_2 100 \\
@@ -206,6 +225,7 @@ OR
 
 .. math::
    :nowrap:
+   :class: solution
 
    \begin{array}{rcl}
    \log 100 &=& \log 2^y \\
