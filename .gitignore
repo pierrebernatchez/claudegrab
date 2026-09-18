@@ -4,6 +4,10 @@ s3cfg
 #
 # intermediate / generated fiiles
 #
+#
+# A script I use all over the place hard coded to what I am currently
+# reviewing must be ignored
+vp
 *.incl
 *.errlog
 *.stylelog

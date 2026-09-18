@@ -2,4 +2,4 @@
 ### u2review07-tabimage03.tableau
 ### Synthetic division: (x^3 + 9x^2 - 5x + 3) / (x - 2), b=2. Q4a.
 ../tableau2png.py synthetic --dividend=1,9,-5,3 --b=2 --label-terms \
-  --out ../u2lessons-media/u2review07-tabimage03.png
+  --out ../u2lessons-media/u2review07-tabimage03.png --solution

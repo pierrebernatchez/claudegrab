@@ -1,0 +1,363 @@
+3.6 Applications des logarithmes et des exponentielles dans les sciences physiques -- Feuille de travail
+############################################################################################################
+
+:lang: fr
+:date: 2026-09-12 19:00:00+00:00
+:tags: 12e année, mathématiques, leçons, feuilles de travail
+:slug: u3worksheet06-fr
+:category: mathematics
+:authors: Annie Bernatchez
+:summary: 3.6 Applications des logarithmes et des exponentielles dans les sciences physiques -- Feuille de travail
+:fcopyright: Copyright © 2026 Annie Bernatchez—Tous droits réservés.
+
+.. |copy| unicode:: 0xA9
+
+.. |---| unicode:: U+02014
+  :trim:
+
+.. |nbsp| unicode:: 0xA0
+
+.. footer:: Copyright |copy| 2026 Annie Bernatchez |---| Tous droits réservés.
+
+Ce document a été composé et mis en forme par Annie Bernatchez.
+
+Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`_
+
+*Formules exponentielles*
+
+.. list-table::
+   :header-rows: 1
+   :widths: 33 33 33
+
+   * - Générale
+     - Demi-vie
+     - Doublement
+   * - :math:`A(t) = A_0(1+i)^t`
+     - :math:`A(t) = A_0\left(\dfrac{1}{2}\right)^{\frac{t}{H}}`
+     - :math:`A(t) = A_0(2)^{\frac{t}{D}}`
+   * - :math:`i` est le pourcentage de croissance (+) ou de décroissance
+       (-)
+     - :math:`H` est la période de demi-vie
+     - :math:`D` est la période de doublement
+
+*Formules logarithmiques*
+
+.. list-table::
+   :header-rows: 1
+   :widths: 33 33 33
+
+   * - pH
+     - Décibel
+     - Richter
+   * - :math:`pH = -\log[H^+]`
+     - :math:`\beta_2 - \beta_1 = 10\log\left(\dfrac{I_2}{I_1}\right)`
+     - :math:`M = \log\left(\dfrac{I}{I_0}\right)`
+   * - :math:`pH` est l'acidité et :math:`[H^+]` est la concentration
+       d'ions hydronium en mol/L
+     - :math:`\beta` est le volume sonore en dB et :math:`I` est
+       l'intensité du son en :math:`W/m^2`
+     - :math:`M` est la magnitude mesurée en richters, :math:`I` est
+       l'intensité
+
+.. rst-class:: keepwithnext
+
+**1)** La demi-vie d'une forme radioactive de tritium est d'environ 2
+ans. Combien resterait-il d'un échantillon de 5 kg de cette matière
+après ...
+
+.. rst-class:: keepwithnext
+
+a\) 8 ans
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+b\) 12 mois
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**2)** La population de Littleton est actuellement (2014) de 23 000, et
+augmente de façon exponentielle avec un taux de croissance de 2 % par
+an. Estime quand Littleton aura une population de 30 000.
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**3)** La population d'hirondelles noires du parc Algonquin était
+estimée à 35 000 en 1992. Dix ans plus tard, en 2002, la population
+était passée à 44 400.
+
+.. rst-class:: keepwithnext
+
+a\) Quel est le taux de croissance annuel de la population d'hirondelles
+noires?
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+b\) Estime la population pour 2010, à la centaine près.
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**4)** Après un accident dans une centrale nucléaire, le niveau de
+radiation dans la centrale était de 950 R (roentgens). Cinq heures plus
+tard, le niveau était de 800 R. Combien de temps faudra-t-il avant
+d'atteindre un niveau de radiation sécuritaire, soit moins de 0.01 R?
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**5)** La valeur d'une nouvelle mini-fourgonnette chute de 40 % après la
+première année, puis diminue de façon exponentielle à un taux de 12 %
+par année par la suite. Quand une mini-fourgonnette achetée neuve pour
+35 000 $ vaudra-t-elle moins de 10 000 $?
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**6)** Un fossile de crabe contient 38.6 % de son isotope de carbone-14
+d'origine, dont la demi-vie est de 5370 ans. Quel âge a environ ce
+fossile de crabe?
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**7)** Un fonds commun de placement Trimark affiche un historique de
+croissance de 4.2 % par année. Quelle est la période de doublement de
+cet investissement?
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**8)** Un traitement pour aider un patient à cesser de fumer consiste à
+mâcher de la gomme à la nicotine. Chaque gomme introduit 1.5 mg de
+nicotine dans le système du patient. La nicotine a une demi-vie de 3
+heures. La patiente ressentira l'envie de fumer lorsque le niveau de
+nicotine dans son système descend sous 0.45 mg. Si elle a mâché une
+gomme à 8 h 00 et une autre à 10 h 00, à quelle heure ressentira-t-elle
+de nouveau l'envie de fumer?
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**9)** Détermine le pH d'une solution ayant la concentration d'ions
+hydronium suivante :
+
+.. rst-class:: keepwithnext
+
+a\) 0.01
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+b\) :math:`1.5 \times 10^{-10}`
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**10)** Détermine la concentration d'ions hydronium, en moles par
+litre, d'une solution ayant le pH suivant :
+
+.. rst-class:: keepwithnext
+
+a\) 8.5
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+b\) 3
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**11)** Combien de fois plus intense est le son d'un cri que celui d'un
+chuchotement?
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**12)** Une chaîne stéréo de voiture puissante a un niveau sonore de 110
+dB. Combien de fois plus intense qu'une chaîne stéréo de voiture est le
+son d'un haut-parleur de concert rock?
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**13)** L'intensité sonore d'une épingle qui tombe est environ 1/30 000
+de l'intensité sonore d'une conversation normale. Quel est le niveau en
+décibels d'une épingle qui tombe?
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**14)** Le 26 septembre 2001, un tremblement de terre à North Bay, en
+Ontario, a été 10 000 fois plus intense que :math:`I_0`. Quelle a été la
+mesure de ce tremblement de terre sur l'échelle de Richter?
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**15)** Le 10 février 2000, un tremblement de terre s'est produit à
+Welland, en Ontario, mesurant 2.3 sur l'échelle de Richter.
+
+.. rst-class:: keepwithnext
+
+a\) Combien de fois plus intense était-ce qu'un tremblement de terre
+standard de faible niveau?
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+b\) Le 22 juillet 2001, un tremblement de terre à St. Catharines a
+mesuré 1.1 sur l'échelle de Richter. Combien de fois plus intense que
+le tremblement de terre de St. Catharines était celui de Welland?
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+**16)** L'échelle de magnitude stellaire compare la luminosité des
+étoiles à l'aide de l'équation :math:`m_2 - m_1 =
+\log\left(\dfrac{b_1}{b_2}\right)`, où :math:`m_2` et :math:`m_1` sont
+la magnitude apparente des deux étoiles comparées (leur luminosité vue
+dans le ciel) et :math:`b_1` et :math:`b_2` sont leur luminosité réelle
+(la quantité de lumière qu'elles émettent réellement). Cette relation ne
+tient pas compte de la distance des étoiles par rapport à la Terre.
+
+.. rst-class:: keepwithnext
+
+a\) Sirius est l'étoile la plus brillante en apparence dans notre ciel,
+avec une magnitude apparente de -1.5. De combien Sirius paraît-elle plus
+brillante que Bételgeuse, dont la magnitude apparente est 0.12?
+
+|nbsp|
+
+|nbsp|
+
+.. rst-class:: keepwithnext
+
+b\) Le Soleil paraît environ :math:`1.3 \times 10^{10}` fois plus
+brillant dans notre ciel que Sirius. Quelle est la magnitude apparente
+du Soleil?
+
+|nbsp|
+
+|nbsp|
+
+Corrigé
+================================================================================
+
+**1)** a) 0.3125 kg b) 3.536 kg
+
+**2)** :math:`\cong` 13.42 ans
+
+**3)** a) taux de croissance de 2.4 % par année b) environ 53 700
+oiseaux
+
+**4)** environ 333 heures
+
+**5)** environ 6.8 ans (environ 7 ans)
+
+**6)** environ 7375 ans
+
+**7)** environ 16.85 ans
+
+**8)** :math:`t \cong` 7.3 heures, donc vers 17 h 18
+
+**9)** a) 2 b) 9.8
+
+**10)** a) :math:`3.2 \times 10^{-9}` mol/L b) 0.001 mol/L
+
+**11)** un cri est 100 000 fois plus intense qu'un chuchotement
+
+**12)** un haut-parleur de concert rock est 10 000 fois plus intense
+qu'une chaîne stéréo de voiture
+
+**13)** une épingle qui tombe fait environ 15.23 dB
+
+**14)** niveau 4 sur l'échelle de Richter
+
+**15)** a) environ 200 fois plus intense b) 15.85 fois plus intense
+
+**16)** a) 41.69 fois plus brillante b) magnitude apparente de -11.61

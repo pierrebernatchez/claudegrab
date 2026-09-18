@@ -2,4 +2,4 @@
 ### u2review07-tabimage10.tableau
 ### Synthetic division: (3x^3 + 2x^2 - 11x - 10) / (x + 1), b=-1. Q9d (root found via factor theorem).
 ../tableau2png.py synthetic --dividend=3,2,-11,-10 --b=-1 --label-terms \
-  --out ../u2lessons-media/u2review07-tabimage10.png
+  --out ../u2lessons-media/u2review07-tabimage10.png --solution

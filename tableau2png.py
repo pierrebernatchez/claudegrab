@@ -64,9 +64,18 @@ Tableau
 
 """
 
+def _class_opt(solution):
+    """Docutils option text to append after a directive's other options,
+    when --solution requests this tableau render as solution content --
+    reuses the project's existing ".. math:: :class: solution" red-text
+    convention (see rinohbox's rinohconf.py Math_Block.build_flowable
+    patch) instead of inventing a separate LaTeX \\color{{}} mechanism."""
+    return "\n   :class: solution" if solution else ""
+
+
 NUMERIC_RST_TEMPLATE = RST_PREAMBLE + """\
 .. math::
-   :nowrap:
+   :nowrap:{class_opt}
 
    \\begin{{array}}{{l}}
 {body}
@@ -84,13 +93,13 @@ NUMERIC_RST_TEMPLATE = RST_PREAMBLE + """\
 # material writes a terminal remainder.
 POLY_RST_TEMPLATE = RST_PREAMBLE + """\
 .. math::
-   :nowrap:
+   :nowrap:{class_opt}
 
    \\begin{{array}}{{{col_spec}}}
 {body}
    \\end{{array}}
 
-.. math::
+.. math::{class_opt}
 
    {remainder_text}
 """
@@ -110,7 +119,7 @@ POLY_RST_TEMPLATE = RST_PREAMBLE + """\
 # to be.
 SYNTHETIC_RST_TEMPLATE = RST_PREAMBLE + """\
 {title_block}.. math::
-   :nowrap:
+   :nowrap:{class_opt}
 
    \\begin{{array}}{{{col_spec}}}
 {body}
@@ -156,6 +165,52 @@ def render_to_pdf(single2pdf, rst_content, workdir):
     if not pdf_path.exists():
         sys.exit(f"single2pdf did not produce the expected {pdf_path}")
     return pdf_path
+
+
+def recolor_black_ink(png_path, color):
+    """Repaint every near-grayscale pixel (black ink anti-aliased against
+    the white page) to `color`, preserving the original anti-aliasing.
+
+    Why this exists: numeric-mode tableaus (unlike poly/synthetic) draw
+    their division bracket's overline/underline as bare LaTeX
+    \\overline{}/\\underline{} commands baked directly into the array
+    text, not as a separate PIL-drawn rule -- there's no post-processing
+    step for numeric mode at all otherwise. Confirmed by direct pixel
+    sampling (not assumed): with --solution, a rendered numeric tableau's
+    digits come out in shades of red as expected (the ".. math:: :class:
+    solution" patch works on them fine), but \\overline{}/\\underline{}'s
+    own rule is pure (0, 0, 0) regardless -- rinoh's font_color styling
+    reaches ordinary glyphs but not this particular rule-drawing
+    primitive. (The `` \\dfrac{}{} `` fraction bar synthetic mode uses for
+    a fractional b, checked the same way, does NOT have this problem --
+    it's drawn by a different rinoh code path that already respects
+    font_color -- so this recoloring is specifically for \\overline/
+    \\underline, not a general "LaTeX rules ignore color" issue.)
+
+    Implemented as a blend from white to `color` at each pixel's original
+    darkness (0 = white, 255 = solid ink), rather than a flat color swap,
+    so anti-aliased edges look identical in shape/softness to the
+    surrounding red glyphs instead of gaining a black-to-red halo.
+    Restricted to near-grayscale pixels (R/G/B within a small tolerance
+    of each other) so it can safely run unconditionally without touching
+    already-colored ink: any genuinely red pixel (anti-aliased or not)
+    has R far from G/B and is left untouched.
+    """
+    im = Image.open(png_path).convert("RGB")
+    arr = np.array(im).astype(np.float32)
+    r, g, b = arr[..., 0], arr[..., 1], arr[..., 2]
+    is_grayscale = (np.maximum(np.maximum(r, g), b) - np.minimum(np.minimum(r, g), b)) <= 15
+    darkness = np.clip(255 - (r + g + b) / 3.0, 0, 255)
+
+    cr, cg, cb = color
+    recolored = np.stack([
+        255 - darkness * (255 - cr) / 255.0,
+        255 - darkness * (255 - cg) / 255.0,
+        255 - darkness * (255 - cb) / 255.0,
+    ], axis=-1)
+
+    out = np.where(is_grayscale[..., None], recolored, arr)
+    Image.fromarray(np.clip(out, 0, 255).astype(np.uint8), "RGB").save(png_path)
 
 
 def pdf_to_png(pdf_path, dpi):
@@ -307,7 +362,7 @@ def reposition_remainder(png_path, tableau):
     im.save(png_path)
 
 
-def draw_poly_lines(png_path, tableau, dpi):
+def draw_poly_lines(png_path, tableau, dpi, color=(0, 0, 0)):
     """Draw the overline (above the dividend row) and one underline per
     product row (below it), directly onto the rendered page.
 
@@ -353,13 +408,13 @@ def draw_poly_lines(png_path, tableau, dpi):
     quotient_y1 = array_bands[tableau.dividend_row - 1][1]
     overline_y = (quotient_y1 + dividend_y0) // 2
     draw.line([(product1_x0, overline_y), (dividend_x1, overline_y)],
-              fill=(0, 0, 0), width=line_width)
+              fill=color, width=line_width)
 
     for row_idx in tableau.underline_rows:
         y0, y1 = array_bands[row_idx]
         x0, x1 = row_extent(y0, y1)
         underline_y = y1 + gap
-        draw.line([(x0, underline_y), (x1, underline_y)], fill=(0, 0, 0), width=line_width)
+        draw.line([(x0, underline_y), (x1, underline_y)], fill=color, width=line_width)
 
     im.save(png_path)
 
@@ -425,7 +480,7 @@ def _locate_array_bands(mask, array_row_count, rule_height=6):
     return row_extent, array_bands
 
 
-def draw_synthetic_lines(png_path, tableau, dpi):
+def draw_synthetic_lines(png_path, tableau, dpi, color=(0, 0, 0)):
     """Draw the synthetic-division bracket -- a vertical rule separating
     b from the coefficients, and a horizontal rule under the product
     row -- directly onto the rendered page.
@@ -466,8 +521,8 @@ def draw_synthetic_lines(png_path, tableau, dpi):
     horiz_y = (product_row[1] + sum_row[0]) // 2
     top_y = coeff_row[0] - gap
 
-    draw.line([(corner_x, top_y), (corner_x, horiz_y)], fill=(0, 0, 0), width=line_width)
-    draw.line([(corner_x, horiz_y), (coeff_x1 + gap, horiz_y)], fill=(0, 0, 0), width=line_width)
+    draw.line([(corner_x, top_y), (corner_x, horiz_y)], fill=color, width=line_width)
+    draw.line([(corner_x, horiz_y), (coeff_x1 + gap, horiz_y)], fill=color, width=line_width)
 
     im.save(png_path)
 
@@ -558,18 +613,29 @@ def main(argv=None):
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="mode", required=True)
 
+    solution_help = ("render this tableau as solution content -- red digits/rules, "
+                      "via the project's existing '.. math:: :class: solution' "
+                      "red-text convention. Only use this when the image is embedded "
+                      "in a -solutions- doc and NOT also reused, under the same "
+                      "filename, in that lesson/worksheet's blank doc (a shared image "
+                      "must stay black, or it would leak the answer into the blank "
+                      "doc) -- see check_tableau_solution_flag.py, which audits this "
+                      "distinction across the whole repo.")
+
     p = sub.add_parser("poly", help="polynomial long division")
     p.add_argument("--dividend", required=True, help="comma-separated coeffs, highest degree first")
     p.add_argument("--divisor", required=True, help="comma-separated coeffs, highest degree first")
     p.add_argument("--var", default="x")
     p.add_argument("--out", required=True)
     p.add_argument("--dpi", type=int, default=400)
+    p.add_argument("--solution", action="store_true", help=solution_help)
 
     n = sub.add_parser("numeric", help="integer long division")
     n.add_argument("--dividend", required=True, type=int)
     n.add_argument("--divisor", required=True, type=int)
     n.add_argument("--out", required=True)
     n.add_argument("--dpi", type=int, default=400)
+    n.add_argument("--solution", action="store_true", help=solution_help)
 
     s = sub.add_parser("synthetic", help="synthetic division")
     s.add_argument("--dividend", required=True, help="comma-separated coeffs, highest degree first")
@@ -583,12 +649,16 @@ def main(argv=None):
     s.add_argument("--label-terms", action="store_true",
                     help="add a row beneath the sum row labeling each column's term "
                          "(x^k / x / # / R)")
+    s.add_argument("--solution", action="store_true", help=solution_help)
 
     args = parser.parse_args(argv)
 
     single2pdf = find_single2pdf()
     if shutil.which("pdftoppm") is None:
         sys.exit("pdftoppm not found on PATH (install poppler-utils)")
+
+    class_opt = _class_opt(args.solution)
+    line_color = (255, 0, 0) if args.solution else (0, 0, 0)
 
     tableau = None
     if args.mode == "poly":
@@ -598,7 +668,8 @@ def main(argv=None):
         rst_content = POLY_RST_TEMPLATE.format(
             col_spec=tableau.col_spec,
             body="\n".join("   " + line for line in tableau.body.splitlines()),
-            remainder_text=tableau.remainder_text)
+            remainder_text=tableau.remainder_text,
+            class_opt=class_opt)
     elif args.mode == "synthetic":
         dividend = [int(x) for x in args.dividend.split(",")]
         b = Fraction(args.b)
@@ -615,15 +686,17 @@ def main(argv=None):
             divisor_text = f"{args.var} {sign} {divtableau._format_number(abs(b))}"
             title_text = (f"({divtableau.format_poly(dividend, args.var)}) "
                           f"\\div ({divisor_text})")
-            title_block = f".. math::\n\n   {title_text}\n\n"
+            title_block = f".. math::{class_opt}\n\n   {title_text}\n\n"
         rst_content = SYNTHETIC_RST_TEMPLATE.format(
             title_block=title_block,
             col_spec=tableau.col_spec,
-            body="\n".join("   " + line for line in tableau.body.splitlines()))
+            body="\n".join("   " + line for line in tableau.body.splitlines()),
+            class_opt=class_opt)
     else:
         body = divtableau.build_numeric_tableau(args.dividend, args.divisor)
         rst_content = NUMERIC_RST_TEMPLATE.format(
-            body="\n".join("   " + line for line in body.splitlines()))
+            body="\n".join("   " + line for line in body.splitlines()),
+            class_opt=class_opt)
 
     out_path = Path(args.out).resolve()
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -632,12 +705,14 @@ def main(argv=None):
         workdir = Path(tmp) / "src"
         pdf_path = render_to_pdf(single2pdf, rst_content, workdir)
         png_path = pdf_to_png(pdf_path, args.dpi)
+        if args.solution:
+            recolor_black_ink(png_path, line_color)
 
         if args.mode == "poly":
             reposition_remainder(png_path, tableau)
-            draw_poly_lines(png_path, tableau, args.dpi)
+            draw_poly_lines(png_path, tableau, args.dpi, color=line_color)
         elif args.mode == "synthetic":
-            draw_synthetic_lines(png_path, tableau, args.dpi)
+            draw_synthetic_lines(png_path, tableau, args.dpi, color=line_color)
 
         cropped = autocrop_tableau(png_path)
         # rinoh sizes an embedded image using its PNG DPI metadata (confirmed

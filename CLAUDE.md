@@ -168,6 +168,17 @@ the general reasoning behind this second pipeline.
   `pdftoppm`, then draws whatever rules the array itself couldn't
   (overline/underline for long division; the vertical+horizontal bracket
   for synthetic division) by measuring the rendered ink directly.
+  **`--solution`:** pass this when the tableau image is embedded *only*
+  in a `-solutions-` doc (not also reused, under the same filename, in
+  that lesson/worksheet's blank doc) — it renders the whole tableau red
+  (digits via the project's usual `.. math:: :class: solution`
+  red-text convention; the post-processed rules/bracket in matching
+  red) instead of the default black, so the image is visually
+  consistent with every other piece of solution content on the page. A
+  tableau *shared* between a blank and solutions doc (the same PNG
+  filename cited from both — a "given" reused as-is, not an answer)
+  must **not** get `--solution`, since that would leak the answer into
+  the blank doc.
 - `uNlessons-tableaux/uNlessonNN-tabimageMM.tableau` /
   `uNlessons-tableaux/uNworksheetNN-tabimageMM.tableau` — one shell script
   per tableau figure, the same role `lessons-gp/*.gp` plays for `gnuplot`
@@ -195,6 +206,14 @@ the general reasoning behind this second pipeline.
 - `test_divtableau.py` (repo root) — pixel-verified regression tests for
   `divtableau.py`'s layout math. Run `python3 test_divtableau.py` after any
   change to `divtableau.py`.
+- `check_tableau_solution_flag.py` (repo root) — audits every
+  `*lessons-tableaux/*.tableau` script against how its output PNG is
+  actually referenced across the repo's `.rst` files, and flags any
+  mismatch with the `--solution` convention above (a solutions-only
+  image whose script is missing `--solution`, or a shared image whose
+  script has it and shouldn't). Run with no arguments any time after
+  adding or editing tableau figures; exits non-zero if it finds a
+  mismatch.
 
 Requires `single2pdf` on `PATH` (or at `~/.rinohbox/bashsources/single2pdf`)
 and `pdftoppm` (poppler-utils) — same external tools the `.gp` pipeline

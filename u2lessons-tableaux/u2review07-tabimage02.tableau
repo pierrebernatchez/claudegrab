@@ -2,4 +2,4 @@
 ### u2review07-tabimage02.tableau
 ### Long division: (x^5 - x^4 + 2x^3 + 0x^2 + 3x - 2) / (x^2 + 0x + 2). Q3b.
 ../tableau2png.py poly --dividend=1,-1,2,0,3,-2 --divisor=1,0,2 \
-  --out ../u2lessons-media/u2review07-tabimage02.png
+  --out ../u2lessons-media/u2review07-tabimage02.png --solution

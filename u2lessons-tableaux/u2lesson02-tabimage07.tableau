@@ -4,4 +4,4 @@
 ### textbook picks long division here even though the divisor is linear -- see the lesson's
 ### own note that synthetic division "can be used but long division may be easier" for ax - b).
 ../tableau2png.py poly --dividend=12,-56,59,9,-18 --divisor=2,1 \
-  --out ../u2lessons-media/u2lesson02-tabimage07.png
+  --out ../u2lessons-media/u2lesson02-tabimage07.png --solution
