@@ -4,18 +4,18 @@
 :lang: fr
 :date: 2026-09-10 01:00:00+00:00
 :tags: douzième année, mathématiques, leçons, fiches d’exercices
-:slug: u2lesson06-solutions-fr
+:slug: u2lesson06-solutions
 :category: mathématiques
 :authors: Annie Bernatchez
 :summary: 2.6 Leçon sur la résolution d'inéquations avec solutions
-:fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
+:fcopyright: Droits d’auteur © 2026 Annie Bernatchez—Tous droits réservés.
 
 .. |copy| unicode:: 0xA9
 
 .. |---| unicode:: U+02014
   :trim:
 
-.. footer:: Droits d´auteur |copy| 2026 Annie Bernatchez |---| Tous droits reservés.
+.. footer:: Droits d’auteur |copy| 2026 Annie Bernatchez |---| Tous droits réservés.
 
 Ce document a été composé et mis en forme par Annie Bernatchez.
 

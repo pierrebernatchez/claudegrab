@@ -4,11 +4,11 @@
 :lang: fr
 :date: 2026-09-10 00:00:00+00:00
 :tags: douzième année, mathématiques, leçons, fiches d’exercices
-:slug: u2worksheet05-fr
+:slug: u2worksheet05
 :category: mathématiques
 :authors: Annie Bernatchez
 :summary: 2.5 Fiche d'exercices sur les familles de fonctions polynomiales
-:fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
+:fcopyright: Droits d’auteur © 2026 Annie Bernatchez—Tous droits réservés.
 
 .. |copy| unicode:: 0xA9
 
@@ -17,7 +17,7 @@
 
 .. |nbsp| unicode:: 0xA0
 
-.. footer:: Droits d´auteur |copy| 2026 Annie Bernatchez |---| Tous droits reservés.
+.. footer:: Droits d’auteur |copy| 2026 Annie Bernatchez |---| Tous droits réservés.
 
 Ce document a été composé et mis en forme par Annie Bernatchez.
 

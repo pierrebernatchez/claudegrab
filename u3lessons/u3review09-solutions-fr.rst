@@ -3,19 +3,19 @@
 
 :lang: fr
 :date: 2026-09-17 12:00:00+00:00
-:tags: 12e année, mathématiques, leçons, feuilles de travail
-:slug: u3review09-solutions-fr
-:category: mathematics
+:tags: douzième année, mathématiques, leçons, fiches d’exercices
+:slug: u3review09-solutions
+:category: mathématiques
 :authors: Annie Bernatchez
 :summary: 3.9 Révision avant-test de l'unité 3 -- Fonctions exponentielles et logarithmiques avec solutions
-:fcopyright: Copyright © 2026 Annie Bernatchez—Tous droits réservés.
+:fcopyright: Droits d’auteur © 2026 Annie Bernatchez—Tous droits réservés.
 
 .. |copy| unicode:: 0xA9
 
 .. |---| unicode:: U+02014
   :trim:
 
-.. footer:: Copyright |copy| 2026 Annie Bernatchez |---| Tous droits réservés.
+.. footer:: Droits d’auteur |copy| 2026 Annie Bernatchez |---| Tous droits réservés.
 
 Ce document a été composé et mis en forme par Annie Bernatchez.
 

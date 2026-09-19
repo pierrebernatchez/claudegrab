@@ -3,12 +3,12 @@
 
 :lang: fr
 :date: 2026-09-12 18:00:00+00:00
-:tags: 12e année, mathématiques, leçons, feuilles de travail
-:slug: u3lesson05-fr
-:category: mathematics
+:tags: douzième année, mathématiques, leçons, fiches d’exercices
+:slug: u3lesson05
+:category: mathématiques
 :authors: Annie Bernatchez
 :summary: 3.5 Résolution des équations logarithmiques -- Leçon
-:fcopyright: Copyright © 2026 Annie Bernatchez—Tous droits réservés.
+:fcopyright: Droits d’auteur © 2026 Annie Bernatchez—Tous droits réservés.
 
 .. |copy| unicode:: 0xA9
 
@@ -17,7 +17,7 @@
 
 .. |nbsp| unicode:: 0xA0
 
-.. footer:: Copyright |copy| 2026 Annie Bernatchez |---| Tous droits réservés.
+.. footer:: Droits d’auteur |copy| 2026 Annie Bernatchez |---| Tous droits réservés.
 
 Ce document a été composé et mis en forme par Annie Bernatchez.
 

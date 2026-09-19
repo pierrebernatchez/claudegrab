@@ -3,19 +3,19 @@
 
 :lang: fr
 :date: 2026-09-12 20:00:00+00:00
-:tags: 12e année, mathématiques, leçons, feuilles de travail
-:slug: u3lesson07-solutions-fr
-:category: mathematics
+:tags: douzième année, mathématiques, leçons, fiches d’exercices
+:slug: u3lesson07-solutions
+:category: mathématiques
 :authors: Annie Bernatchez
 :summary: 3.7 Transformations des fonctions exponentielles et logarithmiques -- Leçon avec solutions
-:fcopyright: Copyright © 2026 Annie Bernatchez—Tous droits réservés.
+:fcopyright: Droits d’auteur © 2026 Annie Bernatchez—Tous droits réservés.
 
 .. |copy| unicode:: 0xA9
 
 .. |---| unicode:: U+02014
   :trim:
 
-.. footer:: Copyright |copy| 2026 Annie Bernatchez |---| Tous droits réservés.
+.. footer:: Droits d’auteur |copy| 2026 Annie Bernatchez |---| Tous droits réservés.
 
 Ce document a été composé et mis en forme par Annie Bernatchez.
 

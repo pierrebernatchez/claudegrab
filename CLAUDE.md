@@ -316,4 +316,13 @@ order discipline" and "blank-space sizing convention" sections:
    RST/content bugs fixed) before translating anything.
 3. Only once the English is confirmed correct, translate it into
    `lessonNN-fr.rst` / `lessonNN-solutions-fr.rst` (or the `worksheetNN`
-   equivalents), reusing the same images.
+   equivalents), reusing the same images. The Pelican metadata/boilerplate
+   block (`:tags:`, `:category:`, `:fcopyright:`, `.. footer::`, and the
+   two credit-paragraph lines) must be copied verbatim from
+   `example-fr.rst`, and `:slug:` must be byte-identical to the English
+   sibling's `:slug:` (no `-fr` suffix) — this has been gotten wrong
+   twice already (unit3 never used the template; units 2-4 appended
+   `-fr` to every slug). Run `python3 check_fr_boilerplate.py` after
+   writing any new `-fr.rst` file (or `--fix` to auto-correct) before
+   considering a French translation batch done — see its module
+   docstring for what it checks.

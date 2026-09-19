@@ -8,7 +8,7 @@
 :category: mathématiques
 :authors: Annie Bernatchez
 :summary: 2.7 Révision avant-test de l'unité 2 -- Théorème du facteur et inéquations avec solutions
-:fcopyright: Droits d´auteur © 2026 Annie Bernatchez—Tous droits reservés.
+:fcopyright: Droits d’auteur © 2026 Annie Bernatchez—Tous droits réservés.
 
 .. |copy| unicode:: 0xA9
 
@@ -17,7 +17,7 @@
 
 .. |nbsp| unicode:: 0xA0
 
-.. footer:: Droits d´auteur |copy| 2026 Annie Bernatchez |---| Tous droits reservés.
+.. footer:: Droits d’auteur |copy| 2026 Annie Bernatchez |---| Tous droits réservés.
 
 Ce document a été composé et mis en forme par Annie Bernatchez.
 

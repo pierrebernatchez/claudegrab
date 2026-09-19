@@ -3,23 +3,23 @@
 
 :lang: fr
 :date: 2026-09-18 20:00:00+00:00
-:tags: grade 12, math, lessons, worksheets
-:slug: u4lesson04-solutions-fr
-:category: mathematics
+:tags: douzième année, mathématiques, leçons, fiches d’exercices
+:slug: u4lesson04-solutions
+:category: mathématiques
 :authors: Annie Bernatchez
 :summary: 5.3 Transformations des fonctions trigonométriques -- Leçon avec solutions
-:fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
+:fcopyright: Droits d’auteur © 2026 Annie Bernatchez—Tous droits réservés.
 
 .. |copy| unicode:: 0xA9
 
 .. |---| unicode:: U+02014
   :trim:
 
-.. footer:: Copyright |copy| 2026 Annie Bernatchez |---| All rights reserved.
+.. footer:: Droits d’auteur |copy| 2026 Annie Bernatchez |---| Tous droits réservés.
 
-This document was composed and formatted by Annie Bernatchez.
+Ce document a été composé et mis en forme par Annie Bernatchez.
 
-The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
+Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
 Partie 1 : Propriétés des transformations
 ================================================================================
