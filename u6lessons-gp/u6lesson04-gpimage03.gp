@@ -16,7 +16,7 @@ set key off
 set label "f(x) = (x+1)/(x-4)" at -9.5,6.3 tc rgb 'black' font ",7"
 set arrow from 4,-6 to 4,8 nohead dt 2 lc rgb 'black' lw 1
 
-f(x) = (x+1)/(x-4)
+set samples 1000
+f(x) = (abs(x-4) < 0.05) ? 1/0 : (x+1)/(x-4)
 
-plot [-10:3.85] f(x) with lines lc rgb 'red' lw 1.3 notitle, \
-     [4.15:13] f(x) with lines lc rgb 'red' lw 1.3 notitle
+plot f(x) with lines lc rgb 'red' lw 1.3 notitle

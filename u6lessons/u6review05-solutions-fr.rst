@@ -1126,9 +1126,6 @@ e) :math:`3` f) :math:`\dfrac{3}{4}` g) :math:`3, -\dfrac{1}{2}` h) :math:`2, -\
 **2)** a) :math:`x<-1` ou :math:`x>2`
 b) :math:`x \leq -7` ou :math:`-5<x<-3`
 c) :math:`x<-5` ou :math:`-1 \leq x<3`
-
-.. rst-class:: solution
-
 d) :math:`-6.8 \leq x<-4` ou :math:`x>3`
 e) :math:`x<-3` ou :math:`1<x<4`
 f) :math:`x<-\dfrac12` ou :math:`\dfrac13<x<\dfrac12`

@@ -561,7 +561,6 @@ e) :math:`3` f) :math:`\dfrac{3}{4}` g) :math:`3, -\dfrac{1}{2}` h) :math:`2, -\
 **2)** a) :math:`x<-1` or :math:`x>2`
 b) :math:`x \leq -7` or :math:`-5<x<-3`
 c) :math:`x<-5` or :math:`-1 \leq x<3`
-
 d) :math:`-6.8 \leq x<-4` or :math:`x>3`
 e) :math:`x<-3` or :math:`1<x<4`
 f) :math:`x<-\dfrac12` or :math:`\dfrac13<x<\dfrac12`
