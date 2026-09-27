@@ -1,0 +1,98 @@
+#!/usr/bin/env bash
+#
+set -euo pipefail
+        
+#
+# bash trick to obtain a clean absolute path to this script.
+#
+pushd `dirname $0` >/dev/null
+SCRIPTPATH=`pwd -P`
+popd >/dev/null
+    
+MYPNAME=$(basename $0)
+MYPROGNAME=$(basename $0)
+ARG1NAME="NOARG"
+    
+    
+# full path names of programs invoked
+    
+ECHO=/usr/bin/echo
+
+# colors
+BLACK='[30m';  RED='[31m';  GREEN='[32m'
+YELLOW='[33m'; BLUE='[34m'; MAGENTA='[35m'
+CYAN='[36m';   WHITE='[37m'; RESET='[0m'
+BOLD='[1m';    DIM='[2m';   UNDERLINE='[4m'
+    
+
+#############
+
+# This script sanitizes command line arguments by filtering out
+# any that do not conform.
+# Only conforming arguments are returned by validargs
+# That is used to build something to iterate over.
+    
+############
+
+###
+# Usage example for validargs function below
+# 
+#   mapfile -t validatedargs < <(validargs "$@")
+#   if [[ ${#validatedargs[@]} -eq 0 ]]; then
+#       echo "No valid arguments"
+#       exit 1
+#   fi
+#   
+#   for avarg in "${validatedargs[@]}" ; do
+#       echo processing $avarg
+#   done
+
+validargs () {
+    # must be names ending in .rst
+    # must exclude index.rst
+    # must be readable files
+    local indexedArray=()
+    for myfullname in "$@" ; do
+	myfullnamenoext=${myfullname%.*}
+	# mybasenamenoext=${myfullnamenoext##*/}
+	mybasename=${myfullname##*/}
+	if [[ "${myfullname}" == "${myfullnamenoext}.rst" ]]; then
+	    if [[ "${mybasename}" != "index.rst" ]]; then
+		if [[ -r "${myfullname}" ]]; then
+		    indexedArray+=("${myfullnamenoext}")
+		fi
+	    fi
+	fi
+    done
+    local acount=${#indexedArray[@]}
+    if [[ "$acount" > 0 ]] ; then
+	for element in "${indexedArray[@]}"; do
+	    ${ECHO} "$element"
+	    # >&2 ${ECHO}  "$element"
+	done
+	return 0
+    else
+	return 1
+    fi
+}
+
+#
+# if [[ $# -eq 0 ]] ; then
+#    mapfile -t validatedargs < <(validargs *.rst)
+# else
+#    mapfile -t validatedargs < <(validargs "$@")
+# fi
+
+mapfile -t validatedargs < <(validargs "$@")
+
+if [[ ${#validatedargs[@]} -eq 0 ]]; then
+    ${ECHO} -e ${BOLD}${YELLOW}${MYPNAME}: ${MAGENTA}"No valid arguments"${RESET}
+    exit 1
+fi
+${ECHO} -e ${BOLD}${YELLOW}${MYPNAME}: requested source files:${RESET}
+for avarg in "${validatedargs[@]}" ; do
+    ${ECHO} -e ${BOLD}${YELLOW}${MYPNAME}: "    " ${MAGENTA}"${avarg}.rst"${RESET}
+done
+
+
+    
