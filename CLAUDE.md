@@ -93,12 +93,17 @@ forgetting to re-point this symlink before switching units fails loudly
 (Unit1 originally wrote figures into `images/` directly with no separate
 `lessons-media/`; retrofitted on 2026-09-07 to match this scheme.)
 
-As of 2026-09-10 unit1 (5 lessons) is complete and unprefixed; unit2 (6
-lessons) English is fully built (lessons/worksheets 1-6, blank +
-solutions), French exists only for lesson/worksheet 1-2, awaiting the
-user's batch review. When starting a future unit, create its
-`uNlessons/`, `uNlessons-gp/`, `uNlessons-media/`, `uNlessons-pdfs/`
-directories fresh at the repo root and apply the `uN` prefix to every
+As of 2026-09-27, units 1-6 are fully complete (English and French,
+lessons/worksheets plus each unit's cumulative review) and committed:
+unit1 (5 lessons, unprefixed), unit2 (6 lessons + `u2review07`), unit3
+(8 lessons + `u3review09`), unit4 (5 lessons + `u4review06`), unit5 (7
+lessons + `u5review08`), unit6 (4 lessons + `u6review05`). Unit7 (5
+lessons + `u7review06`, rational/combined functions) has its English
+content complete, staged, committed, and pushed — awaiting the user's
+review pass before French translation starts. When starting a future
+unit, create its `uNlessons/`, `uNlessons-gp/`, `uNlessons-media/`,
+`uNlessons-pdfs/` directories fresh at the repo root and apply the `uN`
+prefix to every
 file inside them from the start.
 
 ## Naming convention
