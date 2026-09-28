@@ -1,0 +1,6 @@
+#!/bin/bash
+### fcexam02-tabimage03.tableau
+### Q21: synthetic division confirming x-1 is a factor of
+### P(x)=x^3+x^2-10x+8, b=1. Solutions-only.
+../tableau2png.py synthetic --dividend=1,1,-10,8 --b=1 --title --label-terms \
+  --out ../fc-media/fcexam02-tabimage03.png --solution

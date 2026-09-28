@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-check_tableau_solution_flag -- audit every "*lessons-tableaux/*.tableau"
-script against how its output PNG is actually used across the repo's
-.rst files, and flag any mismatch with the ".. math:: :class: solution"
-red-text convention that tableau2png.py's --solution flag implements.
+check_tableau_solution_flag -- audit every "*tableaux/*.tableau"
+script (e.g. "u2lessons-tableaux/", "fc-tableaux/") against how its
+output PNG is actually used across the repo's .rst files, and flag any
+mismatch with the ".. math:: :class: solution" red-text convention that
+tableau2png.py's --solution flag implements.
 
 Why this exists: tableau images are a separate rendering pipeline from
 the rest of a lesson's text/math, so nothing automatically keeps a
@@ -16,7 +17,7 @@ recoloring it red would leak part of the answer into the blank doc.
 
 Run with no arguments to audit the whole repo. Safe to re-run any time
 new lessons/units add tableau figures -- it discovers every
-"*lessons-tableaux/" directory that exists, not just u2's.
+"*tableaux/" directory that exists, not just u2's.
 
 Exit status: 0 if every tableau script's --solution usage already
 matches how its image is actually referenced; 1 if any mismatch is
@@ -37,7 +38,7 @@ MODE_RE = re.compile(r"tableau2png\.py\s+(poly|numeric|synthetic)\b")
 
 
 def find_tableau_scripts():
-    return sorted(Path(p) for p in glob.glob(str(REPO_ROOT / "*lessons-tableaux" / "*.tableau")))
+    return sorted(Path(p) for p in glob.glob(str(REPO_ROOT / "*tableaux" / "*.tableau")))
 
 
 def parse_tableau_script(path):

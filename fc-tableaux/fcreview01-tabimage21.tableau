@@ -1,0 +1,5 @@
+#!/bin/bash
+### fcreview01-tabimage21.tableau
+### Q17f: synthetic division confirming x+1 is a factor of x^3-2x^2-13x-10, b=-1. Solutions-only.
+../tableau2png.py synthetic --dividend=1,-2,-13,-10 --b=-1 --title --label-terms \
+  --out ../fc-media/fcreview01-tabimage21.png --solution

@@ -16,6 +16,13 @@ output.rtc
 # the leading '*' covers unit1's unprefixed lessons-pdfs/ as well as
 # unit2+'s uN-prefixed u2lessons-pdfs/, u3lessons-pdfs/, etc. in one line
 **/*lessons-pdfs/*.pdf
+# fcreview01/fcexam02 (the full-course documents) use an fc- prefix
+# instead of a uN- prefix, so they don't match the *lessons-pdfs/
+# *lessons-media/ patterns above -- covered explicitly here instead.
+fc-pdfs/*.pdf
+fc-pdfs/*.errlog
+fc-pdfs/*.stylelog
+fc-pdfs/output.rtc
 dist/
 dist/*
 __pycache__/
@@ -27,6 +34,7 @@ build/*
 # local symlink alias to whichever one is active, see below). Same '*'
 # prefix trick as lessons-pdfs above.
 **/*lessons-media/*.png
+fc-media/*.png
 # local rendering convenience symlink, recreated per work session
 # (points at whichever unit's real *lessons-media dir you're working on),
 # never committed. No trailing slash: a trailing-slash pattern only
