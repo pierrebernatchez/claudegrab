@@ -204,6 +204,8 @@ a\) :math:`\dfrac{6x}{x+1} > 4`
 
 :math:`\dfrac{2x-4}{x+1} > 0`
 
+.. rst-class:: solution
+
 zéro : :math:`x=2`; restriction : :math:`x \neq -1`
 
 .. list-table::
@@ -212,21 +214,21 @@ zéro : :math:`x=2`; restriction : :math:`x \neq -1`
    :header-rows: 1
 
    * - Intervalle
-     - :math:`x<-1`
-     - :math:`-1<x<2`
-     - :math:`x>2`
+     - :solmath:`x<-1`
+     - :solmath:`-1<x<2`
+     - :solmath:`x>2`
    * - :math:`x-2`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - :math:`x+1`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - global
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
 
 .. rst-class:: solution
 
@@ -248,6 +250,8 @@ b\) :math:`\dfrac{1}{2x+10} \geq \dfrac{1}{x+3}`
 
 :math:`\dfrac{-x-7}{(2x+10)(x+3)} \geq 0`
 
+.. rst-class:: solution
+
 zéro : :math:`x=-7`; restrictions : :math:`x \neq -5,-3`
 
 .. list-table::
@@ -256,30 +260,30 @@ zéro : :math:`x=-7`; restrictions : :math:`x \neq -5,-3`
    :header-rows: 1
 
    * - Intervalle
-     - :math:`x<-7`
-     - :math:`-7<x<-5`
-     - :math:`-5<x<-3`
-     - :math:`x>-3`
+     - :solmath:`x<-7`
+     - :solmath:`-7<x<-5`
+     - :solmath:`-5<x<-3`
+     - :solmath:`x>-3`
    * - :math:`-x-7`
-     - :math:`+`
-     - :math:`-`
-     - :math:`-`
-     - :math:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
    * - :math:`2x+10`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x+3`
-     - :math:`-`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - global
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
-     - :math:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
 
 .. rst-class:: solution
 
@@ -301,6 +305,8 @@ c\) :math:`\dfrac{2x-3}{x+5} \geq \dfrac{2x+7}{x-3}`
 
 :math:`\dfrac{-26(x+1)}{(x+5)(x-3)} \geq 0`
 
+.. rst-class:: solution
+
 zéro : :math:`x=-1`; restrictions : :math:`x \neq -5,3`
 
 .. list-table::
@@ -309,30 +315,30 @@ zéro : :math:`x=-1`; restrictions : :math:`x \neq -5,3`
    :header-rows: 1
 
    * - Intervalle
-     - :math:`x<-5`
-     - :math:`-5<x<-1`
-     - :math:`-1<x<3`
-     - :math:`x>3`
+     - :solmath:`x<-5`
+     - :solmath:`-5<x<-1`
+     - :solmath:`-1<x<3`
+     - :solmath:`x>3`
    * - :math:`x+1`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x+5`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x-3`
-     - :math:`-`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - global
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
-     - :math:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
 
 .. rst-class:: solution
 
@@ -350,6 +356,8 @@ d\) :math:`\dfrac{7}{x-3} \geq \dfrac{2}{x+4}`
 
 :math:`\dfrac{5x+34}{(x-3)(x+4)} \geq 0`
 
+.. rst-class:: solution
+
 zéro : :math:`x=-6.8`; restrictions : :math:`x \neq -4,3`
 
 .. list-table::
@@ -358,30 +366,30 @@ zéro : :math:`x=-6.8`; restrictions : :math:`x \neq -4,3`
    :header-rows: 1
 
    * - Intervalle
-     - :math:`x<-6.8`
-     - :math:`-6.8<x<-4`
-     - :math:`-4<x<3`
-     - :math:`x>3`
+     - :solmath:`x<-6.8`
+     - :solmath:`-6.8<x<-4`
+     - :solmath:`-4<x<3`
+     - :solmath:`x>3`
    * - :math:`5x+34`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x-3`
-     - :math:`-`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - :math:`x+4`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - global
-     - :math:`-`
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
 
 .. rst-class:: solution
 
@@ -395,6 +403,8 @@ e\) :math:`\dfrac{x^2-x-12}{x-1} < 0`
 
 :math:`\dfrac{(x-4)(x+3)}{x-1} < 0`
 
+.. rst-class:: solution
+
 zéros : :math:`x=-3,4`; restriction : :math:`x \neq 1`
 
 .. list-table::
@@ -403,30 +413,30 @@ zéros : :math:`x=-3,4`; restriction : :math:`x \neq 1`
    :header-rows: 1
 
    * - Intervalle
-     - :math:`x<-3`
-     - :math:`-3<x<1`
-     - :math:`1<x<4`
-     - :math:`x>4`
+     - :solmath:`x<-3`
+     - :solmath:`-3<x<1`
+     - :solmath:`1<x<4`
+     - :solmath:`x>4`
    * - :math:`x-4`
-     - :math:`-`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - :math:`x+3`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x-1`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - global
-     - :math:`-`
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
 
 .. rst-class:: solution
 
@@ -440,6 +450,8 @@ f\) :math:`\dfrac{6x^2-5x+1}{2x+1} < 0`
 
 :math:`\dfrac{(3x-1)(2x-1)}{2x+1} < 0`
 
+.. rst-class:: solution
+
 zéros : :math:`x=\frac{1}{3},\frac{1}{2}`; restriction : :math:`x \neq -\frac{1}{2}`
 
 .. list-table::
@@ -448,30 +460,30 @@ zéros : :math:`x=\frac{1}{3},\frac{1}{2}`; restriction : :math:`x \neq -\frac{1
    :header-rows: 1
 
    * - Intervalle
-     - :math:`x<-\frac{1}{2}`
-     - :math:`-\frac{1}{2}<x<\frac{1}{3}`
-     - :math:`\frac{1}{3}<x<\frac{1}{2}`
-     - :math:`x>\frac{1}{2}`
+     - :solmath:`x<-\frac{1}{2}`
+     - :solmath:`-\frac{1}{2}<x<\frac{1}{3}`
+     - :solmath:`\frac{1}{3}<x<\frac{1}{2}`
+     - :solmath:`x>\frac{1}{2}`
    * - :math:`3x-1`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`2x-1`
-     - :math:`-`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - :math:`2x+1`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
    * - global
-     - :math:`-`
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
 
 .. rst-class:: solution
 
@@ -498,6 +510,8 @@ g\) :math:`\dfrac{2x-10}{x} > x-5`
 
 :math:`\dfrac{-(x-5)(x-2)}{x} > 0`
 
+.. rst-class:: solution
+
 zéros : :math:`x=2,5`; restriction : :math:`x \neq 0`
 
 .. list-table::
@@ -506,30 +520,30 @@ zéros : :math:`x=2,5`; restriction : :math:`x \neq 0`
    :header-rows: 1
 
    * - Intervalle
-     - :math:`x<0`
-     - :math:`0<x<2`
-     - :math:`2<x<5`
-     - :math:`x>5`
+     - :solmath:`x<0`
+     - :solmath:`0<x<2`
+     - :solmath:`2<x<5`
+     - :solmath:`x>5`
    * - :math:`-(x-5)`
-     - :math:`+`
-     - :math:`+`
-     - :math:`+`
-     - :math:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`-`
    * - :math:`x-2`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
    * - global
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
-     - :math:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
 
 .. rst-class:: solution
 

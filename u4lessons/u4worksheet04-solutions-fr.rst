@@ -34,6 +34,7 @@ a\) :math:`y = 5\sin(3x)`
 
 .. list-table::
    :widths: 50 50
+   :width: 100%
 
    * - Amplitude : :solmath:`|a| = 5`
      - Période : :solmath:`\dfrac{2\pi}{|k|} = \dfrac{2\pi}{3}`
@@ -52,6 +53,7 @@ b\) :math:`y = -3\cos\left(\dfrac34 x\right)`
 
 .. list-table::
    :widths: 50 50
+   :width: 100%
 
    * - Amplitude : :solmath:`|a| = 3`
      - Période : :solmath:`\dfrac{2\pi}{|k|} = \dfrac{2\pi}{\frac34} =
@@ -71,6 +73,7 @@ c\) :math:`y = 4\sin\left[3\left(x-\dfrac{\pi}{3}\right)\right] - 2`
 
 .. list-table::
    :widths: 50 50
+   :width: 100%
 
    * - Amplitude : :solmath:`|a| = 4`
      - Période : :solmath:`\dfrac{2\pi}{|k|} = \dfrac{2\pi}{3}`
@@ -89,6 +92,7 @@ d\) :math:`y = 2\sin\left[\dfrac12\left(x+\dfrac{5\pi}{6}\right)\right] + 4`
 
 .. list-table::
    :widths: 50 50
+   :width: 100%
 
    * - Amplitude : :solmath:`|a| = 2`
      - Période : :solmath:`\dfrac{2\pi}{|k|} = \dfrac{2\pi}{\frac12} = 4\pi`

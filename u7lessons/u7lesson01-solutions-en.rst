@@ -219,27 +219,27 @@ a\) :math:`y = \dfrac{1}{2x-1}`
    * - :math:`x`
      - :math:`y = 2x-1`
      - :math:`y = \frac{1}{2x-1}`
-   * - :math:`-2`
-     - :math:`-5`
-     - :math:`-0.2`
-   * - :math:`-1`
-     - :math:`-3`
-     - :math:`-0.33`
-   * - :math:`0`
-     - :math:`-1`
-     - :math:`-1`
-   * - :math:`0.5`
-     - :math:`0`
-     - undefined
-   * - :math:`1`
-     - :math:`1`
-     - :math:`1`
-   * - :math:`2`
-     - :math:`3`
-     - :math:`0.33`
-   * - :math:`3`
-     - :math:`5`
-     - :math:`0.2`
+   * - :solmath:`-2`
+     - :solmath:`-5`
+     - :solmath:`-0.2`
+   * - :solmath:`-1`
+     - :solmath:`-3`
+     - :solmath:`-0.33`
+   * - :solmath:`0`
+     - :solmath:`-1`
+     - :solmath:`-1`
+   * - :solmath:`0.5`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`1`
+     - :solmath:`1`
+     - :solmath:`1`
+   * - :solmath:`2`
+     - :solmath:`3`
+     - :solmath:`0.33`
+   * - :solmath:`3`
+     - :solmath:`5`
+     - :solmath:`0.2`
 
 .. image:: ../images/u7lesson01-gpimage03.png
    :scale: 90
@@ -270,27 +270,27 @@ b\) :math:`y = \dfrac{1}{x^2-2x-15} = \dfrac{1}{(x-5)(x+3)}`
    * - :math:`x`
      - :math:`y = x^2-2x-15`
      - :math:`y = \frac{1}{x^2-2x-15}`
-   * - :math:`-5`
-     - :math:`20`
-     - :math:`0.05`
-   * - :math:`-3`
-     - :math:`0`
-     - undefined
-   * - :math:`-1`
-     - :math:`-12`
-     - :math:`-0.08`
-   * - :math:`1`
-     - :math:`-16`
-     - :math:`-0.0625`
-   * - :math:`3`
-     - :math:`-12`
-     - :math:`-0.08`
-   * - :math:`5`
-     - :math:`0`
-     - undefined
-   * - :math:`7`
-     - :math:`20`
-     - :math:`0.05`
+   * - :solmath:`-5`
+     - :solmath:`20`
+     - :solmath:`0.05`
+   * - :solmath:`-3`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`-1`
+     - :solmath:`-12`
+     - :solmath:`-0.08`
+   * - :solmath:`1`
+     - :solmath:`-16`
+     - :solmath:`-0.0625`
+   * - :solmath:`3`
+     - :solmath:`-12`
+     - :solmath:`-0.08`
+   * - :solmath:`5`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`7`
+     - :solmath:`20`
+     - :solmath:`0.05`
 
 .. image:: ../images/u7lesson01-gpimage04.png
    :scale: 90
@@ -318,27 +318,27 @@ there is no :math:`x`-int, so :math:`VA:` none.
    * - :math:`x`
      - :math:`y = x^2+4`
      - :math:`y = \frac{1}{x^2+4}`
-   * - :math:`-3`
-     - :math:`13`
-     - :math:`0.08`
-   * - :math:`-2`
-     - :math:`8`
-     - :math:`0.125`
-   * - :math:`-1`
-     - :math:`5`
-     - :math:`0.2`
-   * - :math:`0`
-     - :math:`4`
-     - :math:`0.25`
-   * - :math:`1`
-     - :math:`5`
-     - :math:`0.2`
-   * - :math:`2`
-     - :math:`8`
-     - :math:`0.125`
-   * - :math:`3`
-     - :math:`13`
-     - :math:`0.08`
+   * - :solmath:`-3`
+     - :solmath:`13`
+     - :solmath:`0.08`
+   * - :solmath:`-2`
+     - :solmath:`8`
+     - :solmath:`0.125`
+   * - :solmath:`-1`
+     - :solmath:`5`
+     - :solmath:`0.2`
+   * - :solmath:`0`
+     - :solmath:`4`
+     - :solmath:`0.25`
+   * - :solmath:`1`
+     - :solmath:`5`
+     - :solmath:`0.2`
+   * - :solmath:`2`
+     - :solmath:`8`
+     - :solmath:`0.125`
+   * - :solmath:`3`
+     - :solmath:`13`
+     - :solmath:`0.08`
 
 .. image:: ../images/u7lesson01-gpimage05.png
    :scale: 90
@@ -365,27 +365,27 @@ d\) :math:`y = \dfrac{2}{x^2-6x+9} = 2\left[\dfrac{1}{(x-3)^2}\right]`
    * - :math:`x`
      - :math:`y = x^2-6x+9`
      - :math:`y = \frac{2}{x^2-6x+9}`
-   * - :math:`0`
-     - :math:`9`
-     - :math:`0.22`
-   * - :math:`1`
-     - :math:`4`
-     - :math:`0.5`
-   * - :math:`2`
-     - :math:`1`
-     - :math:`2`
-   * - :math:`3`
-     - :math:`0`
-     - undefined
-   * - :math:`4`
-     - :math:`1`
-     - :math:`2`
-   * - :math:`5`
-     - :math:`4`
-     - :math:`0.5`
-   * - :math:`6`
-     - :math:`9`
-     - :math:`0.22`
+   * - :solmath:`0`
+     - :solmath:`9`
+     - :solmath:`0.22`
+   * - :solmath:`1`
+     - :solmath:`4`
+     - :solmath:`0.5`
+   * - :solmath:`2`
+     - :solmath:`1`
+     - :solmath:`2`
+   * - :solmath:`3`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`4`
+     - :solmath:`1`
+     - :solmath:`2`
+   * - :solmath:`5`
+     - :solmath:`4`
+     - :solmath:`0.5`
+   * - :solmath:`6`
+     - :solmath:`9`
+     - :solmath:`0.22`
 
 .. image:: ../images/u7lesson01-gpimage06.png
    :scale: 90

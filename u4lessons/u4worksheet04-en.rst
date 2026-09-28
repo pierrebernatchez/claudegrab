@@ -35,6 +35,7 @@ a\) :math:`y = 5\sin(3x)`
 
 .. list-table::
    :widths: 50 50
+   :width: 100%
 
    * - Amplitude:
      - Period:
@@ -53,6 +54,7 @@ b\) :math:`y = -3\cos\left(\dfrac34 x\right)`
 
 .. list-table::
    :widths: 50 50
+   :width: 100%
 
    * - Amplitude:
      - Period:
@@ -71,6 +73,7 @@ c\) :math:`y = 4\sin\left[3\left(x-\dfrac{\pi}{3}\right)\right] - 2`
 
 .. list-table::
    :widths: 50 50
+   :width: 100%
 
    * - Amplitude:
      - Period:
@@ -89,6 +92,7 @@ d\) :math:`y = 2\sin\left[\dfrac12\left(x+\dfrac{5\pi}{6}\right)\right] + 4`
 
 .. list-table::
    :widths: 50 50
+   :width: 100%
 
    * - Amplitude:
      - Period:

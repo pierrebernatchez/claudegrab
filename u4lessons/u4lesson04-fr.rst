@@ -33,15 +33,32 @@ affecte le graphique de la façon suivante :
 .. list-table::
    :header-rows: 1
    :widths: 25 25 25 25
+   :width: 100%
 
    * - :math:`a`
      - :math:`k`
      - :math:`d`
      - :math:`c`
    * - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -51,6 +68,7 @@ déphasage, le déplacement vertical, le maximum et le minimum.
 
 .. list-table::
    :widths: 50 50
+   :width: 100%
 
    * - Amplitude :
      - Période :
@@ -120,15 +138,40 @@ partir de son graphique, utilise les relations suivantes :
 .. list-table::
    :header-rows: 1
    :widths: 25 25 25 25
+   :width: 100%
 
    * - :math:`a`
      - :math:`k`
      - :math:`d`
      - :math:`c`
    * - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 

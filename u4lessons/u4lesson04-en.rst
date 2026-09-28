@@ -33,15 +33,32 @@ following way:
 .. list-table::
    :header-rows: 1
    :widths: 25 25 25 25
+   :width: 100%
 
    * - :math:`a`
      - :math:`k`
      - :math:`d`
      - :math:`c`
    * - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -51,6 +68,7 @@ shift, vertical shift, maximum, and minimum.
 
 .. list-table::
    :widths: 50 50
+   :width: 100%
 
    * - Amplitude:
      - Period:
@@ -120,15 +138,40 @@ graph, use the following relationships:
 .. list-table::
    :header-rows: 1
    :widths: 25 25 25 25
+   :width: 100%
 
    * - :math:`a`
      - :math:`k`
      - :math:`d`
      - :math:`c`
    * - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 

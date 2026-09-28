@@ -34,17 +34,17 @@ Partie 1 : Caractéristiques clés du quotient de fonctions linéaires
        - Si une valeur de :math:`x` est un zéro du dénominateur
          SEULEMENT, cela produit une asymptote verticale
 
-         - L'équation de l'asymptote verticale est :math:`x =
+         - L'équation de l'asymptote verticale est :solmath:`x =
            \dfrac{-d}{c}`
        - Si une valeur de :math:`x` est un zéro du numérateur ET du
-         dénominateur, cela produit un **trou** dans le graphique et NON
+         dénominateur, cela produit un :sol:`trou` dans le graphique et NON
          une asymptote verticale
        - Il y a une asymptote horizontale au rapport des coefficients
          dominants
 
-         - L'équation de l'asymptote horizontale est :math:`y =
+         - L'équation de l'asymptote horizontale est :solmath:`y =
            \dfrac{a}{c}`
-       - Forme une **hyperbole** : les deux branches du graphique de la
+       - Forme une :sol:`hyperbole` : les deux branches du graphique de la
          fonction sont équidistantes du point d'intersection des
          asymptotes verticale et horizontale
 
@@ -53,11 +53,11 @@ Partie 1 : Caractéristiques clés du quotient de fonctions linéaires
        - Tu peux trouver l'abscisse à l'origine en posant :math:`y = 0`
          et en résolvant pour :math:`x`
 
-         - Cela donne :math:`\left(\dfrac{-b}{a}, 0\right)`
+         - Cela donne :solmath:`\left(\dfrac{-b}{a}, 0\right)`
        - Tu peux trouver l'ordonnée à l'origine en posant :math:`x = 0`
          et en résolvant pour :math:`y`
 
-         - Cela donne :math:`\left(0, \dfrac{b}{d}\right)`
+         - Cela donne :solmath:`\left(0, \dfrac{b}{d}\right)`
 
 Partie 2 : Tracer le graphique d'un quotient de fonctions linéaires
 ================================================================================

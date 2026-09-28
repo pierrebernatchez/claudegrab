@@ -31,18 +31,27 @@ affecte le graphique de la façon suivante :
 .. list-table::
    :header-rows: 1
    :widths: 25 25 25 25
+   :width: 100%
 
    * - :math:`a`
      - :math:`k`
      - :math:`d`
      - :math:`c`
-   * - amplitude :math:`= |a|`; si :math:`a < 0`, le graphique est
+   * - .. rst-class:: solution
+
+       amplitude :math:`= |a|`; si :math:`a < 0`, le graphique est
        réfléchi par rapport à l'axe des :math:`x`
-     - période :math:`= \dfrac{2\pi}{|k|}`; si :math:`k < 0`, le
+     - .. rst-class:: solution
+
+       période :math:`= \dfrac{2\pi}{|k|}`; si :math:`k < 0`, le
        graphique est réfléchi par rapport à l'axe des :math:`y`
-     - déphasage; le graphique se déplace de :math:`d` unités vers la
+     - .. rst-class:: solution
+
+       déphasage; le graphique se déplace de :math:`d` unités vers la
        droite (si :math:`d > 0`) ou vers la gauche (si :math:`d < 0`)
-     - déplacement vertical; le graphique se déplace de :math:`c`
+     - .. rst-class:: solution
+
+       déplacement vertical; le graphique se déplace de :math:`c`
        unités vers le haut (si :math:`c > 0`) ou vers le bas (si
        :math:`c < 0`)
 
@@ -54,6 +63,7 @@ déphasage, le déplacement vertical, le maximum et le minimum.
 
 .. list-table::
    :widths: 50 50
+   :width: 100%
 
    * - Amplitude : :solmath:`|a| = 3`
      - Période : :solmath:`\dfrac{2\pi}{|k|} = \dfrac{2\pi}{\frac12} = 4\pi`
@@ -123,19 +133,28 @@ partir de son graphique, utilise les relations suivantes :
 .. list-table::
    :header-rows: 1
    :widths: 25 25 25 25
+   :width: 100%
 
    * - :math:`a`
      - :math:`k`
      - :math:`d`
      - :math:`c`
-   * - :math:`a = \dfrac{\max-\min}{2}`
-     - :math:`k = \dfrac{2\pi}{\text{période}}`, trouvé à partir du
+   * - .. rst-class:: solution
+
+       :math:`a = \dfrac{\max-\min}{2}`
+     - .. rst-class:: solution
+
+       :math:`k = \dfrac{2\pi}{\text{période}}`, trouvé à partir du
        début et de la fin d'un cycle
-     - :math:`d_{\sin} = d_{\cos} - \dfrac{\pi}{2k}` est l'abscisse
+     - .. rst-class:: solution
+
+       :math:`d_{\sin} = d_{\cos} - \dfrac{\pi}{2k}` est l'abscisse
        d'un point où le graphique croise la ligne médiane en
        augmentant; :math:`d_{\cos} = d_{\sin} + \dfrac{\pi}{2k}` est
        l'abscisse d'un maximum
-     - :math:`c = \max - |a|`, ou de façon équivalente :math:`c =
+     - .. rst-class:: solution
+
+       :math:`c = \max - |a|`, ou de façon équivalente :math:`c =
        \dfrac{\max+\min}{2}`
 
 .. rst-class:: keepwithnext

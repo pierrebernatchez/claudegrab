@@ -84,6 +84,42 @@ just restates what's obviously being asked for ("Answer:", "The result
 is:") once real blank space follows a clearly stated question — the label
 adds nothing once the blank space itself signals what's expected.
 
+**Table cells need the same tiered sizing, not a bare single blank.** A
+`list-table` row's height is driven by its tallest cell, so a cell
+holding only one `|nbsp|` renders that whole row at near-zero height —
+regardless of how many lines the corresponding solutions-doc cell
+actually needs, since nothing forces the two to track each other (the
+same root cause item 1 above describes, just easy to miss inside a table
+specifically, because a lone `|nbsp|` still looks like a plausible
+"blank" in the source and the mismatch only becomes visible after
+rendering to PDF). When a solutions-doc table cell holds worked
+prose/reasoning (not just a single short computed value), stack that
+many `|nbsp|` paragraphs in the blank doc's corresponding cell — same
+mechanism as a regular paragraph blank, just written inside the cell:
+blank line between each, continuation lines indented to align under the
+cell's own `- ` marker. Roughly match the solution cell's own wrapped
+line count (check the rendered solutions PDF, not just the source text —
+wrapping depends on column width); a short numeric-answer cell (one
+number, one short phrase) still only needs a single `|nbsp|`, matching
+the inline/short tier above.
+
+**The same content-driven-sizing trap applies to column width, not just
+row height — check both.** Without an explicit `:width: 100%` option on
+the `.. list-table::` directive, the table's overall width is *also*
+sized to fit its content, exactly like row height. A solutions-doc table
+can end up spanning the full page purely because its worked-prose cells
+are wide enough to force that — with no `:width: 100%` anywhere — while
+the blank-doc version of the exact same table, now with proper
+line-count-matched `|nbsp|` stacks (tall enough) but still narrow
+content, stays visibly narrower than its solutions counterpart even
+though the row heights now match. Caught 2026-09-27 right after the
+row-height fix above shipped, on the same `u4lesson04` table — fixing
+height alone and not checking width was an incomplete fix, not a
+different bug. Add `:width: 100%` explicitly to both the blank and
+solutions versions of any table where this could matter, rather than
+relying on one side's content happening to be bulky enough to force full
+width on its own.
+
 ## Preventing collisions by construction, not detection
 
 When two independent generation pipelines write into one shared flat

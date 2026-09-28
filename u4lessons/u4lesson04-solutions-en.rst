@@ -31,18 +31,27 @@ following way:
 .. list-table::
    :header-rows: 1
    :widths: 25 25 25 25
+   :width: 100%
 
    * - :math:`a`
      - :math:`k`
      - :math:`d`
      - :math:`c`
-   * - amplitude :math:`= |a|`; if :math:`a < 0`, the graph is reflected in
-       the :math:`x`-axis
-     - period :math:`= \dfrac{2\pi}{|k|}`; if :math:`k < 0`, the graph is
+   * - .. rst-class:: solution
+
+       amplitude :math:`= |a|`; if :math:`a < 0`, the graph is reflected
+       in the :math:`x`-axis
+     - .. rst-class:: solution
+
+       period :math:`= \dfrac{2\pi}{|k|}`; if :math:`k < 0`, the graph is
        reflected in the :math:`y`-axis
-     - phase shift; the graph shifts :math:`d` units to the right (if
+     - .. rst-class:: solution
+
+       phase shift; the graph shifts :math:`d` units to the right (if
        :math:`d > 0`) or left (if :math:`d < 0`)
-     - vertical shift; the graph shifts :math:`c` units up (if :math:`c >
+     - .. rst-class:: solution
+
+       vertical shift; the graph shifts :math:`c` units up (if :math:`c >
        0`) or down (if :math:`c < 0`)
 
 .. rst-class:: keepwithnext
@@ -53,6 +62,7 @@ shift, vertical shift, maximum, and minimum.
 
 .. list-table::
    :widths: 50 50
+   :width: 100%
 
    * - Amplitude: :solmath:`|a| = 3`
      - Period: :solmath:`\dfrac{2\pi}{|k|} = \dfrac{2\pi}{\frac12} = 4\pi`
@@ -122,19 +132,28 @@ graph, use the following relationships:
 .. list-table::
    :header-rows: 1
    :widths: 25 25 25 25
+   :width: 100%
 
    * - :math:`a`
      - :math:`k`
      - :math:`d`
      - :math:`c`
-   * - :math:`a = \dfrac{\max-\min}{2}`
-     - :math:`k = \dfrac{2\pi}{\text{period}}`, found from the start and
+   * - .. rst-class:: solution
+
+       :math:`a = \dfrac{\max-\min}{2}`
+     - .. rst-class:: solution
+
+       :math:`k = \dfrac{2\pi}{\text{period}}`, found from the start and
        end of one cycle
-     - :math:`d_{\sin} = d_{\cos} - \dfrac{\pi}{2k}` is the :math:`x`-coordinate
-       of a point where the graph crosses the midline while increasing;
-       :math:`d_{\cos} = d_{\sin} + \dfrac{\pi}{2k}` is the
-       :math:`x`-coordinate of a maximum
-     - :math:`c = \max - |a|`, or equivalently :math:`c =
+     - .. rst-class:: solution
+
+       :math:`d_{\sin} = d_{\cos} - \dfrac{\pi}{2k}` is the
+       :math:`x`-coordinate of a point where the graph crosses the
+       midline while increasing; :math:`d_{\cos} = d_{\sin} +
+       \dfrac{\pi}{2k}` is the :math:`x`-coordinate of a maximum
+     - .. rst-class:: solution
+
+       :math:`c = \max - |a|`, or equivalently :math:`c =
        \dfrac{\max+\min}{2}`
 
 .. rst-class:: keepwithnext

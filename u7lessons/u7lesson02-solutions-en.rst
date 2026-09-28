@@ -34,15 +34,15 @@ Part 1: Key Features of the Quotient of Linear Functions
        - If an :math:`x` value is a zero of the denominator ONLY, this
          results in a vertical asymptote
 
-         - Equation of vertical asymptote is :math:`x = \dfrac{-d}{c}`
+         - Equation of vertical asymptote is :solmath:`x = \dfrac{-d}{c}`
        - If an :math:`x` value is a zero of the numerator AND
-         denominator, this results in a **hole** in the graph NOT a
+         denominator, this results in a :sol:`hole` in the graph NOT a
          vertical asymptote
        - There is a horizontal asymptote at the ratio of the leading
          coefficients
 
-         - Equation of horizontal asymptote is :math:`y = \dfrac{a}{c}`
-       - Forms a **Hyperbola**: the two branches of the graph of the
+         - Equation of horizontal asymptote is :solmath:`y = \dfrac{a}{c}`
+       - Forms a :sol:`Hyperbola`: the two branches of the graph of the
          function are equidistant from the point of intersection of the
          vertical and horizontal asymptotes
 
@@ -51,11 +51,11 @@ Part 1: Key Features of the Quotient of Linear Functions
        - You can find the :math:`x`-intercept by setting :math:`y = 0`
          and solving for :math:`x`
 
-         - This results in :math:`\left(\dfrac{-b}{a}, 0\right)`
+         - This results in :solmath:`\left(\dfrac{-b}{a}, 0\right)`
        - You can find the :math:`y`-intercept by setting :math:`x = 0`
          and solving for :math:`y`
 
-         - This results in :math:`\left(0, \dfrac{b}{d}\right)`
+         - This results in :solmath:`\left(0, \dfrac{b}{d}\right)`
 
 Part 2: Graphing a Quotient of Linear Functions
 ================================================================================

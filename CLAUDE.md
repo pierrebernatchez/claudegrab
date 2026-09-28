@@ -267,9 +267,18 @@ Full narrative and reasoning for each of these is in METHODOLOGY.md's
   ordered-list markers. Escape the parenthesis: `a\)`, `i\)`.
 - A table cell containing only a bare `-` or `+` gets misread as an
   empty bullet list. Wrap as an inline literal: ``` ``-`` ``` / ``` ``+`` ```.
-- A genuinely empty table cell can collapse to near-zero height. Put a
-  non-breaking-space placeholder in every blank cell: `- |nbsp|` (with
-  `.. |nbsp| unicode:: 0xA0` defined near the top of the file).
+- A genuinely empty table cell can collapse to near-zero height (and a
+  sparsely-filled table can collapse to near-zero *width* — same
+  content-driven-sizing cause, check both). Put a non-breaking-space
+  placeholder in every blank cell: `- |nbsp|` (with `.. |nbsp| unicode::
+  0xA0` defined near the top of the file). If the matching solutions-doc
+  cell holds multi-line prose (not a short value), one `|nbsp|` still
+  isn't enough room to write in — stack several `|nbsp|` paragraphs in
+  that cell instead, per the "Blank-space sizing convention" section of
+  METHODOLOGY.md. Also add `:width: 100%` explicitly to the `..
+  list-table::` directive (both the blank and solutions versions) rather
+  than relying on one side's content being bulky enough to force full
+  page width on its own.
 - A `.. math::` block directive inside any cell of a `list-table` row
   with 2+ populated cells hangs the rinoh renderer indefinitely. Don't
   put `.. math::` block directives inside multi-column `list-table`

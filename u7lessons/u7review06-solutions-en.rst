@@ -53,27 +53,27 @@ a\) :math:`f(x) = \dfrac{1}{x^2-4}`
    * - :math:`x`
      - :math:`y = x^2-4`
      - :math:`y = \frac{1}{x^2-4}`
-   * - :math:`-3`
-     - :math:`5`
-     - :math:`0.2`
-   * - :math:`-2`
-     - :math:`0`
-     - undefined
-   * - :math:`-1`
-     - :math:`-3`
-     - :math:`-0.33`
-   * - :math:`0`
-     - :math:`-4`
-     - :math:`-0.25`
-   * - :math:`1`
-     - :math:`-3`
-     - :math:`-0.33`
-   * - :math:`2`
-     - :math:`0`
-     - undefined
-   * - :math:`3`
-     - :math:`5`
-     - :math:`0.2`
+   * - :solmath:`-3`
+     - :solmath:`5`
+     - :solmath:`0.2`
+   * - :solmath:`-2`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`-1`
+     - :solmath:`-3`
+     - :solmath:`-0.33`
+   * - :solmath:`0`
+     - :solmath:`-4`
+     - :solmath:`-0.25`
+   * - :solmath:`1`
+     - :solmath:`-3`
+     - :solmath:`-0.33`
+   * - :solmath:`2`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`3`
+     - :solmath:`5`
+     - :solmath:`0.2`
 
 .. image:: ../images/u7review06-gpimage01.png
    :scale: 90
@@ -99,21 +99,21 @@ b\) :math:`g(x) = \dfrac{2}{x+3}`
    * - :math:`x`
      - :math:`y = x+3`
      - :math:`y = \frac{2}{x+3}`
-   * - :math:`-5`
-     - :math:`-2`
-     - :math:`-1`
-   * - :math:`-4`
-     - :math:`-1`
-     - :math:`-2`
-   * - :math:`-3`
-     - :math:`0`
-     - undefined
-   * - :math:`-2`
-     - :math:`1`
-     - :math:`2`
-   * - :math:`-1`
-     - :math:`2`
-     - :math:`1`
+   * - :solmath:`-5`
+     - :solmath:`-2`
+     - :solmath:`-1`
+   * - :solmath:`-4`
+     - :solmath:`-1`
+     - :solmath:`-2`
+   * - :solmath:`-3`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`-2`
+     - :solmath:`1`
+     - :solmath:`2`
+   * - :solmath:`-1`
+     - :solmath:`2`
+     - :solmath:`1`
 
 .. image:: ../images/u7review06-gpimage02.png
    :scale: 90
@@ -220,31 +220,31 @@ a\) :math:`y = f(x) + g(x)`
      - :math:`g(x)`
      - :math:`f(x)+g(x)`
      -
-   * - :math:`-2`
-     - :math:`1`
-     - :math:`-1`
-     - :math:`0`
-     -
-   * - :math:`-1`
-     - :math:`-2`
-     - :math:`0`
-     - :math:`-2`
-     -
-   * - :math:`0`
-     - :math:`-3`
-     - :math:`1`
-     - :math:`-2`
-     -
-   * - :math:`1`
-     - :math:`-2`
-     - :math:`2`
-     - :math:`0`
-     -
-   * - :math:`2`
-     - :math:`1`
-     - :math:`3`
-     - :math:`4`
-     -
+   * - :solmath:`-2`
+     - :solmath:`1`
+     - :solmath:`-1`
+     - :solmath:`0`
+     - 
+   * - :solmath:`-1`
+     - :solmath:`-2`
+     - :solmath:`0`
+     - :solmath:`-2`
+     - 
+   * - :solmath:`0`
+     - :solmath:`-3`
+     - :solmath:`1`
+     - :solmath:`-2`
+     - 
+   * - :solmath:`1`
+     - :solmath:`-2`
+     - :solmath:`2`
+     - :solmath:`0`
+     - 
+   * - :solmath:`2`
+     - :solmath:`1`
+     - :solmath:`3`
+     - :solmath:`4`
+     - 
 
 .. image:: ../images/u7review06-gpimage05.png
    :scale: 90
@@ -264,31 +264,31 @@ b\) :math:`y = g(x) - f(x)`
      - :math:`f(x)`
      - :math:`g(x)-f(x)`
      -
-   * - :math:`-2`
-     - :math:`-1`
-     - :math:`1`
-     - :math:`-2`
-     -
-   * - :math:`-1`
-     - :math:`0`
-     - :math:`-2`
-     - :math:`2`
-     -
-   * - :math:`0`
-     - :math:`1`
-     - :math:`-3`
-     - :math:`4`
-     -
-   * - :math:`1`
-     - :math:`2`
-     - :math:`-2`
-     - :math:`4`
-     -
-   * - :math:`2`
-     - :math:`3`
-     - :math:`1`
-     - :math:`2`
-     -
+   * - :solmath:`-2`
+     - :solmath:`-1`
+     - :solmath:`1`
+     - :solmath:`-2`
+     - 
+   * - :solmath:`-1`
+     - :solmath:`0`
+     - :solmath:`-2`
+     - :solmath:`2`
+     - 
+   * - :solmath:`0`
+     - :solmath:`1`
+     - :solmath:`-3`
+     - :solmath:`4`
+     - 
+   * - :solmath:`1`
+     - :solmath:`2`
+     - :solmath:`-2`
+     - :solmath:`4`
+     - 
+   * - :solmath:`2`
+     - :solmath:`3`
+     - :solmath:`1`
+     - :solmath:`2`
+     - 
 
 .. image:: ../images/u7review06-gpimage06.png
    :scale: 90
@@ -565,6 +565,8 @@ a\) :math:`\dfrac{6x}{x+1} > 4`
 
 :math:`\dfrac{2x-4}{x+1} > 0`
 
+.. rst-class:: solution
+
 x-intercept: :math:`x=2`; restriction: :math:`x \neq -1`
 
 .. list-table::
@@ -573,21 +575,21 @@ x-intercept: :math:`x=2`; restriction: :math:`x \neq -1`
    :header-rows: 1
 
    * - Interval
-     - :math:`x<-1`
-     - :math:`-1<x<2`
-     - :math:`x>2`
+     - :solmath:`x<-1`
+     - :solmath:`-1<x<2`
+     - :solmath:`x>2`
    * - :math:`x-2`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - :math:`x+1`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - overall
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
 
 .. rst-class:: solution
 
@@ -609,6 +611,8 @@ b\) :math:`\dfrac{1}{2x+10} \geq \dfrac{1}{x+3}`
 
 :math:`\dfrac{-x-7}{(2x+10)(x+3)} \geq 0`
 
+.. rst-class:: solution
+
 x-intercept: :math:`x=-7`; restrictions: :math:`x \neq -5,-3`
 
 .. list-table::
@@ -617,30 +621,30 @@ x-intercept: :math:`x=-7`; restrictions: :math:`x \neq -5,-3`
    :header-rows: 1
 
    * - Interval
-     - :math:`x<-7`
-     - :math:`-7<x<-5`
-     - :math:`-5<x<-3`
-     - :math:`x>-3`
+     - :solmath:`x<-7`
+     - :solmath:`-7<x<-5`
+     - :solmath:`-5<x<-3`
+     - :solmath:`x>-3`
    * - :math:`-x-7`
-     - :math:`+`
-     - :math:`-`
-     - :math:`-`
-     - :math:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
    * - :math:`2x+10`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x+3`
-     - :math:`-`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - overall
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
-     - :math:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
 
 .. rst-class:: solution
 
@@ -662,6 +666,8 @@ c\) :math:`\dfrac{2x-3}{x+5} \geq \dfrac{2x+7}{x-3}`
 
 :math:`\dfrac{-26(x+1)}{(x+5)(x-3)} \geq 0`
 
+.. rst-class:: solution
+
 x-intercept: :math:`x=-1`; restrictions: :math:`x \neq -5,3`
 
 .. list-table::
@@ -670,30 +676,30 @@ x-intercept: :math:`x=-1`; restrictions: :math:`x \neq -5,3`
    :header-rows: 1
 
    * - Interval
-     - :math:`x<-5`
-     - :math:`-5<x<-1`
-     - :math:`-1<x<3`
-     - :math:`x>3`
+     - :solmath:`x<-5`
+     - :solmath:`-5<x<-1`
+     - :solmath:`-1<x<3`
+     - :solmath:`x>3`
    * - :math:`x+1`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x+5`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x-3`
-     - :math:`-`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - overall
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
-     - :math:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
 
 .. rst-class:: solution
 
@@ -711,6 +717,8 @@ d\) :math:`\dfrac{7}{x-3} \geq \dfrac{2}{x+4}`
 
 :math:`\dfrac{5x+34}{(x-3)(x+4)} \geq 0`
 
+.. rst-class:: solution
+
 x-intercept: :math:`x=-6.8`; restrictions: :math:`x \neq -4,3`
 
 .. list-table::
@@ -719,30 +727,30 @@ x-intercept: :math:`x=-6.8`; restrictions: :math:`x \neq -4,3`
    :header-rows: 1
 
    * - Interval
-     - :math:`x<-6.8`
-     - :math:`-6.8<x<-4`
-     - :math:`-4<x<3`
-     - :math:`x>3`
+     - :solmath:`x<-6.8`
+     - :solmath:`-6.8<x<-4`
+     - :solmath:`-4<x<3`
+     - :solmath:`x>3`
    * - :math:`5x+34`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x-3`
-     - :math:`-`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - :math:`x+4`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - overall
-     - :math:`-`
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
 
 .. rst-class:: solution
 
@@ -756,6 +764,8 @@ e\) :math:`\dfrac{x^2-x-12}{x-1} < 0`
 
 :math:`\dfrac{(x-4)(x+3)}{x-1} < 0`
 
+.. rst-class:: solution
+
 x-intercepts: :math:`x=-3,4`; restriction: :math:`x \neq 1`
 
 .. list-table::
@@ -764,30 +774,30 @@ x-intercepts: :math:`x=-3,4`; restriction: :math:`x \neq 1`
    :header-rows: 1
 
    * - Interval
-     - :math:`x<-3`
-     - :math:`-3<x<1`
-     - :math:`1<x<4`
-     - :math:`x>4`
+     - :solmath:`x<-3`
+     - :solmath:`-3<x<1`
+     - :solmath:`1<x<4`
+     - :solmath:`x>4`
    * - :math:`x-4`
-     - :math:`-`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - :math:`x+3`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x-1`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - overall
-     - :math:`-`
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
 
 .. rst-class:: solution
 
@@ -801,6 +811,8 @@ f\) :math:`\dfrac{6x^2-5x+1}{2x+1} < 0`
 
 :math:`\dfrac{(3x-1)(2x-1)}{2x+1} < 0`
 
+.. rst-class:: solution
+
 x-intercepts: :math:`x=\frac{1}{3},\frac{1}{2}`; restriction: :math:`x \neq -\frac{1}{2}`
 
 .. list-table::
@@ -809,30 +821,30 @@ x-intercepts: :math:`x=\frac{1}{3},\frac{1}{2}`; restriction: :math:`x \neq -\fr
    :header-rows: 1
 
    * - Interval
-     - :math:`x<-\frac{1}{2}`
-     - :math:`-\frac{1}{2}<x<\frac{1}{3}`
-     - :math:`\frac{1}{3}<x<\frac{1}{2}`
-     - :math:`x>\frac{1}{2}`
+     - :solmath:`x<-\frac{1}{2}`
+     - :solmath:`-\frac{1}{2}<x<\frac{1}{3}`
+     - :solmath:`\frac{1}{3}<x<\frac{1}{2}`
+     - :solmath:`x>\frac{1}{2}`
    * - :math:`3x-1`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`2x-1`
-     - :math:`-`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
    * - :math:`2x+1`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
    * - overall
-     - :math:`-`
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
 
 .. rst-class:: solution
 
@@ -859,6 +871,8 @@ g\) :math:`\dfrac{2x-10}{x} > x-5`
 
 :math:`\dfrac{-(x-5)(x-2)}{x} > 0`
 
+.. rst-class:: solution
+
 x-intercepts: :math:`x=2,5`; restriction: :math:`x \neq 0`
 
 .. list-table::
@@ -867,30 +881,30 @@ x-intercepts: :math:`x=2,5`; restriction: :math:`x \neq 0`
    :header-rows: 1
 
    * - Interval
-     - :math:`x<0`
-     - :math:`0<x<2`
-     - :math:`2<x<5`
-     - :math:`x>5`
+     - :solmath:`x<0`
+     - :solmath:`0<x<2`
+     - :solmath:`2<x<5`
+     - :solmath:`x>5`
    * - :math:`-(x-5)`
-     - :math:`+`
-     - :math:`+`
-     - :math:`+`
-     - :math:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`-`
    * - :math:`x-2`
-     - :math:`-`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
    * - :math:`x`
-     - :math:`-`
-     - :math:`+`
-     - :math:`+`
-     - :math:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`+`
+     - :sol:`+`
    * - overall
-     - :math:`+`
-     - :math:`-`
-     - :math:`+`
-     - :math:`-`
+     - :sol:`+`
+     - :sol:`-`
+     - :sol:`+`
+     - :sol:`-`
 
 .. rst-class:: solution
 

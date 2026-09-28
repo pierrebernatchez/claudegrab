@@ -46,27 +46,27 @@ a\) :math:`f(x) = \dfrac{1}{x-1}`
    * - :math:`x`
      - :math:`y = x-1`
      - :math:`f(x) = \frac{1}{x-1}`
-   * - :math:`-2`
-     - :math:`-3`
-     - :math:`-0.33`
-   * - :math:`-1`
-     - :math:`-2`
-     - :math:`-0.5`
-   * - :math:`0`
-     - :math:`-1`
-     - :math:`-1`
-   * - :math:`1`
-     - :math:`0`
-     - undefined
-   * - :math:`2`
-     - :math:`1`
-     - :math:`1`
-   * - :math:`3`
-     - :math:`2`
-     - :math:`0.5`
-   * - :math:`4`
-     - :math:`3`
-     - :math:`0.33`
+   * - :solmath:`-2`
+     - :solmath:`-3`
+     - :solmath:`-0.33`
+   * - :solmath:`-1`
+     - :solmath:`-2`
+     - :solmath:`-0.5`
+   * - :solmath:`0`
+     - :solmath:`-1`
+     - :solmath:`-1`
+   * - :solmath:`1`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`2`
+     - :solmath:`1`
+     - :solmath:`1`
+   * - :solmath:`3`
+     - :solmath:`2`
+     - :solmath:`0.5`
+   * - :solmath:`4`
+     - :solmath:`3`
+     - :solmath:`0.33`
 
 .. image:: ../images/u7worksheet01-gpimage01.png
    :scale: 90
@@ -88,27 +88,27 @@ b\) :math:`g(x) = -\dfrac{2}{x+4}`
    * - :math:`x`
      - :math:`y = x+4`
      - :math:`g(x) = -\frac{2}{x+4}`
-   * - :math:`-7`
-     - :math:`-3`
-     - :math:`0.67`
-   * - :math:`-6`
-     - :math:`-2`
-     - :math:`1`
-   * - :math:`-5`
-     - :math:`-1`
-     - :math:`2`
-   * - :math:`-4`
-     - :math:`0`
-     - undefined
-   * - :math:`-3`
-     - :math:`1`
-     - :math:`-2`
-   * - :math:`-2`
-     - :math:`2`
-     - :math:`-1`
-   * - :math:`-1`
-     - :math:`3`
-     - :math:`-0.67`
+   * - :solmath:`-7`
+     - :solmath:`-3`
+     - :solmath:`0.67`
+   * - :solmath:`-6`
+     - :solmath:`-2`
+     - :solmath:`1`
+   * - :solmath:`-5`
+     - :solmath:`-1`
+     - :solmath:`2`
+   * - :solmath:`-4`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`-3`
+     - :solmath:`1`
+     - :solmath:`-2`
+   * - :solmath:`-2`
+     - :solmath:`2`
+     - :solmath:`-1`
+   * - :solmath:`-1`
+     - :solmath:`3`
+     - :solmath:`-0.67`
 
 .. image:: ../images/u7worksheet01-gpimage02.png
    :scale: 90
@@ -131,27 +131,27 @@ and :math:`x = -3`
    * - :math:`x`
      - :math:`y = x^2-9`
      - :math:`h(x) = \frac{1}{x^2-9}`
-   * - :math:`-4`
-     - :math:`7`
-     - :math:`0.14`
-   * - :math:`-3`
-     - :math:`0`
-     - undefined
-   * - :math:`-1`
-     - :math:`-8`
-     - :math:`-0.125`
-   * - :math:`0`
-     - :math:`-9`
-     - :math:`-0.11`
-   * - :math:`1`
-     - :math:`-8`
-     - :math:`-0.125`
-   * - :math:`3`
-     - :math:`0`
-     - undefined
-   * - :math:`4`
-     - :math:`7`
-     - :math:`0.14`
+   * - :solmath:`-4`
+     - :solmath:`7`
+     - :solmath:`0.14`
+   * - :solmath:`-3`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`-1`
+     - :solmath:`-8`
+     - :solmath:`-0.125`
+   * - :solmath:`0`
+     - :solmath:`-9`
+     - :solmath:`-0.11`
+   * - :solmath:`1`
+     - :solmath:`-8`
+     - :solmath:`-0.125`
+   * - :solmath:`3`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`4`
+     - :solmath:`7`
+     - :solmath:`0.14`
 
 .. image:: ../images/u7worksheet01-gpimage03.png
    :scale: 90
@@ -175,27 +175,27 @@ d\) :math:`j(x) = \dfrac{1}{x^2-2x-15}`
    * - :math:`x`
      - :math:`y = x^2-2x-15`
      - :math:`j(x) = \frac{1}{x^2-2x-15}`
-   * - :math:`-4`
-     - :math:`9`
-     - :math:`0.11`
-   * - :math:`-3`
-     - :math:`0`
-     - undefined
-   * - :math:`0`
-     - :math:`-15`
-     - :math:`-0.07`
-   * - :math:`1`
-     - :math:`-16`
-     - :math:`-0.06`
-   * - :math:`2`
-     - :math:`-15`
-     - :math:`-0.07`
-   * - :math:`5`
-     - :math:`0`
-     - undefined
-   * - :math:`6`
-     - :math:`9`
-     - :math:`0.11`
+   * - :solmath:`-4`
+     - :solmath:`9`
+     - :solmath:`0.11`
+   * - :solmath:`-3`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`0`
+     - :solmath:`-15`
+     - :solmath:`-0.07`
+   * - :solmath:`1`
+     - :solmath:`-16`
+     - :solmath:`-0.06`
+   * - :solmath:`2`
+     - :solmath:`-15`
+     - :solmath:`-0.07`
+   * - :solmath:`5`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`6`
+     - :solmath:`9`
+     - :solmath:`0.11`
 
 .. image:: ../images/u7worksheet01-gpimage04.png
    :scale: 90
@@ -218,27 +218,27 @@ any real :math:`x`, :math:`VA:` none. :math:`HA: y = 0`
    * - :math:`x`
      - :math:`y = x^2+2`
      - :math:`k(x) = \frac{1}{x^2+2}`
-   * - :math:`-3`
-     - :math:`11`
-     - :math:`0.1`
-   * - :math:`-2`
-     - :math:`6`
-     - :math:`0.17`
-   * - :math:`-1`
-     - :math:`3`
-     - :math:`0.33`
-   * - :math:`0`
-     - :math:`2`
-     - :math:`0.5`
-   * - :math:`1`
-     - :math:`3`
-     - :math:`0.33`
-   * - :math:`2`
-     - :math:`6`
-     - :math:`0.17`
-   * - :math:`3`
-     - :math:`11`
-     - :math:`0.1`
+   * - :solmath:`-3`
+     - :solmath:`11`
+     - :solmath:`0.1`
+   * - :solmath:`-2`
+     - :solmath:`6`
+     - :solmath:`0.17`
+   * - :solmath:`-1`
+     - :solmath:`3`
+     - :solmath:`0.33`
+   * - :solmath:`0`
+     - :solmath:`2`
+     - :solmath:`0.5`
+   * - :solmath:`1`
+     - :solmath:`3`
+     - :solmath:`0.33`
+   * - :solmath:`2`
+     - :solmath:`6`
+     - :solmath:`0.17`
+   * - :solmath:`3`
+     - :solmath:`11`
+     - :solmath:`0.1`
 
 .. image:: ../images/u7worksheet01-gpimage05.png
    :scale: 90
@@ -262,27 +262,27 @@ f\) :math:`m(x) = \dfrac{4}{x^2+x-6}`
    * - :math:`x`
      - :math:`y = x^2+x-6`
      - :math:`m(x) = \frac{4}{x^2+x-6}`
-   * - :math:`-4`
-     - :math:`6`
-     - :math:`0.67`
-   * - :math:`-3`
-     - :math:`0`
-     - undefined
-   * - :math:`-1`
-     - :math:`-6`
-     - :math:`-0.67`
-   * - :math:`-0.5`
-     - :math:`-6.25`
-     - :math:`-0.64`
-   * - :math:`0`
-     - :math:`-6`
-     - :math:`-0.67`
-   * - :math:`2`
-     - :math:`0`
-     - undefined
-   * - :math:`3`
-     - :math:`6`
-     - :math:`0.67`
+   * - :solmath:`-4`
+     - :solmath:`6`
+     - :solmath:`0.67`
+   * - :solmath:`-3`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`-1`
+     - :solmath:`-6`
+     - :solmath:`-0.67`
+   * - :solmath:`-0.5`
+     - :solmath:`-6.25`
+     - :solmath:`-0.64`
+   * - :solmath:`0`
+     - :solmath:`-6`
+     - :solmath:`-0.67`
+   * - :solmath:`2`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`3`
+     - :solmath:`6`
+     - :solmath:`0.67`
 
 .. image:: ../images/u7worksheet01-gpimage06.png
    :scale: 90
@@ -306,27 +306,27 @@ g\) :math:`n(x) = -\dfrac{1}{4x^2-4x-3}`
    * - :math:`x`
      - :math:`y = 4x^2-4x-3`
      - :math:`n(x) = -\frac{1}{4x^2-4x-3}`
-   * - :math:`-1`
-     - :math:`5`
-     - :math:`-0.2`
-   * - :math:`-0.5`
-     - :math:`0`
-     - undefined
-   * - :math:`0`
-     - :math:`-3`
-     - :math:`0.33`
-   * - :math:`0.5`
-     - :math:`-4`
-     - :math:`0.25`
-   * - :math:`1`
-     - :math:`-3`
-     - :math:`0.33`
-   * - :math:`1.5`
-     - :math:`0`
-     - undefined
-   * - :math:`2`
-     - :math:`5`
-     - :math:`-0.2`
+   * - :solmath:`-1`
+     - :solmath:`5`
+     - :solmath:`-0.2`
+   * - :solmath:`-0.5`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`0`
+     - :solmath:`-3`
+     - :solmath:`0.33`
+   * - :solmath:`0.5`
+     - :solmath:`-4`
+     - :solmath:`0.25`
+   * - :solmath:`1`
+     - :solmath:`-3`
+     - :solmath:`0.33`
+   * - :solmath:`1.5`
+     - :solmath:`0`
+     - :sol:`undefined`
+   * - :solmath:`2`
+     - :solmath:`5`
+     - :solmath:`-0.2`
 
 .. image:: ../images/u7worksheet01-gpimage07.png
    :scale: 90
@@ -350,27 +350,27 @@ so :math:`VA:` none. :math:`HA: y = 0`
    * - :math:`x`
      - :math:`y = 2x^2-8x+9`
      - :math:`p(x) = \frac{4}{2x^2-8x+9}`
-   * - :math:`-1`
-     - :math:`19`
-     - :math:`0.21`
-   * - :math:`0`
-     - :math:`9`
-     - :math:`0.44`
-   * - :math:`1`
-     - :math:`3`
-     - :math:`1.33`
-   * - :math:`2`
-     - :math:`1`
-     - :math:`4`
-   * - :math:`3`
-     - :math:`3`
-     - :math:`1.33`
-   * - :math:`4`
-     - :math:`9`
-     - :math:`0.44`
-   * - :math:`5`
-     - :math:`19`
-     - :math:`0.21`
+   * - :solmath:`-1`
+     - :solmath:`19`
+     - :solmath:`0.21`
+   * - :solmath:`0`
+     - :solmath:`9`
+     - :solmath:`0.44`
+   * - :solmath:`1`
+     - :solmath:`3`
+     - :solmath:`1.33`
+   * - :solmath:`2`
+     - :solmath:`1`
+     - :solmath:`4`
+   * - :solmath:`3`
+     - :solmath:`3`
+     - :solmath:`1.33`
+   * - :solmath:`4`
+     - :solmath:`9`
+     - :solmath:`0.44`
+   * - :solmath:`5`
+     - :solmath:`19`
+     - :solmath:`0.21`
 
 .. image:: ../images/u7worksheet01-gpimage08.png
    :scale: 90
