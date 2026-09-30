@@ -1,4 +1,4 @@
-MHF4U Full Course Practice Final Exam with solutions
+Grade 12 Advanced Functions Full Course Practice Final Exam with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ MHF4U Full Course Practice Final Exam with solutions
 :slug: fcexam02-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: MHF4U Full Course Practice Final Exam with solutions
+:summary: Grade 12 Advanced Functions Full Course Practice Final Exam with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -24,8 +24,9 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 .. rst-class:: solution
 
 **Note:** No answer key was provided with the source exam. Every
-solution in this document was independently derived and verified by
-Annie Bernatchez.
+solution in this document was independently derived and verified by an
+artificial intelligence service named Claude (Sonnet 5) offered by
+`www.anthropic.com <https://www.anthropic.com/>`_
 
 Advanced Functions (MHF4U) Final Exam |---| Solutions
 ================================================================================

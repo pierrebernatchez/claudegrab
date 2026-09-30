@@ -1,4 +1,4 @@
-Examen final blanc du cours complet MHF4U avec solutions
+Examen final blanc du cours complet de fonctions avancées de douzième année avec solutions
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Examen final blanc du cours complet MHF4U avec solutions
 :slug: fcexam02-solutions
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Examen final blanc du cours complet MHF4U avec solutions
+:summary: Examen final blanc du cours complet de fonctions avancées de douzième année avec solutions
 :fcopyright: Droits d’auteur © 2026 Annie Bernatchez—Tous droits réservés.
 
 .. |copy| unicode:: 0xA9
@@ -25,7 +25,8 @@ Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`
 
 **Remarque :** Aucun corrigé n'a été fourni avec l'examen source.
 Chaque solution dans ce document a été dérivée et vérifiée de manière
-indépendante par Annie Bernatchez.
+indépendante par un service d'intelligence artificielle nommé Claude
+(Sonnet 5) offert par `www.anthropic.com <https://www.anthropic.com/>`_
 
 Fonctions avancées (MHF4U) — Examen final |---| Solutions
 ================================================================================

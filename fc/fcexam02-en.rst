@@ -1,4 +1,4 @@
-MHF4U Full Course Practice Final Exam
+Grade 12 Advanced Functions Full Course Practice Final Exam
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ MHF4U Full Course Practice Final Exam
 :slug: fcexam02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: MHF4U Full Course Practice Final Exam
+:summary: Grade 12 Advanced Functions Full Course Practice Final Exam
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |nbsp| unicode:: 0xA0

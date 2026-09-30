@@ -1,4 +1,4 @@
-Leçon de révision de l'examen MHF4U avec solutions
+Leçon de révision de l'examen de fonctions avancées de douzième année avec solutions
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Leçon de révision de l'examen MHF4U avec solutions
 :slug: fcreview01-solutions
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Leçon de révision de l'examen MHF4U avec solutions
+:summary: Leçon de révision de l'examen de fonctions avancées de douzième année avec solutions
 :fcopyright: Droits d’auteur © 2026 Annie Bernatchez—Tous droits réservés.
 
 .. |copy| unicode:: 0xA9

@@ -1,4 +1,4 @@
-MHF4U Exam Review Lesson with solutions
+Grade 12 Advanced Functions Exam Review Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ MHF4U Exam Review Lesson with solutions
 :slug: fcreview01-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: MHF4U Exam Review Lesson with solutions
+:summary: Grade 12 Advanced Functions Exam Review Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

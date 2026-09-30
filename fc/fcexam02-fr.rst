@@ -1,4 +1,4 @@
-Examen final blanc du cours complet MHF4U
+Examen final blanc du cours complet de fonctions avancées de douzième année
 ################################################################################
 
 :lang: fr
@@ -7,7 +7,7 @@ Examen final blanc du cours complet MHF4U
 :slug: fcexam02
 :category: mathématiques
 :authors: Annie Bernatchez
-:summary: Examen final blanc du cours complet MHF4U
+:summary: Examen final blanc du cours complet de fonctions avancées de douzième année
 :fcopyright: Droits d’auteur © 2026 Annie Bernatchez—Tous droits réservés.
 
 .. |nbsp| unicode:: 0xA0
