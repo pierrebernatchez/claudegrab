@@ -97,10 +97,13 @@ directory) to regenerate every figure in one pass. This only needs to be
 re-run after a `.gp` script has actually changed; it's harmless to run
 unconditionally, just slower than it needs to be if nothing changed.
 
-PDF rendering goes through `rinoh` outside this repo. For quick
-spot-checks of a single file without the full external pipeline, use
-`singletopdf <filename.rst>` from within `lessons/` — it renders
-straight to `lessons-pdfs/`. To re-render everything at once, run
+PDF rendering depends on a separate GitHub project, `rinohbox`
+(`pierrebernatchez/rinohbox`) — it is not part of this repo and is not
+vendored here. Its own source lives at `~/repos/rinohbox`; the
+installed command this repo's scripts actually call is
+`~/.rinohbox/bashsources/single2pdf`. For quick spot-checks of a
+single file, run `single2pdf <filename.rst>` from within `lessons/` —
+it renders straight to `lessons-pdfs/`. To re-render everything at once, run
 `lessons/renderall-en.sh` or `lessons/renderall-fr.sh` (from anywhere —
 each `cd`s to its own directory first) to render every `-en.rst` or
 `-fr.rst` file in `lessons/` in one pass.

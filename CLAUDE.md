@@ -47,6 +47,17 @@ Each unit gets its own set of top-level directories:
   figures that are typeset math rather than a `gnuplot` plot, needed
   starting with unit2's content. See "Tableau figures" below; not every
   unit necessarily needs one (unit1 doesn't have one).
+- `fc/` / `fc-gp/` / `fc-media/` / `fc-pdfs/` / `fc-tableaux/` — same
+  five-directory shape as a `uN` unit, but `fc` is a **group prefix for
+  content that spans the whole course**, not one unit's material. Holds
+  the two course-wide, cross-unit documents built after all seven units
+  were done: `fcreview01` (a full-course exam review, one section per
+  unit) and `fcexam02` (a full-course practice final exam), each with
+  the usual blank + solutions, English + French set of `.rst` files.
+  Everything else about these directories (naming convention,
+  `gpimage`/`tabimage` split, `images` symlink handling, gitignore
+  pattern) works exactly like a `uN` unit's directories — `fc` is just
+  the prefix instead of a unit number.
 - `lessons/` — the `.rst` source documents for both lessons and
   worksheets (student version with fill-in blanks, and the solutions
   version), rendered externally (e.g. to PDF) outside this repo.
@@ -93,18 +104,23 @@ forgetting to re-point this symlink before switching units fails loudly
 (Unit1 originally wrote figures into `images/` directly with no separate
 `lessons-media/`; retrofitted on 2026-09-07 to match this scheme.)
 
-As of 2026-09-27, units 1-6 are fully complete (English and French,
-lessons/worksheets plus each unit's cumulative review) and committed:
-unit1 (5 lessons, unprefixed), unit2 (6 lessons + `u2review07`), unit3
-(8 lessons + `u3review09`), unit4 (5 lessons + `u4review06`), unit5 (7
-lessons + `u5review08`), unit6 (4 lessons + `u6review05`). Unit7 (5
-lessons + `u7review06`, rational/combined functions) has its English
-content complete, staged, committed, and pushed — awaiting the user's
-review pass before French translation starts. When starting a future
-unit, create its `uNlessons/`, `uNlessons-gp/`, `uNlessons-media/`,
-`uNlessons-pdfs/` directories fresh at the repo root and apply the `uN`
-prefix to every
-file inside them from the start.
+As of 2026-09-30, **the full grade 12 Advanced Functions course
+content is complete**, in both English and French: all seven units
+(unit1 5 lessons unprefixed, unit2 6 lessons + `u2review07`, unit3 8
+lessons + `u3review09`, unit4 5 lessons + `u4review06`, unit5 7 lessons
++ `u5review08`, unit6 4 lessons + `u6review05`, unit7 5 lessons +
+`u7review06`, rational/combined functions), plus the two course-wide
+`fc/`-prefixed documents built after all seven units were done
+(`fcreview01`, a full-course exam review, and `fcexam02`, a full-course
+practice final exam — see "Directory layout" above). Every one of these
+has a blank + solutions version in both languages, staged (some also
+committed/pushed; check `git log`/`git status` for the current state
+of any given file rather than trusting this paragraph's exact
+commit/push status, which will drift). Should a future unit or
+course-wide document be added, follow the same pattern: create its
+`uNlessons/`, `uNlessons-gp/`, `uNlessons-media/`, `uNlessons-pdfs/` (or
+`fc`-style) directories fresh at the repo root and apply the matching
+prefix to every file inside them from the start.
 
 ## Naming convention
 
@@ -294,6 +310,22 @@ renumbering when spot-checking a rendered PDF, means something needs escaping.
 ## Environment
 
 `gnuplot` is installed system-wide (`gnuplot --version` to check).
+
+**PDF rendering is an external dependency, not part of this repo.**
+Every `.rst` → PDF render in this project (`single2pdf`, `setstage`,
+and every `renderall.sh`/`render-all.sh` script that calls them) goes
+through a separate GitHub project called `rinohbox`
+(`pierrebernatchez/rinohbox`) — this repo only consumes it, it doesn't
+vendor or version it. Two locations matter: `~/repos/rinohbox` is the
+pipeline's own real git repo, where its source is edited (e.g.
+`rinohstage.py` for staging/conf.py generation,
+`rinoh_article_template.py` for the actual rinoh `StyleSheet`); `~/.rinohbox/
+bashsources/single2pdf` is the installed runtime command this repo's
+scripts actually invoke. If a rendering bug's root cause turns out to
+be in the pipeline itself (a rinoh stylesheet/template issue) rather
+than in this repo's `.rst`/`.gp` content, `~/repos/rinohbox` is where
+to look and fix it — it's real git-tracked infrastructure, not a black
+box.
 
 For any figure built from a constructed/schematic expression rather than a
 plain transcription of the source's equation, sample the function across
