@@ -1,5 +1,0 @@
-#!/bin/bash
-### fcexam02-tabimage01.tableau
-### Q19: long division (6x^3+x^2-13x+5) / (2x+1). Solutions-only.
-../tableau2png.py poly --dividend="6,1,-13,5" --divisor="2,1" \
-  --out ../fc-media/fcexam02-tabimage01.png --solution

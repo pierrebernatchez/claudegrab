@@ -1,5 +1,0 @@
-#!/bin/bash
-### fcreview01-tabimage15.tableau
-### Q12b: synthetic division (2x^3 + 0x^2 - 4x + 8) / (x - 2), b=2. Solutions-only.
-../tableau2png.py synthetic --dividend=2,0,-4,8 --b=2 --title --label-terms \
-  --out ../fc-media/fcreview01-tabimage15.png --solution

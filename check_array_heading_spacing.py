@@ -33,9 +33,9 @@ so a human who finds it later understands why it's there.
 Usage:
 
     python3 check_array_heading_spacing.py                  # check mode, whole repo
-    python3 check_array_heading_spacing.py u3lessons/*.rst   # check mode, specific files
+    python3 check_array_heading_spacing.py g12-advanced-functions/u3lessons/*.rst   # check mode, specific files
     python3 check_array_heading_spacing.py --fix             # apply the spacer fix, whole repo
-    python3 check_array_heading_spacing.py --fix u3lessons/*.rst
+    python3 check_array_heading_spacing.py --fix g12-advanced-functions/u3lessons/*.rst
 
 Exit status: 0 if nothing flagged (or --fix applied cleanly), 1 if
 --check mode found any risky adjacency.
@@ -108,7 +108,7 @@ def main(argv=None):
                                       formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('paths', nargs='*',
                          help='files or globs to check (default: every .rst under '
-                              '*lessons*/ directories in the repo)')
+                              '*lessons*/ directories anywhere in the repo)')
     parser.add_argument('--fix', action='store_true',
                          help='insert the spacer at each flagged location instead of just reporting')
     args = parser.parse_args(argv)
@@ -118,7 +118,7 @@ def main(argv=None):
         for p in args.paths:
             files.extend(glob.glob(p))
     else:
-        files = sorted(glob.glob('*lessons*/*.rst'))
+        files = sorted(glob.glob('**/*lessons*/*.rst', recursive=True))
 
     found_any = False
     for path in files:

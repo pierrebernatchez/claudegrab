@@ -1,0 +1,5 @@
+#!/bin/bash
+### fcreview01-tabimage11.tableau
+### Q10: long division (3x^3 - x^2 + 0x - 1) / (x + 2). Solutions-only.
+../../tableau2png.py poly --dividend="3,-1,0,-1" --divisor="1,2" \
+  --out ../fc-media/fcreview01-tabimage11.png --solution

@@ -1,5 +1,0 @@
-#!/bin/bash
-### fcreview01-tabimage19.tableau
-### Q17d: synthetic division confirming x+1 is a factor of h(x) = x^3-x^2-10x-8, b=-1. Solutions-only.
-../tableau2png.py synthetic --dividend=1,-1,-10,-8 --b=-1 --title --label-terms \
-  --out ../fc-media/fcreview01-tabimage19.png --solution

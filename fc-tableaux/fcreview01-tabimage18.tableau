@@ -1,5 +1,0 @@
-#!/bin/bash
-### fcreview01-tabimage18.tableau
-### Q17c: synthetic division confirming x-2 is a factor of g(x) = x^4-29x^2+100, b=2. Solutions-only.
-../tableau2png.py synthetic --dividend=1,0,-29,0,100 --b=2 --title --label-terms \
-  --out ../fc-media/fcreview01-tabimage18.png --solution

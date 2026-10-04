@@ -1,0 +1,6 @@
+#!/bin/bash
+### fcexam02-tabimage04.tableau
+### Q22: synthetic division confirming x-2 is a factor of
+### 2x^3+5x^2-14x-8, b=2. Solutions-only.
+../../tableau2png.py synthetic --dividend=2,5,-14,-8 --b=2 --title --label-terms \
+  --out ../fc-media/fcexam02-tabimage04.png --solution

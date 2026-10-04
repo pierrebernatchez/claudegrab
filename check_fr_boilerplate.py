@@ -36,9 +36,9 @@ two separate scripts.
 Usage:
 
     python3 check_fr_boilerplate.py                  # check mode, whole repo
-    python3 check_fr_boilerplate.py u3lessons/*-fr.rst # check mode, specific files
+    python3 check_fr_boilerplate.py g12-advanced-functions/u3lessons/*-fr.rst # check mode, specific files
     python3 check_fr_boilerplate.py --fix             # apply fixes, whole repo
-    python3 check_fr_boilerplate.py --fix u3lessons/*-fr.rst
+    python3 check_fr_boilerplate.py --fix g12-advanced-functions/u3lessons/*-fr.rst
 
 Exit status: 0 if nothing flagged (or --fix applied cleanly), 1 if
 check mode found any mismatch.
@@ -148,7 +148,7 @@ def find_slug_mismatch(fr_text, fr_path):
 
 
 def default_files():
-    return sorted(glob.glob("*lessons*/*-fr.rst"))
+    return sorted(glob.glob("**/*lessons*/*-fr.rst", recursive=True))
 
 
 def main(argv=None):
@@ -156,7 +156,7 @@ def main(argv=None):
                                       formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("paths", nargs="*",
                          help="files or globs to check (default: every *-fr.rst under "
-                              "*lessons*/ directories in the repo)")
+                              "*lessons*/ directories anywhere in the repo)")
     parser.add_argument("--fix", action="store_true",
                          help="rewrite mismatched lines in place instead of just reporting")
     args = parser.parse_args(argv)

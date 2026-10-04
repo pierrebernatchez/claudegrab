@@ -12,9 +12,22 @@ This file is the practical "how do I do the next thing" guide. For the
 reasoning behind these choices, and a record of what's been tried and
 reverted, see `CLAUDE.md`.
 
+## Course layer
+
+The repo holds more than one course. Each course gets its own top-level
+directory, `g12-<course-slug>/` (e.g. `g12-advanced-functions/`, with
+`g12-calculus-and-vectors/` starting alongside it) — everything in
+"Layout" below lives *inside* one of those, not at the true repo root.
+Shared tools/templates (`divtableau.py`, `tableau2png.py`, the
+`check_*.py` scripts, `example-en.rst`/`example-fr.rst`, this file,
+`CLAUDE.md`, etc.) stay at the true repo root and apply to every course.
+See CLAUDE.md's "Course layer" section for the full reasoning.
+
 ## Layout
 
-Everything lives flat at the repo root, one set of directories per unit:
+Everything for one course lives flat inside that course's own directory,
+one set of directories per unit (the examples below use
+`g12-advanced-functions/` as the concrete course):
 
 - `lessons/` — the `.rst` files (lesson + worksheet, each with a
   solutions variant, each in English and French).
@@ -74,16 +87,18 @@ Always in this order — don't skip ahead or combine steps:
 ## Rendering a figure
 
 ```
-cd lessons-gp && gnuplot lessonNN-imageMM.gp
+cd g12-advanced-functions/lessons-gp && gnuplot lessonNN-imageMM.gp
 ```
 
 This writes into `../lessons-media/`. Every `.rst` file's `image::`
 directive instead references `../images/lessonNN-imageMM.png` — a fixed
-path that never changes per unit. `images` is a local symlink you point
-at whichever unit's real media directory you're currently working on;
-it's not committed to git, so set it before rendering/reviewing:
+path that never changes per unit. `images` is a local symlink, created
+*inside the course directory* you're working in, pointed at whichever
+unit's real media directory you're currently working on; it's not
+committed to git, so set it before rendering/reviewing:
 
 ```
+cd g12-advanced-functions
 ln -sfn lessons-media images      # working on unit1
 ln -sfn u2lessons-media images    # working on unit2
 ```
@@ -110,7 +125,7 @@ each `cd`s to its own directory first) to render every `-en.rst` or
 
 ## Before calling a document done
 
-- `python3 -c "from docutils.core import publish_doctree; publish_doctree(open('lessons/lessonNN-en.rst').read())"` — should raise nothing.
+- `python3 -c "from docutils.core import publish_doctree; publish_doctree(open('g12-advanced-functions/lessons/lessonNN-en.rst').read())"` — should raise nothing.
 - Check for any table cell whose entire content is a bare `-` or `+`
   (misread as an empty bullet) or a genuinely empty cell (collapses to
   near-zero row height) — wrap the former in double backticks, fill the

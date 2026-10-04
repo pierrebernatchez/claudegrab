@@ -36,18 +36,23 @@ French translation ever started.
 
 ## The architecture that made this tractable
 
-1. **One flat repo, one prefix per unit.** Every unit gets its own
-   `uNlessons/`, `uNlessons-gp/`, `uNlessons-media/`, `uNlessons-pdfs/`
-   (and, where needed, `uNlessons-tableaux/`) directory set, with every
-   filename inside carrying the same `uN` prefix. No nested
-   per-unit subdirectory tree — see `CLAUDE.md`'s "Directory layout"
-   for why that was tried and reverted (the rendering pipeline
-   flattens everything into one namespace regardless of source
-   directory, so only a filename prefix actually prevents collisions).
-   The course-wide capstone documents at the end used the exact same
-   shape with `fc` as a group prefix instead of a unit number —
-   the pattern generalizes to "a set of documents that aren't scoped
-   to one unit" without any new mechanism.
+1. **One flat repo per course, one prefix per unit.** Every unit gets
+   its own `uNlessons/`, `uNlessons-gp/`, `uNlessons-media/`,
+   `uNlessons-pdfs/` (and, where needed, `uNlessons-tableaux/`)
+   directory set, with every filename inside carrying the same `uN`
+   prefix. No nested per-unit subdirectory tree — see `CLAUDE.md`'s
+   "Directory layout" for why that was tried and reverted (the
+   rendering pipeline flattens everything into one namespace
+   regardless of source directory, so only a filename prefix actually
+   prevents collisions). The course-wide capstone documents at the end
+   used the exact same shape with `fc` as a group prefix instead of a
+   unit number — the pattern generalizes to "a set of documents that
+   aren't scoped to one unit" without any new mechanism. When a second
+   course was added to the same repo, this same flat/prefix shape
+   stayed exactly as-is, just moved one level down into that course's
+   own `g12-<course-slug>/` directory (a plain organizational split,
+   not a collision-avoidance one — see point 1 of "Recommendations"
+   below).
 2. **The `.rst` file is the single source of truth.** Figures are
    referenced by a fixed path (`../images/...`, resolved via a
    per-session symlink to whichever unit is currently being worked
@@ -156,15 +161,22 @@ full detail and reasoning for each is in `METHODOLOGY.md`:
 If pointed at a new set of upstream course PDFs (a different subject,
 grade level, or even a different rendering toolchain entirely):
 
-1. **Copy `METHODOLOGY.md` verbatim; rewrite `CLAUDE.md` from
-   scratch.** `METHODOLOGY.md` is written to be subject-agnostic
-   already — the build order, blank-space sizing, collision-avoidance
-   naming rule, and verification discipline all apply regardless of
-   what the course is about. `CLAUDE.md` is this repo's specific
-   facts (directory names, exact tool paths, this course's own status
-   log) and should be rebuilt fresh for the new course rather than
-   edited in place — trying to generalize it defeats the point of the
-   split.
+1. **Same repo, new course directory — don't spin up a new repo.** In
+   practice (2026-10-04, starting a second course, Calculus and
+   Vectors, alongside the completed Advanced Functions course) this
+   project kept one repo and gave each course its own top-level
+   `g12-<course-slug>/` directory holding that course's entire
+   internal structure unchanged (see `CLAUDE.md`'s "Course layer"
+   section). `METHODOLOGY.md` didn't change at all — it was already
+   subject- and course-count-agnostic. `CLAUDE.md` wasn't rebuilt from
+   scratch either; it was extended in place with the course-layer
+   section and had its concrete path examples updated, since it's
+   still one repo's facts, just with more than one course's worth of
+   them now. Only reach for an actually separate repo if the new
+   course needs a different rendering toolchain entirely (a case where
+   sharing `CLAUDE.md`/`METHODOLOGY.md` would actively mislead) —
+   that's the scenario the "rewrite from scratch" advice below is
+   for.
 2. **Reuse the rendering pipeline (`rinohbox`) unchanged.** It has no
    dependency on the course subject; point the new project's tooling
    at the same installed `single2pdf` command rather than building or
@@ -206,7 +218,9 @@ grade level, or even a different rendering toolchain entirely):
   course's specific functions/diagrams.
 - The terminology glossary's actual term list (though the *practice*
   of maintaining one carries over).
-- `CLAUDE.md`'s directory names, unit count, and status log.
+- That course's own section of `CLAUDE.md`'s directory names, unit
+  count, and status log (added alongside, not instead of, any other
+  course's — see "Course layer").
 - Any course-specific markup convention that happened to matter here
   (e.g. the red-text solution-highlighting convention) but wasn't
   forced by the toolchain itself — evaluate whether the new project

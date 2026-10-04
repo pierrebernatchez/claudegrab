@@ -12,8 +12,10 @@ work, this file only restates the actionable "what," not the "why."
 This is not a software application — it's a personal workspace for turning math
 lesson and worksheet PDFs into illustrated `.rst` documents, with each figure
 regenerated as a standalone `gnuplot` script. There is no build system, package
-manifest, linter, or test suite. The repo is meant to hold many lessons over
-time, not just one.
+manifest, linter, or test suite. The repo is meant to hold many courses over
+time, not just one — as of 2026-10-04 it holds a complete grade 12 Advanced
+Functions course and is starting a second, Calculus and Vectors (see "Course
+layer" below).
 
 Course material is organized into units. A unit's lesson count varies —
 don't assume a fixed number (unit1 had 5 lessons, unit2 has 6). Each
@@ -22,14 +24,70 @@ lesson has two paired deliverables: a **lesson** (with its solutions) and a
 each in English and French. See METHODOLOGY.md's "deliverable shape" and
 "build order discipline" sections for why this is bundled the way it is.
 
+## Course layer
+
+Repo-root-level directories split into two kinds: a handful of shared
+tools/templates/docs that apply to every course (listed at the end of this
+section), and one top-level directory per course, named `g12-<course-slug>`
+(`g12` = grade 12; a future non-grade-12 course would use a different grade
+number). Right now there is one: `g12-advanced-functions/`. A second,
+`g12-calculus-and-vectors/`, is being started fresh alongside it, following
+the exact same internal pattern unit1 of Advanced Functions did (its own
+unprefixed `lessons/`/`lessons-gp/`/`lessons-media/`/`lessons-pdfs/` to
+start, `uN`-prefixed directories from its own unit2 onward, its own `fc/`
+group-prefix for course-wide content if/when it needs one, and its own
+`upstream/`).
+
+Each course directory is internally flat, in exactly the shape the rest of
+this file describes — "Directory layout," "Naming convention," "Tableau
+figures," and everything after it are all describing the structure *inside*
+one course directory. Every concrete path shown below uses
+`g12-advanced-functions/` as the worked example; substitute whichever
+course directory you're actually working in.
+
+**Why a course gets a real subdirectory while a unit does not:** the
+unit-level rule (next section) exists because Pelican's eventual HTML
+output flattens every unit's articles into one shared namespace regardless
+of source directory — so nesting by unit buys nothing; only a filename/slug
+prefix actually prevents a collision there. Splitting by *course*, by
+contrast, is a plain filesystem-organization choice for human readability,
+made while it's still genuinely undecided whether the two courses will ever
+publish to the same Pelican site. If that's ever decided and the two
+courses DO end up sharing one Pelican namespace, slug collisions would need
+the same kind of prefix fix `uN` already applies within one course — at that
+point, not before — rather than renaming anything preemptively now.
+
+Two mechanical facts that follow from the extra nesting level, both already
+applied throughout `g12-advanced-functions/`:
+- Every `*-tableaux/*.tableau` script reaches the shared `tableau2png.py`
+  via `../../tableau2png.py` — two levels up (out of its own
+  `uNlessons-tableaux/` directory, then out of the course directory, to the
+  true repo root where the shared tools live). Don't write `../tableau2png.py`
+  in a new course's `.tableau` scripts; that only works one level up from
+  the true repo root.
+- The per-session `images` symlink (see below) is created *inside* the
+  course directory you're working in (e.g. `g12-advanced-functions/images`),
+  not at the true repo root, since that's where the `.rst` files whose
+  `../images/...` reference it actually live.
+
+Shared across every course, and the only things that stay at the true repo
+root: `divtableau.py`, `tableau2png.py`, the `check_*.py` checker scripts,
+`test_divtableau.py`, the `example-en.rst`/`example-fr.rst` templates,
+`instructions-re-attributes.txt`, `review-pair.sh`/`review-trio.sh`,
+`inequality_graph.py`, `sanitize-args-idiom`, and this file along with
+`METHODOLOGY.md`/`README.md`/`REUSE-GUIDE.md`. The checker scripts discover
+files recursively (`**/*lessons*/...`), so they audit every course at once
+with no per-course invocation needed.
+
 ## Directory layout
 
-Course content lives flat at the repo root — **not** nested under a
+Within a course directory, content lives flat — **not** nested under a
 `unitN/` subdirectory (that was tried on 2026-09-06/07 and backed out on
 2026-09-07: Pelican's eventual HTML output flattens every unit into one
 shared namespace regardless of source directory, so directory nesting
 never actually prevented name collisions — only a naming prefix does).
-Each unit gets its own set of top-level directories:
+Each unit gets its own set of top-level directories within the course
+directory:
 
 - `lessons/` / `lessons-gp/` / `lessons-media/` / `lessons-pdfs/` —
   unit1's content (unprefixed; unit1 predates the `uN`-prefix naming
@@ -75,9 +133,9 @@ Each unit gets its own set of top-level directories:
   shared directory and an unprefixed `lesson1.pdf` would otherwise
   collide across units.
 
-Template/reference material that isn't specific to any one unit (e.g.
-`example-en.rst`, `example-fr.rst`, `instructions-re-attributes.txt`)
-stays at the repo root. So do `CLAUDE.md` and `METHODOLOGY.md` themselves.
+Template/reference material and tools that aren't specific to any one
+course stay at the true repo root instead of inside a course directory —
+see "Course layer" above for the full list.
 
 **`images` / `lessons-media` — real directory vs. local symlink:** every
 unit's `.gp` scripts write their figures directly into that unit's own
@@ -86,11 +144,14 @@ for unit2 onward (e.g. `set output '../lessons-media/lesson01-image01.png'`).
 No indirection in the `.gp` scripts themselves. But every `.rst` file's
 `image::` reference stays `../images/<file>.png` regardless of unit (per
 the naming convention below, this path is never supposed to change) —
-since a flat repo can only have one directory literally named `images` at
-a time, whichever unit you're actively rendering/testing needs a local
-`images` symlink pointed at that unit's real media directory, e.g.:
+since a course directory can only have one directory literally named
+`images` at a time, whichever unit you're actively rendering/testing needs
+a local `images` symlink, created *inside the course directory you're
+working in* (e.g. run from within `g12-advanced-functions/`), pointed at
+that unit's real media directory, e.g.:
 
 ```
+cd g12-advanced-functions
 ln -sfn lessons-media images      # working on unit1
 ln -sfn u2lessons-media images    # working on unit2
 ```
@@ -116,11 +177,16 @@ practice final exam — see "Directory layout" above). Every one of these
 has a blank + solutions version in both languages, staged (some also
 committed/pushed; check `git log`/`git status` for the current state
 of any given file rather than trusting this paragraph's exact
-commit/push status, which will drift). Should a future unit or
-course-wide document be added, follow the same pattern: create its
-`uNlessons/`, `uNlessons-gp/`, `uNlessons-media/`, `uNlessons-pdfs/` (or
-`fc`-style) directories fresh at the repo root and apply the matching
-prefix to every file inside them from the start.
+commit/push status, which will drift). On 2026-10-04 this entire course's
+directories (and its own `upstream/`, teacher-feedback notes, and
+historical scratch files) were moved as-is, with no filename changes,
+from the (then-single-course) repo root into `g12-advanced-functions/`,
+to make room for a second course, `g12-calculus-and-vectors/` — see
+"Course layer" above. Should a future unit or course-wide document be
+added to a course, follow the same pattern: create its `uNlessons/`,
+`uNlessons-gp/`, `uNlessons-media/`, `uNlessons-pdfs/` (or `fc`-style)
+directories fresh inside that course's own directory and apply the
+matching prefix to every file inside them from the start.
 
 ## Naming convention
 
@@ -154,10 +220,10 @@ names throughout.
   writes directly into the unit's own real media directory, no
   indirection. The `.rst` file's `image::` directive, by contrast, always
   says `../images/...` regardless of unit, resolved via the `images`
-  symlink described above. It must be invoked with `lessons-gp/` as the
-  working directory:
+  symlink described above. It must be invoked with the course's
+  `lessons-gp/` as the working directory:
   ```
-  cd lessons-gp && gnuplot lessonNN-imageMM.gp
+  cd g12-advanced-functions/lessons-gp && gnuplot lessonNN-imageMM.gp
   ```
 - `lessons-pdfs/lessonNN-en.pdf` /
   `lessons-pdfs/lessonNN-solutions-en.pdf` (and the `worksheetNN`
@@ -203,8 +269,10 @@ the general reasoning behind this second pipeline.
 - `uNlessons-tableaux/uNlessonNN-tabimageMM.tableau` /
   `uNlessons-tableaux/uNworksheetNN-tabimageMM.tableau` — one shell script
   per tableau figure, the same role `lessons-gp/*.gp` plays for `gnuplot`
-  figures: standalone and re-runnable, its only job is invoking
-  `tableau2png.py` with this figure's specific numbers and writing into
+  figures: standalone and re-runnable, its only job is invoking the
+  repo-root `tableau2png.py` (reached via `../../tableau2png.py` — one
+  level out of `uNlessons-tableaux/`, one more out of the course
+  directory) with this figure's specific numbers and writing into
   `uNlessons-media/`. `MM` follows the same reading-order numbering rule as
   `.gp` figures (see "Naming convention" above) — a lesson's figures can
   mix `.gp` and `.tableau` scripts sharing one `MM` sequence, numbered by
@@ -228,12 +296,12 @@ the general reasoning behind this second pipeline.
   `divtableau.py`'s layout math. Run `python3 test_divtableau.py` after any
   change to `divtableau.py`.
 - `check_tableau_solution_flag.py` (repo root) — audits every
-  `*lessons-tableaux/*.tableau` script against how its output PNG is
-  actually referenced across the repo's `.rst` files, and flags any
-  mismatch with the `--solution` convention above (a solutions-only
-  image whose script is missing `--solution`, or a shared image whose
-  script has it and shouldn't). Run with no arguments any time after
-  adding or editing tableau figures; exits non-zero if it finds a
+  `*lessons-tableaux/*.tableau` script, in every course directory, against
+  how its output PNG is actually referenced across the repo's `.rst` files,
+  and flags any mismatch with the `--solution` convention above (a
+  solutions-only image whose script is missing `--solution`, or a shared
+  image whose script has it and shouldn't). Run with no arguments any time
+  after adding or editing tableau figures; exits non-zero if it finds a
   mismatch.
 
 Requires `single2pdf` on `PATH` (or at `~/.rinohbox/bashsources/single2pdf`)
@@ -302,7 +370,7 @@ Full narrative and reasoning for each of these is in METHODOLOGY.md's
 
 Verify any `.rst` file with:
 ```
-python3 -c "from docutils.core import publish_doctree; publish_doctree(open('lessons/lessonNN-en.rst').read())"
+python3 -c "from docutils.core import publish_doctree; publish_doctree(open('g12-advanced-functions/lessons/lessonNN-en.rst').read())"
 ```
 Any `SEVERE`/`Unexpected section title` output, or unexpected enumerator
 renumbering when spot-checking a rendered PDF, means something needs escaping.

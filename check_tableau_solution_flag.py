@@ -38,7 +38,7 @@ MODE_RE = re.compile(r"tableau2png\.py\s+(poly|numeric|synthetic)\b")
 
 
 def find_tableau_scripts():
-    return sorted(Path(p) for p in glob.glob(str(REPO_ROOT / "*tableaux" / "*.tableau")))
+    return sorted(Path(p) for p in glob.glob(str(REPO_ROOT / "**" / "*tableaux" / "*.tableau"), recursive=True))
 
 
 def parse_tableau_script(path):

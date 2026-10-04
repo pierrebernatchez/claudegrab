@@ -1,6 +1,0 @@
-#!/bin/bash
-### fcreview01-tabimage13.tableau
-### Q11b: synthetic division verifying the remainder theorem result for
-### p(x) = x^3 + 3x^2 + 4x + 7 divided by x + 3, b=-3. Solutions-only.
-../tableau2png.py synthetic --dividend=1,3,4,7 --b=-3 --title --label-terms \
-  --out ../fc-media/fcreview01-tabimage13.png --solution

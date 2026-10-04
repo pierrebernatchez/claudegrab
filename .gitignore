@@ -19,10 +19,13 @@ output.rtc
 # fcreview01/fcexam02 (the full-course documents) use an fc- prefix
 # instead of a uN- prefix, so they don't match the *lessons-pdfs/
 # *lessons-media/ patterns above -- covered explicitly here instead.
-fc-pdfs/*.pdf
-fc-pdfs/*.errlog
-fc-pdfs/*.stylelog
-fc-pdfs/output.rtc
+# One depth-agnostic '**/' pattern for everything generated under any
+# fc-pdfs/ directory, rather than enumerating each specific file type
+# (.pdf/.errlog/.stylelog/output.rtc) -- a new generated-file type showing
+# up here shouldn't require another line. The already-tracked
+# fc-pdfs/placeholder.txt is unaffected: gitignore only hides untracked
+# files, never untracks something already committed.
+**/fc-pdfs/*
 dist/
 dist/*
 __pycache__/
@@ -39,5 +42,7 @@ build/*
 # (points at whichever unit's real *lessons-media dir you're working on),
 # never committed. No trailing slash: a trailing-slash pattern only
 # matches real directories, not symlinks, and images is always a symlink.
-/images
+# '**/' (rather than a leading '/') since it now lives one level inside
+# whichever course directory is active (2026-10-04), not the true repo root.
+**/images
 
