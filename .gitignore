@@ -34,7 +34,7 @@ build/*
 # local symlink alias to whichever one is active, see below). Same '*'
 # prefix trick as lessons-pdfs above.
 **/*lessons-media/*.png
-fc-media/*.png
+**/*fc-media/*.png
 # local rendering convenience symlink, recreated per work session
 # (points at whichever unit's real *lessons-media dir you're working on),
 # never committed. No trailing slash: a trailing-slash pattern only
