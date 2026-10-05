@@ -30,13 +30,17 @@ Repo-root-level directories split into two kinds: a handful of shared
 tools/templates/docs that apply to every course (listed at the end of this
 section), and one top-level directory per course, named `g12-<course-slug>`
 (`g12` = grade 12; a future non-grade-12 course would use a different grade
-number). Right now there is one: `g12-advanced-functions/`. A second,
-`g12-calculus-and-vectors/`, is being started fresh alongside it, following
-the exact same internal pattern unit1 of Advanced Functions did (its own
-unprefixed `lessons/`/`lessons-gp/`/`lessons-media/`/`lessons-pdfs/` to
-start, `uN`-prefixed directories from its own unit2 onward, its own `fc/`
-group-prefix for course-wide content if/when it needs one, and its own
-`upstream/`).
+number). Right now there are two: `g12-advanced-functions/` (complete), and
+`g12-calculus-and-vectors/`, scaffolded fresh on 2026-10-04 and awaiting its
+first lesson content. Calculus and Vectors uses `uN`-prefixed directories
+and filenames starting from its own **unit1** (`u1lessons/`,
+`u1lesson01-en.rst`, etc.) — unlike Advanced Functions' unit1, which stayed
+unprefixed only because it predates the `uN` convention and retrofitting it
+wasn't worth the risk (see "Directory layout" below). A new course has no
+such legacy to carry forward, so it prefixes consistently from its very
+first unit. It otherwise follows the exact same internal pattern as
+Advanced Functions: its own `fc/` group-prefix for course-wide content
+if/when it needs one, and its own `upstream/`.
 
 Each course directory is internally flat, in exactly the shape the rest of
 this file describes — "Directory layout," "Naming convention," "Tableau
@@ -87,13 +91,17 @@ Within a course directory, content lives flat — **not** nested under a
 shared namespace regardless of source directory, so directory nesting
 never actually prevented name collisions — only a naming prefix does).
 Each unit gets its own set of top-level directories within the course
-directory:
+directory. The bullets below walk through Advanced Functions' own
+history as the worked example; Calculus and Vectors (and any future
+course) has no unprefixed-unit1 legacy to carry forward, so it uses the
+`uN`-prefixed form (`u1lessons/`, `u1lesson01-en.rst`, ...) starting from
+its own unit1 — see "Course layer" above.
 
 - `lessons/` / `lessons-gp/` / `lessons-media/` / `lessons-pdfs/` —
-  unit1's content (unprefixed; unit1 predates the `uN`-prefix naming
-  convention below and is grandfathered rather than retrofitted for
-  filenames, since retrofitting risks breaking things that already work
-  for no real benefit).
+  Advanced Functions' unit1 content (unprefixed; unit1 predates the
+  `uN`-prefix naming convention below and is grandfathered rather than
+  retrofitted for filenames, since retrofitting risks breaking things
+  that already work for no real benefit).
 - `u2lessons/` / `u2lessons-gp/` / `u2lessons-media/` / `u2lessons-pdfs/`
   — unit2's content, and `u3lessons/` etc. for unit3 onward, following
   the same pattern. **Every unit from unit2 onward uses a `uN` prefix on
