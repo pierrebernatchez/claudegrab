@@ -31,16 +31,21 @@ tools/templates/docs that apply to every course (listed at the end of this
 section), and one top-level directory per course, named `g12-<course-slug>`
 (`g12` = grade 12; a future non-grade-12 course would use a different grade
 number). Right now there are two: `g12-advanced-functions/` (complete), and
-`g12-calculus-and-vectors/`, scaffolded fresh on 2026-10-04 and awaiting its
-first lesson content. Calculus and Vectors uses `uN`-prefixed directories
-and filenames starting from its own **unit1** (`u1lessons/`,
-`u1lesson01-en.rst`, etc.) — unlike Advanced Functions' unit1, which stayed
-unprefixed only because it predates the `uN` convention and retrofitting it
-wasn't worth the risk (see "Directory layout" below). A new course has no
-such legacy to carry forward, so it prefixes consistently from its very
-first unit. It otherwise follows the exact same internal pattern as
-Advanced Functions: its own `fc/` group-prefix for course-wide content
-if/when it needs one, and its own `upstream/`.
+`g12-calculus-and-vectors/`, scaffolded on 2026-10-04 and starting unit1
+transcription on 2026-10-05. Calculus and Vectors uses a **course-tagged**
+`cvN` prefix on every unit's directories and filenames, starting from its
+own **unit1** (`cvu1lessons/`, `cvu1lesson01-en.rst`, `cvu2lessons/` once
+unit2 starts, etc.) — unlike Advanced Functions' unit1, which stayed
+unprefixed only because it predates the plain `uN` convention and
+retrofitting it wasn't worth the risk (see "Directory layout" below). A new
+course has no such legacy to carry forward, so it prefixes every one of its
+units consistently from unit1 onward, with no grandfathering. The `cv` tag
+itself is just this course's own chosen instantiation of the general "each
+course picks its own `uN`-equivalent prefix" rule — it doesn't change that
+general rule, and it doesn't imply retrofitting Advanced Functions' own
+already-complete plain-`uN` files. It otherwise follows the exact same
+internal pattern as Advanced Functions: its own `fc/` group-prefix for
+course-wide content if/when it needs one, and its own `upstream/`.
 
 Each course directory is internally flat, in exactly the shape the rest of
 this file describes — "Directory layout," "Naming convention," "Tableau
@@ -92,10 +97,11 @@ shared namespace regardless of source directory, so directory nesting
 never actually prevented name collisions — only a naming prefix does).
 Each unit gets its own set of top-level directories within the course
 directory. The bullets below walk through Advanced Functions' own
-history as the worked example; Calculus and Vectors (and any future
-course) has no unprefixed-unit1 legacy to carry forward, so it uses the
-`uN`-prefixed form (`u1lessons/`, `u1lesson01-en.rst`, ...) starting from
-its own unit1 — see "Course layer" above.
+history as the worked example; Calculus and Vectors has no
+unprefixed-unit1 legacy to carry forward, so it uses its own `cvN`-prefixed
+form (`cvu1lessons/`, `cvu1lesson01-en.rst`, ...) starting from its own
+unit1 — see "Course layer" above. A future course is free to pick its own
+scheme in turn; nothing here mandates `cv`-style tagging repo-wide.
 
 - `lessons/` / `lessons-gp/` / `lessons-media/` / `lessons-pdfs/` —
   Advanced Functions' unit1 content (unprefixed; unit1 predates the
@@ -375,6 +381,15 @@ Full narrative and reasoning for each of these is in METHODOLOGY.md's
   with 2+ populated cells hangs the rinoh renderer indefinitely. Don't
   put `.. math::` block directives inside multi-column `list-table`
   cells — restructure to sequential single-column content instead.
+- An escaped dollar sign (`\$`) *inside* a `:math:`/`.. math::` role or
+  directive also hangs the rinoh renderer indefinitely (found
+  2026-10-05, `g12-calculus-and-vectors` cvu1worksheet02). A literal `$`
+  in plain prose outside math is fine and already used throughout (e.g.
+  "$2500"); the hang is specific to `\$` inside math content. If a
+  dollar amount needs to appear inside a math expression, drop the
+  dollar sign from the math and state it in the surrounding prose
+  instead (e.g. `R(49) = 46\,512.50` in math, "$46 512.50" in the
+  sentence around it) rather than writing `\$` in the math itself.
 
 Verify any `.rst` file with:
 ```
