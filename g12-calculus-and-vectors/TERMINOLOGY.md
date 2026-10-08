@@ -92,6 +92,100 @@ Established during `cvu1lesson01`/`cvu1worksheet01` translation (2026-10-05):
 - **Power of a Function Rule** → *règle de la puissance d'une fonction*.
 - **differentiable** → *dérivable*.
 
+## Unit 2 — Increasing / Decreasing
+
+- **critical number** → *nombre critique*; **critical point** →
+  *point critique*.
+- **local max** / **local min** → *maximum local* / *minimum local*
+  (not *maximum/minimum relatif*, matching Ontario French-curriculum
+  usage).
+- **First Derivative Test** → *critère de la dérivée première*
+  (lowercase-common-noun convention, same as "règle du produit" etc.;
+  "critère" chosen over a literal "test" to match standard Quebec
+  calculus-textbook register).
+- **cusp** → *point de rebroussement* (standard French calculus term,
+  not a literal *pointe*).
+- **sign chart** → *tableau de signes*.
+- **increasing** / **decreasing** (as adjectives describing a function)
+  → *croissante* / *décroissante* (agreeing with *fonction*, feminine).
+
+## Unit 2 (continued) — Maxima and Minima
+
+- **turning point** → *point tournant* (synonym given for "local
+  extrema" in the source itself; rendered literally since it's a plain
+  descriptive synonym, not a fixed technical term).
+- **absolute max/min** → *maximum/minimum absolu* (vs. *local* →
+  *local*, already established).
+- **vicinity** (of a point, in the local-max/min definitions) →
+  *voisinage*.
+
+## Unit 2 (continued) — Concavity and the Second Derivative
+
+- **second derivative** → *dérivée seconde* (already established in
+  Unit 1's velocity/acceleration section — confirmed reused here).
+- **concave up** / **concave down** → *concave vers le haut* / *concave
+  vers le bas*.
+- **point of inflection** → *point d'inflexion*.
+- **second derivative test** → *critère de la dérivée seconde*
+  (lowercase-common-noun convention, matching "critère de la dérivée
+  première").
+
+## Unit 2 (continued) — Rational Functions
+
+- **rational function** → *fonction rationnelle*.
+- **vertical asymptote** / **horizontal asymptote** / **oblique
+  asymptote** (slant asymptote) → *asymptote verticale* / *asymptote
+  horizontale* / *asymptote oblique* (not "slant" literally — "oblique"
+  is the standard French term, matching precedent already used in
+  Advanced Functions' rational-functions unit, u6).
+- **hole** (in a graph) → *trou* (already established in Unit 1's
+  Quotient Rule section, above).
+- **one-sided limit** → *limite unilatérale* (or *limite à gauche/à
+  droite* when specifying direction).
+- **degree** (of a polynomial, numerator/denominator) → *degré*.
+
+## Unit 2 (continued) — Curve Sketching
+
+- **curve sketching** → *esquisse de courbes* (algorithm name rendered
+  as *Algorithme pour l'esquisse de courbes*).
+- **restriction** (on the domain) → *restriction*.
+- **intercept** (x-intercept/y-intercept) → *abscisse à l'origine* /
+  *ordonnée à l'origine* (already standard French math vocabulary, not
+  a literal "intercepte").
+- **dividing point** (sign chart) → *point de partage* (already used
+  once in Unit 2's Rational Functions section).
+- **synthetic division table** rendered as a LaTeX ``\begin{array}``
+  block inside ``.. math::`` (not the ``tableau2png.py``/``divtableau.py``
+  pipeline) — confirmed this renders correctly through rinoh without
+  hanging; reserve the dedicated tableau pipeline for cases needing the
+  overline/bracket post-processing it provides, not a plain small
+  array like this one-off curve-sketching factoring step.
+
+## Unit 2 (continued) — Optimization Problems
+
+- **optimization** → *optimisation*.
+- **lifeguard** → *sauveteur* / *sauveteuse* (feminine form used here,
+  matching the source's "she").
+- **buoy** → *bouée*.
+- **showroom** (car dealership) → *salle d'exposition*.
+- **soup can** → *boîte de conserve* (generic "can", since "soupe" adds
+  nothing the French reader needs — matches how volume/surface-area
+  problems are phrased in Quebec textbooks).
+- **jog** (verb, running) → *faire du jogging* / *courir* — used
+  *court* (simple "runs") for brevity in Example 3's translation.
+
+## Unit 2 Review (cvu2review07)
+
+- **pretest** → *avant-test* (already established via the course-wide
+  `Section N :` review-title pattern in Unit 1's review07; title
+  rendered *Révision avant-test de l'unité 2*, matching the exact
+  "Révision avant-test de l'unité 1" pattern from cvu1review07 verbatim,
+  substituting the unit number and subject).
+- **jewellery box** → *boîte à bijoux*.
+- **garbage can** → *poubelle*.
+- **turning point** (local extremum, informal synonym) → *point
+  tournant* (already established, Unit 2's Maxima and Minima section).
+
 ## Unit 1 (continued) — Applications of Rates of Change
 
 - **linear density** → *densité linéique* (standard French physics term,
