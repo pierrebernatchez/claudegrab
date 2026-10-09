@@ -5,7 +5,7 @@
 # to lessons-gp/ (../lessons-media/...).
 
 cd "$(dirname "$0")" || exit 1
-
+echo `pwd`
 status=0
 for f in *image*.gp; do
   echo "Rendering $f"
