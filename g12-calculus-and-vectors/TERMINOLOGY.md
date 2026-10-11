@@ -200,6 +200,92 @@ Established during `cvu1lesson01`/`cvu1worksheet01` translation (2026-10-05):
 - **hot tub** → *spa* (the common French term; not a literal
   *baignoire chaude*).
 
+## Unit 3 — Derivatives of Sine and Cosine
+
+- **secant line** → *sécante* (already standard; "droite sécante" too
+  verbose for this context, matching how "tangent line" already renders
+  as plain *tangente*, not "droite tangente", in prior units' running
+  prose).
+- **Remember special triangles:** (hint-box label, filled in only in the
+  solutions doc in the upstream source — blank doc leaves the box empty
+  for the student to recall) → *Rappel : les triangles spéciaux* — reuses
+  the established "Remember:" → "Rappel :" convention (Unit 1) plus the
+  already-confirmed *triangles spéciaux* term from Advanced Functions'
+  u4lesson01 (same two 45-45-90/30-60-90 reference diagrams, reused
+  verbatim here via the same reusable `.gp` scripts).
+- Upstream source for this unit has unreliable internal lesson/worksheet
+  numbering in its own header banners (confirmed duplicate "L6" label on
+  two different lessons, and "L4"/"L5" vs the files' actual lesson-03/04
+  position) — always number `cvu3lessonNN`/`cvu3worksheetNN` from the
+  upstream filename, never the banner printed inside the PDF itself. The
+  "Unit 3" banner itself is reliable; only the lesson sub-number is not.
+
+## Unit 3 (continued) — Derivatives of Exponential Functions
+
+- **natural logarithm** → *logarithme naturel*; **irrational** →
+  *irrationnel*.
+- **doubling period** / **half-life** → *période de doublement* /
+  *demi-vie*.
+- **growth** (exponential) → *croissance*.
+
+## Unit 3 (continued) — Differentiation Rules for Exponential Functions
+
+- **local extrema** → *extremums locaux* (plural of *extremum*, kept as
+  the direct French math term, not anglicized to "extrêmes").
+- **First Derivative Test** → *critère de la dérivée première* (already
+  established, Unit 2).
+- **effectiveness** (of studying, 0-10 scale context) → *efficacité*.
+
+## Unit 3 (continued) — Implicit Differentiation and Derivatives of Log Functions
+
+- **Leibniz notation** → *notation de Leibniz* (proper name, unchanged).
+- **implicit differentiation** → *dérivation implicite*; **explicitly** /
+  **implicitly** → *explicitement* / *implicitement*.
+- **inverse form** (rewriting :math:`y=\log_a x` as :math:`a^y=x`) →
+  *forme inverse*.
+- **proof** → *démonstration* (already established, Unit 1).
+
+## Unit 3 (continued) — Applications of Exponential and Trigonometric Derivatives
+
+- **disintegration constant** → *constante de désintégration*;
+  **radioactive isotope** → *isotope radioactif*.
+- **simple harmonic motion** → *mouvement harmonique simple*; **damped
+  harmonic motion** → *mouvement harmonique amorti*.
+- **amplitude** / **period** / **frequency** → *amplitude* / *période* /
+  *fréquence* (direct cognates).
+- **AC (alternating current)** / **DC (direct current)** → *CA (courant
+  alternatif)* / *CC (courant continu)*.
+- **bob** (pendulum weight) → *poids* (not *bulbe* or a literal
+  transliteration — standard French physics term for the pendulum's
+  mass at the end of the string).
+- Found 2 source-key inconsistencies this lesson/worksheet pair, both
+  confirmed by independent recomputation and corrected rather than
+  propagated: Example 3's "min of 17 V" (should read "min of 7 V" —
+  the label simply duplicated the max value above it) and worksheet
+  Q1d's summary-box answer "-2.65 mg/min" vs. the actually-derived
+  "-2.7 mg/min" (the worked derivation shown in the source itself
+  already says -2.7 mg/min — only the separate printed summary box
+  disagreed).
+
+## Unit 3 Review (cvu3review07)
+
+- **AC-DC coupled circuit** → *circuit couplé CA-CC*.
+- Section headers don't follow strict 3.1→3.2→...→3.6 numeric order —
+  the review intentionally interleaves topics (e.g. Q13 returns to
+  3.2-style trig tangents after Q9-12 covered exponential/log content).
+  Each section is still labelled with its own nearest topic number,
+  following question order, not forcing a sorted-by-topic
+  reorganization — matches the precedent from `u2review07`/`cvu2review07`.
+- Found 2 source-key inconsistencies this review, both confirmed by
+  independent recomputation and corrected: Q8's blank-doc Answer box
+  used an imprecise `2.2π` approximation for the pendulum's angular
+  frequency (giving `h(t)=8cos(2.2πt)`, `55.3 cm/s` max velocity, and a
+  dimensionally-wrong `t=(3+4k)/4`), when the exact value is
+  ω=√(g/l)=√(9.8/0.2)=√49=7 **exactly** — the solutions doc's own
+  worked derivation already got this right (`h(t)=8cos(7t)`,
+  `56 cm/s`, `t=(3+4k)π/14`), used throughout instead of the blank's
+  approximation.
+
 ## Unit 1 (continued) — Unit 1 Review (cvu1review07)
 
 - **stationary** (particle, velocity zero) → *stationnaire*; **at rest** /
