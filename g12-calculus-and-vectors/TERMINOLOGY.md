@@ -200,6 +200,41 @@ Established during `cvu1lesson01`/`cvu1worksheet01` translation (2026-10-05):
 - **hot tub** → *spa* (the common French term; not a literal
   *baignoire chaude*).
 
+## Unit 4 — Introduction to Vectors
+
+- **scalar** → *scalaire*; **vector** → *vecteur*.
+- **magnitude** (of a vector) → *norme* (standard French math term for
+  vector magnitude; not a literal *grandeur*).
+- **directed line segment** → *segment de droite dirigé*.
+- **tail of vector** / **head of vector** → *origine du vecteur* /
+  *extrémité du vecteur* (standard French vector vocabulary, not a
+  literal "queue"/"tête").
+- **true bearing** → *relèvement vrai*; **quadrant bearing** →
+  *relèvement par quadrant* (nautical/aviation French term, chosen to
+  parallel the English "bearing" terminology directly since this
+  course's quadrant-bearing notation, e.g. N40°W, carries over
+  unchanged into French).
+- **parallel vectors** / **equivalent vectors** / **opposite vectors**
+  → *vecteurs parallèles* / *vecteurs équivalents* / *vecteurs opposés*.
+- **coincident** (translated vectors landing exactly on each other) →
+  *coïncidents*.
+- **resultant** (vector) → *résultante*.
+- **tip-to-tail method** / **triangle method** → *méthode tête-à-queue*
+  / *méthode du triangle*; **parallelogram method** → *méthode du
+  parallélogramme*.
+- **adding the opposite** → *addition de l'opposé*.
+- **commutative/associative/identity property** → *propriété
+  commutative* / *propriété associative* / *propriété d'élément
+  neutre* (standard French algebra vocabulary; "identity" here means
+  the zero-vector identity element, hence *élément neutre* rather than
+  a literal *propriété d'identité*).
+- **orienteering** (race) → *course d'orientation*.
+- **colinear** (vectors) → *colinéaires* (same term in both languages,
+  cognate).
+- **unit vector** → *vecteur unitaire*.
+- **congruent** (triangles) → *congrus* / *congruents* (standard
+  French geometry term).
+
 ## Unit 3 — Derivatives of Sine and Cosine
 
 - **secant line** → *sécante* (already standard; "droite sécante" too
@@ -295,3 +330,74 @@ Established during `cvu1lesson01`/`cvu1worksheet01` translation (2026-10-05):
   `u2review07` precedent: *Section N : X.Y - Topic* (space before the
   colon, en dash not used — a hyphen after the lesson number, matching
   the French typography already established there).
+
+## Unit 4 (continued) — Applications of Vector Addition (cvu4lesson04/cvu4worksheet04)
+
+- **equilibrant** (vector) → *équilibrante* (mirrors the already-established
+  *résultante* for "resultant" — both rendered as feminine nouns, not
+  translated as adjectives).
+- **tension** (in a rope/string) → *tension* (direct cognate, unchanged).
+- **rope** → *corde*; **string** (thinner, as in worksheet04 Q3's
+  24 cm/32 cm suspending strings) → *fil*, to keep the English
+  "rope"/"string" distinction visible in French rather than collapsing
+  both to *corde*.
+- **ceiling** → *plafond*; **mass** (the suspended object) → *masse*.
+- **airspeed** (speed relative to the air) / **ground speed** (resultant
+  speed relative to the ground) → *vitesse par rapport à l'air* /
+  *vitesse par rapport au sol* — chosen to mirror the lesson's own
+  "speed relative to..." phrasing directly, rather than the more
+  jargon-heavy aviation term *vitesse propre*.
+- **river** → *rivière*; **bank** (of a river) → *rive*; **current**
+  (of a river) → *courant*; **to swim** → *nager*.
+- **(video) projector** → *projecteur*.
+- `-fr.gp` image variants were needed only where a figure has English
+  words baked into its pixels (not just numbers/compass letters/math
+  variables) — e.g. "Ceiling"/"Mass"/"Projector" labels, the "air
+  velocity"/"wind velocity"/"ground velocity" triangle, and any compass
+  diagram using the letter "W" (→ "O" for *Ouest* in French). Figures
+  with only numbers, single-letter variables, or "N"/"S"/"E" (same
+  letters in French) were reused unchanged from the English doc.
+  **"toboggan"** (worksheet05 Q2's sled) needed no `-fr` variant at
+  all — it's spelled identically in French (a French-origin loanword).
+
+## Unit 4 (continued) — Resolution of Vectors into Rectangular Components (cvu4lesson05/cvu4worksheet05)
+
+- **resolution** (of a vector) / **to resolve** → *résolution* /
+  *résoudre*; **rectangular vector components** → *composantes
+  vectorielles rectangulaires*.
+- **ramp** (inclined surface) → *rampe*; **box** → *boîte*; **block**
+  → *bloc* — kept distinct per English word, same pattern as
+  *corde*/*fil* for rope/string in lesson04.
+- **sleigh** → *traîneau*; **tow truck** → *dépanneuse*.
+- **sign** (as in a storefront sign) → *enseigne*; **brick wall** →
+  *mur de briques*; **"WELCOME!"** → *"BIENVENUE!"*.
+- **smooth** (frictionless, of a ramp) → *lisse*; **counterclockwise**
+  / **clockwise** → *dans le sens antihoraire* / *dans le sens
+  horaire*.
+- `-fr.gp` variants needed only for the ramp Position/Vector Diagrams
+  ("Ramp"/"Box"/"Block" baked into pixels) and the Q6 sign-and-wall
+  context image ("WELCOME!"); the plain force-resolution triangles
+  (no English words, just numbers/math variables) were reused as-is.
+
+## Unit 4 (continued) — Unit 4 Pretest Review (cvu4review06)
+
+- **true bearing** vs **quadrant bearing** conversion (Q1), **truck**
+  → *camion*, **wall** → *mur*, **(basketball) hoop** → *panier*,
+  **knot** (nautical speed unit) → *nœud* (plural *nœuds* — first use
+  of this unit in the course; not to be confused with *corde*/*fil*
+  for rope/string).
+- Of this review's 47 figures, only 11 needed `-fr.gp` variants: the
+  four Q1 bearing compasses (letter "W" → "O"), the Q18 hoop-and-wall
+  diagram ("Wall"/"Hoop"), the Q20 sailboat diagram ("knots" →
+  "nœuds"), the Q21 canoe diagram ("shore" → *rive*), the Q23
+  truck-on-ramp Position/Vector pair ("Ramp"/"Truck"), the Q24
+  box-on-ramp diagram, and the Q29 box-on-ramp Position diagram
+  ("Ramp"/"Box" → *Rampe*/*Boîte*). The other 36 figures (plain
+  numbers, single-letter vertex/vector labels, math variables, or
+  "N"/"S"/"E" compass letters already shared with French) were reused
+  unchanged.
+- This review retrofits 29 questions spanning all 5 of unit4's lessons
+  into 29 numbered "Section N: X.Y -- Topic" headers (one per question
+  or tightly-related question group), mirroring the granular
+  section-per-skill convention already established in `cvu2review07`/
+  `cvu3review07`, rather than one section per lesson.
