@@ -401,3 +401,166 @@ Established during `cvu1lesson01`/`cvu1worksheet01` translation (2026-10-05):
   or tightly-related question group), mirroring the granular
   section-per-skill convention already established in `cvu2review07`/
   `cvu3review07`, rather than one section per lesson.
+
+## Unit 5 — Cartesian Vectors (cvu5lesson01/cvu5worksheet01)
+
+- **Cartesian vector** / **algebraic vector** → *vecteur cartésien* /
+  *vecteur algébrique*; **position vector** → *vecteur de position*;
+  **unit vector** → *vecteur unitaire*; **magnitude** → *norme*
+  (already-established course convention, see Unit 4's entry).
+- **collinear** → *colinéaire*; **component** (horizontal/vertical) →
+  *composante*; **tip**/**tail** (of a vector, as in
+  :math:`x_{tip}`/:math:`x_{tail}` subscripts) → *bout*/*origine*.
+- **heading** (nautical) → *cap*; **bearing** → *relèvement* (already
+  established in Unit 4); **ship** → *navire*; **current** (of
+  water, as in a ship's drift) → *courant* (same term already used
+  for river current in Unit 4, generalizes fine to open water).
+- Of this lesson's 14 figures, only 3 needed `-fr.gp` variants: the
+  Example 9 ship/current/resultant bearing-compass trio
+  (`gpimage12`/`13`/`14`, letter "W" → "O" for *Ouest*, same pattern
+  as Unit 4's bearing compasses). The rest (bare coordinates, vector
+  letters, N/E/S compass letters already shared with French) were
+  reused unchanged.
+
+## Unit 5 (continued) — Dot Product (cvu5lesson02/cvu5worksheet02)
+
+- **dot product** → *produit scalaire*; **scalar** → *scalaire*;
+  **perpendicular** → *perpendiculaire*; **commutative/associative/
+  distributive property** → *propriété commutative/associative/
+  distributive*.
+- **mechanical work** → *travail mécanique*; **newton-meter**/
+  **joule** units carry over unchanged (:math:`N \cdot m`, :math:`J`).
+- **golf cart** → *voiturette de golf*; **hill** → *colline*.
+- "YES"/"NO" table answers (worksheet02 Q4) → *OUI*/*NON*; the
+  `|---|` em-dash explanatory suffix pattern ("NO — can't dot a
+  vector with a scalar") carries over directly, just with the French
+  explanation text.
+- No figures in either lesson02 or worksheet02 needed `-fr.gp`
+  variants — all are bare angle/magnitude diagrams with math
+  variables and numbers only, no English words baked into pixels.
+
+## Unit 5 (continued) — Applications of the Dot Product (cvu5lesson03/cvu5worksheet03)
+
+- **projection** (vector) → *projection*; **shadow** (projection
+  analogy) → *ombre*; **to cast a shadow** → *projeter une ombre*.
+- **orderly** (hospital attendant, worksheet03 Q8) → *préposé*;
+  **(stage) lamp/projector** (worksheet03 Q9) → *projecteur de
+  scène*, distinguished from *projection* (the math term) by context.
+- No figures in either lesson03 or worksheet03 needed `-fr.gp`
+  variants — every `set label` across all 17 figures is a bare
+  vector letter, "proj_x y" math-notation abbreviation, magnitude
+  number, or angle value, none of it literal English prose.
+
+## Unit 5 (continued) — Vectors in 3-Space (cvu5lesson04/cvu5worksheet04)
+
+- **3-space** / **three-dimensional** → *l'espace à trois dimensions*
+  / *tridimensionnel*; **right-handed system** → *système dextrogyre*
+  (standard French math term), glossed on first use as « système
+  orienté positivement » for a grade-12 student audience rather than
+  relying on the technical term alone.
+- **axis**/**axes** → *axe*/*axes*; **origin** → *origine*;
+  **orthogonal** → *orthogonal* (direct cognate).
+- **tools for 2-D vectors modified for 3-D vectors** (section header)
+  → *outils pour les vecteurs en 2D adaptés aux vecteurs en 3D*;
+  **shortcut** (Example 8's orthogonal-vector trick) → *raccourci*.
+- **isosceles** → *isocèle*; **right angle** → *angle droit*.
+- Of lesson04's 15 figures, 2 needed `-fr.gp` variants: `gpimage01`
+  ("xy-plane" → *plan xy*) and `gpimage02` ("x/y/z (positive)" →
+  "x/y/z (positif)" plus the multi-line right-hand-rule instruction
+  text, translated and re-wrapped). All other figures (axis letters,
+  point labels like "A(2, 6, 1)", vector letters u/v/i/j/k/ai/bj/ck)
+  are bare math notation and were reused unchanged. None of
+  worksheet04's 9 figures needed a `-fr.gp` variant for the same
+  reason. Found and fixed a pre-existing repo-hygiene bug while
+  checking worksheet04's figures: four `.gp` scripts
+  (`gpimage04/05/08/09`) had been sitting untracked inside
+  `cvu5lessons-media/` (the gitignored output directory) instead of
+  `cvu5lessons-gp/` since this unit's original English construction —
+  relocated to the correct directory and staged. Also found and fixed
+  a genuine list-table cell-overflow bug in worksheet04 Q8d's long
+  `:solmath:` line (same overflow-wrapping issue documented earlier
+  this unit), present in the already-approved English solutions doc
+  and carried into the French translation — fixed in both languages
+  by splitting the line.
+
+## Unit 5 (continued) — Cross Product of Vectors (cvu5lesson05/cvu5worksheet05)
+
+- **cross product** → *produit vectoriel*; **"in to the page"** /
+  **"out of the page"** → *« entrant dans la page »* / *« sortant de
+  la page »* (quoted the same way as the English source's own
+  quotation marks, just with French guillemets).
+- **"How to set it up"** (the crisscross-mnemonic section header) →
+  *« Comment s'y prendre »*.
+- No figures in either lesson05 or worksheet05 needed `-fr.gp`
+  variants — every `set label` across all 12 figures (the right-angle
+  diagrams, the 3D visualizations, the crisscross mnemonic grids, the
+  two worksheet angle diagrams) is a bare vector letter, magnitude
+  number (`|u| = 75`), or angle value, none of it literal English
+  prose.
+
+## Unit 5 (continued) — Applications of Dot and Cross Product (cvu5lesson06/cvu5worksheet06)
+
+- **torque** → *moment de force* (the standard French physics term for
+  :math:`\vec{\tau} = \vec{r} \times \vec{F}`, chosen over the
+  anglicism *couple* which more precisely denotes a pair of
+  equal-and-opposite forces, a related but distinct concept); **torque
+  arm** → *bras de levier*; **right-hand rule** → *règle de la main
+  droite*.
+- **wrench** → *clé*; **bolt** → *boulon*; **to tighten** → *serrer*;
+  **handle** (of a wrench) → *manche*; **pedal** → *pédale*; **shaft**
+  (of a pedal) → *tige*.
+- **triple scalar product** → *produit mixte* (the standard French
+  term, not a literal translation); **parallelepiped** → *parallélépipède*.
+- **baby stroller** → *poussette*; **roadway** → *chaussée*; **slope**
+  (incline) → *pente*; **to slide down** → *glisser*.
+- No figures in either lesson06 or worksheet06 needed `-fr.gp`
+  variants — all 3 figures (the wrench/pedal torque diagrams, the
+  parallelepiped sketch) use only bare vector letters, magnitude
+  numbers, and unit abbreviations (`cm`, `N`) that are identical in
+  French. The `*Note: ...*`/`*Remarque : ...*` captions and the
+  "Downward into the material"/"Vers le bas, dans le matériau"
+  direction answer are plain RST prose, not baked into any image.
+
+## Unit 5 (continued) — Unit 5 Pretest Review (cvu5review07)
+
+- Pure reuse of this unit's established glossary across all 41
+  questions — no new core vocabulary needed: *vecteur cartésien*,
+  *norme*, *colinéaire*, *résultante*, *cap*/*relèvement* (heading/
+  bearing), *nœuds* (knots), *produit scalaire*, *perpendiculaire*,
+  *projection*, *travail (mécanique)*, *espace à trois dimensions*,
+  *orthogonal*, *produit vectoriel*, *moment de force* (NOT *couple*),
+  *produit mixte*, *parallélépipède* all carried over unchanged from
+  the six lesson/worksheet sections above.
+- New context-specific vocabulary for this review's own word
+  problems: **lawnmower** → *tondeuse à gazon*; **superhero**
+  (feminine, per "herself" in the source) → *super-héroïne*;
+  **crate** → *caisse*; **smooth level floor** → *plancher lisse et
+  horizontal*; **platform** → *plateforme* (reusing *rampe* for
+  "ramp," already established in lesson05); **worker** → *travailleur*;
+  **carton** → *carton*; **stairs** → *escalier*; **bicycle pedal** →
+  *pédale de vélo* (reusing *tige*/*cycliste* from worksheet06's own
+  pedal question); **box** → *boîte*; **to lift** → *soulever*.
+- Instruction-verb mood: standardized on the infinitive form
+  ("Déterminer," "Calculer," "Évaluer") for all 41 question prompts,
+  matching the convention already used in the immediately preceding
+  worksheet05/worksheet06 batch. Earlier worksheets in this unit
+  (01/02) used *tu*-imperative and 03/04 used *vous*-imperative —
+  this drift across batches was not retroactively fixed, per the
+  established "don't re-tune across languages" practice; review07
+  simply follows its nearest neighbor.
+- Zero `-fr.gp` variants needed across all 9 of this review's figures
+  (a grid plot, three dot-product angle diagrams, a work/angle
+  diagram, three 3D vector plots, and a bicycle-pedal torque diagram)
+  — every `set label` in each script is a bare point letter (A-H),
+  axis letter (x/y/z), magnitude/angle number, or unit abbreviation
+  (cm, N) identical in both languages. Confirmed by reading every
+  `.gp` file's `set label` calls directly rather than assuming, since
+  Unit 4's own review (`cvu4review06`) needed 11 such variants for
+  its bearing-compass questions — this review has a bearing/velocity
+  word problem (Q10) but, unlike Unit 4's, it carries no diagram at
+  all (pure text and math), so no compass-letter figure existed to
+  need translating.
+- This closes out Unit 5's French translation — all 7
+  lesson/worksheet/review groups (6 lesson/worksheet pairs × 4
+  documents each, plus review07's 2 documents = 26 French `.rst`
+  files) are now done.
