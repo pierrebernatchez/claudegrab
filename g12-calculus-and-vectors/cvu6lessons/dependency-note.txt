@@ -1,0 +1,13 @@
+This unit is self contained.
+
+Earlier drafts of several lessons referred to visualizations hosted at
+https://www.geogebra.org/3d/ with no local equivalent, so understanding
+those lessons depended on that external site remaining available.
+
+That gap has been closed: every visualization needed to follow the
+lessons is now rendered locally as a gnuplot figure and embedded
+directly in the lesson/solutions PDFs, just like every other figure in
+this repository. The GeoGebra links remain in the lesson text, but only
+as an optional bonus for students who want to explore the scene
+interactively (rotate it, inspect it from another angle, etc.) --
+they are not required to understand or complete the lesson.
