@@ -1,0 +1,26 @@
+This note is to clarify the tasks needed for the full course unit of calculus and vectors course.
+
+We need to complete the additional fullcourse material by deriving it from our upstream cvfc files.
+
+cvfcreview01.pdf has material for the firtst three units, so does
+cvfcreview01-solutions.pdf.
+
+So we produce cvfcreview01-en.rst, and cvfcreview01-solutions-en.rst
+accordingly.
+
+cvfcreview04.pdf, cvfcreview05.pdf, and cvfcreview06.pdf are review blanks for  units 4,5, and 6.
+Use these to create cvfcreview04-en.rst, cvfcreview05-en.rst and cvfcreview06-en.rst
+
+cvfcreview0456-solutions.pdf contains solutions for all three of those blanks.
+
+For the sake of consistency we will split that source to create
+cvfcreview04-solutions-en.rst, cvfcreview05-solutions-en.rst, and cvfcreview06-solutions-en.rst.
+
+Finally we have a practise exam document, one without a solutions equivalent.
+
+We produce both the blank and the solutions document from that by working out the solutions
+for ourselves: cvfcexam07-en.rst and cvfcexam07-solutions-en.rst.
+
+Once the above is done and reviewed we translate all the cvfc material to french.
+
+This will complete the course.
