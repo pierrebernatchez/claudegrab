@@ -25,7 +25,7 @@ output.rtc
 # up here shouldn't require another line. The already-tracked
 # fc-pdfs/placeholder.txt is unaffected: gitignore only hides untracked
 # files, never untracks something already committed.
-**/fc-pdfs/*
+**/*fc-pdfs/*
 dist/
 dist/*
 __pycache__/

@@ -564,3 +564,91 @@ Established during `cvu1lesson01`/`cvu1worksheet01` translation (2026-10-05):
   lesson/worksheet/review groups (6 lesson/worksheet pairs × 4
   documents each, plus review07's 2 documents = 26 French `.rst`
   files) are now done.
+
+## Unit 6 — Lines and Planes
+
+- **two-space** / **three-space** → *en deux dimensions* / *en trois
+  dimensions* (new coinage for "two-space," paralleling the existing
+  "three-space" → *en trois dimensions* precedent already set in
+  unit5's `cvu5lesson04-fr.rst`, e.g. *"l'espace à trois dimensions"*).
+- **direction vector** → *vecteur directeur*; **normal vector** →
+  *vecteur normal* (both standard Quebec-curriculum terms, not
+  previously needed since units 4/5 didn't name these roles
+  explicitly).
+- **vector equation** (of a line) → *équation vectorielle*;
+  **parametric equation** → *équation paramétrique*; **symmetric
+  equation** → *équation symétrique*; **scalar equation** → *équation
+  scalaire* (reusing the already-established *scalaire* ↔ *scalar*
+  pairing); **slope** :math:`y`-**intercept form** → *forme
+  pente-ordonnée à l'origine* (reusing *pente* and *ordonnée à
+  l'origine*, both already established); **standard form** → *forme
+  standard*.
+- **plane** → *plan* (already used once in passing for "xy-plane" in
+  unit5; now a first-class term as lesson02 introduces it).
+- **x-int:** / **y-int:** shorthand labels → written out in full as
+  *Abscisse à l'origine :* / *Ordonnée à l'origine :*, matching the
+  precedent already set in `cvu2lesson05-solutions-fr.rst` rather than
+  inventing a French abbreviation.
+- Instruction-verb mood: infinitive throughout (*Écrire*,
+  *Déterminer*, *Trouver*), following Unit 5's later-batch convention
+  (its nearest neighbor) per the established "don't retroactively
+  re-tune, follow the nearest neighbor" practice.
+- lesson01/lesson02 + worksheet01/worksheet02 (8 files): zero `-fr.gp`
+  variants needed — checked every referenced `.gp` script's `set
+  label` calls directly (including the new self-containment figures
+  `cvu6lesson01-gpimage07.gp`, `cvu6lesson02-gpimage01/02.gp`) and
+  confirmed every label is a bare point letter, axis letter, or
+  coordinate tuple, never an English word.
+- **z-intercept** → *cote à l'origine* (new coinage, parallel to the
+  already-established *abscisse à l'origine*/*ordonnée à l'origine*
+  for x-int/y-int — *cote* is the standard Quebec-curriculum term for
+  the z-coordinate, by analogy with *abscisse*/*ordonnée* for x/y).
+- **LS** / **RS** (left side / right side of an equation) →
+  *MG* / *MD* (*membre de gauche* / *membre de droite*) — first
+  needed in lesson03's point-on-plane verification; no repo precedent
+  existed before this, confirmed by searching both this course's and
+  Advanced Functions' existing `-fr.rst` files.
+- lesson03/lesson04 + worksheet03/worksheet04 (8 files): one new
+  `-fr.gp` variant needed, `cvu6lesson03-gpimage01-fr.gp` (the "four
+  ways to define a plane" multiplot panel) — its captions are genuine
+  English prose ("A line and a point not on the line," "Two
+  intersecting lines," "Three noncollinear points," "Two parallel and
+  non-coincident lines"), translated to French captions in the new
+  file. Every other referenced `.gp` script (gpimage02/03/04 in both
+  lesson03 and lesson04) uses only bare letters/numbers/coordinates
+  as labels, confirmed by reading each script directly, so those are
+  reused unchanged.
+- **skew** (lines, non-parallel and non-intersecting) → *gauches*
+  (standard French geometry term, e.g. "the lines are skew" →
+  "les droites sont gauches"); **coincident** (lines) → *confondues*
+  (already-established pattern, reused from vectors in Unit 4 for
+  "coincident vectors" → *vecteurs confondus*, here applied to lines).
+- lesson05/lesson06 + worksheet05/worksheet06 (8 files): zero
+  `-fr.gp` variants needed — every referenced `.gp` script (lesson05's
+  7 line-intersection diagrams, lesson06's 3 line-plane diagrams) has
+  no `set label` calls at all (bare shapes/arrows only, no text), and
+  worksheet05/worksheet06 reference no images at all (pure text and
+  math). Four titles in this batch (lesson05, lesson05-solutions,
+  worksheet05, worksheet05-solutions) exceeded the fixed 80-character
+  heading underline once translated to French ("intersections de
+  droites en deux dimensions et en trois dimensions" is long);
+  extended each one's underline past the title length rather than
+  shortening the title, per the existing CLAUDE.md convention for
+  this exact situation (already seen once before in
+  `worksheet02-solutions-fr.rst`).
+- lesson07/worksheet07 + review08 (6 files, final unit6 batch): zero
+  `-fr.gp` variants needed — lesson07's 9 figures and worksheet07
+  (which references no images) were all checked directly; every
+  `set label` call is a bare plane-equation variable or point
+  coordinate, never English prose. Three more section titles in
+  review08 (sections 14, 15, 18) exceeded 80 characters once
+  translated and got the same extended-underline treatment as the
+  unit5 precedent above. "Lines and Planes" (the unit's own name,
+  used in review08's title/intro and nowhere else in the unit) →
+  *Droites et plans*, composed from the already-separately-decided
+  *droites* (lines) and *plans* (planes) used throughout every
+  lesson05-fr.rst/lesson06-fr.rst/lesson07-fr.rst title.
+  This closes out Unit 6's French translation — all 7
+  lesson/worksheet pairs plus review08 (30 French `.rst` files across
+  4 batches) are now done. **This completes French translation for
+  the entire Calculus and Vectors course (units 1-6).**

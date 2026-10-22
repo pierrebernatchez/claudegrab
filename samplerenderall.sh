@@ -4,7 +4,7 @@
 cd "$(dirname "$0")" || exit 1
 
 status=0
-for f in *-fr.rst; do
+for f in *-??.rst; do
     echo "Rendering $f"
     ${HOME}/.rinohbox/bashsources/single2pdf "$f" || { echo "FAILED: $f"; status=1; }
 done
