@@ -652,3 +652,155 @@ Established during `cvu1lesson01`/`cvu1worksheet01` translation (2026-10-05):
   lesson/worksheet pairs plus review08 (30 French `.rst` files across
   4 batches) are now done. **This completes French translation for
   the entire Calculus and Vectors course (units 1-6).**
+
+## Full-course package (cvfc) — cvfcreview01 (Units 1-3)
+
+- **midterm exam** → *examen de mi-session* (no prior precedent in this
+  course; standard Quebec-curriculum term, not the course's own
+  `*avant-test*` which is specifically "pretest").
+- Course subject name "Calculus and Vectors" → *calcul et vecteurs*
+  (the official French name of the Ontario MCV4U course), used only in
+  this document's title since individual unit lessons never restate
+  the whole course name.
+- Almost no new vocabulary needed — units 1-3's own lessons already
+  established the bulk of this review's terminology (*dérivée*,
+  *tangente*, *point critique*, *maximum/minimum local*, *point
+  d'inflexion*, *concave vers le haut/bas*, *tableau de signes*,
+  *abscisse/ordonnée à l'origine*, AV/AH abbreviations, *revenu*,
+  *marginal(e)*, *fonction de demande/prix/coût/profit*, *optimisation*,
+  *boîte à bijoux*, *boîte de conserve*, *vitesse*, *accélération* — all
+  reused directly from the existing glossary without modification).
+- New word-problem vocabulary (one-off, not expected to recur):
+  **water tank draining** → *réservoir* / *s'écouler*; **theatre
+  ticket** → *théâtre* / *billet*; **engine piston** → *piston de
+  moteur*; **electromotive force** → *force électromotrice*; **virus
+  spreading/infected** → *virus* / *se propager* / *infecté(e)s*;
+  **farmer/fencing/pens** → *fermier* / *clôture* / *enclos*; **wire
+  bent into a triangle** → *fil de fer* / *plié*.
+- Dollar amounts: plain-prose dollar figures (in question statements,
+  outside any `:math:`/`:solmath:` role) use the established French
+  format — postfix `$`, comma decimal, space thousands separator (e.g.
+  "100 $ la paire", "17,50 $"), per precedent already set in unit1's
+  lesson02/worksheet02. Dollar figures embedded *inside* a math role
+  (e.g. `:math:`R(250) = \$25\,000``) were left completely untouched —
+  translating only the surrounding prose, not restructuring the math —
+  since this exact `\$`-inside-`:math:` pattern already exists in the
+  English source and rendered without incident both in English and in
+  this French translation (no repeat of CLAUDE.md's documented
+  `\$`-inside-math rinoh hang in this specific case).
+- Title length: both the blank and solutions titles exceed 80
+  characters once translated (84 and 99 characters) — extended both
+  underlines past the text length per the established convention
+  rather than shortening the title.
+- Reused all 20 of the document's `.gp` figures as-is (12 shared/solved
+  + 8 `-blank` sketch-grid variants) — every `set label` call is a bare
+  letter, coordinate pair, or math expression, never English prose, so
+  zero `-fr.gp` variants were needed for this document.
+
+## Full-course package (cvfc) — cvfcreview04 (Unit 4)
+
+- Almost no new vocabulary needed — unit 4's own lessons already
+  established the bulk of this review's terminology (*relèvement
+  vrai*/*relèvement par quadrant*, *résultante*, *vecteurs parallèles/
+  équivalents/opposés*, *vecteur unitaire*, *tension*, *vitesse par
+  rapport à l'air*/*vitesse par rapport au sol*, *cap*, *rampe*,
+  *tondeuse à gazon*, *enseigne*, *dans le sens horaire/antihoraire*,
+  *résolution*/*résoudre* — all reused directly without modification).
+- New one-off word-problem vocabulary for this review's own questions
+  (Q12-13): **chain** (suspending a sign, distinct from a rope) →
+  *chaîne*; **canoeist** (feminine, per "her canoe" in the source) →
+  *canoteuse*; **dock** → *quai*; **to paddle** (a canoe) → *pagayer*.
+- Bearing letter "W" → "O" (for *Ouest*) applied consistently to every
+  quadrant-bearing instance in both the question text and the Answer
+  Key (e.g. `S20°W`→`S20°O`, `N7.1°W`→`N7.1°O`), per the established
+  convention; "N"/"S"/"E" unchanged.
+- Reused all 11 of the document's `.gp` figures as-is — every `set
+  label` call is a bare letter or vector-expression (e.g. "a", "2b-c",
+  "-2a"), never English prose, so zero `-fr.gp` variants were needed.
+
+## Full-course package (cvfc) — cvfcreview05 (Unit 5)
+
+- Pure reuse of unit 5's established glossary — no new core
+  vocabulary needed: *vecteur cartésien*, *norme*, *colinéaire*,
+  *produit scalaire*, *perpendiculaire*, *projection*, *travail
+  (mécanique)*, *espace à trois dimensions*, *orthogonal*, *produit
+  vectoriel*, *moment de force* (NOT *couple*), *bras de levier*,
+  *produit mixte*, *parallélépipède*, *clé*, *boulon* all carried over
+  unchanged from the six lesson/worksheet sections and `cvu5review07`.
+- New one-off word-problem vocabulary for this review's own questions
+  (Q24-25): **storage box** → *boîte de rangement* (distinct from
+  unit5review07's *caisse*, since this review uses a different noun);
+  **smooth, level floor** → *plancher lisse et horizontal* (reused
+  verbatim from `cvu5review07`); **platform** → *plateforme* (reused);
+  **rock climber** → *grimpeur*; **cliff** → *paroi rocheuse*.
+- Of the document's 6 `.gp` figures, only 1 needed an `-fr.gp` variant:
+  `gpimage06` (Q21's wrench diagram), whose `set label "bolt"` is
+  genuine English prose baked into the image — translated to
+  `set label "boulon"` (reusing the already-established *boulon* term
+  from `cvu5lesson06`) in a new `cvfcreview05-gpimage06-fr.gp`. The
+  other 5 figures (coordinate grid, angle diagrams, triangle) use only
+  bare point letters, magnitude/angle numbers, and vector letters —
+  reused unchanged.
+
+## Full-course package (cvfc) — cvfcreview06 (Unit 6)
+
+- Pure reuse of Unit 6's already-fully-decided glossary — no new
+  vocabulary needed: *vecteur directeur*, *vecteur normal*, *équation
+  vectorielle/paramétrique/scalaire*, *plan*, *abscisse/ordonnée/cote
+  à l'origine*, *gauches* (skew), *confondues* (coincident), *MG*/*MD*
+  (LS/RS). This document has zero gnuplot figures (pure algebra/
+  vector-equation drill), so no `-fr.gp` question applies at all.
+
+## Full-course package (cvfc) — cvfcexam07 (comprehensive practice final)
+
+- This document spans all 6 units plus the four prior `cvfc` review
+  documents, so almost all vocabulary was already decided; reused
+  directly without modification (every term from the `cvfcreview01/04/
+  05/06` sections above, plus the full unit1-6 glossary).
+- New document-level coinages (first exam-style `cvfc` document, no
+  prior precedent in this course):
+  - **inconsistent system** / **consistent system** (of equations) →
+    *système incompatible* / *système compatible* (standard French
+    mathematical terms; no repo precedent existed since no earlier
+    document posed a 3-plane-system question requiring this exact
+    phrasing).
+  - Title style followed Advanced Functions' `fcexam02-fr.rst` exactly
+    (*"Examen final blanc du cours complet de ... douzième année"*,
+    + *" avec solutions"* for the solutions doc) rather than the
+    `cvfcreview0N` "Leçon de révision" title pattern, since this is an
+    exam, not a review lesson.
+  - Achievement-category table (Knowledge/Application/Thinking/
+    Communication) translated to the official Ontario curriculum
+    French terms: *Connaissance et compréhension* / *Mise en
+    application* / *Réflexion* / *Communication* (not literal
+    cognates).
+  - **Point-slope form** → *forme point-pente* (new coinage, parallel
+    to the already-established *forme pente-ordonnée à l'origine* for
+    slope-intercept form).
+  - **Exponential Rule** (derivative) → *règle de la fonction
+    exponentielle* (new coinage, parallel to *règle du produit/
+    quotient*, *règle de chaîne* already established in Unit 1).
+- New one-off word-problem vocabulary: **diet** → *régime*; **golf net
+  enclosure** → *enceinte de filet*; **netting** → *filet*; **pilot**
+  (feminine, "Her actual ground velocity") → *pilote*.
+- Bearing letter "W" → "O" applied to Q15 ("N10°W" → "N10°O"), same
+  established convention as `cvfcreview04`.
+- This document just went through a user-reported layout-fix pass
+  before translation (Q3/4/17/18 restructured from tables to sequential
+  flow, `.. container:: keeptogether` used instead of the no-op
+  `.. rst-class:: keepwithnext` before images, three solution-color
+  bugs fixed in Q6b/Q15/Q19b) — all of these structural fixes were
+  preserved exactly through translation and re-verified by rendering:
+  every `keeptogether` block still holds its question+image on one
+  page in French despite longer text (9pp blank / 12pp solutions vs.
+  8pp/11pp in English), Q3/4/17/18 remained sequential, and all three
+  color-fixed lines render fully red in French too.
+- Reused all 13 of the document's `.gp` figures as-is — every `set
+  label`/`set title` call is a bare letter, coordinate, or math
+  expression (including the three-panel `gpimage09` titles "a + c" /
+  "b - c" / "-0.5c + b"), never English prose, so zero `-fr.gp`
+  variants were needed.
+- **This completes Phase C — the entire `cvfc` full-course package
+  (`cvfcreview01/04/05/06` + `cvfcexam07`, 10 French files total) is
+  now built in both English and French, closing out French translation
+  for the whole Calculus and Vectors course.**

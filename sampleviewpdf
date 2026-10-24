@@ -2,31 +2,61 @@
 #
 set -eo pipefail # had to remove th -u to stop bash evaluating "help" as a variable
 #
+# This is a convenience script for reviewing pdf files.
+# It is full of special case exceptions to handle the idiosyncharcies of
+# the file and directory name structure of the curren actual repository.
+# A bit of a dog's breakfast. DO NOT TAKE IT AS A GENERALLY REUSABLE SCRIPT.
+# 
+#
 # bash trick to obtain a clean absolute path to this script.
 #
-pushd `dirname $0` >/dev/null
+SCRIPTPATH="$(dirname ${0})"
+pushd  "${SCRIPTPATH}" >/dev/null
 SCRIPTPATH=`pwd -P`
 popd >/dev/null
-SCRIPPATH=$(pwd)
+echo mypath ${SCRIPTPATH}
 SCRIPTNAME="$(basename ${0})"
 #
+####
+#### default language, override per-run with -l en|fr
+####
+MYLANG="en"     
+####
+#
+# -l en|fr : optionally override MYLANG for this run
+while getopts ":l:" opt; do
+    case "$opt" in
+        l) MYLANG="$OPTARG" ;;
+        \?) echo "${SCRIPTNAME}: invalid option -$OPTARG" >&2; exit 1 ;;
+        :) echo "${SCRIPTNAME}: -$OPTARG requires an argument (en or fr)" >&2; exit 1 ;;
+    esac
+done
+shift $((OPTIND - 1))
+
+if [[ "${MYLANG}" != "en" && "${MYLANG}" != "fr" ]] ; then
+    echo "${SCRIPTNAME}: invalid -l value '${MYLANG}' (must be en or fr)" >&2
+    exit 1
+fi
 #
 NLESSON="${1:-1}"
 ##
 ## Derive these variable values from
 ## their position in the filesystem
-## 
+##
 MYCOURSEDIR=$(dirname ${SCRIPTPATH})
 MYCOURSE=$(basename ${MYCOURSEDIR})
-SCRIPPATHBASE=$(basename ${SCRIPPATH})
-UNIT="${SCRIPPATHBASE:0:4}"
+SCRIPTPATHBASE=$(basename ${SCRIPTPATH})
+echo scriptbase "$SCRIPTPATHBASE"
+if [[ "$MYCOURSE" == "g12-advanced-functions" ]] ; then
+    UNIT="${SCRIPTPATHBASE:0:2}"
+else
+    UNIT="${SCRIPTPATHBASE:0:4}"
+fi
+if [[ "$SCRIPTPATHBASE" == "lessons-pdfs" ]] ; then
+    UNIT=""
+fi
 
-####
-#### confifure these depending on what you are reviewing
-####
-#### MYCOURSE="g12-calculus-and-vectors"
-MYLANG="en"     # use "en" or "fr"
-####
+
 
 DOHELP="False"
 # Bash bending over backwards to work numbers
@@ -38,7 +68,24 @@ else
 fi
 ###
 
-PSUBDIR="${HOME}/repos/claudegrab/${MYCOURSE}/${UNIT}lessons-pdfs"
+if [[ "$SCRIPTPATHBASE" == "lessons-pdfs" ]] ; then
+    PSUBDIR="${HOME}/repos/claudegrab/${MYCOURSE}/$SCRIPTPATHBASE"
+else
+    PSUBDIR="${HOME}/repos/claudegrab/${MYCOURSE}/${UNIT}-pdfs"
+fi
+
+if ! [[ -d "${PSUBDIR}" ]] ; then
+    PSUBDIR="${HOME}/repos/claudegrab/${MYCOURSE}/${UNIT}lessons-pdfs"
+fi
+
+if ! [[ -d "${PSUBDIR}" ]] ; then
+    echo INVALID:
+    echo "    " unit "${UNIT}"
+    echo "    " mycoursedir "$MYCOURSEDIR"    
+    echo "    " pdfs subdirectory: "${PSUBDIR}"
+    echo "MUST BE INVOKING the script in an inappropriate directory"
+    exit 1
+fi
 
 ### Make up our list of eligible files to view
 PBA="${UNIT}lesson0${NLESSON}-${MYLANG}.pdf"
@@ -52,14 +99,14 @@ PSX="${UNIT}exam0${NLESSON}-solutions-${MYLANG}.pdf"
 # note if you use PLC or PSC be sure nlesson is the correct number for it
 # add/remove lines here to affect what is viewed
 pdfstoview () {
-    [[ -r "${SCRIPPATH}/$PBA" ]] && echo -e "${SCRIPPATH}/$PBA"
-    [[ -r "${SCRIPPATH}/$PSA" ]] && echo -e "${SCRIPPATH}/$PSA"
-    [[ -r "${SCRIPPATH}/$PBB" ]] && echo -e "${SCRIPPATH}/$PBB"
-    [[ -r "${SCRIPPATH}/$PSB" ]] && echo -e "${SCRIPPATH}/$PSB"
-    [[ -r "${SCRIPPATH}/$PBC" ]] && echo -e "${SCRIPPATH}/$PBC"
-    [[ -r "${SCRIPPATH}/$PSC" ]] && echo -e "${SCRIPPATH}/$PSC"
-    [[ -r "${SCRIPPATH}/$PBX" ]] && echo -e "${SCRIPPATH}/$PBX"
-    [[ -r "${SCRIPPATH}/$PSX" ]] && echo -e "${SCRIPPATH}/$PSX"
+    [[ -r "${SCRIPTPATH}/$PBA" ]] && echo -e "${SCRIPTPATH}/$PBA"
+    [[ -r "${SCRIPTPATH}/$PSA" ]] && echo -e "${SCRIPTPATH}/$PSA"
+    [[ -r "${SCRIPTPATH}/$PBB" ]] && echo -e "${SCRIPTPATH}/$PBB"
+    [[ -r "${SCRIPTPATH}/$PSB" ]] && echo -e "${SCRIPTPATH}/$PSB"
+    [[ -r "${SCRIPTPATH}/$PBC" ]] && echo -e "${SCRIPTPATH}/$PBC"
+    [[ -r "${SCRIPTPATH}/$PSC" ]] && echo -e "${SCRIPTPATH}/$PSC"
+    [[ -r "${SCRIPTPATH}/$PBX" ]] && echo -e "${SCRIPTPATH}/$PBX"
+    [[ -r "${SCRIPTPATH}/$PSX" ]] && echo -e "${SCRIPTPATH}/$PSX"
 }
 
 mapfile -t viewablepdfs < <(pdfstoview)
@@ -72,7 +119,7 @@ if [[ "True" == "${DOHELP}" ]] ; then
     cat <<EOF
 ${SCRIPTNAME}:
 
-    Use: ${SCRIPTNAME} NLESSON
+    Use: ${SCRIPTNAME} [-l en|fr] NLESSON
 
     This is a convenience script we use to open one or more .pdf files for review.
     These are parameter values derived from the current defaults in "${SCRIPTNAME}":
@@ -80,8 +127,7 @@ ${SCRIPTNAME}:
         "${PBA} ${PBB} ${PBC}"
         "${PSA} ${PSB} ${PSC}"
     You can:
-        modify MLANG to change the language (currently ${MYLANG}).
-        add/remove lines from the "pdfstoview" function to identify what to view
+        pass -l en or -l fr to override the language for this run (currently ${MYLANG}).
     Currently:
 EOF
 for aname in "${viewablepdfs[@]}"; do
