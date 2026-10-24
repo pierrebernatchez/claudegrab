@@ -86,7 +86,11 @@ simplify your answers. **[16]**
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
      - **b)** :math:`y = \dfrac{3x}{2x^2+4x-1}`
+
+       |nbsp|
 
        |nbsp|
 
@@ -100,12 +104,20 @@ simplify your answers. **[16]**
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - **d)** :math:`y = \sqrt{3x+4}`
 
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
    * - **e)** :math:`y = 2(6^x)`
+
+       |nbsp|
 
        |nbsp|
      - **f)** :math:`y = 3\tan x + 2`
@@ -116,7 +128,11 @@ simplify your answers. **[16]**
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
      - **h)** :math:`f(x) = \cos^2(4x)`
+
+       |nbsp|
 
        |nbsp|
 
@@ -140,42 +156,34 @@ simplify your answers. **[16]**
 **3)** Given the graph of :math:`f(x)`, sketch a possible graph of
 :math:`f'(x)`. **[1]**
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
-   :width: 100%
+.. image:: ../images/cvfcexam07-gpimage01.png
+   :scale: 70
+   :alt: a given graph of f(x), a cubic with a local max near x=-3 and local min near x=-1
 
-   * - .. image:: ../images/cvfcexam07-gpimage01.png
-          :scale: 85
-          :alt: a given graph of f(x), a cubic with a local max near x=-3 and local min near x=-1
-     - |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **4)** Given the graph of :math:`f'(x)`, sketch a possible graph of
 :math:`f(x)` **[1]**
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
-   :width: 100%
+.. image:: ../images/cvfcexam07-gpimage03.png
+   :scale: 70
+   :alt: a given graph of f'(x), a parabola with vertex (0,-4) and roots at x=-2,2
 
-   * - .. image:: ../images/cvfcexam07-gpimage03.png
-          :scale: 85
-          :alt: a given graph of f'(x), a parabola with vertex (0,-4) and roots at x=-2,2
-     - |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -247,31 +255,39 @@ min, or neither. **[4]**
 
 .. rst-class:: keepwithnext
 
-**8)** Sketch a continuous curve :math:`f(x)` with the following
-properties **[2]**
+.. container:: keeptogether
 
-- :math:`f(-2)=8,\ f(0)=4,\ f(2)=0`
-- :math:`f'(2)=f'(-2)=0`
-- :math:`f'(x)>0` for :math:`x>2` or :math:`x<-2`
-- :math:`f'(x)<0` for :math:`-2<x<2`
-- :math:`f''(x)<0` for :math:`x<0`
-- :math:`f''(x)>0` for :math:`x>0`
+   **8)** Sketch a continuous curve :math:`f(x)` with the following
+   properties **[2]**
 
-.. image:: ../images/cvfcexam07-gpimage05-blank.png
-   :scale: 85
-   :alt: blank axes for sketching f(x)
+   - :math:`f(-2)=8,\ f(0)=4,\ f(2)=0`
+   - :math:`f'(2)=f'(-2)=0`
+   - :math:`f'(x)>0` for :math:`x>2` or :math:`x<-2`
+   - :math:`f'(x)<0` for :math:`-2<x<2`
+   - :math:`f''(x)<0` for :math:`x<0`
+   - :math:`f''(x)>0` for :math:`x>0`
 
-.. rst-class:: keepwithnext
+   |nbsp|
 
-**'9)** A net enclosure for practising golf shots is open at one end, as
-shown. Find the dimensions that will minimize the amount of netting
-needed and give a volume of 144 :math:`\text{m}^3`. Netting is required
-only on the sides, the top, and the far end (not the bottom or front).
-**[4]**
+   |nbsp|
 
-.. image:: ../images/cvfcexam07-gpimage06.png
-   :scale: 85
-   :alt: an open-front box with square cross-section x by x and length y
+   .. image:: ../images/cvfcexam07-gpimage05-blank.png
+      :scale: 65
+      :alt: blank axes for sketching f(x)
+
+.. container:: keeptogether
+
+   **9)** A net enclosure for practising golf shots is open at one end, as
+   shown. Find the dimensions that will minimize the amount of netting
+   needed and give a volume of 144 :math:`\text{m}^3`. Netting is required
+   only on the sides, the top, and the far end (not the bottom or front).
+   **[4]**
+
+   .. image:: ../images/cvfcexam07-gpimage06.png
+      :scale: 60
+      :alt: an open-front box with square cross-section x by x and length y
+
+|nbsp|
 
 |nbsp|
 
@@ -336,11 +352,13 @@ identify local extrema and POI's.**
 
 |nbsp|
 
-**8) Graph the function**
+.. container:: keeptogether
 
-.. image:: ../images/cvfcexam07-gpimage07-blank.png
-   :scale: 85
-   :alt: blank axes for sketching f(x)=x^3+6x^2+9x
+   **8) Graph the function**
+
+   .. image:: ../images/cvfcexam07-gpimage07-blank.png
+      :scale: 70
+      :alt: blank axes for sketching f(x)=x^3+6x^2+9x
 
 Part 3: Geometric and Algebraic Vectors [30]
 ================================================================================
@@ -350,7 +368,7 @@ Part 3: Geometric and Algebraic Vectors [30]
 **11)** Given vectors, sketch the following **[3]**
 
 .. image:: ../images/cvfcexam07-gpimage08.png
-   :scale: 85
+   :scale: 60
    :alt: given vectors a (up-left), b (straight down), c (right)
 
 .. list-table::
@@ -393,7 +411,17 @@ and :math:`\vec{v}`. **[4]**
    * - **c)** :math:`\vec{BC}`
 
        |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - **d)** :math:`\vec{DA}`
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
        |nbsp|
 
@@ -503,51 +531,51 @@ Part 4: Lines and Planes [20]
 
 **17)** Find the vector equation of each of the following lines **[4]**
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
-   :width: 100%
+.. rst-class:: keepwithnext
 
-   * - **a)** the line passing through the points :math:`P(2,5,4)` and
-       :math:`Q(-3,1,5)`
+**a)** the line passing through the points :math:`P(2,5,4)` and
+:math:`Q(-3,1,5)`
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
-     - **b)** With the same :math:`x`-intercept as :math:`[x,y,z] =
-       [3,0,0]+t[4,-4,1]` and the same :math:`z`-intercept as :math:`[x,y,z]
-       = [6,-2,-3]+t[3,-1,8]`
+|nbsp|
 
-       |nbsp|
+.. rst-class:: keepwithnext
 
-       |nbsp|
+**b)** With the same :math:`x`-intercept as :math:`[x,y,z] =
+[3,0,0]+t[4,-4,1]` and the same :math:`z`-intercept as :math:`[x,y,z]
+= [6,-2,-3]+t[3,-1,8]`
 
-       |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **18)** Find the vector and scalar equation of each of the following
 planes **[4]**
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
-   :width: 100%
+.. rst-class:: keepwithnext
 
-   * - **a)** the plane passing through the points :math:`P(4,-2,2)`,
-       :math:`Q(-1,6,8)`, and :math:`R(-2,-2,14)`.
+**a)** the plane passing through the points :math:`P(4,-2,2)`,
+:math:`Q(-1,6,8)`, and :math:`R(-2,-2,14)`.
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
-     - **b)** the plane parallel to the :math:`xy`-plane and through the
-       point :math:`P(4,-2,7)`.
+|nbsp|
 
-       |nbsp|
+.. rst-class:: keepwithnext
 
-       |nbsp|
+**b)** the plane parallel to the :math:`xy`-plane and through the
+point :math:`P(4,-2,7)`.
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 

@@ -195,54 +195,45 @@ Point-slope: :math:`y-4 = -\dfrac{4}{3}(x+2)`
 
 :math:`y = -\dfrac{4}{3}x + \dfrac{4}{3}`
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**3)** Given the graph of :math:`f(x)`, sketch a possible graph of
-:math:`f'(x)`. **[1]**
+   **3)** Given the graph of :math:`f(x)`, sketch a possible graph of
+   :math:`f'(x)`. **[1]**
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
-   :width: 100%
+   .. image:: ../images/cvfcexam07-gpimage01.png
+      :scale: 70
+      :alt: a given graph of f(x), a cubic with a local max near x=-3 and local min near x=-1
 
-   * - .. image:: ../images/cvfcexam07-gpimage01.png
-          :scale: 85
-          :alt: a given graph of f(x), a cubic with a local max near x=-3 and local min near x=-1
-     - .. rst-class:: solution
+   .. rst-class:: solution
 
-       :math:`f(x)` has a local max near :math:`x=-3` and a local min near
-       :math:`x=-1`, so :math:`f'(x)` is a parabola (opening upward) that is
-       zero at those two :math:`x`-values, negative between them, and
-       positive outside them.
+   :math:`f(x)` has a local max near :math:`x=-3` and a local min near
+   :math:`x=-1`, so :math:`f'(x)` is a parabola (opening upward) that is
+   zero at those two :math:`x`-values, negative between them, and
+   positive outside them.
 
-       .. image:: ../images/cvfcexam07-gpimage02.png
-          :scale: 85
-          :alt: possible graph of f'(x), a parabola with roots at x=-3 and x=-1
+   .. image:: ../images/cvfcexam07-gpimage02.png
+      :scale: 70
+      :alt: possible graph of f'(x), a parabola with roots at x=-3 and x=-1
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**4)** Given the graph of :math:`f'(x)`, sketch a possible graph of
-:math:`f(x)` **[1]**
+   **4)** Given the graph of :math:`f'(x)`, sketch a possible graph of
+   :math:`f(x)` **[1]**
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
-   :width: 100%
+   .. image:: ../images/cvfcexam07-gpimage03.png
+      :scale: 70
+      :alt: a given graph of f'(x), a parabola with vertex (0,-4) and roots at x=-2,2
 
-   * - .. image:: ../images/cvfcexam07-gpimage03.png
-          :scale: 85
-          :alt: a given graph of f'(x), a parabola with vertex (0,-4) and roots at x=-2,2
-     - .. rst-class:: solution
+   .. rst-class:: solution
 
-       :math:`f'(x)` is negative for :math:`-2<x<0`, positive for
-       :math:`0<x<2`... actually negative for :math:`|x|<2` and positive for
-       :math:`|x|>2`, so :math:`f(x)` decreases then increases with a local
-       min at each of :math:`x=\pm2`. One possible antiderivative (choosing
-       :math:`C=0`) is :math:`f(x)=\dfrac{x^3}{3}-4x`.
+   :math:`f'(x)` is negative for :math:`|x|<2` and positive for
+   :math:`|x|>2`, so :math:`f(x)` decreases then increases with a local
+   min at each of :math:`x=\pm2`. One possible antiderivative (choosing
+   :math:`C=0`) is :math:`f(x)=\dfrac{x^3}{3}-4x`.
 
-       .. image:: ../images/cvfcexam07-gpimage04.png
-          :scale: 85
-          :alt: a possible graph of f(x), with local min/max at x=-2,2
+   .. image:: ../images/cvfcexam07-gpimage04.png
+      :scale: 70
+      :alt: a possible graph of f(x), with local min/max at x=-2,2
 
 .. rst-class:: keepwithnext
 
@@ -308,6 +299,8 @@ Part 2: Curve Sketching and Optimization [25]
 
        :solmath:`f''(x) = 6x+6`
 
+       .. rst-class:: solution
+
        :solmath:`f''(-2) = -6 < 0 \Rightarrow` local max at :math:`(-2,6)`
 
        .. rst-class:: solution
@@ -345,67 +338,67 @@ At :math:`x=0`: since :math:`x^2\ge0` never changes sign and
 is a **local minimum**, with :math:`y\approx(-4.328)^3(2^{-4.328})\approx
 -4.038`.
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**8)** Sketch a continuous curve :math:`f(x)` with the following
-properties **[2]**
+   **8)** Sketch a continuous curve :math:`f(x)` with the following
+   properties **[2]**
 
-- :math:`f(-2)=8,\ f(0)=4,\ f(2)=0`
-- :math:`f'(2)=f'(-2)=0`
-- :math:`f'(x)>0` for :math:`x>2` or :math:`x<-2`
-- :math:`f'(x)<0` for :math:`-2<x<2`
-- :math:`f''(x)<0` for :math:`x<0`
-- :math:`f''(x)>0` for :math:`x>0`
+   - :math:`f(-2)=8,\ f(0)=4,\ f(2)=0`
+   - :math:`f'(2)=f'(-2)=0`
+   - :math:`f'(x)>0` for :math:`x>2` or :math:`x<-2`
+   - :math:`f'(x)<0` for :math:`-2<x<2`
+   - :math:`f''(x)<0` for :math:`x<0`
+   - :math:`f''(x)>0` for :math:`x>0`
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-Local max at :math:`(-2,8)`, local min at :math:`(2,0)`, point of
-inflection at :math:`(0,4)`. (One cubic matching every condition exactly
-is :math:`f(x)=\dfrac{x^3}{4}-3x+4`.)
+   Local max at :math:`(-2,8)`, local min at :math:`(2,0)`, point of
+   inflection at :math:`(0,4)`. (One cubic matching every condition exactly
+   is :math:`f(x)=\dfrac{x^3}{4}-3x+4`.)
 
-.. image:: ../images/cvfcexam07-gpimage05.png
-   :scale: 85
-   :alt: a curve with local max (-2,8), inflection (0,4), local min (2,0)
+   .. image:: ../images/cvfcexam07-gpimage05.png
+      :scale: 65
+      :alt: a curve with local max (-2,8), inflection (0,4), local min (2,0)
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**'9)** A net enclosure for practising golf shots is open at one end, as
-shown. Find the dimensions that will minimize the amount of netting
-needed and give a volume of 144 :math:`\text{m}^3`. Netting is required
-only on the sides, the top, and the far end (not the bottom or front).
-**[4]**
+   **9)** A net enclosure for practising golf shots is open at one end, as
+   shown. Find the dimensions that will minimize the amount of netting
+   needed and give a volume of 144 :math:`\text{m}^3`. Netting is required
+   only on the sides, the top, and the far end (not the bottom or front).
+   **[4]**
 
-.. image:: ../images/cvfcexam07-gpimage06.png
-   :scale: 85
-   :alt: an open-front box with square cross-section x by x and length y
+   .. image:: ../images/cvfcexam07-gpimage06.png
+      :scale: 60
+      :alt: an open-front box with square cross-section x by x and length y
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-Netted area: two sides (:math:`xy` each), the top (:math:`xy`), and the
-far end (:math:`x^2`):
+   Netted area: two sides (:math:`xy` each), the top (:math:`xy`), and the
+   far end (:math:`x^2`):
 
-:solmath:`S = 3xy+x^2`
+   :solmath:`S = 3xy+x^2`
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-Volume constraint: :math:`x^2y=144 \Rightarrow y=\dfrac{144}{x^2}`
+   Volume constraint: :math:`x^2y=144 \Rightarrow y=\dfrac{144}{x^2}`
 
-:solmath:`S(x) = 3x\left(\dfrac{144}{x^2}\right)+x^2 = \dfrac{432}{x}+x^2`
+   :solmath:`S(x) = 3x\left(\dfrac{144}{x^2}\right)+x^2 = \dfrac{432}{x}+x^2`
 
-:solmath:`S'(x) = -\dfrac{432}{x^2}+2x = 0 \Rightarrow 2x^3=432 \Rightarrow
-x^3=216 \Rightarrow x=6`
+   :solmath:`S'(x) = -\dfrac{432}{x^2}+2x = 0 \Rightarrow 2x^3=432 \Rightarrow
+   x^3=216 \Rightarrow x=6`
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-:math:`S''(x) = \dfrac{864}{x^3}+2 > 0` for :math:`x>0`, confirming a
-minimum.
+   :math:`S''(x) = \dfrac{864}{x^3}+2 > 0` for :math:`x>0`, confirming a
+   minimum.
 
-:solmath:`y = \dfrac{144}{6^2} = 4`
+   :solmath:`y = \dfrac{144}{6^2} = 4`
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-Dimensions: :math:`x=6` m, :math:`y=4` m (minimum netting :math:`=108`
-:math:`\text{m}^2`)
+   Dimensions: :math:`x=6` m, :math:`y=4` m (minimum netting :math:`=108`
+   :math:`\text{m}^2`)
 
 .. rst-class:: keepwithnext
 
@@ -473,11 +466,13 @@ None -- :math:`f(x)` is a polynomial.
 
 Local max :math:`(-3,0)`, local min :math:`(-1,-4)`, POI :math:`(-2,-2)`
 
-**8) Graph the function**
+.. container:: keeptogether
 
-.. image:: ../images/cvfcexam07-gpimage07.png
-   :scale: 85
-   :alt: graph of f(x)=x^3+6x^2+9x showing local max, POI, local min, and intercepts
+   **8) Graph the function**
+
+   .. image:: ../images/cvfcexam07-gpimage07.png
+      :scale: 70
+      :alt: graph of f(x)=x^3+6x^2+9x showing local max, POI, local min, and intercepts
 
 Part 3: Geometric and Algebraic Vectors [30]
 ================================================================================
@@ -489,7 +484,7 @@ below: :math:`\vec{a}=[-2,3]`, :math:`\vec{b}=[0,-3]`, :math:`\vec{c}=[3,0]`)
 **[3]**
 
 .. image:: ../images/cvfcexam07-gpimage08.png
-   :scale: 85
+   :scale: 60
    :alt: given vectors a (up-left), b (straight down), c (right)
 
 .. list-table::
@@ -514,7 +509,7 @@ below: :math:`\vec{a}=[-2,3]`, :math:`\vec{b}=[0,-3]`, :math:`\vec{c}=[3,0]`)
        :math:`-1.5[1,0]+[0,-3]=[-1.5,-3]`
 
 .. image:: ../images/cvfcexam07-gpimage09.png
-   :scale: 85
+   :scale: 60
    :alt: tip-to-tail constructions for a+c, b-c, and -0.5c+b
 
 .. rst-class:: keepwithnext
@@ -678,8 +673,8 @@ Taking East as :math:`x` and North as :math:`y`: air velocity
 
 Wind :math:`=\vec{v}_{ground}-\vec{v}_{air}\approx[151.175,35.255]`
 
-:solmath:`|\vec{v}_{wind}| \approx \sqrt{151.175^2+35.255^2}\approx155.233`
-km/h
+:solmath:`|\vec{v}_{wind}| \approx \sqrt{151.175^2+35.255^2}\approx155.233
+\text{ km/h}`
 
 .. rst-class:: solution
 
@@ -719,72 +714,72 @@ Part 4: Lines and Planes [20]
 
 **17)** Find the vector equation of each of the following lines **[4]**
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
-   :width: 100%
+.. rst-class:: keepwithnext
 
-   * - **a)** the line passing through the points :math:`P(2,5,4)` and
-       :math:`Q(-3,1,5)`
+**a)** the line passing through the points :math:`P(2,5,4)` and
+:math:`Q(-3,1,5)`
 
-       :solmath:`\vec{m}=\vec{PQ}=[-5,-4,1]`
+:solmath:`\vec{m}=\vec{PQ}=[-5,-4,1]`
 
-       .. rst-class:: solution
+.. rst-class:: solution
 
-       :math:`[x,y,z]=[2,5,4]+t[-5,-4,1]`
-     - **b)** With the same :math:`x`-intercept as :math:`[x,y,z] =
-       [3,0,0]+t[4,-4,1]` and the same :math:`z`-intercept as :math:`[x,y,z]
-       = [6,-2,-3]+t[3,-1,8]`
+:math:`[x,y,z]=[2,5,4]+t[-5,-4,1]`
 
-       .. rst-class:: solution
+.. rst-class:: keepwithnext
 
-       Line 1's :math:`x`-intercept: set :math:`y=0 \Rightarrow t=0`,
-       giving :math:`(3,0,0)` (the given point itself).
+**b)** With the same :math:`x`-intercept as :math:`[x,y,z] =
+[3,0,0]+t[4,-4,1]` and the same :math:`z`-intercept as :math:`[x,y,z]
+= [6,-2,-3]+t[3,-1,8]`
 
-       :solmath:`\text{Line 2's } z\text{-intercept: } x=0 \Rightarrow
-       6+3t=0 \Rightarrow t=-2;\ y=-2-(-2)=0\ \checkmark;\ z=-3+8(-2)=-19`
+.. rst-class:: solution
 
-       .. rst-class:: solution
+Line 1's :math:`x`-intercept: set :math:`y=0 \Rightarrow t=0`,
+giving :math:`(3,0,0)` (the given point itself).
 
-       New line through :math:`(3,0,0)` and :math:`(0,0,-19)`:
-       :math:`[x,y,z]=[3,0,0]+t[-3,0,-19]`
+:solmath:`\text{Line 2's } z\text{-intercept: } x=0 \Rightarrow
+6+3t=0 \Rightarrow t=-2;\ y=-2-(-2)=0\ \checkmark;\ z=-3+8(-2)=-19`
+
+.. rst-class:: solution
+
+New line through :math:`(3,0,0)` and :math:`(0,0,-19)`:
+:math:`[x,y,z]=[3,0,0]+t[-3,0,-19]`
 
 .. rst-class:: keepwithnext
 
 **18)** Find the vector and scalar equation of each of the following
 planes **[4]**
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
-   :width: 100%
+.. rst-class:: keepwithnext
 
-   * - **a)** the plane passing through the points :math:`P(4,-2,2)`,
-       :math:`Q(-1,6,8)`, and :math:`R(-2,-2,14)`.
+**a)** the plane passing through the points :math:`P(4,-2,2)`,
+:math:`Q(-1,6,8)`, and :math:`R(-2,-2,14)`.
 
-       :solmath:`\vec{PQ}=[-5,8,6],\quad \vec{PR}=[-6,0,12]`
+:solmath:`\vec{PQ}=[-5,8,6],\quad \vec{PR}=[-6,0,12]`
 
-       .. rst-class:: solution
+.. rst-class:: solution
 
-       :math:`[x,y,z]=[4,-2,2]+s[-5,8,6]+t[-6,0,12]`
+:math:`[x,y,z]=[4,-2,2]+s[-5,8,6]+t[-6,0,12]`
 
-       :solmath:`\vec{n}=\vec{PQ}\times\vec{PR}=[96,24,48]=24[4,1,2]`
+:solmath:`\vec{n}=\vec{PQ}\times\vec{PR}=[96,24,48]=24[4,1,2]`
 
-       :solmath:`4x+y+2z+D=0,\ 4(4)-2+2(2)+D=0 \Rightarrow D=-18`
+:solmath:`4x+y+2z+D=0,\ 4(4)-2+2(2)+D=0 \Rightarrow D=-18`
 
-       .. rst-class:: solution
+.. rst-class:: solution
 
-       :math:`4x+y+2z-18=0`
-     - **b)** the plane parallel to the :math:`xy`-plane and through the
-       point :math:`P(4,-2,7)`.
+:math:`4x+y+2z-18=0`
 
-       .. rst-class:: solution
+.. rst-class:: keepwithnext
 
-       :math:`[x,y,z]=[4,-2,7]+s[1,0,0]+t[0,1,0]`
+**b)** the plane parallel to the :math:`xy`-plane and through the
+point :math:`P(4,-2,7)`.
 
-       .. rst-class:: solution
+.. rst-class:: solution
 
-       :math:`z-7=0`
+:math:`[x,y,z]=[4,-2,7]+s[1,0,0]+t[0,1,0]`
+
+.. rst-class:: solution
+
+:math:`z-7=0`
 
 .. rst-class:: keepwithnext
 
@@ -817,6 +812,8 @@ The lines **intersect** (consistent system) at :math:`(8,2,3)`.
 
 :solmath:`\pi_1: x=10+5y-2z;\ \text{sub into }\pi_2 \Rightarrow
 12y-4z+16=0 \Rightarrow z=3y+4`
+
+.. rst-class:: solution
 
 :solmath:`\text{sub both into }\pi_3 \Rightarrow 60+45y-15z=0
 \Rightarrow z=3y+4` (identical to the relation above)

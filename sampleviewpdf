@@ -1,0 +1,96 @@
+#!/usr/bin/env bash
+#
+set -eo pipefail # had to remove th -u to stop bash evaluating "help" as a variable
+#
+# bash trick to obtain a clean absolute path to this script.
+#
+pushd `dirname $0` >/dev/null
+SCRIPTPATH=`pwd -P`
+popd >/dev/null
+SCRIPPATH=$(pwd)
+SCRIPTNAME="$(basename ${0})"
+#
+#
+NLESSON="${1:-1}"
+##
+## Derive these variable values from
+## their position in the filesystem
+## 
+MYCOURSEDIR=$(dirname ${SCRIPTPATH})
+MYCOURSE=$(basename ${MYCOURSEDIR})
+SCRIPPATHBASE=$(basename ${SCRIPPATH})
+UNIT="${SCRIPPATHBASE:0:4}"
+
+####
+#### confifure these depending on what you are reviewing
+####
+#### MYCOURSE="g12-calculus-and-vectors"
+MYLANG="en"     # use "en" or "fr"
+####
+
+DOHELP="False"
+# Bash bending over backwards to work numbers
+if [[ "${NLESSON}" -gt "0" && "${NLESSON}" -lt "13" ]] ; then
+    NLESSON=$(expr $NLESSON + 0)
+else
+    NLESSON="1"
+    DOHELP="True"
+fi
+###
+
+PSUBDIR="${HOME}/repos/claudegrab/${MYCOURSE}/${UNIT}lessons-pdfs"
+
+### Make up our list of eligible files to view
+PBA="${UNIT}lesson0${NLESSON}-${MYLANG}.pdf"
+PSA="${UNIT}lesson0${NLESSON}-solutions-${MYLANG}.pdf"
+PBB="${UNIT}worksheet0${NLESSON}-${MYLANG}.pdf"
+PSB="${UNIT}worksheet0${NLESSON}-solutions-${MYLANG}.pdf"
+PBC="${UNIT}review0${NLESSON}-${MYLANG}.pdf"
+PSC="${UNIT}review0${NLESSON}-solutions-${MYLANG}.pdf"
+PBX="${UNIT}exam0${NLESSON}-${MYLANG}.pdf"
+PSX="${UNIT}exam0${NLESSON}-solutions-${MYLANG}.pdf"
+# note if you use PLC or PSC be sure nlesson is the correct number for it
+# add/remove lines here to affect what is viewed
+pdfstoview () {
+    [[ -r "${SCRIPPATH}/$PBA" ]] && echo -e "${SCRIPPATH}/$PBA"
+    [[ -r "${SCRIPPATH}/$PSA" ]] && echo -e "${SCRIPPATH}/$PSA"
+    [[ -r "${SCRIPPATH}/$PBB" ]] && echo -e "${SCRIPPATH}/$PBB"
+    [[ -r "${SCRIPPATH}/$PSB" ]] && echo -e "${SCRIPPATH}/$PSB"
+    [[ -r "${SCRIPPATH}/$PBC" ]] && echo -e "${SCRIPPATH}/$PBC"
+    [[ -r "${SCRIPPATH}/$PSC" ]] && echo -e "${SCRIPPATH}/$PSC"
+    [[ -r "${SCRIPPATH}/$PBX" ]] && echo -e "${SCRIPPATH}/$PBX"
+    [[ -r "${SCRIPPATH}/$PSX" ]] && echo -e "${SCRIPPATH}/$PSX"
+}
+
+mapfile -t viewablepdfs < <(pdfstoview)
+##
+##
+ 
+SCRIPTNAME="$(basename ${0})"
+
+if [[ "True" == "${DOHELP}" ]] ; then
+    cat <<EOF
+${SCRIPTNAME}:
+
+    Use: ${SCRIPTNAME} NLESSON
+
+    This is a convenience script we use to open one or more .pdf files for review.
+    These are parameter values derived from the current defaults in "${SCRIPTNAME}":
+        "${PSUBDIR}"
+        "${PBA} ${PBB} ${PBC}"
+        "${PSA} ${PSB} ${PSC}"
+    You can:
+        modify MLANG to change the language (currently ${MYLANG}).
+        add/remove lines from the "pdfstoview" function to identify what to view
+    Currently:
+EOF
+for aname in "${viewablepdfs[@]}"; do
+    echo "        " $aname
+done 
+    exit 1
+fi
+for aname in "${viewablepdfs[@]}"; do
+    echo "        " $aname
+    xdg-open "$aname"
+    sleep 1
+done 
