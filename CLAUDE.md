@@ -351,7 +351,13 @@ the renderer never to split that label from the content immediately
 following it across a page break (e.g. leaving `**Example 3:**` alone at
 the bottom of one page and its actual content starting fresh on the
 next). This has been standard on every `.rst` file since unit2 — apply it
-by default to new lessons/worksheets, not just when asked.
+by default to new lessons/worksheets, not just when asked. **This
+directive is a no-op before an `.. image::` directive** — the rinoh
+pipeline only honors `keepwithnext` on paragraphs, so an image can still
+land alone on the next page even with this directive right above it. To
+keep a question/explanation together with an image that follows it, wrap
+the whole group in `.. container:: keeptogether` instead (see the RST
+gotchas list below).
 
 ## RST gotchas — quick reference
 
@@ -381,6 +387,13 @@ Full narrative and reasoning for each of these is in METHODOLOGY.md's
   with 2+ populated cells hangs the rinoh renderer indefinitely. Don't
   put `.. math::` block directives inside multi-column `list-table`
   cells — restructure to sequential single-column content instead.
+- `.. rst-class:: keepwithnext` does nothing before an `.. image::`
+  directive (rinoh only patches it for paragraphs) — the image can still
+  get pushed alone onto the next page. Wrap the question text + any
+  explanation + the image in `.. container:: keeptogether` instead when
+  they genuinely need to render on one page; verify by actually
+  rendering, since this is a pagination effect, not something visible
+  in the source.
 - An escaped dollar sign (`\$`) *inside* a `:math:`/`.. math::` role or
   directive also hangs the rinoh renderer indefinitely (found
   2026-10-05, `g12-calculus-and-vectors` cvu1worksheet02). A literal `$`
