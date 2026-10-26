@@ -1,1 +1,1 @@
-/home/ubuntu/repos/claudegrab/samplerenderall.sh
+../../samplerenderall.sh

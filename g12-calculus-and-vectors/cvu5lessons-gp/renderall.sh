@@ -1,0 +1,1 @@
+../../samplerenderall-gp.sh
