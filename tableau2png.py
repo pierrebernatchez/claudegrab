@@ -23,10 +23,10 @@ the equation-number label rinoh prints beside every displayed math block
 Usage (mirrors divtableau.py's own CLI, plus --out and --dpi):
 
     python3 tableau2png.py poly --dividend=3,-5,-7,-1 --divisor=1,-3 \\
-        --out u2lessons-media/u2lesson01-image06.png
+        --out afu2-media/u2lesson01-image06.png
 
     python3 tableau2png.py numeric --dividend=753 --divisor=22 \\
-        --out u2lessons-media/u2lesson01-image01.png
+        --out afu2-media/u2lesson01-image01.png
 
 Requires single2pdf on PATH or at ~/.rinohbox/bashsources/single2pdf, and
 pdftoppm (poppler-utils) on PATH.

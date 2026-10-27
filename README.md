@@ -26,28 +26,38 @@ See CLAUDE.md's "Course layer" section for the full reasoning.
 ## Layout
 
 Everything for one course lives flat inside that course's own directory,
-one set of directories per unit (the examples below use
-`g12-advanced-functions/` as the concrete course):
+one set of directories per unit, named `<course-prefix><unit-or-fc>-<type>`
+(the examples below use `g12-advanced-functions/`, prefix `af`, as the
+concrete course):
 
-- `lessons/` — the `.rst` files (lesson + worksheet, each with a
+- `afu1-rst/` — the `.rst` files (lesson + worksheet, each with a
   solutions variant, each in English and French).
-- `lessons-gp/` — one `gnuplot` script per figure.
-- `lessons-media/` — the `.png` files those scripts render.
-- `lessons-pdfs/` — rendered PDFs dropped in here for review.
+- `afu1-gp/` — one `gnuplot` script per figure.
+- `afu1-media/` — the `.png` files those scripts render.
+- `afu1-pdfs/` — rendered PDFs dropped in here for review. Also carries a
+  `vp` symlink to the repo-root `sampleviewpdf` — run `./vp NN` from
+  inside it to pop open that lesson/worksheet's PDFs for a quick visual
+  check. Create and `git add -f` one of these (it's past a generic
+  `vp` gitignore pattern meant for something else) in every new
+  `-pdfs/` directory.
 - `upstream/` — the original source PDFs being transcribed.
 
-`lessons-media/` and `lessons-pdfs/` are entirely gitignored content —
+`afu1-media/` and `afu1-pdfs/` are entirely gitignored content —
 git won't recreate an empty directory on clone, so each carries a
 tracked `placeholder.txt` just to keep the directory itself present.
-When creating a new unit's `uNlessons-media/`/`uNlessons-pdfs/`, add the
+When creating a new unit's `<prefix>uN-media/`/`<prefix>uN-pdfs/`, add the
 same placeholder there too.
 
-Unit1 uses these names unprefixed, as above. Unit2 onward prefixes
-*everything* — both the directory names and every filename inside them —
-with `uN`: `u2lessons/`, `u2lessons-gp/`, `u2lessons-media/`,
-`u2lessons-pdfs/`, and files like `u2lesson01-en.rst`,
-`u2lesson01-image04.gp`. Source PDFs for unit2+ go in the shared
-`upstream/` directory too, also prefixed (`upstream/u2lesson1.pdf`).
+Every unit's *directories* carry the full `<prefix>uN-` naming (including
+unit1 — `afu1-rst/`, `afu1-gp/`, etc.), applied uniformly as of a
+2026-10-26 retrofit (see CLAUDE.md's "Course layer" section for the
+before/after and why filenames were deliberately left alone). *Filenames*
+are a separate, narrower convention: unit1's stay unprefixed
+(`lesson01-en.rst`), and unit2 onward prefixes every filename with a bare
+`uN` — no course prefix — e.g. `u2lesson01-en.rst`, `u2lesson01-image04.gp`,
+living inside `afu2-rst/`/`afu2-gp/`. Source PDFs for unit2+ go in the
+shared `upstream/` directory too, also prefixed with the bare `uN`
+(`upstream/u2lesson1.pdf`).
 
 ## Naming a file
 
@@ -56,20 +66,21 @@ For lesson `NN` (two digits, zero-padded) and its paired worksheet
 
 | What | Pattern |
 |---|---|
-| Lesson, blank | `lessons/lessonNN-en.rst` / `-fr.rst` |
-| Lesson, solutions | `lessons/lessonNN-solutions-en.rst` / `-fr.rst` |
-| Worksheet, blank | `lessons/worksheetNN-en.rst` / `-fr.rst` |
-| Worksheet, solutions | `lessons/worksheetNN-solutions-en.rst` / `-fr.rst` |
-| Figure script | `lessons-gp/lessonNN-imageMM.gp` (or `worksheetNN-`) |
-| Rendered figure | `lessons-media/lessonNN-imageMM.png` |
-| Review PDF | `lessons-pdfs/lessonNN-en.pdf`, etc. |
+| Lesson, blank | `afu1-rst/lessonNN-en.rst` / `-fr.rst` |
+| Lesson, solutions | `afu1-rst/lessonNN-solutions-en.rst` / `-fr.rst` |
+| Worksheet, blank | `afu1-rst/worksheetNN-en.rst` / `-fr.rst` |
+| Worksheet, solutions | `afu1-rst/worksheetNN-solutions-en.rst` / `-fr.rst` |
+| Figure script | `afu1-gp/lessonNN-imageMM.gp` (or `worksheetNN-`) |
+| Rendered figure | `afu1-media/lessonNN-imageMM.png` |
+| Review PDF | `afu1-pdfs/lessonNN-en.pdf`, etc. |
 
 `MM` is a two-digit figure number in reading order through the source
 PDF, starting at `01`; lessons and worksheets each number their own
-figures independently. For unit2+, prefix every one of these filenames
-with `u2` (`u2lesson01-en.rst`, `u2lesson01-image04.gp`, ...) — only the
-`lessons-media`/`lessons-gp`/etc. *directory* names carry the unit
-prefix for unit2+, matching the file convention above.
+figures independently. For unit2+, prefix every one of these *filenames*
+with a bare `u2` (`u2lesson01-en.rst`, `u2lesson01-image04.gp`, ...),
+living inside that unit's own `afu2-rst/`/`afu2-gp/`/etc. — the
+*directory* names always carry the full `af`+unit prefix, for every unit
+including unit1, which the filenames themselves don't.
 
 ## Building a new lesson or worksheet
 
@@ -87,10 +98,10 @@ Always in this order — don't skip ahead or combine steps:
 ## Rendering a figure
 
 ```
-cd g12-advanced-functions/lessons-gp && gnuplot lessonNN-imageMM.gp
+cd g12-advanced-functions/afu1-gp && gnuplot lessonNN-imageMM.gp
 ```
 
-This writes into `../lessons-media/`. Every `.rst` file's `image::`
+This writes into `../afu1-media/`. Every `.rst` file's `image::`
 directive instead references `../images/lessonNN-imageMM.png` — a fixed
 path that never changes per unit. `images` is a local symlink, created
 *inside the course directory* you're working in, pointed at whichever
@@ -99,15 +110,15 @@ committed to git, so set it before rendering/reviewing:
 
 ```
 cd g12-advanced-functions
-ln -sfn lessons-media images      # working on unit1
-ln -sfn u2lessons-media images    # working on unit2
+ln -sfn afu1-media images      # working on unit1
+ln -sfn afu2-media images      # working on unit2
 ```
 
 ## Rendering a document for review
 
 Before rendering any `.rst` to PDF, the figures it references have to
 already exist as `.png` files — nothing renders them on the fly. Run
-`lessons-gp/render-all.sh` first (from anywhere — it `cd`s to its own
+`afu1-gp/render-all.sh` first (from anywhere — it `cd`s to its own
 directory) to regenerate every figure in one pass. This only needs to be
 re-run after a `.gp` script has actually changed; it's harmless to run
 unconditionally, just slower than it needs to be if nothing changed.
@@ -117,15 +128,15 @@ PDF rendering depends on a separate GitHub project, `rinohbox`
 vendored here. Its own source lives at `~/repos/rinohbox`; the
 installed command this repo's scripts actually call is
 `~/.rinohbox/bashsources/single2pdf`. For quick spot-checks of a
-single file, run `single2pdf <filename.rst>` from within `lessons/` —
-it renders straight to `lessons-pdfs/`. To re-render everything at once, run
-`lessons/renderall-en.sh` or `lessons/renderall-fr.sh` (from anywhere —
+single file, run `single2pdf <filename.rst>` from within `afu1-rst/` —
+it renders straight to `afu1-pdfs/`. To re-render everything at once, run
+`afu1-rst/renderall-en.sh` or `afu1-rst/renderall-fr.sh` (from anywhere —
 each `cd`s to its own directory first) to render every `-en.rst` or
-`-fr.rst` file in `lessons/` in one pass.
+`-fr.rst` file in `afu1-rst/` in one pass.
 
 ## Before calling a document done
 
-- `python3 -c "from docutils.core import publish_doctree; publish_doctree(open('g12-advanced-functions/lessons/lessonNN-en.rst').read())"` — should raise nothing.
+- `python3 -c "from docutils.core import publish_doctree; publish_doctree(open('g12-advanced-functions/afu1-rst/lessonNN-en.rst').read())"` — should raise nothing.
 - Check for any table cell whose entire content is a bare `-` or `+`
   (misread as an empty bullet) or a genuinely empty cell (collapses to
   near-zero row height) — wrap the former in double backticks, fill the

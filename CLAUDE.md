@@ -32,20 +32,45 @@ section), and one top-level directory per course, named `g12-<course-slug>`
 (`g12` = grade 12; a future non-grade-12 course would use a different grade
 number). Right now there are two: `g12-advanced-functions/` (complete), and
 `g12-calculus-and-vectors/`, scaffolded on 2026-10-04 and starting unit1
-transcription on 2026-10-05. Calculus and Vectors uses a **course-tagged**
-`cvN` prefix on every unit's directories and filenames, starting from its
-own **unit1** (`cvu1lessons/`, `cvu1lesson01-en.rst`, `cvu2lessons/` once
-unit2 starts, etc.) — unlike Advanced Functions' unit1, which stayed
-unprefixed only because it predates the plain `uN` convention and
-retrofitting it wasn't worth the risk (see "Directory layout" below). A new
-course has no such legacy to carry forward, so it prefixes every one of its
-units consistently from unit1 onward, with no grandfathering. The `cv` tag
-itself is just this course's own chosen instantiation of the general "each
-course picks its own `uN`-equivalent prefix" rule — it doesn't change that
-general rule, and it doesn't imply retrofitting Advanced Functions' own
-already-complete plain-`uN` files. It otherwise follows the exact same
-internal pattern as Advanced Functions: its own `fc/` group-prefix for
-course-wide content if/when it needs one, and its own `upstream/`.
+transcription on 2026-10-05.
+
+Every course has its own 2-character prefix — `cv` for Calculus and
+Vectors, `af` for Advanced Functions — applied to every one of its
+content *directories*, from unit1 onward, with no grandfathering
+(`cvu1-rst/`, `cvu2-gp/`, `cvfc-media/`; `afu1-rst/`, `afu2-gp/`,
+`affc-media/`; see "Directory layout" below for the full directory-naming
+scheme). This is uniform across both courses as of a 2026-10-26 retrofit:
+Advanced Functions previously had no directory-level course prefix at
+all, and its unit1 directories in particular were fully bare (`lessons/`,
+`lessons-gp/`, no prefix, no unit number, no suffix); Calculus and
+Vectors already had its `cv` prefix on every directory but those
+directories still carried a redundant `lessons` substring
+(`cvu2lessons-gp` rather than `cvu2-gp`). `structure-note.txt` (repo root)
+has the full before/after anomaly list this retrofit was based on.
+
+The directory-level course prefix is a separate decision from whether a
+course also prefixes its *filenames*, and the two courses differ there:
+Calculus and Vectors prefixes every filename with `cv` too, from its own
+unit1 onward (`cvu1lesson01-en.rst`, `cvu2lesson01-en.rst`, ...) — this is
+just this course's own chosen instantiation of the general "each course
+picks its own `uN`-equivalent prefix" rule, unaffected by the 2026-10-26
+retrofit. Advanced Functions' filenames, by contrast, deliberately still
+carry **no** `af` prefix (unit1's filenames stay fully bare —
+`lesson01-en.rst`; units 2-7's filenames carry only the bare `uN` prefix —
+`u2lesson01-en.rst`, no `af`) — a conscious choice made alongside the
+directory retrofit, not an oversight and not reopened by it: the `uN`
+filename prefix is what actually prevents Pelican-flattening slug
+collisions *within* a course (see the discussion below); a course-level
+*filename* prefix would only start to matter if Pelican ever unifies
+multiple courses into one shared namespace, which remains the explicitly
+open, undecided question described next — so retrofitting roughly 1200
+`.gp` and 700 `.rst` filenames (plus their PDFs and upstream originals)
+for an already-complete, reviewed, closed course wasn't worth doing
+preemptively. Only the directory layer — purely organizational, with no
+review/collision history riding on it — was retrofitted now. It otherwise
+follows the exact same internal pattern as Advanced Functions: its own
+`fc`-equivalent group-prefix for course-wide content (`affc-`/`cvfc-`) if/
+when it needs one, and its own `upstream/`.
 
 Each course directory is internally flat, in exactly the shape the rest of
 this file describes — "Directory layout," "Naming convention," "Tableau
@@ -70,10 +95,10 @@ Two mechanical facts that follow from the extra nesting level, both already
 applied throughout `g12-advanced-functions/`:
 - Every `*-tableaux/*.tableau` script reaches the shared `tableau2png.py`
   via `../../tableau2png.py` — two levels up (out of its own
-  `uNlessons-tableaux/` directory, then out of the course directory, to the
-  true repo root where the shared tools live). Don't write `../tableau2png.py`
-  in a new course's `.tableau` scripts; that only works one level up from
-  the true repo root.
+  `<prefix>uN-tableaux/` directory, e.g. `afu2-tableaux/`, then out of the
+  course directory, to the true repo root where the shared tools live).
+  Don't write `../tableau2png.py` in a new course's `.tableau` scripts;
+  that only works one level up from the true repo root.
 - The per-session `images` symlink (see below) is created *inside* the
   course directory you're working in (e.g. `g12-advanced-functions/images`),
   not at the true repo root, since that's where the `.rst` files whose
@@ -85,8 +110,9 @@ root: `divtableau.py`, `tableau2png.py`, the `check_*.py` checker scripts,
 `instructions-re-attributes.txt`, `review-pair.sh`/`review-trio.sh`,
 `inequality_graph.py`, `sanitize-args-idiom`, and this file along with
 `METHODOLOGY.md`/`README.md`/`REUSE-GUIDE.md`. The checker scripts discover
-files recursively (`**/*lessons*/...`), so they audit every course at once
-with no per-course invocation needed.
+files recursively by directory-type suffix (`**/*-rst/...`,
+`**/*-tableaux/...`), so they audit every course at once with no
+per-course invocation needed.
 
 ## Directory layout
 
@@ -96,52 +122,68 @@ Within a course directory, content lives flat — **not** nested under a
 shared namespace regardless of source directory, so directory nesting
 never actually prevented name collisions — only a naming prefix does).
 Each unit gets its own set of top-level directories within the course
-directory. The bullets below walk through Advanced Functions' own
-history as the worked example; Calculus and Vectors has no
-unprefixed-unit1 legacy to carry forward, so it uses its own `cvN`-prefixed
-form (`cvu1lessons/`, `cvu1lesson01-en.rst`, ...) starting from its own
-unit1 — see "Course layer" above. A future course is free to pick its own
-scheme in turn; nothing here mandates `cv`-style tagging repo-wide.
+directory, named `<course-prefix><unit-or-fc>-<type-suffix>` — e.g.
+`afu2-gp` (Advanced Functions, unit2, gnuplot scripts), `cvfc-media`
+(Calculus and Vectors, full-course group, rendered images). This is
+uniform across both courses and every unit, including each course's own
+unit1 — retrofitted onto Advanced Functions on 2026-10-26 (see "Course
+layer" above for the before/after). The bullets below use Advanced
+Functions' own directories as the worked example; Calculus and Vectors
+follows the identical pattern with `cv` in place of `af`.
 
-- `lessons/` / `lessons-gp/` / `lessons-media/` / `lessons-pdfs/` —
-  Advanced Functions' unit1 content (unprefixed; unit1 predates the
-  `uN`-prefix naming convention below and is grandfathered rather than
-  retrofitted for filenames, since retrofitting risks breaking things
-  that already work for no real benefit).
-- `u2lessons/` / `u2lessons-gp/` / `u2lessons-media/` / `u2lessons-pdfs/`
-  — unit2's content, and `u3lessons/` etc. for unit3 onward, following
-  the same pattern. **Every unit from unit2 onward uses a `uN` prefix on
-  both the directory names and every filename inside them** (e.g.
-  `u2lesson01-solutions-en.rst`, `u2lesson01-gpimage04.gp`) — this is what
-  actually guarantees no collisions once Pelican flattens everything,
-  and it's why the `unitN/` subdirectory approach was unnecessary.
-  Unit2 also has `u2lessons-tableaux/` — a fifth per-unit directory, for
-  figures that are typeset math rather than a `gnuplot` plot, needed
-  starting with unit2's content. See "Tableau figures" below; not every
-  unit necessarily needs one (unit1 doesn't have one).
-- `fc/` / `fc-gp/` / `fc-media/` / `fc-pdfs/` / `fc-tableaux/` — same
-  five-directory shape as a `uN` unit, but `fc` is a **group prefix for
-  content that spans the whole course**, not one unit's material. Holds
-  the two course-wide, cross-unit documents built after all seven units
-  were done: `fcreview01` (a full-course exam review, one section per
-  unit) and `fcexam02` (a full-course practice final exam), each with
-  the usual blank + solutions, English + French set of `.rst` files.
-  Everything else about these directories (naming convention,
-  `gpimage`/`tabimage` split, `images` symlink handling, gitignore
-  pattern) works exactly like a `uN` unit's directories — `fc` is just
-  the prefix instead of a unit number.
-- `lessons/` — the `.rst` source documents for both lessons and
-  worksheets (student version with fill-in blanks, and the solutions
-  version), rendered externally (e.g. to PDF) outside this repo.
-- `lessons-gp/` — the `gnuplot` scripts, one per figure. Each `.gp`
-  script's `set output` writes directly into that unit's own real media
-  directory — see the `images`/`lessons-media` note below.
-- `lessons-pdfs/` — rendered PDFs of the `.rst` documents, dropped in for
-  review/evaluation. Not generated by anything in this repo.
+- `afu1-rst/` / `afu1-gp/` / `afu1-media/` / `afu1-pdfs/` — Advanced
+  Functions' unit1 content.
+- `afu2-rst/` / `afu2-gp/` / `afu2-media/` / `afu2-pdfs/` — unit2's
+  content, and `afu3-rst/` etc. for unit3 onward, following the same
+  pattern. **Every unit's filenames carry a bare `uN` prefix, with no
+  course prefix** (e.g. `u2lesson01-solutions-en.rst`,
+  `u2lesson01-gpimage04.gp`) — this is what actually guarantees no
+  collisions once Pelican flattens everything, and it's why the `unitN/`
+  subdirectory approach was unnecessary; see "Course layer" above for why
+  this filename prefix stays bare even though the directory it lives in
+  now carries the full `af`/`cv` prefix. Unit2 also has
+  `afu2-tableaux/` — a fifth per-unit directory, for figures that are
+  typeset math rather than a `gnuplot` plot, needed starting with unit2's
+  content. See "Tableau figures" below; not every unit necessarily needs
+  one (unit1 doesn't have one).
+- `affc-rst/` / `affc-gp/` / `affc-media/` / `affc-pdfs/` / `affc-tableaux/`
+  — same five-directory shape as a unit, but the `fc` segment (giving
+  `affc-`) is a **group prefix for content that spans the whole course**,
+  not one unit's material. Holds the two course-wide, cross-unit
+  documents built after all seven units were done: `fcreview01` (a
+  full-course exam review, one section per unit) and `fcexam02` (a
+  full-course practice final exam), each with the usual blank +
+  solutions, English + French set of `.rst` files. Everything else about
+  these directories (naming convention, `gpimage`/`tabimage` split,
+  `images` symlink handling, gitignore pattern) works exactly like a
+  unit's directories — `fc` is just the group-prefix segment instead of a
+  unit number.
+- `afu1-rst/`, `afu2-rst/`, etc. — the `.rst` source documents for both
+  lessons and worksheets (student version with fill-in blanks, and the
+  solutions version), rendered externally (e.g. to PDF) outside this repo.
+- `afu1-gp/`, `afu2-gp/`, etc. — the `gnuplot` scripts, one per figure.
+  Each `.gp` script's `set output` writes directly into that unit's own
+  real media directory — see the `images`/`-media` note below.
+- `afu1-pdfs/`, `afu2-pdfs/`, etc. — rendered PDFs of the `.rst`
+  documents, dropped in for review/evaluation. Not generated by anything
+  in this repo. Every `-pdfs/` directory also gets a `vp` symlink to the
+  repo-root `sampleviewpdf` (e.g. `afu2-pdfs/vp -> ../../sampleviewpdf`)
+  — a reviewing convenience that opens a given lesson/worksheet's
+  blank+solutions PDFs (in whichever language) for a quick visual
+  spot-check, inferring the unit from the directory it's run in. Unlike
+  the per-session `images` symlink below, **`vp` is deliberately
+  committed to git** (force-added past the generic bare `vp` pattern in
+  `.gitignore`, which exists for an unrelated ad-hoc script) — create and
+  `git add -f` one in every new `-pdfs/` directory as it's created, not
+  just the ones that already have it.
 - `upstream/` — original source PDFs being transcribed (e.g.
   `upstream/lesson1.pdf`) and their per-lesson instructions files (e.g.
   `upstream/lesson1-instructions.txt`), all in one place regardless of
-  unit. Unit1's files stay unprefixed; unit2+ source PDFs must get the
+  unit. `upstream/` is not itself subject to the per-course directory
+  prefix (every course has exactly one `upstream/`, needing no
+  disambiguation from anything else inside that same course directory);
+  the files inside it follow the filename-level convention instead:
+  unit1's files stay unprefixed, unit2+ source PDFs must get the bare
   `uN` prefix here too (e.g. `upstream/u2lesson1.pdf`) even though the
   original PDF's filename doesn't have one, since `upstream/` is a single
   shared directory and an unprefixed `lesson1.pdf` would otherwise
@@ -151,11 +193,11 @@ Template/reference material and tools that aren't specific to any one
 course stay at the true repo root instead of inside a course directory —
 see "Course layer" above for the full list.
 
-**`images` / `lessons-media` — real directory vs. local symlink:** every
-unit's `.gp` scripts write their figures directly into that unit's own
-real media directory — `lessons-media/` for unit1, `uNlessons-media/`
-for unit2 onward (e.g. `set output '../lessons-media/lesson01-image01.png'`).
-No indirection in the `.gp` scripts themselves. But every `.rst` file's
+**`images` / `-media` — real directory vs. local symlink:** every unit's
+`.gp` scripts write their figures directly into that unit's own real
+media directory — `afu1-media/` for unit1, `afu2-media/` for unit2, and
+so on (e.g. `set output '../afu1-media/lesson01-image01.png'`). No
+indirection in the `.gp` scripts themselves. But every `.rst` file's
 `image::` reference stays `../images/<file>.png` regardless of unit (per
 the naming convention below, this path is never supposed to change) —
 since a course directory can only have one directory literally named
@@ -166,18 +208,21 @@ that unit's real media directory, e.g.:
 
 ```
 cd g12-advanced-functions
-ln -sfn lessons-media images      # working on unit1
-ln -sfn u2lessons-media images    # working on unit2
+ln -sfn afu1-media images      # working on unit1
+ln -sfn afu2-media images      # working on unit2
 ```
 
 This `images` symlink is intentionally **not committed to git**
 (`.gitignore`'d) — it's recreated per work session depending on which
 unit you're rendering, rather than fixed as static repo state. Because
-unit1 is unprefixed and unit2+ filenames all carry the `uN` prefix,
-forgetting to re-point this symlink before switching units fails loudly
-(missing file) rather than silently serving the wrong unit's figure.
-(Unit1 originally wrote figures into `images/` directly with no separate
-`lessons-media/`; retrofitted on 2026-09-07 to match this scheme.)
+every unit's real media directory is distinctly named (`afu1-media`,
+`afu2-media`, ...), forgetting to re-point this symlink before switching
+units fails loudly (missing file) rather than silently serving the wrong
+unit's figure. (Unit1 originally wrote figures into `images/` directly
+with no separate media directory; retrofitted on 2026-09-07 to match this
+scheme, and its directory renamed from `lessons-media/` to `afu1-media/`
+on 2026-10-26 along with the rest of the course — see "Course layer"
+above.)
 
 As of 2026-09-30, **the full grade 12 Advanced Functions course
 content is complete**, in both English and French: all seven units
@@ -185,20 +230,25 @@ content is complete**, in both English and French: all seven units
 lessons + `u3review09`, unit4 5 lessons + `u4review06`, unit5 7 lessons
 + `u5review08`, unit6 4 lessons + `u6review05`, unit7 5 lessons +
 `u7review06`, rational/combined functions), plus the two course-wide
-`fc/`-prefixed documents built after all seven units were done
-(`fcreview01`, a full-course exam review, and `fcexam02`, a full-course
-practice final exam — see "Directory layout" above). Every one of these
-has a blank + solutions version in both languages, staged (some also
-committed/pushed; check `git log`/`git status` for the current state
-of any given file rather than trusting this paragraph's exact
-commit/push status, which will drift). On 2026-10-04 this entire course's
-directories (and its own `upstream/`, teacher-feedback notes, and
-historical scratch files) were moved as-is, with no filename changes,
-from the (then-single-course) repo root into `g12-advanced-functions/`,
-to make room for a second course, `g12-calculus-and-vectors/` — see
-"Course layer" above. Should a future unit or course-wide document be
-added to a course, follow the same pattern: create its `uNlessons/`,
-`uNlessons-gp/`, `uNlessons-media/`, `uNlessons-pdfs/` (or `fc`-style)
+`fc`-group-prefixed (`affc-`) documents built after all seven units were
+done (`fcreview01`, a full-course exam review, and `fcexam02`, a
+full-course practice final exam — see "Directory layout" above). Every
+one of these has a blank + solutions version in both languages, staged
+(some also committed/pushed; check `git log`/`git status` for the
+current state of any given file rather than trusting this paragraph's
+exact commit/push status, which will drift). On 2026-10-04 this entire
+course's directories (and its own `upstream/`, teacher-feedback notes,
+and historical scratch files) were moved as-is, with no filename
+changes, from the (then-single-course) repo root into
+`g12-advanced-functions/`, to make room for a second course,
+`g12-calculus-and-vectors/` — see "Course layer" above. On 2026-10-26
+every one of this course's directories was renamed again, this time to
+gain the `af` course prefix and lose unit1's old directory-level
+exception (see "Course layer" above) — still with no filename changes.
+
+Should a future unit or course-wide document be added to a course,
+follow the same pattern: create its `<prefix>uN-rst/`, `<prefix>uN-gp/`,
+`<prefix>uN-media/`, `<prefix>uN-pdfs/` (or `<prefix>fc`-style)
 directories fresh inside that course's own directory and apply the
 matching prefix to every file inside them from the start.
 
@@ -208,39 +258,41 @@ Everything for a given lesson is prefixed `lessonNN-`, and everything for its
 paired worksheet is prefixed `worksheetNN-` (two-digit, zero-padded, scales to
 many lessons without collisions). `worksheetNN` shares the same `NN` as the
 `lessonNN` it's paired with — they're not on independent counters. For unit2
-onward, every one of these also carries the unit's `uN` prefix (e.g.
+onward, every one of these also carries the unit's bare `uN` prefix (e.g.
 `u2lesson01-en.rst`, `u2lesson01-gpimage04.gp`) — unit1 stays unprefixed
-(grandfathered, see "Directory layout" above). The examples below use unit1's
-unprefixed form; for unit2+ substitute the `uN`-prefixed directory and file
-names throughout.
+(grandfathered at the filename level; see "Course layer" above — this is
+independent of the directory-level prefix each of these files now lives
+under). The examples below use unit1's unprefixed form; for unit2+
+substitute the `uN`-prefixed filenames (and the matching unit's directory
+name) throughout.
 
-- `lessons/lessonNN-en.rst` / `lessons/worksheetNN-en.rst` —
+- `afu1-rst/lessonNN-en.rst` / `afu1-rst/worksheetNN-en.rst` —
   student version, blanks preserved.
-- `lessons/lessonNN-solutions-en.rst` /
-  `lessons/worksheetNN-solutions-en.rst` — solutions version, blanks
+- `afu1-rst/lessonNN-solutions-en.rst` /
+  `afu1-rst/worksheetNN-solutions-en.rst` — solutions version, blanks
   filled in.
-- `lessons-gp/lessonNN-imageMM.gp` /
-  `lessons-gp/worksheetNN-imageMM.gp` — one script per figure, `MM`
+- `afu1-gp/lessonNN-imageMM.gp` /
+  `afu1-gp/worksheetNN-imageMM.gp` — one script per figure, `MM`
   = two-digit sequence number in reading order (top-to-bottom, page by
   page) through the source PDF, starting at `01`. Lesson and worksheet
   figures are numbered independently of each other (each starts its own
   `MM` sequence at `01`). For unit2 onward, see "Tableau figures" below —
   this becomes `gpimageMM`/`tabimageMM`, not plain `imageMM`.
-- `lessons-media/lessonNN-imageMM.png` /
-  `lessons-media/worksheetNN-imageMM.png` — the corresponding rendered
+- `afu1-media/lessonNN-imageMM.png` /
+  `afu1-media/worksheetNN-imageMM.png` — the corresponding rendered
   figure. A `.gp` script's `set output` must read
-  `'../lessons-media/lessonNN-imageMM.png'` (or the `worksheetNN`
-  equivalent, and the `uNlessons-media` equivalent for unit2+) — this
-  writes directly into the unit's own real media directory, no
+  `'../afu1-media/lessonNN-imageMM.png'` (or the `worksheetNN`
+  equivalent, and the matching unit's `-media` directory for unit2+) —
+  this writes directly into the unit's own real media directory, no
   indirection. The `.rst` file's `image::` directive, by contrast, always
   says `../images/...` regardless of unit, resolved via the `images`
   symlink described above. It must be invoked with the course's
-  `lessons-gp/` as the working directory:
+  `afu1-gp/` as the working directory:
   ```
-  cd g12-advanced-functions/lessons-gp && gnuplot lessonNN-imageMM.gp
+  cd g12-advanced-functions/afu1-gp && gnuplot lessonNN-imageMM.gp
   ```
-- `lessons-pdfs/lessonNN-en.pdf` /
-  `lessons-pdfs/lessonNN-solutions-en.pdf` (and the `worksheetNN`
+- `afu1-pdfs/lessonNN-en.pdf` /
+  `afu1-pdfs/lessonNN-solutions-en.pdf` (and the `worksheetNN`
   equivalents) — rendered output for review.
 
 The `solutions` segment (not `answers`) is used for both lesson and
@@ -255,7 +307,7 @@ Not every figure is a `gnuplot` plot. Starting with unit2 (long division of
 polynomials, synthetic division), some figures are typeset math — a LaTeX
 array, with rules the array itself can't draw — not a curve, so `gnuplot`
 doesn't apply. These use a parallel pipeline instead, unit2-onward only
-(unit1 has no `lessons-tableaux/` directory; it never needed one). See
+(unit1 has no `afu1-tableaux/` directory; it never needed one). See
 METHODOLOGY.md's "know when your primary rendering tool doesn't apply" for
 the general reasoning behind this second pipeline.
 
@@ -280,14 +332,15 @@ the general reasoning behind this second pipeline.
   filename cited from both — a "given" reused as-is, not an answer)
   must **not** get `--solution`, since that would leak the answer into
   the blank doc.
-- `uNlessons-tableaux/uNlessonNN-tabimageMM.tableau` /
-  `uNlessons-tableaux/uNworksheetNN-tabimageMM.tableau` — one shell script
-  per tableau figure, the same role `lessons-gp/*.gp` plays for `gnuplot`
-  figures: standalone and re-runnable, its only job is invoking the
-  repo-root `tableau2png.py` (reached via `../../tableau2png.py` — one
-  level out of `uNlessons-tableaux/`, one more out of the course
-  directory) with this figure's specific numbers and writing into
-  `uNlessons-media/`. `MM` follows the same reading-order numbering rule as
+- `<prefix>uN-tableaux/uNlessonNN-tabimageMM.tableau` /
+  `<prefix>uN-tableaux/uNworksheetNN-tabimageMM.tableau` — one shell script
+  per tableau figure (e.g. `afu2-tableaux/u2lesson01-tabimage05.tableau`),
+  the same role `*-gp/*.gp` plays for `gnuplot` figures: standalone and
+  re-runnable, its only job is invoking the repo-root `tableau2png.py`
+  (reached via `../../tableau2png.py` — one level out of
+  `<prefix>uN-tableaux/`, one more out of the course directory) with this
+  figure's specific numbers and writing into the matching unit's
+  `-media/` directory. `MM` follows the same reading-order numbering rule as
   `.gp` figures (see "Naming convention" above) — a lesson's figures can
   mix `.gp` and `.tableau` scripts sharing one `MM` sequence, numbered by
   where they fall in the source PDF, not by which tool produced them.
@@ -304,13 +357,13 @@ the general reasoning behind this second pipeline.
   `.gp` scripts keep plain `imageMM` naming). See METHODOLOGY.md's
   "preventing collisions by construction" for why this is a naming rule
   and not a runtime guard script.
-- `uNlessons-tableaux/render-all.sh` — renders every `*.tableau` script in
-  that directory, same convention as `lessons-gp/render-all.sh`.
+- `<prefix>uN-tableaux/render-all.sh` — renders every `*.tableau` script in
+  that directory, same convention as `*-gp/render-all.sh`.
 - `test_divtableau.py` (repo root) — pixel-verified regression tests for
   `divtableau.py`'s layout math. Run `python3 test_divtableau.py` after any
   change to `divtableau.py`.
 - `check_tableau_solution_flag.py` (repo root) — audits every
-  `*lessons-tableaux/*.tableau` script, in every course directory, against
+  `*-tableaux/*.tableau` script, in every course directory, against
   how its output PNG is actually referenced across the repo's `.rst` files,
   and flags any mismatch with the `--solution` convention above (a
   solutions-only image whose script is missing `--solution`, or a shared
@@ -406,7 +459,7 @@ Full narrative and reasoning for each of these is in METHODOLOGY.md's
 
 Verify any `.rst` file with:
 ```
-python3 -c "from docutils.core import publish_doctree; publish_doctree(open('g12-advanced-functions/lessons/lessonNN-en.rst').read())"
+python3 -c "from docutils.core import publish_doctree; publish_doctree(open('g12-advanced-functions/afu1-rst/lessonNN-en.rst').read())"
 ```
 Any `SEVERE`/`Unexpected section title` output, or unexpected enumerator
 renumbering when spot-checking a rendered PDF, means something needs escaping.

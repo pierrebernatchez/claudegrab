@@ -37,11 +37,11 @@ French translation ever started.
 ## The architecture that made this tractable
 
 1. **One flat repo per course, one prefix per unit.** Every unit gets
-   its own `uNlessons/`, `uNlessons-gp/`, `uNlessons-media/`,
-   `uNlessons-pdfs/` (and, where needed, `uNlessons-tableaux/`)
-   directory set, with every filename inside carrying the same `uN`
-   prefix. No nested per-unit subdirectory tree — see `CLAUDE.md`'s
-   "Directory layout" for why that was tried and reverted (the
+   its own `<prefix>uN-rst/`, `<prefix>uN-gp/`, `<prefix>uN-media/`,
+   `<prefix>uN-pdfs/` (and, where needed, `<prefix>uN-tableaux/`)
+   directory set, with every filename inside carrying a bare `uN`
+   prefix (no course prefix). No nested per-unit subdirectory tree — see
+   `CLAUDE.md`'s "Directory layout" for why that was tried and reverted (the
    rendering pipeline flattens everything into one namespace
    regardless of source directory, so only a filename prefix actually
    prevents collisions). The course-wide capstone documents at the end

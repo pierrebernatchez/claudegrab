@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 check_tableau_solution_flag -- audit every "*tableaux/*.tableau"
-script (e.g. "u2lessons-tableaux/", "fc-tableaux/") against how its
+script (e.g. "afu2-tableaux/", "affc-tableaux/") against how its
 output PNG is actually used across the repo's .rst files, and flag any
 mismatch with the ".. math:: :class: solution" red-text convention that
 tableau2png.py's --solution flag implements.
@@ -94,7 +94,7 @@ def classify(png_name, referencing_files):
 def main():
     scripts = find_tableau_scripts()
     if not scripts:
-        print("No *lessons-tableaux/*.tableau scripts found.")
+        print("No *-tableaux/*.tableau scripts found.")
         return 0
 
     rst_files = find_rst_files()

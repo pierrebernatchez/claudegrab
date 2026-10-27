@@ -39,7 +39,7 @@ UNIT="cvu${NUNIT}"
 
 ###
 
-PSUBDIR="${HOME}/repos/claudegrab/${MYCOURSE}/${UNIT}lessons-pdfs"
+PSUBDIR="${HOME}/repos/claudegrab/${MYCOURSE}/${UNIT}-pdfs"
 
 ### Make up our list of eligible files to view
 PLA="${UNIT}lesson0${NLESSON}-${MYLANG}.pdf"

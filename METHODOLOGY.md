@@ -159,6 +159,25 @@ enough that the seam is the lesser evil — and if so, document explicitly
 *why* that content is exempt, so it reads as a deliberate boundary rather
 than an oversight.
 
+A grandfathered exception's risk/benefit can also shift over time even
+without any new content arriving — the exception itself can simply stop
+being worth keeping. On 2026-10-26 this project retrofitted its
+*directory*-naming scheme across both existing courses (adding a 2-char
+course prefix and a uniform type-suffix to every content directory,
+including one course's unit1, which had been left as a bare,
+unprefixed exception since the original `uN`-prefix convention was
+introduced) — the exception had been judged not worth retrofitting once,
+but directory renames are purely organizational and cheap to redo safely,
+so revisiting that judgment later cost little. *Filenames* were
+deliberately left out of that same retrofit, for the opposite reason:
+they're load-bearing on an already-complete, reviewed, closed course (the
+`uN` filename prefix is what actually prevents cross-content collisions —
+see above), so migrating ~1900 of them for a purely cosmetic gain wasn't
+worth it. Same underlying question — "is this still worth staying
+inconsistent for?" — two different answers for two different layers of
+the same naming scheme. See `CLAUDE.md`'s "Course layer" and "Directory
+layout" sections for the concrete before/after.
+
 ## Know when your primary rendering tool doesn't apply
 
 Not every figure is the same *kind* of figure. Most of this project's

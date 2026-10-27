@@ -47,13 +47,23 @@ MYCOURSEDIR=$(dirname ${SCRIPTPATH})
 MYCOURSE=$(basename ${MYCOURSEDIR})
 SCRIPTPATHBASE=$(basename ${SCRIPTPATH})
 echo scriptbase "$SCRIPTPATHBASE"
+# 2026-10-26 directory-naming retrofit: every -pdfs/ directory's basename
+# is now <2-char course prefix><2-char unit-or-fc token>-pdfs (afu2-pdfs,
+# cvfc-pdfs, ...) -- chars 3-4 are always the bare unit-or-fc token
+# regardless of course.
+UNITTOKEN="${SCRIPTPATHBASE:2:2}"
 if [[ "$MYCOURSE" == "g12-advanced-functions" ]] ; then
-    UNIT="${SCRIPTPATHBASE:0:2}"
+    # af's filenames deliberately carry no course prefix (see CLAUDE.md's
+    # "Course layer"): unit1 stays fully bare, unit2-7/fc carry only the
+    # bare unit-or-fc token.
+    if [[ "$UNITTOKEN" == "u1" ]] ; then
+        UNIT=""
+    else
+        UNIT="$UNITTOKEN"
+    fi
 else
+    # cv's filenames carry the full course+unit prefix.
     UNIT="${SCRIPTPATHBASE:0:4}"
-fi
-if [[ "$SCRIPTPATHBASE" == "lessons-pdfs" ]] ; then
-    UNIT=""
 fi
 
 
@@ -68,15 +78,12 @@ else
 fi
 ###
 
-if [[ "$SCRIPTPATHBASE" == "lessons-pdfs" ]] ; then
-    PSUBDIR="${HOME}/repos/claudegrab/${MYCOURSE}/$SCRIPTPATHBASE"
-else
-    PSUBDIR="${HOME}/repos/claudegrab/${MYCOURSE}/${UNIT}-pdfs"
-fi
-
-if ! [[ -d "${PSUBDIR}" ]] ; then
-    PSUBDIR="${HOME}/repos/claudegrab/${MYCOURSE}/${UNIT}lessons-pdfs"
-fi
+# SCRIPTPATH is already the real, resolved location of this -pdfs/
+# directory (that's what pushd+pwd -P above computed) -- no need to
+# reconstruct it from MYCOURSE/UNIT guesses, which is fragile across
+# naming-scheme changes. This is only used for the --help display text
+# below, not for actual file lookups (those use SCRIPTPATH directly).
+PSUBDIR="${SCRIPTPATH}"
 
 if ! [[ -d "${PSUBDIR}" ]] ; then
     echo INVALID:

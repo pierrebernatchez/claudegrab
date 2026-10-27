@@ -13,31 +13,29 @@ vp
 *.stylelog
 output.rtc
 .claude/settings.local.json
-# the leading '*' covers unit1's unprefixed lessons-pdfs/ as well as
-# unit2+'s uN-prefixed u2lessons-pdfs/, u3lessons-pdfs/, etc. in one line
-**/*lessons-pdfs/*.pdf
-# fcreview01/fcexam02 (the full-course documents) use an fc- prefix
-# instead of a uN- prefix, so they don't match the *lessons-pdfs/
-# *lessons-media/ patterns above -- covered explicitly here instead.
-# One depth-agnostic '**/' pattern for everything generated under any
-# fc-pdfs/ directory, rather than enumerating each specific file type
-# (.pdf/.errlog/.stylelog/output.rtc) -- a new generated-file type showing
-# up here shouldn't require another line. The already-tracked
-# fc-pdfs/placeholder.txt is unaffected: gitignore only hides untracked
-# files, never untracks something already committed.
-**/*fc-pdfs/*
+# 2026-10-26 directory-naming retrofit: every course now names its pdfs
+# directories uniformly as <prefix><unit-or-fc>-pdfs/ (afu1-pdfs/,
+# cvu2-pdfs/, affc-pdfs/, cvfc-pdfs/, ...), so one depth-agnostic pattern
+# covers all of them -- unit dirs and fc dirs alike -- instead of the two
+# separate patterns this used to need. Deliberately not restricted to
+# *.pdf: covers everything generated under any -pdfs/ directory (so a new
+# generated-file type showing up here shouldn't require another line),
+# matching the old fc-pdfs/ pattern's intent rather than the old, narrower
+# lessons-pdfs/ one. Already-tracked */-pdfs/placeholder.txt files are
+# unaffected: gitignore only hides untracked files, never untracks
+# something already committed.
+**/*-pdfs/*
 dist/
 dist/*
 __pycache__/
 __pycache__/*
 build/
 build/*
-# images generated from lessons-gp scripts so ignore them (lessons-media is
-# unit1's real output dir, u2lessons-media/ etc. for unit2+; images is a
-# local symlink alias to whichever one is active, see below). Same '*'
-# prefix trick as lessons-pdfs above.
-**/*lessons-media/*.png
-**/*fc-media/*.png
+# images generated from each unit's -gp/-tableaux scripts so ignore them
+# (every course now names its media directories uniformly as
+# <prefix><unit-or-fc>-media/, e.g. afu1-media/, cvu2-media/, affc-media/;
+# images is a local symlink alias to whichever one is active, see below).
+**/*-media/*.png
 # local rendering convenience symlink, recreated per work session
 # (points at whichever unit's real *lessons-media dir you're working on),
 # never committed. No trailing slash: a trailing-slash pattern only
