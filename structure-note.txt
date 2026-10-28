@@ -1,0 +1,91 @@
+About file/directory naming:
+============================
+
+A course's identifiers:
+    The main subdirectory for the course:            g12-calculus-and-vectors
+    The two character unique prefix for that course: cv
+    Units within a course:                       u1,u2,u3,..., fc
+
+Directories under the main course directory by type of content
+(type directory name suffix: -rst, -gp, -media, -pdfs, -tableaux)
+ 
+So when you are setting up a new course:
+
+   Supply the directory name: g12-something-else
+   Supply its prefix:         se
+   Tell claude those details.
+   Create an upstream sudirectory within it, and add .pdf s  to that for claude to start from.
+   Work one unit at a time,  supplying clause with  all the pdfs for a given unit.
+   Try to name you upstream files sensibly: s3u1lesson01.pdf, s3u1lesson01-solutions.pdf, ...
+   to make it easy to correlate to the generated files.
+
+Your content subdirectories are going to end up symilar to our first two courses:
+
+g12-advanced-functions/
+├── affc-gp
+├── affc-media
+├── affc-pdfs
+├── affc-rst
+├── affc-tableaux
+├── afu1-gp
+├── afu1-media
+├── afu1-pdfs
+├── afu1-rst
+├── afu2-gp
+├── afu2-media
+├── afu2-pdfs
+├── afu2-rst
+├── afu2-tableaux
+├── afu3-gp
+├── afu3-media
+├── afu3-pdfs
+├── afu3-rst
+├── afu4-gp
+├── afu4-media
+├── afu4-pdfs
+├── afu4-rst
+├── afu5-gp
+├── afu5-media
+├── afu5-pdfs
+├── afu5-rst
+├── afu6-gp
+├── afu6-media
+├── afu6-pdfs
+├── afu6-rst
+├── afu7-gp
+├── afu7-media
+├── afu7-pdfs
+├── afu7-rst
+├── teacher-interaction
+└── upstream
+g12-calculus-and-vectors/
+├── cvfc-gp
+├── cvfc-media
+├── cvfc-pdfs
+├── cvfc-rst
+├── cvu1-gp
+├── cvu1-media
+├── cvu1-pdfs
+├── cvu1-rst
+├── cvu2-gp
+├── cvu2-media
+├── cvu2-pdfs
+├── cvu2-rst
+├── cvu3-gp
+├── cvu3-media
+├── cvu3-pdfs
+├── cvu3-rst
+├── cvu4-gp
+├── cvu4-media
+├── cvu4-pdfs
+├── cvu4-rst
+├── cvu5-gp
+├── cvu5-media
+├── cvu5-pdfs
+├── cvu5-rst
+├── cvu6-gp
+├── cvu6-media
+├── cvu6-pdfs
+├── cvu6-rst
+├── images -> cvfc-media
+└── upstream

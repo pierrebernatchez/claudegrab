@@ -2,19 +2,19 @@
 #
 set -eo pipefail # had to remove th -u to stop bash evaluating "help" as a variable
 #
-# This is a convenience script for reviewing pdf files.
-# It is full of special case exceptions to handle the idiosyncharcies of
-# the file and directory name structure of the curren actual repository.
-# A bit of a dog's breakfast. DO NOT TAKE IT AS A GENERALLY REUSABLE SCRIPT.
-# 
+# This is a convenience script for reviewing pdf files of our course material
 #
-# bash trick to obtain a clean absolute path to this script.
+# For context, regarding file naming conventions in our repository materials,
+# the g12-advanced-functions pdf files were named befor a convention was adopted.
+# Files in the afu1 unit have no unitprefix at all.
+# Files in the other af units have a two character unitprefix such as u1.
+# Files in all other courses will all have a unitprefix of the unit such as 'cvu1'.
+# We attempt to get that right here
 #
 SCRIPTPATH="$(dirname ${0})"
 pushd  "${SCRIPTPATH}" >/dev/null
 SCRIPTPATH=`pwd -P`
 popd >/dev/null
-echo mypath ${SCRIPTPATH}
 SCRIPTNAME="$(basename ${0})"
 #
 ####
@@ -46,28 +46,24 @@ NLESSON="${1:-1}"
 MYCOURSEDIR=$(dirname ${SCRIPTPATH})
 MYCOURSE=$(basename ${MYCOURSEDIR})
 SCRIPTPATHBASE=$(basename ${SCRIPTPATH})
-echo scriptbase "$SCRIPTPATHBASE"
-# 2026-10-26 directory-naming retrofit: every -pdfs/ directory's basename
-# is now <2-char course prefix><2-char unit-or-fc token>-pdfs (afu2-pdfs,
-# cvfc-pdfs, ...) -- chars 3-4 are always the bare unit-or-fc token
-# regardless of course.
 UNITTOKEN="${SCRIPTPATHBASE:2:2}"
+UNIT="${SCRIPTPATHBASE:0:4}"
+ 
 if [[ "$MYCOURSE" == "g12-advanced-functions" ]] ; then
-    # af's filenames deliberately carry no course prefix (see CLAUDE.md's
-    # "Course layer"): unit1 stays fully bare, unit2-7/fc carry only the
-    # bare unit-or-fc token.
+    # special cases for filename prefixes
+    # af's unit 1 filenames deliberately carry no course prefix (see CLAUDE.md's
+    # "Course layer"): af's other units carry only the bare unit-or-fc token.
     if [[ "$UNITTOKEN" == "u1" ]] ; then
-        UNIT=""
+        UNITPREFIX=""
     else
-        UNIT="$UNITTOKEN"
+        UNITPREFIX="$UNITTOKEN"
     fi
 else
-    # cv's filenames carry the full course+unit prefix.
-    UNIT="${SCRIPTPATHBASE:0:4}"
+    UNITPREFIX="${UNIT}"
 fi
-
-
-
+echo UNIT $UNIT
+echo UNITTOKEN $UNITTOKEN
+echo UNITPREFIX $UNITPREFIX
 DOHELP="False"
 # Bash bending over backwards to work numbers
 if [[ "${NLESSON}" -gt "0" && "${NLESSON}" -lt "13" ]] ; then
@@ -78,11 +74,6 @@ else
 fi
 ###
 
-# SCRIPTPATH is already the real, resolved location of this -pdfs/
-# directory (that's what pushd+pwd -P above computed) -- no need to
-# reconstruct it from MYCOURSE/UNIT guesses, which is fragile across
-# naming-scheme changes. This is only used for the --help display text
-# below, not for actual file lookups (those use SCRIPTPATH directly).
 PSUBDIR="${SCRIPTPATH}"
 
 if ! [[ -d "${PSUBDIR}" ]] ; then
@@ -95,14 +86,14 @@ if ! [[ -d "${PSUBDIR}" ]] ; then
 fi
 
 ### Make up our list of eligible files to view
-PBA="${UNIT}lesson0${NLESSON}-${MYLANG}.pdf"
-PSA="${UNIT}lesson0${NLESSON}-solutions-${MYLANG}.pdf"
-PBB="${UNIT}worksheet0${NLESSON}-${MYLANG}.pdf"
-PSB="${UNIT}worksheet0${NLESSON}-solutions-${MYLANG}.pdf"
-PBC="${UNIT}review0${NLESSON}-${MYLANG}.pdf"
-PSC="${UNIT}review0${NLESSON}-solutions-${MYLANG}.pdf"
-PBX="${UNIT}exam0${NLESSON}-${MYLANG}.pdf"
-PSX="${UNIT}exam0${NLESSON}-solutions-${MYLANG}.pdf"
+PBA="${UNITPREFIX}lesson0${NLESSON}-${MYLANG}.pdf"
+PSA="${UNITPREFIX}lesson0${NLESSON}-solutions-${MYLANG}.pdf"
+PBB="${UNITPREFIX}worksheet0${NLESSON}-${MYLANG}.pdf"
+PSB="${UNITPREFIX}worksheet0${NLESSON}-solutions-${MYLANG}.pdf"
+PBC="${UNITPREFIX}review0${NLESSON}-${MYLANG}.pdf"
+PSC="${UNITPREFIX}review0${NLESSON}-solutions-${MYLANG}.pdf"
+PBX="${UNITPREFIX}exam0${NLESSON}-${MYLANG}.pdf"
+PSX="${UNITPREFIX}exam0${NLESSON}-solutions-${MYLANG}.pdf"
 # note if you use PLC or PSC be sure nlesson is the correct number for it
 # add/remove lines here to affect what is viewed
 pdfstoview () {
