@@ -8,6 +8,7 @@ s3cfg
 # A script I use all over the place hard coded to what I am currently
 # reviewing must be ignored
 vp
+renderall.sh
 *.incl
 *.errlog
 *.stylelog

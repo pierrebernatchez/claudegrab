@@ -1,0 +1,7 @@
+We removed all the maintainer convenience symbolic links from the repository.
+Instead, once someone has just cloned the repository, they can invoke the
+script "makerenderlinks.sh" to create them all.
+
+   
+   
+
