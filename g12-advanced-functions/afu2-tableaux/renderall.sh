@@ -1,1 +1,0 @@
-../../samplerenderall-tableaux.sh
