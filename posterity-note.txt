@@ -1,6 +1,14 @@
 We removed all the maintainer convenience symbolic links from the repository.
 Instead, once someone has just cloned the repository, they can invoke the
 script "makerenderlinks.sh" to create them all.
+So after you clone the repository.
+You must invoke:
+
+makerenderlinks.sh - to create all the symbolic links we will rely on.
+
+fullgenerate.sh - to generate all the images first and then the .pdf files that rely on those.
+
+fullwrap.sh - to zip all .pdf files into one .zip archive per unit. Ready for distribution.
 
    
    

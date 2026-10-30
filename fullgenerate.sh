@@ -32,6 +32,6 @@ cat <<EOF | while read -r dir; do
 g12-advanced-functions
 g12-calculus-and-vectors 
 EOF
-    (find $dir -name "renderunit.sh" -exec echo {} \; )
+    (find $dir -name "renderunit.sh" -exec {} \; )
 done
 
