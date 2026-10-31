@@ -44,4 +44,6 @@ build/*
 # '**/' (rather than a leading '/') since it now lives one level inside
 # whichever course directory is active (2026-10-04), not the true repo root.
 **/images
-
+**/bucket/*
+**/content/*
+**/courses/*

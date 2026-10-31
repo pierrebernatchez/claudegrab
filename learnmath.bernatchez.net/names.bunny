@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -euo pipefail
+#
+# bash trick to obtain a clean absolute path to this script.
+#
+pushd `dirname $0` >/dev/null
+SCRIPTPATH=`pwd -P`
+popd >/dev/null
+SITEPATH=${SCRIPTPATH}
+#
+#
+MYPNAME=$(basename ${0})
+ARG1NAME=${1:-NOARG}
+
+# --- Configuration ---
+SITENAME=$(basename ${SITEPATH})
+DASHEDNAME="${SITENAME//./-}"
+BUCKETDIR="${SITEPATH}/bucket"
+STORAGE_NAME=${DASHEDNAME}
+PULLZONENAME=${STORAGE_NAME}-zone
+BUNNYEXTENSION=".b-cdn.net"
+# --- End Configuration ---
+
+# colors
+BLACK='\033[30m';  RED='\033[31m';  GREEN='\033[32m'
+YELLOW='\033[33m'; BLUE='\033[34m'; MAGENTA='\033[35m'
+CYAN='\033[36m';   WHITE='\033[37m'; RESET='\033[0m'
+BOLD='\033[1m';    DIM='\033[2m';   UNDERLINE='\033[4m'
+
+echo -e ${BOLD}${YELLOW}${MYPNAME}: ${GREEN}bunny.net names to use for this site ${RESET}
+
+echo -e ${BOLD}${YELLOW}SITE NAME "           :" ${GREEN}${SITENAME} ${RESET}
+echo -e ${BOLD}${YELLOW}STORAGE ZONE NAME "   :" ${GREEN}${STORAGE_NAME} ${RESET}
+echo -e ${BOLD}${YELLOW}PULLZONE NAME "       :" ${GREEN}${PULLZONENAME} ${RESET}
+echo -e ${BOLD}${YELLOW}CNAME RECORD "        :" ${GREEN}${SITENAME} CNAME ${PULLZONENAME}${BUNNYEXTENSION} ${RESET}

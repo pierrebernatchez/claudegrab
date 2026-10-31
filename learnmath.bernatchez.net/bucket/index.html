@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Language</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #705846;
+      background: linear-gradient(rgba(168, 161, 143, 0.7), rgba(168, 161, 143, 0.7)), url(./bg.png) repeat scroll;
+    }
+    
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .language-options {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .language-options a {
+      text-decoration: none;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px 20px;
+      background: white;
+      font-size: 18px;
+      transition: background 0.3s;
+    }
+
+    .language-options a:hover {
+      background: #eaeaea;
+    }
+  </style>
+</head>
+<body>
+  <h1>language selector</h1>
+  <p>You will be redirected shortly based on your browser language...</p>
+  <p>Or select a language</p>
+  
+  <div class="language-options">
+    <a href="./lang-version.en/index.html">🇬🇧 English</a>
+    <a href="./lang-version.fr/index.html">🇫🇷 Français</a>
+    <a href="./lang-version.es/index.html">🇪🇸 Español</a>
+  </div>
+
+  <script>
+    // Define supported language codes and redirect paths
+    const languageRedirects = {
+      'en': './lang-version.en/index.html',
+      'fr': './lang-version.fr/index.html',
+      'es': './lang-version.es/index.html'
+    };
+
+    // Get the browser's primary language (e.g., 'en', 'fr')
+    const userLang = navigator.language.slice(0, 2).toLowerCase();
+
+    // Check if we support the detected language
+    const redirectTo = languageRedirects[userLang] || './lang-version.en/index.html';
+
+    // Wait 5 seconds before redirecting
+    setTimeout(() => {
+      window.location.href = redirectTo;
+    }, 10000);
+  </script>
+</body>
+</html>

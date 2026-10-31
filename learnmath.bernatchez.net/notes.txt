@@ -1,0 +1,25 @@
+Starting a site directory for a new site
+##########################################
+cp -a init.files www.example.ca
+cd www.example.ca
+# initialize a  siteversion file
+make siteversion
+# intialize pages_pdfs files
+cd pages
+genarticle2pdf -q
+./qarticle2pdf
+cd ..
+make html
+
+# check out the site locally first then
+# set up bunny.net account
+./names.bunny
+
+
+# make and check out the online version
+make pubhtml
+
+
+
+
+

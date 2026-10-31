@@ -1,0 +1,4 @@
+This file exist to make sure that the containing directory is created by git clone.
+Every else in the directory is generated, so none of it is revision controlled.
+But the directory must exist.
+

@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+set -euo pipefail
+#
+# bash trick to obtain a clean absolute path to this script.
+#
+pushd `dirname $0` >/dev/null
+SCRIPTPATH=`pwd -P`
+popd >/dev/null
+SITEPATH=${SCRIPTPATH}
+#
+#
+MYPNAME=$(basename ${0})
+ARG1NAME=${1:-NOARG}
+
+# --- Configuration ---
+SITENAME=$(basename ${SITEPATH})
+DASHEDNAME="${SITENAME//./-}"
+BUCKETDIR="${SITEPATH}/bucket"
+STORAGE_NAME=${DASHEDNAME}
+PULLZONENAME=${STORAGE_NAME}-zone
+# --- End Configuration ---
+
+# colors
+BLACK='\033[30m';  RED='\033[31m';  GREEN='\033[32m'
+YELLOW='\033[33m'; BLUE='\033[34m'; MAGENTA='\033[35m'
+CYAN='\033[36m';   WHITE='\033[37m'; RESET='\033[0m'
+BOLD='\033[1m';    DIM='\033[2m';   UNDERLINE='\033[4m'
+
+
+echo -e ${BOLD}${YELLOW}MYPNAME "      " ${GREEN}${MYPNAME}${RESET}
+echo -e ${BOLD}${YELLOW}SITENAME "     " ${GREEN}${SITENAME}${RESET}
+echo -e ${BOLD}${YELLOW}BUCKETDIR "    " ${GREEN}${BUCKETDIR}${RESET}
+echo -e ${BOLD}${YELLOW}STORAGE_NAME " " ${GREEN}${STORAGE_NAME}${RESET}
+echo -e ${BOLD}${YELLOW}PULLZONENAME " " ${GREEN}${PULLZONENAME}${RESET}
+# echo -e ${BOLD}${YELLOW}ARG1NAME "     " ${GREEN}${ARG1NAME}${RESET}
+
+# 2. purge invalidates all cached objects
+# npx --yes bunny-transfer@latest purge $PULLZONENAME
+#
+echo -e ${WHITE}${MYPNAME}: ${BOLD}${RED}"Invoke This Command Manually To Push Out To The CDN Caches."${RESET}
+echo -e ${BOLD}npx --yes bunny-transfer@latest purge $PULLZONENAME${RESET}
+
+

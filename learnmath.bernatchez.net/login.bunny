@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+#
+#
+set -euo pipefail
+
+MYPNAME=$(basename ${0})
+ARG1NAME=${1:-NOARG}
+
+# --- Configuration ---
+STORAGE_NAME="blog-bernatchez-net"
+PULLZONENAME="blog-bernatchez-net-zone"
+APIKEY="ca7a5e73-4a16-48b2-b9c6-3719e33e92654243ed85-410a-48ef-96ce-5ae57ed53a46"
+# --- End Configuration ---
+echo MYPNAME $MYPNAME 
+echo STORAGE_NAME $STORAGE_NAME
+echo PULLZONENAME $PULLZONENAME
+echo APIKEY $APIKEY
+
+# login
+echo $MYPNAME: Login creates the file "~/.bunny/credentials"
+echo $MYPNAME: Until you do that, your other bunny commands wont work
+echo $MYPNAME: npx --yes bunny-transfer@latest login default $APIKEY
+npx --yes bunny-transfer@latest login default $APIKEY
+
+# verify
+echo $MYPNAME: This verifies we have got it right
+echo $MYPNAME: npx --yes bunny-transfer@latest who-am-i
+npx --yes bunny-transfer@latest who-am-i
