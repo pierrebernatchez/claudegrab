@@ -1,0 +1,15 @@
+<nav id="menu">
+  <a href="{{ SITEURL }}/index.html">Inicio</a>
+  {% if DISPLAY_PAGES_ON_MENU != False%}
+    {% for p in pages %}
+  <a {% if p == page %}class="active" {% endif %}href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+    {% endfor %}
+  {% else %}
+  <a href="{{ SITEURL }}/categories.html">Categorias</a>
+  {% endif %}
+  <a href="{{ SITEURL }}/tags.html">Palabras Clave</a>
+  <a href="{{ SITEURL }}/archives.html">Archivos</a>
+  <a href="{{ SITEURL }}/../index.html">Idioma</a>
+  
+
+</nav> <!-- /#nav -->

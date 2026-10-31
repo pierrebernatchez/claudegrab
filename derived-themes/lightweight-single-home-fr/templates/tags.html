@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - Mots-clés{% endblock %}
+
+{% block content %}
+<h2 class="page_title">Liste des mots-clés</h2>
+<ul id="tag_list">
+{% for tag, articles in tags %}
+    <li><a href="{{SITEURL}}/{{tag.url}}">{{ tag }}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}
