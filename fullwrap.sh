@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 #
+# Must match the one in samplewrapunit.sh
+SHIPTARGET="${HOME}/repos/claudegrab/courses"
 #
 cat <<EOF | while read -r dir; do
 g12-advanced-functions
@@ -34,4 +36,14 @@ g12-calculus-and-vectors
 EOF
     (find $dir -name "wrapunit.sh" -exec {} \; )
 done
+
+#
+# Now we need to generare the links to zip files for
+# Use publishing them. We will emit those to the
+# Same destination as the zip files.
+#
+find "${SHIPTARGET}" -name "*.zip" | sort | ./cvlinks.py -l en > "${SHIPTARGET}"/course-links-en.incl
+find "${SHIPTARGET}" -name "*.zip" | sort | ./cvlinks.py -l fr > "${SHIPTARGET}"/course-links-fr.incl
+find "${SHIPTARGET}" -name "*.zip" | sort | ./cvlinks.py -l es > "${SHIPTARGET}"/course-links-es.incl
+
 

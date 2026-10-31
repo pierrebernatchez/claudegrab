@@ -9,7 +9,7 @@ set -eo pipefail # had to remove th -u to stop bash evaluating "help" as a varia
 # Configure the target directory where we deliver the wrapped zip files
 # for subsequent distribution.
 ##
-SHIPTARGET="${HOME}/courses"
+SHIPTARGET="${HOME}/repos/claudegrab/courses"
 ##
 
 SCRIPTPATH="$(dirname ${0})"

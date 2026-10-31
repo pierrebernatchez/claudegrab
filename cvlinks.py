@@ -6,6 +6,7 @@ For each line emits a '.rst' format link to the file.
 
 
 import argparse
+import itertools
 import sys
 from pathlib import Path
 
@@ -85,9 +86,17 @@ def converttolinks():
     ## Since our zip files are dated, and we get them sorted, the latest
     ## one will be the last one.
     ##
+    ## Duplicates share the same first 4 characters of the filename (e.g.
+    ## "cvu4"), and sorted input means duplicates are always consecutive -
+    ## so group consecutive lines by that key and keep only the last of
+    ## each group.
+    ##
+    lines = [line.strip() for line in sys.stdin if line.strip()]
+    deduped = [list(group)[-1] for _, group in
+               itertools.groupby(lines, key=lambda l: Path(l).name[0:4])]
+
     last_dir = None
-    for line in sys.stdin.readlines():
-        stripped = line.strip()
+    for stripped in deduped:
         curdir, outline = convert_to_link(stripped, lang=args.lang)
         if  curdir != last_dir:
             last_dir = curdir
