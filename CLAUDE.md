@@ -30,9 +30,10 @@ Repo-root-level directories split into two kinds: a handful of shared
 tools/templates/docs that apply to every course (listed at the end of this
 section), and one top-level directory per course, named `g12-<course-slug>`
 (`g12` = grade 12; a future non-grade-12 course would use a different grade
-number). Right now there are two: `g12-advanced-functions/` (complete), and
-`g12-calculus-and-vectors/`, scaffolded on 2026-10-04 and starting unit1
-transcription on 2026-10-05.
+number). As of 2026-11-01 there are three: `g12-advanced-functions/`
+(complete), `g12-calculus-and-vectors/` (complete), and `g11-math/`
+(`g11` = grade 11, the first non-grade-12 course), scaffolded 2026-11-01
+and starting unit1 transcription the same day, prefix `ma`.
 
 Every course has its own 2-character prefix — `cv` for Calculus and
 Vectors, `af` for Advanced Functions — applied to every one of its
@@ -49,28 +50,28 @@ directories still carried a redundant `lessons` substring
 has the full before/after anomaly list this retrofit was based on.
 
 The directory-level course prefix is a separate decision from whether a
-course also prefixes its *filenames*, and the two courses differ there:
-Calculus and Vectors prefixes every filename with `cv` too, from its own
-unit1 onward (`cvu1lesson01-en.rst`, `cvu2lesson01-en.rst`, ...) — this is
-just this course's own chosen instantiation of the general "each course
-picks its own `uN`-equivalent prefix" rule, unaffected by the 2026-10-26
-retrofit. Advanced Functions' filenames, by contrast, deliberately still
-carry **no** `af` prefix (unit1's filenames stay fully bare —
-`lesson01-en.rst`; units 2-7's filenames carry only the bare `uN` prefix —
-`u2lesson01-en.rst`, no `af`) — a conscious choice made alongside the
-directory retrofit, not an oversight and not reopened by it: the `uN`
-filename prefix is what actually prevents Pelican-flattening slug
-collisions *within* a course (see the discussion below); a course-level
-*filename* prefix would only start to matter if Pelican ever unifies
-multiple courses into one shared namespace, which remains the explicitly
-open, undecided question described next — so retrofitting roughly 1200
-`.gp` and 700 `.rst` filenames (plus their PDFs and upstream originals)
-for an already-complete, reviewed, closed course wasn't worth doing
-preemptively. Only the directory layer — purely organizational, with no
-review/collision history riding on it — was retrofitted now. It otherwise
-follows the exact same internal pattern as Advanced Functions: its own
-`fc`-equivalent group-prefix for course-wide content (`affc-`/`cvfc-`) if/
-when it needs one, and its own `upstream/`.
+course also prefixes its *filenames*, and the two original courses differ
+there: Calculus and Vectors prefixes every filename with `cv` too, from
+its own unit1 onward (`cvu1lesson01-en.rst`, `cvu2lesson01-en.rst`, ...).
+Advanced Functions' filenames, by contrast, carry **no** `af` prefix
+(unit1's filenames stay fully bare — `lesson01-en.rst`; units 2-7's
+filenames carry only the bare `uN` prefix — `u2lesson01-en.rst`, no `af`)
+— a conscious choice made alongside the 2026-10-26 directory retrofit,
+not an oversight: the `uN` filename prefix is what actually prevents
+Pelican-flattening slug collisions *within* a course (see the discussion
+below), so retrofitting roughly 1200 `.gp` and 700 `.rst` filenames (plus
+their PDFs and upstream originals) for an already-complete, reviewed,
+closed course wasn't worth doing preemptively, whether or not Pelican
+ever unifies multiple courses into one shared namespace. **As of
+2026-11-01, this is settled for every course going forward: every course
+starting with `g11-math` follows the Calculus and Vectors
+filename-prefixing example** (full course-prefix on every filename from
+unit1 onward, e.g. `mau1lesson01-en.rst`), not the Advanced Functions
+bare/`uN`-only exception — AF stays as its own closed, grandfathered
+special case, not a second precedent to choose between. Each course still
+follows the exact same internal pattern otherwise: its own
+`fc`-equivalent group-prefix for course-wide content (`affc-`/`cvfc-`/
+`mafc-`) if/when it needs one, and its own `upstream/`.
 
 Each course directory is internally flat, in exactly the shape the rest of
 this file describes — "Directory layout," "Naming convention," "Tableau
@@ -344,19 +345,26 @@ the general reasoning behind this second pipeline.
   `.gp` figures (see "Naming convention" above) — a lesson's figures can
   mix `.gp` and `.tableau` scripts sharing one `MM` sequence, numbered by
   where they fall in the source PDF, not by which tool produced them.
-  **`gpimage`/`tabimage` naming (mandatory for every unit that has a
-  `-tableaux` directory, i.e. unit2 onward):** `.gp` scripts and their PNG
-  output are `...-gpimageMM.gp`/`.png`; `.tableau` scripts and their PNG
-  output are `...-tabimageMM.tableau`/`.png` — the two can never target
-  the same filename even if `MM` is reused by mistake. `MM` still means
-  the same thing as before (shared reading-order position across both
-  tools) — only the filename gained a type tag. `.rst` `image::`
-  references must use whichever prefix matches how that specific figure
-  was actually generated. **Unit1 is the only exemption** (no
-  `-tableaux` directory at all, so no collision is possible there — its
-  `.gp` scripts keep plain `imageMM` naming). See METHODOLOGY.md's
-  "preventing collisions by construction" for why this is a naming rule
-  and not a runtime guard script.
+  **`gpimage`/`tabimage` naming:** `.gp` scripts and their PNG output are
+  `...-gpimageMM.gp`/`.png`; `.tableau` scripts and their PNG output are
+  `...-tabimageMM.tableau`/`.png` — the two can never target the same
+  filename even if `MM` is reused by mistake. `MM` still means the same
+  thing as before (shared reading-order position across both tools) —
+  only the filename gained a type tag. `.rst` `image::` references must
+  use whichever prefix matches how that specific figure was actually
+  generated. This naming is mandatory from unit1 onward for any course
+  that prefixes its filenames at all (Calculus and Vectors, and every
+  course after it starting with `g11-math`/`ma`, use `gpimageMM` in
+  unit1 even though unit1 has no `-tableaux` directory yet — there's no
+  collision to prevent yet, but using the tagged name from the start
+  avoids a filename retrofit the day a later unit's tableau pipeline
+  shows up). **Advanced Functions' unit1 is the one actual exemption**
+  (plain `imageMM`, no tag) — but only because its filenames are bare/
+  unprefixed entirely, a grandfathered leftover from before the
+  `gpimage`/`tabimage` split existed, not a pattern to replicate in a
+  new course. See METHODOLOGY.md's "preventing collisions by
+  construction" for why this is a naming rule and not a runtime guard
+  script.
 - `<prefix>uN-tableaux/render-all.sh` — renders every `*.tableau` script in
   that directory, same convention as `*-gp/render-all.sh`.
 - `test_divtableau.py` (repo root) — pixel-verified regression tests for
@@ -515,6 +523,10 @@ order discipline" and "blank-space sizing convention" sections:
    blanks for a short numeric fill-in embedded directly in a sentence.
    Drop any leading label that just restates what's obviously expected
    (`Answer:`) once real blank space follows a clearly-stated question.
+   **Drop any QR code found in the source PDF** — don't transcribe or
+   reproduce it in any form (not as a figure, not as a noted placeholder).
+   If this repo ever wants a QR code on a document, one will be added
+   deliberately as our own, not carried over from upstream material.
 2. Get the English proofed (rendered to PDF, reviewed against the source,
    RST/content bugs fixed) before translating anything.
 3. Only once the English is confirmed correct, translate it into
