@@ -20,7 +20,7 @@ The materials below have been sourced from `www.jensenmath.ca <https://www.jense
 
 They have been transcribed to a mark up language, then translated to
 french, then both the english and french markups have been re-rendered
-to .pdf format. Each unit zip file conatins all the re-rendered
+to .pdf format. Each unit zip file contains all the re-rendered
 documents for the given unit. There is an additional full course unit
 which contains a practice full course exam and an full course review.
 
