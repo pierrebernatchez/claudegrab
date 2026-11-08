@@ -72,14 +72,20 @@ Definitions
 
 **Radicand:**
 
+.. rst-class:: solution
+
 a number or expression under a radical sign
 
 **Entire Radical:**
+
+.. rst-class:: solution
 
 a radical in the form :math:`\sqrt{n}`, where :math:`n > 0`, such as
 :math:`\sqrt{45}`
 
 **Mixed Radical:**
+
+.. rst-class:: solution
 
 a radical in the form :math:`a\sqrt{b}`, where :math:`a \neq 1` or
 :math:`-1` and :math:`b > 0`, such as :math:`3\sqrt{5}`
@@ -312,15 +318,23 @@ e\) :math:`(2\sqrt{2}+3\sqrt{3})(2\sqrt{2}-3\sqrt{3})`
 Key Concepts
 ================================================================================
 
-- :math:`\sqrt{a}\times\sqrt{b} = \sqrt{ab}` for :math:`a \geq 0` and
+- .. rst-class:: solution
+
+  :math:`\sqrt{a}\times\sqrt{b} = \sqrt{ab}` for :math:`a \geq 0` and
   :math:`b \geq 0`.
-- An entire radical can be simplified to a mixed radical in simplest form
+- .. rst-class:: solution
+
+  An entire radical can be simplified to a mixed radical in simplest form
   by removing the largest perfect square from under the radical to form
   a mixed radical. For example, :math:`\sqrt{50} = \sqrt{25\times2} =
   5\sqrt{2}`.
-- Like radicals can be combined through addition and subtraction. For
+- .. rst-class:: solution
+
+  Like radicals can be combined through addition and subtraction. For
   example, :math:`3\sqrt{7}+2\sqrt{7} = 5\sqrt{7}`.
-- Radicals can be multiplied using the distributive property. For
+- .. rst-class:: solution
+
+  Radicals can be multiplied using the distributive property. For
   example, :math:`4\sqrt{2}(5\sqrt{3}-3) = 20\sqrt{6}-12\sqrt{2}` and
   :math:`(\sqrt{2}-3)(\sqrt{2}+1) = \sqrt{4}+\sqrt{2}-3\sqrt{2}-3 =
   2-2\sqrt{2}-3 = -2\sqrt{2}-1`.

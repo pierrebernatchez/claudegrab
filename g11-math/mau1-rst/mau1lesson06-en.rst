@@ -94,6 +94,9 @@ If :math:`b^2-4ac < 0`, there are no solutions
 Part 3: Solve a Quadratic With 2 Roots
 ================================================================================
 
+.. image:: ../images/mau1lesson06-gpimage04.png
+   :scale: 100
+
 **Objective:** Determine the roots of a quadratic using the quadratic
 formula and leave as EXACT answers
 
@@ -127,6 +130,9 @@ decimals.
 Part 4: Solving a Quadratic With 1 Root
 ================================================================================
 
+.. image:: ../images/mau1lesson06-gpimage05.png
+   :scale: 100
+
 **Note:** when a quadratic only has 1 solution, the x-intercept is also
 the vertex
 
@@ -144,6 +150,9 @@ the vertex
 
 Part 5: Solving Quadratics With 0 Roots
 ================================================================================
+
+.. image:: ../images/mau1lesson06-gpimage06.png
+   :scale: 100
 
 2 Scenarios causing 0 roots:
 

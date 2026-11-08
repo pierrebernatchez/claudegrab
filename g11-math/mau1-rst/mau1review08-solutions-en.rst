@@ -547,29 +547,27 @@ Substitute :math:`(-4,5)`: :math:`5=a((-4)^2+4(-4)-1)=a(-1)
 
 :math:`y=-5(x^2+4x-1) = -5x^2-20x+5`
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**14)** A golf ball is hit, and it lands at a point on the same
-horizontal plane 53 meters away. The path of the ball took it just over
-a 9 meter tall tree that was 8 meters in front of the golfer.
+   **14)** A golf ball is hit, and it lands at a point on the same
+   horizontal plane 53 meters away. The path of the ball took it just over
+   a 9 meter tall tree that was 8 meters in front of the golfer.
 
-.. rst-class:: keepwithnext
+   a\) Assume the ball is hit from the origin of a coordinate plane. Find a
+   quadratic function that describes the path of the ball.
 
-a\) Assume the ball is hit from the origin of a coordinate plane. Find a
-quadratic function that describes the path of the ball.
+   .. rst-class:: solution
 
-.. rst-class:: solution
+   The ball lands at :math:`(0,0)` and :math:`(53,0)`, and passes through
+   :math:`(8,9)`: :math:`y=a\,x(x-53)`
 
-The ball lands at :math:`(0,0)` and :math:`(53,0)`, and passes through
-:math:`(8,9)`: :math:`y=a\,x(x-53)`
+   .. rst-class:: solution
 
-.. rst-class:: solution
+   :math:`9=a(8)(8-53)=a(-360) \Rightarrow a=-\dfrac{1}{40}`
 
-:math:`9=a(8)(8-53)=a(-360) \Rightarrow a=-\dfrac{1}{40}`
+   .. rst-class:: solution
 
-.. rst-class:: solution
-
-:math:`y=-\dfrac{1}{40}x(x-53) = -\dfrac{1}{40}x^2+\dfrac{53}{40}x`
+   :math:`y=-\dfrac{1}{40}x(x-53) = -\dfrac{1}{40}x^2+\dfrac{53}{40}x`
 
 .. rst-class:: keepwithnext
 

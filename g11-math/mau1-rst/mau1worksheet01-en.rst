@@ -35,25 +35,25 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        a\)
 
        .. image:: ../images/mau1worksheet01-gpimage01.png
-          :scale: 90
+          :scale: 75
      - .. rst-class:: keepwithnext
 
        b\)
 
        .. image:: ../images/mau1worksheet01-gpimage02.png
-          :scale: 90
+          :scale: 75
      - .. rst-class:: keepwithnext
 
        c\)
 
        .. image:: ../images/mau1worksheet01-gpimage03.png
-          :scale: 90
+          :scale: 75
      - .. rst-class:: keepwithnext
 
        d\)
 
        .. image:: ../images/mau1worksheet01-gpimage04.png
-          :scale: 90
+          :scale: 75
 
 .. rst-class:: keepwithnext
 
@@ -103,42 +103,40 @@ graph of each.
 
        |nbsp|
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**3)** State the domain and range. Represent as a table and graph. Then
-state if it is a function.
+   **3)** State the domain and range. Represent as a table and graph. Then
+   state if it is a function.
 
-.. rst-class:: keepwithnext
+   a\) :math:`\{(-5, 4), (-4, -1), (-2, 1), (0, 4), (1, 3)\}`
 
-a\) :math:`\{(-5, 4), (-4, -1), (-2, 1), (0, 4), (1, 3)\}`
+   .. list-table::
+      :widths: 30 20 50
 
-.. list-table::
-   :widths: 30 20 50
+      * - **Domain:**
 
-   * - **Domain:**
+          |nbsp|
 
-       |nbsp|
+          **Range:**
 
-       **Range:**
+          |nbsp|
+        - .. list-table::
+             :header-rows: 1
 
-       |nbsp|
-     - .. list-table::
-          :header-rows: 1
-
-          * - :math:`x`
-            - :math:`y`
-          * - |nbsp|
-            - |nbsp|
-          * - |nbsp|
-            - |nbsp|
-          * - |nbsp|
-            - |nbsp|
-          * - |nbsp|
-            - |nbsp|
-          * - |nbsp|
-            - |nbsp|
-     - .. image:: ../images/mau1worksheet01-gpimage08-blank.png
-          :scale: 60
+             * - :math:`x`
+               - :math:`y`
+             * - |nbsp|
+               - |nbsp|
+             * - |nbsp|
+               - |nbsp|
+             * - |nbsp|
+               - |nbsp|
+             * - |nbsp|
+               - |nbsp|
+             * - |nbsp|
+               - |nbsp|
+        - .. image:: ../images/mau1worksheet01-gpimage08-blank.png
+             :scale: 60
 
 Is this relation a function?
 
@@ -279,19 +277,19 @@ relation is a function.
        b\)
 
        .. image:: ../images/mau1worksheet01-gpimage17.png
-          :scale: 90
+          :scale: 75
      - .. rst-class:: keepwithnext
 
        c\)
 
        .. image:: ../images/mau1worksheet01-gpimage18.png
-          :scale: 90
+          :scale: 75
      - .. rst-class:: keepwithnext
 
        d\)
 
        .. image:: ../images/mau1worksheet01-gpimage19.png
-          :scale: 90
+          :scale: 75
 
 .. rst-class:: keepwithnext
 
@@ -406,7 +404,8 @@ have the same area.
 
 .. rst-class:: keepwithnext
 
-a\) Express the area function for the three pens in terms of :math:`x`.
+a\) Express the function for the total area enclosed by all three pens
+together, in terms of :math:`x`.
 
 |nbsp|
 

@@ -101,7 +101,7 @@ b\) :math:`4k^2+19k+15=0`
 
 .. rst-class:: keepwithnext
 
-d\) :math:`16b^2-1=0`
+c\) :math:`16b^2-1=0`
 
 |nbsp|
 
@@ -109,7 +109,7 @@ d\) :math:`16b^2-1=0`
 
 .. rst-class:: keepwithnext
 
-f\) :math:`4x^2-12x+9=0`
+d\) :math:`4x^2-12x+9=0`
 
 |nbsp|
 
@@ -211,8 +211,8 @@ Answer Key
 
 **1)** a) -2, -6 b) -3, -6 c) 0, -3 d) 14, 4 e) 0, 2 f) 15, 2
 
-**2)** a) :math:`-\dfrac{1}{3}, -9` b) :math:`-1, -\dfrac{15}{4}` d)
-:math:`\dfrac{1}{4}, -\dfrac{1}{4}` f) :math:`\dfrac{3}{2}`
+**2)** a) :math:`-\dfrac{1}{3}, -9` b) :math:`-1, -\dfrac{15}{4}` c)
+:math:`\dfrac{1}{4}, -\dfrac{1}{4}` d) :math:`\dfrac{3}{2}`
 
 **3)** a) -3, 1 b) -5, 2 c) -3, 3 d) :math:`\dfrac{4}{3}, 1` e)
 :math:`\dfrac{1}{5}, \dfrac{1}{3}` f) :math:`-\dfrac{5}{2}, -\dfrac{2}{3}`

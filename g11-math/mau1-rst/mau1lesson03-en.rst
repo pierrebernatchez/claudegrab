@@ -26,50 +26,56 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 Part 1: Quadratics Review
 ================================================================================
 
-**Vertex Form:**
+.. container:: keeptogether
 
-:math:`y = a(x-h)^2 + k`
+   **Vertex Form:**
 
-.. image:: ../images/mau1lesson03-gpimage01-blank.png
-   :scale: 85
+   :math:`y = a(x-h)^2 + k`
 
-|nbsp|
+   .. image:: ../images/mau1lesson03-gpimage01-blank.png
+      :scale: 85
 
-|nbsp|
+   |nbsp|
 
-|nbsp|
+   |nbsp|
 
-|nbsp|
+   |nbsp|
 
-**Factored Form:**
+   |nbsp|
 
-:math:`y = a(x-r)(x-s)`
+.. container:: keeptogether
 
-.. image:: ../images/mau1lesson03-gpimage02-blank.png
-   :scale: 85
+   **Factored Form:**
 
-|nbsp|
+   :math:`y = a(x-r)(x-s)`
 
-|nbsp|
+   .. image:: ../images/mau1lesson03-gpimage02-blank.png
+      :scale: 85
 
-|nbsp|
+   |nbsp|
 
-|nbsp|
+   |nbsp|
 
-**Standard Form:**
+   |nbsp|
 
-:math:`y = ax^2 + bx + c`
+   |nbsp|
 
-.. image:: ../images/mau1lesson03-gpimage03-blank.png
-   :scale: 85
+.. container:: keeptogether
 
-|nbsp|
+   **Standard Form:**
 
-|nbsp|
+   :math:`y = ax^2 + bx + c`
 
-|nbsp|
+   .. image:: ../images/mau1lesson03-gpimage03-blank.png
+      :scale: 85
 
-|nbsp|
+   |nbsp|
+
+   |nbsp|
+
+   |nbsp|
+
+   |nbsp|
 
 Part 2: Perfect Square Trinomials
 ================================================================================
@@ -153,25 +159,23 @@ Part 3: Completing the Square
 
 7\) Factor the perfect square trinomial: :math:`a^2+2ab+b^2 = (a+b)^2`
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**Example 2:** Rewrite each quadratic in vertex form by completing the
-square. Then state the vertex, whether it is a max or min point, and the
-axis of symmetry.
+   **Example 2:** Rewrite each quadratic in vertex form by completing the
+   square. Then state the vertex, whether it is a max or min point, and the
+   axis of symmetry.
 
-.. rst-class:: keepwithnext
+   a\) :math:`y = x^2+8x+5`
 
-a\) :math:`y = x^2+8x+5`
+   |nbsp|
 
-|nbsp|
+   |nbsp|
 
-|nbsp|
+   |nbsp|
 
-|nbsp|
+   |nbsp|
 
-|nbsp|
-
-|nbsp|
+   |nbsp|
 
 .. rst-class:: keepwithnext
 

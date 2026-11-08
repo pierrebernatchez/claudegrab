@@ -33,7 +33,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        a\)
 
        .. image:: ../images/mau1worksheet01-gpimage01.png
-          :scale: 90
+          :scale: 75
 
        .. rst-class:: solution
 
@@ -43,7 +43,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        b\)
 
        .. image:: ../images/mau1worksheet01-gpimage02.png
-          :scale: 90
+          :scale: 75
 
        .. rst-class:: solution
 
@@ -53,7 +53,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        c\)
 
        .. image:: ../images/mau1worksheet01-gpimage03.png
-          :scale: 90
+          :scale: 75
 
        .. rst-class:: solution
 
@@ -63,7 +63,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        d\)
 
        .. image:: ../images/mau1worksheet01-gpimage04.png
-          :scale: 90
+          :scale: 75
 
        .. rst-class:: solution
 
@@ -112,42 +112,64 @@ graph of each.
        .. image:: ../images/mau1worksheet01-gpimage07.png
           :scale: 90
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**3)** State the domain and range. Represent as a table and graph. Then
-state if it is a function.
+   **3)** State the domain and range. Represent as a table and graph. Then
+   state if it is a function.
 
-.. rst-class:: keepwithnext
+   a\) :math:`\{(-5, 4), (-4, -1), (-2, 1), (0, 4), (1, 3)\}`
 
-a\) :math:`\{(-5, 4), (-4, -1), (-2, 1), (0, 4), (1, 3)\}`
+   .. list-table::
+      :widths: 30 20 50
 
-.. list-table::
-   :widths: 30 20 50
+      * - **Domain:**
 
-   * - **Domain:**
+          .. rst-class:: solution
 
-       :math:`D: \{x = -5, -4, -2, 0, 1\}`
+          :math:`D: \{x = -5, -4, -2, 0, 1\}`
 
-       **Range:**
+          **Range:**
 
-       :math:`R: \{y = -1, 1, 3, 4\}`
-     - .. list-table::
-          :header-rows: 1
+          .. rst-class:: solution
 
-          * - :math:`x`
-            - :math:`y`
-          * - -5
-            - 4
-          * - -4
-            - -1
-          * - -2
-            - 1
-          * - 0
-            - 4
-          * - 1
-            - 3
-     - .. image:: ../images/mau1worksheet01-gpimage08.png
-          :scale: 60
+          :math:`R: \{y = -1, 1, 3, 4\}`
+        - .. list-table::
+             :header-rows: 1
+
+             * - :math:`x`
+               - :math:`y`
+             * - .. rst-class:: solution
+
+                 -5
+               - .. rst-class:: solution
+
+                 4
+             * - .. rst-class:: solution
+
+                 -4
+               - .. rst-class:: solution
+
+                 -1
+             * - .. rst-class:: solution
+
+                 -2
+               - .. rst-class:: solution
+
+                 1
+             * - .. rst-class:: solution
+
+                 0
+               - .. rst-class:: solution
+
+                 4
+             * - .. rst-class:: solution
+
+                 1
+               - .. rst-class:: solution
+
+                 3
+        - .. image:: ../images/mau1worksheet01-gpimage08.png
+             :scale: 60
 
 .. rst-class:: solution
 
@@ -162,9 +184,13 @@ b\) :math:`\{(-3, -4), (-1, 2), (0, 0), (-3, 5), (2, 4)\}`
 
    * - **Domain:**
 
+       .. rst-class:: solution
+
        :math:`D: \{x = -3, -1, 0, 2\}`
 
        **Range:**
+
+       .. rst-class:: solution
 
        :math:`R: \{y = -4, 0, 2, 4, 5\}`
      - .. list-table::
@@ -172,16 +198,36 @@ b\) :math:`\{(-3, -4), (-1, 2), (0, 0), (-3, 5), (2, 4)\}`
 
           * - :math:`x`
             - :math:`y`
-          * - -3
-            - -4
-          * - -1
-            - 2
-          * - 0
-            - 0
-          * - -3
-            - 5
-          * - 2
-            - 4
+          * - .. rst-class:: solution
+
+              -3
+            - .. rst-class:: solution
+
+              -4
+          * - .. rst-class:: solution
+
+              -1
+            - .. rst-class:: solution
+
+              2
+          * - .. rst-class:: solution
+
+              0
+            - .. rst-class:: solution
+
+              0
+          * - .. rst-class:: solution
+
+              -3
+            - .. rst-class:: solution
+
+              5
+          * - .. rst-class:: solution
+
+              2
+            - .. rst-class:: solution
+
+              4
      - .. image:: ../images/mau1worksheet01-gpimage09.png
           :scale: 60
 
@@ -313,7 +359,7 @@ relation is a function.
        b\)
 
        .. image:: ../images/mau1worksheet01-gpimage17.png
-          :scale: 90
+          :scale: 75
 
        .. rst-class:: solution
 
@@ -323,7 +369,7 @@ relation is a function.
        c\)
 
        .. image:: ../images/mau1worksheet01-gpimage18.png
-          :scale: 90
+          :scale: 75
 
        .. rst-class:: solution
 
@@ -333,7 +379,7 @@ relation is a function.
        d\)
 
        .. image:: ../images/mau1worksheet01-gpimage19.png
-          :scale: 90
+          :scale: 75
 
        .. rst-class:: solution
 
@@ -349,72 +395,72 @@ b is the only relation that is a function
 Use a graphing calculator or a graphing app to help if necessary. Make a
 rough sketch of the graph.
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-a\) :math:`y = -x + 3`
+   a\) :math:`y = -x + 3`
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-:math:`D: \{x \in \mathbb{R}\}`, :math:`R: \{y \in \mathbb{R}\}`
+   :math:`D: \{x \in \mathbb{R}\}`, :math:`R: \{y \in \mathbb{R}\}`
 
-.. image:: ../images/mau1worksheet01-gpimage20.png
-   :scale: 90
+   .. image:: ../images/mau1worksheet01-gpimage20.png
+      :scale: 90
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-b\) :math:`y = (x+1)^2 - 4`
+   b\) :math:`y = (x+1)^2 - 4`
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-:math:`D: \{x \in \mathbb{R}\}`, :math:`R: \{y \in \mathbb{R}, y \geq -4\}`
+   :math:`D: \{x \in \mathbb{R}\}`, :math:`R: \{y \in \mathbb{R}, y \geq -4\}`
 
-.. image:: ../images/mau1worksheet01-gpimage21.png
-   :scale: 90
+   .. image:: ../images/mau1worksheet01-gpimage21.png
+      :scale: 90
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-c\) :math:`y = -3x^2 + 1`
+   c\) :math:`y = -3x^2 + 1`
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-:math:`D: \{x \in \mathbb{R}\}`, :math:`R: \{y \in \mathbb{R}, y \leq 1\}`
+   :math:`D: \{x \in \mathbb{R}\}`, :math:`R: \{y \in \mathbb{R}, y \leq 1\}`
 
-.. image:: ../images/mau1worksheet01-gpimage22.png
-   :scale: 90
+   .. image:: ../images/mau1worksheet01-gpimage22.png
+      :scale: 90
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-d\) :math:`x^2 + y^2 = 9`
+   d\) :math:`x^2 + y^2 = 9`
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-:math:`D: \{x \in \mathbb{R}, -3 \leq x \leq 3\}`,
-:math:`R: \{y \in \mathbb{R}, -3 \leq y \leq 3\}`
+   :math:`D: \{x \in \mathbb{R}, -3 \leq x \leq 3\}`,
+   :math:`R: \{y \in \mathbb{R}, -3 \leq y \leq 3\}`
 
-.. image:: ../images/mau1worksheet01-gpimage23.png
-   :scale: 90
+   .. image:: ../images/mau1worksheet01-gpimage23.png
+      :scale: 90
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-e\) :math:`y = \dfrac{1}{x+3}`
+   e\) :math:`y = \dfrac{1}{x+3}`
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-:math:`D: \{x \in \mathbb{R}, x \neq -3\}`, :math:`R: \{y \in \mathbb{R}, y \neq 0\}`
+   :math:`D: \{x \in \mathbb{R}, x \neq -3\}`, :math:`R: \{y \in \mathbb{R}, y \neq 0\}`
 
-.. image:: ../images/mau1worksheet01-gpimage24.png
-   :scale: 90
+   .. image:: ../images/mau1worksheet01-gpimage24.png
+      :scale: 90
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-f\) :math:`y = \sqrt{2x+1}`
+   f\) :math:`y = \sqrt{2x+1}`
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-:math:`D: \{x \in \mathbb{R}, x \geq -0.5\}`, :math:`R: \{y \in \mathbb{R}, y \geq 0\}`
+   :math:`D: \{x \in \mathbb{R}, x \geq -0.5\}`, :math:`R: \{y \in \mathbb{R}, y \geq 0\}`
 
-.. image:: ../images/mau1worksheet01-gpimage25.png
-   :scale: 90
+   .. image:: ../images/mau1worksheet01-gpimage25.png
+      :scale: 90
 
 .. rst-class:: keepwithnext
 
@@ -427,7 +473,8 @@ have the same area.
 
 .. rst-class:: keepwithnext
 
-a\) Express the area function for the three pens in terms of :math:`x`.
+a\) Express the function for the total area enclosed by all three pens
+together, in terms of :math:`x`.
 
 .. rst-class:: solution
 

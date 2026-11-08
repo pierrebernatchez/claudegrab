@@ -65,6 +65,8 @@ d\) :math:`-2x^2+0.75x+5=0`
 **2)** Solve each quadratic using the quadratic formula. Give exact
 answers.
 
+:math:`x = \dfrac{-b\pm\sqrt{b^2-4ac}}{2a}`
+
 .. rst-class:: keepwithnext
 
 a\) :math:`x^2+4x-3=0`

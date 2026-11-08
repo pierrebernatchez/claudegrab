@@ -85,26 +85,24 @@ The value :math:`y` may take.
 Part 2: Find Values Using Function Notation
 ================================================================================
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-What does a function do?
+   What does a function do?
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-Takes an input (x), performs operations on it and then gives an output (y).
+   Takes an input (x), performs operations on it and then gives an output (y).
 
-.. image:: ../images/mau1lesson02-gpimage02.png
-   :scale: 85
-   :alt: function machine, INPUT x -> FUNCTION f: -> OUTPUT f(x)
+   .. image:: ../images/mau1lesson02-gpimage02.png
+      :scale: 85
+      :alt: function machine, INPUT x -> FUNCTION f: -> OUTPUT f(x)
 
-.. rst-class:: keepwithnext
+   What does function notation look like?
 
-What does function notation look like?
+   .. rst-class:: solution
 
-.. rst-class:: solution
-
-:math:`f(x) = \text{some operations applied to } x` |---| read as "f of x"
-or "f at x", replaces "y"
+   :math:`f(x) = \text{some operations applied to } x` |---| read as "f of x"
+   or "f at x", replaces "y"
 
 .. rst-class:: keepwithnext
 
@@ -115,121 +113,68 @@ or "f at x", replaces "y"
 
 a\) :math:`f(x) = 2x - 4`
 
-.. list-table::
-   :widths: 33 33 34
+.. rst-class:: solution
 
-   * - .. rst-class:: solution
+:math:`f(2) = 2(2) - 4 = 0` |---| :math:`(2, 0)`
 
-       :math:`f(2) = 2(2) - 4`
+.. rst-class:: solution
 
-       :math:`f(2) = 0`
+:math:`f(-5) = 2(-5) - 4 = -14` |---| :math:`(-5, -14)`
 
-       :math:`(2, 0)`
-     - .. rst-class:: solution
+.. rst-class:: solution
 
-       :math:`f(-5) = 2(-5) - 4`
-
-       :math:`f(-5) = -14`
-
-       :math:`(-5, -14)`
-     - .. rst-class:: solution
-
-       :math:`f(1/2) = 2(1/2) - 4`
-
-       :math:`f(1/2) = -3`
-
-       :math:`(1/2, -3)`
+:math:`f(1/2) = 2(1/2) - 4 = -3` |---| :math:`(1/2, -3)`
 
 .. rst-class:: keepwithnext
 
 b\) :math:`f(x) = 3x^2 - x + 7`
 
-.. list-table::
-   :widths: 33 33 34
+.. rst-class:: solution
 
-   * - .. rst-class:: solution
+:math:`f(2) = 3(2)^2 - 2 + 7 = 17` |---| :math:`(2, 17)`
 
-       :math:`f(2) = 3(2)^2 - 2 + 7`
+.. rst-class:: solution
 
-       :math:`f(2) = 17`
+:math:`f(-5) = 3(-5)^2 - (-5) + 7 = 75 + 5 + 7 = 87` |---| :math:`(-5, 87)`
 
-       :math:`(2, 17)`
-     - .. rst-class:: solution
+.. rst-class:: solution
 
-       :math:`f(-5) = 3(-5)^2 - (-5) + 7`
-
-       :math:`f(-5) = 75 + 5 + 7`
-
-       :math:`f(-5) = 87`
-
-       :math:`(-5, 87)`
-     - .. rst-class:: solution
-
-       :math:`f(1/2) = 3(1/2)^2 - 1/2 + 7`
-
-       :math:`f(1/2) = 3/4 - 2/4 + 28/4`
-
-       :math:`f(1/2) = 29/4`
-
-       :math:`(1/2, 29/4)`
+:math:`f(1/2) = 3(1/2)^2 - 1/2 + 7 = 3/4 - 2/4 + 28/4 = 29/4` |---|
+:math:`(1/2, 29/4)`
 
 .. rst-class:: keepwithnext
 
 c\) :math:`f(x) = 87`
 
-.. list-table::
-   :widths: 33 33 34
+.. rst-class:: solution
 
-   * - .. rst-class:: solution
+:math:`f(2) = 87` |---| :math:`(2, 87)`
 
-       :math:`f(2) = 87`
+.. rst-class:: solution
 
-       :math:`(2, 87)`
-     - .. rst-class:: solution
+:math:`f(-5) = 87` |---| :math:`(-5, 87)`
 
-       :math:`f(-5) = 87`
+.. rst-class:: solution
 
-       :math:`(-5, 87)`
-     - .. rst-class:: solution
-
-       :math:`f(1/2) = 87`
-
-       :math:`(1/2, 87)`
+:math:`f(1/2) = 87` |---| :math:`(1/2, 87)`
 
 .. rst-class:: keepwithnext
 
 d\) :math:`f(x) = \dfrac{2x}{x^2 - 3}`
 
-.. list-table::
-   :widths: 33 33 34
+.. rst-class:: solution
 
-   * - .. rst-class:: solution
+:math:`f(2) = \dfrac{2(2)}{(2)^2 - 3} = 4` |---| :math:`(2, 4)`
 
-       :math:`f(2) = \dfrac{2(2)}{(2)^2 - 3}`
+.. rst-class:: solution
 
-       :math:`f(2) = 4`
+:math:`f(-5) = \dfrac{2(-5)}{(-5)^2 - 3} = \dfrac{-10}{22} = \dfrac{-5}{11}`
+|---| :math:`(-5, -5/11)`
 
-       :math:`(2, 4)`
-     - .. rst-class:: solution
+.. rst-class:: solution
 
-       :math:`f(-5) = \dfrac{2(-5)}{(-5)^2 - 3}`
-
-       :math:`f(-5) = \dfrac{-10}{22}`
-
-       :math:`f(-5) = \dfrac{-5}{11}`
-
-       :math:`(-5, -5/11)`
-     - .. rst-class:: solution
-
-       :math:`f(1/2) = \dfrac{2(1/2)}{(1/2)^2 - 3}`
-
-       :math:`f(1/2) = \dfrac{1}{1/4 - 12/4}`
-
-       :math:`f(1/2) = \dfrac{1}{-11/4}`
-
-       :math:`f(1/2) = \dfrac{-4}{11}`
-
-       :math:`(1/2, -4/11)`
+:math:`f(1/2) = \dfrac{2(1/2)}{(1/2)^2 - 3} = \dfrac{1}{1/4 - 12/4} =
+\dfrac{1}{-11/4} = \dfrac{-4}{11}` |---| :math:`(1/2, -4/11)`
 
 Mapping Diagrams
 ================================================================================

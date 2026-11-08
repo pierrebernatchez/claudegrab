@@ -24,70 +24,76 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 Part 1: Quadratics Review
 ================================================================================
 
-**Vertex Form:**
+.. container:: keeptogether
 
-:math:`y = a(x-h)^2 + k`
+   **Vertex Form:**
 
-.. image:: ../images/mau1lesson03-gpimage01.png
-   :scale: 85
+   :math:`y = a(x-h)^2 + k`
 
-.. rst-class:: solution
+   .. image:: ../images/mau1lesson03-gpimage01.png
+      :scale: 85
 
-Vertex at :math:`(h,k)`
+   .. rst-class:: solution
 
-.. rst-class:: solution
+   Vertex at :math:`(h,k)`
 
-:math:`a > 0`: opens up; :math:`a < 0`: opens down
+   .. rst-class:: solution
 
-.. rst-class:: solution
+   :math:`a > 0`: opens up; :math:`a < 0`: opens down
 
-Axis of symmetry at :math:`x = h`
+   .. rst-class:: solution
 
-**Factored Form:**
+   Axis of symmetry at :math:`x = h`
 
-:math:`y = a(x-r)(x-s)`
+.. container:: keeptogether
 
-.. image:: ../images/mau1lesson03-gpimage02.png
-   :scale: 85
+   **Factored Form:**
 
-.. rst-class:: solution
+   :math:`y = a(x-r)(x-s)`
 
-x-intercepts at :math:`(r,0)` and :math:`(s,0)`
+   .. image:: ../images/mau1lesson03-gpimage02.png
+      :scale: 85
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-:math:`a > 0`: opens up; :math:`a < 0`: opens down
+   x-intercepts at :math:`(r,0)` and :math:`(s,0)`
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-Axis of symmetry at :math:`x = \dfrac{r+s}{2}`
+   :math:`a > 0`: opens up; :math:`a < 0`: opens down
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-Vertex at :math:`\left(\dfrac{r+s}{2}, f\!\left(\dfrac{r+s}{2}\right)\right)`
+   Axis of symmetry at :math:`x = \dfrac{r+s}{2}`
 
-**Standard Form:**
+   .. rst-class:: solution
 
-:math:`y = ax^2 + bx + c`
+   Vertex at :math:`\left(\dfrac{r+s}{2}, f\!\left(\dfrac{r+s}{2}\right)\right)`
 
-.. image:: ../images/mau1lesson03-gpimage03.png
-   :scale: 85
+.. container:: keeptogether
 
-.. rst-class:: solution
+   **Standard Form:**
 
-y-intercept at :math:`(0,c)`
+   :math:`y = ax^2 + bx + c`
 
-.. rst-class:: solution
+   .. image:: ../images/mau1lesson03-gpimage03.png
+      :scale: 85
 
-:math:`a > 0`: opens up; :math:`a < 0`: opens down
+   .. rst-class:: solution
 
-.. rst-class:: solution
+   y-intercept at :math:`(0,c)`
 
-Axis of symmetry at :math:`x = \dfrac{-b}{2a}`
+   .. rst-class:: solution
 
-.. rst-class:: solution
+   :math:`a > 0`: opens up; :math:`a < 0`: opens down
 
-Vertex at :math:`\left(\dfrac{-b}{2a}, f\!\left(\dfrac{-b}{2a}\right)\right)`
+   .. rst-class:: solution
+
+   Axis of symmetry at :math:`x = \dfrac{-b}{2a}`
+
+   .. rst-class:: solution
+
+   Vertex at :math:`\left(\dfrac{-b}{2a}, f\!\left(\dfrac{-b}{2a}\right)\right)`
 
 Part 2: Perfect Square Trinomials
 ================================================================================

@@ -23,7 +23,8 @@ This document was composed and formatted by Annie Bernatchez.
 
 The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
-**DO IT NOW!**
+Part 1: Domain & Range Review
+================================================================================
 
 .. rst-class:: keepwithnext
 
@@ -44,12 +45,9 @@ b\) Is this a function?
 
 |nbsp|
 
-Part 1: Domain & Range Review
-================================================================================
-
 .. rst-class:: keepwithnext
 
-What determines if a relation is a function or not?
+c\) What determines if a relation is a function or not?
 
 |nbsp|
 
@@ -57,7 +55,7 @@ What determines if a relation is a function or not?
 
 .. rst-class:: keepwithnext
 
-How does the vertical line test help us determine if a relation is a
+d\) How does the vertical line test help us determine if a relation is a
 function?
 
 |nbsp|
@@ -66,7 +64,7 @@ function?
 
 .. rst-class:: keepwithnext
 
-What is domain?
+e\) What is domain?
 
 |nbsp|
 
@@ -74,7 +72,7 @@ What is domain?
 
 .. rst-class:: keepwithnext
 
-What is range?
+f\) What is range?
 
 |nbsp|
 
@@ -83,25 +81,23 @@ What is range?
 Part 2: Find Values Using Function Notation
 ================================================================================
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-What does a function do?
+   What does a function do?
 
-|nbsp|
+   |nbsp|
 
-|nbsp|
+   |nbsp|
 
-.. image:: ../images/mau1lesson02-gpimage02.png
-   :scale: 85
-   :alt: function machine, INPUT x -> FUNCTION f: -> OUTPUT f(x)
+   .. image:: ../images/mau1lesson02-gpimage02.png
+      :scale: 85
+      :alt: function machine, INPUT x -> FUNCTION f: -> OUTPUT f(x)
 
-.. rst-class:: keepwithnext
+   What does function notation look like?
 
-What does function notation look like?
+   |nbsp|
 
-|nbsp|
-
-|nbsp|
+   |nbsp|
 
 .. rst-class:: keepwithnext
 

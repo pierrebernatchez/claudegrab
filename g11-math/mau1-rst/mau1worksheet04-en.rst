@@ -31,15 +31,21 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
 a\) :math:`3(4\sqrt{5})`
 
+|nbsp|
+
+|nbsp|
+
 .. rst-class:: keepwithnext
 
 b\) :math:`\sqrt{5}(-2\sqrt{7})`
 
+|nbsp|
+
+|nbsp|
+
 .. rst-class:: keepwithnext
 
 c\) :math:`2\sqrt{3}(3\sqrt{2})`
-
-|nbsp|
 
 |nbsp|
 
@@ -53,15 +59,21 @@ c\) :math:`2\sqrt{3}(3\sqrt{2})`
 
 a\) :math:`\sqrt{12}`
 
+|nbsp|
+
+|nbsp|
+
 .. rst-class:: keepwithnext
 
 b\) :math:`\sqrt{147}`
 
+|nbsp|
+
+|nbsp|
+
 .. rst-class:: keepwithnext
 
 c\) :math:`\sqrt{252}`
-
-|nbsp|
 
 |nbsp|
 
@@ -75,11 +87,13 @@ c\) :math:`\sqrt{252}`
 
 a\) :math:`2\sqrt{3}-5\sqrt{3}+4\sqrt{3}`
 
+|nbsp|
+
+|nbsp|
+
 .. rst-class:: keepwithnext
 
 b\) :math:`11\sqrt{5}-4\sqrt{5}-5\sqrt{5}-6\sqrt{5}`
-
-|nbsp|
 
 |nbsp|
 
@@ -89,11 +103,13 @@ b\) :math:`11\sqrt{5}-4\sqrt{5}-5\sqrt{5}-6\sqrt{5}`
 
 c\) :math:`\sqrt{6}-4\sqrt{2}+3\sqrt{6}-\sqrt{2}`
 
+|nbsp|
+
+|nbsp|
+
 .. rst-class:: keepwithnext
 
 d\) :math:`2\sqrt{10}-\sqrt{10}-4\sqrt{10}+\sqrt{5}`
-
-|nbsp|
 
 |nbsp|
 
@@ -106,6 +122,12 @@ d\) :math:`2\sqrt{10}-\sqrt{10}-4\sqrt{10}+\sqrt{5}`
 .. rst-class:: keepwithnext
 
 a\) :math:`8\sqrt{2}-4\sqrt{8}+\sqrt{32}`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -122,6 +144,14 @@ b\) :math:`\sqrt{20}-4\sqrt{12}-\sqrt{125}+2\sqrt{3}`
 .. rst-class:: keepwithnext
 
 c\) :math:`5\sqrt{3}-\sqrt{72}+\sqrt{243}+\sqrt{8}`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -143,15 +173,21 @@ d\) :math:`\sqrt{44}+\sqrt{88}+\sqrt{99}+\sqrt{198}`
 
 a\) :math:`5\sqrt{6}(2\sqrt{3})`
 
+|nbsp|
+
+|nbsp|
+
 .. rst-class:: keepwithnext
 
 b\) :math:`8\sqrt{5}(\sqrt{10})`
 
+|nbsp|
+
+|nbsp|
+
 .. rst-class:: keepwithnext
 
 c\) :math:`11\sqrt{2}(5\sqrt{3})`
-
-|nbsp|
 
 |nbsp|
 
@@ -165,9 +201,17 @@ c\) :math:`11\sqrt{2}(5\sqrt{3})`
 
 a\) :math:`3(8-\sqrt{5})`
 
+|nbsp|
+
+|nbsp|
+
 .. rst-class:: keepwithnext
 
 b\) :math:`\sqrt{3}(\sqrt{6}-\sqrt{3})`
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -187,6 +231,10 @@ c\) :math:`8\sqrt{2}(2\sqrt{8}+3\sqrt{12})`
 
 a\) :math:`(\sqrt{2}+5)(\sqrt{2}+5)`
 
+|nbsp|
+
+|nbsp|
+
 .. rst-class:: keepwithnext
 
 b\) :math:`(\sqrt{3}+2\sqrt{2})(5+5\sqrt{2})`
@@ -200,6 +248,10 @@ b\) :math:`(\sqrt{3}+2\sqrt{2})(5+5\sqrt{2})`
 .. rst-class:: keepwithnext
 
 c\) :math:`(1+\sqrt{5})(1-\sqrt{5})`
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -218,6 +270,12 @@ d\) :math:`(4-3\sqrt{7})(\sqrt{7}+1)`
 .. rst-class:: keepwithnext
 
 a\) :math:`\dfrac{1}{4}\sqrt{54}-\dfrac{1}{4}\sqrt{150}`
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -284,6 +342,10 @@ answer in simplified radical form.
 
 |nbsp|
 
+|nbsp|
+
+|nbsp|
+
 .. rst-class:: keepwithnext
 
 **11)** Simplify each of the following
@@ -291,6 +353,10 @@ answer in simplified radical form.
 .. rst-class:: keepwithnext
 
 a\) :math:`\dfrac{21-7\sqrt{6}}{7}`
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
