@@ -38,9 +38,10 @@ Powers with a Rational Exponent of the Form :math:`\dfrac{1}{n}`
 A power involving a rational exponent with numerator 1 and denominator
 :math:`n` can be interpreted as the :math:`n`\th root of the base:
 
-|nbsp|
+:math:`b^{\frac{1}{n}} = \sqrt[n]{b}`
 
-|nbsp|
+In particular, when :math:`n = 2`: :math:`x^{\frac{1}{2}} = \sqrt{x}`, the
+simple root of :math:`x`.
 
 .. rst-class:: keepwithnext
 

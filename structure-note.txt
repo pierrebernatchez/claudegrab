@@ -15,8 +15,8 @@ So when you are setting up a new course:
    Supply its prefix:         se
    Tell claude those details.
    Create an upstream sudirectory within it, and add .pdf s  to that for claude to start from.
-   Work one unit at a time,  supplying clause with  all the pdfs for a given unit.
-   Try to name you upstream files sensibly: s3u1lesson01.pdf, s3u1lesson01-solutions.pdf, ...
+   Work one unit at a time,  supplying claude with all the pdfs for a given unit.
+   Try to name your upstream files sensibly: seu1lesson01.pdf, seu1lesson01-solutions.pdf, ...
    to make it easy to correlate to the generated files.
 
 Your content subdirectories are going to end up symilar to our first two courses:

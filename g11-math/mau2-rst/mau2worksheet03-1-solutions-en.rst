@@ -36,7 +36,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        a\) :math:`f(x) = \dfrac{x^2-5x+6}{x-3}`
 
        .. image:: ../images/mau2worksheet03-1-gpimage01.png
-          :scale: 70
+          :scale: 55
 
        .. rst-class:: solution
 
@@ -46,7 +46,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        b\) :math:`f(x) = \dfrac{-(x^2+x-2)}{3x+6}`
 
        .. image:: ../images/mau2worksheet03-1-gpimage02.png
-          :scale: 70
+          :scale: 55
 
        .. rst-class:: solution
 
@@ -56,7 +56,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        c\) :math:`f(x) = \dfrac{2\sqrt{x-1}(x-5)}{x-5}`
 
        .. image:: ../images/mau2worksheet03-1-gpimage03.png
-          :scale: 70
+          :scale: 55
 
        .. rst-class:: solution
 
@@ -66,7 +66,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        d\) :math:`f(x) = \dfrac{x^2+4x+3}{x^2+5x+6}`
 
        .. image:: ../images/mau2worksheet03-1-gpimage04.png
-          :scale: 70
+          :scale: 55
 
        .. rst-class:: solution
 

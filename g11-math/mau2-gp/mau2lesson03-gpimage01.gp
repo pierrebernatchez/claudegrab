@@ -10,7 +10,7 @@ set xzeroaxis lc rgb 'gray30' lw 1.5
 set yzeroaxis lc rgb 'gray30' lw 1.5
 set grid lc rgb '#d0d0d0'
 unset key
-set label "f(x) = (x^2-2x)/(x-2)" at -2.3,3.3 font ",10"
+set label "f(x) = (x^2-2x)/(x-2)" at -2.3,3.3 font ",10" tc rgb 'red'
 plot x notitle lc rgb 'blue' lw 2, \
      '-' with points pt 6 ps 1.5 lc rgb 'blue' lw 2 notitle
 2 2

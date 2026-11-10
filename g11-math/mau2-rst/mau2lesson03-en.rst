@@ -169,7 +169,15 @@ Multiplying Rational Expressions
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - b\) :math:`\dfrac{4x+24}{x^2+8x} \cdot \dfrac{12x^2}{3x+18}`
+
+       |nbsp|
+
+       |nbsp|
 
        |nbsp|
 
@@ -179,7 +187,15 @@ Multiplying Rational Expressions
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - d\) :math:`\dfrac{5x^2-13x+8}{x-7} \cdot \dfrac{1}{5x-8}`
+
+       |nbsp|
+
+       |nbsp|
 
        |nbsp|
 
@@ -210,12 +226,24 @@ Dividing Rational Expressions
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - b\) :math:`\dfrac{a^2+2a}{3a} \div \dfrac{5a^2+10a}{20a^2}`
 
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
+
+       |nbsp|
    * - c\) :math:`\dfrac{2x^2-8x}{x^2-3x-10} \div \dfrac{4x^2}{x^2-9x+20}`
+
+       |nbsp|
+
+       |nbsp|
 
        |nbsp|
 

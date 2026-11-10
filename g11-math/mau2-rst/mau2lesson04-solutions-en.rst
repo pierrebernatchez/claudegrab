@@ -21,8 +21,6 @@ This document was composed and formatted by Annie Bernatchez.
 
 The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
-**DO IT NOW!**
-
 .. rst-class:: keepwithnext
 
 a\) :math:`\dfrac{1}{6}+\dfrac{1}{5}`

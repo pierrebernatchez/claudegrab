@@ -49,13 +49,15 @@ Stating Restrictions
 ================================================================================
 
 **Note:** rational expressions must be checked for restrictions by
-determining where the denominator is equal to **zero**. These
+determining where the denominator is equal to :sol:`zero`. These
 restrictions must be stated when the expression is simplified.
 
 .. list-table::
    :width: 100%
 
-   * - *bottom of a fraction can NOT = 0.*
+   * - .. rst-class:: solution
+
+       *bottom of a fraction can NOT = 0.*
 
 .. rst-class:: keepwithnext
 
@@ -87,28 +89,32 @@ expressions
 
 **Rule:** We can cancel out ONLY when multiplying fractions.
 
-.. list-table::
-   :width: 100%
+.. rst-class:: solution
 
-   * - You can cancel factors.
+You can cancel factors.
 
-       :math:`\text{e.g. } \dfrac{\cancel{x}(x+1)}{\cancel{x}} = x+1`
-       is an example of when cancelling is allowed.
+.. rst-class:: solution
 
-       :math:`\text{e.g. } \dfrac{\cancel{3}\cancel{x}(x+3)}{2\cancel{4}\cancel{x}}
-       = \dfrac{3x+9}{2}` is an example of when cancelling is allowed.
+:math:`\text{e.g. } \dfrac{\cancel{x}(x+1)}{\cancel{x}} = x+1`
+is an example of when cancelling is allowed.
+
+.. rst-class:: solution
+
+:math:`\text{e.g. } \dfrac{\cancel{3}\cancel{x}(x+3)}{2\cancel{4}\cancel{x}}
+= \dfrac{3x+9}{2}` is an example of when cancelling is allowed.
 
 .. rst-class:: keepwithnext
 
 **Rule:** We can **NOT** cancel out when adding or subtracting
 fractions.
 
-.. list-table::
-   :width: 100%
+.. rst-class:: solution
 
-   * - :math:`\text{e.g. } \dfrac{x+8}{x}` |---| NO! Don't do this!
+:math:`\text{e.g. } \dfrac{x+8}{x}` |---| NO! Don't do this!
 
-       :math:`\text{e.g. } \dfrac{2x+3}{4x}` |---| no cancelling!
+.. rst-class:: solution
+
+:math:`\text{e.g. } \dfrac{2x+3}{4x}` |---| no cancelling!
 
 Simplifying Rational Expressions
 ================================================================================

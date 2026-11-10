@@ -97,14 +97,10 @@ restrictions.
 Answers
 ================================================================================
 
-.. rst-class:: solution
-
 **1)** a) :math:`\dfrac{x}{x+1}`, :math:`x \neq -4, -1, 0`
 b) :math:`\dfrac{x+2}{5(x+1)}`, :math:`x \neq -8, -1, 2`
 c) :math:`\dfrac{x-4}{2x}`, :math:`x \neq 0, 4, 5`
 d) :math:`x+2`, :math:`x \neq -4, -\dfrac{1}{5}`
-
-.. rst-class:: solution
 
 **2)** a) :math:`3x-6`, :math:`x \neq 3`
 b) :math:`\dfrac{x-3}{2x}`, :math:`x \neq -3, 0, 2`
