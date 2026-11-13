@@ -23,4 +23,4 @@ $gpts << EOD
 3 1
 EOD
 plot $fpts using 1:2 with linespoints lw 2 pt 7 ps 1 lc rgb 'gray50', \
-     $gpts using 1:2 with linespoints lw 2 pt 7 ps 1 lc rgb 'black'
+     $gpts using 1:2 with linespoints lw 2 pt 7 ps 1 lc rgb 'red'

@@ -108,19 +108,19 @@ the following functions in the order you would do them in.
        a\) translate up 2 units
 
        .. image:: ../images/mau3review06-gpimage01-blank.png
-          :scale: 85
+          :scale: 70
      - .. rst-class:: keepwithnext
 
        b\) horizontal stretch by a factor of 2
 
        .. image:: ../images/mau3review06-gpimage02-blank.png
-          :scale: 85
+          :scale: 70
      - .. rst-class:: keepwithnext
 
        c\) vertical compression by a factor of :math:`\dfrac{1}{2}`
 
        .. image:: ../images/mau3review06-gpimage03-blank.png
-          :scale: 85
+          :scale: 70
 
 .. rst-class:: keepwithnext
 

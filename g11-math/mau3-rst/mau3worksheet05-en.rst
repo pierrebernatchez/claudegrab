@@ -37,7 +37,7 @@ of :math:`f(x)` a function? Explain.
        a\)
 
        .. image:: ../images/mau3worksheet05-gpimage01-blank.png
-          :scale: 85
+          :scale: 70
 
        |nbsp|
      - .. rst-class:: keepwithnext
@@ -45,7 +45,7 @@ of :math:`f(x)` a function? Explain.
        b\)
 
        .. image:: ../images/mau3worksheet05-gpimage02-blank.png
-          :scale: 85
+          :scale: 70
 
        |nbsp|
 
@@ -136,7 +136,7 @@ Justify your conclusion.
        a\)
 
        .. image:: ../images/mau3worksheet05-gpimage03.png
-          :scale: 90
+          :scale: 75
 
        |nbsp|
      - .. rst-class:: keepwithnext
@@ -144,7 +144,7 @@ Justify your conclusion.
        b\)
 
        .. image:: ../images/mau3worksheet05-gpimage04.png
-          :scale: 90
+          :scale: 75
 
        |nbsp|
 
@@ -168,7 +168,7 @@ Justify your conclusion.
        b\) Graph :math:`f(x)` and its inverse
 
        .. image:: ../images/mau3worksheet05-gpimage05-blank.png
-          :scale: 85
+          :scale: 70
 
 .. rst-class:: keepwithnext
 
@@ -182,9 +182,9 @@ and graph it by reflecting :math:`f(x)` over the line :math:`y = x`
    :width: 100%
 
    * - .. image:: ../images/mau3worksheet05-gpimage06-blank.png
-          :scale: 90
+          :scale: 75
      - .. image:: ../images/mau3worksheet05-gpimage07-blank.png
-          :scale: 90
+          :scale: 75
 
 .. rst-class:: keepwithnext
 

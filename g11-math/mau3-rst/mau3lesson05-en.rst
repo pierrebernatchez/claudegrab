@@ -80,14 +80,12 @@ range of :math:`f(x)` and its inverse.
 
 |nbsp|
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**Example 2:**
+   **Example 2:**
 
-.. rst-class:: keepwithnext
-
-a\) Graph the function :math:`f(x) = x^2` and its inverse
-:math:`f^{-1}(x)`.
+   a\) Graph the function :math:`f(x) = x^2` and its inverse
+   :math:`f^{-1}(x)`.
 
 .. list-table::
    :widths: 30 70

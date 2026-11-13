@@ -11,7 +11,7 @@ set yzeroaxis lc rgb 'gray30' lw 1.5
 set grid lc rgb '#d8d8d8'
 unset key
 set label "f(x)" at 3.1,3 tc rgb 'gray50'
-set label "g(x)" at -3.9,3 tc rgb 'black'
+set label "g(x)" at -3.9,3 tc rgb 'red'
 $fpts << EOD
 0 0
 3 3
@@ -21,4 +21,4 @@ $gpts << EOD
 -3 3
 EOD
 plot $fpts using 1:2 with linespoints lw 2 pt 7 ps 1 lc rgb 'gray50', \
-     $gpts using 1:2 with linespoints lw 2 pt 7 ps 1 lc rgb 'black'
+     $gpts using 1:2 with linespoints lw 2 pt 7 ps 1 lc rgb 'red'

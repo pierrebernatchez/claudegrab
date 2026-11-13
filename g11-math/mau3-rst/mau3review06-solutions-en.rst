@@ -131,19 +131,19 @@ vertical stretch BAFO 2, then shift right 3 units and down 9 units.
        a\) translate up 2 units
 
        .. image:: ../images/mau3review06-gpimage01.png
-          :scale: 85
+          :scale: 70
      - .. rst-class:: keepwithnext
 
        b\) horizontal stretch by a factor of 2
 
        .. image:: ../images/mau3review06-gpimage02.png
-          :scale: 85
+          :scale: 70
      - .. rst-class:: keepwithnext
 
        c\) vertical compression by a factor of :math:`\dfrac{1}{2}`
 
        .. image:: ../images/mau3review06-gpimage03.png
-          :scale: 85
+          :scale: 70
 
 .. rst-class:: keepwithnext
 

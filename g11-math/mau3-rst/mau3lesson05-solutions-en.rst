@@ -96,14 +96,12 @@ range of :math:`f(x)` and its inverse.
 :math:`f^{-1}(x)`: :math:`D: \{x \in \mathbb{R} \mid x = 0,2,5,6,7\}`,
 :math:`R: \{y \in \mathbb{R} \mid y = -5,-4,-3,-2,0\}`
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**Example 2:**
+   **Example 2:**
 
-.. rst-class:: keepwithnext
-
-a\) Graph the function :math:`f(x) = x^2` and its inverse
-:math:`f^{-1}(x)`.
+   a\) Graph the function :math:`f(x) = x^2` and its inverse
+   :math:`f^{-1}(x)`.
 
 .. list-table::
    :widths: 30 70
