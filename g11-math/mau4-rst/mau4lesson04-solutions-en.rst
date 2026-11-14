@@ -85,38 +85,28 @@ a\) :math:`y = 4\left(\dfrac{1}{2}\right)^x`
 
                 0.5
      - .. image:: ../images/mau4lesson04-gpimage01.png
-          :scale: 85
-     - .. rst-class:: solution
+          :scale: 65
+     - Domain: :solmath:`\{x \in \mathbb{R}\}`
 
-         Domain: :math:`\{x \in \mathbb{R}\}`
+       Range: :solmath:`\{y \in \mathbb{R} \mid y > 0\}`
 
-       .. rst-class:: solution
+       x-int: :sol:`none`
 
-         Range: :math:`\{y \in \mathbb{R} \mid y > 0\}`
+       y-int: :solmath:`(0,4)`
 
-       .. rst-class:: solution
+       intervals of increase/decrease:
 
-         x-int: none
+       :sol:`decreasing`
 
-       .. rst-class:: solution
+       asymptote: :solmath:`y = 0`
 
-         y-int: :math:`(0,4)`
+.. container:: keeptogether
 
-       .. rst-class:: solution
+   b\) :math:`y = -3^{-x}`
 
-         decreasing
+   .. rst-class:: solution
 
-       .. rst-class:: solution
-
-         asymptote: :math:`y = 0`
-
-.. rst-class:: keepwithnext
-
-b\) :math:`y = -3^{-x}`
-
-.. rst-class:: solution
-
-:math:`y = -3^{-x} = -1\left(\dfrac{1}{3}\right)^x`
+   :math:`y = -3^{-x} = -1\left(\dfrac{1}{3}\right)^x`
 
 .. list-table::
    :widths: 25 40 35
@@ -158,30 +148,20 @@ b\) :math:`y = -3^{-x}`
 
                 -0.11
      - .. image:: ../images/mau4lesson04-gpimage02.png
-          :scale: 85
-     - .. rst-class:: solution
+          :scale: 65
+     - Domain: :solmath:`\{x \in \mathbb{R}\}`
 
-         Domain: :math:`\{x \in \mathbb{R}\}`
+       Range: :solmath:`\{y \in \mathbb{R} \mid y < 0\}`
 
-       .. rst-class:: solution
+       x-int: :sol:`none`
 
-         Range: :math:`\{y \in \mathbb{R} \mid y < 0\}`
+       y-int: :solmath:`(0,-1)`
 
-       .. rst-class:: solution
+       intervals of increase/decrease:
 
-         x-int: none
+       :sol:`increasing`
 
-       .. rst-class:: solution
-
-         y-int: :math:`(0,-1)`
-
-       .. rst-class:: solution
-
-         increasing
-
-       .. rst-class:: solution
-
-         asymptote: :math:`y = 0`
+       asymptote: :solmath:`y = 0`
 
 .. rst-class:: keepwithnext
 

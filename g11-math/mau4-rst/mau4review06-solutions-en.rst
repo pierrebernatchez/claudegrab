@@ -362,25 +362,25 @@ decreasing exponential functions.
        a\) :math:`f(x) = 5\left(\dfrac{1}{2}\right)^x`
 
        .. image:: ../images/mau4review06-gpimage03.png
-          :scale: 85
+          :scale: 70
      - .. rst-class:: keepwithnext
 
        b\) :math:`h(x) = -5\left(\dfrac{1}{2}\right)^x`
 
        .. image:: ../images/mau4review06-gpimage04.png
-          :scale: 85
+          :scale: 70
      - .. rst-class:: keepwithnext
 
        c\) :math:`g(x) = -3(4)^x`
 
        .. image:: ../images/mau4review06-gpimage05.png
-          :scale: 85
+          :scale: 70
      - .. rst-class:: keepwithnext
 
        d\) :math:`b(x) = 3(4)^x`
 
        .. image:: ../images/mau4review06-gpimage06.png
-          :scale: 85
+          :scale: 70
 
 .. rst-class:: keepwithnext
 

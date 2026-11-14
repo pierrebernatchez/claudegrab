@@ -164,11 +164,11 @@ Summary of Patterns in First Differences for Various Functions
      - Quadratic (:math:`y = x^2`)
      - Exponential (:math:`y = 2^x`)
    * - .. image:: ../images/mau4lesson01-gpimage02.png
-          :scale: 90
+          :scale: 70
      - .. image:: ../images/mau4lesson01-gpimage03.png
-          :scale: 90
+          :scale: 70
      - .. image:: ../images/mau4lesson01-gpimage04.png
-          :scale: 90
+          :scale: 70
    * - |nbsp|
 
        |nbsp|

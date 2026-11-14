@@ -57,7 +57,7 @@ a\) :math:`y = 4\left(\dfrac{1}{2}\right)^x`
           * - |nbsp|
             - |nbsp|
      - .. image:: ../images/mau4lesson04-gpimage01-blank.png
-          :scale: 85
+          :scale: 65
      - Domain:
 
        |nbsp|
@@ -106,7 +106,7 @@ b\) :math:`y = -3^{-x}`
           * - |nbsp|
             - |nbsp|
      - .. image:: ../images/mau4lesson04-gpimage02-blank.png
-          :scale: 85
+          :scale: 65
      - Domain:
 
        |nbsp|

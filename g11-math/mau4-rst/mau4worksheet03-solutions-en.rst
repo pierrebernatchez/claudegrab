@@ -156,14 +156,13 @@ should Elaine invest today?
 
 :math:`P \approx 767.90`, so :math:`\$767.90`
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**6)** To buy a new guitar, Phoebe borrows $650, which she plans to repay
-in 5 years. The bank charges 12% per annum, compounded annually.
+   **6)** To buy a new guitar, Phoebe borrows $650, which she plans to
+   repay in 5 years. The bank charges 12% per annum, compounded
+   annually.
 
-.. rst-class:: keepwithnext
-
-a\) Determine the amount that Phoebe must repay.
+   a\) Determine the amount that Phoebe must repay.
 
 .. rst-class:: solution
 
