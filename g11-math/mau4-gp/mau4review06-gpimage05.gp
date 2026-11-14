@@ -7,8 +7,8 @@ set yrange [-11:1]
 unset xtics
 unset ytics
 unset border
-set xzeroaxis lc rgb 'gray40' lw 1
-set yzeroaxis lc rgb 'gray40' lw 1
+set arrow from -2.5,0 to 1.8,0 nohead lc rgb 'gray40' lw 1
+set arrow from 0,-11 to 0,1 nohead lc rgb 'gray40' lw 1
 unset key
 f(x) = -3*(4**x)
 set label "-3" at 0.15,-3.3 tc rgb 'red' front

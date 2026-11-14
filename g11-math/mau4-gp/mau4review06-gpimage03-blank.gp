@@ -7,7 +7,7 @@ set yrange [-1:11]
 unset xtics
 unset ytics
 unset border
-set xzeroaxis lc rgb 'gray40' lw 1
-set yzeroaxis lc rgb 'gray40' lw 1
+set arrow from -2.5,0 to 4.5,0 nohead lc rgb 'gray40' lw 1
+set arrow from 0,-1 to 0,11 nohead lc rgb 'gray40' lw 1
 unset key
 plot 1/0 notitle
