@@ -1,4 +1,4 @@
-Intro to Transformations Lesson with solutions
+3.1 Intro to Transformations Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Intro to Transformations Lesson with solutions
 :slug: mau3lesson01-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Intro to Transformations Lesson with solutions
+:summary: 3.1 Intro to Transformations Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

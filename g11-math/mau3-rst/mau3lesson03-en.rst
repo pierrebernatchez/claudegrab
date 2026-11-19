@@ -1,4 +1,4 @@
-Transformations of √x Lesson
+3.3 Transformations of √x Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Transformations of √x Lesson
 :slug: mau3lesson03
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Transformations of √x Lesson
+:summary: 3.3 Transformations of √x Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

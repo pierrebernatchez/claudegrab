@@ -1,5 +1,5 @@
-Intro to Rational Expressions: Fractions and Exponents Review Worksheet with solutions
-################################################################################
+2.1 Intro to Rational Expressions: Fractions and Exponents Review Worksheet with solutions
+##########################################################################################
 
 :lang: en
 :date: 2026-11-01 12:00:00+00:00
@@ -7,7 +7,7 @@ Intro to Rational Expressions: Fractions and Exponents Review Worksheet with sol
 :slug: mau2worksheet01-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Intro to Rational Expressions: Fractions and Exponents Review Worksheet with solutions
+:summary: 2.1 Intro to Rational Expressions: Fractions and Exponents Review Worksheet with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

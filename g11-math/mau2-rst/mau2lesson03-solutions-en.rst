@@ -1,5 +1,5 @@
-2.1/2.2 Restricting, Simplifying, Multiplying, and Dividing Rational Expressions Lesson with solutions
-################################################################################
+2.3 Restricting, Simplifying, Multiplying, and Dividing Rational Expressions Lesson with solutions
+##################################################################################################
 
 :lang: en
 :date: 2026-11-01 12:00:00+00:00
@@ -7,7 +7,7 @@
 :slug: mau2lesson03-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 2.1/2.2 Restricting, Simplifying, Multiplying, and Dividing Rational Expressions Lesson with solutions
+:summary: 2.3 Restricting, Simplifying, Multiplying, and Dividing Rational Expressions Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

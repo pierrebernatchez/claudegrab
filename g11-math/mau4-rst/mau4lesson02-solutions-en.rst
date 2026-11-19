@@ -1,4 +1,4 @@
-Exponential Decay Lesson with solutions
+4.2 Exponential Decay Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Exponential Decay Lesson with solutions
 :slug: mau4lesson02-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Exponential Decay Lesson with solutions
+:summary: 4.2 Exponential Decay Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

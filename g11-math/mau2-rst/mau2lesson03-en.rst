@@ -1,4 +1,4 @@
-2.1/2.2 Multiplying and Dividing Rational Expressions Lesson
+2.3 Multiplying and Dividing Rational Expressions Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau2lesson03
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 2.1/2.2 Multiplying and Dividing Rational Expressions Lesson
+:summary: 2.3 Multiplying and Dividing Rational Expressions Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

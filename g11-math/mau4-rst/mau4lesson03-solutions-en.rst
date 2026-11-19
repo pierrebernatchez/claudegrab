@@ -1,4 +1,4 @@
-Compound Interest / Initial Amount Lesson with solutions
+4.3 Compound Interest / Initial Amount Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Compound Interest / Initial Amount Lesson with solutions
 :slug: mau4lesson03-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Compound Interest / Initial Amount Lesson with solutions
+:summary: 4.3 Compound Interest / Initial Amount Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

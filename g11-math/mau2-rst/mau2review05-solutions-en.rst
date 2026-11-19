@@ -1,4 +1,4 @@
-Chapter 2a - Rational Expressions - Review with solutions
+Unit 2 - Rational Expressions - Review with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Chapter 2a - Rational Expressions - Review with solutions
 :slug: mau2review05-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Chapter 2a - Rational Expressions - Review with solutions
+:summary: Unit 2 - Rational Expressions - Review with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -21,7 +21,7 @@ This document was composed and formatted by Annie Bernatchez.
 
 The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
-This review covers all of Chapter 2a: Rational Expressions, and is meant to
+This review covers all of Unit 2: Rational Expressions, and is meant to
 be used to prepare for the unit test.
 
 .. rst-class:: keepwithnext

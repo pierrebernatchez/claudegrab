@@ -1,4 +1,4 @@
-3.3 Rational Exponents Lesson with solutions
+2.2 Rational Exponents Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau2lesson02-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 3.3 Rational Exponents Lesson with solutions
+:summary: 2.2 Rational Exponents Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

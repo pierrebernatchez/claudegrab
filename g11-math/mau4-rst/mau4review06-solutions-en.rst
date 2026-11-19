@@ -1,4 +1,4 @@
-Chapter 3 – Exponential Functions – Review with solutions
+Unit 4 – Exponential Functions – Review with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Chapter 3 – Exponential Functions – Review with solutions
 :slug: mau4review06-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Chapter 3 – Exponential Functions – Review with solutions
+:summary: Unit 4 – Exponential Functions – Review with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -23,7 +23,7 @@ This document was composed and formatted by Annie Bernatchez.
 
 The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
-This review covers all of Chapter 3: Exponential Functions, and is meant
+This review covers all of Unit 4: Exponential Functions, and is meant
 to be used to prepare for the unit test.
 
 Section 1: Exponential Growth and Decay

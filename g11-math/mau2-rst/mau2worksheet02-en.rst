@@ -1,4 +1,4 @@
-3.3 Rational Exponents Worksheet
+2.2 Rational Exponents Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau2worksheet02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 3.3 Rational Exponents Worksheet
+:summary: 2.2 Rational Exponents Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

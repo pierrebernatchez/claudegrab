@@ -1,4 +1,4 @@
-3.2 Exponential Decay Worksheet
+4.2 Exponential Decay Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau4worksheet02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 3.2 Exponential Decay Worksheet
+:summary: 4.2 Exponential Decay Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

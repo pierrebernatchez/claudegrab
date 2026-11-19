@@ -1,4 +1,4 @@
-Intro to Transformations Worksheet
+3.1 Intro to Transformations Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Intro to Transformations Worksheet
 :slug: mau3worksheet01
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Intro to Transformations Worksheet
+:summary: 3.1 Intro to Transformations Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

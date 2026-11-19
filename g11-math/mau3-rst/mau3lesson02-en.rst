@@ -1,4 +1,4 @@
-Transformations of Quadratic Functions Lesson
+3.2 Transformations of Quadratic Functions Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Transformations of Quadratic Functions Lesson
 :slug: mau3lesson02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Transformations of Quadratic Functions Lesson
+:summary: 3.2 Transformations of Quadratic Functions Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

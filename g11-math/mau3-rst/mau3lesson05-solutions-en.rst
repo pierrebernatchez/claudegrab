@@ -1,4 +1,4 @@
-2.6 Inverse of a Function Lesson with solutions
+3.5 Inverse of a Function Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau3lesson05-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 2.6 Inverse of a Function Lesson with solutions
+:summary: 3.5 Inverse of a Function Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

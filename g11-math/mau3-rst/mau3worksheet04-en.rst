@@ -1,4 +1,4 @@
-Transformations of 1/x Worksheet
+3.4 Transformations of 1/x Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Transformations of 1/x Worksheet
 :slug: mau3worksheet04
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Transformations of 1/x Worksheet
+:summary: 3.4 Transformations of 1/x Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

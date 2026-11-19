@@ -1,4 +1,4 @@
-Intro to Transformations Lesson
+3.1 Intro to Transformations Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Intro to Transformations Lesson
 :slug: mau3lesson01
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Intro to Transformations Lesson
+:summary: 3.1 Intro to Transformations Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

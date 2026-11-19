@@ -1,4 +1,4 @@
-Transformations of 1/x Lesson
+3.4 Transformations of 1/x Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Transformations of 1/x Lesson
 :slug: mau3lesson04
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Transformations of 1/x Lesson
+:summary: 3.4 Transformations of 1/x Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

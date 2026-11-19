@@ -1,4 +1,4 @@
-3.1 Exponential Growth Worksheet
+4.1 Exponential Growth Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau4worksheet01
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 3.1 Exponential Growth Worksheet
+:summary: 4.1 Exponential Growth Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

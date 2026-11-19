@@ -1,4 +1,4 @@
-Compound Interest Worksheet
+4.3 Compound Interest Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Compound Interest Worksheet
 :slug: mau4worksheet03
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Compound Interest Worksheet
+:summary: 4.3 Compound Interest Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

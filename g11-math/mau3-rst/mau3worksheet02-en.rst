@@ -1,4 +1,4 @@
-Transformations of Quadratic Functions Worksheet
+3.2 Transformations of Quadratic Functions Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Transformations of Quadratic Functions Worksheet
 :slug: mau3worksheet02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Transformations of Quadratic Functions Worksheet
+:summary: 3.2 Transformations of Quadratic Functions Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

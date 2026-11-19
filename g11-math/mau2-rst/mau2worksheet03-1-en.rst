@@ -1,4 +1,4 @@
-2.1/2.2 Multiplying and Dividing Rational Expressions Worksheet
+2.3 Multiplying and Dividing Rational Expressions Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau2worksheet03-1
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 2.1/2.2 Multiplying and Dividing Rational Expressions Worksheet
+:summary: 2.3 Multiplying and Dividing Rational Expressions Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

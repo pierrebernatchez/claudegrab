@@ -1,4 +1,4 @@
-Intro to Rational Expressions: Fractions and Exponents Review Lesson
+2.1 Intro to Rational Expressions: Fractions and Exponents Review Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Intro to Rational Expressions: Fractions and Exponents Review Lesson
 :slug: mau2lesson01
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Intro to Rational Expressions: Fractions and Exponents Review Lesson
+:summary: 2.1 Intro to Rational Expressions: Fractions and Exponents Review Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

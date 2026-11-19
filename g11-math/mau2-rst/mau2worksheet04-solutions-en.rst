@@ -1,4 +1,4 @@
-2.1/2.2 Adding and Subtracting Rational Expressions Worksheet with solutions
+2.4 Adding and Subtracting Rational Expressions Worksheet with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau2worksheet04-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 2.1/2.2 Adding and Subtracting Rational Expressions Worksheet with solutions
+:summary: 2.4 Adding and Subtracting Rational Expressions Worksheet with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

@@ -1,4 +1,4 @@
-Chapter 1 – Functions – Review with solutions
+Unit 1 – Functions – Review with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Chapter 1 – Functions – Review with solutions
 :slug: mau1review08-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Chapter 1 – Functions – Review with solutions
+:summary: Unit 1 – Functions – Review with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

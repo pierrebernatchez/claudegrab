@@ -1,4 +1,4 @@
-2.7 Inverse of a Function Worksheet with solutions
+3.5 Inverse of a Function Worksheet with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau3worksheet05-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 2.7 Inverse of a Function Worksheet with solutions
+:summary: 3.5 Inverse of a Function Worksheet with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

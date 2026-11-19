@@ -1,5 +1,5 @@
-1.5 Solving Quadratic Equations – Part 2: Solve Using the Quadratic Formula Worksheet
-################################################################################
+1.6 Solving Quadratic Equations – Part 2: Solve Using the Quadratic Formula Worksheet
+#####################################################################################
 
 :lang: en
 :date: 2026-11-01 12:00:00+00:00
@@ -7,7 +7,7 @@
 :slug: mau1worksheet06
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 1.5 Solving Quadratic Equations – Part 2: Solve Using the Quadratic Formula Worksheet
+:summary: 1.6 Solving Quadratic Equations – Part 2: Solve Using the Quadratic Formula Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

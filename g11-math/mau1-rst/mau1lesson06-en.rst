@@ -1,5 +1,5 @@
-1.5 Solving Quadratic Equations – Part 2: Solve Using the Quadratic Formula Lesson
-################################################################################
+1.6 Solving Quadratic Equations – Part 2: Solve Using the Quadratic Formula Lesson
+##################################################################################
 
 :lang: en
 :date: 2026-11-01 12:00:00+00:00
@@ -7,7 +7,7 @@
 :slug: mau1lesson06
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 1.5 Solving Quadratic Equations – Part 2: Solve Using the Quadratic Formula Lesson
+:summary: 1.6 Solving Quadratic Equations – Part 2: Solve Using the Quadratic Formula Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

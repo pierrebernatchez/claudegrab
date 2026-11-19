@@ -1,4 +1,4 @@
-Transformations of Exponential Functions Lesson
+4.5 Transformations of Exponential Functions Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Transformations of Exponential Functions Lesson
 :slug: mau4lesson05
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Transformations of Exponential Functions Lesson
+:summary: 4.5 Transformations of Exponential Functions Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

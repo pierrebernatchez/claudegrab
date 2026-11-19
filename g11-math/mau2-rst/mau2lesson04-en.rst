@@ -1,4 +1,4 @@
-2.2 Adding and Subtracting Rational Expressions Lesson
+2.4 Adding and Subtracting Rational Expressions Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau2lesson04
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 2.2 Adding and Subtracting Rational Expressions Lesson
+:summary: 2.4 Adding and Subtracting Rational Expressions Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

@@ -1,4 +1,4 @@
-Properties of Exponential Functions Lesson with solutions
+4.4 Properties of Exponential Functions Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Properties of Exponential Functions Lesson with solutions
 :slug: mau4lesson04-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Properties of Exponential Functions Lesson with solutions
+:summary: 4.4 Properties of Exponential Functions Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

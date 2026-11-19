@@ -1,4 +1,4 @@
-Properties of Exponential Functions Worksheet
+4.4 Properties of Exponential Functions Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Properties of Exponential Functions Worksheet
 :slug: mau4worksheet04
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Properties of Exponential Functions Worksheet
+:summary: 4.4 Properties of Exponential Functions Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

@@ -1,4 +1,4 @@
-3.5 Transformations of Exponential Functions Worksheet
+4.5 Transformations of Exponential Functions Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau4worksheet05
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 3.5 Transformations of Exponential Functions Worksheet
+:summary: 4.5 Transformations of Exponential Functions Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

@@ -1,4 +1,4 @@
-3.1 Exponential Growth Worksheet with solutions
+4.1 Exponential Growth Worksheet with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau4worksheet01-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 3.1 Exponential Growth Worksheet with solutions
+:summary: 4.1 Exponential Growth Worksheet with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

@@ -1,4 +1,4 @@
-Extra Practice Multiplying and Dividing Rational Expressions Worksheet
+2.3 Extra Practice Multiplying and Dividing Rational Expressions Worksheet
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Extra Practice Multiplying and Dividing Rational Expressions Worksheet
 :slug: mau2worksheet03-2
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Extra Practice Multiplying and Dividing Rational Expressions Worksheet
+:summary: 2.3 Extra Practice Multiplying and Dividing Rational Expressions Worksheet
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

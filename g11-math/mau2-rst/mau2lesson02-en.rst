@@ -1,4 +1,4 @@
-3.3 Rational Exponents Lesson
+2.2 Rational Exponents Lesson
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@
 :slug: mau2lesson02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: 3.3 Rational Exponents Lesson
+:summary: 2.2 Rational Exponents Lesson
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

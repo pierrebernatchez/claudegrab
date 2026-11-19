@@ -1,4 +1,4 @@
-Exponential Growth Lesson with solutions
+4.1 Exponential Growth Lesson with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Exponential Growth Lesson with solutions
 :slug: mau4lesson01-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Exponential Growth Lesson with solutions
+:summary: 4.1 Exponential Growth Lesson with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
