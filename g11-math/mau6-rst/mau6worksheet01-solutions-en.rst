@@ -36,7 +36,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        a\)
 
        .. image:: ../images/mau6worksheet01-gpimage01.png
-          :scale: 85
+          :scale: 70
 
        .. rst-class:: solution
 
@@ -46,7 +46,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        b\)
 
        .. image:: ../images/mau6worksheet01-gpimage02.png
-          :scale: 85
+          :scale: 70
 
        .. rst-class:: solution
 
@@ -61,7 +61,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        c\)
 
        .. image:: ../images/mau6worksheet01-gpimage03.png
-          :scale: 85
+          :scale: 70
 
        .. rst-class:: solution
 
@@ -71,7 +71,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        d\)
 
        .. image:: ../images/mau6worksheet01-gpimage04.png
-          :scale: 85
+          :scale: 70
 
        .. rst-class:: solution
 
@@ -97,47 +97,47 @@ c\) Period :math:`= 6-0 = 6` units. Amplitude
 d\) Period :math:`= 4-0.5 = 3.5` units. Amplitude
 :math:`= \dfrac{1.5-0}{2} = 0.75` units.
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**3)** A periodic function :math:`f(x)` has a period of 8. The values of
-:math:`f(1), f(5),` and :math:`f(7)` are -3, 2, and 8, respectively.
-Predict the value of each of the following. If a prediction is not
-possible, explain why not.
+   **3)** A periodic function :math:`f(x)` has a period of 8. The values of
+   :math:`f(1), f(5),` and :math:`f(7)` are -3, 2, and 8, respectively.
+   Predict the value of each of the following. If a prediction is not
+   possible, explain why not.
 
-.. list-table::
-   :widths: 50 50
-   :width: 100%
+   .. list-table::
+      :widths: 50 50
+      :width: 100%
 
-   * - .. rst-class:: keepwithnext
+      * - .. rst-class:: keepwithnext
 
-       a\) :math:`f(9)`
+          a\) :math:`f(9)`
 
-       .. rst-class:: solution
+          .. rst-class:: solution
 
-       :math:`f(9) = f(9-8) = f(1) = -3`
-     - .. rst-class:: keepwithnext
+          :math:`f(9) = f(9-8) = f(1) = -3`
+        - .. rst-class:: keepwithnext
 
-       b\) :math:`f(29)`
+          b\) :math:`f(29)`
 
-       .. rst-class:: solution
+          .. rst-class:: solution
 
-       :math:`f(29) = f[29-3(8)] = f(29-24) = f(5) = 2`
+          :math:`f(29) = f[29-3(8)] = f(29-24) = f(5) = 2`
 
-   * - .. rst-class:: keepwithnext
+      * - .. rst-class:: keepwithnext
 
-       c\) :math:`f(63)`
+          c\) :math:`f(63)`
 
-       .. rst-class:: solution
+          .. rst-class:: solution
 
-       :math:`f(63) = f[63-7(8)] = f(63-56) = f(7) = 8`
-     - .. rst-class:: keepwithnext
+          :math:`f(63) = f[63-7(8)] = f(63-56) = f(7) = 8`
+        - .. rst-class:: keepwithnext
 
-       d\) :math:`f(40)`
+          d\) :math:`f(40)`
 
-       .. rst-class:: solution
+          .. rst-class:: solution
 
-       No prediction possible. :math:`x = 40-8n`; there are no integer
-       values of :math:`n` that make :math:`x = 1, 5,` or :math:`7`.
+          No prediction possible. :math:`x = 40-8n`; there are no integer
+          values of :math:`n` that make :math:`x = 1, 5,` or :math:`7`.
 
 .. rst-class:: keepwithnext
 

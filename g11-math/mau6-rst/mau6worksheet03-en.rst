@@ -90,15 +90,15 @@ f\) :math:`y = 3\cos[2(\theta-60\degree)]+4`
 Answer Key
 ================================================================================
 
-a) period 360°, phase shift left 180°, amplitude 4, vertical shift up 2
+a\) period 360°, phase shift left 180°, amplitude 4, vertical shift up 2
 
-b) period 180°, phase shift left 30°, amplitude 1, vertical shift up 3
+b\) period 180°, phase shift left 30°, amplitude 1, vertical shift up 3
 
-c) period 120°, phase shift right 180°, amplitude 2, vertical shift none
+c\) period 120°, phase shift right 180°, amplitude 2, vertical shift none
 
-d) period 180°, phase shift none, amplitude 3, vertical shift up 4
+d\) period 180°, phase shift none, amplitude 3, vertical shift up 4
 
-e) period 360°, phase shift left 45°, amplitude 1/2, vertical shift down
+e\) period 360°, phase shift left 45°, amplitude 1/2, vertical shift down
 3
 
-f) period 180°, phase shift right 60°, amplitude 3, vertical shift up 4
+f\) period 180°, phase shift right 60°, amplitude 3, vertical shift up 4

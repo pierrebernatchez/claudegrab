@@ -69,15 +69,15 @@ points:
 
           * - :math:`x`
             - :math:`y`
-          * - 0
+          * - :solmath:`0`
             - :solmath:`0`
-          * - 90
+          * - :solmath:`90`
             - :solmath:`1`
-          * - 180
+          * - :solmath:`180`
             - :solmath:`0`
-          * - 270
+          * - :solmath:`270`
             - :solmath:`-1`
-          * - 360
+          * - :solmath:`360`
             - :solmath:`0`
      - .. image:: ../images/mau6lesson03-gpimage01.png
           :scale: 100
@@ -91,15 +91,15 @@ points:
 
           * - :math:`x`
             - :math:`y`
-          * - 0
+          * - :solmath:`0`
             - :solmath:`1`
-          * - 90
+          * - :solmath:`90`
             - :solmath:`0`
-          * - 180
+          * - :solmath:`180`
             - :solmath:`-1`
-          * - 270
+          * - :solmath:`270`
             - :solmath:`0`
-          * - 360
+          * - :solmath:`360`
             - :solmath:`1`
      - .. image:: ../images/mau6lesson03-gpimage02.png
           :scale: 100
@@ -115,17 +115,11 @@ state the amplitude, period, and number of cycles between 0° and 360°.
 .. image:: ../images/mau6lesson03-gpimage03.png
    :scale: 100
 
-.. rst-class:: solution
+Amplitude: :solmath:`|a|=2`
 
-Amplitude: :math:`|a|=2`
+Period: :solmath:`\dfrac{360}{|k|} = \dfrac{360}{1} = 360\degree`
 
-.. rst-class:: solution
-
-Period: :math:`\dfrac{360}{|k|} = \dfrac{360}{1} = 360\degree`
-
-.. rst-class:: solution
-
-Number of cycles between 0° and 360°: :math:`1`
+Number of cycles between 0° and 360°: :solmath:`1`
 
 .. rst-class:: keepwithnext
 
@@ -136,17 +130,11 @@ between 0° and 360°.
 .. image:: ../images/mau6lesson03-gpimage04.png
    :scale: 100
 
-.. rst-class:: solution
+Amplitude: :solmath:`|a|=1.5`
 
-Amplitude: :math:`|a|=1.5`
+Period: :solmath:`\dfrac{360}{|k|} = \dfrac{360}{3} = 120\degree`
 
-.. rst-class:: solution
-
-Period: :math:`\dfrac{360}{|k|} = \dfrac{360}{3} = 120\degree`
-
-.. rst-class:: solution
-
-Number of cycles between 0° and 360°: :math:`3`
+Number of cycles between 0° and 360°: :solmath:`3`
 
 .. rst-class:: keepwithnext
 
@@ -157,14 +145,8 @@ between 0° and 360°.
 .. image:: ../images/mau6lesson03-gpimage05.png
    :scale: 100
 
-.. rst-class:: solution
+Amplitude: :solmath:`|a|=1`
 
-Amplitude: :math:`|a|=1`
+Period: :solmath:`\dfrac{360}{|k|} = \dfrac{360}{4} = 90\degree`
 
-.. rst-class:: solution
-
-Period: :math:`\dfrac{360}{|k|} = \dfrac{360}{4} = 90\degree`
-
-.. rst-class:: solution
-
-Number of cycles between 0° and 360°: :math:`4`
+Number of cycles between 0° and 360°: :solmath:`4`

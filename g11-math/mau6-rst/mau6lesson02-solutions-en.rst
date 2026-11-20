@@ -122,21 +122,13 @@ table to graph the function.
 Section 2: Properties of Sine and Cosine Functions
 ================================================================================
 
-.. rst-class:: solution
+**Domain:** :solmath:`x \in \mathbb{R}`
 
-**Domain:** :math:`x \in \mathbb{R}`
+**Range:** :solmath:`-1 \le y \le 1`
 
-.. rst-class:: solution
+**Period:** :solmath:`360\degree`
 
-**Range:** :math:`-1 \le y \le 1`
-
-.. rst-class:: solution
-
-**Period:** :math:`360\degree`
-
-.. rst-class:: solution
-
-**Amplitude:** :math:`1`
+**Amplitude:** :solmath:`1`
 
 Section 3: Transformations of the Sine and Cosine Functions
 ================================================================================

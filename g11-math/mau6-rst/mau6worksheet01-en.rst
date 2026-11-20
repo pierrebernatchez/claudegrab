@@ -36,7 +36,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        a\)
 
        .. image:: ../images/mau6worksheet01-gpimage01.png
-          :scale: 85
+          :scale: 70
 
        - |nbsp|
      - .. rst-class:: keepwithnext
@@ -44,7 +44,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        b\)
 
        .. image:: ../images/mau6worksheet01-gpimage02.png
-          :scale: 85
+          :scale: 70
 
        - |nbsp|
 
@@ -57,7 +57,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        c\)
 
        .. image:: ../images/mau6worksheet01-gpimage03.png
-          :scale: 85
+          :scale: 70
 
        - |nbsp|
      - .. rst-class:: keepwithnext
@@ -65,7 +65,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        d\)
 
        .. image:: ../images/mau6worksheet01-gpimage04.png
-          :scale: 85
+          :scale: 70
 
        - |nbsp|
 
@@ -78,42 +78,42 @@ is periodic.
 - |nbsp|
 - |nbsp|
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**3)** A periodic function :math:`f(x)` has a period of 8. The values of
-:math:`f(1), f(5),` and :math:`f(7)` are -3, 2, and 8, respectively.
-Predict the value of each of the following. If a prediction is not
-possible, explain why not.
+   **3)** A periodic function :math:`f(x)` has a period of 8. The values of
+   :math:`f(1), f(5),` and :math:`f(7)` are -3, 2, and 8, respectively.
+   Predict the value of each of the following. If a prediction is not
+   possible, explain why not.
 
-.. list-table::
-   :widths: 50 50
-   :width: 100%
+   .. list-table::
+      :widths: 50 50
+      :width: 100%
 
-   * - .. rst-class:: keepwithnext
+      * - .. rst-class:: keepwithnext
 
-       a\) :math:`f(9)`
+          a\) :math:`f(9)`
 
-       - |nbsp|
-       - |nbsp|
-     - .. rst-class:: keepwithnext
+          - |nbsp|
+          - |nbsp|
+        - .. rst-class:: keepwithnext
 
-       b\) :math:`f(29)`
+          b\) :math:`f(29)`
 
-       - |nbsp|
-       - |nbsp|
+          - |nbsp|
+          - |nbsp|
 
-   * - .. rst-class:: keepwithnext
+      * - .. rst-class:: keepwithnext
 
-       c\) :math:`f(63)`
+          c\) :math:`f(63)`
 
-       - |nbsp|
-       - |nbsp|
-     - .. rst-class:: keepwithnext
+          - |nbsp|
+          - |nbsp|
+        - .. rst-class:: keepwithnext
 
-       d\) :math:`f(40)`
+          d\) :math:`f(40)`
 
-       - |nbsp|
-       - |nbsp|
+          - |nbsp|
+          - |nbsp|
 
 .. rst-class:: keepwithnext
 

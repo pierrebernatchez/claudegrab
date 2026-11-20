@@ -40,7 +40,7 @@ periodic, determine the amplitude and period.
        a\)
 
        .. image:: ../images/mau6review07-gpimage01.png
-          :scale: 85
+          :scale: 70
 
        .. rst-class:: solution
 
@@ -50,7 +50,7 @@ periodic, determine the amplitude and period.
        b\)
 
        .. image:: ../images/mau6review07-gpimage02.png
-          :scale: 85
+          :scale: 70
 
        .. rst-class:: solution
 
@@ -61,7 +61,7 @@ periodic, determine the amplitude and period.
        c\)
 
        .. image:: ../images/mau6review07-gpimage03.png
-          :scale: 85
+          :scale: 70
 
        .. rst-class:: solution
 
@@ -71,7 +71,7 @@ periodic, determine the amplitude and period.
        d\)
 
        .. image:: ../images/mau6review07-gpimage04.png
-          :scale: 85
+          :scale: 70
 
        .. rst-class:: solution
 
@@ -242,7 +242,7 @@ the following graphs.
        a\)
 
        .. image:: ../images/mau6review07-gpimage10.png
-          :scale: 85
+          :scale: 70
 
        .. rst-class:: solution
 
@@ -253,7 +253,7 @@ the following graphs.
        b\)
 
        .. image:: ../images/mau6review07-gpimage11.png
-          :scale: 85
+          :scale: 70
 
        .. rst-class:: solution
 
