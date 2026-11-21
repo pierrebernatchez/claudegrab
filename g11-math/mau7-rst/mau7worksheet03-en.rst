@@ -36,16 +36,20 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
        a\) :math:`12, 15, 18, \ldots`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`\dfrac{1}{2}, 1, \dfrac{3}{2}, \ldots`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -61,16 +65,20 @@ term.
 
        a\) :math:`a=5, d=2`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`a=\dfrac{3}{4}, d=\dfrac{1}{2}`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -85,23 +93,27 @@ determine :math:`t_{12}`.
 
        a\) :math:`t_n = 1-4n`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`t_n = \dfrac{1}{2}n+\dfrac{3}{2}`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
 **4)** Which term in the arithmetic sequence :math:`9, 4, -1, \ldots` has the
 value -146?
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -115,16 +127,20 @@ value -146?
 
        a\) :math:`38, 36, 34, \ldots, -20`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`-5, -8, -11, \ldots, -269`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -139,18 +155,24 @@ value -146?
 
        a\) :math:`t_{10} = 50` and :math:`t_{27} = 152`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`t_5 = -20` and :math:`t_{18} = -59`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -161,17 +183,21 @@ Each successive winner receives $500 less than the previous winner.
 
 a\) How much does the 10th winner receive?
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) How many winners are there in total?
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -179,10 +205,13 @@ b\) How many winners are there in total?
 870 members. At the end of the seventh week, there are 1110 members. If the
 increase is arithmetic, how many members were there in the first week?
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -197,37 +226,44 @@ three terms.
 
        a\) :math:`1, 2, 4, 8, \ldots`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`-3, 9, -27, 81, \ldots`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        c\) :math:`\dfrac{2}{3}, -\dfrac{2}{3}, \dfrac{2}{3}, -\dfrac{2}{3},
        \ldots`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        d\) :math:`600, -300, 150, -75, \ldots`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
 **10)** For the geometric sequence :math:`54, 18, 6, \ldots` determine the
 formula for the general term and then find :math:`t_9`.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -241,32 +277,38 @@ formula for the general term and then find :math:`t_9`.
 
        a\) :math:`t_n = 5(2)^{n-1}`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`a=-1, r=\dfrac{1}{5}`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
 **12)** Determine the number of terms in the geometric sequence
 :math:`6, 18, 54, \ldots, 4374`.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **13)** Which term of the geometric sequence :math:`1, 3, 9, \ldots` has a
 value of 19 683?
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Answer Key
 ================================================================================

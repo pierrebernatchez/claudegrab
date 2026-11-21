@@ -32,23 +32,33 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
 a\) Represent the function with an equation using a sine function
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Represent the function with an equation using a cosine function
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -60,23 +70,33 @@ units, a period of 720°, and a maximum at :math:`\left(0,
 
 a\) Represent the function with an equation using a sine function
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Represent the function with an equation using a cosine function
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -86,8 +106,9 @@ graph shown.
 .. image:: ../images/mau6worksheet04-gpimage01.png
    :scale: 100
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -98,8 +119,9 @@ equation of a function that describes stress in terms of time.
 .. image:: ../images/mau6worksheet04-gpimage02.png
    :scale: 100
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -108,8 +130,9 @@ equation of a function that describes stress in terms of time.
 .. image:: ../images/mau6worksheet04-gpimage03.png
    :scale: 100
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -119,8 +142,9 @@ cosine function.
 .. image:: ../images/mau6worksheet04-gpimage04.png
    :scale: 100
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 Answer Key
 ================================================================================

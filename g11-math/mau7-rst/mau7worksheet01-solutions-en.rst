@@ -25,11 +25,15 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
 **General formula for an Arithmetic Sequence:**
 
+.. rst-class:: solution
+
 .. math::
 
    t_n = a + (n-1)(d)
 
 **General formula for a Geometric Sequence:**
+
+.. rst-class:: solution
 
 .. math::
 

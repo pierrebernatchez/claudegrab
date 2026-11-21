@@ -51,28 +51,32 @@ Section 1: Definitions
 **Example 1:** Find :math:`S_4` of the sequence represented by
 :math:`t_n = 1+(n-1)3`.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Section 2: Arithmetic Series
 ================================================================================
 
 General form
 
-- |nbsp|
+|nbsp|
 
 OR
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **Example 2:** For the series :math:`1+3+5+7+\cdots` find :math:`S_{23}`.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -86,15 +90,16 @@ version of the formula...
 
    S_n = \dfrac{n}{2}(a+t_n)
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 Section 3: Geometric Series
 ================================================================================
 
 General form
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -104,15 +109,17 @@ General form
 
 a\) Find :math:`S_5`.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Find :math:`S_{13}`
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -121,6 +128,8 @@ last 20 hours. It pays $4.75 for the first hour, $5 for the second
 hour, $5.25 for the next hour, and so on. How much will the student
 earn in total?
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|

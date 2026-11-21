@@ -26,14 +26,21 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 In an arithmetic sequence, :math:`t_3 = 25` and :math:`t_9 = 43`. Determine
 the formula for the general term of this sequence.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. list-table::
    :widths: 50 50
@@ -61,48 +68,69 @@ amphitheatre?
 *Note: use the formula for an arithmetic series because the difference
 between consecutive rows is a constant.*
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **Example 2:** Determine the sum of :math:`-31-35-39-\cdots-403`.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **Example 3:** Determine the sum of the first 20 terms of the arithmetic
 series in which the 15th term is 107 and the terms decrease by 3.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **Example 4:** The 10th term of an arithmetic series is 34, and the sum of
 the first 20 terms is 710. Determine the 25th term.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -111,18 +139,25 @@ series in which :math:`t_5 = 5` and :math:`t_8 = -40`.
 
 **Method 1:**
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 **Method 2:**
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -131,26 +166,34 @@ series in which :math:`t_5 = 5` and :math:`t_8 = -40`.
 
 **Method 1: write out the full series**
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 **Method 2: solve using logarithms**
 
 *Note: figure out how many terms are in the series by solving for*
 :math:`n` *in the formula* :math:`t_n = a \cdot r^{n-1}`.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 **Method 3: solve using powers with the same base**
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -163,8 +206,12 @@ this tournament?
 in one match. The last term is 1 but we don't know what term number it
 is.*
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|

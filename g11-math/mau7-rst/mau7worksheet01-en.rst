@@ -25,11 +25,11 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
 **General formula for an Arithmetic Sequence:**
 
-- |nbsp|
+|nbsp|
 
 **General formula for a Geometric Sequence:**
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -69,56 +69,65 @@ sequence, determine a formula to represent the sequence.
 
        a\) 4, 7, 9, 12, ...
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) 15, 13, 11, 9, ...
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        c\) 4, 12, 36, 108, ...
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
    * - .. rst-class:: keepwithnext
 
        d\) 5, 10, 15, 20, ...
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        e\) 7, 10, 13, 16, ...
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        f\) 120, -60, 30, -15, ...
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
    * - .. rst-class:: keepwithnext
 
        g\) -6, -5, -3, -1, ...
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        h\) -13, -6, 1, 8, ...
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        i\) 625, 125, 25, 5, ...
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -129,16 +138,19 @@ thereafter, he deposits $35 into the account.
 
 a\) Write a formula to represent this sequence.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) How much total money has Charlie deposited after 30 weeks?
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -163,15 +175,17 @@ the height of each bounce.
 a\) Write an equation to represent the height of the ball after each
 bounce.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) How high does the ball bounce on the 6th bounce?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 Answer Key
 ================================================================================

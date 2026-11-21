@@ -25,11 +25,15 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
 **General formula for an arithmetic series:**
 
+.. rst-class:: solution
+
 .. math::
 
    S_n = \dfrac{n}{2}\left[2a+(n-1)d\right] \quad \text{OR} \quad S_n = \dfrac{n}{2}(a+t_n)
 
 **General formula for a geometric series:**
+
+.. rst-class:: solution
 
 .. math::
 
@@ -215,26 +219,26 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
        :math:`S_8 = \dfrac{2700\left[(10)^8-1\right]}{10-1} = 29\,999\,999\,700`
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**5)** If the first term of an arithmetic series is 2, the last term is
-20, and the increase constant is +2 ...
+   **5)** If the first term of an arithmetic series is 2, the last term is
+   20, and the increase constant is +2 ...
 
-.. rst-class:: keepwithnext
+   .. rst-class:: keepwithnext
 
-a\) Determine the number of terms in the series.
+   a\) Determine the number of terms in the series.
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-:math:`t_n = a+(n-1)d \Rightarrow 20 = 2+(n-1)(2) \Rightarrow n = 10`
+   :math:`t_n = a+(n-1)d \Rightarrow 20 = 2+(n-1)(2) \Rightarrow n = 10`
 
-.. rst-class:: keepwithnext
+   .. rst-class:: keepwithnext
 
-b\) Determine the sum of all the terms in the series.
+   b\) Determine the sum of all the terms in the series.
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-:math:`S_{10} = \dfrac{10}{2}\left[2+20\right] = 5(22) = 110`
+   :math:`S_{10} = \dfrac{10}{2}\left[2+20\right] = 5(22) = 110`
 
 .. rst-class:: keepwithnext
 

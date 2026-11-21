@@ -39,31 +39,32 @@ data was graphed, as shown.
 
        a\) Find the max and min values.
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) Find amplitude
 
-       - |nbsp|
+       |nbsp|
 
    * - .. rst-class:: keepwithnext
 
        c\) Determine the vertical shift of the function.
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        d\) Find the period of the function
 
-       - |nbsp|
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
 e\) Determine the phase shift, if the motion were to be modelled using a
 sine function.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -75,19 +76,19 @@ angle of :math:`\theta` is given by the function :math:`h(\theta) =
 
 a\) Find the maximum and minimum positions of the blade.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Explain what the value of 40 in the equation represents.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) Explain what the value of the amplitude represents.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -106,32 +107,38 @@ function :math:`h(t) = 5\sin[30(t-5)]+7`.
 
 a\) Find the max and min values for the depth of water.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) What time is high tide? What time is low tide?
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) What is the depth of the water at 9:00 am?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 d\) Find all the times during a 24-h period when the depth of the water
 is 3 meters.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -144,23 +151,27 @@ Year's Day.
 
 a\) Find the max and min values for the population over a whole year.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) When is the population a maximum? When is it a minimum?
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) What is the population on September 30th?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -175,33 +186,35 @@ is in years since 1985.
 a\) Determine the max and min values of the population, to the nearest
 50. Use these to find the amplitude.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Determine the vertical shift, c.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) Determine the phase shift, d.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 d\) Determine the period. Use the period to determine the value of k.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 e\) Model the population versus time with a sinusoidal function.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -214,8 +227,9 @@ and so on.
 
 a\) Determine the period of the function and explain its meaning.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -228,13 +242,13 @@ b\) Graph the function for 12 months.
 
 c\) Which month has the most visitors?
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 d\) Which month has the least visitors?
 
-- |nbsp|
+|nbsp|
 
 Answer Key
 ================================================================================

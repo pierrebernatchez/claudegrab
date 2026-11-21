@@ -34,6 +34,8 @@ a\) Complete Pascal's Triangle.
 
 b\) What patterns do you notice in Pascal's Triangle?
 
+.. rst-class:: solution
+
 **Main Pattern:**
 
 .. rst-class:: solution
@@ -41,6 +43,8 @@ b\) What patterns do you notice in Pascal's Triangle?
 Each term in Pascal's Triangle is the sum of the two terms directly above
 it. The first and last terms in each row are 1 since the only term
 immediately above them is always a 1.
+
+.. rst-class:: solution
 
 Other Patterns:
 

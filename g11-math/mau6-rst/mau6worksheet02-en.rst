@@ -38,15 +38,15 @@ and 360°.
           * - :math:`x`
             - :math:`y`
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
      - .. image:: ../images/mau6worksheet02-gpimage01-blank.png
           :scale: 100
 
@@ -65,15 +65,15 @@ and 360°.
           * - :math:`x`
             - :math:`y`
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
      - .. image:: ../images/mau6worksheet02-gpimage02-blank.png
           :scale: 100
 
@@ -89,14 +89,16 @@ and 360°.
 
        a\) :math:`y = \sin(x-50\degree)+3`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`y = 2\sin(x+45\degree)-1`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -110,14 +112,16 @@ and 360°.
 
        a\) :math:`y = -9\cos(x+120\degree)-5`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`y = 12\cos[5(x-150\degree)]+7`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -132,27 +136,31 @@ maximum and minimum for each of the following.
 
        a\) :math:`y = 5\sin[4(x+60\degree)]-2`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`y = 2\cos[2(x+150\degree)]-5`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
    * - .. rst-class:: keepwithnext
 
        c\) :math:`y = \dfrac{1}{2}\sin\left[\dfrac{1}{2}(x-60\degree)\right]+1`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        d\) :math:`y = 0.8\cos[3.6(x-40\degree)]-0.4`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 Answer Key
 ================================================================================

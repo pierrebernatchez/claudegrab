@@ -40,7 +40,7 @@ a\) :math:`y = 4\cos(\theta+180\degree)+2`
 .. image:: ../images/mau6worksheet03-gpimage01-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -49,7 +49,7 @@ b\) :math:`y = \sin[2(\theta+30\degree)]+3`
 .. image:: ../images/mau6worksheet03-gpimage02-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -58,7 +58,7 @@ c\) :math:`y = 2\sin[3(\theta-180\degree)]`
 .. image:: ../images/mau6worksheet03-gpimage03-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -67,7 +67,7 @@ d\) :math:`y = -3\cos(2\theta)+4`
 .. image:: ../images/mau6worksheet03-gpimage04-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -76,7 +76,7 @@ e\) :math:`y = \dfrac{1}{2}\sin(\theta+45\degree)-3`
 .. image:: ../images/mau6worksheet03-gpimage05-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -85,7 +85,7 @@ f\) :math:`y = 3\cos[2(\theta-60\degree)]+4`
 .. image:: ../images/mau6worksheet03-gpimage06-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 Answer Key
 ================================================================================

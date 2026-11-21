@@ -35,38 +35,44 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
        a\) coefficient of :math:`x^2` in the expansion of :math:`(2+x)^5`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) coefficient of :math:`x^2` in the expansion of :math:`(x+2)^5`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
    * - .. rst-class:: keepwithnext
 
        c\) coefficient of :math:`x` in the expansion of :math:`(x+3)^5`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        d\) coefficient of :math:`b` in the expansion of :math:`(3+b)^4`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
    * - .. rst-class:: keepwithnext
 
        e\) coefficient of :math:`x^3y^2` in expansion of :math:`(x-3y)^5`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        f\) coefficient of :math:`a^2` in the expansion of :math:`(2a+1)^5`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -80,22 +86,22 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
        a\) 2nd term in expansion of :math:`(y-2x)^4`
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) 4th term in expansion of :math:`(4y+x)^4`
 
-       - |nbsp|
+       |nbsp|
    * - .. rst-class:: keepwithnext
 
        c\) 1st term in expansion of :math:`(a+b)^5`
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        d\) 2nd term in expansion of :math:`(y-x)^4`
 
-       - |nbsp|
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -109,40 +115,48 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
        a\) :math:`(2m-1)^4`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`(x-y)^3`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
    * - .. rst-class:: keepwithnext
 
        c\) :math:`(x^4-y)^5`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        d\) :math:`(2x^3+1)^5`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
    * - .. rst-class:: keepwithnext
 
        e\) :math:`(y-x^2)^3`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        f\) :math:`(y^3-4x)^3`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 Answer Key
 ================================================================================

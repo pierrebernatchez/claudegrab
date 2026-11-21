@@ -37,23 +37,27 @@ a\) Graph the function using transformations
 .. image:: ../images/mau6lesson06-gpimage01-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Determine the max height, min height, and time for one revolution.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) Represent the function using the equation of a cosine function
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -65,11 +69,13 @@ to verify your answer.
    :width: 100%
 
    * - - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -83,19 +89,24 @@ the right (+30 cm) of its starting position.
 a\) What is the equation of a cosine function that describes the motion
 of the building in terms of time?
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) What is the equation of a sine function that describes the motion of
 the building in terms of time?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -111,24 +122,29 @@ midnight is modelled by:
 
 a\) Find the max and min values for the height of the depth of the water.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) What time is high tide? What time is low tide?
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) What is the depth of the water at 9 am?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -140,14 +156,17 @@ pointing straight down.
 .. image:: ../images/mau6lesson06-gpimage03-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **Example 4b:** Model the rider's height above the ground versus angle
 using a transformed sine and cosine function.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|

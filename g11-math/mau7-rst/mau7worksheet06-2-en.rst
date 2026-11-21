@@ -35,45 +35,78 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
        a\) :math:`(x+4)^3`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`(1-2x)^4`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
    * - .. rst-class:: keepwithnext
 
        c\) :math:`(3x+y)^2`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        d\) :math:`(x-5)^5`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
    * - .. rst-class:: keepwithnext
 
        e\) :math:`(3+2n)^6`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        f\) :math:`(x-7)^{11}`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
 g\) :math:`(2x+5)^7`
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 Answer Key
 ================================================================================

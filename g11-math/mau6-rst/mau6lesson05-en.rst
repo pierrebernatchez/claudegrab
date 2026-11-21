@@ -68,7 +68,7 @@ rotation for 1 complete rotation.
 .. image:: ../images/mau6lesson05-gpimage01-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -78,7 +78,7 @@ rotation for 1 complete rotation starting along the positive x-axis.
 .. image:: ../images/mau6lesson05-gpimage02-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -89,7 +89,7 @@ Ferris Wheel.
 .. image:: ../images/mau6lesson05-gpimage03-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -101,7 +101,7 @@ distance from the center as the horse rotates around.
 .. image:: ../images/mau6lesson05-gpimage04-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 Section 3: Modeling with Equations
 ================================================================================
@@ -121,17 +121,21 @@ height above the ground.
 .. image:: ../images/mau6lesson05-gpimage05.png
    :scale: 100
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) What is John's height above the ground after 78 seconds?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -149,14 +153,17 @@ the windmill.
 .. image:: ../images/mau6lesson05-gpimage06-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Determine an equation for a sine and cosine function that represents
 his height above the ground in relation to the angle of rotation.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|

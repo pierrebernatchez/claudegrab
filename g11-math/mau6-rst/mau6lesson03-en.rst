@@ -70,15 +70,15 @@ points:
           * - :math:`x`
             - :math:`y`
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
      - .. image:: ../images/mau6lesson03-gpimage01-blank.png
           :scale: 100
 
@@ -92,15 +92,15 @@ points:
           * - :math:`x`
             - :math:`y`
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
           * - |nbsp|
-            - |nbsp|
+            |nbsp|
      - .. image:: ../images/mau6lesson03-gpimage02-blank.png
           :scale: 100
 
@@ -117,15 +117,15 @@ state the amplitude, period, and number of cycles between 0° and 360°.
 
 Amplitude:
 
-- |nbsp|
+|nbsp|
 
 Period:
 
-- |nbsp|
+|nbsp|
 
 Number of cycles between 0° and 360°:
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -138,15 +138,15 @@ between 0° and 360°.
 
 Amplitude:
 
-- |nbsp|
+|nbsp|
 
 Period:
 
-- |nbsp|
+|nbsp|
 
 Number of cycles between 0° and 360°:
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -159,12 +159,12 @@ between 0° and 360°.
 
 Amplitude:
 
-- |nbsp|
+|nbsp|
 
 Period:
 
-- |nbsp|
+|nbsp|
 
 Number of cycles between 0° and 360°:
 
-- |nbsp|
+|nbsp|

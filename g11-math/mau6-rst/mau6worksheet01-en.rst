@@ -38,7 +38,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        .. image:: ../images/mau6worksheet01-gpimage01.png
           :scale: 70
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\)
@@ -46,7 +46,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        .. image:: ../images/mau6worksheet01-gpimage02.png
           :scale: 70
 
-       - |nbsp|
+       |nbsp|
 
 .. list-table::
    :widths: 50 50
@@ -59,7 +59,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        .. image:: ../images/mau6worksheet01-gpimage03.png
           :scale: 70
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        d\)
@@ -67,16 +67,18 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        .. image:: ../images/mau6worksheet01-gpimage04.png
           :scale: 70
 
-       - |nbsp|
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
 **2)** Determine the amplitude and period for any graph in question 1 that
 is periodic.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. container:: keeptogether
 
@@ -93,27 +95,31 @@ is periodic.
 
           a\) :math:`f(9)`
 
-          - |nbsp|
-          - |nbsp|
+          |nbsp|
+
+          |nbsp|
         - .. rst-class:: keepwithnext
 
           b\) :math:`f(29)`
 
-          - |nbsp|
-          - |nbsp|
+          |nbsp|
+
+          |nbsp|
 
       * - .. rst-class:: keepwithnext
 
           c\) :math:`f(63)`
 
-          - |nbsp|
-          - |nbsp|
+          |nbsp|
+
+          |nbsp|
         - .. rst-class:: keepwithnext
 
           d\) :math:`f(40)`
 
-          - |nbsp|
-          - |nbsp|
+          |nbsp|
+
+          |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -134,15 +140,17 @@ terminal with respect to time. Include four complete cycles.
 
 b\) What is the period of the motion?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) What is the amplitude of the motion?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -161,21 +169,24 @@ and a high tide again at 6:50 p.m.
        a\) Estimate the period of the fluctuation of the water level at
        the town dock.
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) Estimate the amplitude of the pattern.
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) Predict when the next low tide will occur.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 Answer Key
 ================================================================================

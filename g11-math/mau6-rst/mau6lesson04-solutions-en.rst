@@ -24,7 +24,7 @@ This document was composed and formatted by Annie Bernatchez.
 The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
 Section 1: How to Determine the Equation of a Sine or Cosine Function Given its Graph
-================================================================================
+==========================================================================================
 
 To determine the equation of a transformed sine or cosine function, you
 must use the graph to determine the value of the parameters :math:`a, k,

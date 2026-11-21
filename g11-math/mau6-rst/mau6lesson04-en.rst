@@ -24,7 +24,7 @@ This document was composed and formatted by Annie Bernatchez.
 The course material originated from `www.jensenmath.ca <https://www.jensenmath.ca/>`_
 
 Section 1: How to Determine the Equation of a Sine or Cosine Function Given its Graph
-================================================================================
+==========================================================================================
 
 To determine the equation of a transformed sine or cosine function, you
 must use the graph to determine the value of the parameters :math:`a, k,
@@ -78,8 +78,9 @@ a\)
 .. image:: ../images/mau6lesson04-gpimage01.png
    :scale: 100
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -88,8 +89,9 @@ b\)
 .. image:: ../images/mau6lesson04-gpimage02.png
    :scale: 100
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -98,8 +100,9 @@ c\)
 .. image:: ../images/mau6lesson04-gpimage03.png
    :scale: 100
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -119,8 +122,9 @@ maximum point was, the rising midline point would be* :math:`\frac{90}
 :math:`d_{cos} = d_{sin}+\dfrac{90}{|k|}` OR :math:`d_{sin} =
 d_{cos}-\dfrac{90}{|k|}`
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -131,5 +135,6 @@ with an equation in two different ways.
 .. image:: ../images/mau6lesson04-gpimage05.png
    :scale: 100
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|

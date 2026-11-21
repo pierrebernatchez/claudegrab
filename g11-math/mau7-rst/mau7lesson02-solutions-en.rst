@@ -95,14 +95,13 @@ General form
 because the general form for an arithmetic sequence is
 :math:`t_n = a+(n-1)d`.
 
-.. rst-class:: solution
-
-OR we can rewrite :math:`S_n` as:
+OR
 
 .. rst-class:: solution
 
-:math:`S_n = \dfrac{n}{2}\left[a+t_n\right]` — use this version when
-given the value of the last term of the series (:math:`t_n`).
+we can rewrite :math:`S_n` as :math:`S_n = \dfrac{n}{2}\left[a+t_n\right]`
+— use this version when given the value of the last term of the series
+(:math:`t_n`).
 
 .. rst-class:: keepwithnext
 

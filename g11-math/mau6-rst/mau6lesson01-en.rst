@@ -56,8 +56,9 @@ is, state the period of the function.
    .. image:: ../images/mau6lesson01-gpimage01.png
       :scale: 90
 
-   - |nbsp|
-   - |nbsp|
+   |nbsp|
+
+   |nbsp|
 
 .. container:: keeptogether
 
@@ -66,8 +67,9 @@ is, state the period of the function.
    .. image:: ../images/mau6lesson01-gpimage02.png
       :scale: 90
 
-   - |nbsp|
-   - |nbsp|
+   |nbsp|
+
+   |nbsp|
 
 *How to find the AMPLITUDE of a function:* the amplitude is half the
 difference between the max and min values. Use the formula:
@@ -83,9 +85,11 @@ difference between the max and min values. Use the formula:
 .. image:: ../images/mau6lesson01-gpimage03.png
    :scale: 90
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Section 3: Predicting Values of a Periodic Function
 ================================================================================
@@ -98,9 +102,11 @@ and amplitude.
 .. image:: ../images/mau6lesson01-gpimage04.png
    :scale: 90
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -117,26 +123,34 @@ and amplitude.
 
        a\) determine :math:`f(2)` and :math:`f(5)`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) determine :math:`f(8), f(-10),` and :math:`f(14)`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) determine 4 values of :math:`x` so that :math:`f(x) = 2`
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -152,20 +166,23 @@ blade on the machine in terms of time.
 a\) State the max height of the blade, the minimum height, and the
 amplitude of the function.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) What is the period of this function?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) State the next two times that the blade will strike the cutting
 surface?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|

@@ -52,19 +52,25 @@ explicit formula for the :math:`n` th term of the sequence.
 
    a\) :math:`t_n = 3n^2-1`
 
-   - |nbsp|
-   - |nbsp|
-   - |nbsp|
-   - |nbsp|
+   |nbsp|
+
+   |nbsp|
+
+   |nbsp|
+
+   |nbsp|
 
 .. container:: keeptogether
 
    b\) :math:`t_n = \dfrac{n-1}{n}`
 
-   - |nbsp|
-   - |nbsp|
-   - |nbsp|
-   - |nbsp|
+   |nbsp|
+
+   |nbsp|
+
+   |nbsp|
+
+   |nbsp|
 
 Section 2: Arithmetic Sequences
 ================================================================================
@@ -101,15 +107,17 @@ sequence.
 
 14, 18, 22, 26, ...
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) What is the value of :math:`t_{30}`?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -120,15 +128,17 @@ sequence.
 
 7, 3, -1, -5, ...
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) What is the value of :math:`t_{41}`?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 Section 3: Geometric Sequences
 ================================================================================
@@ -166,15 +176,17 @@ geometric sequence.
 
 2, 6, 18, 54, 162, ...
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) What is the value of :math:`t_9`?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -183,12 +195,14 @@ geometric sequence.
 
 270, 90, 30, 10, ...
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) What is the value of :math:`t_9`?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|

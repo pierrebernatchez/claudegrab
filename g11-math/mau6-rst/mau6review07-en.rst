@@ -42,7 +42,7 @@ periodic, determine the amplitude and period.
        .. image:: ../images/mau6review07-gpimage01.png
           :scale: 70
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\)
@@ -50,7 +50,7 @@ periodic, determine the amplitude and period.
        .. image:: ../images/mau6review07-gpimage02.png
           :scale: 70
 
-       - |nbsp|
+       |nbsp|
 
    * - .. rst-class:: keepwithnext
 
@@ -59,7 +59,7 @@ periodic, determine the amplitude and period.
        .. image:: ../images/mau6review07-gpimage03.png
           :scale: 70
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        d\)
@@ -67,7 +67,7 @@ periodic, determine the amplitude and period.
        .. image:: ../images/mau6review07-gpimage04.png
           :scale: 70
 
-       - |nbsp|
+       |nbsp|
 
 Section 2: Graphing Sine and Cosine Functions
 ================================================================================
@@ -95,7 +95,7 @@ rotation, starting along the positive x-axis.
 .. image:: ../images/mau6review07-gpimage07-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 Section 3: Transformations of Sine and Cosine Functions
 ================================================================================
@@ -113,34 +113,34 @@ maximum and minimum for each of the following.
 
        a\) :math:`y = \sin(x-40\degree)+2`
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`y = -3\sin(x+38\degree)+5`
 
-       - |nbsp|
+       |nbsp|
 
    * - .. rst-class:: keepwithnext
 
        c\) :math:`y = 4\sin[3(x+30\degree)]-6`
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        d\) :math:`y = 10\cos[3(x-120\degree)]+9`
 
-       - |nbsp|
+       |nbsp|
 
    * - .. rst-class:: keepwithnext
 
        e\) :math:`y = \dfrac{1}{2}\cos[3(x+120\degree)]-6`
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        f\) :math:`y = 4\sin\left[\dfrac{1}{4}(x+45\degree)\right]-3`
 
-       - |nbsp|
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -153,7 +153,7 @@ a\) State the amplitude, the period, the phase shift and the vertical
 shift of the function with respect to the parent function. Then state
 the maximum and minimum values of the function.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -173,7 +173,7 @@ a\) State the amplitude, the period, the phase shift and the vertical
 shift of the function with respect to the parent function. Then state
 the maximum and minimum values of the function.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -189,8 +189,9 @@ units, a period of 720° and a maximum at :math:`\left(0,
 \frac{3}{2}\right)`. Represent the function as a sine function and as a
 cosine function.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -208,7 +209,7 @@ the following graphs.
        .. image:: ../images/mau6review07-gpimage10.png
           :scale: 70
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\)
@@ -216,7 +217,7 @@ the following graphs.
        .. image:: ../images/mau6review07-gpimage11.png
           :scale: 70
 
-       - |nbsp|
+       |nbsp|
 
 Section 4: Trig Applications
 ================================================================================
@@ -233,13 +234,13 @@ modelled by the function:
 
 a\) Determine the amplitude, period, phase shift, and vertical shift:
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) What is the lowest vertical position that the arm reaches?
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -262,25 +263,25 @@ measure of time after midnight, in hours.
 a\) What is the period of the modelled function? Why does this make
 sense?
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Determine the Maximum, Minimum, and Amplitude.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) When do the max and min occur? (you can use your graph)
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 d\) During what time interval would a smog alert be issued?
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -301,14 +302,14 @@ is located 40° around the rim before the car reaches its lowest point.
 a\) Model the rider's height above the ground versus angle using a
 transformed sine function.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Model the rider's height above the ground versus angle using a
 transformed cosine function.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -320,7 +321,7 @@ straight down. Graph one full rotation of the blade.
 .. image:: ../images/mau6review07-gpimage14-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -331,13 +332,13 @@ translated 15° to the right and is moved up 8 units.
 
 a\) Use this information to write an equation using a sine function.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Determine an equivalent cosine function to the sine function in a).
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -351,19 +352,19 @@ and t is in hours after midnight.
 a\) State the period, amplitude, phase shift and vertical shift of the
 function.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) What is the water level at low tide?
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) What is the water level at high tide?
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -375,19 +376,19 @@ t hours after midnight.
 
 a\) Determine the max and min heights of the tides.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) At what times do high tide and low tide occur?
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) Use a cosine function to write an equivalent equation.
 
-- |nbsp|
+|nbsp|
 
 Answer Key
 ================================================================================

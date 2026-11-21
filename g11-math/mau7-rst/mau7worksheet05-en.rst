@@ -35,17 +35,17 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
        a\) :math:`t_1=4, \ t_n=t_{n-1}+3`
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`t_1=50, \ t_n=\dfrac{t_{n-1}}{2}`
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        c\) :math:`t_1=100, \ t_n=\dfrac{5t_{n-1}}{0.1}`
 
-       - |nbsp|
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -59,14 +59,16 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
        a\) :math:`f(1)=3, \ f(n)=\dfrac{f(n-1)}{n}`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`f(1)=0.5, \ f(n)=-f(n-1)`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -80,26 +82,30 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
        a\) :math:`5, 11, 17, 23, \ldots`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`4, 1, -2, -5, \ldots`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
    * - .. rst-class:: keepwithnext
 
        c\) :math:`4, 8, 16, 32, \ldots`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        d\) :math:`-4, -2, -1, -\dfrac{1}{2}, \ldots`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -117,8 +123,9 @@ recursion formula.
        .. image:: ../images/mau7worksheet05-gpimage01.png
           :align: center
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\)
@@ -126,8 +133,9 @@ recursion formula.
        .. image:: ../images/mau7worksheet05-gpimage02.png
           :align: center
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -137,9 +145,11 @@ has 50 seats in the first row, 54 in the second row, 62 in the third row,
 as a sequence and then write a recursion formula to represent the number
 of seats in any row.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -153,16 +163,20 @@ of seats in any row.
 
        a\) :math:`t_1=1, \ t_n=(t_{n-1})^2+3n`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`t_1=\dfrac{1}{2}, \ t_n=4t_{n-1}+2`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -174,9 +188,11 @@ down.
 .. image:: ../images/mau7worksheet05-gpimage03.png
    :align: center
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Answer Key
 ================================================================================

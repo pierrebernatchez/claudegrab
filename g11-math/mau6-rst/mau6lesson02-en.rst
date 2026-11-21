@@ -46,31 +46,31 @@ table to graph the function.
           * - :math:`x`
             - :math:`f(x)`
           * - 0
-            - |nbsp|
+            |nbsp|
           * - 30
-            - |nbsp|
+            |nbsp|
           * - 60
-            - |nbsp|
+            |nbsp|
           * - 90
-            - |nbsp|
+            |nbsp|
           * - 120
-            - |nbsp|
+            |nbsp|
           * - 150
-            - |nbsp|
+            |nbsp|
           * - 180
-            - |nbsp|
+            |nbsp|
           * - 210
-            - |nbsp|
+            |nbsp|
           * - 240
-            - |nbsp|
+            |nbsp|
           * - 270
-            - |nbsp|
+            |nbsp|
           * - 300
-            - |nbsp|
+            |nbsp|
           * - 330
-            - |nbsp|
+            |nbsp|
           * - 360
-            - |nbsp|
+            |nbsp|
      - .. image:: ../images/mau6lesson02-gpimage01-blank.png
           :scale: 100
 
@@ -91,31 +91,31 @@ table to graph the function.
           * - :math:`x`
             - :math:`f(x)`
           * - 0
-            - |nbsp|
+            |nbsp|
           * - 30
-            - |nbsp|
+            |nbsp|
           * - 60
-            - |nbsp|
+            |nbsp|
           * - 90
-            - |nbsp|
+            |nbsp|
           * - 120
-            - |nbsp|
+            |nbsp|
           * - 150
-            - |nbsp|
+            |nbsp|
           * - 180
-            - |nbsp|
+            |nbsp|
           * - 210
-            - |nbsp|
+            |nbsp|
           * - 240
-            - |nbsp|
+            |nbsp|
           * - 270
-            - |nbsp|
+            |nbsp|
           * - 300
-            - |nbsp|
+            |nbsp|
           * - 330
-            - |nbsp|
+            |nbsp|
           * - 360
-            - |nbsp|
+            |nbsp|
      - .. image:: ../images/mau6lesson02-gpimage02-blank.png
           :scale: 100
 
@@ -175,21 +175,21 @@ the...
 
    * - Amplitude:
 
-       - |nbsp|
+       |nbsp|
      - Period:
 
-       - |nbsp|
+       |nbsp|
 
    * - Phase shift:
 
-       - |nbsp|
+       |nbsp|
      - Vertical shift:
 
-       - |nbsp|
+       |nbsp|
 
    * - Max:
 
-       - |nbsp|
+       |nbsp|
      - Min:
 
-       - |nbsp|
+       |nbsp|

@@ -48,17 +48,17 @@ Section 1: Sequences
 
        a\) :math:`-1,9,19,29,\ldots`
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`3,12,19,44,\ldots`
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        c\) :math:`-2,6,-18,54,\ldots`
 
-       - |nbsp|
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -73,18 +73,24 @@ calculate term 13.
 
        a\) :math:`t_n = 2n-10`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`t_n = 40+13n`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -98,18 +104,24 @@ calculate term 13.
 
        a\) :math:`t_n = 3\left(\sqrt{2}^{\,n-1}\right)`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`a=800,\ r=-\dfrac{1}{4}`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -125,17 +137,21 @@ terms.
 
        a\) :math:`3,1,-1,-3,\ldots`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`\dfrac{2}{3},\dfrac{11}{12},\dfrac{7}{6},\dfrac{17}{12},
        \ldots`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -149,12 +165,12 @@ terms.
 
        a\) :math:`f(n) = 2(-1)^n`
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`t_n = -3(2)^{n+1}`
 
-       - |nbsp|
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -169,14 +185,16 @@ terms.
 
        a\) :math:`64,32,16,8,\ldots`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`-4000,1000,-250,62.5,\ldots`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -184,9 +202,11 @@ terms.
 sequence, determine :math:`a` and :math:`d`, write the general term
 formula :math:`t_n`, and calculate :math:`t_{21}`.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -194,9 +214,11 @@ formula :math:`t_n`, and calculate :math:`t_{21}`.
 determine :math:`a` and :math:`r`, write the general term formula
 :math:`t_n`, and calculate :math:`t_8`.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -211,15 +233,18 @@ mathematically.
 
        a\) :math:`5,8,11,\ldots,62`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`-4,12,-36,\ldots,-19\,131\,876`
 
-       - |nbsp|
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
 
 Section 2: Series
 ================================================================================
@@ -229,56 +254,65 @@ Section 2: Series
 **10)** Find the sum of the first 28 terms of the arithmetic series that
 starts as: :math:`-6-1+4+9+\ldots`
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **11)** Find the sum of the first 11 terms of the series that begins
 with: :math:`1024+512+256+\ldots`
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **12)** Find :math:`S_{14}` given :math:`t_n = 5+\dfrac{3}{2}n`
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **13)** Find :math:`S_7` given :math:`t_n = 5(2^{n-1})`.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **14)** What is the sum of the arithmetic series :math:`2\sqrt{3}+5
 \sqrt{3}+8\sqrt{3}+\cdots+83\sqrt{3}`
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **15)** Determine the sum of the geometric series :math:`5+10+20+\cdots
 +2560`
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **16)** The 23rd term in an arithmetic sequence is 95. The 31st term is
 127. Find the sum of the first 31 terms in the series.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -286,16 +320,18 @@ with: :math:`1024+512+256+\ldots`
 The 5th term in the series is 16. Find the sum of the first 20 terms in
 the series.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **18)** The third term of a geometric series is 24 and the fourth term
 is 36. Determine the sum of the first 10 terms.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -303,8 +339,9 @@ is 36. Determine the sum of the first 10 terms.
 and the next winner gets one half what the previous winner did. If the
 lottery pays out a total of 11 prizes, how much money must they pay out?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 Section 3: Recursive Functions
 ================================================================================
@@ -322,14 +359,16 @@ formula.
 
        a\) :math:`t_n = 13-2t_{n-1},\ t_1=4`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`f(n)=f(n-1)+3n,\ f(1)=1`
 
-       - |nbsp|
-       - |nbsp|
+       |nbsp|
+
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -343,12 +382,12 @@ formula.
 
        a\) :math:`-2,7,16,25,\ldots`
 
-       - |nbsp|
+       |nbsp|
      - .. rst-class:: keepwithnext
 
        b\) :math:`1,-3,9,-27,\ldots`
 
-       - |nbsp|
+       |nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -358,25 +397,31 @@ formula.
 
 a\) :math:`(3x+5x^2)^4`
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) :math:`(2x^2+y)^7`
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **23)** What is the 5th term in the expansion of :math:`(5xy+y)^6`?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 Answer Key
 ================================================================================

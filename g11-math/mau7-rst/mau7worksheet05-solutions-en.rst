@@ -190,8 +190,15 @@ of seats in any row.
 
        .. rst-class:: solution
 
-       :math:`t_2=(1)^2+3(2)=7 \qquad t_3=(7)^2+3(3)=58 \qquad
-       t_4=(58)^2+3(4)=3376`
+       :math:`t_2=(1)^2+3(2)=7`
+
+       .. rst-class:: solution
+
+       :math:`t_3=(7)^2+3(3)=58`
+
+       .. rst-class:: solution
+
+       :math:`t_4=(58)^2+3(4)=3376`
 
        .. rst-class:: solution
 

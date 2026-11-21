@@ -44,8 +44,9 @@ of the trip. Sketch two cycles.
 
 b\) Determine the amplitude and period of the function.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -59,8 +60,9 @@ displacement instead of vertical displacement.
 
 b\) Determine the amplitude and period of the function.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -76,7 +78,7 @@ at 9.
 .. image:: ../images/mau6worksheet05-gpimage03-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -87,13 +89,13 @@ hand versus the angle through which the hand turns for a time period of
 .. image:: ../images/mau6worksheet05-gpimage04-blank.png
    :scale: 100
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) How many cycles appear in the graph in part a) and b)?
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -107,18 +109,22 @@ lowest point.
 a\) Model the rider's height above the ground versus angle using a
 transformed sine function.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Model the rider's height above the ground versus angle using a
 transformed cosine function.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -126,9 +132,11 @@ c\) Suppose that the platform is moved to 60° around the rim from the
 lowest position of the car. How will the equations in parts a) and b)
 change? Write the new equations.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -137,9 +145,11 @@ question is moved upward 2 m, but the platform is left in place at a
 point 30° before the car reaches its lowest point. How do the equations
 in parts a) and b) change? Write the new equations.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 Answer Key
 ================================================================================

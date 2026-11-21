@@ -28,22 +28,26 @@ Sequences Questions
 
 What is the difference between a sequence and a series?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 What is the difference between Arithmetic and Geometric?
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 Formulas for General Terms of a Sequence
 ================================================================================
 
-- |nbsp|
-- |nbsp|
+|nbsp|
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -53,40 +57,47 @@ Formulas for General Terms of a Sequence
 
 a\) Determine whether the sequence is arithmetic or geometric.
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Determine an equation for the sequence.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) Find the value of :math:`t_{21}`.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **Example 2:** Insert two numbers between 8 and 32 so the four numbers form
 an arithmetic sequence.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **Example 3:** An arithmetic sequence is :math:`8, 14, 20, 26,\ldots`. Which
 term has the value 92? Prove mathematically.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -96,21 +107,23 @@ term has the value 92? Prove mathematically.
 
 a\) Is the sequence arithmetic or geometric?
 
-- |nbsp|
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 b\) Find an equation to represent the sequence.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 c\) Find :math:`t_{14}`.
 
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -123,19 +136,27 @@ c\) Find :math:`t_{14}`.
 **Example 6:** The 50th term of an arithmetic sequence is 238 and the 93rd
 term is 539. Find a general equation to represent the sequence.
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
 
 .. rst-class:: keepwithnext
 
 **Example 7:** Determine the number of terms in the geometric sequence:
 :math:`5, -10, 20, \ldots, -10\,240`
 
-- |nbsp|
-- |nbsp|
-- |nbsp|
-- |nbsp|
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
