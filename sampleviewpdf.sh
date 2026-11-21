@@ -98,7 +98,14 @@ PBC="${UNITPREFIX}review0${NLESSON}-${MYLANG}.pdf"
 PSC="${UNITPREFIX}review0${NLESSON}-solutions-${MYLANG}.pdf"
 PBX="${UNITPREFIX}exam0${NLESSON}-${MYLANG}.pdf"
 PSX="${UNITPREFIX}exam0${NLESSON}-solutions-${MYLANG}.pdf"
-# note if you use PLC or PSC be sure nlesson is the correct number for it
+
+PBE="${UNITPREFIX}examreview0${NLESSON}-${MYLANG}.pdf"
+PSE="${UNITPREFIX}examreview0${NLESSON}-solutions-${MYLANG}.pdf"
+
+PBP="${UNITPREFIX}practice0${NLESSON}-${MYLANG}.pdf"
+PSP="${UNITPREFIX}practice0${NLESSON}-solutions-${MYLANG}.pdf"
+
+
 # add/remove lines here to affect what is viewed
 pdfstoview () {
     [[ -r "${SCRIPTPATH}/$PBA" ]] && echo -e "${SCRIPTPATH}/$PBA"
@@ -113,6 +120,12 @@ pdfstoview () {
     [[ -r "${SCRIPTPATH}/$PSC" ]] && echo -e "${SCRIPTPATH}/$PSC"
     [[ -r "${SCRIPTPATH}/$PBX" ]] && echo -e "${SCRIPTPATH}/$PBX"
     [[ -r "${SCRIPTPATH}/$PSX" ]] && echo -e "${SCRIPTPATH}/$PSX"
+    
+    [[ -r "${SCRIPTPATH}/$PBE" ]] && echo -e "${SCRIPTPATH}/$PBE"
+    [[ -r "${SCRIPTPATH}/$PSE" ]] && echo -e "${SCRIPTPATH}/$PSE"
+    
+    [[ -r "${SCRIPTPATH}/$PBP" ]] && echo -e "${SCRIPTPATH}/$PBP"
+    [[ -r "${SCRIPTPATH}/$PSP" ]] && echo -e "${SCRIPTPATH}/$PSP"
 }
 
 mapfile -t viewablepdfs < <(pdfstoview)
@@ -146,3 +159,4 @@ for aname in "${viewablepdfs[@]}"; do
     xdg-open "$aname"
     sleep 1
 done 
+examreview practice
