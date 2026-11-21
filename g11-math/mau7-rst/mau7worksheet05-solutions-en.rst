@@ -4,7 +4,7 @@
 :lang: en
 :date: 2026-11-20 12:00:00+00:00
 :tags: grade 11, math, lessons, worksheets
-:slug: mau7worksheet05
+:slug: mau7worksheet05-solutions
 :category: mathematics
 :authors: Annie Bernatchez
 :summary: 7.5 Recursive Procedures Worksheet with solutions

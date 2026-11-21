@@ -74,11 +74,15 @@ to the curve, approaching :math:`x = 0`. What is happening to the slope
 of the tangent? Is it above or below the curve? What is the value of
 :math:`f''(-0.5)`?
 
-.. rst-class:: solution
+- .. rst-class:: solution
 
-- The curve is above the tangent line.
-- The tangent line slopes are increasing.
-- :math:`f''(-0.5) = 9`; it's positive
+  The curve is above the tangent line.
+- .. rst-class:: solution
+
+  The tangent line slopes are increasing.
+- .. rst-class:: solution
+
+  :math:`f''(-0.5) = 9`; it's positive
 
 .. rst-class:: keepwithnext
 
@@ -87,21 +91,27 @@ curve, moving through :math:`x = 0`. What is happening to the slope of
 the tangent as it moves through :math:`x = 0`? What is the value of
 :math:`f''(0.5)`?
 
-.. rst-class:: solution
+- .. rst-class:: solution
 
-- The slope of the tangent stops increasing and starts decreasing.
-- The curve goes from above the tangent line to below the tangent line.
-- :math:`f''(0.5) = -3`; it's negative
+  The slope of the tangent stops increasing and starts decreasing.
+- .. rst-class:: solution
+
+  The curve goes from above the tangent line to below the tangent line.
+- .. rst-class:: solution
+
+  :math:`f''(0.5) = -3`; it's negative
 
 .. rst-class:: keepwithnext
 
 d\) What happens to the slope of the tangent as it moves through
 :math:`x = 1`?
 
-.. rst-class:: solution
+- .. rst-class:: solution
 
-- The slope of the tangent stops decreasing and starts increasing.
-- The curve goes from below the tangent line to above the tangent line.
+  The slope of the tangent stops decreasing and starts increasing.
+- .. rst-class:: solution
+
+  The curve goes from below the tangent line to above the tangent line.
 
 **Summary of findings:**
 

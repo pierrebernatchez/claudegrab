@@ -74,11 +74,15 @@ le gardant tangent à la courbe, en approchant :math:`x = 0`. Qu'arrive-t-il
 à la pente de la tangente? Est-elle au-dessus ou au-dessous de la
 courbe? Quelle est la valeur de :math:`f''(-0.5)`?
 
-.. rst-class:: solution
+- .. rst-class:: solution
 
-- La courbe est au-dessus de la tangente.
-- Les pentes des tangentes augmentent.
-- :math:`f''(-0.5) = 9`; c'est positif
+  La courbe est au-dessus de la tangente.
+- .. rst-class:: solution
+
+  Les pentes des tangentes augmentent.
+- .. rst-class:: solution
+
+  :math:`f''(-0.5) = 9`; c'est positif
 
 .. rst-class:: keepwithnext
 
@@ -87,22 +91,28 @@ la courbe, en passant par :math:`x = 0`. Qu'arrive-t-il à la pente de la
 tangente lorsqu'elle passe par :math:`x = 0`? Quelle est la valeur de
 :math:`f''(0.5)`?
 
-.. rst-class:: solution
+- .. rst-class:: solution
 
-- La pente de la tangente cesse d'augmenter et commence à diminuer.
-- La courbe passe d'au-dessus de la tangente à au-dessous de la
+  La pente de la tangente cesse d'augmenter et commence à diminuer.
+- .. rst-class:: solution
+
+  La courbe passe d'au-dessus de la tangente à au-dessous de la
   tangente.
-- :math:`f''(0.5) = -3`; c'est négatif
+- .. rst-class:: solution
+
+  :math:`f''(0.5) = -3`; c'est négatif
 
 .. rst-class:: keepwithnext
 
 d\) Qu'arrive-t-il à la pente de la tangente lorsqu'elle passe par
 :math:`x = 1`?
 
-.. rst-class:: solution
+- .. rst-class:: solution
 
-- La pente de la tangente cesse de diminuer et commence à augmenter.
-- La courbe passe d'au-dessous de la tangente à au-dessus de la
+  La pente de la tangente cesse de diminuer et commence à augmenter.
+- .. rst-class:: solution
+
+  La courbe passe d'au-dessous de la tangente à au-dessus de la
   tangente.
 
 **Résumé des constats :**

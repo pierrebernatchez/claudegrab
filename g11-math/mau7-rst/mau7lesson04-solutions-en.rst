@@ -4,7 +4,7 @@
 :lang: en
 :date: 2026-11-20 12:00:00+00:00
 :tags: grade 11, math, lessons, worksheets
-:slug: mau7lesson04
+:slug: mau7lesson04-solutions
 :category: mathematics
 :authors: Annie Bernatchez
 :summary: 7.4 Arithmetic and Geometric Series (Part 2) Lesson with solutions

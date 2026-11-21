@@ -4,7 +4,7 @@
 :lang: en
 :date: 2026-11-20 12:00:00+00:00
 :tags: grade 11, math, lessons, worksheets
-:slug: mau7worksheet03
+:slug: mau7worksheet03-solutions
 :category: mathematics
 :authors: Annie Bernatchez
 :summary: 7.3 Arithmetic and Geometric Sequences Worksheet with solutions

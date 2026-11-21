@@ -4,7 +4,7 @@
 :lang: en
 :date: 2026-11-20 12:00:00+00:00
 :tags: grade 11, math, lessons, worksheets
-:slug: mau7lesson06
+:slug: mau7lesson06-solutions
 :category: mathematics
 :authors: Annie Bernatchez
 :summary: 7.6 Pascal's Triangle Lesson with solutions
@@ -48,11 +48,13 @@ immediately above them is always a 1.
 
 Other Patterns:
 
-.. rst-class:: solution
+- .. rst-class:: solution
 
-- the sum of each row is a power of 2 (the sum of row :math:`n` is
+  the sum of each row is a power of 2 (the sum of row :math:`n` is
   :math:`2^n`, beginning the count at :math:`n=0`)
-- symmetrical down the middle
+- .. rst-class:: solution
+
+  symmetrical down the middle
 
 .. rst-class:: keepwithnext
 
