@@ -2,9 +2,12 @@
 set -euo pipefail
 #
 #
+#
+#g12-advanced-functions
+#g12-calculus-and-vectors 
+
 cat <<EOF | while read -r dir; do
-g12-advanced-functions
-g12-calculus-and-vectors 
+g11-math
 EOF
     (find $dir -name "renderunit.sh" -exec ls -g -G {} \; )
 done
@@ -28,9 +31,11 @@ if ! confirm "This will render all images and PDFs for every unit, which can tak
     exit 1
 fi
 #
+#g12-advanced-functions
+#g12-calculus-and-vectors 
+
 cat <<EOF | while read -r dir; do
-g12-advanced-functions
-g12-calculus-and-vectors 
+g11-math
 EOF
     (find $dir -name "renderunit.sh" -exec {} \; )
 done
