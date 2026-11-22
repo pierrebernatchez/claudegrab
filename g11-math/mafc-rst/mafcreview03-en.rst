@@ -1,4 +1,4 @@
-Grade 11 Math Exam Review Lesson (Unit 3)
+fc.3 Exam Review Lesson (Unit 3)
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Exam Review Lesson (Unit 3)
 :slug: mafcreview03
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Exam Review Lesson (Unit 3)
+:summary: fc.3 Exam Review Lesson (Unit 3)
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -31,28 +31,25 @@ Section 1: Transformations of :math:`f(x) = x^2`, :math:`f(x) = \sqrt{x}`, and :
 **1)** Below is the graph of :math:`f(x) = x^2`. Describe the transformations
 to a) and b) and use transformations to graph them.
 
-.. list-table::
-   :widths: 50 50
-   :width: 100%
+.. rst-class:: keepwithnext
 
-   * - .. rst-class:: keepwithnext
+a\) :math:`f(x) = -(x+6)^2+4`
 
-       a\) :math:`f(x) = -(x+6)^2+4`
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
-     - .. rst-class:: keepwithnext
+.. rst-class:: keepwithnext
 
-       b\) :math:`f(x) = \left(-\dfrac{1}{2}x\right)^2-3`
+b\) :math:`f(x) = \left(-\dfrac{1}{2}x\right)^2-3`
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
-       |nbsp|
+|nbsp|
 
 .. image:: ../images/mafcreview03-gpimage01-blank.png
    :scale: 70
@@ -151,6 +148,9 @@ function :math:`f(x) = \dfrac{1}{x}` that is shown.
    :scale: 70
    :align: center
 
+|nbsp|
+
+
 .. rst-class:: keepwithnext
 
 **6)** :math:`f(x) = \sqrt{x}`. Graph :math:`g(x) = 2f(-2x)-3` using
@@ -216,6 +216,13 @@ by first completing the square.
 
 |nbsp|
 
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+
 .. rst-class:: keepwithnext
 
 **11)** Calculate the inverse of :math:`f(x) = 2(x-1)^2+2`.
@@ -223,6 +230,9 @@ by first completing the square.
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 

@@ -1,4 +1,4 @@
-Grade 11 Math Practice Final Exam with solutions
+fc.9 Practice Final Exam with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Practice Final Exam with solutions
 :slug: mafcpractice09-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Practice Final Exam with solutions
+:summary: fc.9 Practice Final Exam with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -383,13 +383,9 @@ using partial factoring. Then state if the vertex is a max or min point.
 
        :math:`f(3)=-5(9)+30(3)-37=8`
 
-.. rst-class:: solution
+Vertex: :solmath:`(3,8)`
 
-Vertex: :math:`(3,8)`
-
-.. rst-class:: solution
-
-Max or Min? Max (since :math:`a=-5<0`)
+Max or Min? :sol:`Max (since` :solmath:`a=-5<0` :sol:`)`
 
 .. rst-class:: keepwithnext
 
@@ -572,9 +568,7 @@ ii\) graph the transformed function ONLY
 
 iii\) write the equation of the transformed function
 
-.. rst-class:: solution
-
-Transformed Function: :math:`g(x) = \dfrac{1}{x+1}+2`
+Transformed Function: :solmath:`g(x) = \dfrac{1}{x+1}+2`
 
 Section 5: Exponential Functions [15 marks]
 ================================================================================
@@ -589,9 +583,7 @@ worth in 5 years?
 
 :math:`A=30\,000(1-0.22)^5=30\,000(0.78)^5`
 
-.. rst-class:: solution
-
-Answer: :math:`A\approx\$8\,658.52`
+Answer: :sol:`$8,658.52`
 
 .. rst-class:: keepwithnext
 
@@ -607,9 +599,7 @@ What might the population be after 15 more years
 
 :math:`P(15)=21(2)^{15/6}=21(2)^{2.5}\approx118.79`
 
-.. rst-class:: solution
-
-Answer: about 119 whales
+Answer: :sol:`about 119 whales`
 
 .. rst-class:: keepwithnext
 
@@ -627,9 +617,7 @@ Number of half-lives in 25 minutes: :math:`25/5=5`
 :math:`A_0\left(\dfrac{1}{2}\right)^5\geq7 \Rightarrow
 A_0\geq7\times32=224`
 
-.. rst-class:: solution
-
-Answer: 224 g
+Answer: :sol:`224 g`
 
 .. rst-class:: keepwithnext
 
@@ -646,9 +634,7 @@ Semi-annual rate :math:`=0.0675`. :math:`500=100(1.0675)^{2t}
 :math:`t=\dfrac{\ln5}{2\ln(1.0675)}\approx\dfrac{1.60944}{2(0.06532)}
 \approx12.32`
 
-.. rst-class:: solution
-
-Answer: about 12.32 years
+Answer: :sol:`about 12.32 years`
 
 Section 6: Trigonometry [29 marks]
 ================================================================================
@@ -809,13 +795,9 @@ Max :math:`=2`, min :math:`=-4`: amplitude :math:`=3`, midline
 :math:`y=-1`. Period :math:`=180^\circ` (peak to peak), so :math:`k=2`.
 Maximum occurs at :math:`x=45^\circ`.
 
-.. rst-class:: solution
+Equation 1 (sine): :solmath:`y=3\sin(2x)-1`
 
-Equation 1 (sine): :math:`y=3\sin(2x)-1`
-
-.. rst-class:: solution
-
-Equation 2 (cosine): :math:`y=3\cos\big[2(x-45^\circ)\big]-1`
+Equation 2 (cosine): :solmath:`y=3\cos\big[2(x-45^\circ)\big]-1`
 
 .. rst-class:: keepwithnext
 

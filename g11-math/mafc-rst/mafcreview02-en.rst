@@ -1,4 +1,4 @@
-Grade 11 Math Exam Review Lesson (Unit 2)
+fc.2 Exam Review Lesson (Unit 2)
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Exam Review Lesson (Unit 2)
 :slug: mafcreview02
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Exam Review Lesson (Unit 2)
+:summary: fc.2 Exam Review Lesson (Unit 2)
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -229,6 +229,9 @@ Section 1: Simplifying Rational Expressions
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
+
 
 .. rst-class:: keepwithnext
 

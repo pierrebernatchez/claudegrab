@@ -159,4 +159,3 @@ for aname in "${viewablepdfs[@]}"; do
     xdg-open "$aname"
     sleep 1
 done 
-examreview practice

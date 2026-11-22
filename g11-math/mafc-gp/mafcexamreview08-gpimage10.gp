@@ -14,5 +14,5 @@ set label 'f(x)' at 2.3,9.5 font ",10" front
 set label 'g(x)' at 3.3,-10 font ",11" front
 set arrow from -14.5,-1 to 14.5,-1 nohead dt 2 lc rgb '#888888'
 
-plot (x<-4.5||x>4.5)?1/0:(0.5)**x with lines lw 2 lc rgb 'black', \
-     (x<-4.5||x>3.5)?1/0:-2*(0.5)**(x+1)-1 with lines lw 2 lc rgb 'black'
+plot (x<-4.5||x>4.5)?1/0:(0.5)**x with lines lw 2 lc rgb 'red', \
+     (x<-4.5||x>3.5)?1/0:-2*(0.5)**(x+1)-1 with lines lw 2 lc rgb 'red'

@@ -14,4 +14,4 @@ set label 'f(x)' at -4.2,9.5 font ",11" front
 set label 'g(x)' at 5.3,9.5 font ",11" front
 
 plot x**2 with lines lw 2 lc rgb 'black', \
-     0.5*(x-2)**2+5 with lines lw 2 lc rgb 'black'
+     0.5*(x-2)**2+5 with lines lw 2 lc rgb 'red'

@@ -13,5 +13,5 @@ set samples 400
 set label 'y=(1/2)^x' at 2.3,9.5 font ",10" front
 set label 'f(x)' at 3.3,-10 font ",11" front
 
-plot (x<-4.5||x>4.5)?1/0:(0.5)**x with lines lw 2 lc rgb 'black', \
-     (x<-4.5||x>4.5)?1/0:-2*(0.5)**(x+1)-2 with lines lw 2 lc rgb 'black'
+plot (x<-4.5||x>4.5)?1/0:(0.5)**x with lines lw 2 lc rgb 'red', \
+     (x<-4.5||x>4.5)?1/0:-2*(0.5)**(x+1)-2 with lines lw 2 lc rgb 'red'

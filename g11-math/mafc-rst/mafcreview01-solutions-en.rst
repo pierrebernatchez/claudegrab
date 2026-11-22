@@ -1,4 +1,4 @@
-Grade 11 Math Exam Review Lesson (Unit 1) with solutions
+fc.1 Exam Review Lesson (Unit 1) with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Exam Review Lesson (Unit 1) with solutions
 :slug: mafcreview01-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Exam Review Lesson (Unit 1) with solutions
+:summary: fc.1 Exam Review Lesson (Unit 1) with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -110,7 +110,7 @@ relation is a function.
        a\)
 
        .. image:: ../images/mafcreview01-gpimage02.png
-          :scale: 70
+          :scale: 55
 
        .. rst-class:: solution
 
@@ -124,7 +124,7 @@ relation is a function.
        b\)
 
        .. image:: ../images/mafcreview01-gpimage03.png
-          :scale: 70
+          :scale: 55
 
        .. rst-class:: solution
 
@@ -140,7 +140,7 @@ relation is a function.
        c\)
 
        .. image:: ../images/mafcreview01-gpimage04.png
-          :scale: 70
+          :scale: 55
 
        .. rst-class:: solution
 
@@ -155,7 +155,7 @@ relation is a function.
        d\)
 
        .. image:: ../images/mafcreview01-gpimage05.png
-          :scale: 70
+          :scale: 55
 
        .. rst-class:: solution
 

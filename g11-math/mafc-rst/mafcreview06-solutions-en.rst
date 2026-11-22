@@ -1,4 +1,4 @@
-Grade 11 Math Exam Review Lesson (Unit 6) with solutions
+fc.6 Exam Review Lesson (Unit 6) with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Exam Review Lesson (Unit 6) with solutions
 :slug: mafcreview06-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Exam Review Lesson (Unit 6) with solutions
+:summary: fc.6 Exam Review Lesson (Unit 6) with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -64,12 +64,12 @@ c\) :math:`y = 2\sin\left[\dfrac{2}{3}(x-60)\right]-1`
 **4)** Write the equations of sine function and a cosine function to match
 each graph.
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-a\)
+   a\)
 
-.. image:: ../images/mafcreview06-gpimage04.png
-   :align: center
+   .. image:: ../images/mafcreview06-gpimage04.png
+      :align: center
 
 .. rst-class:: solution
 
@@ -85,12 +85,12 @@ a\)
 
 :math:`y = 0.75\sin(4x)` :math:`\quad` :math:`y = 0.75\cos[4(x-22.5)]`
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-b\)
+   b\)
 
-.. image:: ../images/mafcreview06-gpimage05.png
-   :align: center
+   .. image:: ../images/mafcreview06-gpimage05.png
+      :align: center
 
 .. rst-class:: solution
 
@@ -125,15 +125,11 @@ state the amplitude, the period, the phase shift and the vertical shift of
 the function with respect to the parent function, also state the maximum
 and minimum values of the function.
 
-.. rst-class:: solution
+Amplitude :solmath:`= 4` :math:`\quad` Period :solmath:`= \dfrac{360}{3} =
+120^\circ` :math:`\quad` Phase shift :sol:`= right 20°`
 
-Amplitude :math:`= 4` :math:`\quad` Period :math:`= \dfrac{360}{3} =
-120^\circ` :math:`\quad` Phase shift :math:`=` right 20°
-
-.. rst-class:: solution
-
-Vertical Shift :math:`=` up 5 :math:`\quad` Maximum Value :math:`= 5+4 =
-9` :math:`\quad` Minimum Value :math:`= 5-4 = 1`
+Vertical Shift :sol:`= up 5` :math:`\quad` Maximum Value :solmath:`= 5+4 =
+9` :math:`\quad` Minimum Value :solmath:`= 5-4 = 1`
 
 .. rst-class:: keepwithnext
 
@@ -143,15 +139,11 @@ phase shift and the vertical shift of the function with respect to the
 parent function, also state the maximum and minimum values of the
 function.
 
-.. rst-class:: solution
+Amplitude :solmath:`= 0.25` :math:`\quad` Period :solmath:`= \dfrac{360}{0.5} =
+720^\circ` :math:`\quad` Phase shift :sol:`= left 90°`
 
-Amplitude :math:`= 0.25` :math:`\quad` Period :math:`= \dfrac{360}{0.5} =
-720^\circ` :math:`\quad` Phase shift :math:`=` left 90°
-
-.. rst-class:: solution
-
-Vertical Shift :math:`=` down 2 :math:`\quad` Maximum Value :math:`=
--2+0.25 = -1.75` :math:`\quad` Minimum Value :math:`= -2-0.25 = -2.25`
+Vertical Shift :sol:`= down 2` :math:`\quad` Maximum Value :solmath:`=
+-2+0.25 = -1.75` :math:`\quad` Minimum Value :solmath:`= -2-0.25 = -2.25`
 
 .. rst-class:: keepwithnext
 
@@ -224,15 +216,15 @@ b\) What is the function equation in the form :math:`y = a\cos k(x-d)+c`?
 **10)** A windmill is 40 meters tall and has three blades each measuring
 10m.
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-a\) Graph the height of the tip of a blade that starts at the bottom of
-the windmill and rotates around counter clockwise. Graph two rotations.
+   a\) Graph the height of the tip of a blade that starts at the bottom of
+   the windmill and rotates around counter clockwise. Graph two rotations.
 
-.. rst-class:: solution
+   .. rst-class:: solution
 
-.. image:: ../images/mafcreview06-gpimage07.png
-   :align: center
+   .. image:: ../images/mafcreview06-gpimage07.png
+      :align: center
 
 .. rst-class:: keepwithnext
 

@@ -1,4 +1,4 @@
-Grade 11 Math Exam Review Lesson (Units 1-7)
+fc.8 Exam Review Lesson (Units 1-7)
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Exam Review Lesson (Units 1-7)
 :slug: mafcexamreview08
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Exam Review Lesson (Units 1-7)
+:summary: fc.8 Exam Review Lesson (Units 1-7)
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -40,6 +40,9 @@ a\) List which graphs above are the graphs of functions, and which are not.
 
 |nbsp|
 
+|nbsp|
+
+
 .. rst-class:: keepwithnext
 
 b\) Describe how you can tell whether a given graph is the graph of a
@@ -68,7 +71,7 @@ relation is a function.
        a\)
 
        .. image:: ../images/mafcexamreview08-gpimage02.png
-          :scale: 70
+          :scale: 55
 
        |nbsp|
 
@@ -78,7 +81,7 @@ relation is a function.
        b\)
 
        .. image:: ../images/mafcexamreview08-gpimage03.png
-          :scale: 70
+          :scale: 55
 
        |nbsp|
 
@@ -89,7 +92,7 @@ relation is a function.
        c\)
 
        .. image:: ../images/mafcexamreview08-gpimage04.png
-          :scale: 70
+          :scale: 55
 
        |nbsp|
 
@@ -115,6 +118,9 @@ relation is a function.
        a\) :math:`f(5)`
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        b\) :math:`f(0)`
@@ -125,6 +131,9 @@ relation is a function.
        c\) :math:`f\left(\dfrac{3}{4}\right)`
 
        |nbsp|
+
+       |nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -225,6 +234,9 @@ a\) How many tickets need to be sold to maximize the donation to charity?
 
 |nbsp|
 
+|nbsp|
+
+
 .. rst-class:: keepwithnext
 
 b\) What is the price of each ticket that maximizes the donation?
@@ -314,16 +326,25 @@ quadratic equation
        a\) :math:`f(x) = x^2-3x+1`
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        b\) :math:`f(x) = 2x^2-5x+7`
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        c\) :math:`f(x) = 4x^2+24x+36`
 
        |nbsp|
+
+       |nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -339,11 +360,17 @@ method. Give EXACT answers.
        a\) :math:`0 = x^2+7x+12`
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        b\) :math:`0 = 3x^2-4x-15`
 
        |nbsp|
+
+       |nbsp|
+
 
    * - .. rst-class:: keepwithnext
 
@@ -373,6 +400,9 @@ a\) :math:`y = x^2+4x+3` and :math:`y = 5x+9`
 
 |nbsp|
 
+|nbsp|
+
+
 .. rst-class:: keepwithnext
 
 b\) :math:`y = -x^2-4x+6` and :math:`y = x-8`
@@ -380,6 +410,9 @@ b\) :math:`y = -x^2-4x+6` and :math:`y = x-8`
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -393,6 +426,11 @@ tangent to the parabola, determine the y-intercept of the tangent line.
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
+|nbsp|
+
 
 Unit 2: Rational Expressions
 ================================================================================
@@ -410,22 +448,34 @@ Unit 2: Rational Expressions
        a\) :math:`\dfrac{x-7}{x^2-4x-21}`
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        b\) :math:`\dfrac{2x^2+7x-15}{2x^2+3x-9}`
 
        |nbsp|
 
+       |nbsp|
+
+
    * - .. rst-class:: keepwithnext
 
        c\) :math:`\dfrac{36x^4}{5x^2} \times \dfrac{80x^3}{12x}`
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        d\) :math:`\dfrac{3x}{32y} \div \dfrac{27x^2}{96y}`
 
        |nbsp|
+
+       |nbsp|
+
 
    * - .. rst-class:: keepwithnext
 
@@ -438,27 +488,42 @@ Unit 2: Rational Expressions
 
        |nbsp|
 
+       |nbsp|
+
+
    * - .. rst-class:: keepwithnext
 
        g\) :math:`\dfrac{x+1}{x} \div \dfrac{x+1}{2x}`
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        h\) :math:`\dfrac{x^2-7x+10}{x^2-4} \div \dfrac{x^2-4x-5}{3x+6}`
 
        |nbsp|
 
+       |nbsp|
+
+
    * - .. rst-class:: keepwithnext
 
        i\) :math:`\dfrac{2x}{x-2}-\dfrac{3}{x^2-4}`
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        j\) :math:`\dfrac{x-2}{x+2}+\dfrac{x+10}{x^2+6x+8}`
 
        |nbsp|
+
+       |nbsp|
+
 
    * - .. rst-class:: keepwithnext
 
@@ -467,11 +532,17 @@ Unit 2: Rational Expressions
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        l\) :math:`\dfrac{3x+2}{3-4x}+\dfrac{2x+1}{4x-3}`
 
        |nbsp|
+
+       |nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -546,17 +617,15 @@ i\) state what the parent function is
 
 |nbsp|
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-ii\) create a table of values of image points for the transformed function
+   ii\) create a table of values of image points for the transformed function
 
-.. rst-class:: keepwithnext
+   iii\) graph the parent function and the transformed function
 
-iii\) graph the parent function and the transformed function
-
-.. image:: ../images/mafcexamreview08-gpimage05-blank.png
-   :scale: 70
-   :align: center
+   .. image:: ../images/mafcexamreview08-gpimage05-blank.png
+      :scale: 70
+      :align: center
 
 .. rst-class:: keepwithnext
 
@@ -568,34 +637,28 @@ i\) state what the parent function is
 
 |nbsp|
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-ii\) create a table of values of image points for the transformed function
+   ii\) create a table of values of image points for the transformed function
 
-.. rst-class:: keepwithnext
+   iii\) graph the parent function and the transformed function
 
-iii\) graph the parent function and the transformed function
+   .. image:: ../images/mafcexamreview08-gpimage06-blank.png
+      :scale: 70
+      :align: center
 
-.. image:: ../images/mafcexamreview08-gpimage06-blank.png
-   :scale: 70
-   :align: center
+.. container:: keeptogether
 
-.. rst-class:: keepwithnext
+   **18)** :math:`f(x) = \dfrac{1}{x}`. For the function :math:`g(x) =
+   f(x+2)-1`:
 
-**18)** :math:`f(x) = \dfrac{1}{x}`. For the function :math:`g(x) =
-f(x+2)-1`:
+   i\) create a table of values of image points for the transformed function
 
-.. rst-class:: keepwithnext
+   ii\) graph the parent function and the transformed function
 
-i\) create a table of values of image points for the transformed function
-
-.. rst-class:: keepwithnext
-
-ii\) graph the parent function and the transformed function
-
-.. image:: ../images/mafcexamreview08-gpimage07-blank.png
-   :scale: 70
-   :align: center
+   .. image:: ../images/mafcexamreview08-gpimage07-blank.png
+      :scale: 70
+      :align: center
 
 .. rst-class:: keepwithnext
 
@@ -615,25 +678,22 @@ iii\) write the equation of the transformed function
 
 |nbsp|
 
-.. rst-class:: keepwithnext
+|nbsp|
 
-**20)** For the function :math:`g(x)` from the previous question:
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-i\) Make a table of values for the parent function :math:`f(x) = x^2`
+   **20)** For the function :math:`g(x)` from the previous question:
 
-.. rst-class:: keepwithnext
+   i\) Make a table of values for the parent function :math:`f(x) = x^2`
 
-ii\) Graph :math:`g(x)` by creating a table of values of image points
+   ii\) Graph :math:`g(x)` by creating a table of values of image points
 
-.. rst-class:: keepwithnext
+   iii\) Graph :math:`g^{-1}(x)`
 
-iii\) Graph :math:`g^{-1}(x)`
-
-.. image:: ../images/mafcexamreview08-gpimage08-blank.png
-   :scale: 70
-   :align: center
+   .. image:: ../images/mafcexamreview08-gpimage08-blank.png
+      :scale: 70
+      :align: center
 
 Unit 3: Exponential Functions
 ================================================================================
@@ -817,17 +877,18 @@ a\) state what the parent function is
 
 |nbsp|
 
-.. rst-class:: keepwithnext
+|nbsp|
 
-b\) create a table of values of image points for the transformed function
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-c\) graph the transformed function making sure to include any asymptotes
+   b\) create a table of values of image points for the transformed function
 
-.. image:: ../images/mafcexamreview08-gpimage10-blank.png
-   :scale: 70
-   :align: center
+   c\) graph the transformed function making sure to include any asymptotes
+
+   .. image:: ../images/mafcexamreview08-gpimage10-blank.png
+      :scale: 70
+      :align: center
 
 Unit 4: Trigonometry (Geometry and Ratios)
 ================================================================================
@@ -913,6 +974,9 @@ f\) Determine two angles that are coterminal with angle :math:`\theta =
 
 |nbsp|
 
+|nbsp|
+
+
 .. rst-class:: keepwithnext
 
 **35)** Determine **two** angles between 0° and 360° that have the
@@ -950,6 +1014,9 @@ d\) :math:`\cot\theta = -\sqrt{3}`
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -1019,6 +1086,9 @@ Find the angle of elevation if Rhonda looks up at Dave.
 
 |nbsp|
 
+|nbsp|
+
+
 .. rst-class:: keepwithnext
 
 **40)** Prove the following trigonometric identities.
@@ -1086,6 +1156,11 @@ Vertical shift = ``_____`` Maximum = ``_____`` Minimum = ``_____``
 .. image:: ../images/mafcexamreview08-gpimage28-blank.png
    :align: center
 
+|nbsp|
+
+|nbsp|
+
+
 .. rst-class:: keepwithnext
 
 **44)** For the transformed function :math:`y = 2\cos[3(x-90)]-1`, state
@@ -1101,21 +1176,27 @@ Vertical shift = ``_____`` Maximum = ``_____`` Minimum = ``_____``
 .. image:: ../images/mafcexamreview08-gpimage29-blank.png
    :align: center
 
-.. rst-class:: keepwithnext
+|nbsp|
 
-**45)** Write the equations of a sine function and a cosine function to
-match each graph.
+|nbsp|
 
-.. rst-class:: keepwithnext
 
-a\)
+.. container:: keeptogether
 
-.. image:: ../images/mafcexamreview08-gpimage25.png
-   :align: center
+   **45)** Write the equations of a sine function and a cosine function to
+   match each graph.
+
+   a\)
+
+   .. image:: ../images/mafcexamreview08-gpimage25.png
+      :align: center
 
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -1128,6 +1209,9 @@ b\)
 
 |nbsp|
 
+|nbsp|
+
+
 .. rst-class:: keepwithnext
 
 **46)** Determine two equations for a sinusoidal wave that has a maximum
@@ -1137,26 +1221,30 @@ at :math:`(0, 5)`, a vertical shift of 2 down, and a period of 120.
 
 |nbsp|
 
-.. rst-class:: keepwithnext
+|nbsp|
 
-**47)** Pitt Lake is a freshwater lake in southern British Columbia with
-the highest tidal change of any freshwater lake in the world. In a daily
-period, the highest tide is traditionally at 8:00 am, reaching 5.2 m, and
-the lowest tide is traditionally at 8:00 pm, reaching only 0.6 m. Consider
-the cosine function that gives the tidal height of the lake, :math:`y`, in
-terms of the hours after midnight, :math:`x`.
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-a\) Draw a sketch of the function. What are the period, amplitude, phase
-shift and vertical shift of the function?
+   **47)** Pitt Lake is a freshwater lake in southern British Columbia with
+   the highest tidal change of any freshwater lake in the world. In a daily
+   period, the highest tide is traditionally at 8:00 am, reaching 5.2 m, and
+   the lowest tide is traditionally at 8:00 pm, reaching only 0.6 m. Consider
+   the cosine function that gives the tidal height of the lake, :math:`y`, in
+   terms of the hours after midnight, :math:`x`.
 
-.. image:: ../images/mafcexamreview08-gpimage26-blank.png
-   :align: center
+   a\) Draw a sketch of the function. What are the period, amplitude, phase
+   shift and vertical shift of the function?
+
+   .. image:: ../images/mafcexamreview08-gpimage26-blank.png
+      :align: center
 
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -1166,18 +1254,16 @@ b\) What is the function equation in the form :math:`y = a\cos k(x-d)+c`?
 
 |nbsp|
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**48)** A windmill is 40 meters tall and has three blades each measuring
-10m.
+   **48)** A windmill is 40 meters tall and has three blades each measuring
+   10m.
 
-.. rst-class:: keepwithnext
+   a\) Graph the height of the tip of a blade that starts at the bottom of
+   the windmill and rotates around counter clockwise. Graph two rotations.
 
-a\) Graph the height of the tip of a blade that starts at the bottom of
-the windmill and rotates around counter clockwise. Graph two rotations.
-
-.. image:: ../images/mafcexamreview08-gpimage27-blank.png
-   :align: center
+   .. image:: ../images/mafcexamreview08-gpimage27-blank.png
+      :align: center
 
 .. rst-class:: keepwithnext
 
@@ -1187,6 +1273,9 @@ blade.
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
 
 Unit 6: Discrete Functions
 ================================================================================
@@ -1279,6 +1368,11 @@ iii\) calculate :math:`t_{10}` using your formula
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 

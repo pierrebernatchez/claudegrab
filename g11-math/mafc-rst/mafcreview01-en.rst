@@ -1,4 +1,4 @@
-Grade 11 Math Exam Review Lesson (Unit 1)
+fc.1 Exam Review Lesson (Unit 1)
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Exam Review Lesson (Unit 1)
 :slug: mafcreview01
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Exam Review Lesson (Unit 1)
+:summary: fc.1 Exam Review Lesson (Unit 1)
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -39,6 +39,9 @@ Section 1: Functions, Domain, and Range
 a\) List which graphs above are the graphs of functions, and which are not.
 
 |nbsp|
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -92,34 +95,46 @@ relation is a function.
        a\)
 
        .. image:: ../images/mafcreview01-gpimage02.png
-          :scale: 70
+          :scale: 55
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        b\)
 
        .. image:: ../images/mafcreview01-gpimage03.png
-          :scale: 70
+          :scale: 55
 
        |nbsp|
+
+       |nbsp|
+
 
    * - .. rst-class:: keepwithnext
 
        c\)
 
        .. image:: ../images/mafcreview01-gpimage04.png
-          :scale: 70
+          :scale: 55
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        d\)
 
        .. image:: ../images/mafcreview01-gpimage05.png
-          :scale: 70
+          :scale: 55
 
        |nbsp|
+
+       |nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -129,6 +144,9 @@ e\)
    :scale: 70
 
 |nbsp|
+
+|nbsp|
+
 
 Section 2: Function Notation
 ================================================================================
@@ -147,6 +165,9 @@ simplify.
        a\) :math:`f(5)`
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        b\) :math:`f(0)`
@@ -157,6 +178,9 @@ simplify.
        c\) :math:`f\left(\dfrac{3}{4}\right)`
 
        |nbsp|
+
+       |nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -174,6 +198,9 @@ f\left(\dfrac{1}{2}\right)`
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        b\) :math:`f(x) = \sqrt{3-2x}`
@@ -181,6 +208,9 @@ f\left(\dfrac{1}{2}\right)`
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
+
 
 Section 3: Max or Min of a Quadratic
 ================================================================================
@@ -201,6 +231,11 @@ State if the vertex is a minimum or a maximum.
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        b\) :math:`f(x) = -2x^2+12x+7`
@@ -209,6 +244,13 @@ State if the vertex is a minimum or a maximum.
 
        |nbsp|
 
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+
 .. rst-class:: keepwithnext
 
 c\) :math:`f(x) = \dfrac{3}{4}x^2-3x+6`
@@ -216,6 +258,11 @@ c\) :math:`f(x) = \dfrac{3}{4}x^2-3x+6`
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -233,6 +280,11 @@ State if the vertex is a min or max.
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        b\) :math:`f(x) = -\dfrac{1}{2}x^2-4x-3`
@@ -240,6 +292,11 @@ State if the vertex is a min or max.
        |nbsp|
 
        |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -249,6 +306,9 @@ any method. State if the vertex is a min or max point.
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -262,6 +322,9 @@ meter.
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -278,6 +341,9 @@ a\) How many tickets need to be sold to maximize the donation to charity?
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -499,16 +565,25 @@ quadratic equation
        a\) :math:`f(x) = x^2-3x+1`
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        b\) :math:`f(x) = 2x^2-5x+7`
 
        |nbsp|
+
+       |nbsp|
+
      - .. rst-class:: keepwithnext
 
        c\) :math:`f(x) = 4x^2+24x+36`
 
        |nbsp|
+
+       |nbsp|
+
 
 Section 6: Linear-Quadratic Systems
 ================================================================================
@@ -526,6 +601,9 @@ a\) :math:`y = x^2+4x+3` and :math:`y = 5x+9`
 
 |nbsp|
 
+|nbsp|
+
+
 .. rst-class:: keepwithnext
 
 b\) :math:`y = -x^2-4x+6` and :math:`y = x-8`
@@ -533,6 +611,9 @@ b\) :math:`y = -x^2-4x+6` and :math:`y = x-8`
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 
@@ -544,6 +625,13 @@ tangent to the parabola, determine the y-intercept of the tangent line.
 |nbsp|
 
 |nbsp|
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
 
 Answers
 ================================================================================

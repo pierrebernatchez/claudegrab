@@ -13,5 +13,5 @@ set samples 400
 set label 'F(x)' at 8.0,3.3 font ",11" front
 set label 'h(x)' at 8.0,-1.0 font ",11" front
 
-plot (x<0)?1/0:sqrt(x) with lines lw 2 lc rgb 'black', \
+plot (x<0)?1/0:sqrt(x) with lines lw 2 lc rgb 'red', \
      (x<0)?1/0:0.5*sqrt(2*x)-3 with lines lw 2 lc rgb 'black'

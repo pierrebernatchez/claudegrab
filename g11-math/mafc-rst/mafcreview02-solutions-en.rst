@@ -1,4 +1,4 @@
-Grade 11 Math Exam Review Lesson (Unit 2) with solutions
+fc.2 Exam Review Lesson (Unit 2) with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Exam Review Lesson (Unit 2) with solutions
 :slug: mafcreview02-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Exam Review Lesson (Unit 2) with solutions
+:summary: fc.2 Exam Review Lesson (Unit 2) with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

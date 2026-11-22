@@ -1,4 +1,4 @@
-Grade 11 Math Exam Review Lesson (Unit 6)
+fc.6 Exam Review Lesson (Unit 6)
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Exam Review Lesson (Unit 6)
 :slug: mafcreview06
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Exam Review Lesson (Unit 6)
+:summary: fc.6 Exam Review Lesson (Unit 6)
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -58,27 +58,33 @@ c\) :math:`y = 2\sin\left[\dfrac{2}{3}(x-60)\right]-1`
 **4)** Write the equations of sine function and a cosine function to match
 each graph.
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-a\)
+   a\)
 
-.. image:: ../images/mafcreview06-gpimage04.png
-   :align: center
+   .. image:: ../images/mafcreview06-gpimage04.png
+      :align: center
+
+|nbsp|
+
+|nbsp|
+
+|nbsp|
+
+
+.. container:: keeptogether
+
+   b\)
+
+   .. image:: ../images/mafcreview06-gpimage05.png
+      :align: center
 
 |nbsp|
 
 |nbsp|
 
-.. rst-class:: keepwithnext
-
-b\)
-
-.. image:: ../images/mafcreview06-gpimage05.png
-   :align: center
-
 |nbsp|
 
-|nbsp|
 
 .. rst-class:: keepwithnext
 
@@ -166,6 +172,9 @@ shift and vertical shift of the function?
 
 |nbsp|
 
+|nbsp|
+
+
 .. rst-class:: keepwithnext
 
 b\) What is the function equation in the form :math:`y = a\cos k(x-d)+c`?
@@ -181,13 +190,13 @@ b\) What is the function equation in the form :math:`y = a\cos k(x-d)+c`?
 **10)** A windmill is 40 meters tall and has three blades each measuring
 10m.
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-a\) Graph the height of the tip of a blade that starts at the bottom of
-the windmill and rotates around counter clockwise. Graph two rotations.
+   a\) Graph the height of the tip of a blade that starts at the bottom of
+   the windmill and rotates around counter clockwise. Graph two rotations.
 
-.. image:: ../images/mafcreview06-gpimage07-blank.png
-   :align: center
+   .. image:: ../images/mafcreview06-gpimage07-blank.png
+      :align: center
 
 .. rst-class:: keepwithnext
 

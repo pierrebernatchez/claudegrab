@@ -1,4 +1,4 @@
-Grade 11 Math Exam Review Lesson (Units 1-7) with solutions
+fc.8 Exam Review Lesson (Units 1-7) with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Exam Review Lesson (Units 1-7) with solutions
 :slug: mafcexamreview08-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Exam Review Lesson (Units 1-7) with solutions
+:summary: fc.8 Exam Review Lesson (Units 1-7) with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -78,7 +78,7 @@ relation is a function.
        a\)
 
        .. image:: ../images/mafcexamreview08-gpimage02.png
-          :scale: 70
+          :scale: 55
 
        .. rst-class:: solution
 
@@ -93,7 +93,7 @@ relation is a function.
        b\)
 
        .. image:: ../images/mafcexamreview08-gpimage03.png
-          :scale: 70
+          :scale: 55
 
        .. rst-class:: solution
 
@@ -109,7 +109,7 @@ relation is a function.
        c\)
 
        .. image:: ../images/mafcexamreview08-gpimage04.png
-          :scale: 70
+          :scale: 55
 
        .. rst-class:: solution
 
@@ -874,19 +874,124 @@ i\) state what the parent function is
 
 Parent function: :math:`f(x) = x^2`
 
-.. rst-class:: keepwithnext
-
 ii\) create a table of values of image points for the transformed function
 
-.. rst-class:: keepwithnext
+.. list-table::
+   :widths: 50 50
+   :width: 100%
 
-iii\) graph the parent function and the transformed function
+   * - .. rst-class:: solution
 
-.. rst-class:: solution
+          :math:`f(x)=x^2`
 
-.. image:: ../images/mafcexamreview08-gpimage05.png
-   :scale: 70
-   :align: center
+          .. list-table::
+             :header-rows: 1
+
+             * - :math:`x`
+               - :math:`y`
+             * - .. rst-class:: solution
+
+                   -3
+               - .. rst-class:: solution
+
+                   9
+             * - .. rst-class:: solution
+
+                   -2
+               - .. rst-class:: solution
+
+                   4
+             * - .. rst-class:: solution
+
+                   -1
+               - .. rst-class:: solution
+
+                   1
+             * - .. rst-class:: solution
+
+                   0
+               - .. rst-class:: solution
+
+                   0
+             * - .. rst-class:: solution
+
+                   1
+               - .. rst-class:: solution
+
+                   1
+             * - .. rst-class:: solution
+
+                   2
+               - .. rst-class:: solution
+
+                   4
+             * - .. rst-class:: solution
+
+                   3
+               - .. rst-class:: solution
+
+                   9
+     - .. rst-class:: solution
+
+          :math:`g(x)=\dfrac{1}{2}(x-2)^2+5`
+
+          .. list-table::
+             :header-rows: 1
+
+             * - :math:`x+2`
+               - :math:`\tfrac{1}{2}y+5`
+             * - .. rst-class:: solution
+
+                   -1
+               - .. rst-class:: solution
+
+                   9.5
+             * - .. rst-class:: solution
+
+                   0
+               - .. rst-class:: solution
+
+                   7
+             * - .. rst-class:: solution
+
+                   1
+               - .. rst-class:: solution
+
+                   5.5
+             * - .. rst-class:: solution
+
+                   2
+               - .. rst-class:: solution
+
+                   5
+             * - .. rst-class:: solution
+
+                   3
+               - .. rst-class:: solution
+
+                   5.5
+             * - .. rst-class:: solution
+
+                   4
+               - .. rst-class:: solution
+
+                   7
+             * - .. rst-class:: solution
+
+                   5
+               - .. rst-class:: solution
+
+                   9.5
+
+.. container:: keeptogether
+
+   iii\) graph the parent function and the transformed function
+
+   .. rst-class:: solution
+
+   .. image:: ../images/mafcexamreview08-gpimage05.png
+      :scale: 70
+      :align: center
 
 .. rst-class:: keepwithnext
 
@@ -900,19 +1005,100 @@ i\) state what the parent function is
 
 Parent function: :math:`f(x) = \sqrt{x}`
 
-.. rst-class:: keepwithnext
-
 ii\) create a table of values of image points for the transformed function
 
-.. rst-class:: keepwithnext
+.. list-table::
+   :widths: 50 50
+   :width: 100%
 
-iii\) graph the parent function and the transformed function
+   * - .. rst-class:: solution
 
-.. rst-class:: solution
+          :math:`f(x)=\sqrt{x}`
 
-.. image:: ../images/mafcexamreview08-gpimage06.png
-   :scale: 70
-   :align: center
+          .. list-table::
+             :header-rows: 1
+
+             * - :math:`x`
+               - :math:`y`
+             * - .. rst-class:: solution
+
+                   0
+               - .. rst-class:: solution
+
+                   0
+             * - .. rst-class:: solution
+
+                   1
+               - .. rst-class:: solution
+
+                   1
+             * - .. rst-class:: solution
+
+                   4
+               - .. rst-class:: solution
+
+                   2
+             * - .. rst-class:: solution
+
+                   9
+               - .. rst-class:: solution
+
+                   3
+             * - .. rst-class:: solution
+
+                   16
+               - .. rst-class:: solution
+
+                   4
+     - .. rst-class:: solution
+
+          :math:`h(x)=\dfrac{1}{2}\sqrt{2x}-3`
+
+          .. list-table::
+             :header-rows: 1
+
+             * - :math:`\tfrac{1}{2}x`
+               - :math:`\tfrac{1}{2}y-3`
+             * - .. rst-class:: solution
+
+                   0
+               - .. rst-class:: solution
+
+                   -3
+             * - .. rst-class:: solution
+
+                   0.5
+               - .. rst-class:: solution
+
+                   -2.5
+             * - .. rst-class:: solution
+
+                   2
+               - .. rst-class:: solution
+
+                   -2
+             * - .. rst-class:: solution
+
+                   4.5
+               - .. rst-class:: solution
+
+                   -1.5
+             * - .. rst-class:: solution
+
+                   8
+               - .. rst-class:: solution
+
+                   -1
+
+.. container:: keeptogether
+
+   iii\) graph the parent function and the transformed function
+
+   .. rst-class:: solution
+
+   .. image:: ../images/mafcexamreview08-gpimage06.png
+      :scale: 70
+      :align: center
 
 .. rst-class:: keepwithnext
 
@@ -923,15 +1109,110 @@ f(x+2)-1`:
 
 i\) create a table of values of image points for the transformed function
 
-.. rst-class:: keepwithnext
+.. list-table::
+   :widths: 50 50
+   :width: 100%
 
-ii\) graph the parent function and the transformed function
+   * - .. rst-class:: solution
 
-.. rst-class:: solution
+          :math:`f(x)=\dfrac{1}{x}`
 
-.. image:: ../images/mafcexamreview08-gpimage07.png
-   :scale: 70
-   :align: center
+          .. list-table::
+             :header-rows: 1
+
+             * - :math:`x`
+               - :math:`y`
+             * - .. rst-class:: solution
+
+                   -2
+               - .. rst-class:: solution
+
+                   -0.5
+             * - .. rst-class:: solution
+
+                   -1
+               - .. rst-class:: solution
+
+                   -1
+             * - .. rst-class:: solution
+
+                   -0.5
+               - .. rst-class:: solution
+
+                   -2
+             * - .. rst-class:: solution
+
+                   0.5
+               - .. rst-class:: solution
+
+                   2
+             * - .. rst-class:: solution
+
+                   1
+               - .. rst-class:: solution
+
+                   1
+             * - .. rst-class:: solution
+
+                   2
+               - .. rst-class:: solution
+
+                   0.5
+     - .. rst-class:: solution
+
+          :math:`g(x)=\dfrac{1}{x+2}-1`
+
+          .. list-table::
+             :header-rows: 1
+
+             * - :math:`x-2`
+               - :math:`y-1`
+             * - .. rst-class:: solution
+
+                   -4
+               - .. rst-class:: solution
+
+                   -1.5
+             * - .. rst-class:: solution
+
+                   -3
+               - .. rst-class:: solution
+
+                   -2
+             * - .. rst-class:: solution
+
+                   -2.5
+               - .. rst-class:: solution
+
+                   -3
+             * - .. rst-class:: solution
+
+                   -1.5
+               - .. rst-class:: solution
+
+                   1
+             * - .. rst-class:: solution
+
+                   -1
+               - .. rst-class:: solution
+
+                   0
+             * - .. rst-class:: solution
+
+                   0
+               - .. rst-class:: solution
+
+                   -0.5
+
+.. container:: keeptogether
+
+   ii\) graph the parent function and the transformed function
+
+   .. rst-class:: solution
+
+   .. image:: ../images/mafcexamreview08-gpimage07.png
+      :scale: 70
+      :align: center
 
 .. rst-class:: keepwithnext
 
@@ -971,19 +1252,117 @@ iii\) write the equation of the transformed function
 
 i\) Make a table of values for the parent function :math:`f(x) = x^2`
 
+.. list-table::
+   :header-rows: 1
+   :widths: 50 50
+
+   * - :math:`x`
+     - :math:`y`
+   * - .. rst-class:: solution
+
+         -3
+     - .. rst-class:: solution
+
+         9
+   * - .. rst-class:: solution
+
+         -2
+     - .. rst-class:: solution
+
+         4
+   * - .. rst-class:: solution
+
+         -1
+     - .. rst-class:: solution
+
+         1
+   * - .. rst-class:: solution
+
+         0
+     - .. rst-class:: solution
+
+         0
+   * - .. rst-class:: solution
+
+         1
+     - .. rst-class:: solution
+
+         1
+   * - .. rst-class:: solution
+
+         2
+     - .. rst-class:: solution
+
+         4
+   * - .. rst-class:: solution
+
+         3
+     - .. rst-class:: solution
+
+         9
+
 .. rst-class:: keepwithnext
 
 ii\) Graph :math:`g(x)` by creating a table of values of image points
 
-.. rst-class:: keepwithnext
+.. list-table::
+   :header-rows: 1
+   :widths: 50 50
 
-iii\) Graph :math:`g^{-1}(x)`
+   * - :math:`x+1`
+     - :math:`2y+2`
+   * - .. rst-class:: solution
 
-.. rst-class:: solution
+         -2
+     - .. rst-class:: solution
 
-.. image:: ../images/mafcexamreview08-gpimage08.png
-   :scale: 70
-   :align: center
+         20
+   * - .. rst-class:: solution
+
+         -1
+     - .. rst-class:: solution
+
+         10
+   * - .. rst-class:: solution
+
+         0
+     - .. rst-class:: solution
+
+         4
+   * - .. rst-class:: solution
+
+         1
+     - .. rst-class:: solution
+
+         2
+   * - .. rst-class:: solution
+
+         2
+     - .. rst-class:: solution
+
+         4
+   * - .. rst-class:: solution
+
+         3
+     - .. rst-class:: solution
+
+         10
+   * - .. rst-class:: solution
+
+         4
+     - .. rst-class:: solution
+
+         20
+
+.. container:: keeptogether
+
+   iii\) Graph :math:`g^{-1}(x)`
+
+   .. rst-class:: solution
+
+   .. image:: ../images/mafcexamreview08-gpimage08.png
+      :scale: 70
+      :align: center
 
 Unit 3: Exponential Functions
 ================================================================================
@@ -1220,19 +1599,100 @@ Parent Function: :math:`f(x) = \left(\dfrac{1}{2}\right)^x`
 
 Horizontal asymptote: :math:`y=-1`
 
-.. rst-class:: keepwithnext
-
 b\) create a table of values of image points for the transformed function
 
-.. rst-class:: keepwithnext
+.. list-table::
+   :widths: 50 50
+   :width: 100%
 
-c\) graph the transformed function making sure to include any asymptotes
+   * - .. rst-class:: solution
 
-.. rst-class:: solution
+          :math:`f(x)=\left(\dfrac{1}{2}\right)^x`
 
-.. image:: ../images/mafcexamreview08-gpimage10.png
-   :scale: 70
-   :align: center
+          .. list-table::
+             :header-rows: 1
+
+             * - :math:`x`
+               - :math:`y`
+             * - .. rst-class:: solution
+
+                   -2
+               - .. rst-class:: solution
+
+                   4
+             * - .. rst-class:: solution
+
+                   -1
+               - .. rst-class:: solution
+
+                   2
+             * - .. rst-class:: solution
+
+                   0
+               - .. rst-class:: solution
+
+                   1
+             * - .. rst-class:: solution
+
+                   1
+               - .. rst-class:: solution
+
+                   0.5
+             * - .. rst-class:: solution
+
+                   2
+               - .. rst-class:: solution
+
+                   0.25
+     - .. rst-class:: solution
+
+          :math:`g(x)=-2\left(\dfrac{1}{2}\right)^{x+1}-1`
+
+          .. list-table::
+             :header-rows: 1
+
+             * - :math:`x-1`
+               - :math:`-2y-1`
+             * - .. rst-class:: solution
+
+                   -3
+               - .. rst-class:: solution
+
+                   -9
+             * - .. rst-class:: solution
+
+                   -2
+               - .. rst-class:: solution
+
+                   -5
+             * - .. rst-class:: solution
+
+                   -1
+               - .. rst-class:: solution
+
+                   -3
+             * - .. rst-class:: solution
+
+                   0
+               - .. rst-class:: solution
+
+                   -2
+             * - .. rst-class:: solution
+
+                   1
+               - .. rst-class:: solution
+
+                   -1.5
+
+.. container:: keeptogether
+
+   c\) graph the transformed function making sure to include any asymptotes
+
+   .. rst-class:: solution
+
+   .. image:: ../images/mafcexamreview08-gpimage10.png
+      :scale: 70
+      :align: center
 
 Unit 4: Trigonometry (Geometry and Ratios)
 ================================================================================
@@ -1281,23 +1741,21 @@ b\) :math:`\theta = 330^\circ`
 
 :math:`\beta = 360^\circ - 330^\circ = 30^\circ`
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**34)** Determine the exact value of each of the following trigonometric
-ratios.
+   **34)** Determine the exact value of each of the following trigonometric
+   ratios.
 
-.. rst-class:: keepwithnext
+   a\) :math:`\tan 330^\circ`
 
-a\) :math:`\tan 330^\circ`
+   .. rst-class:: solution
 
-.. rst-class:: solution
+   .. image:: ../images/mafcexamreview08-gpimage14.png
+      :align: center
 
-.. image:: ../images/mafcexamreview08-gpimage14.png
-   :align: center
+   .. rst-class:: solution
 
-.. rst-class:: solution
-
-:math:`\tan 330^\circ = -\tan 30^\circ = -\dfrac{1}{\sqrt{3}}`
+   :math:`\tan 330^\circ = -\tan 30^\circ = -\dfrac{1}{\sqrt{3}}`
 
 .. rst-class:: keepwithnext
 
@@ -1621,15 +2079,11 @@ function with respect to the parent function. Then state the max and min
 values, and sketch two cycles of the parent function and the transformed
 function.
 
-.. rst-class:: solution
+Amplitude :solmath:`= 1` :math:`\quad` Period :solmath:`= 360^\circ` :math:`\quad`
+Phase shift :sol:`= 60° left`
 
-Amplitude :math:`= 1` :math:`\quad` Period :math:`= 360^\circ` :math:`\quad`
-Phase shift :math:`=` 60° left
-
-.. rst-class:: solution
-
-Vertical shift :math:`= 1` up :math:`\quad` Maximum :math:`= 1+1=2`
-:math:`\quad` Minimum :math:`= 1-1=0`
+Vertical shift :sol:`= 1 up` :math:`\quad` Maximum :solmath:`= 1+1=2`
+:math:`\quad` Minimum :solmath:`= 1-1=0`
 
 .. rst-class:: solution
 
@@ -1644,15 +2098,11 @@ function with respect to the parent function. Then state the max and min
 values, and sketch two cycles of the parent function and the transformed
 function.
 
-.. rst-class:: solution
+Amplitude :solmath:`= 2` :math:`\quad` Period :solmath:`= \dfrac{360}{3} =
+120^\circ` :math:`\quad` Phase shift :sol:`= 90° right`
 
-Amplitude :math:`= 2` :math:`\quad` Period :math:`= \dfrac{360}{3} =
-120^\circ` :math:`\quad` Phase shift :math:`=` 90° right
-
-.. rst-class:: solution
-
-Vertical shift :math:`= 1` down :math:`\quad` Maximum :math:`= -1+2=1`
-:math:`\quad` Minimum :math:`= -1-2=-3`
+Vertical shift :sol:`= 1 down` :math:`\quad` Maximum :solmath:`= -1+2=1`
+:math:`\quad` Minimum :solmath:`= -1-2=-3`
 
 .. rst-class:: solution
 
@@ -1771,20 +2221,18 @@ b\) What is the function equation in the form :math:`y = a\cos k(x-d)+c`?
 
 :math:`y = 2.3\cos[15(x-8)]+2.9`
 
-.. rst-class:: keepwithnext
+.. container:: keeptogether
 
-**48)** A windmill is 40 meters tall and has three blades each measuring
-10m.
+   **48)** A windmill is 40 meters tall and has three blades each measuring
+   10m.
 
-.. rst-class:: keepwithnext
+   a\) Graph the height of the tip of a blade that starts at the bottom of
+   the windmill and rotates around counter clockwise. Graph two rotations.
 
-a\) Graph the height of the tip of a blade that starts at the bottom of
-the windmill and rotates around counter clockwise. Graph two rotations.
+   .. rst-class:: solution
 
-.. rst-class:: solution
-
-.. image:: ../images/mafcexamreview08-gpimage27.png
-   :align: center
+   .. image:: ../images/mafcexamreview08-gpimage27.png
+      :align: center
 
 .. rst-class:: keepwithnext
 

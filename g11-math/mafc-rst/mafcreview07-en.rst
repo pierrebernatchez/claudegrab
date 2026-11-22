@@ -1,4 +1,4 @@
-Grade 11 Math Exam Review Lesson (Unit 7)
+fc.7 Exam Review Lesson (Unit 7)
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Exam Review Lesson (Unit 7)
 :slug: mafcreview07
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Exam Review Lesson (Unit 7)
+:summary: fc.7 Exam Review Lesson (Unit 7)
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

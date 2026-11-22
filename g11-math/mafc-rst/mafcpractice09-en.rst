@@ -1,4 +1,4 @@
-Grade 11 Math Practice Final Exam
+fc.9 Practice Final Exam
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Practice Final Exam
 :slug: mafcpractice09
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Practice Final Exam
+:summary: fc.9 Practice Final Exam
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9
@@ -361,6 +361,9 @@ equation of :math:`f^{-1}(x)` and graph it. Also state if
 
 |nbsp|
 
+|nbsp|
+
+
 .. rst-class:: keepwithnext
 
 **24)** The base function :math:`f(x) = \sqrt{x}` is transformed by a
@@ -610,20 +613,28 @@ models the function shown in the graph.
 
 Equation 1: ``__________`` Equation 2: ``__________``
 
-.. rst-class:: keepwithnext
+|nbsp|
 
-**36)** A Ferris wheel has a radius of 15 m and is 2 m above the ground at
-its lowest point. The rider enters the car from a platform located
-:math:`20^\circ` around the rim before the car gets to its lowest point.
-It rotates counterclockwise.
+|nbsp|
 
-.. rst-class:: keepwithnext
+|nbsp|
 
-a\) Graph two complete rotations of the riders height vs. the angle of
-rotation. (adjust the x and y scales appropriately)
 
-.. image:: ../images/mafcpractice09-gpimage13-blank.png
-   :align: center
+.. container:: keeptogether
+
+   **36)** A Ferris wheel has a radius of 15 m and is 2 m above the ground at
+   its lowest point. The rider enters the car from a platform located
+   :math:`20^\circ` around the rim before the car gets to its lowest point.
+   It rotates counterclockwise.
+
+   a\) Graph two complete rotations of the riders height vs. the angle of
+   rotation. (adjust the x and y scales appropriately)
+
+   .. image:: ../images/mafcpractice09-gpimage13-blank.png
+      :align: center
+
+|nbsp|
+
 
 .. rst-class:: keepwithnext
 

@@ -17,4 +17,4 @@ set arrow from -1,-5.5 to -1,5.5 nohead dt 2 lc rgb '#888888'
 set arrow from -5.5,-1 to 5.5,-1 nohead dt 2 lc rgb '#888888'
 
 plot (x<0.05&&x>-0.05)?1/0:1/x with lines lw 2 lc rgb 'black', \
-     (x<-0.95&&x>-1.05)?1/0:0.5/(x+1)-1 with lines lw 2 lc rgb 'black'
+     (x<-0.95&&x>-1.05)?1/0:0.5/(x+1)-1 with lines lw 2 lc rgb 'red'

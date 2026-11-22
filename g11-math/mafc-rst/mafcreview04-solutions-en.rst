@@ -1,4 +1,4 @@
-Grade 11 Math Exam Review Lesson (Unit 4) with solutions
+fc.4 Exam Review Lesson (Unit 4) with solutions
 ################################################################################
 
 :lang: en
@@ -7,7 +7,7 @@ Grade 11 Math Exam Review Lesson (Unit 4) with solutions
 :slug: mafcreview04-solutions
 :category: mathematics
 :authors: Annie Bernatchez
-:summary: Grade 11 Math Exam Review Lesson (Unit 4) with solutions
+:summary: fc.4 Exam Review Lesson (Unit 4) with solutions
 :fcopyright: Copyright © 2026 Annie Bernatchez—All rights reserved.
 
 .. |copy| unicode:: 0xA9

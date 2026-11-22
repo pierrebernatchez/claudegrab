@@ -15,4 +15,4 @@ set label 'f(x)' at 8.3,3.2 font ",11" front
 set label 'g(x)' at -6.8,4.6 font ",11" front
 
 plot (x<0)?1/0:sqrt(x) with lines lw 2 lc rgb 'black', \
-     (x>0)?1/0:2*sqrt(-2*x)-3 with lines lw 2 lc rgb 'black'
+     (x>0)?1/0:2*sqrt(-2*x)-3 with lines lw 2 lc rgb 'red'

@@ -14,5 +14,6 @@ set samples 400
 set label 'a)' at -6.3,4.7 font ",13" front
 set label 'b)' at 3.3,3.3 font ",13" front
 
-plot (x<-10||x>10)?1/0:-(x+6)**2+4 with lines lw 2 lc rgb 'black', \
-     (x**2)/4.0-3 with lines lw 2 lc rgb 'black'
+plot x**2 with lines lw 2 lc rgb 'black', \
+     (x<-10||x>10)?1/0:-(x+6)**2+4 with lines lw 2 lc rgb 'red', \
+     (x**2)/4.0-3 with lines lw 2 lc rgb 'red'
