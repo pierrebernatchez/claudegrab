@@ -62,8 +62,37 @@ CREDIT_LINE_PREFIXES = [
 ]
 
 
+GRADE_ORDINAL_FR = {
+    9: "neuvième",
+    10: "dixième",
+    11: "onzième",
+    12: "douzième",
+}
+
+
 def _field_pattern(field):
     return re.compile(rf"^:{field}: .*$", re.MULTILINE)
+
+
+def grade_adjusted_tags(canonical_tags_line, fr_path):
+    """The :tags: line's leading "<ordinal> année" grade phrase must match
+    this file's own course grade (read off its English sibling's "grade N"
+    tag), not whatever grade example-fr.rst happens to be written for --
+    g11-math is the first non-grade-12 course, and example-fr.rst still
+    says "douzième année" (grade 12). Every other word in the tags line
+    is still expected to match the template verbatim."""
+    en_path = english_sibling_path(fr_path)
+    if en_path is None or not os.path.exists(en_path):
+        return canonical_tags_line
+    with open(en_path, encoding="utf-8") as f:
+        en_text = f.read()
+    m = re.search(r"grade (\d+)", en_text)
+    if not m:
+        return canonical_tags_line
+    ordinal = GRADE_ORDINAL_FR.get(int(m.group(1)))
+    if ordinal is None:
+        return canonical_tags_line
+    return re.sub(r"^(:tags: )\S+( année,)", rf"\1{ordinal}\2", canonical_tags_line)
 
 
 def load_template_boilerplate():
@@ -93,17 +122,20 @@ def load_template_boilerplate():
     return canonical
 
 
-def find_boilerplate_mismatches(text, canonical):
+def find_boilerplate_mismatches(text, canonical, fr_path):
     """Return a list of (line_number, old_line, new_line) for every
     boilerplate line in text that doesn't match the canonical template."""
     mismatches = []
     lines = text.splitlines()
 
+    expected = dict(canonical)
+    expected["tags"] = grade_adjusted_tags(canonical["tags"], fr_path)
+
     for field in METADATA_FIELDS:
         pattern = re.compile(rf"^:{field}: .*$")
         for i, line in enumerate(lines, 1):
-            if pattern.match(line) and line != canonical[field]:
-                mismatches.append((i, line, canonical[field]))
+            if pattern.match(line) and line != expected[field]:
+                mismatches.append((i, line, expected[field]))
 
     for i, line in enumerate(lines, 1):
         if line.startswith(FOOTER_PREFIX) and line != canonical["footer"]:
@@ -176,7 +208,7 @@ def main(argv=None):
             text = f.read()
 
         issues = []
-        for line_no, old, new in find_boilerplate_mismatches(text, canonical):
+        for line_no, old, new in find_boilerplate_mismatches(text, canonical, path):
             issues.append((line_no, old, new))
         slug_issue = find_slug_mismatch(text, path)
         if slug_issue:
