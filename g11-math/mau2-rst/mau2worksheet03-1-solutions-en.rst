@@ -116,7 +116,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
        .. rst-class:: solution
 
-       :math:`= \dfrac{5b}{2}` ; :math:`b \neq 0`
+       :math:`= \dfrac{8b}{3}` ; :math:`b \neq 0`
      - c\) :math:`\dfrac{5x}{9y} \div \dfrac{5x}{18y^2}`
 
        .. rst-class:: solution
@@ -279,7 +279,7 @@ c) :math:`\dfrac{1}{x-2}`, :math:`x \neq -8, 2`
 .. rst-class:: solution
 
 **3)** a) :math:`\dfrac{22y^2}{x^2}`, :math:`x \neq 0`
-b) :math:`\dfrac{5b}{2}`, :math:`b \neq 0`
+b) :math:`\dfrac{8b}{3}`, :math:`b \neq 0`
 c) :math:`2y`, :math:`x \neq 0, y \neq 0`
 d) :math:`\dfrac{2b^2}{a^4}`, :math:`a \neq 0, b \neq 0`
 

@@ -244,7 +244,7 @@ compression by a factor of :math:`\dfrac{1}{2}`
 **5)** a) :math:`y = -7^x`  b) :math:`y = 3(7^x)`  c)
 :math:`y = 7^{\frac{x}{2.4}}`  d) :math:`y = 7(7^{-x})`
 
-**6)** trace point :math:`(2, -4)` confirms the graph
+**6)** trace point :math:`(7, -4)` confirms the graph
 
 **7)** trace point :math:`(-3, -3.267948)` confirms the graph
 

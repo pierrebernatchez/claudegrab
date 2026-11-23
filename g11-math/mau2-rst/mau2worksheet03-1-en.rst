@@ -236,7 +236,7 @@ b) :math:`\dfrac{x+3}{x+7}`, :math:`x \neq -7, 6`
 c) :math:`\dfrac{1}{x-2}`, :math:`x \neq -8, 2`
 
 **3)** a) :math:`\dfrac{22y^2}{x^2}`, :math:`x \neq 0`
-b) :math:`\dfrac{5b}{2}`, :math:`b \neq 0`
+b) :math:`\dfrac{8b}{3}`, :math:`b \neq 0`
 c) :math:`2y`, :math:`x \neq 0, y \neq 0`
 d) :math:`\dfrac{2b^2}{a^4}`, :math:`a \neq 0, b \neq 0`
 
