@@ -27,54 +27,10 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
 **1)** For each function, determine :math:`f(4)`, :math:`f(-5)`, and
 :math:`f\left(-\dfrac{2}{3}\right)`.
+      
+.. rst-class:: keepwithnext
 
-.. list-table::
-   :widths: 50 50
-
-   * - a\) :math:`f(x) = \dfrac{2}{5}x + 11`
-
-       |nbsp|
-
-       |nbsp|
-
-       |nbsp|
-
-       |nbsp|
-     - b\) :math:`f(x) = 3x^2 + 2x + 1`
-
-       |nbsp|
-
-       |nbsp|
-
-       |nbsp|
-
-       |nbsp|
-   * - c\) :math:`f(x) = 2(x+4)^2`
-
-       |nbsp|
-
-       |nbsp|
-
-       |nbsp|
-
-       |nbsp|
-     - d\) :math:`f(x) = -6`
-
-       |nbsp|
-
-       |nbsp|
-
-       |nbsp|
-   * - e\) :math:`f(x) = \dfrac{1}{x}`
-
-       |nbsp|
-
-       |nbsp|
-
-       |nbsp|
-
-       |nbsp|
-     - f\) :math:`f(x) = \sqrt{x+5}`
+a\) :math:`f(x) = \dfrac{2}{5}x + 11`
 
        |nbsp|
 
@@ -86,6 +42,73 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
 .. rst-class:: keepwithnext
 
+b\) :math:`f(x) = 3x^2 + 2x + 1`
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+
+.. rst-class:: keepwithnext
+
+c\) :math:`f(x) = 2(x+4)^2`
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+
+.. rst-class:: keepwithnext
+
+d\) :math:`f(x) = -6`
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+
+.. rst-class:: keepwithnext
+
+e\) :math:`f(x) = \dfrac{1}{x}`
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+
+.. rst-class:: keepwithnext
+
+f\) :math:`f(x) = \sqrt{x+5}`
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+       |nbsp|
+
+
+      
+
+.. rst-class:: keepwithnext
+
 **2)** If :math:`f(x) = x^2 + 2`, state the following.
 
 .. list-table::
@@ -93,9 +116,11 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
    * - a\) :math:`f(1)`
 
+       |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| \
+       |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| 
+       
        |nbsp|
-
-       |nbsp|
+       
      - b\) :math:`f(0)`
 
        |nbsp|
@@ -131,8 +156,9 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
    * - a\) :math:`f(x) = 4 + 5x`
 
-       |nbsp|
-
+       |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| \
+       |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| 
+       
        |nbsp|
      - b\) :math:`f(x) = x^2 - 6`
 
@@ -188,7 +214,7 @@ state if the relation is a function.
           a\)
 
           .. image:: ../images/mau1worksheet02-gpimage01.png
-             :scale: 85
+             :scale: 40
 
           |nbsp|
      - .. container:: keeptogether
@@ -196,7 +222,7 @@ state if the relation is a function.
           b\)
 
           .. image:: ../images/mau1worksheet02-gpimage02.png
-             :scale: 85
+             :scale: 40
 
           |nbsp|
      - .. container:: keeptogether
@@ -204,7 +230,7 @@ state if the relation is a function.
           c\)
 
           .. image:: ../images/mau1worksheet02-gpimage03.png
-             :scale: 85
+             :scale: 40
 
           |nbsp|
      - .. container:: keeptogether
@@ -212,7 +238,7 @@ state if the relation is a function.
           d\)
 
           .. image:: ../images/mau1worksheet02-gpimage04.png
-             :scale: 85
+             :scale: 40
 
           |nbsp|
 

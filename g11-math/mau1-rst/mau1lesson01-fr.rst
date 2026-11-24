@@ -118,6 +118,7 @@ donnée de « x ».
        .. image:: ../images/mau1lesson01-gpimage02-blank.png
           :scale: 85
           :alt: grille vierge pour x = y^2
+		
 
 **3)** Tracez les droites verticales :math:`x=-2`, :math:`x=-1`, :math:`x=0`,
 :math:`x=1` et :math:`x=2` sur les graphiques ci-dessus.

@@ -33,7 +33,7 @@ Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`
        a\)
 
        .. image:: ../images/mau1worksheet01-gpimage01.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -43,7 +43,7 @@ Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`
        b\)
 
        .. image:: ../images/mau1worksheet01-gpimage02.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -53,7 +53,7 @@ Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`
        c\)
 
        .. image:: ../images/mau1worksheet01-gpimage03.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -63,7 +63,7 @@ Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`
        d\)
 
        .. image:: ../images/mau1worksheet01-gpimage04.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -90,7 +90,7 @@ esquisse approximative du graphique de chacune.
        fonction
 
        .. image:: ../images/mau1worksheet01-gpimage05.png
-          :scale: 90
+          :scale: 60
      - .. rst-class:: keepwithnext
 
        b\) :math:`y = 2(x-1)^2 - 2`
@@ -100,7 +100,7 @@ esquisse approximative du graphique de chacune.
        fonction
 
        .. image:: ../images/mau1worksheet01-gpimage06.png
-          :scale: 90
+          :scale: 60
      - .. rst-class:: keepwithnext
 
        c\) :math:`x^2 + y^2 = 4`
@@ -110,7 +110,7 @@ esquisse approximative du graphique de chacune.
        PAS une fonction
 
        .. image:: ../images/mau1worksheet01-gpimage07.png
-          :scale: 90
+          :scale: 60
 
 .. container:: keeptogether
 
@@ -245,7 +245,7 @@ relation est une fonction.
    a\)
 
    .. image:: ../images/mau1worksheet01-gpimage10.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -257,7 +257,7 @@ relation est une fonction.
    b\)
 
    .. image:: ../images/mau1worksheet01-gpimage11.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -269,7 +269,7 @@ relation est une fonction.
    c\)
 
    .. image:: ../images/mau1worksheet01-gpimage12.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -281,7 +281,7 @@ relation est une fonction.
    d\)
 
    .. image:: ../images/mau1worksheet01-gpimage13.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -293,7 +293,7 @@ relation est une fonction.
    e\)
 
    .. image:: ../images/mau1worksheet01-gpimage14.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -305,7 +305,7 @@ relation est une fonction.
    f\)
 
    .. image:: ../images/mau1worksheet01-gpimage15.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -317,7 +317,7 @@ relation est une fonction.
    g\)
 
    .. image:: ../images/mau1worksheet01-gpimage16.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -359,7 +359,7 @@ relation est une fonction.
        b\)
 
        .. image:: ../images/mau1worksheet01-gpimage17.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -369,7 +369,7 @@ relation est une fonction.
        c\)
 
        .. image:: ../images/mau1worksheet01-gpimage18.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -379,7 +379,7 @@ relation est une fonction.
        d\)
 
        .. image:: ../images/mau1worksheet01-gpimage19.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -404,7 +404,7 @@ nécessaire. Faites une esquisse approximative du graphique.
    :math:`D: \{x \in \mathbb{R}\}`, :math:`I: \{y \in \mathbb{R}\}`
 
    .. image:: ../images/mau1worksheet01-gpimage20.png
-      :scale: 90
+      :scale: 60
 
 .. container:: keeptogether
 
@@ -415,7 +415,7 @@ nécessaire. Faites une esquisse approximative du graphique.
    :math:`D: \{x \in \mathbb{R}\}`, :math:`I: \{y \in \mathbb{R}, y \geq -4\}`
 
    .. image:: ../images/mau1worksheet01-gpimage21.png
-      :scale: 90
+      :scale: 60
 
 .. container:: keeptogether
 
@@ -426,7 +426,7 @@ nécessaire. Faites une esquisse approximative du graphique.
    :math:`D: \{x \in \mathbb{R}\}`, :math:`I: \{y \in \mathbb{R}, y \leq 1\}`
 
    .. image:: ../images/mau1worksheet01-gpimage22.png
-      :scale: 90
+      :scale: 60
 
 .. container:: keeptogether
 
@@ -438,7 +438,7 @@ nécessaire. Faites une esquisse approximative du graphique.
    :math:`I: \{y \in \mathbb{R}, -3 \leq y \leq 3\}`
 
    .. image:: ../images/mau1worksheet01-gpimage23.png
-      :scale: 90
+      :scale: 60
 
 .. container:: keeptogether
 
@@ -449,7 +449,7 @@ nécessaire. Faites une esquisse approximative du graphique.
    :math:`D: \{x \in \mathbb{R}, x \neq -3\}`, :math:`I: \{y \in \mathbb{R}, y \neq 0\}`
 
    .. image:: ../images/mau1worksheet01-gpimage24.png
-      :scale: 90
+      :scale: 60
 
 .. container:: keeptogether
 
@@ -460,7 +460,7 @@ nécessaire. Faites une esquisse approximative du graphique.
    :math:`D: \{x \in \mathbb{R}, x \geq -0.5\}`, :math:`I: \{y \in \mathbb{R}, y \geq 0\}`
 
    .. image:: ../images/mau1worksheet01-gpimage25.png
-      :scale: 90
+      :scale: 60
 
 .. rst-class:: keepwithnext
 
@@ -469,7 +469,7 @@ avec deux séparateurs pour séparer trois types de jeunes animaux. Les trois
 enclos doivent avoir la même aire.
 
 .. image:: ../images/mau1worksheet01-gpimage26.png
-   :scale: 90
+   :scale: 60
 
 .. rst-class:: keepwithnext
 

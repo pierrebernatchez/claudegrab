@@ -112,10 +112,9 @@ corresponds to a given 'x' value.
           :scale: 85
           :alt: x = y^2 plotted with the table points and the 5 vertical test lines
 
-.. rst-class:: solution
 
-**3)** The vertical lines :math:`x=-2`, :math:`x=-1`, :math:`x=0`, :math:`x=1`,
-and :math:`x=2` are drawn on both graphs above.
+**3)** Draw the vertical lines :math:`x=-2`, :math:`x=-1`, :math:`x=0`,
+:math:`x=1`, and :math:`x=2` on the graphs above.
 
 .. rst-class:: keepwithnext
 

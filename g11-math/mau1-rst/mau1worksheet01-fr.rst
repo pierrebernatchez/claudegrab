@@ -35,25 +35,25 @@ Le contenu du cours provient de `www.jensenmath.ca <https://www.jensenmath.ca/>`
        a\)
 
        .. image:: ../images/mau1worksheet01-gpimage01.png
-          :scale: 75
+          :scale: 60
      - .. rst-class:: keepwithnext
 
        b\)
 
        .. image:: ../images/mau1worksheet01-gpimage02.png
-          :scale: 75
+          :scale: 60
      - .. rst-class:: keepwithnext
 
        c\)
 
        .. image:: ../images/mau1worksheet01-gpimage03.png
-          :scale: 75
+          :scale: 60
      - .. rst-class:: keepwithnext
 
        d\)
 
        .. image:: ../images/mau1worksheet01-gpimage04.png
-          :scale: 75
+          :scale: 60
 
 .. rst-class:: keepwithnext
 
@@ -188,7 +188,7 @@ relation est une fonction.
    a\)
 
    .. image:: ../images/mau1worksheet01-gpimage10.png
-      :scale: 90
+      :scale: 60
 
    |nbsp|
 
@@ -197,7 +197,7 @@ relation est une fonction.
    b\)
 
    .. image:: ../images/mau1worksheet01-gpimage11.png
-      :scale: 90
+      :scale: 60
 
    |nbsp|
 
@@ -206,7 +206,7 @@ relation est une fonction.
    c\)
 
    .. image:: ../images/mau1worksheet01-gpimage12.png
-      :scale: 90
+      :scale: 60
 
    |nbsp|
 
@@ -215,7 +215,7 @@ relation est une fonction.
    d\)
 
    .. image:: ../images/mau1worksheet01-gpimage13.png
-      :scale: 90
+      :scale: 60
 
    |nbsp|
 
@@ -224,7 +224,7 @@ relation est une fonction.
    e\)
 
    .. image:: ../images/mau1worksheet01-gpimage14.png
-      :scale: 90
+      :scale: 60
 
    |nbsp|
 
@@ -233,7 +233,7 @@ relation est une fonction.
    f\)
 
    .. image:: ../images/mau1worksheet01-gpimage15.png
-      :scale: 90
+      :scale: 60
 
    |nbsp|
 
@@ -242,7 +242,7 @@ relation est une fonction.
    g\)
 
    .. image:: ../images/mau1worksheet01-gpimage16.png
-      :scale: 90
+      :scale: 60
 
    |nbsp|
 
@@ -277,19 +277,19 @@ relation est une fonction.
        b\)
 
        .. image:: ../images/mau1worksheet01-gpimage17.png
-          :scale: 75
+          :scale: 60
      - .. rst-class:: keepwithnext
 
        c\)
 
        .. image:: ../images/mau1worksheet01-gpimage18.png
-          :scale: 75
+          :scale: 60
      - .. rst-class:: keepwithnext
 
        d\)
 
        .. image:: ../images/mau1worksheet01-gpimage19.png
-          :scale: 75
+          :scale: 60
 
 .. rst-class:: keepwithnext
 
@@ -400,7 +400,7 @@ avec deux séparateurs pour séparer trois types de jeunes animaux. Les trois
 enclos doivent avoir la même aire.
 
 .. image:: ../images/mau1worksheet01-gpimage26.png
-   :scale: 90
+   :scale: 60
 
 .. rst-class:: keepwithnext
 

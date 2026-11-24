@@ -33,7 +33,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        a\)
 
        .. image:: ../images/mau1worksheet01-gpimage01.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -43,7 +43,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        b\)
 
        .. image:: ../images/mau1worksheet01-gpimage02.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -53,7 +53,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        c\)
 
        .. image:: ../images/mau1worksheet01-gpimage03.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -63,7 +63,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
        d\)
 
        .. image:: ../images/mau1worksheet01-gpimage04.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -90,7 +90,7 @@ graph of each.
        function
 
        .. image:: ../images/mau1worksheet01-gpimage05.png
-          :scale: 90
+          :scale: 60
      - .. rst-class:: keepwithnext
 
        b\) :math:`y = 2(x-1)^2 - 2`
@@ -100,7 +100,7 @@ graph of each.
        function
 
        .. image:: ../images/mau1worksheet01-gpimage06.png
-          :scale: 90
+          :scale: 60
      - .. rst-class:: keepwithnext
 
        c\) :math:`x^2 + y^2 = 4`
@@ -110,7 +110,7 @@ graph of each.
        NOT a function
 
        .. image:: ../images/mau1worksheet01-gpimage07.png
-          :scale: 90
+          :scale: 80
 
 .. container:: keeptogether
 
@@ -245,7 +245,7 @@ relation is a function.
    a\)
 
    .. image:: ../images/mau1worksheet01-gpimage10.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -257,7 +257,7 @@ relation is a function.
    b\)
 
    .. image:: ../images/mau1worksheet01-gpimage11.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -269,7 +269,7 @@ relation is a function.
    c\)
 
    .. image:: ../images/mau1worksheet01-gpimage12.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -281,7 +281,7 @@ relation is a function.
    d\)
 
    .. image:: ../images/mau1worksheet01-gpimage13.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -293,7 +293,7 @@ relation is a function.
    e\)
 
    .. image:: ../images/mau1worksheet01-gpimage14.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -305,7 +305,7 @@ relation is a function.
    f\)
 
    .. image:: ../images/mau1worksheet01-gpimage15.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -317,7 +317,7 @@ relation is a function.
    g\)
 
    .. image:: ../images/mau1worksheet01-gpimage16.png
-      :scale: 90
+      :scale: 60
 
    .. rst-class:: solution
 
@@ -359,7 +359,7 @@ relation is a function.
        b\)
 
        .. image:: ../images/mau1worksheet01-gpimage17.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -369,7 +369,7 @@ relation is a function.
        c\)
 
        .. image:: ../images/mau1worksheet01-gpimage18.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -379,7 +379,7 @@ relation is a function.
        d\)
 
        .. image:: ../images/mau1worksheet01-gpimage19.png
-          :scale: 75
+          :scale: 60
 
        .. rst-class:: solution
 
@@ -404,7 +404,7 @@ rough sketch of the graph.
    :math:`D: \{x \in \mathbb{R}\}`, :math:`R: \{y \in \mathbb{R}\}`
 
    .. image:: ../images/mau1worksheet01-gpimage20.png
-      :scale: 90
+      :scale: 60
 
 .. container:: keeptogether
 
@@ -415,7 +415,7 @@ rough sketch of the graph.
    :math:`D: \{x \in \mathbb{R}\}`, :math:`R: \{y \in \mathbb{R}, y \geq -4\}`
 
    .. image:: ../images/mau1worksheet01-gpimage21.png
-      :scale: 90
+      :scale: 60
 
 .. container:: keeptogether
 
@@ -426,7 +426,7 @@ rough sketch of the graph.
    :math:`D: \{x \in \mathbb{R}\}`, :math:`R: \{y \in \mathbb{R}, y \leq 1\}`
 
    .. image:: ../images/mau1worksheet01-gpimage22.png
-      :scale: 90
+      :scale: 60
 
 .. container:: keeptogether
 
@@ -438,7 +438,7 @@ rough sketch of the graph.
    :math:`R: \{y \in \mathbb{R}, -3 \leq y \leq 3\}`
 
    .. image:: ../images/mau1worksheet01-gpimage23.png
-      :scale: 90
+      :scale: 60
 
 .. container:: keeptogether
 
@@ -449,7 +449,7 @@ rough sketch of the graph.
    :math:`D: \{x \in \mathbb{R}, x \neq -3\}`, :math:`R: \{y \in \mathbb{R}, y \neq 0\}`
 
    .. image:: ../images/mau1worksheet01-gpimage24.png
-      :scale: 90
+      :scale: 60
 
 .. container:: keeptogether
 
@@ -460,7 +460,7 @@ rough sketch of the graph.
    :math:`D: \{x \in \mathbb{R}, x \geq -0.5\}`, :math:`R: \{y \in \mathbb{R}, y \geq 0\}`
 
    .. image:: ../images/mau1worksheet01-gpimage25.png
-      :scale: 90
+      :scale: 60
 
 .. rst-class:: keepwithnext
 
@@ -469,7 +469,7 @@ dividers to separate three types of young animals. The three pens are to
 have the same area.
 
 .. image:: ../images/mau1worksheet01-gpimage26.png
-   :scale: 90
+   :scale: 60
 
 .. rst-class:: keepwithnext
 

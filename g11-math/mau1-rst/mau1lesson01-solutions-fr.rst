@@ -114,11 +114,9 @@ donnée de « x ».
           :scale: 85
           :alt: x = y^2 avec les points du tableau et les 5 droites verticales de test
 
-.. rst-class:: solution
-
-**3)** Les droites verticales :math:`x=-2`, :math:`x=-1`, :math:`x=0`,
-:math:`x=1` et :math:`x=2` sont tracées sur les deux graphiques ci-dessus.
-
+**3)** Tracez les droites verticales :math:`x=-2`, :math:`x=-1`, :math:`x=0`,
+:math:`x=1` et :math:`x=2` sur les graphiques ci-dessus.
+	       
 .. rst-class:: keepwithnext
 
 **4)** Comparez la façon dont les droites tracées à l'étape 3 croisent chacune

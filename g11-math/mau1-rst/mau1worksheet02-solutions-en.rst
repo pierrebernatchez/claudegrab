@@ -120,61 +120,81 @@ f\) :math:`f(x) = \sqrt{x+5}`
 **2)** If :math:`f(x) = x^2 + 2`, state the following.
 
 .. list-table::
-   :widths: 16 16 16 16 16 20
+   :widths: 33 33 34
 
-   * - .. rst-class:: solution
+   * - a\) :math:`f(1)`
 
-       a\) :math:`f(1) = (1)^2+2 = 3`
-     - .. rst-class:: solution
+           :solmath:`f(1) = (1)^2+2 = 3`
 
-       b\) :math:`f(0) = (0)^2+2 = 2`
-     - .. rst-class:: solution
 
-       c\) :math:`f(2) = (2)^2+2 = 6`
-     - .. rst-class:: solution
+     - b\) :math:`f(0)`
 
-       d\) :math:`f(-2) = (-2)^2+2 = 6`
-     - .. rst-class:: solution
+           :solmath:`f(0) = (0)^2+2 = 2`  
 
-       e\) :math:`f(3) = (3)^2+2 = 11`
-     - .. rst-class:: solution
 
-       f\) :math:`f(1/2) = (1/2)^2+2 = 9/4`
+     - c\) :math:`f(2)`
+
+           :solmath:`f(2) = (2)^2+2 = 6`
+
+
+   * - d\) :math:`f(-2)`
+
+           :solmath:`f(-2) = (-2)^2+2 = 6`
+
+
+     - e\) :math:`f(3)`
+
+           :solmath:`f(3) = (3)^2+2 = 11`
+
+
+     - f\) :math:`f(1/2)`
+
+           :solmath:`f(1/2) = (1/2)^2+2 = 9/4`
+
 
 .. rst-class:: keepwithnext
 
 **3)** State :math:`f(4)` for each of the following functions.
 
 .. list-table::
-   :widths: 11 11 11 11 11 11 11 11 12
+   :widths: 33 33 34
 
-   * - .. rst-class:: solution
+   * - a\) :math:`f(x) = 4 + 5x`
 
-       a\) :math:`4+5(4)=24`
-     - .. rst-class:: solution
+       :solmath:`4+5(4)=24`
 
-       b\) :math:`(4)^2-6=10`
-     - .. rst-class:: solution
+     - b\) :math:`f(x) = x^2 - 6`
 
-       c\) :math:`9-4=5`
-     - .. rst-class:: solution
+       :solmath:`(4)^2-6=10`
 
-       d\) :math:`=10`
-     - .. rst-class:: solution
+     - c\) :math:`f(t) = 9 - t`
 
-       e\) :math:`(4)^3=64`
-     - .. rst-class:: solution
+       :solmath:`9-4=5`
 
-       f\) :math:`8(5-4)=8`
-     - .. rst-class:: solution
+   * - d\) :math:`f(x) = 10`
 
-       g\) :math:`1/4`
-     - .. rst-class:: solution
+       :solmath:`=10`
 
-       h\) :math:`\sqrt{13-4}=3`
-     - .. rst-class:: solution
+     - e\) :math:`f(z) = z^3`
 
-       i\) :math:`1/(4)^2=1/16`
+       :solmath:`(4)^3=64`
+
+     - f\) :math:`f(x) = 8(5-x)`
+
+       :solmath:`8(5-4)=8`
+
+   * - g\) :math:`f(x) = \dfrac{1}{x}`
+
+       :solmath:`1/4`
+
+     - h\) :math:`f(x) = \sqrt{13-x}`
+
+       :solmath:`\sqrt{13-4}=3`
+
+     - i\) :math:`f(t) = \dfrac{1}{t^2}`
+
+       :solmath:`1/(4)^2=1/16`
+
 
 .. rst-class:: keepwithnext
 
@@ -189,7 +209,7 @@ state if the relation is a function.
           a\)
 
           .. image:: ../images/mau1worksheet02-gpimage01.png
-             :scale: 85
+             :scale: 40
 
           .. rst-class:: solution
 
@@ -201,7 +221,7 @@ state if the relation is a function.
           b\)
 
           .. image:: ../images/mau1worksheet02-gpimage02.png
-             :scale: 85
+             :scale: 40
 
           .. rst-class:: solution
 
@@ -217,7 +237,7 @@ state if the relation is a function.
           c\)
 
           .. image:: ../images/mau1worksheet02-gpimage03.png
-             :scale: 85
+             :scale: 40
 
           .. rst-class:: solution
 
@@ -229,7 +249,7 @@ state if the relation is a function.
           d\)
 
           .. image:: ../images/mau1worksheet02-gpimage04.png
-             :scale: 85
+             :scale: 40
 
           .. rst-class:: solution
 
@@ -251,7 +271,7 @@ relation is a function.
 a\) :math:`\{(1,4),(2,1),(3,-2),(4,-5),(5,-8),(6,-11),(7,-14),(8,-17)\}`
 
 .. image:: ../images/mau1worksheet02-gpimage05.png
-   :scale: 85
+   :scale: 40
 
 .. rst-class:: solution
 
@@ -262,7 +282,7 @@ function
 b\) :math:`\{(-3,4),(-2,-1),(-1,-4),(0,-5),(1,-4),(2,-1)\}`
 
 .. image:: ../images/mau1worksheet02-gpimage06.png
-   :scale: 85
+   :scale: 40
 
 .. rst-class:: solution
 
@@ -273,7 +293,7 @@ function
 c\) :math:`\{(-5,6),(-4,9),(-3,1),(-5,-6),(1,-2),(3,8),(8,8)\}`
 
 .. image:: ../images/mau1worksheet02-gpimage07.png
-   :scale: 85
+   :scale: 40
 
 .. rst-class:: solution
 
@@ -284,7 +304,7 @@ Not a function
 d\) :math:`\{(9,9),(7,9),(5,9),(3,9)\}`
 
 .. image:: ../images/mau1worksheet02-gpimage08.png
-   :scale: 85
+   :scale: 40
 
 .. rst-class:: solution
 
