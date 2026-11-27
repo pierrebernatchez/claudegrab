@@ -144,7 +144,7 @@ The course material originated from `www.jensenmath.ca <https://www.jensenmath.c
 
        .. rst-class:: solution
 
-       :math:`-2\,219\,448\,285x^2+3\,107\,227\,739x`
+       :math:`-2\,219\,448\,385x^2+3\,107\,227\,739x`
 
        .. rst-class:: solution
 

@@ -154,7 +154,7 @@ d\) :math:`\left(\dfrac{y}{2}-y^2\right)^4`
 
 .. rst-class:: solution
 
-:math:`= \dfrac{y^4}{16}-2y^5+\dfrac{3y^6}{2}-2y^7+y^8`
+:math:`= \dfrac{y^4}{16}-\dfrac{y^5}{2}+\dfrac{3y^6}{2}-2y^7+y^8`
 
 .. rst-class:: keepwithnext
 
