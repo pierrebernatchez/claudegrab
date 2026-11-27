@@ -1439,12 +1439,12 @@ d\) :math:`-15\sqrt{6}` e\) :math:`-33\sqrt{3}` f\) :math:`-5\sqrt{3}
 
 13\) a\) :math:`\dfrac{1}{x+3};x\neq7,-3` b\) :math:`\dfrac{x+5}{x+3};
 x\neq-3,\tfrac{3}{2}` c\) :math:`48x^4;x\neq0` d\) :math:`\dfrac{1}{3x};
-x\neq0,y\neq0` e\) :math:`\dfrac{x-8}{x-6};x\neq-2,6` f\) :math:`
-\dfrac{4x}{x+6};x\neq-6,0,5` g\) :math:`2;x\neq-1,0` h\) :math:`
-\dfrac{3}{x+1};x\neq-2,-1,2,5` i\) :math:`\dfrac{2x^2+4x-3}{(x-2)(x+2)};
-x\neq-2,2` j\) :math:`\dfrac{x+1}{x+4};x\neq-4,-2` k\) :math:`
-\dfrac{4x^2-37x+21}{(x+7)(x-10)};x\neq-7,2,5,10` l\) :math:`
-\dfrac{x+1}{3-4x};x\neq\tfrac{3}{4}`
+x\neq0,y\neq0` e\) :math:`\dfrac{x-8}{x-6};x\neq-2,6` f\)
+:math:`\dfrac{4x}{x+6};x\neq-6,0,5` g\) :math:`2;x\neq-1,0` h\)
+:math:`\dfrac{3}{x+1};x\neq-2,-1,2,5` i\) :math:`\dfrac{2x^2+4x-3}{(x-2)(x+2)};
+x\neq-2,2` j\) :math:`\dfrac{x+1}{x+4};x\neq-4,-2` k\)
+:math:`\dfrac{4x^2-37x+21}{(x+7)(x-10)};x\neq-7,2,5,10` l\)
+:math:`\dfrac{x+1}{3-4x};x\neq\tfrac{3}{4}`
 
 14\) a\) :math:`g(x)=\sqrt{x-9}+4` b\) :math:`g(x)=6\sqrt{x+5}` c\)
 :math:`g(x)=\sqrt{-4x}`

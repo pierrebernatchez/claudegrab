@@ -762,7 +762,7 @@ Restrictions: :math:`x\neq\dfrac{7}{2},-3,-\dfrac{5}{3},1,5`
 
 25\) Transformed Function: :math:`g(x)=\dfrac{1}{x+1}+2`
 
-26\) :math:`A\approx\$8\,658.52`
+26\) :math:`A\approx\$8\,661.52`
 
 27\) about 119 whales
 

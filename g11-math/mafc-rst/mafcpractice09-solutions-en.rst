@@ -583,7 +583,7 @@ worth in 5 years?
 
 :math:`A=30\,000(1-0.22)^5=30\,000(0.78)^5`
 
-Answer: :sol:`$8,658.52`
+Answer: :sol:`$8,661.52`
 
 .. rst-class:: keepwithnext
 
