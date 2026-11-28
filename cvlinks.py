@@ -17,7 +17,10 @@ def maptitle(dirname, lang="en"):
     under="---------------------------------------------------------------------------------"
 
     try:
-        title_map={"g12-advanced-functions": {"en": f"\nGrade 12 Advanced Functions\n{under}\n",
+        title_map={"g11-math": {"en": f"\nGrade 11 Math\n{under}\n",
+                                "fr": f"\nMatémathiques de onzième année\n{under}\n",
+                                "es": f"\nMatematica de Grado 11\n{under}\n"},
+                   "g12-advanced-functions": {"en": f"\nGrade 12 Advanced Functions\n{under}\n",
                                               "fr": f"\nFonctions avancées de douzième année\n{under}\n",
                                               "es": f"\nFunciones Avanzadas de Grado 12\n{under}\n"},
                    "g12-calculus-and-vectors": {"en": f"\nGrade 12 Calculus and Vectors\n{under}\n",

@@ -4,17 +4,12 @@ set -euo pipefail
 # Must match the one in samplewrapunit.sh
 SHIPTARGET="${HOME}/repos/claudegrab/courses"
 #
-cat <<EOF | while read -r dir; do
-g12-advanced-functions
-g12-calculus-and-vectors 
-EOF
-    (find $dir -name "wrapunit.sh" -exec ls -g -G {} \; )
-done
-#
-# Need a confirmation to continue here because it quite a long process of rendering first
-# images, then .pdf files, for every unit.
-# So we need to give the user a warning and a chance to bail here.
-#
+RED='\033[31m'
+GREEN='\033[32m'
+YELLOW='\033[33m'
+BLUE='\033[34m'
+RESET='\033[0m'
+
 confirm() {
     local reply
     read -r -p "$1 [y/N] " reply </dev/tty
@@ -24,26 +19,18 @@ confirm() {
     esac
 }
 
-
-if ! confirm "This will create a series of .zip files for all units in all projects. Continue?"; then
-    echo "Aborted by user."
-    exit 1
-fi
-#
 cat <<EOF | while read -r dir; do
+g11-math
 g12-advanced-functions
 g12-calculus-and-vectors 
 EOF
-    (find $dir -name "wrapunit.sh" -exec {} \; )
+    echo -e "${RED}Wrap up all zip files for ${YELLOW}$dir${RESET}"
+    if confirm "Wrap up: $dir?" ; then
+	echo "WRAPPING $dir"
+        (find $dir -name "wrapunit.sh" -exec {} \; )
+    else
+	echo "SKIPPING $dir"
+    fi
 done
-
-#
-# Now we need to generare the links to zip files for
-# Use publishing them. We will emit those to the
-# Same destination as the zip files.
-#
-find "${SHIPTARGET}" -name "*.zip" | sort | ./cvlinks.py -l en > "${SHIPTARGET}"/course-links-en.incl
-find "${SHIPTARGET}" -name "*.zip" | sort | ./cvlinks.py -l fr > "${SHIPTARGET}"/course-links-fr.incl
-find "${SHIPTARGET}" -name "*.zip" | sort | ./cvlinks.py -l es > "${SHIPTARGET}"/course-links-es.incl
 
 
